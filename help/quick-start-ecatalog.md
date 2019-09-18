@@ -2,27 +2,27 @@
 title: 「快速入門：eCatalogs」
 seo-title: 「快速入門：eCatalogs」
 description: 'null'
-seo-description: eCatalogs簡介和快速入門，協助您使用eCatalog技術快速啓動和執行。
-uuid: 1ec41927-3df6-4845-8d9d-bb92 cf6 dca08
+seo-description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
+uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0 c-42b7-92e0-127919994874d
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTONDEMAND_PK/categories/ecatalogs
+discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
 
 ---
 
 
 # 快速入門：eCatalogs{#quick-start-ecatalogs}
 
-eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器會模擬閱讀列印材料的體驗。根據您為eCatalog所選擇的設定，檢視器可讓您執行下列動作：
+eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器會模擬閱讀列印材料的體驗。視您為eCatalog選擇的設定而定，檢視器可讓您執行下列動作：
 
-* 搜尋關鍵字或關鍵字的目錄。搜尋結果會顯示為目錄左側搜尋面板中縮圖清單。每個可點按的縮圖代表目錄跨頁，其中會找到反白顯示的搜尋詞。
+* 搜尋目錄以尋找關鍵字或關鍵字。 搜尋結果會在目錄左側的搜尋面板中顯示為縮圖清單。 每個可點按的縮圖代表一個目錄跨頁，其中已找到反白顯示的搜尋詞。
 
-* 透過社交媒體分享目錄；下載目錄以離線檢視；啓用「我的最愛」來標示您要快速返回或列印目錄的項目。
-* 使用目錄或頁面格線檢視來導覽目錄；頁面向前或向後移動。
+* 通過社交媒體分享目錄；下載目錄以離線檢視；啟用「我的最愛」，以快速標籤您要傳回的項目，或列印目錄。
+* 使用目錄或頁面格線檢視導覽目錄；按一下頁面的中間邊緣，即可向前或向後顯示頁面。
 * 放大、縮小與平移即可檢查頁面上的項目。
 * 將指標移動到某個頁面區域 (稱為「影像地圖」) 即可檢視含有項目相關資訊的彈出式視窗。
 * 按一下頁面區域即可開啟含有更多項目相關資訊的新網頁。
@@ -31,11 +31,17 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 * 使用手勢互動，包括雙指縮放與揮動翻頁。
 * 依項目關鍵字搜尋。
 
-![eCatalog 顯示給使用者的外觀。A) eCatalog開啓頁面。B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![eCatalog 顯示給使用者的外觀。A)eCatalog開啟頁面。 B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
 
 為了建立 eCatalog，一般會使用 Adobe® Acrobat® 或其他列印程式中建立的高解析度 PDF 檔案，但也可以從影像檔建立 eCatalog。
 
 建立 eCatalog 時，您可以依選擇的順序安排頁面或頁面跨頁。您也可以指定要採用單一頁面、雙頁式跨頁或多頁式跨頁。您可以為頁面區域建立影像地圖，以便檢視者可以進行不同操作，如按一下頁面上的某個區域，以及在網站上開啟新頁面。您可以使用 eCatalog 畫面中的「資訊面板」設定來管理顯示的滑鼠指向效果文字。您也可從超過 100 個不同的設定選項中選擇，以設定 eCatalog 檢視器。您可以為特定對象量身訂作檢視器的功能與外觀。
+
+>[!NOTE]
+>
+>如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「 **[UICONTROL工具&gt;一般&gt; CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+在右下方窗格的「屬性 **」頁籤** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **部儲存」**。
+您現在可以在SPS中製作eCatalog。
 
 **快速入門**
 
@@ -45,7 +51,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所以通常包含 CMYK 影像。Scene7 Publishing System 會偵測這些影像，並使用標準 CMYK 色彩設定檔來加以轉換。不過，您可能需要上載並使用自訂的色彩設定檔。
 
-按一下全域導覽列上的「上傳」，開始上傳您的eCatalog PDF檔案或影像。您可以從桌面或透過 FTP 上載檔案；如果您上載多個檔案或檔案大小超過 100 MB，則建議使用 FTP。
+按一下全域導覽列上的「上傳」，開始上傳eCatalog的PDF檔案或影像。 您可以從桌面或透過 FTP 上載檔案；如果您上載多個檔案或檔案大小超過 100 MB，則建議使用 FTP。
 
 在 PDF 選項之下，「上載」畫面提供以適當解析度與正確色域上載 PDF 檔案的選項。建議使用每英吋 150 像素的解析度。上載 PDF 檔案時，您可以選取「自動產生 eCatalog」選項來建立 eCatalog。
 
@@ -81,9 +87,9 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 **4. 設定 eCatalog 檢視器預設集**
 
-終端使用者會在 eCatalog 檢視器中檢視您的 eCatalog。如果您是管理員，便可以設定 eCatalog 檢視器。您可以變更其外框色彩，並選取新的「外觀」，讓 eCatalog 擁有品牌特色。Dynamic Media Classic隨附數個「最佳實務」eCatalog檢視器預設集。您可以選擇其中一個預設集，來顯示 eCatalog。如果您是管理員，也可以建立自己的 eCatalog 檢視器預設集。
+終端使用者會在 eCatalog 檢視器中檢視您的 eCatalog。如果您是管理員，便可以設定 eCatalog 檢視器。您可以變更其外框色彩，並選取新的「外觀」，讓 eCatalog 擁有品牌特色。Dynamic Media Classic隨附數種「最佳實務」eCatalog檢視器預設集。 您可以選擇其中一個預設集，來顯示 eCatalog。如果您是管理員，也可以建立自己的 eCatalog 檢視器預設集。
 
-若要建立 eCatalog 檢視器預設集，請按一下全域導覽列上的「設定」按鈕，並選擇「檢視器預設集」。然後按一下「增加」、接著選擇平台，然後選擇「eCatalog &gt; 檢視器」。
+若要建立 eCatalog 檢視器預設集，請按一下全域導覽列上的「設定」按鈕，並選擇「檢視器預設集」。Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
 
 請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
@@ -97,17 +103,17 @@ eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
 請參閱[在 eCatalog 檢視器中預覽 eCatalog](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)。
 
-**6. 發佈eCatalog和相關聯的PDF**
+**6. 發佈eCatalog和相關的PDF**
 
-發佈eCatalog和相關聯的PDF會將它置於動態媒體影像伺服器上，以便將它傳遞至您的網站和應用程式。在發佈程序中，Scene7 Publishing System 會針對 eCatalog 啟用 URL 字串。使用此URL從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
+發佈您的eCatalog和相關PDF會將它放在動態媒體影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程序中，Scene7 Publishing System 會針對 eCatalog 啟用 URL 字串。使用此URL，從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在「瀏覽面板」標記您的eCatalog和PDF以便發佈後，選取「全域導覽列」上的「發佈」按鈕，以啓動發佈。在「發佈」畫面上按一下「開始發佈」。
+在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 在「發佈」畫面上按一下「開始發佈」。
 
-請參閱 [「發佈eCatalogs和相關聯的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)」。
+請參 [閱發佈eCatalogs和關聯的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 **7. 連結 eCatalog 至網頁**
 
-當您將eCatalog發佈至動態媒體影像伺服器時，Dynamic Media Classic會啓動所需的URL標注字串。您可以選取瀏覽面板中的 URL，從「預覽」畫面與瀏覽面板 (在詳細檢視中) 複製這個 URL 字串。複製 URL 字串後，它便可供網站及應用程式使用。
+當您將eCatalog發佈至動態媒體影像伺服器時，Dynamic Media Classic會啟動顯示eCatalog所需的URL圖說字串。 您可以選取瀏覽面板中的 URL，從「預覽」畫面與瀏覽面板 (在詳細檢視中) 複製這個 URL 字串。複製 URL 字串後，它便可供網站及應用程式使用。
 
 請與您的 IT 團隊合作，將 eCatalog 的連結放置於網頁中的適當位置。使用者按一下連結時，eCatalog 檢視器便會顯示，使用者也可以瀏覽 eCatalog。
 
