@@ -3,14 +3,14 @@ title: 設定混合媒體集檢視器預設集
 seo-title: 設定混合媒體集檢視器預設集
 description: 'null'
 seo-description: 瞭解如何設定混合媒體集檢視器預設集。
-uuid: d5fc1840-e453-445d-bec-84889b29 f3 c8
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/mixed_ media_ set
-discoiquuid: 8029aad8-d696-4d7 c-99e2-3b08 edb68181
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -51,13 +51,13 @@ source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
 1. 若要增加社群功能 (「內嵌」、「連結」、「造訪」) 至檢視器，請為下列任一項目指定選項:
 
-   **透過電子郵件** 按一下「開啓」，啓用檢視器中的「電子郵件」按鈕。如果使用者在檢視媒體集時按一下「電子郵件」按鈕，便會開啟包含該媒體集連結的電子郵件。
+   * **電子郵**&#x200B;件按一下「開啟」，在檢視器中啟用「電子郵件」按鈕。 如果使用者在檢視媒體集時按一下「電子郵件」按鈕，便會開啟包含該媒體集連結的電子郵件。
 
-   **內嵌** 按一下「即時」。在「內嵌按鈕標籤」方框中，鍵入您要在檢視器中顯示的內嵌按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **內嵌**&#x200B;按一下即時。 在「內嵌按鈕標籤」方框中，鍵入您要在檢視器中顯示的內嵌按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **連結** 按一下「即時」。在「連結按鈕標籤」方框中，輸入您要在檢視器中顯示的連結按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **連結**&#x200B;按一下「即時」。 在「連結按鈕標籤」方框中，輸入您要在檢視器中顯示的連結按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **請造訪** 「按一下 **即時**」。在「造訪按鈕標籤」方框中，輸入您要在檢視器中顯示的造訪按鈕名稱。在「造訪 URL」方框中，輸入您要在按一下連結時開啟的網站 URL。
+   * **造訪**&#x200B;按一 **下即時**。 在「造訪按鈕標籤」方框中，輸入您要在檢視器中顯示的造訪按鈕名稱。在「造訪 URL」方框中，輸入您要在按一下連結時開啟的網站 URL。
 
 1. 視需要指定其他選項。若要查看選項描述，請按一下選項旁的「資訊提示」圖示 。
 
