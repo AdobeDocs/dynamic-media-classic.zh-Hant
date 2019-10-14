@@ -3,35 +3,35 @@ title: 發佈檔案
 seo-title: 發佈檔案
 description: 'null'
 seo-description: 瞭解如何發佈檔案。
-uuid: cdf519b-4c1e-430b-b43 a-2a-2f75071 b1
+uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PKK/categories/pload_ and_ publish_ assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDAMENT_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # 發佈檔案{#publishing-files}
 
-您可以將資產發佈至動態媒體影像伺服器。您可以一次性發佈資產，或安排Dynamic Media Classic以循環排程發佈資產。發佈資產後，這些資產即可用來傳送。您可以從 Scene7 Publishing System 複製 URL 呼叫，並將其增加到網站或應用程式中。
+您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從 Scene7 Publishing System 複製 URL 呼叫，並將其增加到網站或應用程式中。
 
-Scene Publishing System現在支援透過HTTP/提供所有影像和視訊。也就是說，影像或視訊的發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。然後，該發佈資產便會透過HTTP/通訊協定傳送。此種傳送方式改善了瀏覽器和伺服器的通訊方式，讓所有Dynamic Media Classic資產的回應和載入時間更長。請參閱 [HTTP傳送內容常見問題](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Scene7 Publishing system現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參 [閱HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
-資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media Classic的資產會自動標記為發佈。
+資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media Classic的任何資產都會自動標示為要發佈。
 
-如需詳細資訊，請參閱 [立即發佈通知PDF](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)。
+如需詳細資訊，請參 [閱立即發佈通知PDF](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)。
 
 使用以下方法將資產標記為發佈:
 
-**上傳後發佈** 至底部附近的「上傳」頁面，選取「上載後發佈」。預設狀態是已選取。
+* **上傳後發佈**&#x200B;在底部附近的「上傳」頁面上，選取「上傳後發佈」。 預設狀態是已選取。
 
-**在「工作選項** 」對話方塊中發佈後，選取「上傳後發佈」。預設狀態是已選取。
+* **上傳後發佈**&#x200B;在「工作選項」對話方塊中，選取「上傳後發佈」。 預設狀態是已選取。
 
 如果父項資產標記為發佈，則某些「子項」資產會自動標記為發佈。該表格列出自動標記為發佈的子項資產。
 
@@ -46,7 +46,7 @@ Scene Publishing System現在支援透過HTTP/提供所有影像和視訊。也�
 
 ## 建立發佈工作 {#creating-a-publish-job}
 
-建立發佈工作，發佈您已上傳至Dynamic Media Classic伺服器但尚未自動發佈的資產。您可以執行一次性發佈工作，或者排程定期的週期性工作。Dynamic Media Classic提供發佈至特定伺服器的進階發佈選項，以及重新發佈已發佈資產的選項。
+建立發佈工作以發佈您已上傳至Dynamic Media Classic伺服器的資產，但選擇不自動發佈這些資產。 您可以執行一次性發佈工作，或者排程定期的週期性工作。Dynamic Media Classic提供進階的發佈選項，可發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
 **建立發佈工作**
 
@@ -78,7 +78,7 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
 在「發佈」頁面上選取「週期性」選項，建立週期性發佈工作。
 
-然後選擇「重複」選項 (「每天」、「每週」、「每月」或「自訂」)，以宣告重複發佈工作的時間。Dynamic Media Classic會顯示日曆工具，以排程週期性發佈工作。您可以選擇「自訂」選項，並在「規則」方框中輸入規則來描述自訂工作時間間隔。
+然後選擇「重複」選項 (「每天」、「每週」、「每月」或「自訂」)，以宣告重複發佈工作的時間。Dynamic Media Classic提供日曆工具，以排程週期性發佈工作。 您可以選擇「自訂」選項，並在「規則」方框中輸入規則來描述自訂工作時間間隔。
 
 請參閱[建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)。
 
@@ -90,13 +90,13 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
 您可以在「發佈」頁面上顯示「進階」選項，並選擇這些選項來處理發佈工作: 
 
-**「發佈」** 可選擇伺服器類型，僅將資產發佈至特定伺服器，而非所有伺服器。
+* **發佈至**&#x200B;選擇伺服器類型，將資產僅發佈至特定伺服器，而非所有伺服器。
 
-**Publish** 依預設，SPS僅publi新且尚未發佈的資產(「上次發佈後新增自上次發佈」選項)。但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
+* **發佈**&#x200B;依預設，SPS只會發佈新的資產，而且之前尚未發佈的資產（「上次發佈後新增」選項）。 但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
 
-**執行工作：** 從清單中選擇使用者名稱。可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
+* **以任何方式運**&#x200B;行作業從清單中選擇用戶名。 可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
 
-**HTTP通知** 輸入URL以觸發後續發佈工作。
+**HTTP通知**&#x200B;輸入URL以觸發後續的發佈工作。
 
 請參閱[使用上載或發佈工作作為觸發器](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)。)
 
@@ -122,7 +122,7 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，用標準檔案選取方法來選取一或多個未發佈的資產。
 
-      在全域導覽列上，按一下「**檔案** &gt;**發佈**」。
+      在全域導覽列上，按一下「**檔案 &gt;發佈**」。
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，按一下資產名稱左側帶有斜線的灰色圓形圖示。
 
@@ -138,7 +138,7 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個發佈的資產。
 
-      在全域導覽列上，按一下「**檔案** &gt;**未發佈**」。
+      On the Global Navigation Bar, click **File &gt; **Unpublish**.
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，按一下資產名稱左側的綠色圓形勾選記號圖示。
 
@@ -148,11 +148,11 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
 ## 重新發佈的資產和 CDN 延遲 {#republished-assets-and-cdn-delays}
 
-Dynamic Media Classic資產會發佈在內容傳送網路(CDN)上。CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網路內容從這些網路快取傳送到終端使用者，從而提高了傳送速度。
+動態Media Classic資產會散布在內容傳送網路(CDN)上。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網路內容從這些網路快取傳送到終端使用者，從而提高了傳送速度。
 
 使用者首次下載網頁時，這些資產即傳送到 CDN 網路快取伺服器。資產儲存在該伺服器上，當下次同一區域中有人存取該網頁時，可以更快地傳送快取的相同內容。內容傳送速度更快是因為其位置更接近終端使用者。CDN 提高了網頁顯示速度。它降低了中央伺服器上的頻寬要求，因為內容是從邊緣快取網路傳送，而不是從每個實體的中央伺服器傳送。
 
-新發佈的Dynamic Media Classic內容可立即供使用者使用，並快速填入邊緣快取網路。但重新發佈的內容 (與之前發佈到影像伺服器的影像完全同名的影像) 需要長達十個小時之後才會在 CDN 上更新。終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Dynamic Media Classic重新發佈資產可能不會出現在使用者10小時內。
+最新發佈的Dynamic Media Classic內容可立即提供給使用者，並快速填入邊緣快取網路。 但重新發佈的內容 (與之前發佈到影像伺服器的影像完全同名的影像) 需要長達十個小時之後才會在 CDN 上更新。終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Dynamic Media Classic重新發佈的資產在十小時內可能無法對使用者顯示。
 
 如果希望重新發佈的影像資產在可用前的延遲時間小於十個小時，可以清空 CDN 上的網路快取。清空這些網路快取可以從 CDN 網路快取中移除舊內容，並將其取代為最新發佈的資產。
 
