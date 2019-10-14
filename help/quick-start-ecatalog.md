@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENTONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「 **[UICONTROL工具&gt;一般&gt; CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
-在右下方窗格的「屬性 **」頁籤** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **部儲存」**。
+>如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具&gt;一般&gt; CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
 您現在可以在SPS中製作eCatalog。
 
 **快速入門**
@@ -65,7 +65,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 若要新增頁面，請在資產庫中選取檔案夾，然後將 PDF 或影像檔案從檔案夾拖曳至「排序頁面」畫面。除了預設頁碼外，您可以提供自訂頁面名稱或匯入大量的頁面名稱。
 
-按一下「儲存」按鈕，接著輸入 eCatalog 名稱，再選擇用來存放該 eCatalog 的 SPS 檔案夾，然後選取「儲存」按鈕。每次變更頁面順序或編輯 eCatalog 時，請按一下「儲存」按扭來儲存變更。
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 請參閱[建立 eCatalog](creating-ecatalog.md)。
 
@@ -73,7 +73,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 影像地圖會將其他尺寸增加到 eCatalog 頁面。影像地圖是頁面的某個區域，提供更多有關項目的資訊。檢視者捲動指標至影像地圖上時，就會看到項目的描述。按一下影像地圖會啟動外部參照，它會開啟一個新網頁，您可以在其中瞭解更多有關項目的資訊。
 
-若要建立影像地圖，請開啟「eCatalog」畫面。然後前往「eCatalog」畫面的「地圖頁面」標籤，並使用矩形影像地圖工具  或多邊形影像地圖工具  來繪製地圖。您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
+若要建立影像地圖，請開啟「eCatalog」畫面。Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. 您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
 
 繪製影像地圖之後，輸入按一下影像地圖時要前往的 URL 位址。您也可以輸入將指標移動到影像地圖上時會顯示的滑鼠指向效果文字。
 
@@ -89,7 +89,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 終端使用者會在 eCatalog 檢視器中檢視您的 eCatalog。如果您是管理員，便可以設定 eCatalog 檢視器。您可以變更其外框色彩，並選取新的「外觀」，讓 eCatalog 擁有品牌特色。Dynamic Media Classic隨附數種「最佳實務」eCatalog檢視器預設集。 您可以選擇其中一個預設集，來顯示 eCatalog。如果您是管理員，也可以建立自己的 eCatalog 檢視器預設集。
 
-若要建立 eCatalog 檢視器預設集，請按一下全域導覽列上的「設定」按鈕，並選擇「檢視器預設集」。Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+若要建立eCatalog檢視器預設集，請在全域導覽列上按一下「設定」 **** ，然後選 **[!UICONTROL 擇「檢視器預設集」]**。 然後按一 **[!UICONTROL 下「新增]**」、選擇平台，然後按一 **[!UICONTROL 下「eCatalog &gt;檢視器」]**。
 
 請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
@@ -97,7 +97,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
-若要瞭解 eCatalog 檢視器預設集如何顯示 eCatalog，請選取瀏覽面板中的「eCatalog」，然後按一下「預覽」。「預覽」畫面會在預設的檢視器中開啟。
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. 「預覽」畫面會在預設的檢視器中開啟。
 
 請注意方向、色彩方案、變更頁面的控制項外觀，以及頁面翻頁時的外觀。
 
@@ -107,7 +107,7 @@ eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
 發佈您的eCatalog和相關PDF會將它放在動態媒體影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程序中，Scene7 Publishing System 會針對 eCatalog 啟用 URL 字串。使用此URL，從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 在「發佈」畫面上按一下「開始發佈」。
+在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 請參 [閱發佈eCatalogs和關聯的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
