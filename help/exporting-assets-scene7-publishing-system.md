@@ -2,15 +2,15 @@
 title: 從 Scene7 Publishing System 匯出資產
 seo-title: 從 Scene7 Publishing System 匯出資產
 description: 'null'
-seo-description: 瞭解如何從Scene Publishing System匯出資產。
-uuid: d42b7a73-80c0-4a9a9a04e-7ef53e6fcf22
+seo-description: 瞭解如何從Scene7 Publishing system匯出資產。
+uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/managing_ assets
-discoiquuid: eb850ec7-a669-41ea-b2 b0-4c9178 e34 f95
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,30 +21,30 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。另外，請注意，每個匯出工作的總資產上限為 500 個。
 
-Dynamic Media Classic會保留「工作」畫面中的匯出工作記錄。
+Dynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
 
 **將資產從 Scene7 Publishing System 匯出**
 
 1. 選取要匯出的資產，然後按一下「**檔案** &gt; **匯出**」。
 1. 在「匯出選取的資產」視窗中，按一下「**影像選項**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):
 
-   **預設集** ：選擇「影像預設集」，在匯出資產時設定資產。如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
+   * **預設**&#x200B;集（可選）在匯出資產時，選擇影像預設集以設定其格式。 如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
 
-   **轉換** 轉換資產檔案或原始影像。
+   * **轉換**&#x200B;轉換資產檔案或原始影像。
 
-   **大小** ：您可以選取標準大小。或者，您可以從「大小」下拉式清單按一下「其他」，選擇所需的度量單位，然後指定寬度和高度。
+   * **大小**&#x200B;您可以選擇標準大小。 或者，您可以從「大小」下拉式清單按一下「其他」，選擇所需的度量單位，然後指定寬度和高度。
 
-   另請參閱[指定 Media Portal 使用者可使用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
+      另請參閱[指定 Media Portal 使用者可使用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-   **格式** 選擇影像格式。
+   * **格式**&#x200B;選擇影像格式。
 
-   **顏色** 選擇RGB、CMYK或灰階。
+   * **顏色**&#x200B;選擇RGB、CMYK或灰色。
 
-   **解析度** 選擇72、150或300ppi。
+   * **解析**&#x200B;度選擇72、150或300 ppi。
 
-   **工作名稱** ：您可以指派工作名稱給匯出。
+   * **作業名**&#x200B;稱您可以為導出分配作業名稱。
 
-   **傳送電子郵件以** 選擇性地輸入電子郵件地址，以電子郵件傳送資產。電子郵件訊息會列出收件者可用來下載資產的 URL。
+   * **傳送電子郵**&#x200B;件至（可選）輸入電子郵件地址以透過電子郵件傳送資產。 電子郵件訊息會列出收件者可用來下載資產的 URL。
 
 1. 按一下「**匯出**」。
 
