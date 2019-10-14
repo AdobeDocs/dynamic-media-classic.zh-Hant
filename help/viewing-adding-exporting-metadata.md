@@ -6,34 +6,34 @@ seo-description: 瞭解如何檢視、新增和匯出中繼資料。
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/managing_ assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # 檢視、增加和匯出中繼資料{#viewing-adding-and-exporting-metadata}
 
-您可以在 Scene7 Publishing System 中儲存您使用之檔案的特定資訊；這項資訊稱為&#x200B;*中繼資料*。您可以使用Dynamic Media Classic中的中繼資料來組織、搜尋、篩選和排序資產。
+您可以在 Scene7 Publishing System 中儲存您使用之檔案的特定資訊；這項資訊稱為&#x200B;*中繼資料*。您可以在Dynamic Media Classic中使用中繼資料來組織、搜尋、篩選和排序資產。
 
-中繼資料會出現在Detail檢視中，以及動態媒體Classic產生的資訊，例如檔案建立日期、發佈日期和關鍵字。若要檢視中繼資料，請在詳細檢視中開啟資產，然後選取「中繼資料」面板。您可以在詳細檢視中輸入和編輯中繼資料。
+中繼資料會與Dynamic Media Classic產生的資訊一起顯示在「詳細資料」檢視中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在詳細檢視中開啟資產，然後選取「中繼資料」面板。您可以在詳細檢視中輸入和編輯中繼資料。
 
-有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動上傳檔案與檔案。您可以將中繼資料嵌入Adobe Photoshop、InDesign、Illustrator和其他應用程式中的來源資產中；Dynamic Media Classic會辨識此中繼資料。您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
+有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動與檔案一起上傳。 您可以在Adobe Photoshop、InDesign、Illustrator和其他應用程式中，將中繼資料嵌入來源資產；Dynamic Media Classic可辨識此中繼資料。 您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## 檢視中繼資料 {#view-metadata}
 
-若要檢視資產的中繼資料，請在詳細檢視中開啟資產，然後按一下「中繼資料」面板。然後在「中繼資料檢視」選單上選擇選項，以選取一組中繼資料欄位。Dynamic Media Classic提供以下中繼資料檢視：
+若要檢視資產的中繼資料，請在詳細檢視中開啟資產，然後按一下「中繼資料」面板。然後在「中繼資料檢視」選單上選擇選項，以選取一組中繼資料欄位。Dynamic Media Classic提供下列中繼資料檢視：
 
-**精簡檢視** 基本值清單。
+* **精簡檢視**&#x200B;基本值清單。
 
-**IPTC** 值，由國際新聞通訊委員會定義。
+* **IPTC**&#x200B;價值，由國際新聞電信委員會定義。
 
-**由可擴充中繼資料平台定義的XMP** 值。
+* **XMP**&#x200B;值，由可擴充的中繼資料平台定義。
 
 管理員可以建立中繼資料檢視。這些檢視也會顯示在「中繼資料檢視」選單上。如需有關建立中繼資料檢視的資訊，請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
@@ -67,7 +67,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 1. 若要移除關鍵字，請選取關鍵字，然後按一下「移除」。此時關鍵字即會移至「關鍵字建議」表格。
 
 >[!NOTE]
-您可以將關鍵字新增至Dynamic Media Classic時，將關鍵字新增至檔案。在「上載工作選項」對話框中，選擇「其他中繼資料」並輸入關鍵字。參閱[上載選項](uploading-files.md#upload_options)。
+當您將關鍵字上傳至Dynamic Media Classic時，可將關鍵字新增至檔案。 在「上載工作選項」對話框中，選擇「其他中繼資料」並輸入關鍵字。參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}
 
@@ -76,7 +76,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 >[!NOTE]
 您可以建立用於輸入中繼資料的範本，這樣就能將中繼資料正確匯入 Scene7 Publishing System。建立範本後，您便可使用範本來輸入中繼資料。請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
-您可以在下列網址找到更多有關標準化屬性的資訊：https://www.adobe.com/devnet/xmp.html
+有關標準化屬性的更多資訊，請參閱：https://www.adobe.com/devnet/xmp.html
 
 1. 在瀏覽面板中，從 Tab 字元分隔檔案或 XML 檔案選取要增加中繼資料的影像。
 1. 按一下「**檔案** &gt; **匯入中繼資料**」。
@@ -143,7 +143,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## 建立範本以輸入要上載的中繼資料 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic提供建立範本以記錄中繼資料的命令。使用範本可確保以正確格式輸入中繼資料，這樣就能正確上載至 Scene7 Publishing System。遵循下列步驟，即可建立範本以用來記錄中繼資料並加以匯入 Scene7 Publishing System:
+Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用範本可確保以正確格式輸入中繼資料，這樣就能正確上載至 Scene7 Publishing System。遵循下列步驟，即可建立範本以用來記錄中繼資料並加以匯入 Scene7 Publishing System:
 
 1. 選取具有範本所要用的中繼資料欄位的影像資產。
 1. 選取「檔案 &gt; 匯入中繼資料」。
