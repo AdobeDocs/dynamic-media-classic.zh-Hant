@@ -3,14 +3,14 @@ title: 建立提案集
 seo-title: 建立提案集
 description: 'null'
 seo-description: 瞭解如何建立選件集。
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adcc8f
+uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEVENDONDEMENT_ PK/categories/target_ classic_ integration
-discoiquuid: 59b6437d-c21 e-4929-9291-3032db34565
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/target_classic_integration
+discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,21 +25,21 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 For templates, click **Add and Preview**, then set the parameters you choose. 其他提案集類型不包括參數，但仍然可以進行自訂，方法是按一下「**預覽**」，然後變更可用預設集。
 
-Dynamic Media Classic提供編輯工具以及建立選件集。
+Dynamic Media Classic提供編輯和建立選件集的工具。
 
 >[!NOTE]
 >
->在建立選件集之前，請確定您已將所有要用於設為Scene Publishing System的資產發佈。請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
+>在建立選件集之前，請務必發佈您要用於該集合的所有資產，並設定為Scene7 Publishing System。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
 ## 提案集的類型 {#types-of-offer-sets}
 
 從以下類型的提案集中建立一個提案集:
 
-**影像** 您可以組合選件集的影像。每個影像在集中包含不同的選件。
+* **影像**&#x200B;您可以組合選件集的影像。 每張影像在集合中包含不同的選件。
 
-**影像範本** 您可以使用「建置&gt;範本基本概念」命令，在動態媒體Classic中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像範本**&#x200B;您可以在Dynamic Media Classic中使用「建立&gt;範本基礎」指令，將影像範本參數化。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
 
-**影片** 您可以組合選件集的視訊。每個視訊是提案集中的一個不同提案。
+* **視訊**&#x200B;您可以組合選件集的視訊。 每個視訊是提案集中的一個不同提案。
 
 ## 使用參數化範本建立選件集 {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -52,12 +52,12 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
-**若要使用參數化範本建立選件集**
+**若要建立包含參數化範本的選件集**
 
 1. 選取範本或橫幅。
 1. Click **Build** &gt; **Target Classic Offer Set**.
 
-   Target Classic選件集頁面會列出選件集中的選件。清單中的第一項是物件。
+   「Target Classic選件集」頁面會列出選件集中的選件。 清單中的第一項是物件。
 
 1. 選取物件，然後按一下「**增加與預覽**」。
 
@@ -72,7 +72,7 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. Click **Close**, enter a name for the offer set, and then click **Save**.
 
-在關閉Target Classic選件集頁面之前，請將選件設為Target Classic。See [Pushing offer sets to Target Classic](pushing-offer-sets-target-classic.md#pushing_offer_sets_to_target_classic).
+在關閉「Target Classic選件集」頁面之前，請將選件集推送至Target Classic。 See [Pushing offer sets to Target Classic](pushing-offer-sets-target-classic.md#pushing_offer_sets_to_target_classic).
 
 ## 使用影像或視訊建立提案集 {#creating-an-offer-set-with-images-or-videos}
 
@@ -87,13 +87,13 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 
 **使用影像或視訊建立提案集**
 
-1. 組合選件的影像或影片。從Target Classic選件集畫面或「格點檢視」或「清單檢視」中開始，並使用下列其中一種方法：
+1. 為選件集組合影像或視訊。 從「Target Classic選件集」畫面或「格點檢視」或「清單檢視」中開始，然後使用下列其中一種方法：
 
-   **Target Classic選件集畫面** 按一下「建立&gt;目標Classic選件集」。將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Target Classic選件集螢幕按一**&#x200B;下「建立&gt; Target Classic選件集」。 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   **格線或清單檢視** 選取影像或影片，然後按一下「建置&gt;目標Classic選件集」。
+   * **格點或清單檢視**&#x200B;選取影像或視訊，然後按一下「建立&gt;目標傳統選件集」。
 
-1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。或者，您可以變更選件集中的所有影像或影片。
+1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或視訊。
 
    * 選擇預設集以變更影像或視訊的外觀和大小。
    * 按一下「將所選預設集套用於全部」核取方框，將所選預設集套用到提案集中的所有提案。
@@ -102,7 +102,7 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
 1. 按一下「**儲存**」然後輸入提案集的名稱，並按「**儲存**」。
 
-關閉Target Classic選件集頁面之前，請將選件設為Target Classic。See [Pushing offer sets to Target Classic](pushing-offer-sets-target-classic.md#pushing_offer_sets_to_target_classic).
+在關閉「Target Classic選件集」頁面之前，請將選件集推送至Target Classic。 See [Pushing offer sets to Target Classic](pushing-offer-sets-target-classic.md#pushing_offer_sets_to_target_classic).
 
 ## 編輯提案集 {#editing-an-offer-set}
 
@@ -111,7 +111,7 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有的設定成員會保留其發佈狀態。您在編輯期間新增的任何新設定成員都會保留其已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員將保留其已發佈狀態。在編輯期間添加的任何新整合員都將保留其已發佈或未發佈狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -120,19 +120,15 @@ Dynamic Media Classic提供編輯工具以及建立選件集。
 **編輯提案集**
 
 1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
-1. 在Target Classic選件集頁面中，執行下列任一項作業：
+1. 在「Target Classic選件集」頁面中，執行下列任一動作：
 
-   **移除提案**
-
-   Select the offer, and then click **Delete** to remove an offer from the set.
-
-   **增加提案**
-
-   新增選件的方式取決於您使用的選件集類型：
-
-   * Templates: Click **Add &amp; Preview**, and on the Add &amp; Preview Offers page, create another offer.
-   * 影像和影片：將影像或視訊拖曳至Target Classic選件集頁面。
-   ***注意**：您無法刪除與促銷活動相關聯的選件集。若要刪除與促銷活動相關聯的選件集，請登入Target Classic並先移除促銷活動關聯。Even after un-associating from a campaign, the asset can only be deleted from Scene7 Publishing System, requiring a login to Target Classic, and not from within Target Classic.*
+   * **移除選件**&#x200B;選取選件，然後按一下「刪 **除** 」，從集合中移除選件。
+   * **新增選件**&#x200B;新增選件的方式取決於您使用的選件集類型：
+   * **範本**&#x200B;按一 **下「新增與預覽**」，然後在「新增與預覽選件」頁面上，建立另一個選件。
+   * **影像和視訊**&#x200B;將影像或視訊拖曳至Target Classic選件集頁面。
+   >[!NOTE]
+   >
+   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Classic並移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Scene7 Publishing system中刪除，這需要登入Target Classic，而不是從Target Classic中。
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. 按一下「**儲存**」，選取存放區檔案夾，輸入集名稱，然後按「**儲存**」。
