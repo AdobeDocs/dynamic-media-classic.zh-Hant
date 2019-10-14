@@ -1,40 +1,40 @@
 ---
-title: 在動態媒體Classic中參數化範本
-seo-title: 在動態媒體Classic中參數化範本
+title: 在Dynamic Media Classic中參數化範本
+seo-title: 在Dynamic Media Classic中參數化範本
 description: 'null'
 seo-description: 瞭解如何在Dynamic Media Classic中參數化範本
-uuid: 27c8c8b4-47f3-4270-a6 db-d304648 BA357
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/category/範本發佈
-discoiquuid: df1a9ff5-a5 ba-4480-ba0 d-a19 bc665 f907
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# 在動態媒體Classic中參數化範本{#parameterizing-a-template-in-scene}
+# 在Dynamic Media Classic中參數化範本{#parameterizing-a-template-in-scene}
 
-將您儲存為動態媒體Classic FXG的Illustrator範本上傳至Scene Publishing System後，您可以定義其變數元素。透過在「範本發佈建置」和「範本發佈預覽」畫面中參數化變數元素來執行此操作。Dynamic Media Classic提供定義圖層及其各自屬性的文字和物件參數的工具。您還可以建立範本的不同版本。
+將儲存為Dynamic Media Classic FXG的Illustrator範本上傳至Scene7 Publishing system後，您可以定義其變數元素。 透過在「範本發佈建置」和「範本發佈預覽」畫面中參數化變數元素來執行此操作。Dynamic Media Classic提供工具，可定義圖層上的文字和物件參數，以及它們各自的屬性。 您還可以建立範本的不同版本。
 
-參數化 FXG 範本後，即可在範本中自訂文字、影像和圖形的可變性。例如，您可以參數化一行文字，以便終端使用者可以透過 Web 使用者介面修改該文字。您可以將空文字欄位定義為變數，以便終端使用者可以在這些欄位中填入個人化文字。您也可以在「動態媒體Classic範本發佈組建」畫面中參數化設計元素的屬性和屬性。
+參數化 FXG 範本後，即可在範本中自訂文字、影像和圖形的可變性。例如，您可以參數化一行文字，以便終端使用者可以透過 Web 使用者介面修改該文字。您可以將空文字欄位定義為變數，以便終端使用者可以在這些欄位中填入個人化文字。您也可以在「動態媒體傳統範本發佈建置」畫面中，將設計元素的屬性和屬性參數化。
 
 >[!NOTE]
 >
->如果您計劃使用DOM控制項，則不需要在動態媒體Classic中參數化範本。
+>如果您打算使用DOM控制，則不需要在Dynamic Media Classic中參數化範本。
 
 ## 定義 FXG 範本中的參數 {#defining-parameters-in-fxg-templates}
 
-請遵循Dynamic Media Classic中的下列步驟，定義FXG範本的參數：
+請依照Dynamic Media Classic中的下列步驟，為FXG範本定義參數：
 
 1. 在「瀏覽」視窗中，選取 FXG 檔案。
 1. Click **Build** and choose **Template Publishing**, or click the file’s **Edit** button.
 
    此時會開啟「範本發佈」畫面。
 
-1. 選取LRCo\ FXG\ Welcome_ Summit_10(FXG檔案)，然後按一下 **「建置** &gt; **範本發佈**」。</p>
+1. 選取LRCo\FXG\Welcome_Summit_10 （FXG檔案），然後按一下「建 **立** &gt;范 **本發佈」**。</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,10 +46,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 1. 在「屬性」面板中，按一下「名稱」欄 (用於參數化文字) 或「參數」欄 (用於參數化物件) 中的參數。
 
-   **文字** 欄位中的文字按一下(捲動至「屬性」清單底部以尋找)。此時會出現「參數」對話框。Select the text that you want to parameterize and click **Add**. 您可以透過選取該文字的不同部分並為每個部分增加參數，從同一文字屬性建立多個參數。To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **在文**&#x200B;字欄位中按一下文字（捲動至「屬性」清單的底部以尋找文字）。 此時會出現「參數」對話框。Select the text that you want to parameterize and click **Add**. 您可以透過選取該文字的不同部分並為每個部分增加參數，從同一文字屬性建立多個參數。To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **物件** 按一下「參數」欄中的方塊。此時會出現「編輯參數」對話框。Enter a name and click **OK**.
-
+   * **對象**&#x200B;按一下「參數」(Parameter)列中的框。 此時會出現「編輯參數」對話框。Enter a name and click **OK**.
    若要使用相同值一次自訂多個屬性，請對每個屬性使用相同的參數名稱。例如，如果您的範本包含一個矩形和一個星形，您可以鍵入 `newcolor` 作為每項「純色」色彩屬性的參數名稱。每當您變更 `newcolor` 值時，矩形和星形就會變為新的色彩。
 
 1. 在「值」或「資料」欄位中指定該屬性的預設值。設定所選物件的所有屬性，以指定所需的外觀。
@@ -72,7 +71,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 ## 使用描邊文字 {#using-stroked-text}
 
-描邊文字就是如何對屬性進行參數化的一個範例。Dynamic Media Classic支援這些筆畫文字功能：
+描邊文字就是如何對屬性進行參數化的一個範例。Dynamic Media Classic支援下列筆畫文字功能：
 
 * 描邊寬度
 * 虛線描邊圖樣
@@ -117,11 +116,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 | 屬性 | 值 | 預設 |
 |--- |--- |--- |
-| 樣式7：WarpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | 無 |
-| 方向7：WarpDirection | horizontalvertical | 水平 |
-| Bends7：WarpEnd | -1 至 1 | 0.5 |
-| 水平扭曲7：Warphorizontal扭曲 | -1 至 1 | 0 |
-| 版本扭曲7：WarpVertical扭曲 | -1 至 1 | 0 |
+| Styles7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | 無 |
+| Directions7:warpDirection | horizontalvertical | 水平 |
+| Bends7:warpBend | -1 至 1 | 0.5 |
+| 水準扭曲7:warpHorizontalDistration | -1 至 1 | 0 |
+| 垂直扭曲7:warpVerticalDistration | -1 至 1 | 0 |
 
 >[!NOTE]
 >
