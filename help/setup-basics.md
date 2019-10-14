@@ -2,15 +2,15 @@
 title: 設定基礎
 seo-title: 設定基礎
 description: 'null'
-seo-description: 瞭解如何使用「設定」畫面輸入個人設定。如果您是管理員，請為公司進行設定。
-uuid: 38f487d7-33f2-4a9e-a32 e-be08 f3 dd3284
+seo-description: 瞭解如何使用「設定」畫面輸入您的個人設定。 如果您是管理員，請為公司進行設定。
+uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/getting_ started
-discoiquuid: 753677ad-9957-43d9-97ad-bd73 a5 da5 cb
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/getting_started
+discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 管理員也可以在「設定」畫面中設定影像預設集和檢視器預設集:
 
-**影像預設集** 影像預設集是一種儲存格式，可顯示不同尺寸和格式的主影像。
+* **影像預設**&#x200B;集影像預設集是儲存的格式，以顯示不同大小和格式的主影像。
 
-**檢視器預設集** 檢視器預設集可決定當您在檢視器中看到多媒體時，如何檢視它。
+* **檢視器預設**&#x200B;集檢視器預設集決定您在檢視器中檢視多媒體時的檢視方式。
 
 >[!MORELIKETHIS]
 >
