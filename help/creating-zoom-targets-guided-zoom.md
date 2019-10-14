@@ -3,14 +3,14 @@ title: 建立已導引縮放的縮放目標
 seo-title: 建立已導引縮放的縮放目標
 description: 'null'
 seo-description: 瞭解如何建立引導縮放的縮放目標。
-uuid: 501ea37b-adc5-4290-87eb-52a3501 e5 d26
+uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categores/縮放
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -36,24 +36,24 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
 在「縮放目標編輯器」畫面上建立並編輯縮放目標。若要開啟該畫面，請選取一個影像並執行以下操作之一:
 
-* Click the rollover **Edit** button and choose Zoom Targets.
-* In the Browse Panel, display the image in Detail view and click **Zoom Targets**.
+* Click the rollover **[!UICONTROL Edit]** button and choose Zoom Targets.
+* In the Browse Panel, display the image in **[!UICONTROL Detail View]**, then click **[!UICONTROL Zoom Targets]**.
 
-On the Zoom Target Editor screen, click **Select Targe** t button (the arrow) to select a target before changing its size or position. Click **Add Targets** (the rectangle) to create a zoom target on the image. 「縮放目標編輯器」畫面上也提供了用於刪除、複製和命名縮放目標的工具。
+On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (arrow) to select a target before changing its size or position. Click **[!UICONTROL Add Targets]** (rectangle) to create a zoom target on the image. 「縮放目標編輯器」畫面上也提供了用於刪除、複製和命名縮放目標的工具。
 
 ### 建立縮放目標 {#creating-a-zoom-target}
 
 開啟「縮放目標編輯器」畫面，並按照以下步驟建立縮放目標:
 
-1. Click **Add Targets** (the rectangle), move the pointer over the image, and click where you want to the zoom target to be.
+1. Click **[!UICONTROL Add Targets]** (rectangle), move the pointer over the image, and click where you want to the zoom target to be.
 
    縮放目標的縮圖影像顯示在畫面右側的面板中。
 
-1. Click **Select Target** (the arrow), click to select the zoom target you created, and adjust the size and position of the target.
+1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
 
-   **調整大小** 將指標移到縮放目標的某個角落，並拖曳以放大或縮小目標。
+   * **調整**&#x200B;指標將指標移至縮放目標的一角，然後拖曳以放大或縮小目標。
 
-   **定位將** 指標移到縮放目標上，並拖曳至不同位置。
+   * **定位**&#x200B;將指標移至縮放目標上方，並拖曳至其他位置。
 
 1. 在「名稱」方框中輸入縮放目標名稱。
 
@@ -62,7 +62,7 @@ On the Zoom Target Editor screen, click **Select Targe** t button (the arrow) to
    >在「名稱」方框中輸入的不僅僅是名稱。使用者在縮放目標上移動指標時，將會看到您在「名稱」方框中輸入的內容。在「名稱」方框中輸入對縮放目標的簡要說明，以便使用者瞭解其可以縮放的內容。
 
 1. 可以視情況在「使用者資料」欄位中輸入使用者資料。該欄位可供網站設計人員向縮放目標中增加資訊。
-1. 按一下&#x200B;**「儲存」**。
+1. Click **[!UICONTROL Save]**.
 
    即可儲存縮放目標的座標和縮放等級。帶有您輸入的名稱的縮放目標縮圖顯示在畫面右側。
 
@@ -74,19 +74,19 @@ On the Zoom Target Editor screen, click **Select Targe** t button (the arrow) to
 
 使用「縮放目標編輯器」畫面上的這些技術編輯縮放目標:
 
-**重新定位** ：使用「選取目標」按鈕(箭頭)，按一下目標以選取。然後，將目標拖曳到其他位置。
+* **重新定位**&#x200B;使用「選擇目標」按鈕（箭頭），按一下目標以選取它。 然後，將目標拖曳到其他位置。
 
-**使用** 「選取目標」按鈕(箭頭)調整大小，按一下目標以選取。然後，從縮放目標的一角移動指標，並拖曳指標以放大或縮小目標。
+* **調整**&#x200B;大小使用「選取目標」按鈕（箭頭），按一下目標以選取它。 然後，從縮放目標的一角移動指標，並拖曳指標以放大或縮小目標。
 
-**刪除** 畫面右邊的目標縮圖影象。然後按一下刪除Target。
+* **刪除**&#x200B;按一下畫面右側的目標縮圖影像。 然後按一 **[!UICONTROL 下刪除目標]**。
 
-**重新命名** 畫面右邊的目標縮圖影象。然後，在「名稱」方框中輸入名稱並按一下「儲存」。
+* **重新**&#x200B;命名按一下畫面右側的目標縮圖影像。 Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
 ### 複製縮放目標 {#copying-zoom-targets}
 
 可以將縮放目標從一個影像複製到另一個影像。如果兩個影像的內容相似且縮放目標位於同一位置，則可複製目標。請按照以下步驟將縮放目標複製到其他影像:
 
 1. 在「縮放目標編輯器」畫面中開啟帶有要複製的縮放目標的影像。
-1. 按一下 **複製目標至**。
-1. In the Select Images dialog box, select an image and click **Select**.
+1. 按一 **[!UICONTROL 下將目標複製至]**。
+1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
 
