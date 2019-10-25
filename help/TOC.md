@@ -1,26 +1,27 @@
 ---
 cloud: experience-cloud
-product: '動態媒體經典版 '
-audience: 使用者
+product: '動態媒體經典 '
+audience: 最終用戶
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
 # Dynamic Media Classic說明 {#using}
 
-+ [Dynamic Media Classic文件首頁](home.md)
-+ 推出Adobe Dynamic Media Classic {#intro}
++ [Dynamic Media Classic檔案首頁](home.md)
++ [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
++ Adobe Dynamic Media Classic簡介 {#intro}
    + [關於Dynamic Media Classic](introduction.md)
    + [開發人員資源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系統需求](system-requirements.md)
    + [Adobe Scene7 Publishing System 桌面應用程式](scene7-publishing-system-desktop-applications.md)
    + [支援](support.md)
-   + [Dynamic Media Classic Media Portal說明](help-scene7-media-portal.md)
+   + [Dynamic Media Classic Media Portal的說明](help-scene7-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [常用資源](popular-resources.md)
 + 快速入門 {#getting-started}
@@ -57,12 +58,12 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + 管理資產 {#managing-assets}
    + [關於管理資產](about-managing-assets.md)
    + [使用資產檔案夾](asset-folders.md)
-   + [在瀏覽面板中檢視資產](viewing-assets-browse-panel.md)
+   + [在「瀏覽」面板中檢視資產](viewing-assets-browse-panel.md)
    + [在「瀏覽」面板中選取資產](selecting-assets-browse-panel.md)
    + [搜尋資產](searching-assets.md)
    + [預覽資產](previewing-asset.md)
    + [移動、重新命名和刪除資產](moving-renaming-deleting-assets.md)
-   + [Working in Detail view](detail-view.md)
+   + [在「詳細資訊」檢視中進行作業](detail-view.md)
    + [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)
    + [從 Scene7 Publishing System 匯出資產](exporting-assets-scene7-publishing-system.md)
    + [即時與同級共用資產變更](sharing-asset-changes-peers-real.md)
@@ -77,10 +78,10 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [將 URL 連結至網路應用程式](linking-urls-web-application.md)
 + 縮放 {#zoom}
    + [快速入門: 縮放](quick-start-zoom.md)
-   + [上傳縮放影象](uploading-zoom-images.md)
+   + [上傳縮放影像](uploading-zoom-images.md)
    + [Creating zoom targets for Guided Zoom](creating-zoom-targets-guided-zoom.md)
    + [設定縮放檢視器預設集](setting-zoom-viewer-presets.md)
-   + [使用不同縮放檢視器預覽影像資產](previewing-image-assets-different-zoom.md)
+   + [使用不同的縮放檢視器預覽影像資產](previewing-image-assets-different-zoom.md)
    + [發佈縮放影像](publishing-zoom-images.md)
    + [將縮放檢視器連結至網頁](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
@@ -88,10 +89,10 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [上載 PDF 檔案](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
-   + [管理eCatalogs中的資訊面板內容](info-panel-content.md)
+   + [管理eCatalog中的資訊面板內容](info-panel-content.md)
    + [設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md)
    + [在 eCatalog 檢視器中預覽 eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [發佈eCatalogs和相關聯的PDF](publishing-ecatalogs-associated-pdfs.md)
+   + [發佈電子目錄和相關PDF](publishing-ecatalogs-associated-pdfs.md)
    + [連結 eCatalog 至網頁](linking-ecatalog-web-page.md)
 + 影像集 {#image-sets}
    + [快速入門: 影像集](quick-start-image-sets.md)
@@ -119,7 +120,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + Template basics {#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [上載範本檔案](uploading-template-files.md)
-   + [Creating a template](creating-template.md)
+   + [建立範本](creating-template.md)
    + [建立範本參數](creating-template-parameters.md)
    + [發佈範本](publishing-templates.md)
    + [將範本連結到網頁](linking-template-web-page.md)
@@ -129,7 +130,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [在Adobe Illustrator中建立初始範本](create-initial-template-illustrator.md)
    + [Upload files for Template Publishing](upload-files-template-publishing.md)
    + [定義可變性: 參數化與 DOM 操作](defining-variability-parameterization-versus-dom.md)
-   + [在動態媒體Classic中參數化範本](parameterizing-template-scene7.md)
+   + [在Dynamic Media Classic中參數化範本](parameterizing-template-scene7.md)
    + [預覽和更新範本屬性](preview-update-template-attributes.md)
    + [DOM 操作](dom-manipulation.md)
    + [將 FXG 範本連結到網頁](linking-fxg-template-web-page.md)
@@ -160,7 +161,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
 + Target Classic整合 {#target-classic}
    + [快速入門：Target Classic整合](quick-start-target-classic-integration.md)
-   + [將Adobe Dynamic Media Classic與Adobe Target Classic整合](integrating-scene7-target-classic.md)
+   + [整合Adobe Dynamic Media Classic與Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
    + [將選件集推送至Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + 使用者產生的內容 {#user-generated-content}
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Adjusting an image](adjusting-image.md)
    + [上載時的影像編輯選項](image-editing-options-upload.md)
    + [Working with PDFs](pdfs.md)
-   + [Working with PSD files](psd-files.md)
+   + [使用 PSD 檔案](psd-files.md)
    + [處理 PostScript 和 Illustrator 檔案](postscript-illustrator-files.md)
    + [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md)
 + 支援檔案 {#support-files}
