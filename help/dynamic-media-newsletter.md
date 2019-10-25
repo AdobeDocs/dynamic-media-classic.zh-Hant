@@ -1,44 +1,85 @@
 ---
-description: Adobe Target Insider是Adobe Target社群成員的每月電子報。 瞭解產品更新和未來計畫、個人化和最佳化秘訣與訣竅、客戶成功案例、近期活動、資訊豐富的白皮書、熱門部落格文章等。
-keywords: 內線電子報；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；白皮書；白皮書
-seo-description: Adobe Target Insider是Adobe Target社群成員的每月電子報。 瞭解產品更新和未來計畫、個人化和最佳化秘訣與訣竅、客戶成功案例、近期活動、資訊豐富的白皮書、熱門部落格文章等。
-seo-title: 'Adobe Target Insider電子報 '
-solution: Target
-title: Target Insider電子報
+description: 'Dynamic Media Newsletter by Experience League是每月的電子報。 它可協助您快速上手使用Dynamic Media和Dynamic Media Classic，讓您立即開始實現價值。 本一站式商店電子報提供寶貴的知識建立資源，包括如何製作影片、解決方案概觀，以及介紹一些主要功能和功能，例如影像預設集、檢視器預設集、影片設定檔等。 '
+keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影像；功能
+seo-description: 這份一站式商店電子報提供知識建立資源，包括如何製作影片、解決方案概觀，以及介紹一些主要功能和功能，例如影像預設集、檢視器預設集、影片設定檔等。
+seo-title: 'Adobe Dynamic Media電子報 '
+solution: 動態媒體
+title: 動態媒體電子報
 translation-type: tm+mt
-source-git-commit: 1fc1537288fe8e106970a61271705f28ecf497c0
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Target Insider電子報
+# ![Dynamic Media Newsletter logo](/help/assets/dynamic-media-newsletter-logo.png)
 
-Adobe Target Insider是Adobe Target社群成員的每月電子報。 瞭解產品更新和未來計畫、個人化和最佳化秘訣與訣竅、客戶成功案例、近期活動、資訊豐富的白皮書、熱門部落格文章等。
+Dynamic Media Newsletter by Experience League是每月一次的電子報，旨在協助您快速上手使用Dynamic Media和Dynamic Media Classic，讓您立即開始實現價值。
+
+**電子報包含哪些內容？**
+本一站式商店電子報提供寶貴的知識建立資源，包括操作說明影片、解決方案概觀，以及一些主要功能與功能的簡介，例如影像預設集、檢視器預設集、視訊設定檔等。
+
+## 獲得靈感。 隨時掌握最新資訊。
+
+[註冊](https://www.adobe.com/subscription/dynamic-media-newsletter.html) ，每月在您的收件匣中接收動態媒體電子報。
+
+## 錯過了動態媒體電子報？
+
+* **[2019年10月第10期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**&#x200B;本期：
+
+   * 如何取得訪客在動態媒體檢視器中所採取動作的進階分析。
+   * 提供高品質影像和視訊的資訊圖表，其中包含提示，可讓您輕鬆呈現高品質的影像和視訊。
+   * CMSwire文章，可協助您瞭解如何更新您的豐富式媒體策略，以符合現今客戶的期望。
+   * 從Skill Builder系列存取動態媒體的隨選網路研討會。
+   * 認識Adobe Experience Manager網站可靠性工程部經理Nick Peters。
+   * 在Experience League中快速上手使用Dynamic Media和Dynamic Media Classic。
+
+* **[2019年9月9日](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)**&#x200B;本期：
+
+   * 消除這9個「疑問」，以充分提升客戶體驗。
+   * 瞭解動態媒體團隊如何協助您為高於一般訪客流量的一天做好準備。
+   * 參加最近兩次「技能產生器」網路研討會的第二次機會。
+   * 觀看有關保護數位資產免遭盜版的隨選網路研討會。
+   * 認識Adobe Experience Manager Assets資深產品行銷經理Bridget Roman。
+   * 在Experience League中快速上手使用Dynamic Media和Dynamic Media Classic。
 
 
-閱讀公 [告信](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) ，瞭解如何透過Adobe Target Insider電子報保持最佳化。
+* **[2019年8月08日](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)**&#x200B;本期：
 
->[!IMPORTANT]
->
->[註冊即可自動在您的收件匣中收到Adobe Target Insider電子報](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
+   * 探索只有在升級至Dynamic Media時才提供的有用功能。
+   * 瞭解網路研討會系列，以協助您快速上手使用Adobe Experience Manager Assets和Dynamic Media。
+   * 從Dynamic Media on Experience League開始體驗。
+   * 搶先一窺今年9月即將推出的強大整合功能，可讓您分析訪客與豐富式媒體的互動方式。
+   * 認識動態媒體技術支援部門PieterJan Pieper。
 
-如果您錯過先前的電子報，請按一下下列連結，以確保您不會錯過任何事：
 
->[!NOTE]
->
->請記得回來。 我們正致力於將過去的所有問題公佈於此。
+* **[2019年7月07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**&#x200B;期在本期：
 
-| 問題 | 詳細資料 |
-|--- |--- |
-|  |  |
-| [2018年11月（第1期第11卷）](https://expleague.azureedge.net/assets/target/newsletter-2018-november.html) | 在此期間，請與Forrester首席分析師James mcCormick一起瞭解我們最近有關體驗最佳化平台的網路研討會。 瞭解如何開發客戶不斷使用的行動應用程式。 從WestJet的Matt Ravlich取得有關傳達您最佳化成功的建議。 瞭解Adobe Sensei驅動的兩種強大人工智慧功能如何讓個人化大規模進行。 此外，別忘了儲存Adobe峰會的日期。 |
-| [2018年10月（第1期第10卷）](https://expleague.azureedge.net/assets/target/newsletter-2018-october.html) | 我們最近新增了許多Adobe Target的好用新功能和增強功能，包括最近TechCrunch文章中的部分功能。 透過相關的部落格文章和最新的Adobe Target新功能，進一步瞭解我們的新功能。 此外，瞭解David Parker及其團隊如何協助電信業巨擘公司最佳化公司網站上的整個客戶歷程。 |
-| [2018年9月（第1卷第9期）](https://expleague.azureedge.net/assets/target/newsletter-2018-september.html) | 在本版Adobe Target Insider中，我們的暑期實習生Leen Habbal與Adobe Target產品行銷團隊分享她暑期實習的經驗。 我們也推出Adobe Cloud Platform Auditor，此工具可協助您驗證您是否正確實作了Adobe技術。 我們將說明AI如何將您的客戶歷程提升到新的層次，以及如何取得Adobe target認證。 此外，我們還聽到英國電信與媒體公司Sky的Rob mcLaughlin說明如何為客戶提供大規模個人化服務等。 |
-| [2018年8月（第1期第8卷）](https://expleague.azureedge.net/assets/target/newsletter-2018-august.html) | 在這份Adobe Target Insider電子報中，探索Adobe Experience League for Adobe Target，這是建立您最佳化和個人化專業知識的寶貴資源。 接著，瞭解CarMax的Jake Mitchell如何仰賴Adobe Target來最佳化使用體驗。 最後，在Adobe Target Premium中，透過新的「個人化洞察」報告深入探討資料科學。 |
-| [2018年7月（第1卷，第7期）](https://expleague.azureedge.net/assets/target/newsletter-2018-july.html) | 在本版Adobe Target Insider中，我們推出Adobe Target Basics，這是由Target社群主持的新網路研討會系列，可帶您進入解決方案使用者介面(UI)，以取得最佳實務和秘訣與訣竅。 我們也分享Nicolas Mériel對Swisscom將AI用於個人化的歷程、我們最近在個人化調查中的AI優點等等的看法。 |
-| [2018年6月（第1卷第6期）](https://expleague.azureedge.net/assets/target/newsletter-2018-june.html) | 我們很榮幸在《The Forrester Wave™:體驗最佳化平台，2018年第2季度報告，非常感謝我們的客戶對您的支援和寶貴意見回應，協助我們的解決方案贏得此項榮譽。 閱讀我們在報告上的部落格文章、從側面展示瞭解改變最佳化計畫的5個秘訣、欣賞我們在亞特蘭大最近的Adobe Insider導覽節目，以及更多功能。 |
-| [2018年5月（第1卷第5期）](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | 在本版中，瞭解Adobe Experience cloud如何處理將於5月25日生效的歐盟通用資料保護規則(GDPR)。 在個人化領域中，欣賞我們評價最高的Adobe峰會會議。 對於B2B-ers，請閱讀B2B巨擘Grainger的見解。 |
-| [2018年4月（第1卷，第4期）](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | 在本版中，我們協助您重溫拉斯維加斯的Adobe峰會，並為您帶來新的機會，讓您與團隊及同儕的寶貴親身關係(Adobe Insider Tour)得以延續。 然後閱讀內容，瞭解Adobe Experience Business Excellence大獎的5位決賽入圍者，他們分享了使用Adobe Target的個人化成功故事。 在本版中，我們協助您重溫拉斯維加斯的Adobe峰會，並為您帶來新的機會，讓您與團隊及同儕的寶貴親身關係(Adobe Insider Tour)得以延續。 然後閱讀內容，瞭解Adobe Experience Business Excellence大獎的5位決賽入圍者，他們分享了使用Adobe Target的個人化成功故事。 |
-| [2018年3月（第1期第3期）](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | 今年，我們致力於開發Adobe Target的新創新功能，這是我們剛在Adobe峰會上宣佈的。 請在這裡閱讀相關資訊，以及一些深入探討的技術文章，協助您從Adobe Target獲得更多價值。 |
-| [2018年2月（第1卷，第2期）](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | 在本版中，我們提供Cliff Notes版本給Adobe Summit的個人化會議。 請看，挑選您的課程，我們會在大型活動中與您見面。 此外，請從以下文章瞭解並啟動「個人化中的2018年人工智慧狀態」調查。 有星巴克咖啡在等你完成，這是我們的小感謝！ |
-| [2018年1月（第1期第1卷）](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | 歡迎閱讀第一期Adobe Target Insider，我們每月的電子報內容包括Adobe Target使用者的新聞和資源。 在此期間，我將分享我對2018年個人化未來的想法。 享受。 |
+   * 可讓您正確管理高價值資產的資源和資訊，以放心地提供體驗，讓訪客持續回訪。
+   * 瞭解即將舉辦的有關保護數位資產的網路研討會。
+   * 下一站將參加資訊豐富的Adobe Insider Tour。
+   * 當您在Adobe Experience Manager Assets(AEM Assets)中擁有Dynamic Media時，即可使用令人驚艷的功能。
+   * 將360度視訊和自訂視訊縮圖新增至您的網站。
+   * 認識AEM Assets中動態媒體的首席解決方案顧問Andrew Hathaway。
+
+* **[2019年6月06日](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)**&#x200B;本期：
+
+   * 體驗在AEM Assets中強調升級至Dynamic Media的絕佳效果的影片。
+   * 在Experience League中觀看關鍵的操作視訊。
+   * 進一步瞭解即將推出的Adobe Insider Tour。
+   * 閱讀有關如何保護您的數位資產免遭盜版的資訊。
+   * 瞭解AI導向的影像智慧裁切。
+   * 認識Alex Thiers，它是Dynamic Media和Dynamic Media Classic中許多強大功能與創新背後的推動力之一。
+
+* **[2019年5月05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**&#x200B;期在本期：
+
+   * 在部落格文章中探索Dynamic Media Classic的10大隱藏功能
+   * 在Experience League中觀看關鍵的操作視訊。
+   * 瞭解即將推出的Adobe Insider導覽。
+   * 閱讀包含三部分的部落格系列，以更新您的多媒體策略。
+   * 瞭解AI導向的視訊智慧裁切。
+
+* **[2019年4月，第04期歡迎參加Dynamic Media電子報的正式發行。本期新月度電子報為Adobe Experience Manager Assets和Adobe Dynamic Media Classic中的Dynamic Media使用者提供新聞、活動和資源。](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**&#x200B;在此問題中：
+   * 註冊參加我們的Dynamic Media Classic隱藏功能網路研討會。
+   * 瞭解我們的隨選網路研討會系列，以協助您制定豐富型媒體策略。
+   * 閱讀主要的豐富式媒體使用案例及我們為他們提供的解決方案。
+   * ...還有更多！
