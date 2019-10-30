@@ -6,17 +6,16 @@ seo-title: 'Adobe Dynamic Media電子報 '
 solution: 動態媒體
 title: 動態媒體電子報
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Dynamic Media Newsletter logo](/help/assets/dynamic-media-newsletter-logo.png)
 
-Dynamic Media Newsletter by Experience League是每月一次的電子報，旨在協助您快速上手使用Dynamic Media和Dynamic Media Classic，讓您立即開始實現價值。
+Experience League每月推出的Dynamic Media電子報旨在協助您快速上手使用Dynamic Media和Dynamic Media Classic，讓您立即開始實現價值。
 
-**電子報包含哪些內容？**
-本一站式商店電子報提供寶貴的知識建立資源，包括操作說明影片、解決方案概觀，以及一些主要功能與功能的簡介，例如影像預設集、檢視器預設集、視訊設定檔等。
+在這份一站式商店電子報中，探索重要的知識建立資源，例如操作視訊、解決方案概觀，以及介紹解決方案的一些主要功能和功能，例如影像預設集、檢視器預設集、視訊設定檔等。
 
 ## 獲得靈感。 隨時掌握最新資訊。
 
