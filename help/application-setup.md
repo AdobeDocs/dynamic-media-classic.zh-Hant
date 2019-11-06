@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENTENDEMAND_PK/類別／設定
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 依據檢視器而定，您可以增加社群功能。社群功能包含「內嵌」按鈕、「電子郵件」按鈕、「連結」按鈕和「造訪網站」按鈕。這些按鈕可讓使用檢視器的使用者與其他人共用檢視器，或開啟Dynamic Media Classic網站。
 
-另請參閱Adobe檢視器參考資料 [庫範例](/help/assets/vlist/vlist.html) , [這裡](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 回應式網頁的檢視器支援 {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 下表列出目前可用的Dynamic Media Classic Viewer預設集。 此表格也指定了檢視器與桌上型電腦和行動裝置的相容性，以及用於個別檢視器的技術。
 
-另請參閱Adobe檢視器參考資料 [庫範例](/help/assets/vlist/vlist.html) , [這裡](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
