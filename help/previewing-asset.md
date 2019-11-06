@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 如果預覽包含參數圖層的範本資產，則可以變更這些參數或是影像預設集因為所有變更都是以內嵌形式進行，所以您可以從相同的「預覽」視窗立即檢視結果。
 
-另請參閱Adobe檢視器參考資料 [庫範例](/help/assets/vlist/vlist.html) , [這裡](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **預覽資產**
 
