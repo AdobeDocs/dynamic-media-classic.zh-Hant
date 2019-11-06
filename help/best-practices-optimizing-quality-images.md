@@ -3,14 +3,14 @@ title: 影像品質最佳化的最佳實踐
 seo-title: 影像品質最佳化的最佳實踐
 description: 'null'
 seo-description: 瞭解最佳化影像品質的最佳範例。
-uuid: 102e83fe-ee2 a-443b-ba92-6ad5 cc0
+uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/master_ files
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 影像品質最佳化可能非常耗時，因為演算可接受的結果受許多因素影響。結果有點主觀，因為每個人對影像品質的認定不同。結構化實驗是關鍵。
 
-Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最佳化影像和演算結果。以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
+Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和最佳化影像和轉譯結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱 [智慧型影像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+另請參閱 [智慧映像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
-* 如果URL中沒有任何格式命令，動態媒體影像伺服預設為JPG進行傳送。
+* 如果URL中未提供格式命令，則Dynamic Media Image Serving預設為JPG以進行傳送。
 * JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。除了一些情況 (例如影像有白色背景) 以外，PNG 會以大約 2:1 的比例壓縮。大致上 PNG 檔案的大小比 JPG 檔案更大。
 * JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
@@ -36,22 +36,22 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 ## 影像大小的最佳實踐 {#best-practices-for-image-size}
 
-動態降低影像大小是動態媒體影像伺服執行最常用的工作之一。它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
+動態縮小影像大小是動態媒體影像伺服最常執行的工作之一。 它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. 這些參數會根據外觀比例自動設定影像寬度。
-* `&resMode=<value>` 控制用於縮減取樣的演算法。`&resMode=sharp2`開始使用。此值可提供最好的影像品質。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* `&resMode=<value>` 控制用於縮減取樣的演算法。 從開始 `&resMode=sharp2`。 此值可提供最好的影像品質。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
-作為影像大小的最佳實務，請使用 `&wid=<value>&hei=<value>&resMode=sharp2` 或 `&hei=<value>&resMode=sharp2`
+作為調整影像大小、使用或 `&wid=<value>&hei=<value>&resMode=sharp2``&hei=<value>&resMode=sharp2`
 
 ## 影像銳利化的最佳實踐 {#best-practices-for-image-sharpening}
 
-影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。參考下列實用資源，花時間瞭解動態媒體Classic中的銳利化和遮色片銳利化如何運作：
+影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請花點時間參考下列有用資源，進一步瞭解銳利化和反銳化遮色片在Dynamic Media Classic中的運作方式：
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
 On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
 
-有了Dynamic Media Classic，您可以在擷取時、傳送時或兩者都銳利化影像。不過在大部分情況下，您應該只使用其中一種方法 (而非同時使用兩者) 將影像銳利化。傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
+有了Dynamic Media Classic，您就可以在擷取、傳送或兩者上銳利化影像。 不過在大部分情況下，您應該只使用其中一種方法 (而非同時使用兩者) 將影像銳利化。傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
 
 您可使用兩種方法將影像銳利化: 
 
@@ -65,16 +65,16 @@ On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/
 
          請記住，`radius` 和 `amount` 參數互相消長。Reducing `radius` can be compensated by increasing `amount`. `Radius` 可以進行更精細的控制，因為較低的數值只會銳利化在邊緣的像素，而以較高的數值銳利化的像素範圍會比較寬。
 
-      * `threshold` (0-255，效果的敏感性)。
+      * `threshold` （0-255，效果敏感性）。
 
          這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，同時會增加高反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。
       如需如何設定這三個參數的詳細資訊，包括使用濾鏡的最佳實踐，請參閱以下資源: 
 
-      動態媒體Classic說明主題，以 [銳利化影像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
+      銳利化影像的Dynamic Media Classic [說明主題](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
 
-      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * Dynamic Media Classic也可讓您控制第四個參數：單色( `0,1`)。這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
+   * Dynamic Media Classic也可讓您控制第四個參數：單色( `0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
 
 最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
@@ -96,7 +96,7 @@ On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/
 * As a best practice, to stay in the middle, set the `qlt=` value to 85 to stay in the middle.
 * 在 `qlt=` = 中使用色度旗幟
 
-   * `qlt=` 參數的第二個設定可讓您使用正常值 `,0` (預設值)開啓RGB色度取樣，或使用值關閉它 `,1`。
+   * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the normal value `,0` (default), or turn it off using the value `,1`.
    * To keep it simple, start with RGB chromaticity downsampling turned off ( `,1`). 此設定通常會得到較好的影像品質，特別是包含許多銳利邊緣和對比的合成影像。
 
 As a best practice for JPG compression use `&qlt=85,0`.
@@ -106,7 +106,7 @@ As a best practice for JPG compression use `&qlt=85,0`.
 如果您想要確保影像不會超過特定大小，以便傳送至記憶體有限的裝置，`jpegSize` 是實用的參數。
 
 * This parameter is set in kilobytes ( `jpegSize=<size_in_kilobytes>`). 它可定義影像傳送所允許的大小上限。
-* `&jpegSize=` 與JPG壓縮參數互動 `&qlt=`。If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* `&jpegSize=` 與JPG壓縮參數互動 `&qlt=`。 If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
 
 As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
 
@@ -124,7 +124,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 在實驗時，您可能也會發現以下的一般性建議對於您的工作流程最佳化很實用: 
 
-* 直接在Dynamic Media Classic URL上試用和測試不同參數，或使用Scene Publishing System的影像調整功能，提供調整作業的即時預覽。
-* 請記住，您可以將動態媒體影像伺服命令群組至影像預設集。An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
-* Dynamic Media Classic也提供更進階的影像品質調整方式，例如在擷取時套用銳利化影像。在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
+* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing system的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
+* 請記住，您可以將「動態媒體影像伺服」指令群組至影像預設集。 An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
+* Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用銳利化影像。 在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
 
