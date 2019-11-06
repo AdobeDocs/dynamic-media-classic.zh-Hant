@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENTENDAMENT_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing system現在支援透過HTTP/2傳送所有影像和視訊。 �
 
 資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media Classic的任何資產都會自動標示為要發佈。
 
-如需詳細資訊，請參 [閱立即發佈通知PDF](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)。
+如需詳細資訊，請參 [閱立即發佈通知PDF](/help/assets/rendering-instant-publish-notification.pdf)。
 
 使用以下方法將資產標記為發佈:
 
