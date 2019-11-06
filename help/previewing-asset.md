@@ -3,14 +3,14 @@ title: 預覽資產
 seo-title: 預覽資產
 description: 'null'
 seo-description: 瞭解如何預覽資產。
-uuid: 4a01be21-e37 f-4d79-9220-f4 e177 e9179 a
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: 管理員
 content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/managing_ assets
-discoiquuid: 17d0bfd6-fc62-4ed6-8a5-1ac1 a6 bb96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 如果預覽包含參數圖層的範本資產，則可以變更這些參數或是影像預設集因為所有變更都是以內嵌形式進行，所以您可以從相同的「預覽」視窗立即檢視結果。
 
-另請參閱 [Dynamic Media Classic檢視器程式庫範例](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)。
+另請參閱Adobe檢視器參考資料 [庫範例](/help/assets/vlist/vlist.html) , [這裡](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **預覽資產**
 
