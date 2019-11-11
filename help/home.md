@@ -5,7 +5,7 @@ description: Dynamic Media Classic技術檔案
 seo-description: 'Adobe Dynamic Media Classic（先前稱為Scene 7）的技術檔案、發行說明和自助資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 歡迎使用Dynamic Media Classic說明。 您可以在這裡存取所有可用資源，以成功瞭解更多有關使用Dynamic Media Classic（先前稱為Scene7）的資訊。
 
-## Dynamic Media Classic技術檔案
+## 2020年上半年推出全新Dynamic Media Classic使用者介面
 
-* [發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [使用手冊](introduction.md)
+Dynamic Media Classic使用者可預期在2020年上半年重新整理其使用者介面。 此體驗將提供更新的登入，並提供重要資源的連結。 此外，此更新將不再依賴瀏覽器中的Adobe Flash技術。
 
-## Dynamic Media Classic開發人員資源
+請參閱 [常見問題](new-ui-2020.md)。
 
-* [Adobe檢視器參考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [檢視器資產庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [影像提供與影像轉譯 API](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## 動態媒體開發人員資源
 
-## Dynamic Media Classic網路研討會和教學課程
+* [動態媒體開發人員資源登陸頁面](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — 包含檢視器參考指南、影像伺服／影像轉換API、影像製作系統API和動態媒體經典版本注意事項。
+* [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — 包含視訊、可購買媒體、混合媒體、回轉集、內嵌縮放、影像和色票集，以及浮動畫面的檢視器範例。
 
+## Dynamic Media Classic電子報、網路研討會和教學課程
+
+* [動態媒體電子報封存](dynamic-media-newsletter.md)
 * [銳利化影像的最佳範例](/help/assets/s7_sharpening_images.pdf)
 * [將資產投資報酬率提升到最大](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) -瞭解業界最佳實務，以便跨網站和行動應用程式提供豐富型媒體。 在此網路研討會中，我們提供範例和展示，告訴您如何跨裝置有效率地傳送視訊、在行銷宣傳中提供動態創意，並透過讓任何影像、樣式指南或相簿都可購買來提高轉化率。
 * [加速內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) -此網路研討會提供Adobe Experience Manager Assets —— 隨選的簡介和展示，此為下一代多媒體管理與傳送平台。 瞭解如何在創意和行銷團隊之間協作及共用資產，以簡化資產審核流程；有效率地管理資產中繼資料的最佳實務，讓資產易於尋找、使用、重複使用和分享，以及如何提供互動式跨通道多媒體體驗。
