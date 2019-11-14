@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: '動態媒體經典 '
-audience: 最終用戶
-user-guide-title: Dynamic Media Classic說明
+product: dynamic media classic
+audience: end-user
+user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
+source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 # Dynamic Media Classic說明 {#using}
 
 + [Dynamic Media Classic檔案首頁](home.md)
-<!-- + [New Dynamic Media Classic user interface coming in first half of 2020](new-ui-2020.md)-->
++ [2020年上半年推出全新Dynamic Media Classic使用者介面](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
    + [關於Dynamic Media Classic](introduction.md)
