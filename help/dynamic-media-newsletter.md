@@ -1,12 +1,12 @@
 ---
 description: 'Dynamic Media Newsletter by Experience League是每月的電子報。 它可協助您快速上手使用Dynamic Media和Dynamic Media Classic，讓您立即開始實現價值。 本一站式商店電子報提供寶貴的知識建立資源，包括如何製作影片、解決方案概觀，以及介紹一些主要功能和功能，例如影像預設集、檢視器預設集、影片設定檔等。 '
-keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影像；功能
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: 這份一站式商店電子報提供知識建立資源，包括如何製作影片、解決方案概觀，以及介紹一些主要功能和功能，例如影像預設集、檢視器預設集、影片設定檔等。
 seo-title: 'Adobe Dynamic Media電子報 '
-solution: 動態媒體
+solution: Dynamic Media
 title: 動態媒體電子報
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ Experience League每月推出的Dynamic Media電子報旨在協助您快速上�
 [註冊](https://www.adobe.com/subscription/dynamic-media-newsletter.html) ，每月在您的收件匣中接收動態媒體電子報。
 
 ## 錯過了動態媒體電子報？
+
+* **[2019年11月第11期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**&#x200B;在本期：
+
+   * 重新整理Dynamic Media Classic使用者介面。
+   * 強大的全新安全功能。
+   * 我們如何準備好，讓您在假期中獲得成功。
+   * 與同事分享電子報，以建立團隊專業知識。
+   * 認識Dynamic Media資深產品經理Apoorva Gupta。
 
 * **[2019年10月第10期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**&#x200B;本期：
 
@@ -80,5 +88,4 @@ Experience League每月推出的Dynamic Media電子報旨在協助您快速上�
 * **[2019年4月，第04期歡迎參加Dynamic Media電子報的正式發行。本期新月度電子報為Adobe Experience Manager Assets和Adobe Dynamic Media Classic中的Dynamic Media使用者提供新聞、活動和資源。](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**&#x200B;在此問題中：
    * 註冊參加我們的Dynamic Media Classic隱藏功能網路研討會。
    * 瞭解我們的隨選網路研討會系列，以協助您制定豐富型媒體策略。
-   * 閱讀主要的豐富式媒體使用案例及我們為他們提供的解決方案。
-   * ...還有更多！
+   * 閱讀主要的豐富式媒體使用案例�
