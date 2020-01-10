@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Dynamic Media Classic Media Portal的說明](help-scene7-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [常用資源](popular-resources.md)
+   + [培訓視訊](training-videos.md)
 + 快速入門 {#getting-started}
    + [Adobe Dynamic Media Classic平台概觀](scene7-platform-overview.md)
    + [使用 Scene7 Publishing System 桌面版本](using-scene7-publishing-system-desktop.md)
@@ -152,7 +153,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速入門：整合Dynamic Media Classic與Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
