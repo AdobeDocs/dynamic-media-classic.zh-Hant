@@ -4,15 +4,15 @@ seo-title: Popular resources
 description: 'null'
 seo-description: 網路研討會、訓練影片、最佳實務資訊和開發人員資源的連結。
 uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
-contentOwner: 阿爾瓦韋
+contentOwner: alvawb
 discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: db33a9d841481f8eb0887d5713e6f8efd34fa8d7
+source-git-commit: b53a0e9776bbf3ee577c2b610f44325d6876c062
 
 ---
 
 
-# 常用資源 {#popular-resources}
+# 常用資源{#popular-resources}
 
 ## Dynamic Media Classic技術檔案
 
@@ -33,12 +33,12 @@ source-git-commit: db33a9d841481f8eb0887d5713e6f8efd34fa8d7
 * [行動最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true) -使用Dynamic Media Classic，有效率地將目標多樣化媒體發佈至所有裝置。 在此網路研討會中，您將學習如何設計和提供跨行動應用程式和互動式網站的影像和視訊檢視體驗。
 * [Adobe Dynamic Media Classic如何支援搜尋引擎優化](/help/assets/s7_seo.pdf) -現今的搜尋引擎可讓您搜尋網站和影像。 SPS支援讓影像在搜尋引擎上更容易使用，讓更多流量導向至Dynamic Media Classic使用者的網站。 此PDF會提供背景和建議，讓您達成此目的。
 * [使用Dynamic Media Classic將假日轉換率提升到最大](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) -此網路研討會將教您如何設定自動化工作流程，從受觀看的資料夾取得內容，並自動建立回轉集和視訊。 您也將學到如何快速管理變更和更新影像。
-* [使用Dynamic Media Classic提供互動式體驗的最佳範例](http://seminars.adobeconnect.com/p7wb8ej3u6d/) -此網路研討會教您如何從Dynamic Media Classic取得內容，以及如何設定影像預設集以取得最佳效能和體驗。 您也將學到檢視器預設集與快取配置。
-* [自適應設計的最佳範例](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) -此網路研討會教您如何改善行動策略的實用秘訣。 並觀看動作期間的回應式設計實際範例。建立一個可在多部裝置上使用的主資產，並透過動態變更影像解析度或是動態變更影像方向為縱向或橫向顯示，提高行動效能。另外也將學到如何動態裁切、縮放或調整影像大小。
+* [使用Dynamic Media Classic提供互動式體驗的最佳範例](https://seminars.adobeconnect.com/p7wb8ej3u6d/) -此網路研討會教您如何從Dynamic Media Classic取得內容，以及如何設定影像預設集以取得最佳效能和體驗。 您也將學到檢視器預設集與快取配置。
+* [自適應設計的最佳範例](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) -此網路研討會教您如何改善行動策略的實用秘訣。 並觀看動作期間的回應式設計實際範例。建立一個可在多部裝置上使用的主資產，並透過動態變更影像解析度或是動態變更影像方向為縱向或橫向顯示，提高行動效能。另外也將學到如何動態裁切、縮放或調整影像大小。
 
 ## Dynamic Media Classic訓練
 
-請 [前往](http://training.adobe.com/training/courses.html#product=adobe-scene7) ，查看目前可用的培訓課程。
+請 [前往](https://training.adobe.com/training/courses.html#product=adobe-scene7) ，查看目前可用的培訓課程。
 [Dynamic Media Classic訓練影片](https://marketing.adobe.com/resources/help/en_US/s7/training-videos/)。
 
 請參閱所有適用於 [Dynamic Media Classic的常用資源](home.md)。
