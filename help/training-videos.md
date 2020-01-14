@@ -1,8 +1,8 @@
 ---
 title: Dynamic Media Classic訓練影片
-description: 'null'
+description: Dynamic Media Classic訓練影片，包括快速入門、動態影像、視訊、媒體入口網站、範本和影像製作與演算。
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
