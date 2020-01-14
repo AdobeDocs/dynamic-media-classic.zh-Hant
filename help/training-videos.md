@@ -7,17 +7,11 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 ---
 
 
-# Adobe Dynamic Media Classic訓練影片(#training-videos)
+# Adobe Dynamic Media Classic訓練影片 {#training-videos}
 
-* [開始使用](#get-started-training)
-* [動態影像](#dynamic-imaging-training)
-* [視訊](#video-training)
-* [Media Portal](#media-portal-training)
-* [範本](#templates-training)
-* [發行摘要說明](#release-highlights)
-* [影像製作與轉換](#image-authoring-rendering-training)
+Dynamic Media Classic訓練影片，包括快速入門、動態影像、視訊、媒體入口網站、範本和影像製作與演算。
 
-## 快速入門(#get-started-training)
+## 開始使用 {#get-started-training}
 
 * [簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
 
@@ -31,10 +25,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [設定基本資訊](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 
-[頁首](#training-videos)
-
-
-## 動態影像(#dynamic-imaging-training)
+## 動態影像 {#dynamic-imaging-training}
 
 * [2D回轉集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS)
 
@@ -66,9 +57,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [快速入門2:eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-[頁首](#training-videos)
-
-## 影片(#video-training)
+## 視訊 {#video-training}
 
 * [MP4視訊概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -78,9 +67,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [串流概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
-[頁首](#training-videos)
-
-## 媒體入口網站(#media-portal-training)
+## Media Portal {#media-portal-training}
 
 * [Media Portal概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
@@ -88,15 +75,11 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Media Portal導覽2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-[頁首](#training-videos)
-
-## 範本(#templates-training)
+## 範本 {#templates-training}
 
 * [範本概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)
 
-[頁首](#training-videos)
-
-## 發行摘要(#release-hights)
+## 發行摘要說明 {#release-highlights}
 
 * [SPS 6.0，更新概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/524_6.0%20Release%20Highlights_converted%20renamed_6.0%20Release%20Highlights-AVS)
 
@@ -110,22 +93,21 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [SPS 6.5，更新概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-[頁首](#training-videos)
+## 影像製作與轉換 {#image-authoring-rendering-training}
 
-## 影像製作與轉換(#image-authoring-rendering-training)
+培訓影片，內容涵蓋下列各方面：
 
-* [上色](#colorizing)
-* [模式映射](#pattern-mapping)
-* [照明圖](#illumination-map)
-* [材料重複工具](#material-repeat-tool)
-* [重疊物件](#overlap-objects)
-* [3D房間場景](#3d-room-scenes)
-* [製作服裝](#apparel-authoring)
-* [遮色片](#masking)
-* [演算](#rendering)
+* 上色
+* 模式映射
+* 照明圖
+* 材料重複工具
+* 重疊物件
+* 3D房間場景
+* 製作服裝
+* 遮色片
+* 演算
 
-
-### 上色(#coloring)
+### 上色 {#colorizing}
 
 * [著色概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/500_01_overview1_ia_01colorizing-AVS)
 
@@ -167,11 +149,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [照明圖錯誤](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 模式對應(#pattern-mapping)
+### 模式映射 {#pattern-mapping}
 
 * [圖樣對應概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
@@ -213,11 +191,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [圖樣簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/597_IA002-Intro-Patterns_ia_02pattern-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 照明圖(#immination-map)
+### 照明圖 {#illumination-map}
 
 * [匯出至Adobe Photoshop](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/598_01_export_to_photoshop_ia_03illum-AVS)
 
@@ -229,11 +203,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [照明簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/602_IA003-Intro-Illumination_ia_03illum-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 材料重複工具(#material-repeat-tool)
+### 材料重複工具 {#material-repeat-tool}
 
 * [材料重複工具](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/603_01_MRT_ia_04mrt-AVS)
 
@@ -241,11 +211,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [修正PPI值](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/605_03_correct%20PPI%20value_ia_04mrt-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 重疊物件(#overlap-objects)
+### 重疊物件 {#overlap-objects}
 
 * [重疊基礎](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/607_01_overlap_basics_ia_05overlap-AVS)
 
@@ -255,11 +221,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [重疊物件簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 3D房間場景(#3d-room-scenes)
+### 3D房間場景 {#three-dimensional-room-scenes}
 
 * [3D專案概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/611_01_3D_project_ov_ia_06room3d-AVS)
 
@@ -277,11 +239,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [傾斜平面](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/618_08_angled_planes_ia_06room3d-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 製作服裝(#apparel-authoring)
+### 製作服裝 {#apparel-authoring}
 
 * [服裝色彩化評論](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
@@ -295,11 +253,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [服裝簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/625_IA007-Intro-Apparel_ia_07apparel-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 遮色片（#遮色片）
+### 遮色片 {#masking}
 
 * [Adobe Photoshop遮色片概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/626_800_overview_of_photoshop_masking_ia_08masking-AVS)
 
@@ -311,11 +265,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [遮色片簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/630_IA008-Intro-Masking_ia_08masking-AVS)
 
-[影像製作與轉換](#image-authoring-rendering-training)
-
-[頁首](#training-videos)
-
-### 演算(#rendering)
+### Rendering {#rendering}
 
 * [演算數學](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/632_900_render_math_ia_09rendering-AVS)
 
@@ -327,8 +277,8 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [轉換URL修飾元](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
-* [轉換簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)
+* [轉換簡介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
 
-[影像製作與轉換](#image-authoring-rendering-training)
 
-[頁首](#training-videos)
+
+
