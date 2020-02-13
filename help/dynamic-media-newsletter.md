@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic Media電子報 '
 solution: Dynamic Media
 title: 動態媒體電子報
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ Experience League每月推出的Dynamic Media電子報旨在協助您快速上�
 [註冊](https://www.adobe.com/subscription/dynamic-media-newsletter.html) ，每月在您的收件匣中接收動態媒體電子報。
 
 ## 錯過了動態媒體電子報？
+
+* **[2020年2月第2期](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**本期：
+
+   * 參加新的Skill Builder網路研討會，成為Dynamic Media Classic專家。
+   * 在Adobe Summit 2020上，瞭解您將在何處找到動態媒體。
+   * 瞭解如何使用動態媒體的裁切功能。
+   * 運用免費稽核功能，協助您從Dynamic Media Classic獲得更多價值。
+   * 瞭解Dynamic Media Classic的全新使用者介面。
+   * 認識Adobe Experience cloud客戶成功經理Georgia Myers。
 
 * **[2020年1月第1期](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**本期：
 
