@@ -7,9 +7,9 @@ getting-started-title: 開始使用
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: 教學課程
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://git.corp.adobe.com/AdobeDocs/scene7.en
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
 translation-type: tm+mt
-source-git-commit: c02feaa361f1986ad630468729981c29f4cf37b5
+source-git-commit: 9b1bdd86ab4dc5148a0fea3157c8c3cbbeac0728
 
 ---
 
@@ -22,8 +22,8 @@ metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至
 |--- |--- |
 | 解決方案標題 | 在文章標題中用作連結 |
 | solution-hub-url | 開啟幫助中心頁 |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
-| getting-started-url | Link to helpx getting started page |
-| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
-| mini-toc-levels | Determines the number of heading levels that appear in right rail. default is 2 |
-| git-repo | Specifies the location of the master repo for internal use |
+| 解決方案圖示 | 在解決方案標題旁顯示解決方案圖示。 尚未實施 |
+| getting-started-url | 幫助快速入門頁面的連結 |
+| 教學課程-url | 連結至教學課程影片——說明教學課程或KT教學課程 |
+| 迷你目錄層級 | 決定出現在右側欄中的標題層數。 預設值為2 |
+| git-repo | 指定主回購協定的內部使用位置 |
