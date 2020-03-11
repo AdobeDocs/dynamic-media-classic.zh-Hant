@@ -4,13 +4,13 @@ seo-title: 上載主影像
 description: 'null'
 seo-description: 瞭解如何上傳主影像。
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/image_sizing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: dfe86e040d0acc3135fcb596c85867f2d55d9090
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 將主影像檔案上載至 Scene7 Publishing System 前，請先準備主影像:
 
-* **影像大**&#x200B;小建立您預期使用的最大影像。 在最長尺寸中，一般影像大小的範圍介於 1500 至 2500 像素之間。如果您要使用「縮放」功能，Dynamic Media Classic建議使用最長維度至少2000像素的影像，以取得最佳縮放細節。
+* **影像大**&#x200B;小建立您預期使用的最大影像。 在最長尺寸中，一般影像大小的範圍介於 1500 至 2500 像素之間。如果您要使用「縮放」功能，Dynamic Media Classic建議使用最長維度至少2000像素的影像，以取得最佳縮放細節。 Dynamic Media Classic可以每張2500萬像素的影像轉換效果。 例如，您可使用5000 x 5000百萬像素影像或任何其他大小的組合，最高2500萬像素。
 
 * **檔案格式** Dynamic Media Classic支援所有標準影像檔案格式，包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建議使用不失真影像格式—TIFF 和 PNG。如果使用 JPEG 影像，請使用最高品質設定。
 
