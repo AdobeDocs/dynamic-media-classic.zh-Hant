@@ -1,9 +1,9 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
-# Dynamic Media Classic檔案
+# Adobe Dynamic Media Classic檔案
 
 這是Adobe Dynamic Media Classic檔案的儲存庫。
 
