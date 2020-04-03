@@ -3,12 +3,12 @@ title: 設定迴轉集檢視器預設集
 seo-title: 設定迴轉集檢視器預設集
 description: 'null'
 seo-description: 瞭解如何設定回轉集檢視器預設集。
-uuid: e095f989-f3 df-46ea-be62-81292285dc0
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/lin_ set
-discoiquuid: 9dfa37a-59ab-46ae-94c3-c0 ab9 f940023
+uuid: e095f989-f3df-46ea-be62-812922805dc0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,11 +17,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 設定迴轉集檢視器預設集{#setting-up-spin-set-viewer-presets}
 
-迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Dynamic Media Classic隨附預設的回轉集檢視器預設集。如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
+迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Dynamic Media Classic隨附預設的回轉集檢視器預設集。 如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
 
 請按照以下步驟建立迴轉集檢視器預設集:
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 進行以下一項操作:
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
