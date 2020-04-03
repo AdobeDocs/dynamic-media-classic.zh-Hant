@@ -3,12 +3,12 @@ title: 建立色票集
 seo-title: 建立色票集
 description: 'null'
 seo-description: 瞭解如何建立色票集。
-uuid: 250b3525-310d-4481-b0 bc-f9057 e823 e0 b
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/swetch_ set
-discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8d0
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -23,11 +23,8 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 建立色票集 {#create}
 
-當您建立設定時，儲存後「 **發佈」** 選項會影響設定並以下列方式設定成員：
-|儲存前選取「儲存後發佈」選項？|州儲存後設定|儲存後設定成員狀態|
-|—|—|—|
-|是|發佈|發佈|
-|否|未發佈|設定會員會保留其已發佈或未發佈的狀態。|
+建立集時，「保存後發 **布** 」選項會以下列方式影響集和設定成員：
+|「儲存後發佈」選項在儲存前已選取？|儲存後設定的狀態|儲存後設定的成員狀態||—|—|—||是|已發佈|已發佈||無|未發佈|整合員保留其已發佈或未發佈狀態。|
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
@@ -35,9 +32,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 進行以下一項操作:
 
-   **先在「瀏覽面板** 」中選取影像，然後選取影像，然後按一下「建立&gt;色票集」。
+   **首先選取影像** 。在「瀏覽面板」中，選取影像，然後按一下「建立>色票集」。
 
-   **從色票集畫面按** 一下「建立&gt;色票集」。從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
+   **從「色票集」畫面開始** ，按一下「建立>色票集」。 從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
 
 1. 將色票色彩、圖樣或飾面拖曳到「色票集」頁面上的「色票」預留位置方框中。
 
@@ -55,7 +52,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有的設定成員會保留其發佈狀態。您在編輯期間新增的任何新設定成員都會保留其已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員將保留其已發佈狀態。在編輯期間添加的任何新整合員都將保留其已發佈或未發佈狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -82,5 +79,5 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 **刪除色票集**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個色票集。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
