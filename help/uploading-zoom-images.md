@@ -4,10 +4,10 @@ seo-title: 上傳縮放影像
 description: 'null'
 seo-description: 瞭解如何上傳縮放影像。
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/zoom
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
