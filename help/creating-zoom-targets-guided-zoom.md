@@ -4,10 +4,10 @@ seo-title: 建立已導引縮放的縮放目標
 description: 'null'
 seo-description: 瞭解如何建立引導縮放的縮放目標。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/zoom
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
 source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
@@ -62,7 +62,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
    >在「名稱」方框中輸入的不僅僅是名稱。使用者在縮放目標上移動指標時，將會看到您在「名稱」方框中輸入的內容。在「名稱」方框中輸入對縮放目標的簡要說明，以便使用者瞭解其可以縮放的內容。
 
 1. 可以視情況在「使用者資料」欄位中輸入使用者資料。該欄位可供網站設計人員向縮放目標中增加資訊。
-1. Click **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    即可儲存縮放目標的座標和縮放等級。帶有您輸入的名稱的縮放目標縮圖顯示在畫面右側。
 
