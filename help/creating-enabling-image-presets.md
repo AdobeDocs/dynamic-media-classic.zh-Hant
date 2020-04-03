@@ -2,13 +2,13 @@
 title: 建立和啟用影像預設集
 seo-title: 建立和啟用影像預設集
 description: 'null'
-seo-description: 瞭解如何建立和啓用影像預設集。
-uuid: 62cfc6fa-da91-4c42-a3 ed-10956384d633
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/media_ Portal
-discoiquuid: 84257b2a-681c-4Fe9-a6 e5-3633c1 d61 d8 c
+seo-description: 瞭解如何建立和啟用影像預設集。
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
