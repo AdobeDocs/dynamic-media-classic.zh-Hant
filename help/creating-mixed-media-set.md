@@ -3,11 +3,11 @@ title: 建立混合媒體集
 seo-title: 建立混合媒體集
 description: 'null'
 seo-description: 瞭解如何建立混合媒體集。
-uuid: a0c6e5fa-7a85-4376-b9 a3-b72 ae63 d3 d95
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-discoiquuid: 0ff9e763-897c-4ba5-b606-a95 d5 e45 f35 e
+uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
@@ -33,7 +33,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
 **建立混合媒體集**
 
-1. 按一下「**建置** &gt; **混合媒體集**」。
+1. 按一下「**建置** > **混合媒體集**」。
 1. 將視訊、影像集、迴轉集和色票從資產庫拖曳至「混合媒體集」畫面。
 
    >[!NOTE]
@@ -60,7 +60,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有的設定成員會保留其發佈狀態。您在編輯期間新增的任何新設定成員都會保留其已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員將保留其已發佈狀態。在編輯期間添加的任何新整合員都將保留其已發佈或未發佈狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -86,5 +86,5 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 **刪除混合媒體集**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個混合媒體集。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
