@@ -2,12 +2,12 @@
 title: 發佈設定
 seo-title: 發佈設定
 description: 'null'
-seo-description: 「發佈設定」畫面設定會決定預設從Dynamic Media Classic伺服器傳送資產至網站或應用程式的方式。
-uuid: 196f25c-abf5-4c5 d-8f6 f-bc70007 a0301
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-discoiquuid: cba59093-28b6-4490-b838-d942 b72 ad1 ec
+seo-description: 「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media Classic伺服器傳送至網站或應用程式。
+uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -16,42 +16,42 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # 發佈設定 {#publish-setup}
 
-「發佈設定」畫面設定會決定預設從Dynamic Media Classic伺服器傳送資產至網站或應用程式的方式。如果未指定任何設定，Dynamic Media Classic伺服器會根據「發佈設定」畫面上的預設設定來傳送資產。例如，不包含解析度屬性的傳遞影像要求，會在「影像伺服器」畫面中產生含有「預設物件解析度」設定的影像。
+「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media Classic伺服器傳送至網站或應用程式。 如果未指定任何設定，Dynamic Media Classic伺服器會根據「發佈設定」畫面上的預設設定來傳送資產。 例如，不包含解析度屬性的傳遞影像要求，會在「影像伺服器」畫面中產生含有「預設物件解析度」設定的影像。
 
 管理員可以在「影像伺服器」、「影像演算」和「暈映」畫面中變更預設設定，以建立預設設定並用來從伺服器傳送資產。
 
-若要開啟「發佈資產」畫面，請按一下「設定 &gt; 應用程式設定 &gt; 發佈設定」。
+若要開啟「發佈資產」畫面，請按一下「設定 > 應用程式設定 > 發佈設定」。
 
 >[!NOTE]
 >
->「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media Classic假設使用者在這些畫面上變更設定時，熟悉Scene Publishing System、HTTP通訊協定標準和慣例，以及基本的影像技術。
+>「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media Classic假設變更這些螢幕設定的使用者熟悉Scene7 Publishing System、HTTP通訊協定標準和慣例，以及基本的影像技術。
 
 ## 影像伺服器 {#image-server}
 
 「影像伺服器」畫面會建立預設設定，以從影像伺服器傳送影像。有下列五種設定可供使用 (請參閱「影像伺服器」畫面以取得詳細的設定描述)。
 
-僅在Dynamic Media Classic支援人員的協助下變更這些設定。
+只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
 
-**目錄管理** 這些設定可決定Scene Publishing System和目錄的互動方式。和多數Web伺服器不同的是，動態媒體影像伺服器URL呼叫會移至manifest-or catalog-file，而非影像檔案適當的位置。目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+**目錄管理** ：這些設定會決定Scene7 Publishing System與目錄的互動方式。 與大部分的Web伺服器不同，動態媒體影像伺服器URL呼叫會移至資訊清單或目錄檔案，而非影像檔本身。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
-**請求屬性** 這些設定會限制可從伺服器傳送的影像。
+**請求屬性** ：這些設定會限制從伺服器傳送的影像。
 
-**預設請求屬性** 這些設定與影像的預設外觀有關。
+**預設請求屬性** ：這些設定屬於影像的預設外觀。
 
-**常見縮圖屬性** 這些設定與預設外觀和縮圖影象對齊有關。
+**常見縮圖屬性** ：這些設定與縮圖影像的預設外觀和對齊方式相關。
 
-**目錄欄位預設** 值這些設定會與解析度和預設縮圖類型有關。
+**目錄欄位的預設值** ：這些設定與影像的解析度和預設縮圖類型相關。
 
-**色彩管理屬性** 這些設定決定使用哪些ICC色彩設定檔。
+**色彩管理屬性** ：這些設定會決定使用哪些ICC色彩描述檔。
 
-**相容性屬性** 此設定可讓文字圖層中的前導和尾隨段落被視為其在版本3.6中的向下相容性。
+**相容性屬性** ：此設定可讓文字圖層中的前導和尾隨段落，如同3.6版中的段落，以進行向後相容性。
 
-**本地化支援** 這些設定可讓您管理多個地區設定屬性。也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
+**本地化支援** ：這些設定可讓您管理多個地區設定屬性。 也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
 
 例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
 >[!NOTE]
-> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或傳送電子郵件至requesting要求設定說明。
+> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄送電子郵件至s7support@adobe.com，要求安裝說明。
 
 如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -59,9 +59,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 >[!NOTE]
 >
->如果您想要在Scene Publishing System(例如Locale Map欄位)中設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援。或者，請將電子郵件傳送到 s7support@adobe.com 請求設定協助。
+>如果您想要在Scene7 Publishing System中設定「本地化支援」選項，例如「地區圖」欄位，請聯絡Adobe Dynamic Media Classic技術支援。 或者，請將電子郵件傳送到 s7support@adobe.com 請求設定協助。
 
-Scene7 Publishing System (SPS) 常見的用途之一，就是管理電子商務網站上的產品圖像。國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本查閱機制。您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
+Scene7 Publishing System (SPS) 常見的用途之一，就是管理電子商務網站上的產品圖像。國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
 **資產本地化的方式**
 
@@ -73,7 +73,7 @@ IS (影像伺服) 請求的地區可透過下列 IS/IR (影像演算) 命令來�
 
 IS supports arbitrary printable ASCII strings.The `locale=` command has a global scope, meaning that it is applied to the entire request, including all nested IS and IR requests, referenced templates, and image layers. 不支援一個請求有多個地區 (例如每個圖層各有不同的地區)。但要允許在內嵌的請求中進行明確覆寫，這倒是可行。
 
-`locale=` 如果未指定 `attribute::DefaultLocale` ，則會傳遞至翻譯引擎。Limited input validation is applied to the `locale=` value. Empty `locale=` values are permitted. Because `locale=` has a global scope, `attribute::DefaultLocale` is provided by the main catalog for the entire request.
+If `locale=` is not specified, `attribute::DefaultLocale` is passed to the translation engines. Limited input validation is applied to the `locale=` value. Empty `locale=` values are permitted. Because `locale=` has a global scope, `attribute::DefaultLocale` is provided by the main catalog for the entire request.
 
 Some of the benefits of using `locale=` and `attribute::DefaultLocale` include the following:
 
@@ -93,7 +93,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 |--- |--- |
 | 檢視器本地化 | 在實作靜態內容目錄後，本地化會完全以 locale= 參數控制；此參數會附加至所有對 IS 提出的請求。設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
 | 影像與視訊 | 跨國公司常會混用通用內容與地區特定內容。在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
-| 影像集與媒體集 | 某些地區設定的整個影像集都不同—例如eCatalog完全不同—將一般的一般ID轉換為由檢視器處理的地區設定影象集。一般設定中的個別ID可能參照本地化的內容。例如，一項設備大部分的相片可能跨所有語言都相同，唯獨控制台的相片是例外。IS 會自動翻譯 ID，因此無須產生地區特定影像集。 |
+| 影像集與媒體集 | 對於某些地區設定（例如，當eCatalog完全不同時），整個影像集可能不同，而檢視器會處理從通用影像轉換為特定地區影像集的轉換。更常見的是，通用影像集中的個別ID可能會指本地化內容。 例如，一項設備大部分的相片可能跨所有語言都相同，唯獨控制台的相片是例外。IS 會自動翻譯 ID，因此無須產生地區特定影像集。 |
 
 **實作資產本地化**
 
@@ -107,13 +107,13 @@ With localization, an Image Server URL adds the `locale=` parameter to the path,
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server** &gt; **Localization Support** group.
+On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
 
 「地區地圖」欄位會包含以管線符號 (|) 分隔的項目清單。
 
 每個項目都包含一份以逗號分隔的值清單。The first value is the search value that is passed by the `locale=` parameter. 其餘值則為後續持續嘗試直到比對出現有影像為止的字尾/取代值。
 
-應套用字尾值還是取代值，取決於「**設定**」&gt;「**應用程式設定**」&gt;「**發佈設定**」&gt;「**影像伺服器**」&gt;「**本地化支援**」群組中的「全域地區」設定。
+應套用字尾值還是取代值，取決於「**設定**」>「**應用程式設定**」>「**發佈設定**」>「**影像伺服器**」>「**本地化支援**」群組中的「全域地區」設定。
 
 >[!NOTE]
 >
@@ -220,15 +220,15 @@ Using the first example as a basis, images for all languages may have the suffix
 
 「影像演算」畫面會建立預設設定，以從影像演算伺服器傳送影像集。有下列五種設定可供使用 (請參閱「影像伺服器」畫面以取得詳細的設定描述):
 
-**目錄管理** 這些設定會決定Scene Publishing System和目錄檔案互動的方式。Dynamic Media Classic Render Server URL會呼叫目錄，此目錄會輪流呼叫從伺服器傳送影像。僅在Dynamic Media Classic支援人員的協助下變更這些設定。
+**目錄管理** ：這些設定會決定Scene7 Publishing System與目錄檔案的互動方式。 Dynamic Media Classic Render Server URL呼叫會進入目錄，而目錄則會呼叫從伺服器傳送影像。 只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
 
-**作業屬性** 這些設定會建立錯誤參數、相對影象URL的URL，以及是否允許物件重疊。
+**作業屬性** ：這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
 
-**預設材質屬性** 這些設定會建立影像的預設解析度和銳利化設定。
+**預設材質屬性** ：這些設定會建立影像的預設解析度和銳利化設定。
 
-**回應影像屬性** 這些設定與影像的預設外觀有關。
+**回應影像屬性** ：這些設定屬於影像的預設外觀。
 
-**色彩管理屬性** 這些設定與影像的預設色彩設定有關。
+**色彩管理屬性** ：這些設定屬於影像的預設色彩設定。
 
 ## 暈映 {#vignette}
 
