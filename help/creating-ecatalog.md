@@ -3,12 +3,12 @@ title: 建立 eCatalog
 seo-title: 建立 eCatalog
 description: 'null'
 seo-description: 瞭解如何建立eCatalog。
-uuid: aff05c2-7052-426c-b61 d-7f9091 f7 ACE8
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48 a4 f86 b932
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
 source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
@@ -36,9 +36,9 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
-   **先在「瀏覽面板** 」中選取檔案，然後選取檔案，然後按一下「Build&gt; eCatalogs」。
+   **首先選取檔案** 。在「瀏覽面板」中，選取檔案，然後按一下「建立>eCatalogs」。
 
-   **從eCatalog畫面** 按一下「建立&gt; eCatalogs」。在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
+   **從eCatalog畫面開始** ，按一下「建立>eCatalogs」。 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +46,11 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 1. 或者按一下個別頁面或跨頁，然後選擇「1 欄式」、「2 欄式」或「自訂」按鈕，以變更其版面。「更改 eCatalog 版面」對話框會出現。Select the Selected Spreads options and click **OK**.
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
-   **拖曳** 拖曳頁面或頁面跨頁至新位置。垂直列會顯示移動頁面的位置。
+   **拖曳** 「將頁面或頁面跨頁拖曳至新位置」。 垂直列會顯示移動頁面的位置。
 
-   **移至按鈕** 選擇頁面或頁面跨頁、按一下「移至移至」按鈕，然後選擇您希望頁面顯示的功能表上的頁面。
+   **「移至」按鈕** 「選擇頁面跨頁」，按一下「移至」按鈕，然後在功能表上選擇您希望頁面之前顯示的頁面。
 
-   **序列#** 在清單檢視中，在序列#欄位中輸入頁碼。
+   **序列** #在清單視圖中，在序列號欄位中輸入頁碼。
 
 1. 完成時，在頁面右上角附近，請確保選取了「**儲存後發佈**」(預設)。
 1. 按一下&#x200B;**「儲存」**。
@@ -66,7 +66,7 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有的設定成員會保留其發佈狀態。您在編輯期間新增的任何新設定成員都會保留其已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員將保留其已發佈狀態。在編輯期間添加的任何新整合員都將保留其已發佈或未發佈狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -88,11 +88,11 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 **建立 eCatalog**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個 eCatalog。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
 ## 自訂目錄 (TOC) {#customizing-the-table-of-contents-toc}
 
-動態媒體Classic在eCatalog畫面的「訂購頁面」索引標籤上，提供eCatalog中的預設頁碼。如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，封面頁面可以閱讀「Cover」而非「Page0-1」。」
+Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，在eCatalog中提供預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，首頁可以讀取「封面」，而非「頁面0-1」。
 
 您可以手動為 eCatalog 建立自訂的目錄 (TOC)，或從 CSV (僅限 Mac) 或 XML 檔案匯入頁面名稱。
 
@@ -108,19 +108,19 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
 如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
-目錄標籤會儲存在影像的使用者資料欄位中；將此資料格式設 `name=<value>`` pairs separated by two question marks “??” `為清單。例如，若要為名為「Openen」的TOC欄位設定一個標籤，請將影像的使用者資料設定為：
+目錄標籤會儲存在影像的「使用者資料」欄位中；格式化此資料為清單 `name=<value>`` pairs separated by two question marks “??” `。 例如，若要為名為tocEN &quot;的TOC欄位設定一個標籤，請將影像的「使用者資料」設定為：
 
-tocEN=&lt;EN_page_label&gt;
+tocEN=&lt;EN_page_label>
 
 若要為名為 tocEN 與 tocFR 的 TOC 欄位設定分隔標籤:
 
-tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt;
+tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
 若要在 Tab 字元分隔檔案中匯入「使用者資料」欄位，請包括欄位使用者資料:
 
 | IPSID | 使用者資料 |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
 
 若要在 XML 檔案中匯入「使用者資料」欄位，請包括屬性 `vc_userdata`:
 
