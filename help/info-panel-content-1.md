@@ -2,13 +2,13 @@
 title: 管理影像集中的資訊面板內容
 seo-title: 管理影像集中的資訊面板內容
 description: 'null'
-seo-description: 瞭解如何在影像集中管理資訊面板內容。
-uuid: ed7b4344-f180-41fc-a95 a-62a9767 dc056
-contentOwner: rb粗糙
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-content-type: 參考
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7 f72 fd
+seo-description: 瞭解如何管理影像集中的資訊面板內容。
+uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
+contentOwner: rbrough
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -38,7 +38,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 選取「預設」以使用預設回應。用於範本設計的 XML 會以暗灰色顯示在「使用者範本」文字方框中。
    * 選取「自訂」即可自行建立回應範本。在「使用者範本」文字方框中，輸入範本 XML 定義。您可以在文字方框中使用已經定義的預設範本為基礎，以作為自己的回應。
 
-1. (選擇性)在「預設回應」方塊中，如果Dynamic Media Classic遇到影像地圖擷取資訊時發生錯誤，請輸入您要顯示的文字。例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設回應」方塊中，輸入當Dynamic Media Classic擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」文字欄位中輸入要在快取資料前等待的小時數。
 
    * 如果整天經常更新資料，請設定較低的數字。
@@ -51,7 +51,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 1. In the InfoPanel Setup panel, click **Publish**.
 
-## 匯入影像集中資訊面板的來源內容 {#import-source-content-for-the-info-panel-in-image-sets}
+## 匯入影像集中「資訊」面板的來源內容 {#import-source-content-for-the-info-panel-in-image-sets}
 
 您可以針對影像集之資訊面板的來源文字，使用以 ASCII 編碼 (非 ASCII 字元必須以 HTML 編碼) 的 CSV (逗號分隔值) 檔案，或是 Tab 字元分隔檔案。Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
 
