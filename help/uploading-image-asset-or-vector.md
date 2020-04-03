@@ -4,8 +4,8 @@ seo-title: 上載影像資產或向量資產
 description: 'null'
 seo-description: 瞭解如何上傳影像資產或向量資產。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
@@ -144,7 +144,7 @@ Last Modified Date:
 
 在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下「檢視頁 **面來源」**。 代碼顯示當使用者按一下「**送出**」時執行的對應 URL 查詢字串和 POST 方式。
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視 &gt; 原始檔**」。To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. 建議使用 Firefox 檢視 XML 回應。
+若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視 > 原始檔**」。To view XML response in Firefox, click **Tools > Web Developer > Page Source**. 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -335,7 +335,7 @@ return true;
 </body>
 ```
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視** &gt; **原始檔**」。若要在 Firefox 中檢視 XML 回應，請按一下「**檢視** &gt; **網頁原始碼**」。建議使用 Firefox 檢視 XML 回應。
+若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視** > **原始檔**」。若要在 Firefox 中檢視 XML 回應，請按一下「**檢視** > **網頁原始碼**」。建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
