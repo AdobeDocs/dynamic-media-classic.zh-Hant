@@ -3,12 +3,12 @@ title: 發佈 Adobe Analytics 配置資訊
 seo-title: 發佈 Adobe Analytics 配置資訊
 description: 'null'
 seo-description: 瞭解如何發佈Adobe Analytics設定資訊。
-uuid: 39b1c2bd-8eb8-43a8-9482-9623113c5374
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PKK/categories/adobe_ analytics_ tooling_ kit
-discoiquuid: deb9ed-ef27-4d58-af98-f381 de33 c431
+uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 發佈 Adobe Analytics 配置資訊{#publishing-adobe-analytics-configuration-information}
 
-發佈您的動態媒體Classic檢視器，以便將設定Adobe Analytics報表的相關資訊傳送至Dynamic Media Classic伺服器。該資訊將嵌入檢視器中。需要發佈，以便檢視器中包含的資訊可用於動態媒體Classic伺服器。該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
+發佈您的Dynamic Media Classic檢視器，以便將設定Adobe Analytics報表的相關資訊傳送至Dynamic Media Classic伺服器。 該資訊將嵌入檢視器中。必須進行發佈，才能在Dynamic Media Classic伺服器上取得檢視器中包含的資訊。 該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
 
 >[!NOTE]
 >
