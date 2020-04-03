@@ -4,10 +4,10 @@ seo-title: 設定影像預設集
 description: 'null'
 seo-description: 瞭解如何設定影像預設集。
 uuid: 90530948-dee9-41bd-b39e-684140446abc
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/image_sizing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -29,7 +29,7 @@ Dynamic Media Classic隨附數個「最佳實務」影像預設集，這些預�
 
 **建立影像預設集**
 
-1. 按一下「**設定** &gt; **影像預設集**」。
+1. 按一下「**設定** > **影像預設集**」。
 
    您可以瀏覽至此畫面上的影像預設集名稱，以預覽現有影像預設集。選取影像預設集名稱時，「預覽」視窗中的範例影像會變更大小和外觀。
 
@@ -45,7 +45,7 @@ Dynamic Media Classic隨附數個「最佳實務」影像預設集，這些預�
 
    Dynamic Media Classic建議您從下列「最佳實務」選項開始：
 
-   * **格式**&#x200B;選擇JPEG或其他符合您需求的格式。 所有網路瀏覽器皆支援 JPEG 影像格式；它在小型檔案和影像品質之間取得了良好的平衡。然而，JPEG 格式影像使用了會失真的壓縮配置，如果壓縮設定過低可能會導致不必要的影像不自然感。因此，Dynamic Media Classic建議將壓縮品質（在滑桿上）設為75。 此設定提供了影像品質和小型檔案之間的良好平衡。
+   * **格式**&#x200B;選擇JPEG或其他符合您需求的格式。 所有網頁瀏覽器都支援JPEG影像格式；它在小檔案大小和影像品質之間提供良好的平衡。但是，JPEG格式影像使用有損壓縮方案，如果壓縮設定太低，則該壓縮方案會引入不想要的影像偽影。因此，Dynamic Media Classic建議將壓縮品質（在滑桿上）設為75。 此設定在影像品質和檔案大小之間取得良好的平衡。
 
    * **銳利化**&#x200B;不要選取銳利化（此銳利化濾鏡提供的控制力小於「銳利化遮色片」設定）。
 
