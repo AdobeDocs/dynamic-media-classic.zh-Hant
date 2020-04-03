@@ -2,13 +2,13 @@
 title: 字型
 seo-title: 字型
 description: 'null'
-seo-description: 瞭解如何在Dynamic Media Classic中使用字體。
+seo-description: 瞭解如何在Dynamic Media Classic中使用字型。
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/support_ files
-discoiquuid: 97cdc6a-30aa-44Fe-a611-fd71 b02 b2 ae
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
+discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -19,10 +19,10 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 在某些情況下，Scene7 Publishing System 要求您上載字型檔案，以便使用特定的字型輸入或演算文字。例如，要在範本圖層上將特定的字型用於文字，請上載字型檔案。若要以特定的字型顯示 eCatalog 檢視器頁碼，請上載字型檔案。
 
-Dynamic Media Classic支援以下字型類型：
+Dynamic Media Classic支援下列字型類型：
 
 * 所有 TrueType 字型
-* PostScript®字體
+* PostScript®字型
 * OpenType/TrueType 字型
 * OpenType/PostScript 字型
 * PhotoFont
@@ -31,7 +31,7 @@ Dynamic Media Classic支援以下字型類型：
 
 >[!NOTE]
 >
->Dynamic Media Classic建議您在範本圖層中使用字體時，上傳所有字體樣式(粗體、斜體、粗體/斜體)。Dynamic Media Classic需要這些字型樣式來處理要求。還建議上載與某種字型相關的所有 PostScript/ADOBE Type 1 檔案，因為其中的某些字型包含詳細的字距微調資訊。
+>如果您打算在範本圖層中使用字型，Dynamic Media Classic建議上傳所有字型樣式（粗體、斜體、粗體／斜體和一般）。 Dynamic Media Classic需要這些字型樣式來處理要求。 還建議上載與某種字型相關的所有 PostScript/ADOBE Type 1 檔案，因為其中的某些字型包含詳細的字距微調資訊。
 
 ## 上載字型檔案 {#uploading-font-files}
 
@@ -41,26 +41,26 @@ Dynamic Media Classic支援以下字型類型：
 
 您可以變更字型的 ID 名稱及其類型資訊。編輯字型檔案有助於搜尋，並且使得字型更易於識別。
 
-在瀏覽面板中，選取您要在詳細檢視中編輯的字型檔案，然後選取「檔案 &gt; 編輯資訊」。此時將開啟「編輯資訊」畫面。選擇以下選項，然後選取「送出」按鈕。
+在瀏覽面板中，選取您要在詳細檢視中編輯的字型檔案，然後選取「檔案 > 編輯資訊」。此時將開啟「編輯資訊」畫面。選擇以下選項，然後選取「送出」按鈕。
 
-**字型名稱** ：此名稱會在發佈字體時識別。
+**字型名稱** ：此名稱會在發佈時識別字型。
 
-**PostScript名稱** 此名稱為字體的完整PostScript名稱。它通常表示粗細或樣式。
+**PostScript名稱** ：此名稱是字型的完整PostScript名稱。 它通常表示粗細或樣式。
 
-**RTF名稱** 此名稱會顯示在RTF編輯器的快顯功能表上，其中會建立範本文字圖層。
+**RTF名稱** ：此名稱顯示在建立模板文本層的RTF編輯器的彈出菜單中。
 
-**字型系列名稱** 此名稱會列出字體名稱，而沒有樣式、粗細或字體類型指標。
+**字型系列名稱** ：此名稱列出沒有樣式、粗細或字型類型指示符的字型名稱。
 
-**字型樣式** ：選項為「純」、「粗體」、「斜體」和「粗體」。
+**字型樣式** ：選項為純、粗體、斜體和粗斜體。
 
-**字型類型** ：選項為TrueType和Adobe Type1。如果使用其他名稱命名這些字型，可以輸入該名稱。
+**字型** ：選項為TrueType和Adobe Type 1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
 
-**字型類型縮寫** 選項如下所示：
+**字型縮寫** ：選項如下：
 
 **TTF** TrueType字型檔案，用於PDF/PostScript轉譯和影像伺服。
 
-**包含** Adobe字型度量資訊並用於影像服務的AFM Adobe PostScript字體檔案。
+**AFM** Adobe PostScript字型檔案，其中包含Adobe Font Metrics資訊，並用於影像伺服。
 
-**包含二進位字體度量資訊的PFM** Adobe PostScript字體檔案。
+**PFM** Adobe PostScript字型檔案，其中包含二進位字型量度資訊。
 
-**包含二進位字型外框資訊的PFB** Adobe PostScript字體檔案，並用於PDF/PostScript演算和影像伺服。
+**PFB** Adobe PostScript字型檔案，包含二進位字型外框資訊，並用於PDF/PostScript轉譯和影像伺服。
