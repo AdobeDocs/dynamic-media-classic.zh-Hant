@@ -4,10 +4,10 @@ seo-title: 利用專案組織您的工作
 description: 'null'
 seo-description: 瞭解如何使用專案來組織您的工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -57,6 +57,6 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 您可以在瀏覽面板中開始將影像加入專案檔案夾，或是在將檔案上載到 Scene7 Publishing System 時，將影像加入專案檔案夾:
 
-* **從「瀏覽面板**」中選取資產並拖曳至「專案」檔案夾。 您也可以選擇「檔案 &gt; 加入專案」，在「選取專案」對話框中選取專案檔案夾名稱，然後選取「送出」按鈕。
+* **從「瀏覽面板**」中選取資產並拖曳至「專案」檔案夾。 您也可以選擇「檔案 > 加入專案」，在「選取專案」對話框中選取專案檔案夾名稱，然後選取「送出」按鈕。
 
-* **上傳檔案**&#x200B;在「上傳」畫面中，按一下「工作選項」按鈕。 在「上載工作選項」對話框中，選擇「
+* **上傳檔案**&#x200B;在「上傳」畫面中，按一下「工作選項」按鈕。 在「上載工作選項」對話框中，選擇「專案」，然後選取專案名稱。
