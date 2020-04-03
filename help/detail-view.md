@@ -3,11 +3,11 @@ title: 在「詳細資訊」檢視中進行作業
 seo-title: 在「詳細資訊」檢視中進行作業
 description: 'null'
 seo-description: 瞭解如何在「詳細資訊」視圖中工作。
-uuid: cb62f765-9b7f-4a53-8206-99afae2f80d
-contentOwner: 管理員
-content-type: 參考
+uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
 source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
@@ -43,7 +43,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 在這個資產按兩下。
    * 選取資產，然後按一下「詳 **[!UICONTROL 細資料檢視」]**。
-   * 選取資產，然後按一下「檔 **[!UICONTROL 案&gt;詳細資訊」]**。
+   * 選取資產，然後按一下「檔 **[!UICONTROL 案>詳細資訊」]**。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 詳細檢視提供的工具，可用來處理您開啟的資產。可供使用的工具取決於您使用的資產類型，但是詳細檢視一定會提供下列功能:
 
-* **用於發佈的項**&#x200B;目按一下名 **[!UICONTROL 稱左側的「發佈」圖示，或按一下「檔]** 案&gt;發佈 **[!UICONTROL 」或「檔]** 案&gt;取消發佈 ****」。
+* **用於發佈的項**&#x200B;目按一下名 **[!UICONTROL 稱左側的「發佈」圖示，或按一下「檔]** 案>發佈 **[!UICONTROL 」或「檔]** 案>取消發佈 ****」。
 
 * **重新命名資產**&#x200B;選取名稱並輸入新名稱。
 
@@ -67,7 +67,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 * **編輯和新增關鍵字**&#x200B;選擇關鍵字並視需要新增或移除關鍵字。 請參閱[增加或編輯關鍵字](/help/viewing-adding-exporting-metadata.md)。
 
-* **刪除資產**&#x200B;按一 **[!UICONTROL 下檔案&gt;刪除]**。
+* **刪除資產**&#x200B;按一 **[!UICONTROL 下檔案>刪除]**。
 
 對於性質各異的檔案 (例如影像、影像集及字體)，您可以在詳細檢視中檢視發佈和編輯操作記錄，以及檢查工作詳細資訊。
 
