@@ -2,13 +2,13 @@
 title: 增加章節標記視訊
 seo-title: 增加章節標記視訊
 description: 'null'
-seo-description: 瞭解如何新增章節標記至影片。
-uuid: 4e1e6df-afc6-49d9-ac90-183Fe2 a903 b2
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3 ae5 d96 c
+seo-description: 瞭解如何新增章節標籤至視訊。
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -70,7 +70,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
 1. 在左側的「資產庫」面板中，導覽至要與已上載的章節檔案相關聯的視訊檔案所在的資產資料夾。
-1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**預覽**」&gt;「**檢視器清單**」。
+1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**預覽**」>「**檢視器清單**」。
 1. 在「檢視器清單」表格中，找到命名為「**Univeral_HTML5_Video**」的 HTML5 檢視器，然後執行下列任一操作:
 
    * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**複製 URL**」。
