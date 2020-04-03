@@ -4,10 +4,10 @@ seo-title: 在Dynamic Media Classic中參數化範本
 description: 'null'
 seo-description: 瞭解如何在Dynamic Media Classic中參數化範本
 uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/template-publishing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -17,7 +17,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 # 在Dynamic Media Classic中參數化範本{#parameterizing-a-template-in-scene}
 
-將儲存為Dynamic Media Classic FXG的Illustrator範本上傳至Scene7 Publishing system後，您可以定義其變數元素。 透過在「範本發佈建置」和「範本發佈預覽」畫面中參數化變數元素來執行此操作。Dynamic Media Classic提供工具，可定義圖層上的文字和物件參數，以及它們各自的屬性。 您還可以建立範本的不同版本。
+將儲存為Dynamic Media Classic FXG的Illustrator範本上傳至Scene7 Publishing System後，您可以定義其變數元素。 透過在「範本發佈建置」和「範本發佈預覽」畫面中參數化變數元素來執行此操作。Dynamic Media Classic提供工具，可定義圖層上的文字和物件參數，以及它們各自的屬性。 您還可以建立範本的不同版本。
 
 參數化 FXG 範本後，即可在範本中自訂文字、影像和圖形的可變性。例如，您可以參數化一行文字，以便終端使用者可以透過 Web 使用者介面修改該文字。您可以將空文字欄位定義為變數，以便終端使用者可以在這些欄位中填入個人化文字。您也可以在「動態媒體傳統範本發佈建置」畫面中，將設計元素的屬性和屬性參數化。
 
@@ -34,7 +34,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    此時會開啟「範本發佈」畫面。
 
-1. 選取LRCo\FXG\Welcome_Summit_10 （FXG檔案），然後按一下「建 **立** &gt;范 **本發佈」**。</p>
+1. 選取LRCo\FXG\Welcome_Summit_10 （FXG檔案），然後按一下「建 **立** >范 **本發佈」**。</p>
 
    ![](assets/wp_fxg_edit.png)
 
