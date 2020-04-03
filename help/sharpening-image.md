@@ -4,10 +4,10 @@ seo-title: 銳利化影像
 description: 'null'
 seo-description: 瞭解如何銳利化影像。
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
 source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
@@ -35,9 +35,9 @@ Dynamic Media Classic也建議將銳利化新增至檢視器預設集，然後�
 
 過度銳利化影像會產生光暈效果，或使邊緣線條產生條紋。
 
-您可以遵循最佳實務，在Scene7 Publishing system和Dynamic Media Image Server中最佳化影像銳利化。
+您可以遵循最佳實務，在Scene7 Publishing System和Dynamic Media Image Server中最佳化影像銳利化。
 
-請參 [閱Scene7 Publishing system和Dynamic Media Image Server中銳利化影像的最佳範例](/help/assets/s7_sharpening_images.pdf)。
+請參 [閱Scene7 Publishing System和Dynamic Media Image Server中銳利化影像的最佳範例](/help/assets/s7_sharpening_images.pdf)。
 
 **銳利化影像**
 
@@ -63,7 +63,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 **銳利化** ：調整檔案大小後，會在檔案上執行簡單的銳利化走刀。 此功能類似於 Photoshop 中的「銳利化」濾鏡，且支援所有使用者參數。通常您可以使用此濾鏡或「遮色片銳利化調整」，但不能兩者並用。以最佳做法而言，不建議使用此方法，不過這個方法有助於補償模糊效果。(URL:op_sharpen)
 
-**銳利化遮色片** ：可讓您微調最終縮減取樣影像的銳利化濾鏡效果。 您可以控制效果的飽和度、效果的半徑 (以像素來計算)，以及要忽略的對比臨界值。此效果會使用與 Photoshop 之「遮色片銳利化調整」濾鏡相同的選項。(URL:op_usm)
+**銳利化遮色片** ：可讓您微調最終縮減取樣影像的銳利化濾鏡效果。 您可以控制效果的飽和度、效果的半徑 (以像素來計算)，以及要忽略的對比臨界值。此效果使用的選項與 Photoshop的「遮色片銳利化」濾鏡相同。(URL:op_usm)
 
 選擇以下選項可透過「遮色片銳利化調整」來微調銳利化:
 
@@ -106,7 +106,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 影像預設集可隨時更改和更新。發佈後，以及清除 URL 的快取後，就可以看見對影像預設集更改的結果。
 
-如果您針對大小類別中的每個影像都使用一個預設集，則任何公司管理員都可以更新該影像預設集的定義、重新發佈，並影響每個使用該格式的影像，而不需要更改任何網頁程式碼。最佳實踐就是在網站上根據每一種大小使用一個影像預設集。若要新增影像預設集，請前往「設定 &gt; 應用程式設定 &gt; 影像預設集」。接著，請選擇「增加」或「編輯」現有的預設集。唯一的必填欄位為預設集本身的名稱。但是，每個預設集中都應該包含某個層級的銳利化。
+如果您針對大小類別中的每個影像都使用一個預設集，則任何公司管理員都可以更新該影像預設集的定義、重新發佈，並影響每個使用該格式的影像，而不需要更改任何網頁程式碼。最佳實踐就是在網站上根據每一種大小使用一個影像預設集。若要新增影像預設集，請前往「設定 > 應用程式設定 > 影像預設集」。接著，請選擇「增加」或「編輯」現有的預設集。唯一的必填欄位為預設集本身的名稱。但是，每個預設集中都應該包含某個層級的銳利化。
 
 **JPG 品質**
 
@@ -122,13 +122,13 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 如果未使用影像預設集或要使用 URL 字串通過特定的影像伺服器銳利化通訊協定，則縮減取樣時，影像不會銳利化。不過，發生這種情況時，您可以設定預設銳利化值，這樣就會針對所有影像一律進行某種銳利化。
 
-若要設定您公司的預設銳利化選項，請前往「設定 &gt; 應用程式設定 &gt; 發佈設定 &gt; 影像伺服器」。如果您將「預設重新取樣模式」設為 Sharp2，則縮減取樣時，便永遠會將影像銳利化。
+若要設定您公司的預設銳利化選項，請前往「設定 > 應用程式設定 > 發佈設定 > 影像伺服器」。如果您將「預設重新取樣模式」設為 Sharp2，則縮減取樣時，便永遠會將影像銳利化。
 
 **將銳利化新增至檢視器預設集**
 
 除非您將銳利化影像修飾元增加至預設集，否則小型的初始載入影像可能會看起來柔化，因為該影像是經過縮減取樣以符合檢視器視窗，而未進行銳利化。
 
-在 SPS 中，檢視器預設集 (類似影像預設集) 可讓您將許多選項集中到單一位置，包括外觀選擇和檢視器選項 (例如包含「列印」按鈕或控制縮放動畫的速度)。檢視器預設集與影像預設集位於相同的區段中，在「設定 &gt; 應用程式設定 &gt; 檢視器預設集」下。
+在 SPS 中，檢視器預設集 (類似影像預設集) 可讓您將許多選項集中到單一位置，包括外觀選擇和檢視器選項 (例如包含「列印」按鈕或控制縮放動畫的速度)。檢視器預設集與影像預設集位於相同的區段中，在「設定 > 應用程式設定 > 檢視器預設集」下。
 
 「修飾元」選項則位於所有「eCatalog」、「迴轉」與「自訂縮放檢視器預設集」的「Core 設定」區段下。將 URL 銳利化命令增加至「修飾元」方框後，每次呼叫含有該檢視器預設集的檢視器時，您都可以增加銳利化。
 
