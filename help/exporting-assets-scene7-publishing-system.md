@@ -2,12 +2,12 @@
 title: 從 Scene7 Publishing System 匯出資產
 seo-title: 從 Scene7 Publishing System 匯出資產
 description: 'null'
-seo-description: 瞭解如何從Scene7 Publishing system匯出資產。
+seo-description: 瞭解如何從Scene7 Publishing System匯出資產。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -25,7 +25,7 @@ Dynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
 
 **將資產從 Scene7 Publishing System 匯出**
 
-1. 選取要匯出的資產，然後按一下「**檔案** &gt; **匯出**」。
+1. 選取要匯出的資產，然後按一下「**檔案** > **匯出**」。
 1. 在「匯出選取的資產」視窗中，按一下「**影像選項**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):
 
    * **預設**&#x200B;集（可選）在匯出資產時，選擇影像預設集以設定其格式。 如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
