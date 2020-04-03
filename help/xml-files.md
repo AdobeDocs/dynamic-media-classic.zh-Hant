@@ -3,11 +3,11 @@ title: XML 檔案
 seo-title: XML 檔案
 description: 'null'
 seo-description: 使用 XML 型系統來管理影像和影像資訊的網站可以將 XML 檔案上載至 Scene7 Publishing System。進一步瞭解XML檔案。
-uuid: 6301d042-2040-4408-b816-8f134482 beb7
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-discoiquuid: 16216ce8-a81 f-4efa-8ca6-a985256604 db
+uuid: 6301d042-2040-4408-b816-8f134482beb7
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
