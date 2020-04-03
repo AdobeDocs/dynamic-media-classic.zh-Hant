@@ -2,12 +2,12 @@
 title: ICC 設定檔
 seo-title: ICC 設定檔
 description: 'null'
-seo-description: 瞭解ICC個人檔案。
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648 f726 b
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/support_ files
+seo-description: 瞭解ICC設定檔。
+uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
@@ -31,10 +31,10 @@ ICC (國際色彩聯盟) 設定檔是描述如何正確地將影像檔案從一�
 
 若要檢查 ICC 設定檔，請在瀏覽面板中選取該文件並在詳細檢視中進行顯示。詳細檢視提供有關 ICC 設定檔的以下資訊:
 
-**個人資料類別** ICC(國際色彩聯合協會)定義每個類別以涵蓋應用程式類型。例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
+**描述檔類別** ICC(International Color Consortium)定義每個類別以涵蓋應用程式類型。 例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
 
-**色域類型** 此數字為描述檔的「輸入」色域，由ICC定義。色域類型可定義色域的組件數目和對這些組件的解釋。例如，RGB 是具有三個組件 (紅色、綠色和藍色) 的 色域。色域類型並不定義該色域的特定色彩特性 (例如，原色的色度)。
+**色域類型** ：此數字是ICC所定義的描述檔的「輸入」色域。 色域類型可定義色域的組件數目和對這些組件的解釋。例如，RGB 是具有三個組件 (紅色、綠色和藍色) 的 色域。色域類型並不定義該色域的特定色彩特性 (例如，原色的色度)。
 
-**PCS類型** 此PCS類型為描述檔的「輸出」色彩空間-其描述檔連線空間。例如，色彩設定檔可以將 RGB 轉換成 PCS，然後轉換成 CMYK。
+**PCS類型** ：此PCS類型是配置檔案的「輸出」顏色空間，即其配置檔案連接空間。 例如，色彩設定檔可以將 RGB 轉換成 PCS，然後轉換成 CMYK。
 
 對於有助於標記色彩或影像的輸入、顯示或輸出設定檔，PCS 類型是 XYZ 或 Lab。將該設定檔解釋成在 ICC 規格中定義的相應特定色域。
