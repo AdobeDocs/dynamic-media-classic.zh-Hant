@@ -3,12 +3,12 @@ title: 檢視影像集
 seo-title: 檢視影像集
 description: 'null'
 seo-description: 瞭解如何檢視影像集。
-uuid: bb5b0loe-abc0-4236-ac43-09edb9 be3651
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: 027aa3e0-f085-48ae-loc9-4b805 bdf8 ab
+uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -19,18 +19,18 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 您可以在「預覽」視窗中使用可用預設集來檢視影像集。使用縮放檢視器: 自訂影像集的檢視器預設集。
 
-Dynamic Media Classic隨附預設的檢視器預設集。管理員可以建立或修改檢視器預設集。
+Dynamic Media Classic隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
 ## 為影像集設定縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-image-sets}
 
 您可以建立和自訂檢視器預設集，以符合您的需求。
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 您可以透過下列操作，在「檢視器預設集」畫面上建立或編輯檢視器預設集:
 
-   **建立** 按一下「新增」。在「增加檢視器預設集」對話框中，選擇平台、選擇「縮放檢視器: 自訂」，然後按一下「增加」。您也可以從現有的縮放檢視器預設集開始建立。顯示預設集名稱、加以選取，然後選取「編輯」按鈕。在「設定檢視器」畫面上輸入預設集的新名稱。
+   **建立** ，按一下「新增」。 在「增加檢視器預設集」對話框中，選擇平台、選擇「縮放檢視器: 自訂」，然後按一下「增加」。您也可以從現有的縮放檢視器預設集開始建立。顯示預設集名稱、加以選取，然後選取「編輯」按鈕。在「設定檢視器」畫面上輸入預設集的新名稱。
 
-   **編輯** ：顯示預設集的名稱，然後加以選取，然後按一下 **編輯**。
+   **編輯** ：顯示預設集的名稱，選取它，然後按一下「編 **輯」**。
 
 1. 在「設定檢視器」畫面中選擇選項。
 
@@ -51,7 +51,7 @@ Dynamic Media Classic隨附預設的檢視器預設集。管理員可以建立�
    * 在「資產」視窗上方的工具列右側，按一下「**清單檢視**」。In the Asset window, hover on an asset, then click **Preview**.
    * 在「資產」視窗上方的工具列右側，按一下「**格點檢視**」。在「資產」視窗的資產縮圖視窗中，按一下「**預覽**」。
    * 在「資產」視窗上方的工具列右側，按一下「**詳細檢視**」。在同一工具列上，按一下「**預覽**」。
-   * 在「資產」視窗中選取資產。On the toolbar, click **File** &gt; **Preview**.
+   * 在「資產」視窗中選取資產。On the toolbar, click **File** > **Preview**.
 
 1. (選擇性) 在「預覽」視窗下方的下拉式清單中，選取您要在複製 URL 時套用至資產 URL 的 URL 編碼。
 1. 按一下檢視器連結，即可預覽所選取檢視器的資產。
