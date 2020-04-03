@@ -4,10 +4,10 @@ seo-title: '"快速入門: 視訊"'
 description: 'null'
 seo-description: 簡介和快速入門影片可協助您快速上手使用。
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/類別／視訊
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -17,7 +17,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 # 快速入門: 視訊{#quick-start-video}
 
-Adobe Dynamic Media Classic video是端對端解決方案，可讓您輕鬆發佈高品質的最適化視訊，以便在多種螢幕上串流，包括桌上型電腦、iOS、Android、Blackberry和Windows行動裝置。 最適化視訊集會將以不同位元速率和格式 (如 400 kbps、800 kbps 和 1000 kbps) 編碼之相同視訊的版本分組。桌上型電腦或行動裝置會偵測可用的頻寬。
+Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發佈高品質的最適化視訊，以便在多種螢幕上串流，包括桌上型電腦、iOS、Android、Blackberry和Windows行動裝置。 最適化視訊集會將以不同位元速率和格式 (如 400 kbps、800 kbps 和 1000 kbps) 編碼之相同視訊的版本分組。桌上型電腦或行動裝置會偵測可用的頻寬。
 
 例如，iOS 行動裝置會偵測 3G、4G 或 Wi-Fi 的頻寬。然後，它會自動從最適化視訊集的各種視訊位元速率中選取正確編碼的視訊。視訊會串流至桌上型電腦、行動裝置或平板電腦。
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic video是端對端解決方案，可讓您輕鬆發�
    1. 播放器會選擇低於或等於估計頻寬的最高頻寬資料流。
    1. 播放器僅會考慮80%的可用頻寬。 但是，如果它正在轉換，則其轉換率更高，只有70%，以避免高估，並且必須立即轉換。
 
-如需演算法的相關技術資訊，請 [參閱](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp的演算法邏輯。
+如需相關的技術資訊，請參 [閱演算法](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) (https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)的邏輯。
 
 若要管理單一視訊和最適化視訊集，Dynamic Media Classic支援下列功能：
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic video是端對端解決方案，可讓您輕鬆發�
 
    您可以在下列連結找到支援此視訊格式的 Windows 裝置:
 
-   請參 [閱Windows phone上支援的視訊格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
+   請參 [閱Windows Phone上支援的視訊格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
 
 * 使用Dynamic Media Classic Viewer Presets（動態媒體經典檢視器預設集）播放視訊，包括：
 
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic video是端對端解決方案，可讓您輕鬆發�
 
 使用下列其中一個案例，上載並產生最適化視訊集: 
 
-* **上傳預先編碼的視訊**：如果您的視訊已在Dynamic Media Classic外部編碼，請按一下全域導覽列上的「上傳 **** 」，以瀏覽MP4視訊檔案，並直接上傳至Scene7 Publishing System。 然後，按一下「**建置 &gt; 最適化視訊集**」。瀏覽至視訊檔案。拖放您要的視訊檔案至「最適化視訊集」表格，然後儲存視訊集。
+* **上傳預先編碼的視訊**：如果您的視訊已在Dynamic Media Classic外部編碼，請按一下全域導覽列上的「上傳 **** 」，直接瀏覽MP4視訊檔案並上傳至Scene7 Publishing System。 然後，按一下「**建置 > 最適化視訊集**」。瀏覽至視訊檔案。拖放您要的視訊檔案至「最適化視訊集」表格，然後儲存視訊集。
 * **上傳主要來源視訊**：如果您的視訊未編碼，請按一下全域導覽列上的「上傳 **** 」以上傳主要視訊來源檔案（非MP4），並讓Scene7 Publishing System將它們編碼為MP4檔案。 在「上載工作選項」對話框的「EVideo 選項」底下，選取「**最適化視訊**」。
 
    此優先選項可讓您建立會自動套用正確編碼預設集至視訊的最適化視訊集 (無論是 16:9 還是 4:3)，以符合您所上載之視訊的尺寸。當您送出上載工作時，系統會自動為您建立一個最適化視訊集，內含三個具有正確外觀比例的視訊編碼。
@@ -93,7 +93,7 @@ Adobe Dynamic Media Classic video是端對端解決方案，可讓您輕鬆發�
 
 Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些預先定義的預設集反映了現今最常用的通用視訊編碼設定，並已針對目標螢幕的播放進行了最佳化。
 
-不過，如需進一步的自訂，管理員可以建立「視訊預設集」來自訂視訊的大小和終端使用者的播放體驗。管理員可以在「視訊預設集」頁面中增加及管理視訊預設集，此頁面可從「設定 &gt; 應用程式設定 &gt; 視訊預設集 &gt; 單一編碼預設集」存取。「視訊預設集」頁面可提供增加、編輯、刪除及啟用視訊預設集所需的選項。
+不過，如需進一步的自訂，管理員可以建立「視訊預設集」來自訂視訊的大小和終端使用者的播放體驗。管理員可以在「視訊預設集」頁面中增加及管理視訊預設集，此頁面可從「設定 > 應用程式設定 > 視訊預設集 > 單一編碼預設集」存取。「視訊預設集」頁面可提供增加、編輯、刪除及啟用視訊預設集所需的選項。
 
 請參閱[使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
@@ -107,7 +107,7 @@ Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些�
 
 **選擇性**
 
-檢視器預設集自訂- Dynamic Media Classic提供預先定義的檢視器預設集，以傳送視訊。 這些預設集決定了檢視器的外觀及其播放控制項的工作方式。若要自訂視訊檢視器，管理員可以在「檢視器預設集」頁面中增加及管理檢視器預設集。若要開啟此頁，在 Scene7 Publishing System 右上角中按一下「設定 &gt; 檢視器預設集」。「檢視器預設集」頁面可提供增加、編輯、刪除及啟用檢視器預設集所需的命令。
+檢視器預設集自訂- Dynamic Media Classic提供預先定義的檢視器預設集，以傳送視訊。 這些預設集決定了檢視器的外觀及其播放控制項的工作方式。若要自訂視訊檢視器，管理員可以在「檢視器預設集」頁面中增加及管理檢視器預設集。若要開啟此頁，在 Scene7 Publishing System 右上角中按一下「設定 > 檢視器預設集」。「檢視器預設集」頁面可提供增加、編輯、刪除及啟用檢視器預設集所需的命令。
 
 請參閱[使用視訊檢視器預設集](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
@@ -127,7 +127,7 @@ Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些�
 
 * 顯示網頁內嵌的視訊，這種情況下您應使用「內嵌程式碼」功能。
 
-   若要取得視訊的內嵌程式碼，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中選取該視訊。按一下「預覽 &gt; 檢視器清單」。在表格的「動作」欄下，按一下 `Universal_HTML5_Video` 右邊的「內嵌程式碼」。不允許編輯程式碼。
+   若要取得視訊的內嵌程式碼，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中選取該視訊。按一下「預覽 > 檢視器清單」。在表格的「動作」欄下，按一下 `Universal_HTML5_Video` 右邊的「內嵌程式碼」。不允許編輯程式碼。
 
    按一下「關閉」，然後將內嵌程式碼貼在網頁中。
 
