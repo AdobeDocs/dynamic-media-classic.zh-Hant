@@ -3,12 +3,12 @@ title: 檢視色票集
 seo-title: 檢視色票集
 description: 'null'
 seo-description: 瞭解如何檢視色票集。
-uuid: 80df403b-b03 f-428f-9784-c3 f774567 bd0
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/swetch_ set
-discoiquuid: 48de 8604-bb4-4862-82ee-0c7847 f0 d0 e7
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -19,13 +19,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 可以使用可用預設集在「預覽」視窗中檢視色票集。可使用色票集的「縮放檢視器: 自訂檢視器預設集」。
 
-Dynamic Media Classic隨附預設的檢視器預設集。管理員可以建立或修改檢視器預設集。
+Dynamic Media Classic隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
 ## 為色票集設定縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 您可以建立和自訂檢視器預設集，以符合您的需求。
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 進行以下一項操作:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +51,7 @@ Dynamic Media Classic隨附預設的檢視器預設集。管理員可以建立�
    * 在「資產」視窗上方的工具列右側，按一下「**清單檢視**」。在「資產」視窗中，將游標移至資產上，然後按一下「**預覽**」。
    * 在「資產」視窗上方的工具列右側，按一下「**格點檢視**」。在「資產」視窗的資產縮圖視窗中，按一下「**預覽**」。
    * 在「資產」視窗上方的工具列右側，按一下「**詳細檢視**」。在同一工具列上，按一下「**預覽**」。
-   * 在「資產」視窗中選取資產。On the toolbar, click **File** &gt; **Preview**.
+   * 在「資產」視窗中選取資產。On the toolbar, click **File** > **Preview**.
 
 1. (選擇性) 在「預覽」視窗下方的下拉式清單中，選取您要在複製 URL 時套用至資產 URL 的 URL 編碼。
 1. 按一下檢視器連結，即可預覽所選取檢視器的資產。
