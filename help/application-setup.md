@@ -4,10 +4,10 @@ seo-title: 應用程式設定
 description: 瞭解如何設定Dynamic Media Classic的應用程式區域。
 seo-description: 瞭解如何設定Dynamic Media Classic的應用程式區域。
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/類別／設定
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
 source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
@@ -25,7 +25,7 @@ source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ## 一般設定 {#general-settings}
 
-To open the Application General Settings page, on the Global Navigation bar, click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.
+若要開啟「應用程式一般設定」頁面，請在全域導覽列上按一下「**[!UICONTROL 設定 > 應用程式設定 > 一般設定]**」。
 
 ### 伺服器
 
@@ -47,7 +47,7 @@ To open the Application General Settings page, on the Global Navigation bar, cli
 
 **顯示未發佈資產的URL** 如果您想要Dynamic Media Classic在預覽任何資產時顯示URL，請選取此選項，無論其是否已發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
 
-**允許AIR安裝** ：選取此選項可讓使用者將Scene7 Publishing system案頭版下載至其本機硬碟。 使用者可以從「個人設定」畫面的「桌面版本」區域安裝應用程式。
+**允許AIR安裝** ：選取此選項可讓使用者將Scene7 Publishing System案頭版下載至其本機硬碟。 使用者可以從「個人設定」畫面的「桌面版本」區域安裝應用程式。
 
 AIR 使用者必須手動解除安裝現有應用程式，並從 Scene7 Publishing System 網路版 (在「個人設定」中) 進行重新安裝。在此一次性重新安裝完成後，系統會在伺服器有新版本 Scene7 Publishing System AIR 時提示您升級。Scene7 Publishing System 已與「應用程式更新框架」整合，可簡化升級程序。
 
@@ -59,7 +59,7 @@ For example, suppose you enter an image URL (including image presets or modifier
 
 If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-設定 CDN 失效範本、選取名為「Backpack_B」的影像，然後按一下「**檔案** &gt; **使 CDN 失效**」，便會在「CDN 失效」介面中產生下列 URL:
+設定 CDN 失效範本、選取名為「Backpack_B」的影像，然後按一下「**檔案** > **使 CDN 失效**」，便會在「CDN 失效」介面中產生下列 URL:
 
 `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
@@ -67,7 +67,7 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 選取您的 CDN 失效範本，並進行「使 CDN 失效」要求之後，在使用者介面中會彈出指示器，讓您估計清除快取所需的時間。
 
-同樣地，如果在按一下「**檔案** &gt; **使 CDN 失效**」時於 SPS 之中選取了多個影像，則會在儲存的範本 URL 中參照每個影像。因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，在您從快取選取一或多個影像以使其失效時，URL 便會自動填入介面。
+同樣地，如果在按一下「**檔案** > **使 CDN 失效**」時於 SPS 之中選取了多個影像，則會在儲存的範本 URL 中參照每個影像。因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，當您從快取中選取一或影像以進行失效時，URL會自動填入介面。
 
 請參閱[內容快取](scene7-platform-overview.md#content_caching)。
 
@@ -87,7 +87,7 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 不過，您仍然可以從主視訊或最適化視訊集存取個別編碼的視訊。若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。接著在右側面板中按一下「**編碼的視訊**」，以存取所有「子項」視訊。
 
-您也可以使用「**檔案 &gt; 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Scene7 Publishing System 會自動尋找最適化視訊集的「父項」主視訊，並使用該主視訊作為轉碼的來源視訊。不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
+您也可以使用「**檔案 > 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Scene7 Publishing System 會自動尋找最適化視訊集的「父項」主視訊，並使用該主視訊作為轉碼的來源視訊。不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
 
 請參閱[上載和轉碼視訊](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
@@ -97,13 +97,13 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 >[注意]
 >
->如果您未使用Scene7 Publishing system來上傳和編碼您的視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
+>如果您未使用Scene7 Publishing System來上傳和編碼您的視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
 
 **顯示刷新子資料夾按鈕** 開啟或關閉子資料夾刷新按鈕的顯示。
 
 **Dynamic Media Classic FTP帳戶**
 
-**伺服器** ：列出您的FTP帳戶伺服器。
+**伺服器** 」列出您的FTP帳戶伺服器。
 
 **使用者名稱** ：列出您的FTP帳戶使用者名稱。
 
@@ -161,13 +161,13 @@ Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的 
 
 管理員可以建立匯出資產用的預設集。使用者可以選擇匯出影像時要用的預設集，該預設集同時可將影像重新格式化為管理員指定的規格。
 
-To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
+To open the Image Preset screen, on the Global Navigation bar, click **Setup** > **Image Presets**.
 
 請參閱 [智慧型影像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
 
 ### 建立和編輯「影像預設集」{#creating-and-editing-image-presets}
 
-1. 按一下「**設定** &gt; **影像預設集**」。
+1. 按一下「**設定** > **影像預設集**」。
 1. 建立新預設集，或從現有預設集開始建立:
    * **建立影像預設集** -按一下「 **新增**」。
    * **從現有預設集建立影像預設集** -選取最像您要建立的影像預設集，然後按一下「編輯」。
@@ -254,7 +254,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 **顏色** ：選擇下列選項：
 
-**輸出色彩描述檔** ：選取「使用預設值」，或Scene7 Publishing system上提供的其中一個ICC色彩描述檔。
+**輸出色彩描述檔** ：選取「使用預設值」，或Scene7 Publishing System上提供的其中一個ICC色彩描述檔。
 
 請另參閱 [ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -270,7 +270,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 ### 編輯、移除或停用影像預設集 {#editing-removing-or-deactivating-an-image-preset}
 
-1. 按一下「**設定** &gt; **影像預設集**」。
+1. 按一下「**設定** > **影像預設集**」。
 1. 在「影像預設集」畫面中，選取表格中的預設集，然後執行以下一項操作:
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
@@ -287,7 +287,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **啟用或停用最適化視訊預設集**
 
-1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** &gt; **應用程式設定** &gt; **視訊預設集** &gt; **最適化視訊預設集**」。
+1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**」。
 1. 在「最適化視訊預設集」頁面上，取消選取預設集名稱旁邊的核取方框，以從「上載工作選項」對話框的「eVideo 選項」清單中移除預設集。
 1. 按一下「**關閉**」。
 
@@ -443,7 +443,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->**Flash檢視器停售通知** -自2017年1月31日起，Adobe Scene7 Publishing system正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash檢視器停售通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
@@ -491,7 +491,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media Classic檢視器預設集相容性矩陣 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Scene7 Publishing system正式終止對Flash檢視器平台的支援。
+**Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。
 
 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
@@ -569,7 +569,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 ### 關於「檢視器預設集」畫面 {#about-the-viewer-preset-screen}
 
-在「檢視器預設集」畫面建立和管理檢視器預設集。若要開啟此畫面，請按一下「**設定** &gt; **檢視器預設集**」。
+在「檢視器預設集」畫面建立和管理檢視器預設集。若要開啟此畫面，請按一下「**設定** > **檢視器預設集**」。
 
 「檢視器預設集」畫面提供了執行下列工作的工具:
 
@@ -610,7 +610,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 **增加和編輯檢視器預設集**
 
-1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** &gt; **檢視器預設集**」。
+1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** > **檢視器預設集**」。
 
    您可以篩選預設集的清單。例如，若只要查看視訊檢視器的預設集，請從表格正上方工具列上的「檢視器」下拉式選單中選取「視訊檢視器」。
 
@@ -657,7 +657,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. 在左邊第三個下拉式清單中，選取&#x200B;**所有檢視器**。
 1. 選取您要當做新HTML5檢視器預設集基礎的檢視器預設集。
@@ -687,7 +687,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 **啟用或停用「檢視器預設集」**
 
-1. Choose **Setup** &gt; **Viewer Presets** to open the Viewer Presets screen.
+1. Choose **Setup** > **Viewer Presets** to open the Viewer Presets screen.
 1. 選取或取消選取「作用中」選項，即可啟用或停用檢視器預設集。
 
 ### 複製檢視器預設集的 URL {#copying-the-url-of-a-viewer-preset}
@@ -702,20 +702,20 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側「URL」和「內嵌程式碼」面板中，按一下您要的檢視器右側的「**複製 URL**」。
-   * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
-   * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
-   * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
 ### 複製檢視器預設集的內嵌程式碼 {#copying-the-embed-code-of-a-viewer-preset}
 
 您可使用「內嵌程式碼」功能查看所選「檢視器預設集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。
 
-不可在「內嵌程式碼」對話框中編輯程式碼。
+「內嵌代碼」對話方塊中不允許編 輯代碼 。
 
 **複製檢視器預設集的內嵌程式碼**
 
@@ -723,13 +723,13 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的 URL 面板中，按一下「**內嵌程式碼**」。
-   * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
-   * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
-   * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** &gt; **檢視器清單**」。
+   * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** > **檢視器清單**」。
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
 1. 在「內嵌程式碼」對話框中，按一下「**複製至剪貼簿**」。
@@ -750,7 +750,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 **設定預設檢視器**
 
 1. In the Setup drop-down list, click **Application Setup**.
-1. In the Setup window, in the left pane, expand **Application Setup** &gt; **Viewers**
+1. In the Setup window, in the left pane, expand **Application Setup** > **Viewers**
 1. Click **Default Viewers**.
 1. 在「預設檢視器」視窗中，從每個資產類型下拉式清單中選取您要與資產預覽相關聯的檢視器。
 1. In the lower-right corner of the Default Viewers window, click **Save Settings**.
@@ -764,7 +764,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ### 建立中繼資料檢視 {#creating-a-metadata-view}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. 按一下「**增加**」。
 1. 在「預設集名稱」文字欄位中，輸入檢視的名稱。
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
@@ -776,7 +776,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ### 管理中繼資料檢視 {#managing-metadata-views}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. 請執行下列任一動作:
 
    * 若要預覽檢視，請加以選取。檢視中的欄位會顯示在「預覽」面板中。
@@ -792,7 +792,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ### 建立或編輯中繼資料預設集 {#creating-or-editing-a-metadata-preset}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets** .
 1. 在「中繼資料預設集」面板中，執行下列任一項作業:
 
    * To create a preset, click **Add**. 在「中繼資料範本名稱」文字欄位中，輸入預設集的名稱，然後按一下「中繼資料檢視 **」，然後從下拉式清單中選擇檢視(請參閱** 中繼資料檢視 [](application-setup.md#metadata_views))。
@@ -805,7 +805,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ### 管理中繼資料預設集 {#managing-metadata-presets}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets**.
 1. 請執行下列任一動作:
 
    * 若要預覽預設集，請選取您要預覽的預設集。預設集資訊 (類別和欄位) 會顯示在「預覽」畫面中。
@@ -813,9 +813,9 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ## 使用者定義的欄位 {#user-defined-fields}
 
-媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Scene7 Publishing system中組織資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
+媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Scene7 Publishing System中組織資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
 
-使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您會根據「日期」類型定義「啟動」 *欄位*。 Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 會檢查資產的發佈狀態與發佈操作記錄。如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
+使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您會根據「日期」類型定義「啟動」 *欄位*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 會檢查資產的發佈狀態與發佈操作記錄。如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
 
 >[!NOTE]
 >
@@ -823,11 +823,11 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 >[!NOTE]
 >
->若要使用自訂、使用者定義的欄位搜尋資產，請按一下「**設定**」&gt;「**個人設定**」，然後選取「**搜尋時包含 UDF**」。請參閱[個人設定](personal-setup.md#personal_setup)。
+>若要使用自訂、使用者定義的欄位搜尋資產，請按一下「**設定**」>「**個人設定**」，然後選取「**搜尋時包含 UDF**」。請參閱[個人設定](personal-setup.md#personal_setup)。
 
 ### 建立使用者定義的中繼資料欄位 {#creating-a-user-defined-metadata-field}
 
-1. 按一下「**設定** &gt; **應用程式設定** &gt; **中繼資料** &gt; **使用者定義的欄位**」。
+1. 按一下「**設定** > **應用程式設定** > **中繼資料** > **使用者定義的欄位**」。
 1. 按一下「**增加**」
 1. 在「自訂欄位」對話框中，設定您要的選項。
 
@@ -867,13 +867,13 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 只有 Media Portal 管理員或公司管理員才可以管理使用者定義的欄位。
 
-若要開啟此畫面，請按一下「**設定** &gt; **應用程式設定** &gt; **中繼資料** &gt; **使用者定義的欄位**」。
+若要開啟此畫面，請按一下「**設定** > **應用程式設定** > **中繼資料** > **使用者定義的欄位**」。
 
 **編輯欄位** ：選取欄位，然後按一下「編 **輯」**。
 
 **刪除欄位** ：選取欄位，然後按一下「刪 **除」**。
 
-**啟用欄位** ：按一下以選取或取消選取欄位名稱旁的「作用中」選項。 如果您的角色是公司管理員，這個選項可能不會顯示。由於此選項與MediaPortal相關，您必須在個人設定中選取（開啟）「顯示MediaPortal功能」，以檢視啟動欄位。
+**啟用欄位** ：按一下以選取或取消選取欄位名稱旁的「作用中」選項。 如果您的角色是公司管理員，這個選項可能不會顯示。由於此選項與MediaPortal相關，因此您必須在個人設定中選取（開啟）「顯示MediaPortal功能」，以檢視啟動欄位。
 
 ## 最佳化檔案 {#optimize-files}
 
@@ -881,7 +881,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 Scene7 Publishing System 會搜尋檔案，並僅最佳化先前尚未完整最佳化的影像。
 
-1. 選擇「 **設定** &gt;應用 **程式設定**」，然後選取「最&#x200B;**佳化檔案」**。
+1. 選擇「 **設定** >應用 **程式設定**」，然後選取「最&#x200B;**佳化檔案」**。
 1. Enter information for the optimization job and click **Submit**.
 
    如果您使用超過一家公司，請分別對屬於不同公司的檔案執行最佳化。
@@ -900,8 +900,8 @@ Scene7 Publishing System 會搜尋檔案，並僅最佳化先前尚未完整最�
 
 雖然不需設定預設命名慣例即可使用批次集預設集功能，但最佳實務是，建議您使用預設命名慣例，盡量充分定義要分組至某個集的命名慣例元素，以簡化批次集的建立作業。
 
-1. 按一下「**設定** &gt; **應用程式設定** &gt; **批次集預設集** &gt; **預設命名**」。
-1. 選取「**檢視表單**」或「**檢視器碼**」即可指定您要如何檢視和輸入個別元素的相關資訊。
+1. 按一下「**設定** > **應用程式設定** > **批次集預設集** > **預設命名**」。
+1. 選擇 **「查看表單** 」或「 **查看代碼」** ，以指定要查看的方式並輸入有關每個元素的資訊。
 
    您可以選取「檢視器碼」核取方框，來檢視表格選擇項目旁的規則運算式值建置。如果表單檢視因故對您有所限制，則您可以輸入或變更這些值，以幫助定義命名慣例的元素。如果您的值無法在表單檢視中剖析，則表單欄位的狀態會變成非作用中。
 
@@ -928,7 +928,7 @@ Dynamic Media Classic使用批次集預設集，將共用某些常見資訊或�
 
 **建立批次集預設集**
 
-1. 按一下「**設定** &gt; **應用程式設定** &gt; **批次集預設集** &gt; **批次集預設集**」。「**檢視表單**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
+1. 按一下「**設定** > **應用程式設定** > **批次集預設集** > **批次集預設集**」。「**檢視表單**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中按一下「**增加**」，以啟用畫面右側「詳細資料」面板中的定義欄位。
 1. 在「詳細資料」面板的「預設集名稱」欄位中，輸入預設集的名稱。
 1. 在「批次集類型」下拉式功能表中，選取預設集類型。
@@ -937,7 +937,7 @@ Dynamic Media Classic使用批次集預設集，將共用某些常見資訊或�
 
 1. 進行以下一項操作:
 
-   * 如果您要使用先前在「應用程式設定 &gt; 批次集預設集 &gt; 預設命名」下設定的預設命名慣例，請展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**預設**」。
+   * 如果您要使用先前在「應用程式設定 > 批次集預設集 > 預設命名」下設定的預設命名慣例，請展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**預設**」。
    * 若要在設定預設集時定義命名慣例，請展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**自訂**」。
 
 1. 在「序列」順序中，在Dynamic Media Classic中將影像集分組後，定義影像的順序。 根據預設，您的資產會按照字母順序排列。不過，您可以使用規則運算式以逗號分隔的清單來定義順序。
@@ -971,19 +971,19 @@ spin-03-12
 
 ![](assets/se_batch_set_recipe.png)
 
-迴轉集的共用資產名稱部分的群組會增加到「**符合**」欄位 (反白顯示)。含列與欄的資產名稱的變數部分會分別增加到「**列**」和「**欄**」欄位。
+對spinset的共用資產名稱部分進行分組將添加到「匹 **配** 」欄位 (如突出顯示)。包含行和列的資產名稱的變數部分將分別添加到 **行** 和 **列欄位中** 。
 
-上載並發佈「迴轉集」後，您就可以在「**上載工作選項**」對話框中啟用「**批次集預設集**」之下 2D 迴轉集配置的名稱。
+上傳和發佈回轉集時，您會啟用「上傳工作選項」對話方塊中「批次集預設集」下方所列的2D回轉集 **方式名稱****** 。
 
 **建立批次集預設集以自動產生 2D 迴轉集**
 
-1. 選擇「**設定**」&gt;「**應用程式設定**」&gt;「**批次集預設集**」&gt;「**批次集預設集**」。 「**檢視表單**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
+1. 選擇「**設定**」>「**應用程式設定**」>「**批次集預設集**」>「**批次集預設集**」。 「**檢視表單**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中按一下「**增加**」，以啟用畫面右側「詳細資料」面板中的定義欄位。
 1. 在「詳細資料」面板的「預設集名稱」欄位中，輸入預設集的名稱。
-1. 在「批次集類型」下拉式功能表中，選取「**資產集**」。
+1. 在「批集類型」下拉式功能表中，選擇「資產 **集」**。
 1. 在「子類型」下拉式清單中，選取「**多軸轉旋轉集**」。
 1. 展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**自訂**」。
-1. 使用「**符合**」，並選擇性地使用「**基本名稱**」屬性，定義用來為組成群組的影像資產命名的規則運算式。
+1. 使用「 **比對** 」(Match **)和 (可選) 「基本名稱** 」(Base Name)屬性，定義組成群組之影像資產的命名規則運算式。
 
    例如，您實際的「符合」規則運算式可能看起來如下:
 
