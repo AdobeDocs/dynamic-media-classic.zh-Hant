@@ -4,10 +4,10 @@ seo-title: 使用資產檔案夾
 description: 'null'
 seo-description: 瞭解如何使用資產資料夾。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -27,13 +27,13 @@ Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產�
 
 * **顯示子資料夾**&#x200B;選擇「展開資料夾」表徵圖以顯示資料夾中的子資料夾。 這個圖示位於檔案夾名稱左側。
 
-* **移動資料夾**&#x200B;通過將資料夾拖放到新位置或選擇「檔案」&gt;「移動資料夾」，可以移動資料夾。
+* **移動資料夾**&#x200B;通過將資料夾拖放到新位置或選擇「檔案」>「移動資料夾」，可以移動資料夾。
 
 * **隱藏資料夾**&#x200B;選擇「折疊資料夾」表徵圖可折疊子資料夾。 這個圖示位於檔案夾名稱左側。
 
 * **開啟檔案夾**&#x200B;選取檔案夾，在「瀏覽面板」中顯示其內容。
 
-***提示**:按一下資產庫左側的「展開／收合」控制項，即可隱藏或顯示資產庫。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。*
+***提示&#x200B;**:按一下資產庫左側的「展開／收合」控制項，即可隱藏或顯示資產庫。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。*
 
 ## 建立檔案夾 {#creating-folders}
 
@@ -57,4 +57,4 @@ Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產�
 
 >[!NOTE]
 >
->您無法複製資料夾或資產，因為這麼做會在Scene7 Publishing system上建立重複的資料夾和資產，且不允許複製。
+>您無法複製資料夾或資產，因為這麼做會在Scene7 Publishing System上建立重複的資料夾和資產，且不允許複製。
