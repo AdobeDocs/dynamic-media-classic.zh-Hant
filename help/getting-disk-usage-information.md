@@ -3,11 +3,11 @@ title: 取得磁碟使用量資訊
 seo-title: 取得磁碟使用量資訊
 description: 'null'
 seo-description: 瞭解如何取得磁碟使用資訊。
-uuid: 01361693-53d0-4072-b7 c3-f284631 d28 cf
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-discoiquuid: 6763546d-83c4-42dc-879f-6bbc8bbc8b56482
+uuid: 01361693-53d0-4072-b7c3-f284631d28cf
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
