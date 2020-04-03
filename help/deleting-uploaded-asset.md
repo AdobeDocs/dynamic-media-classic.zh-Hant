@@ -2,12 +2,12 @@
 title: 刪除上載的資產
 seo-title: 刪除上載的資產
 description: 'null'
-seo-description: 瞭解如何刪除上傳的資產。
-uuid: edd2b688-c377-4be1-ba16-d2 d2 e6 f716 d
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087 eeffb
+seo-description: 瞭解如何刪除已上傳的資產。
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
