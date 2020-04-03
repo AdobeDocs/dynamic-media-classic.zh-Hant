@@ -4,10 +4,10 @@ seo-title: 管理垃圾桶檔案夾
 description: 'null'
 seo-description: 瞭解如何管理垃圾筒資料夾。
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -43,7 +43,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 1. 按一下「垃圾筒」圖示以開啟「垃圾筒」檔案夾。
 1. 選取您要還原的資產。
-1. 選擇「檔案 &gt; 從垃圾桶還原」。
+1. 選擇「檔案 > 從垃圾桶還原」。
 
 ## 永久刪除垃圾桶檔案夾中的資產 {#permanently-deleting-assets-in-the-trash-folder}
 
@@ -51,9 +51,9 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 若要永久刪除「垃圾桶」檔案夾中的資產，請選取「垃圾桶」圖示 ，以開啟「垃圾桶」檔案夾。然後刪除檔案夾中的個別資產或所有資產:
 
-* **刪除個別資產** ：選取您要永久刪除的資產，然後按一下「檔 **[!UICONTROL 案&gt;從垃圾桶清空」]**。
+* **刪除個別資產** ：選取您要永久刪除的資產，然後按一下「檔 **[!UICONTROL 案>從垃圾桶清空」]**。
 
-* **刪除所有資產** ，按一 **[!UICONTROL 下「檔案&gt;空白垃圾桶]**」。
+* **刪除所有資產** ，按一 **[!UICONTROL 下「檔案>空白垃圾桶]**」。
 
 >[!MORELIKETHIS]
 >
