@@ -4,11 +4,11 @@ seo-title: Adobe Dynamic Media Classic平台概觀
 description: 'null'
 seo-description: Dynamic Media Classic平台和工作流程程式的概觀。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/getting_started
-discoiquuid: 2b134cfa-7f46-4f5f-959e-b30ae610bb9
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
@@ -25,7 +25,7 @@ Dynamic Media Classic工作流程的主要步驟為：
 
 * **上傳及管理您的資產**&#x200B;將媒體資產上傳至SPS。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。如果您安裝 Adobe Scene7 Publishing System 桌面應用程式，便可以將檔案和檔案夾從桌面拖曳至上載檔案夾，加以上載。
 
-* **建立豐富式媒**&#x200B;體建立不同的資產設定，例如eCatalogs、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。 如需詳細資訊，請參閱關於多媒體。
+* **建立豐富式媒**&#x200B;體建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。 如需詳細資訊，請參閱關於多媒體。
 
 * **發佈和管理** Publish資產至Dynamic Media Classic Saas網路，並在資產發佈時監控資產狀態、管理使用者權限並維護安全性。
 
