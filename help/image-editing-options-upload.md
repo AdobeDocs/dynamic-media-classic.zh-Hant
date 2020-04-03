@@ -4,10 +4,10 @@ seo-title: 上載時的影像編輯選項
 description: 'null'
 seo-description: 瞭解上傳時可用的影像編輯選項。
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
 source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
@@ -56,7 +56,7 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 * **保留原始色域**&#x200B;保留原始色域。
 
-* **「自訂自」&gt;「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
+* **「自訂自」>「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
