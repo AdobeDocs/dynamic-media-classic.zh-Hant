@@ -4,10 +4,10 @@ seo-title: 編輯影像
 description: 'null'
 seo-description: 瞭解如何編輯影像。
 uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
