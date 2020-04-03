@@ -4,8 +4,8 @@ seo-title: 設定 eCatalog 檢視器預設集
 description: 'null'
 seo-description: 瞭解如何設定eCatalog檢視器預設集。
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
@@ -24,7 +24,7 @@ eCatalog 檢視器預設集提供許多設定，可用來在頁面之間移動�
 
 遵循下列步驟即可建立 eCatalog 檢視器預設集 (您必須是管理員):
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 如要建立 eCatalog 檢視器預設集，您可以在「檢視器預設集」畫面中從頭開始建立，或從現有 eCatalog 檢視器預設集開始:
 
    * **建立eCatalog檢視器預設集**&#x200B;按一下「新增」。 In the Add Viewer Preset dialog box, choose a platform, choose eCatalog Viewer, then click **Add**.
