@@ -4,10 +4,10 @@ seo-title: 多媒體
 description: 'null'
 seo-description: 瞭解您可在Dynamic Media Classic中使用的各種工具，以建立豐富型媒體。
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/getting_started
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
