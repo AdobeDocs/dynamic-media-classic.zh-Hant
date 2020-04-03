@@ -4,10 +4,10 @@ seo-title: 「快速入門：eCatalogs」
 description: 'null'
 seo-description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/ecatalogs
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -39,7 +39,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具&gt;一般&gt; CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+>如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具>一般> CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
 您現在可以在SPS中製作eCatalog。
 
@@ -89,7 +89,7 @@ Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folde
 
 終端使用者會在 eCatalog 檢視器中檢視您的 eCatalog。如果您是管理員，便可以設定 eCatalog 檢視器。您可以變更其外框色彩，並選取新的「外觀」，讓 eCatalog 擁有品牌特色。Dynamic Media Classic隨附數種「最佳實務」eCatalog檢視器預設集。 您可以選擇其中一個預設集，來顯示 eCatalog。如果您是管理員，也可以建立自己的 eCatalog 檢視器預設集。
 
-若要建立eCatalog檢視器預設集，請在全域導覽列上按一下「設定」 **** ，然後選 **[!UICONTROL 擇「檢視器預設集」]**。 然後按一 **[!UICONTROL 下「新增]**」、選擇平台，然後按一 **[!UICONTROL 下「eCatalog &gt;檢視器」]**。
+若要建立eCatalog檢視器預設集，請在全域導覽列上按一下「設定」 **** ，然後選 **[!UICONTROL 擇「檢視器預設集」]**。 Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
 
 請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
