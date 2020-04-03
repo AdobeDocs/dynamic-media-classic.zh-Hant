@@ -3,12 +3,12 @@ title: DOM 操作
 seo-title: DOM 操作
 description: 'null'
 seo-description: 瞭解DOM控制。
-uuid: 275cd49d-2a55-41f9-80b0-e147 d0 cd2907
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/category/範本發佈
-discoiquuid: 890ca93e-3146-4347-864b-bd5 e94037038
+uuid: 275cd49d-2a55-41f9-80b0-e147d0cd2907
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 890ca93e-3146-4347-864b-bd5e94037038
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -19,9 +19,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 DOM (文件物件模型) 操作是一種透過直接控制設計檔案的 XML 代碼來編輯設計檔案的方法。DOM 操作可使您更佳控制變數設計元素 (包括變更其內容和外觀)；您甚至可以根據需要建立新元素。
 
-Dynamic Media Classic可讓您在發佈範本後，透過URL命令操作Dynamic Media Classic FXG範本的DOM。FXG 範本中的設計元素是透過 URL 傳遞命令來進行處理。這樣您就可以動態處理屬性以及對圖形增加屬性。
+Dynamic Media Classic可讓您在範本發佈後，透過URL指令來控制Dynamic Media Classic FXG範本的DOM。 FXG 範本中的設計元素是透過 URL 傳遞命令來進行處理。這樣您就可以動態處理屬性以及對圖形增加屬性。
 
-若要使用DOM控制，您可以建立s7：您可以在Illustrator檔案中使用Elementis，然後將它轉換為Dynamic Media Classic FXG檔案並將它上傳至SPS。
+若要使用DOM控制，請先在Illustrator檔案中建立s7:elementID，再將它轉換為Dynamic Media Classic FXG檔案並上傳至SPS。
 
 >[!NOTE]
 >
@@ -54,8 +54,8 @@ Dynamic Media Classic可讓您在發佈範本後，透過URL命令操作Dynamic 
 在 Illustrator 中按照以下步驟為物件建立 s7:elementID:
 
 1. 選取物件。
-1. 按一下 **「視窗** &gt; **圖層**」。
-1. 在「圖層」面板中，將物件圖層命名為s7：OpenEnd.To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. 以下是 s7:elementID 物件圖層名稱的範例:
+1. 按一 **下「視窗** > **圖層」**。
+1. 在「圖層」面板中，使用s7:elementID為物件圖層命名。 To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. 以下是 s7:elementID 物件圖層名稱的範例:
 
    `id:BackgroundColor`
 
@@ -65,7 +65,7 @@ Dynamic Media Classic可讓您在發佈範本後，透過URL命令操作Dynamic 
 
 ## 發佈 FXG 範本 {#publish-fxg-templates}
 
-發佈您的FXG範本會將它放置在動態媒體Classic伺服器上，可供您的網站和應用程式使用。在發佈過程期間，Scene7 Publishing System 會啟用您的網站或應用程式所需的 URL。
+發佈您的FXG範本會將它放在Dynamic Media Classic伺服器上，供您的網站和應用程式使用。 在發佈過程期間，Scene7 Publishing System 會啟用您的網站或應用程式所需的 URL。
 
 >[!NOTE]
 >
@@ -73,10 +73,10 @@ Dynamic Media Classic可讓您在發佈範本後，透過URL命令操作Dynamic 
 
 ### 將 FXG 範本標記為發佈 {#mark-fxg-templates-for-publish}
 
-範本及其所有支援檔案必須標示為發佈，以便放置在動態媒體影像伺服器上。
+範本及其所有支援檔案都必須標籤為發佈，才能放在動態媒體影像伺服器上。
 
 1. 在瀏覽面板中，選取 FXG 範本以及所用的所有圖形、影像和字型。
-1. 按一下 **「標記為發佈**」。
+1. 按一 **下「標籤為發佈」**。
 
 ### 發佈 FXG 範本 {#publish-your-fxg-template}
 
@@ -92,7 +92,7 @@ Dynamic Media Classic可讓您在發佈範本後，透過URL命令操作Dynamic 
 
 | 修飾元/值 | 說明 |
 |--- |--- |
-| markOverlowingTextFrame=0,1 | 值為 1 時表示顯示文字流量指示器。預設為 0。(雖然預設為 0，但是 SPS 中的文字溢出指示器始終處於啟用狀態。) 請注意 markOverflowingTextFrame 修飾元區分大小寫。 |
+| markOpfrowingTextFrame=0,1 | 值為 1 時表示顯示文字流量指示器。預設為 0。(雖然預設為 0，但是 SPS 中的文字溢出指示器始終處於啟用狀態。) 請注意 markOverflowingTextFrame 修飾元區分大小寫。 |
 
 >[!MORELIKETHIS]
 >
