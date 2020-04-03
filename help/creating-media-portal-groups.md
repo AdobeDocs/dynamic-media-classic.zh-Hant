@@ -3,12 +3,12 @@ title: 建立和管理 Media Portal 群組
 seo-title: 建立和管理 Media Portal 群組
 description: 'null'
 seo-description: 瞭解如何建立和管理Media Portal群組。
-uuid: 23f360e1-ddcb-491b-ab9 f-428f3 ac9 c316
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/media_ Portal
-discoiquuid: 91524d36-b77 a-4dc4-acba-a7 bd85297 e98
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 增加群組 {#adding-a-group}
 
-1. 按一下「**設定** &gt; **Media Portal 設定** &gt; **群組**」。
+1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 按一下「**增加**」。
 1. 在「增加群組」對話框的「群組名稱」方框中，輸入群組的名稱，然後按一下「**增加群組**」。
 1. 您也可以選取使用者名稱旁的方框，將該使用者增加到新群組。
@@ -47,7 +47,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 為群組建立資產存取權限 {#establishing-asset-access-permissions-for-a-group}
 
-1. 按一下「**設定** &gt; **Media Portal 設定** &gt; **群組**」。
+1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 在「群組清單」頁面上，執行下列其中一個動作:
 
    * 若要增加群組並指定權限，請按一下「**增加**」。 在「增加群組」對話框中輸入群組的名稱，按一下「**增加群組**」按鈕，然後將使用者增加到該群組。
@@ -67,7 +67,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
    | 重新命名檔案 |  | X |  |
    | 刪除檔案 |  |  | X |
 
-1. 按一下「**關閉**」。
+1. 按一下 **關閉**。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 另請參閱[指定 Media Portal 使用者可使用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-1. 按一下「**設定** &gt; **Media Portal 設定** &gt; **群組**」。
+1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 在「群組清單」頁面上，執行下列其中一個動作:
 
    * 若要增加群組並指定該群組可使用的影像預設集，請按一下「**增加**」。在「增加群組」對話框中輸入群組的名稱，按一下「**增加群組**」按鈕，然後將使用者增加到該群組。
@@ -91,10 +91,10 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 編輯和刪除群組 {#edit-and-delete-groups}
 
-1. 按一下「**設定** &gt; **Media Portal 設定** &gt; **群組**」。
+1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 在「群組清單」頁面上，選取某個群組，然後加以編輯或刪除。
 
-   **編輯群組** 按一下「編輯」，然後在「編輯群組」對話方塊中選擇選項。
+   **編輯群組** 「按一下編輯」，然後在「編輯群組」對話方塊中選擇選項。
 
-   **刪除群組** 按一下刪除。
+   **刪除群組按一下** 「刪除」。
 
