@@ -4,11 +4,11 @@ seo-title: 建立範本參數
 description: 'null'
 seo-description: 瞭解如何建立範本參數。
 uuid: d17168a8-4776-4761-b022-8258d5997604
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PKK/categories/template_ basics
-discoiquuid: d263f041-5a0d-4c4f-9266-af51 a5 e2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 在「圖層」清單中，選取要建立參數的圖層名稱旁邊的「參數」按鈕 。將開啟「參數」畫面。它會列出圖層上每個參數的名稱、值及類型。
 1. 對於要包括在範本影像中的每個參數，選取其名稱旁邊的「開啟」選項。
-1. 選取 **「關閉** 」以退出參數畫面。
+1. 選擇 **關閉** ，退出「參數」螢幕。
 
 >[!NOTE]
 >
