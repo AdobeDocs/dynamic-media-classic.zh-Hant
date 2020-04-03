@@ -4,10 +4,10 @@ seo-title: 建立提案集
 description: 'null'
 seo-description: 瞭解如何建立選件集。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/target_classic_integration
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -37,7 +37,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 * **影像**&#x200B;您可以組合選件集的影像。 每張影像在集合中包含不同的選件。
 
-* **影像範本**&#x200B;您可以在Dynamic Media Classic中使用「建立&gt;範本基礎」指令，將影像範本參數化。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像範本**&#x200B;您可以在Dynamic Media Classic中使用「建立>範本基礎」指令，將影像範本參數化。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
 
 * **視訊**&#x200B;您可以組合選件集的視訊。 每個視訊是提案集中的一個不同提案。
 
@@ -55,7 +55,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 **若要建立包含參數化範本的選件集**
 
 1. 選取範本或橫幅。
-1. Click **Build** &gt; **Target Classic Offer Set**.
+1. Click **Build** > **Target Classic Offer Set**.
 
    「Target Classic選件集」頁面會列出選件集中的選件。 清單中的第一項是物件。
 
@@ -89,9 +89,9 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 1. 為選件集組合影像或視訊。 從「Target Classic選件集」畫面或「格點檢視」或「清單檢視」中開始，然後使用下列其中一種方法：
 
-   * **Target Classic選件集螢幕按一**&#x200B;下「建立&gt; Target Classic選件集」。 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Target Classic選件集螢幕按一**&#x200B;下「建立> Target Classic選件集」。 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   * **格點或清單檢視**&#x200B;選取影像或視訊，然後按一下「建立&gt;目標傳統選件集」。
+   * **格點或清單檢視**&#x200B;選取影像或視訊，然後按一下「建立>目標傳統選件集」。
 
 1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或視訊。
 
@@ -128,7 +128,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
    * **影像和視訊**&#x200B;將影像或視訊拖曳至Target Classic選件集頁面。
    >[!NOTE]
    >
-   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Classic並移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Scene7 Publishing system中刪除，這需要登入Target Classic，而不是從Target Classic中。
+   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Classic並移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Scene7 Publishing System中刪除，這需要登入Target Classic，而不是從Target Classic中。
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. 按一下「**儲存**」，選取存放區檔案夾，輸入集名稱，然後按「**儲存**」。
@@ -142,7 +142,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 **刪除提案集**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個提案集。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
 >[!MORELIKETHIS]
 >
