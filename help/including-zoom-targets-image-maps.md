@@ -3,12 +3,12 @@ title: 將縮放目標和影像地圖納入影像集
 seo-title: 將縮放目標和影像地圖納入影像集
 description: 'null'
 seo-description: 瞭解如何在影像集中加入縮放目標和影像地圖。
-uuid: 1f5a00fe-3cc2-4668-a051-59e0 be50 b35
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922廣告
+uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
