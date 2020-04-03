@@ -2,13 +2,13 @@
 title: 系統需求
 seo-title: 系統需求
 description: 'null'
-seo-description: '瞭解使用Dynamic Media Classic最佳體驗的系統需求。 '
-uuid: 8dfc925b-7350-41AF-9207-3b2a743c0998
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/ducing_ adobe_ scene7
-discoiquuid: 27278fef-8b0e-41cd-b393-3a4 c3625 d5 c0
+seo-description: '瞭解使用Dynamic Media Classic提供最佳體驗的系統需求。 '
+uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -23,7 +23,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 * 必須具備 3 GB 或以上的 RAM (建議為 4 GB 或以上)。
 * 彩色螢幕。
 * 支援全彩 1280x1024 或以上之解析度的視訊卡。
-* 啓用JAVA的瀏覽器。
+* 啟用JAVA的瀏覽器。
 * Windows 支援瀏覽器: Internet Explorer 9.0 或更新版本；Firefox 23 或更新版本。
 * Macintosh 支援瀏覽器: Safari 6.0 或更新版本、Firefox™ 23 或更新版本。
 
