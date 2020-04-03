@@ -67,7 +67,7 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
       * `threshold` （0-255，效果敏感性）。
 
-         這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，同時會增加高反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。
+         此參數可決定銳化像素與周圍區域的差異程度，之後才會被視為邊緣像素，濾鏡會銳化這些像素。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
       如需如何設定這三個參數的詳細資訊，包括使用濾鏡的最佳實踐，請參閱以下資源: 
 
       銳利化影像的Dynamic Media Classic [說明主題](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
@@ -124,7 +124,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 在實驗時，您可能也會發現以下的一般性建議對於您的工作流程最佳化很實用: 
 
-* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing system的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
+* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing System的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
 * 請記住，您可以將「動態媒體影像伺服」指令群組至影像預設集。 An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
 * Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用銳利化影像。 在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
 
