@@ -2,13 +2,13 @@
 title: '"快速入門: 色票集"'
 seo-title: '"快速入門: 色票集"'
 description: 'null'
-seo-description: 簡介和快速入門的色票集，協助您快速上手使用。
-uuid: 6f8a95e8-e82 a-477f-9f21-d2 b7 b511 f8 ae
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/swetch_ set
-discoiquuid: 1ea70fdf-3cbd-409c-ae7 d-06286c99 c6 ac
+seo-description: 色票集簡介和快速入門，可協助您快速上手使用。
+uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,11 +17,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 快速入門: 色票集{#quick-start-swatch-sets}
 
-動態媒體傳統色票集為使用者提供整合的檢視體驗。在動態的色票集檢視器中，只需按一下縮圖，使用者即可看到以不同色彩、材質、紋理、飾面或織物演算的項目。
+動態媒體經典色票集為使用者提供整合的檢視體驗。 在動態的色票集檢視器中，只需按一下縮圖，使用者即可看到以不同色彩、材質、紋理、飾面或織物演算的項目。
 
 **快速入門**
 
-此色票集快速啓動可使用動態媒體Classic中的色票集技術快速啓動和執行。
+此色票集快速入門功能是專為在Dynamic Media Classic中使用色票集技術快速啟動及執行而設計。
 
 **1. 上載影像和色票檔案**
 
@@ -31,11 +31,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **2. 建立色票集**
 
-若要建立色票集，請按一下「建置 &gt; 色票集」。在「色票集」畫面上，拖曳影像和色票至畫面上。請參閱[建立色票集](creating-swatch-set.md#creating-a-swatch-set)。
+若要建立色票集，請按一下「建置 > 色票集」。在「色票集」畫面上，拖曳影像和色票至畫面上。請參閱[建立色票集](creating-swatch-set.md#creating-a-swatch-set)。
 
 **3. 設定色票集檢視器預設集**
 
-管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附於每個多媒體類型的預設檢視器預設集。使用「縮放檢視器: 自訂 &gt; 影像集/色票」預設集檢視色票集。
+管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
@@ -47,7 +47,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **5. 發佈色票集**
 
-發佈色票集會將它置於動態媒體Classic伺服器，並啓動URL字串。
+「發佈色票集」會將其置於Dynamic Media Classic伺服器上並啟動URL字串。
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -55,6 +55,6 @@ Click the **Mark For Publish** icon to the left of its name in the Browse Panel.
 
 **6. 將色票集連結至網頁**
 
-動態媒體Classic會建立「色票集」的URL呼叫，並在您發佈後啓動它們。您可以從「預覽」畫面複製這些 URL。
+Dynamic Media Classic會建立色票集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
 選取「色票集」，然後選取「預覽」按鈕。「預覽」畫面開啟。選取一個色票集檢視器預設集，然後選取「複製 URL」按鈕。請參閱[將色票集連結至網頁](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
