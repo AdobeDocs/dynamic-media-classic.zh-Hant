@@ -2,12 +2,12 @@
 title: 處理 PDF
 seo-title: 處理 PDF
 description: 'null'
-seo-description: 瞭解如何在Dynamic Media Classic中處理PDF。
-uuid: 26d70d28-9393-49b1-9051-d70456 deca67
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/master_ files
+seo-description: 瞭解如何在Dynamic Media Classic中使用PDF。
+uuid: 26d70d28-9393-49b1-9051-d70456deca67
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
@@ -17,7 +17,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 # 處理 PDF{#working-with-pdfs}
 
-PDF(可攜式文件格式)檔案最常用於Dynamic Media Classic，以建立eCatalogs。當您上傳PDF檔案時，Dynamic Media Classic會依照預設點陣化頁面，使頁面能夠用來建立豐富媒體。
+PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCatalog。 當您上傳PDF檔案、Dynamic Media Classic點陣化或拼貼時，預設會顯示頁面，讓這些頁面可用來建立多媒體。
 
 ## PDF 上載選項 {#pdf-upload-options}
 
@@ -29,13 +29,13 @@ PDF(可攜式文件格式)檔案最常用於Dynamic Media Classic，以建立eCa
 
 「處理」選項如下:
 
-**點陣化** (預設)套用PDF檔案中的頁面，並將向量圖形轉換為點陣圖影象。選擇此選項以建立 eCatalog。
+**點陣化** （預設值）將PDF檔案中的頁面分割，並將向量圖形轉換為點陣圖影像。 選擇此選項以建立 eCatalog。
 
-**擷取搜尋字詞** 從PDF檔案擷取字詞，以便在eCatalog檢視器中依關鍵字搜尋檔案。
+**擷取搜尋字詞** ：從PDF檔案擷取字詞，讓eCatalog檢視器中的關鍵字可搜尋檔案。
 
-**摘取連結** 摘取PDF檔案中的連結，並將其涵蓋至eCatalog檢視器中使用的影像地圖。
+**摘取連結** ：從PDF檔案擷取連結，並將它們轉換為eCatalog檢視器中使用的影像地圖。
 
-**自動產生eCatalog具有多個頁面PDF** 自動從PDF檔案建立eCatalog。上載 PDF 檔案後會命名 eCatalog。(僅在您上載 PDF 檔案並將其點陣化時，才可使用此選項。)
+**自動產生包含多頁的eCatalog PDF** Automatically creates an eCatalog from the PDF file. 上載 PDF 檔案後會命名 eCatalog。(僅在您上載 PDF 檔案並將其點陣化時，才可使用此選項。)
 
 **解析度**
 
@@ -45,23 +45,23 @@ PDF(可攜式文件格式)檔案最常用於Dynamic Media Classic，以建立eCa
 
 選取「色域」選單，並為 PDF 檔案選擇色域。大多數的 PDF 檔案都會有 RGB 和 CMYK 色彩影像。RGB 色域較為適合線上檢視。
 
-**偵測自動** 保留PDF檔案的色域。
+**自動偵測** ：保留PDF檔案的色域。
 
-**強制隨著RGB** 轉換為RGB色域。
+**強制為RGB** 轉換為RGB色域。
 
-**強制隨CMYK** 轉換為CMYK色域。
+**強制為CMYK** 轉換為CMYK色域。
 
-**「灰階」(Force** as Grayscale)轉換為灰階色域。
+**強制為灰階** ，轉換為灰階色域。
 
 **色彩設定檔**
 
 選擇「色彩設定檔」選項:
 
-**轉換為sRGB** 轉換為sRGB(標準紅色綠色藍色)。sRGB 是在網頁上顯示影像時建議使用的色域。
+**轉換為sRGB** ，轉換為sRGB（標準紅綠藍）。 sRGB 是在網頁上顯示影像時建議使用的色域。
 
-**保留原始色域** 保留原始色域。
+**保留原始色域** ，保留原始色域。
 
-**自訂從&gt;「開啓** 」功能表，您可以選擇「轉換自」和「轉換為色域」。您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
+**「自訂自」>「至** 」開啟功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -70,17 +70,17 @@ PDF(可攜式文件格式)檔案最常用於Dynamic Media Classic，以建立eCa
 1. 若要在上載 PDF 檔案時自動裁切其中的空白區域像素，請選取「裁切」選單並選擇「修剪」。
 1. 指定下列選項:
 
-   **根據** 顏色或透明度選擇裁切以選擇裁切：
+   **修剪離開根據** ：選擇是根據顏色還是透明度裁切：
 
-   **顏色** 選擇顏色選項。接著選取「邊角」選單，然後選擇對所要裁切之色彩呈現最佳空白區域色彩的 PDF 邊角。
+   **顏色** ：選擇顏色選項。 接著選取「邊角」選單，然後選擇對所要裁切之色彩呈現最佳空白區域色彩的 PDF 邊角。
 
-   **透明度** 選擇透明度選項。
+   **透明度** ：選擇「透明度」選項。
 
-   **容許功能** 拖曳滑桿以指定從到1的容限：
+   **公差** ：拖動滑塊以指定從0到1的公差：
 
-   **根據顏色** 修剪只需將像素與您在PDF角落中選取的顏色完全相符，即可指定裁切像素。數值越接近 1，允許的色彩差異就越大。
+   **根據顏色修剪** ：指定0，只有在像素完全符合您在PDF角落選取的顏色時，才可裁切像素。 數值越接近 1，允許的色彩差異就越大。
 
-   **以透明度為基礎的修剪** 只會在完全透明時指定裁切像素；數字接近1可提高透明度。
+   **根據透明度修剪** ：指定0，僅在像素完全透明時才裁切像素；接近1的數字使得透明度更高。
 
 ## 從 PDF 頁面邊緣裁切 {#cropping-from-the-sides-of-pdf-pages}
 
