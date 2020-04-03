@@ -3,12 +3,12 @@ title: 在 eCatalog 檢視器中預覽 eCatalog
 seo-title: 在 eCatalog 檢視器中預覽 eCatalog
 description: 'null'
 seo-description: 瞭解如何在eCatalog檢視器中預覽eCatalog。
-uuid: fdf2129-e558-4f27-b30 f-564126b6 b3 f
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/ecatalogs
-discoiquuid: 92022dce-6534-4d93-befe-9dd2818 c7 b41
+uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
@@ -29,9 +29,9 @@ source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 1. 在「資產庫」面板左方，導覽至含有您要使用 eCatalog 檢視器來預覽的「資產」檔案夾。
 1. 進行以下一項操作:
 
-   * 在「資產」視窗上方的工具列右側，按一下「格點檢視」。在「資產」視窗中的縮圖影像下方，按一下「預覽 &gt; 檢視器清單」。
-   * 在「資產」視窗上方的工具列右側，按一下「清單檢視」。在「資產」視窗中選取資產，然後按一下縮圖影像右側的「預覽 &gt; 檢視器清單」。
-   * 在「資產」視窗上方的工具列右側，按一下「詳細檢視」。在同一個工具列上，按一下「預覽 &gt; 檢視器清單」。
+   * 在「資產」視窗上方的工具列右側，按一下「格點檢視」。在「資產」視窗中的縮圖影像下方，按一下「預覽 > 檢視器清單」。
+   * 在「資產」視窗上方的工具列右側，按一下「清單檢視」。在「資產」視窗中選取資產，然後按一下縮圖影像右側的「預覽 > 檢視器清單」。
+   * 在「資產」視窗上方的工具列右側，按一下「詳細檢視」。在同一個工具列上，按一下「預覽 > 檢視器清單」。
 
 1. 在「檢視器清單」視窗的表格中，按一下檢視器連結以預覽所選檢視器中的資產。
 1. 關閉顯示的檢視器即可返回「檢視器清單」畫面。
