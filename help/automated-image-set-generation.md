@@ -2,13 +2,13 @@
 title: 自動產生影像集
 seo-title: 自動產生影像集
 description: 'null'
-seo-description: '瞭解如何自動化產生影像集。 '
-uuid: bd4b3252-3e77-4230-9684-cd6 d28 b8 ejank
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: 1a9b525e-6120-44c7-b11 a-e56 bfb7 cd017
+seo-description: '瞭解如何自動產生影像集。 '
+uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ Last Modified Date:
 
 **自動產生影像集**
 
-1. 按一下「**檔案** &gt; **產生集**」。
+1. 按一下「**檔案** > **產生集**」。
 1. 在「產生集」對話框中，指定工作名稱。
 
    根據預設，系統會為工作命名，指出該工作屬於產生的工作以及該工作產生的時間。
