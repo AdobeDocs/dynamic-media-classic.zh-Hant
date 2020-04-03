@@ -2,13 +2,13 @@
 title: 使用暈映、視窗涵蓋範圍和封包檔
 seo-title: 使用暈映、視窗涵蓋範圍和封包檔
 description: 'null'
-seo-description: 瞭解如何處理暈映、視窗封面和櫥櫃檔案。
-uuid: a738791c-4be-4286-abbd-fae7 a0 e4 bb73
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/master_ files
-discoiquuid: 42df9adc-e563-4de2-87a4-bd40 cef77 cdf
+seo-description: 瞭解如何使用暈映、視窗覆蓋和檔案櫃檔案。
+uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,9 +17,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 使用暈映、視窗涵蓋範圍和封包檔{#working-with-vignette-window-covering-and-cabinet-files}
 
-Dynamic Media Classic影像製作工具的使用者可以在Scene中使用暈映(VNT檔案)、視窗封面(VNW檔案)和櫥櫃(VNC檔案)。您無法在 Scene7 Publishing System 建立或編輯這些檔案。
+使用Dynamic Media Classic影像製作工具的使用者可在Scene 7中使用暈映（VNT檔案）、視窗覆蓋（VNW檔案）和檔案櫃（VNC檔案）。 您無法在 Scene7 Publishing System 建立或編輯這些檔案。
 
-暈映、視窗涵蓋範圍及封包都是創作的影像。使用名為「影像編寫」的不同Dynamic Media Classic程式，您可以遮色影像中的物件，讓使用者可以看到不同紋理或色彩中的相同影像。例如，使用者可以看到覆蓋各種布料的沙發、以各種窗飾裝飾的窗戶，或是以不同木質加工的櫥櫃。
+暈映、視窗涵蓋範圍及封包都是創作的影像。使用另一個稱為「影像製作」的Dynamic Media Classic程式，您可以在影像中遮色物件，讓使用者以多種紋理或顏色看到相同的影像。 例如，使用者可以看到覆蓋各種布料的沙發、以各種窗飾裝飾的窗戶，或是以不同木質加工的櫥櫃。
 
 上載暈映、視窗涵蓋範圍及封包的方式，就如同上載任何其它檔案一樣。
 
