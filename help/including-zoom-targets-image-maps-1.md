@@ -3,12 +3,12 @@ title: 包括色票集中的縮放目標和影像地圖
 seo-title: 包括色票集中的縮放目標和影像地圖
 description: 'null'
 seo-description: 瞭解如何在色票集中加入縮放目標和影像地圖。
-uuid: e46ebbd-b086-450c-9812-22290a92 db8 c
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/swetch_ set
-discoiquuid: f75f6d5b-d689-4640-838f-a32 d77859 f62
+uuid: e46ebebd-b086-450c-9812-22290a92db8c
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
