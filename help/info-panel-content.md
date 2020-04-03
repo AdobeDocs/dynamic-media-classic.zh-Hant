@@ -1,21 +1,21 @@
 ---
-title: 管理eCatalogs中的資訊面板內容
-seo-title: 管理eCatalogs中的資訊面板內容
+title: 管理eCatalog中的資訊面板內容
+seo-title: 管理eCatalog中的資訊面板內容
 description: 'null'
-seo-description: 瞭解如何在eCatalogs中管理Info Panel內容。
-uuid: 5aa634f 9-0874-bb5-a3 d9-3ce4 d5577941
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/ecatalogs
-discoiquuid: 是277831-77cc-4011-ae30-e75 c18 eec99 b
+seo-description: 瞭解如何管理eCatalogs中的「資訊面板」內容。
+uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 ---
 
 
-# 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
+# 管理eCatalog中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
@@ -26,7 +26,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 * 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
-## 設定eCatalogs的回應範本 {#set-up-a-response-template-for-ecatalogs}
+## 為eCatalogs設定回應範本 {#set-up-a-response-template-for-ecatalogs}
 
 您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取一個預設回應範本，也可以自行建立一個。
 
@@ -43,7 +43,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
    * 選取「自訂」即可自行建立回應範本。在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
-1. (選擇性)在「預設回應」方塊中，如果Dynamic Media Classic遇到影像地圖擷取資訊時發生錯誤，請輸入您要顯示的文字。例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設回應」方塊中，輸入當Dynamic Media Classic擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
@@ -83,11 +83,11 @@ Last Modified Date:
 
 1. 按兩下「eCatalog」，以在「詳細檢視」中加以開啟。
 1. 按一下「資訊面板設定」面板加以開啟。
-1. **按一下「上載S資訊內容**」。
+1. **按一下「上傳S7Info內容**」。
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. 按一下&#x200B;**上載**。
 
-Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上傳是否成功。
+Dynamic Media Classic會寄送電子郵件給您，告知您上傳是否成功。
 
 ## 預覽影像地圖的滑鼠指向效果關鍵文字 {#preview-rollover-key-text-for-an-image-map}
 
@@ -97,5 +97,5 @@ Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上傳是�
 1. 按一下「地圖頁面」。
 1. 在畫面右側的表格頂端，從「顯示」選單中選擇「資訊面板」。
 
-   滑鼠指項效果關鍵文字會顯示在每個包含「資訊面板」文字的影像地圖旁邊。
+   出現在每個包含「資訊面板」文字的影像對應旁邊的變換金鑰文字。
 
