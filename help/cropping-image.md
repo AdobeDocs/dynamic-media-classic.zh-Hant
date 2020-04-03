@@ -3,12 +3,12 @@ title: 裁切影像
 seo-title: 裁切影像
 description: 'null'
 seo-description: 瞭解如何裁切影像。
-uuid: 84f199de-cffc-4d06-877f-6e9148 e82 e15
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/master_ files
-discoiquuid: 99dfa476-4f11-459-a27 e-a76 ed778774
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
 source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
@@ -45,7 +45,7 @@ source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
 1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
 
-1. 在「裁切編輯器」視窗中，放置您不想裁切裁切方塊中的影像部分。What appears inside the box remains when you click **Save** and crop the image.
+1. 在「裁切編輯器」視窗中，將您不想裁切的影像部分置於裁切方塊中。 What appears inside the box remains when you click **Save** and crop the image.
 1. 若要調整裁切區域，請執行下列其中一個動作:
 
    * 拖曳方塊某一側或邊角。拖曳時按住 Shift 鍵即可變更大小，但會維持裁切方塊的外觀比例 (形狀)。
