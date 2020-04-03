@@ -30,14 +30,14 @@ Experience League每月推出的Dynamic Media電子報旨在協助您快速上�
    * 瞭解如何使用動態媒體的裁切功能。
    * 運用免費稽核功能，協助您從Dynamic Media Classic獲得更多價值。
    * 瞭解Dynamic Media Classic的全新使用者介面。
-   * 認識Adobe Experience cloud客戶成功經理Georgia Myers。
+   * 認識Adobe Experience Cloud客戶成功經理Georgia Myers。
 
 * **[2020年1月第1期](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**本期：
 
    * 5個全新的Skill Builder網路研討會，磨練您的Dynamic Media Classic技能。
    * 免費稽核，協助您從Dynamic Media Classic獲得更多價值。
    * 為我們的多媒體客戶帶來創紀錄的假日購物季。
-   * 您選擇DAM(Digital Asset Manager)的首選指南，可符合您現今的需求，並為您做好迎接未來多媒體新增功能的準備。
+   * 您選擇DAM(Digital Asset Manager)的首選指南，可符合您現今的需求，並為您做好迎接未來多媒體新功能的準備。
    * 認識數位媒體專員Mark Dean。
 
 * **[2019年11月第11期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**在本期：
