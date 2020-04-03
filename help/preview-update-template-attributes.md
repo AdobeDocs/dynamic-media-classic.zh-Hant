@@ -4,11 +4,11 @@ seo-title: 預覽和更新範本屬性
 description: 'null'
 seo-description: 瞭解如何預覽和更新範本屬性。
 uuid: ef5848e9-5302-42a4-8184-1b1151ff10db
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/category/範本發佈
-discoiquuid: 10397c2f-0fb0-4580-9bba-009e8ab7d1e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 10397c2f-0fb0-4580-9bba-009e8ab7d1e2
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
@@ -24,7 +24,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
    範本將以預設參數顯示。
 
-   ![「FXG範本預覽」畫面中的預設參數](/help/assets/wp_fxg_preview_a.png)
+   ![「FXG模板預覽」螢幕中的預設參數](/help/assets/wp_fxg_preview_a.png)
 
    >[!NOTE]
    >
