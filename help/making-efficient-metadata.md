@@ -3,12 +3,12 @@ title: 更有效地使用中繼資料
 seo-title: 更有效地使用中繼資料
 description: 'null'
 seo-description: 瞭解如何更有效率地使用中繼資料。
-uuid: 6690b815-ca5 f-491f-94EB-3d4657 fb8
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/media_ Portal
-discoiquuid: b399c2b2-3e59-43e7-aa7 d-dd4 fdf4 e9
+uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
