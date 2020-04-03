@@ -4,10 +4,10 @@ seo-title: 設定縮放檢視器預設集
 description: 'null'
 seo-description: 瞭解如何設定縮放檢視器預設集。
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/zoom
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -45,10 +45,10 @@ Dynamic Media Classic建議以下參數用於彈出縮放檢視器預設集：
 
 請按照以下步驟建立或編輯縮放檢視器預設集:
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 進行以下一項操作:
 
-   * **建立預設集按一**&#x200B;下「新增」。 在「新增檢視器預設集」對話方塊中，選擇平台、選擇縮放檢視器，然後按一下「新增」。 在「預設集名稱」方塊中輸入預設集的名稱。
+   * **建立預設集按一**&#x200B;下「新增」。 在「新增檢視器預設集」對話方塊中，選擇平台、選擇縮放檢視器，然後按一下「新增」。 在「預設名稱」方塊中輸入預設的名稱。
 
    * **編輯預設選**&#x200B;取縮放檢視器預設，然後按一下「編 **輯」**。
 
