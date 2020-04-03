@@ -2,13 +2,13 @@
 title: 增加和管理 Media Portal 使用者
 seo-title: 增加和管理 Media Portal 使用者
 description: 'null'
-seo-description: 瞭解如何新增和管理Media Portal使用者
-uuid: 96d4103c-6428-4ce1-b9 e4-231599304f27
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/media_ Portal
-discoiquuid: 5e933045-cce1 a-41b9-ba8 b-2151c396 b7 a
+seo-description: 瞭解如何新增及管理Media Portal使用者
+uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # 增加和管理 Media Portal 使用者{#adding-and-managing-media-portal-users}
 
-身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取這個畫面，請按一下「**設定** &gt; **應用程式設定** &gt; **管理設定** &gt; **使用者管理**」。
+身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取這個畫面，請按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
 
 >[!NOTE]
 >
@@ -27,17 +27,17 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎」電子郵件，其中含有您予以註冊時所使用的密碼。管理員可以決定 Media Portal 使用者是否能夠變更此密碼。
 
-1. 按一下「**設定** &gt; **Media Portal 設定** &gt; **一般設定**」。
+1. 按一下「**設定** > **Media Portal 設定** > **一般設定**」。
 1. 在「一般設定」頁面上，選取或取消選取&#x200B;**允許 Media Portal 使用者變更密碼**。
 1. 按一下「**儲存**」。
 
 >[!NOTE]
 >
->可以變更密碼的 Media Portal 使用者，可以按一下「**設定** &gt; **個人設定**」，並在「個人設定」畫面上更改密碼，以進行此動作。
+>可以變更密碼的 Media Portal 使用者，可以按一下「**設定** > **個人設定**」，並在「個人設定」畫面上更改密碼，以進行此動作。
 
 ## 增加 Media Portal 使用者 {#adding-a-media-portal-user}
 
-1. 按一下「**設定** &gt; **應用程式設定** &gt; **管理設定** &gt; **使用者管理**」。
+1. 按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
 1. 在「使用者管理」頁面上，按一下「**增加**」。
 1. 在「增加使用者」對話框的「使用者資訊」面板中，輸入使用者的「名字」、「姓氏」和「電子郵件地址」，然後按&#x200B;**下一步**。
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
@@ -73,7 +73,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 | 姓氏 | 姓氏。 |
 | 電子郵件 | 有效的電子郵件地址。 |
 | 密碼 | 區分大小寫的密碼字串。 |
-| 使用者角色 | MediaPortorTaleMediaPortalTalUserMediaPremiertorContributorMediaPrepertoruser |
+| 使用者角色 | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | 群組 | 為每個使用者指定的一或多個帳戶群組的清單 (以逗號分隔)。您可以透過為帳戶名稱添加字首以指定群組，並以正斜線 (/) 區隔之。例如，若 PortalCo 為帳戶而 IT 為 PortalCo 帳戶內的群組，則為「PortalCo/IT」。 |
 
 下列範例試算表示範如何配置 CSV 檔案:
@@ -99,36 +99,36 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
 
-1. 按一下「**設定** &gt; **應用程式設定** &gt; **管理設定** &gt; **使用者管理**」。
+1. 按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
 1. 在「**依使用者角色**」下拉式清單中，選擇 Media Portal 使用者角色的名稱，然後按一下「**重新整理**」，即可顯示某一類 Media Portal 使用者的名稱。
 1. 按一下「**彈出式清單**」，即可開啟彈出式視窗。您可以複製和貼上這份清單。
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或告訴Dynamic Media Classic不要傳送它。
+新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或通知Dynamic Media Classic不要傳送。
 
-1. 選擇「**設定** &gt; **應用程式設定** &gt; **管理設定** &gt; **使用者管理**」。
+1. 選擇「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
 1. In the User Administration Setup screen, click **Email Settings**.
 1. 在「電子郵件設定」對話框中，指定下列任一設定:
 
-   **傳送電子郵件** ：如果您不想透過電子郵件通知新使用者，請取消選取此選項。
+   **傳送電子郵件** ：如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
 
-   **預設密碼** 輸入新使用者的暫時密碼，或將欄位留空，使動態媒體Classic產生隨機密碼。系統會在使用者首次登入時，要求使用者變更密碼。
+   **預設密碼** ：為新使用者輸入暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。 系統會在使用者首次登入時，要求使用者變更密碼。
 
-   **取代URL** ：如果您的使用者透過不同的URL存取動態媒體Classic，請輸入與預設值不同的URL。
+   **取代URL** 如果您的使用者透過不同的URL存取Dynamic Media Classic，請輸入與預設值不同的URL。
 
 ## 其它使用者管理任務 {#other-user-management-tasks}
 
 從「使用者管理設定」畫面開始，您也可以執行下列工作:
 
-**篩選並排序使用者清單** 篩選Media Portal使用者清單以找出使用者。請參閱篩選和排序使用者清單。
+**篩選並排序使用者清單** 篩選Media Portal使用者清單以找出使用者。 請參閱篩選和排序使用者清單。
 
-**刪除使用者** 從清單刪除使用者。請參閱刪除使用者。
+**刪除用戶** ：從清單中刪除用戶。 請參閱刪除使用者。
 
-**啓用和停用使用者** 暫停使用者存取資料夾。請參閱啟用和停用使用者。
+**啟用和停用使用者** 暫停使用者存取資料夾。 請參閱啟用和停用使用者。
 
-**編輯使用者資訊** 輸入使用者的最新資訊。請參閱編輯使用者資訊。
+**編輯使用者資訊** ：輸入使用者的最新資訊。 請參閱編輯使用者資訊。
 
-**建立使用者定義欄位** 建立自訂、使用者定義的中繼資料欄位，以協助組織Scene Publishing System中的資產。這些欄位也可視需要啟用或停用。
+**建立使用者定義欄位** 「建立自訂、使用者定義的中繼資料欄位」，以協助組織Scene7 Publishing System中的資產。 這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
