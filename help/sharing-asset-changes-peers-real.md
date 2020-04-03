@@ -3,12 +3,12 @@ title: 即時與同級共用資產變更
 seo-title: 即時與同級共用資產變更
 description: 'null'
 seo-description: 瞭解如何即時與同儕分享資產變更。
-uuid: 13fa4f6e-66fb-4682-96a-9e704006f53
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/managing_ assets
-discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55
+uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 即時與同級共用資產變更{#sharing-asset-changes-with-peers-in-real-time}
 
-有多份Dynamic Media Classic在同一公司的一部或多部電腦上執行時，任何Dynamic Media Classic用戶端的下列動作都會即時與所有對等用戶端進行更新：
+在同一公司的一部或多部電腦上執行多份Dynamic Media Classic時，所有對等用戶端都會即時更新來自任何Dynamic Media Classic用戶端的下列動作：
 
 * 編輯資產 (建置器、影像編輯器等)
 * 重新命名資產
