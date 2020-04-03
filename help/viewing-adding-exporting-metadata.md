@@ -4,10 +4,10 @@ seo-title: 檢視、增加和匯出中繼資料
 description: 'null'
 seo-description: 瞭解如何檢視、新增和匯出中繼資料。
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -49,7 +49,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 
 >[!NOTE]
 >
->若要同時編輯數項資產的中繼資料，請選取資產，然後選擇「檔案 &gt; 編輯資訊」。您在「編輯資訊」視窗針對中繼資料進行的編輯，會套用至您選取的所有資產。
+>若要同時編輯數項資產的中繼資料，請選取資產，然後選擇「檔案 > 編輯資訊」。您在「編輯資訊」視窗針對中繼資料進行的編輯，會套用至您選取的所有資產。
 
 ## 增加或編輯關鍵字 {#add-or-edit-keywords}
 
@@ -79,7 +79,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 有關標準化屬性的更多資訊，請參閱：https://www.adobe.com/devnet/xmp.html
 
 1. 在瀏覽面板中，從 Tab 字元分隔檔案或 XML 檔案選取要增加中繼資料的影像。
-1. 按一下「**檔案** &gt; **匯入中繼資料**」。
+1. 按一下「**檔案** > **匯入中繼資料**」。
 1. 在「**上載中繼資料**」對話框中，按一下「**瀏覽**」。
 1. 在「**選取要上載的檔案**」對話框中，選取包含中繼資料的 Tab 字元分隔檔案或 XML 檔案。
 1. 輸入工作名稱。
@@ -89,8 +89,8 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 
 識別要匯入的不同中繼資料類型時，請記住下列事項:
 
-* 使用者定義的欄位會以在「設定 &gt; 應用程式設定 &gt; 中繼資料 &gt; 使用者定義的欄位」中所建立的名稱來識別。使用「產生」檔案功能，以正確的匯入格式取得所有已定義 UDF 的清單。
-* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。您可以在「設定 &gt; 應用程式設定 &gt; 中繼資料 &gt; 中繼資料結構編輯器」中找到 XMP 字首。您可以在相關的 XMP 資料結構文件中找到技術名稱。請注意，XMP 屬性名稱不會出現於「產生」檔案功能中。
+* 使用者定義的欄位會以在「設定 > 應用程式設定 > 中繼資料 > 使用者定義的欄位」中所建立的名稱來識別。使用「產生」檔案功能，以正確的匯入格式取得所有已定義 UDF 的清單。
+* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。您可以在「設定 > 應用程式設定 > 中繼資料 > 中繼資料結構編輯器」中找到 XMP 字首。您可以在相關的 XMP 資料結構文件中找到技術名稱。請注意，XMP 屬性名稱不會出現於「產生」檔案功能中。
 * 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。字首和屬性名稱皆是在「中繼資料結構編輯器」中定義。請注意，中繼資料結構屬性名稱不會出現於「產生」檔案功能中。
 
 例如: 關鍵字的 XMP 屬性是 XMP 資料結構「Dublin Core」，其字首為「dc」，而技術 XMP 名稱則是「subject」。字首和技術 XMP 名稱皆會合併至完整屬性名稱「dc:subject」。在 XML 中繼資料匯入格式中，「dc:subject」必須為屬性名稱。在 Tab 字元分隔匯入格式中，則必須為欄標題。
@@ -105,7 +105,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 
 XML 匯入只接受有效的 XML。匯入 XMP 或中繼資料結構欄位時將會新增命名空間字首，且其效果如同 XMP 命名空間。命名空間必須先經過宣告 (例如在頂層標籤中)。
 
-例如:
+例如：
 
 ```as3
 <ips> 
@@ -131,7 +131,7 @@ XML 匯入只接受有效的 XML。匯入 XMP 或中繼資料結構欄位時將�
 
 To rename an image’s Scene7 Publishing System ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
 
-例如: 
+例如：
 
 | ipsid | newipsid |
 |--- |--- |
@@ -146,7 +146,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用範本可確保以正確格式輸入中繼資料，這樣就能正確上載至 Scene7 Publishing System。遵循下列步驟，即可建立範本以用來記錄中繼資料並加以匯入 Scene7 Publishing System:
 
 1. 選取具有範本所要用的中繼資料欄位的影像資產。
-1. 選取「檔案 &gt; 匯入中繼資料」。
+1. 選取「檔案 > 匯入中繼資料」。
 1. 為「資產屬性類型」選取「影像」。
 1. 在「產生檔案」選單中，選取「Tab 字元分隔範本」、「資產的 XML 中繼資料」或「XML DTD」。
 1. 按一下「產生」。
@@ -154,7 +154,7 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 
 ## 處理中繼資料結構 {#working-with-metadata-schemas}
 
-公司管理員可以檢視所有可用資料結構的清單。開啟「應用程式設定 -&gt; 中繼資料 -&gt; 中繼資料結構」。
+公司管理員可以檢視所有可用資料結構的清單。開啟「應用程式設定 -> 中繼資料 -> 中繼資料結構」。
 
 一開始，全域標準資料結構 (如 XMP) 的清單為隱藏，但可以使用清單底部的核取方塊加以顯示。
 
