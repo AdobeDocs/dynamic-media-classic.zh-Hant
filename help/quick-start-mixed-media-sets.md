@@ -2,13 +2,13 @@
 title: '"快速入門: 混合媒體集"'
 seo-title: '"快速入門: 混合媒體集"'
 description: 'null'
-seo-description: 混合媒體集簡介與快速入門，協助您快速上手使用。
-uuid: 0ef033d5-b053-4d7 c-b1 e1-1980f899 fd88
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/mixed_ media_ set
-discoiquuid: 2708d077-94fc-4045-8992-ad3589 ed9 CFD
+seo-description: 混合媒體集簡介和快速入門，可協助您快速上手使用。
+uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -23,11 +23,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **快速入門**
 
-此混合媒體集快速啓動可使用Dynamic Media Classic中的混合媒體集技術快速啓動和執行。
+此混合媒體集快速入門旨在透過Dynamic Media Classic中的混合媒體集技術快速上手。
 
 **1. 上載影像、色票檔案和視訊**
 
-先為混合媒體集上載影像、色票檔案和視訊。因為使用者可以縮放混合媒體集檢視器中的影像，因此在選擇影像時請考慮縮放。確保影像在最大尺寸至少有 2000 個像素。
+先為混合媒體集上載影像、色票檔案和視訊。由於使用者可以在混合媒體集檢視器中放大影像，因此當您選擇影像時，請考量放大比例。請確定影像在最大尺寸中至少為2000像素。
 
 按一下全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。
 
@@ -47,7 +47,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **4. 設定混合媒體集檢視器預設集**
 
-Dynamic Media Classic隨附混合媒體集預設檢視器預設集。管理員可以建立或修改混合媒體集檢視器預設集。
+Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 管理員可以建立或修改混合媒體集檢視器預設集。
 
 設定混合媒體集檢視器預設集時，請為媒體集中所有其它資產增加檢視器預設集。例如，如果您的混合媒體集包含視訊，則請增加視訊檢視器預設集至混合媒體集檢視器預設集。您也可以增加音軌至檢視器。音軌會在檢視器開啟時播放，但不會在視訊進行的同時播放。
 
@@ -61,14 +61,14 @@ Dynamic Media Classic隨附混合媒體集預設檢視器預設集。管理員�
 
 **6. 發佈混合媒體集**
 
-發佈混合媒體集會將它置於動態媒體Classic伺服器上，並啓動URL字串。
+發佈混合媒體集會將它置於Dynamic Media Classic伺服器上並啟動URL字串。
 
-您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。您可以使用&#x200B;**視訊伺服器**&#x200B;來發佈標示為發佈的實際視訊，此外，您還可使用 **Image Server** 發佈相關資產(例如視訊縮圖)，並設定任何最適化視訊集的資訊。
+您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。您可以使用&#x200B;**視訊伺服器**&#x200B;來發佈標示為發佈的實際視訊，此外，您還可以使 **用Image Server** ，來發佈相關資產，例如視訊縮圖，並設定任何最適化視訊集的資訊。
 
 請參閱[發佈混合媒體集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
 **7. 將混合媒體集連結至網頁**
 
-Dynamic Media Classic會在您發佈混合媒體集後啓動URL呼叫。您可以從「預覽」畫面複製這些 URL。
+Dynamic Media Classic會在您發佈混合媒體集後啟動URL呼叫。 您可以從「預覽」畫面複製這些 URL。
 
 選取混合媒體集並按一下「預覽」。在「預覽」畫面中，選取混合媒體集檢視器預設集，並按一下「複製 URL」按鈕。請參閱[將混合媒體集連結至網頁](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
