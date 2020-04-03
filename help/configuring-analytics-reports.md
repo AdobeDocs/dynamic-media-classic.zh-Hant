@@ -4,10 +4,10 @@ seo-title: 設定 Adobe Analytics 報告
 description: 'null'
 seo-description: 瞭解如何設定Adobe Analytics報表。
 uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -51,7 +51,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
    按一下「儲存」後，檢視器事件、其Adobe Analytics變數及其Dynamic Media Classic變數會列在「Adobe Analytics設定」畫面中。
 
 1. 在右下角按一下「**關閉**」。
-1. 按一下「**發佈** &gt; **送出發佈**」，以執行「影像伺服」發佈。
+1. 按一下「**發佈** > **送出發佈**」，以執行「影像伺服」發佈。
 
    必須進行發佈，才能在Dynamic Media Classic伺服器上取得檢視器中包含的資訊。
 
@@ -70,10 +70,10 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 | HREF | **X** (eCatalog) | 當使用者在支援影像地圖的檢視器中，在影像地圖中按一下 URL 時。 |
 | TARGET |  | 當使用者在目標縮放檢視器中，按一下縮放目標以縮放影像的一部分時。 |
 | SEARCH |  | 當使用者在 eCatalog 中，執行關鍵字搜尋時。 |
-| PLAY | **X** (視訊) | 當使用者在視訊檢視器中，按一下「播放」以開始播放視訊時。<br><br>**** 注意：如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| PAUSE | **X** (視訊) | 當使用者在視訊檢視器中，按一下「暫停」以暫停視訊時。<br><br>**** 注意：如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| STOP | **X** (視訊) | 當使用者在視訊檢視器中，按一下「停止」以停止播放視訊時。<br><br>**** 注意：如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| MILESTONE | **X**  (視訊) | 在視訊檢視器中，使用者在觀看到視訊的 0%、25%、50%、75% 或 100% 時產生里程碑事件時。<br><br>**** 注意：如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| PLAY | **X** (視訊) | 當使用者在視訊檢視器中，按一下「播放」以開始播放視訊時。<br><br>**注意：**如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| PAUSE | **X** (視訊) | 當使用者在視訊檢視器中，按一下「暫停」以暫停視訊時。<br><br>**注意：**如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| STOP | **X** (視訊) | 當使用者在視訊檢視器中，按一下「停止」以停止播放視訊時。<br><br>**注意：**如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| MILESTONE | **X**  (視訊) | 在視訊檢視器中，使用者在觀看到視訊的 0%、25%、50%、75% 或 100% 時產生里程碑事件時。<br><br>**注意：**如果您使用Adobe Analytics心率型視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
 | SWATCH | X (彈出、縮放) | 此檢視器事件對應至 Scene7 Publishing System 中的「頁面」檢視器事件。 |
 | ZOOM | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。<br> |
 | PAN | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。<br> |
@@ -108,4 +108,4 @@ For each viewer event on Adobe Analytics Configuration screen, choose a Adobe An
 
 * **編輯**&#x200B;選取檢視器事件，然後按一 **[!UICONTROL 下「檢視／編輯變數]** 」灰色按鈕。 在「動態媒體經典變數」和「Adobe Analytics變數」下拉式清單中，從各自的清單中選擇不同的變數。 如需詳細資訊，請參閱「將Adobe Analytics變數指派至Dynamic Media Classic檢視器事件和變數」。
 
-* **刪除**&#x200B;選取檢視器事件，然後按一下「檢 **[!UICONTROL 視／編輯變數]** 」灰色按鈕。 Click **[!UICONTROL Delete]**.
+* **刪除**&#x200B;選取檢視器事件，然後按一下「檢 **[!UICONTROL 視／編輯變數]** 」灰色按鈕。 按一下「**[!UICONTROL 刪除]**」。
