@@ -4,10 +4,10 @@ seo-title: 建立迴轉集
 description: 'null'
 seo-description: 瞭解如何建立回轉集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/spin_sets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -102,5 +102,5 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 **刪除迴轉集**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個迴轉集。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
