@@ -3,12 +3,12 @@ title: 調整影像
 seo-title: 調整影像
 description: 'null'
 seo-description: 瞭解如何調整影像
-uuid: c052acd3-e8 c1-4134-ad21-b9 c41578097 f
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/master_ files
-discoiquuid: 47a 23980-2886-da3-ab2 d-6cd50 e00 d188
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # 調整影像{#adjusting-an-image}
 
-Dynamic Media Classic提供多種指令來調整影像的外觀。您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
+Dynamic Media Classic提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
 
 另請參閱[建立影像的別名](adjusting-image.md#creating_an_alias_for_an_image)。
 
@@ -29,7 +29,7 @@ Dynamic Media Classic提供多種指令來調整影像的外觀。您可以翻�
    * 使用「旋轉」滑桿，即可旋轉影像。在「旋轉」欄位中輸入值，即可旋轉影像。正值表示順時針旋轉；負值表示逆時針旋轉。
    * 使用「模糊」滑桿或相應的方框，即可模糊影像。值越高，影像越模糊。
    * 使用「對比」、「亮度」、「飽和度」、「色相」及「色彩平衡」選項，即可調整色彩與亮度。這些效果會一直累積。例如，對「洋紅/綠色」設定的變更會增加到對「色相」設定的變更上。
-   * 使用「色彩化」選項，即可對影像進行色彩化，同時保留陰影與亮部。對於「色彩化」選項的變更也會一直累積。選擇「亮度」選單，然後選擇「沒有補償」，即可停用自動亮度補償。將對比值設為 0，即可保留原始影像的對比範圍，或是以大於 0 的值來指定對比範圍。值 100 會使對比最大化。典型值為30-70範圍。
+   * 使用「色彩化」選項，即可對影像進行色彩化，同時保留陰影與亮部。對於「色彩化」選項的變更也會一直累積。選擇「亮度」選單，然後選擇「沒有補償」，即可停用自動亮度補償。將對比值設為 0，即可保留原始影像的對比範圍，或是以大於 0 的值來指定對比範圍。值 100 會使對比最大化。典型值在30-70範圍內。
 
 1. 完成影像調整時，請執行下列其中一項動作: 
 
