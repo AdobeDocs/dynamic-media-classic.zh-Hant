@@ -4,10 +4,10 @@ seo-title: 建立 PDF 文件
 description: 'null'
 seo-description: 瞭解如何在Dynamic Media Classic中使用網路印刷程式建立PDF檔案。
 uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/template-publishing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -21,13 +21,13 @@ Web-to-Print 過程的最後一步是產生自訂的 PDF。在最終使用者使
 
 ## 設定 PDF 預設集 {#setting-up-pdf-presets}
 
-建立PDF工作選項檔案並上傳至Dynamic Media Classic server以指定PDF相容性層級和印表機設定。 例如，您可以選取符合 PDF/X-4 的 PDF 輸出 (建議用於 PDF 列印發佈工作流程)。您可以在創作軟體 (如 Adobe Illustrator) 或 Acrobat 中建立工作選項檔案。請務必諮詢您的印刷商，他能為您建議適合您列印工作的工作選項設定。
+建立PDF工作選項檔案並上傳至Dynamic Media Classic Server以指定PDF相容性層級和印表機設定。 例如，您可以選取符合 PDF/X-4 的 PDF 輸出 (建議用於 PDF 列印發佈工作流程)。您可以在創作軟體 (如 Adobe Illustrator) 或 Acrobat 中建立工作選項檔案。請務必諮詢您的印刷商，他能為您建議適合您列印工作的工作選項設定。
 
 有關建立工作選項檔案的更多資訊以及有關在 Acrobat 中建立工作選項檔案的資訊，請參閱 Adobe Acrobat 說明。
 
 若要在 Illustrator 中建立工作選項檔案:
 
-1. 選擇「編輯 &gt; Adobe PDF 預設集」。
+1. 選擇「編輯 > Adobe PDF 預設集」。
 1. 在此對話框中，選取要使用的預設集。
 
    Dynamic Media Classic支援下列工作選項設定：
@@ -61,7 +61,7 @@ Web-to-Print 過程的最後一步是產生自訂的 PDF。在最終使用者使
 
 **影像**
 
-請確定您的發佈工作中的所有影像都已上傳到您的Dynamic Media Classic Server並發佈。
+請確定您的發佈工作中的所有影像都已上傳到您的Dynamic Media Classic伺服器並發佈。
 
 **Fonts**
 
@@ -77,7 +77,7 @@ Web-to-Print 過程的最後一步是產生自訂的 PDF。在最終使用者使
 
 * **設計應用程式色彩管理設定:** 在您的創作應用程式 (如 Adobe Illustrator) 的「色彩設定」中，請在「工作空間」區段中指定 RGB 和 CMYK 色彩設定檔。
 
-* **** Dynamic Media Classic色彩管理設定：通常，設計應用程式中的色彩管理設定應符合Dynamic Media Classic伺服器中的預設色彩設定檔。 您可以在「發佈設定/影像伺服器」視窗中找到這些設定。
+* **Dynamic Media Classic色彩管理設定：** 通常，設計應用程式中的色彩管理設定應符合Dynamic Media Classic伺服器中的預設色彩設定檔。 您可以在「發佈設定/影像伺服器」視窗中找到這些設定。
 
 ## 顯示印表機標記 {#displaying-printer-marks}
 
@@ -116,7 +116,7 @@ Web-to-Print 過程的最後一步是產生自訂的 PDF。在最終使用者使
 | bleedMargin=top,left,bottom,right | 在 Acrobat 的「設定頁面框」選項中指定。選取「出血框」，然後使用「頁面邊距控制」選項指定邊距。<br><br>值代表從插圖 (介質框) 的原始邊緣向內到上邊緣、左邊緣、下邊緣和右邊緣的距離。值(0-1000)以點為單位。<br><br>新高度=原始高度-（上+下）<br><br>新寬度=原始寬度-（左+右） |
 | mediaMargin=top,left,bottom,right | 在 Acrobat 的「設定頁面框」選項中指定。在「變更頁面大小」選項下修改自訂頁面大小。<br><br>值代表從插圖 (介質框) 的原始邊緣向外到上邊緣、左邊緣、下邊緣和右邊緣的距離。值(0-1000)以點為單位。<br><br>新高度=top+bottom+原始高<br><br>度新寬度=top+bottom+原始<br><br>寬度新高度和新寬度值決定所產生PDF的新頁面大小。<br><br>定義新的介質框之後，所有修剪邊距和出血邊距計算都需要將新的介質框視為插圖的邊緣。 |
 | trimMargin=top,left,bottom,right | 在 Acrobat 的「設定頁面框」選項中指定。選取「修剪框」，然後使用「頁面邊距控制」選項指定邊距。<br><br>值代表從插圖 (介質框) 的原始邊緣向內到上邊緣、左邊緣、下邊緣和右邊緣的距離。值(0-1000)以點為單位。<br><br>新高度=原始高度-（上+下）<br><br>新寬度=原始寬度-（左+右） |
-| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 值如下：<br><br>修剪標籤= 0,1（預設值為0）<br><br>出血標籤= 0,1（預設值為0）<br><br>註冊標籤= 0,1（預設值為0）<br><br>色條= 0,1（預設值為0）<br><br>page information = 0,1（預設值為0）<br><br>style = Default, InDesignJ1, InDesignJ2, IllustratorillustratorJ, QuarkXPress（預設為Default）<br><br>line= 0.125-0.2，兩個值（預設為0.25）embed layer<br><br><br><br>1,1個新層包含所有打印機標籤（預設為1）Creating and marks and color bars apper arcrobat使用的樣式…… |
+| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 值如下：<br><br>修剪標籤= 0,1（預設值為0）<br><br>出血標籤= 0,1（預設值為0）<br><br>註冊標籤= 0,1（預設值為0）<br><br>色條= 0,1（預設值為0）<br><br>page information = 0,1（預設值為0）<br><br>style = Default, InDesignJ1, InDesignJ2, IllustratorillustratorJ, QuarkXPress（預設為Default）<br><br>line= 0.125-0.2，兩個值（預設為0.25）embed layer<br><br><br><br>1,1個新層包含所有打印機標籤（預設為1）Creating and marks and color bars apper acrobat使用的不同樣式…… |
 
 請注意以下有關印表機標記的事項:
 
