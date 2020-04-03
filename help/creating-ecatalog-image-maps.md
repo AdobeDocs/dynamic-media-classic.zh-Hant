@@ -3,11 +3,11 @@ title: 建立 eCatalog 影像地圖
 seo-title: 建立 eCatalog 影像地圖
 description: 'null'
 seo-description: 瞭解如何建立eCatalog影像地圖。
-uuid: 943ad3f7-a885-4bc2-88cb-7708384bdf8
-contentOwner: 管理員
-content-type: 參考
+uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/ecatalogs
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -28,7 +28,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 在「地圖頁面」畫面的左方，選取您要的頁面。
 1. 在影像地圖區域中，繪製一個矩形或多邊形影像地圖:
 
-   * **矩形地**&#x200B;圖選擇「矩形影像地圖」工具並拖曳至頁面以建立矩形。
+   * **矩形地**&#x200B;圖選擇「矩形影像地圖」工具，並拖曳至頁面以建立矩形。
 
    * **多邊形地**&#x200B;圖選取「多邊形影像地圖」工具，並在影像周長周圍按一下必要的次數。 當您按一下時，Dynamic Media Classic會繪製影像地圖的邊界。
    在您繪製影像地圖後，Dynamic Media Classic會在影像地圖清單中為其指派名稱。 若要建立名稱，Dynamic Media Classic會在您正在工作的eCatalog頁面名稱中附加一個循序編號。
