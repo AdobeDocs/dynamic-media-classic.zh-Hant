@@ -2,13 +2,13 @@
 title: '"快速入門: 影像集"'
 seo-title: '"快速入門: 影像集"'
 description: 'null'
-seo-description: 「影像集」簡介和快速入門，可協助您使用影像集技術快速啓動和執行。
+seo-description: 影像集簡介和快速入門，可協助您使用影像集技術快速上手。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: 612a425f-2840-46c-5e5a-c0 a-c0 c738 f4 e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,15 +17,15 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 快速入門: 影像集{#quick-start-image-sets}
 
-動態媒體Classic影像集為使用者提供整合的檢視體驗。在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。影像集可讓您呈現項目的替代高解析度檢視。
+動態媒體經典影像集為使用者提供整合的檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。「影像集」可讓您呈現項目的替代高解析度檢視。
 
 影像集檢視器提供了縮放工具，以便近距離檢查影像。如果您想要，也可以讓已導引縮放目標和影像地圖成為您影像集的一部分。影像集能創造更一致且緊密的檢視體驗。
 
-此影像集快速啓動可使用Dynamic Media Classic中的影像集技術快速啓動和執行。
+本影像集快速入門旨在透過Dynamic Media Classic中的影像集技術快速上手。
 
 **1. 為多重檢視和色票上載主影像**
 
-請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。確保影像在最大尺寸至少有 2000 個像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無失真TIFF、PNG和EPS影像。
+請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。請確定影像在最大尺寸中至少為2000像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
 選取全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。
 
@@ -43,7 +43,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **3. 視需要設定影像集檢視器預設集**
 
-管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附於每個多媒體類型的預設檢視器預設集。使用「縮放檢視器:自訂 &gt; 影像」或「影像集/多重視圖」預設集以檢視影像集。
+管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
 
 您可以從「應用程式設定」畫面增加或編輯檢視器預設集。
 
@@ -57,11 +57,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **5. 發佈影像集**
 
-發佈影像集會將它置於動態媒體Classic伺服器，並啓動URL字串。
+「發佈影像集」會將影像集放在Dynamic Media Classic伺服器上並啟動URL字串。
 
 >[!NOTE]
 >
->如果您已選取**(預設)在您建立並儲存影像集時儲存**(預設)，則不需要此步驟。
+>如果您在建立並儲存影像集時，在儲存***（預設值）後選取**Publish，則不需要此步驟。
 
 Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -69,7 +69,7 @@ Click the Mark for Publish icon to the left of its name in the Browse Panel. The
 
 **6. 將影像集連結至網站**
 
-Dynamic Media Classic會建立對影像集的URL呼叫，並在您發佈後啓動它們。您可以從「預覽」畫面複製這些 URL。
+Dynamic Media Classic會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
 選取影像集，然後按一下「預覽」按鈕。「預覽」畫面開啟。Select an Image Set Viewer Preset and click **Copy URL**.
 
