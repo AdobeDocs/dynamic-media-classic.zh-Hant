@@ -1,14 +1,14 @@
 ---
-title: 「快速入門：Media Portal」
-seo-title: 「快速入門：Media Portal」
+title: 「快速入門：媒體入口網站」
+seo-title: 「快速入門：媒體入口網站」
 description: 'null'
-seo-description: 媒體入口網站簡介和快速入門，協助您使用Media Portal技術和管理快速上手。
-uuid: 0dbd6146-b392-4e03-955b-0b323 b654 b9 f
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PK/categories/media_ Portal
-discoiquuid: 1385a092-0b2c-4-ad1 e-ce3685022300
+seo-description: 介質入口網站簡介和快速入門，可協助您使用媒體入口網站技術和管理快速上手。
+uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-Media Portal可讓公司輕鬆地取得、控制和分發已核准的創意資產給外部合作夥伴和通路，以及內部商業使用者。這個以瀏覽器為主的「自助服務」環境為Media Portal使用者提供管理員控制的「檢視」，讓他們可輕鬆存取、瀏覽、搜尋、預覽和匯出企業核准格式的資產。
+Media Portal可讓公司輕鬆取得、控制並將已核准的創意資產發佈給外部合作夥伴和通路，以及內部商業使用者。 此瀏覽器型「自助式」環境為Media Portal使用者提供管理員控制的「檢視」至Dynamic Media Classic資產，讓他們以公司核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
 
 身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在 Media Portal 介面中，指定字型、字型色彩與字型大小，也可以併入如標誌等品牌元素。
 
