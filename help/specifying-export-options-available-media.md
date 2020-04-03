@@ -4,8 +4,8 @@ seo-title: 指定Media Portal使用者可用的匯出選項
 description: 'null'
 seo-description: 瞭解如何指定Media Portal使用者可使用的匯出選項。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
@@ -27,7 +27,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 **指定 Media Portal 使用者可使用的匯出選項**
 
-1. 按一下「**設定** &gt; **影像預設集**」。
+1. 按一下「**設定** > **影像預設集**」。
 1. 在「影像預設集」視窗中，選取下列任一選項:
 
    * **啟用使用者定義的轉換**：選取此選項後，使用者可從「匯出選取的資產」視窗的「大小」下拉式清單中選擇其他項目。 使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
