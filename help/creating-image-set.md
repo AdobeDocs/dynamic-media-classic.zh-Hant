@@ -3,12 +3,12 @@ title: 建立影像集
 seo-title: 建立影像集
 description: 'null'
 seo-description: 瞭解如何建立影像集。
-uuid: 689fdc14-4f51-4c94-8515-cd8551 e101 d
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/image_ set
-discoiquuid: 3f356410-b30 e-4870-ad95-6e5 a9 dc126 c
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -34,9 +34,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 進行以下一項操作:
 
-   **先在「瀏覽面板** 」中選取影像，選取您要用於影像集的影像，然後按一下「建置&gt;影像集」。
+   **首先選取影像** 。在「瀏覽面板」中，選取您要用於影像集的影像，然後按一下「建立>影像集」。
 
-   **從影像集畫面按** 一下「建立&gt;影像集」。「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
+   **從「影像集」畫面開始** ，按一下「建立>影像集」。 「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
 
 1. 若要變更影像順序，請將影像拖曳至新位置。
 1. 在頁面右上角附近，請確保選取了「**儲存後發佈**」(預設)。
@@ -50,7 +50,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有的設定成員會保留其發佈狀態。您在編輯期間新增的任何新設定成員都會保留其已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員將保留其已發佈狀態。在編輯期間添加的任何新整合員都將保留其已發佈或未發佈狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -77,5 +77,5 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 **刪除影像集**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個影像集。
-1. 在全域導覽列上，按一下「**檔案** &gt; **刪除** &gt; **刪除**」。
+1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
