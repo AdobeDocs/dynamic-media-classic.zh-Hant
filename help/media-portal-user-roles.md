@@ -4,10 +4,10 @@ seo-title: Media Portal 使用者角色
 description: 瞭解Media Portal中提供的各種使用者角色。
 seo-description: 瞭解Media Portal中提供的各種使用者角色。
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/media_portal
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
