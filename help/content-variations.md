@@ -4,11 +4,11 @@ seo-title: 管理內容變體
 description: 'null'
 seo-description: 瞭解如何管理內容變化。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PKK/categories/template_ basics
-discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3 f46 c4 f
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -25,7 +25,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 您可以使用清單中的任何影像預設集 URL。影像預設集 URL 有如通用 URL。可以有多於一個影像預設集 URL。
 
-1. 按一下「建置 &gt; 範本集」。
+1. 按一下「建置 > 範本集」。
 
    建置器將會開啟。
 
