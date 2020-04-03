@@ -4,10 +4,10 @@ seo-title: 處理 PostScript 和 Illustrator 檔案
 description: 'null'
 seo-description: 瞭解如何使用PostScript和Illustrator檔案。
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
