@@ -4,10 +4,10 @@ seo-title: 設定混合媒體集檢視器預設集
 description: 'null'
 seo-description: 瞭解如何設定混合媒體集檢視器預設集。
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTENDEMAND_PK/categories/mixed_media_sets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -21,7 +21,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 您可以選擇在混合媒體集檢視器中包含所有或部分社群功能。「內嵌」功能會增加一個連結至檢視器，可讓使用者複製在外部頁面 (如部落格、網站或社交網站) 中顯示檢視器所需的代碼。「連結」功能會提供檢視器的 URL，以便使用者可以重新連結到此檢視器。「造訪」功能會提供指定網站的連結。
 
-1. 按一下「**設定**」&gt;「**檢視器預設集**」。
+1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 在「檢視器預設集」頁面上，執行下列其中一項作業：
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
