@@ -3,12 +3,12 @@ title: 發佈混合媒體集
 seo-title: 發佈混合媒體集
 description: 'null'
 seo-description: 瞭解如何發佈混合媒體集。
-uuid: 4172347c-7bb3-468d-bda2-fd1 c26 ccab85
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ENSCENEXENDEMENDUMENT_ PK/categories/mixed_ media_ set
-discoiquuid: 4e8694f7-c1 b5-4d45-a18 b-2b9494 db1757
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,9 +17,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 發佈混合媒體集{#publishing-a-mixed-media-set}
 
-建立發佈工作以發佈您標示為發佈至Dynamic Media Classic Video Server和Image Server的混合媒體集。Dynamic Media Classic提供發佈至特定伺服器的進階發佈選項，以及重新發佈已發佈資產的選項。
+建立發佈工作以發佈您已標示為要發佈至Dynamic Media Classic視訊伺服器和影像伺服器的混合媒體集。 Dynamic Media Classic提供進階的發佈選項，可發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
-***附註**：混合媒體集需要您發佈至&#x200B;**Video Server**以及&#x200B;**Image Server**。您可以使用&#x200B;**視訊伺服器**來發佈標示為發佈的實際視訊，此外，您還可使用&#x200B;**Image Server**發佈相關資產(例如視訊縮圖)，並設定任何最適化視訊集的資訊。*
+***注意&#x200B;**:混合媒體集需要您發佈到視**訊伺服器&#x200B;**，以及**影像伺服器&#x200B;**。 您可以使用**視訊伺服器&#x200B;**來發佈標示為發佈的實際視訊，此外，您還可以使**用Image Server **，來發佈相關資產，例如視訊縮圖，並設定任何最適化視訊集的資訊。*
 
 Scene7 Publishing System 會在「工作」畫面上追蹤發佈工作。
 
