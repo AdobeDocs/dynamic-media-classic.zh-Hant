@@ -4,8 +4,8 @@ seo-title: 上載 PDF 檔案
 description: 'null'
 seo-description: 瞭解如何上傳與eCatalog相關的PDF檔案。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: 管理員
-content-type: 參考
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
@@ -56,7 +56,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源；這些 PDF 檔案包含所有影�
 
 * **保留原始色域**&#x200B;保留原始色域。
 
-* **「自訂自」&gt;「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
+* **「自訂自」>「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
