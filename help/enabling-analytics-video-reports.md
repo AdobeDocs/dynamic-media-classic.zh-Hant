@@ -2,13 +2,13 @@
 title: 啟用 Adobe Analytics 視訊報告
 seo-title: 啟用 Adobe Analytics 視訊報告
 description: 'null'
-seo-description: 瞭解如何啓用Adobe Analytics視訊報表。
-uuid: 078594b2-7d53-478-8128-ff3 b5 c3 a5 e36
-contentOwner: 管理員
-content-type: 參考
-products: SG_ PERIENCENCENAGER/Dynamic-Media-Scene-7
-geptopics: SG_ ScenesEvenONDEMENT_ PKK/categories/adobe_ analytics_ tooling_ kit
-discoiquuid: 18644a53-92da-40ab-b961-318d8332 c54 d
+seo-description: 瞭解如何啟用Adobe Analytics視訊報表。
+uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # 啟用 Adobe Analytics 視訊報告{#enabling-adobe-analytics-video-reports}
 
-使用Adobe Analytics活動訊號型視訊報告，當您在Dynamic Media Classic中設定Adobe Analytics時，不再需要啓用四個視訊檢視器事件(Play、Pause、Stop、Milestone)。視訊心率可搭配立即可用的Dynamic Media Classic HTML Video和MixedMedia檢視器運作。此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
+使用Adobe Analytics以心率為基礎的視訊報告，在Dynamic Media Classic中設定Adobe Analytics時，您不再需要啟用4個視訊檢視器事件（播放、暫停、停止、里程碑）。 「視訊心率」可與現成可用的Dynamic Media Classic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
 
 * Adobe Analytics視訊報表與Dynamic Media Classic的整合支援解決方案變數，但不支援自訂變數。
 
@@ -29,5 +29,5 @@ For more information about Video Heartbeat requirements and setup, see [Measurin
 
 >[!NOTE]
 >
->如果您的Adobe Analytics授權解決方案未包含視訊心率，則需要繼續使用本章所述步驟，將Adobe Analytics變數指派給Dynamic Media Classic檢視器事件和變數。
+>如果您的Adobe Analytics授權解決方案不包含視訊心率，則您需要繼續使用本章所述的步驟，將Adobe Analytics變數指派給Dynamic Media Classic檢視器事件和變數。
 
