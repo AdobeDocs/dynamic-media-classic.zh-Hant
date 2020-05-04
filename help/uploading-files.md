@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 684950586bf9b1df897ac46b52d84a21f4cb4120
+source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
 
 ---
 
@@ -48,6 +48,17 @@ source-git-commit: 684950586bf9b1df897ac46b52d84a21f4cb4120
 | ZIP | ZIP |
 
 TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓縮檔案。
+
+### 動態媒體中不支援的影像格式 {#unsupported-image-formats-dynamic-media}
+
+下列清單說明動態媒體中不支援的點陣影像檔 *案* 格式子類型。
+
+* IDAT區塊大小大於100 MB的PNG檔案。
+* PSB檔案。
+* 不支援色域不是CMYK、RGB、灰階或點陣圖的PSD檔案。 不支援DuoTone、Lab和索引色域。
+* 位元深度大於16的PSD檔案。
+* 具有浮點資料的TIFF檔案。
+* 具有Lab色域的TIFF檔案。
 
 ### 資產類型 {#asset-types}
 
@@ -177,7 +188,7 @@ The name of this option could be different, depending on the settings in **Appli
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. （可選）在「上傳」頁面底部附近，選取「覆寫」( **Overwrite in any folder, same base asset name)，不論副檔名為何** ，如果您要上傳的檔案以相同的名稱取代現有檔案。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 The name of this option could be different, depending on the settings in **Application Setup > General Settings > Upload to Application > Overwrite Images**.
-1. (可選；僅當您按一下「 **VIA FTP** 」標籤時才可用)如果您要自動從已上載的ZIP或TAR檔案中擷取所有檔案，請在「上載」頁面底部附近選取「 **Uncompress Zip or Tar Files on Upload** 」。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
+1. (可選； 僅當您按一下「 **VIA FTP** 」標籤時才可用)如果您要自動從已上載的ZIP或TAR檔案中擷取所有檔案，請在「上載」頁面底部附近選取「 **Uncompress Zip or Tar Files on Upload** 」。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. Near the lower-right corner of the Upload page, click **Job Options**, then specify the options you want.
 
    參閱[上載選項](uploading-files.md#upload_options)。
@@ -235,7 +246,7 @@ The name of this option could be different, depending on the settings in **Appli
 
 * **色彩描述檔選項** — 當您建立用於Dynamic Media Classic動態傳送的最佳化檔案時，請選擇顏色轉換：
 
-   * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色；沒有顏色轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
+   * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色； 沒有顏色轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
 
    * **保留原始色域** — 在擷取至Scene7 Publishing System時，保留原始顏色，而不進行任何顏色轉換。 至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
 
