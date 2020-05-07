@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 52%
 
 ---
 
@@ -34,7 +37,5 @@ Dynamic Media Classic提供許多建立豐富式媒體的工具。 您可以建�
 * **色票集**—提供互動式購物體驗，讓使用者可以檢視不同顏色和圖樣的產品。 您可以結合縮放、多重視圖和色票，以獲得整合式的檢視體驗。See [Quick Start: Swatch Sets](/help/quick-start-swatch-sets.md).
 
 * **範本基礎**&#x200B;功能：建立資料導向的範本，其中結合字型、影像和圖形，以進行單一化、線上個人化和促銷。 例如，將銷售或其他促銷圖形以圖層疊加至產品影像上，或將客戶名稱置於 T-shirts 或咖啡杯上。客戶可以在您寄送給他們的電子郵件訊息或列印傳單上看到他們的名字。請參閱[快速入門: 基本範本](/help/quick-start-template-basics.md)。
-
-* **範本發佈**&#x200B;建立具專業品牌的印刷內容，讓客戶、客戶和員工都能輕鬆自訂和個人化。 您可以在整個發佈程序中保有公司內容和品牌身分。終端使用者可以自訂列印內容 — 但僅限您允許其自訂的部分內容。個人化文具、名片、海報、賀卡、標籤、支票、禮品、服裝、日曆、剪貼簿和相簿等，都是您可以提供的自訂列印產品範例。公司可以在標記中保有通用品牌身分，他們可以自訂標記，用於不同地區、經銷權、商店和分公司。請參閱[快速入門: 基本範本](/help/quick-start-template-publishing.md)。
 
 * **縮放目標**—讓客戶使用Dynamic Media Classic隨附的可設定檢視器，放大、縮小和平移影像。 客戶可以快速且互動地檢視高解析度的產品細節。請參閱[快速入門: 縮放](/help/quick-start-zoom.md)。
