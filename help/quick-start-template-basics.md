@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 77%
 
 ---
 
@@ -18,10 +21,6 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 # Quick Start: Template Basics{#quick-start-template-basics}
 
 「範本基礎」是動態建立和可定址的圖層影像檔，例如Adobe Photoshop等影像編輯應用程式中的圖層檔案。 與包含圖層的靜態檔案 (如 PSD 檔案) 不同，範本可以包括參數。透過各種參數，影像的不同方面都可以定址及自訂。
-
->[!NOTE]
->
->您也可以使用「範本發佈」和Adobe Illustrator和Adobe InDesign的檔案，從版面設計建立範本。 請參閱[範本發佈](quick-start-template-publishing.md)。
 
 範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層（例如圖層PSD檔案）的靜態檔案轉換為範本，並在Dynamic Media Classic中建立範本。 可以使用上載到 SPS 中的字型在範本中建立文字圖層。將文字增加到範本中之後，可以透過變更其對齊方式、字型、字型大小以及色彩來設定字型格式。
 
