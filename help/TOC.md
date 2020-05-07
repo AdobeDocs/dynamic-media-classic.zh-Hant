@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 # Dynamic Media Classic說明 {#using}
 
 + [Dynamic Media Classic檔案首頁](home.md)
-+ [2020年上半年推出全新Dynamic Media Classic使用者介面](new-ui-2020.md)
++ [新功能：2020年6月30日推出Dynamic Media Classic登入體驗](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
    + [關於Dynamic Media Classic](introduction.md)
