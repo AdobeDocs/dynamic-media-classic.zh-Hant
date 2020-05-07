@@ -7,7 +7,7 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 36d716d080cf9afde2361d8fce1c9123bb085bf1
+source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## _上次更新日期：2020年5月7日_
 
-在2020年6月30日，Dynamic Media classic使用者將可存取新的登入體驗，而不再依賴瀏覽器中的Adobe Flash技術。 請閱讀下列常見問題以瞭解更多資訊。
+在2020年6月30日，Dynamic Media classic使用者將可存取新的登入體驗，而不再仰賴瀏覽器中的Adobe Flash技術。 請閱讀下列常見問題以瞭解更多資訊。
 
 ### **_當瀏覽器於2020年12月31日停止支援Adobe Flash時，Dynamic Media Classic（之前稱為Scene7）會受到什麼影響？_**
 
