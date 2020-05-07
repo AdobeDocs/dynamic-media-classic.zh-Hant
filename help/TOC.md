@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [系統需求](system-requirements-1.md)
-   + [快速入門：Media Portal](quick-start-media-portal-administration.md)
+   + [快速入門： Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 使用者角色](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [增加和管理 Media Portal 使用者](adding-media-portal-users.md)
@@ -87,7 +90,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [發佈縮放影像](publishing-zoom-images.md)
    + [將縮放檢視器連結至網頁](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [快速入門：eCatalogs](quick-start-ecatalog.md)
+   + [快速入門： eCatalogs](quick-start-ecatalog.md)
    + [上載 PDF 檔案](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [發佈範本](publishing-templates.md)
    + [將範本連結到網頁](linking-template-web-page.md)
    + [管理內容變體](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [快速入門：範本發佈](quick-start-template-publishing.md)
-   + [在Adobe Illustrator中建立初始範本](create-initial-template-illustrator.md)
-   + [Upload files for Template Publishing](upload-files-template-publishing.md)
-   + [定義可變性: 參數化與 DOM 操作](defining-variability-parameterization-versus-dom.md)
-   + [在Dynamic Media Classic中參數化範本](parameterizing-template-scene7.md)
-   + [預覽和更新範本屬性](preview-update-template-attributes.md)
-   + [DOM 操作](dom-manipulation.md)
-   + [將 FXG 範本連結到網頁](linking-fxg-template-web-page.md)
-   + [建立 PDF 文件](creating-pdf-document.md)
 + 視訊 {#video}
    + [快速入門: 視訊](quick-start-video.md)
    + [最佳做法: 使用 HTML5 視訊檢視器](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [快速入門： 整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,7 +155,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
 + Target Classic整合 {#target-classic}
-   + [快速入門：Target Classic整合](quick-start-target-classic-integration.md)
+   + [快速入門： Target Classic整合](quick-start-target-classic-integration.md)
    + [整合Adobe Dynamic Media Classic與Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
    + [將選件集推送至Adobe Target Classic](pushing-offer-sets-target-classic.md)
