@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 52%
 
 ---
 
@@ -52,6 +55,8 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 ### 動態媒體中不支援的影像格式 {#unsupported-image-formats-dynamic-media}
 
 下列清單說明動態媒體中不支援的點陣影像檔 *案* 格式子類型。
+
+另請參 [閱偵測不支援的動態媒體檔案格式](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)。
 
 * IDAT區塊大小大於100 MB的PNG檔案。
 * PSB檔案。
