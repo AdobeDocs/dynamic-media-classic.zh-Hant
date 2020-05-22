@@ -1,15 +1,15 @@
 ---
-title: 2020年上半年推出全新Dynamic Media Classic使用者介面
-seo-title: 2020年上半年推出全新Dynamic Media Classic使用者介面
-description: Dynamic Media Classic使用者可預期在2020年上半年重新整理其使用者介面。 本體驗將提供更新的登入，並提供重要資源的連結，而且此更新將不再依賴瀏覽器中的Adobe Flash技術。
-seo-description: Dynamic Media Classic使用者可預期在2020年上半年重新整理其使用者介面。 本體驗將提供更新的登入，並提供重要資源的連結，而且此更新將不再依賴瀏覽器中的Adobe Flash技術。
+title: 2020年6月30日推出全新Dynamic Media Classic登入體驗
+seo-title: 全新Dynamic Media Classic 2020年6月30日
+description: Dynamic Media Classic使用者可預期在2020年6月30日重新整理其使用者介面。 本體驗將提供更新的登入，並提供重要資源的連結，而且此更新將不再依賴瀏覽器中的Adobe Flash技術。
+seo-description: Dynamic Media Classic使用者可預期在2020年6月30日重新整理其使用者介面。 本體驗將提供更新的登入，並提供重要資源的連結，而且此更新將不再依賴瀏覽器中的Adobe Flash技術。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
