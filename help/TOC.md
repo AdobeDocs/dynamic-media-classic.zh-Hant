@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
+source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 78%
+source-wordcount: '719'
+ht-degree: 77%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 78%
    + [培訓視訊](training-videos.md)
 + 快速入門 {#getting-started}
    + [Adobe Dynamic Media Classic平台概觀](scene7-platform-overview.md)
-   + [使用 Scene7 Publishing System 桌面版本](using-scene7-publishing-system-desktop.md)
    + [Media Portal](media-portal.md)
    + [登入和登出](signing-out.md)
    + [導覽基本概念](navigation-basics.md)
