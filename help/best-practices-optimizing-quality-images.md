@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 61%
 
 ---
 
@@ -27,7 +30,7 @@ Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和�
 
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
 * 如果URL中未提供格式命令，則Dynamic Media Image Serving預設為JPG以進行傳送。
-* JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。除了一些情況 (例如影像有白色背景) 以外，PNG 會以大約 2:1 的比例壓縮。大致上 PNG 檔案的大小比 JPG 檔案更大。
+* JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。PNG的壓縮比約為2:1，但在某些情況下除外，例如當影像包含空白背景時。 大致上 PNG 檔案的大小比 JPG 檔案更大。
 * JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
 * 如果您的影像具有透明度，請使用 PNG，因為 JPG 不支援透明度。
@@ -41,7 +44,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. 這些參數會根據外觀比例自動設定影像寬度。
 * `&resMode=<value>` 控制用於縮減取樣的演算法。 從開始 `&resMode=sharp2`。 此值可提供最好的影像品質。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
-作為調整影像大小、使用或 `&wid=<value>&hei=<value>&resMode=sharp2``&hei=<value>&resMode=sharp2`
+作為調整影像大小、使用或 `&wid=<value>&hei=<value>&resMode=sharp2` `&hei=<value>&resMode=sharp2`
 
 ## 影像銳利化的最佳實踐 {#best-practices-for-image-sharpening}
 
@@ -74,7 +77,7 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * Dynamic Media Classic也可讓您控制第四個參數：單色( `0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
+   * Dynamic Media Classic也可讓您控制第四個參數： 單色( `0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
 
 最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
