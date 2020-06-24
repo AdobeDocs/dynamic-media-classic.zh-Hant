@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +48,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 網站訪客通常透過先選取「縮放」圖示 (通常該圖示顯示為放大鏡影像) 來縮放影像。選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 Basic Zoom Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html)。
+如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 Basic Zoom Viewer](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)。
 
 ## 複製「縮放」檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
