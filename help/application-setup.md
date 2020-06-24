@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '11120'
+ht-degree: 71%
 
 ---
 
@@ -234,13 +237,13 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **重新取樣模式** ：選擇重新取樣模式選項。 下列選項會在縮減取樣影像時予以銳利化:
 
-**B-Linear** ：最快的重採樣方法；有些鋸齒不自然現象很明顯。
+**B-Linear** ：最快的重採樣方法； 有些鋸齒不自然現象很明顯。
 
 **Bi-Cubic** Reaves Image Server的CPU使用量增加，但產生更銳利的影像，並且鋸齒不自然現象較少。
 
 **Sharp2** 比「雙三次方」選項產生的結果稍微銳利，但影像伺服器的CPU成本更高。
 
-**Tri-Linear** Uses both higher resolutions and lower resolutions, if available;僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
+**Tri-Linear** Uses both higher resolutions and lower resolutions, if available; 僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
 **銳利化遮色片** ：選擇下列選項以微調銳利化：
 
@@ -262,7 +265,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **內嵌描述檔** ：選取這個選項，如果您在Adobe® Photoshop®中開啟此影像，它就會使用這個描述檔。
 
-**列印解析度** ：選擇列印此影像的解析度；預設值為72像素。
+**列印解析度** ：選擇列印此影像的解析度； 預設值為72像素。
 
 **URL修飾詞** ：如果您偏好指定定義影像預設集的URL修飾詞，而非設定，請在此處輸入修飾詞。
 
@@ -345,7 +348,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **視訊位元速率（資料速率）** ：編碼成視訊播放一秒（千位／秒）的資料量。
 
-**像素寬度／高度** ：螢幕影像的寬度尺寸，以像素為單位；螢幕影像的高度尺寸（以像素為單位）。
+**像素寬度／高度** ：螢幕影像的寬度尺寸，以像素為單位； 螢幕影像的高度尺寸（以像素為單位）。
 
 **每秒影格數(fps)** ：視訊每秒的影格數，或靜止影像數。 在美國和日本，大部分視訊以 29.97 fps 拍攝；在歐洲和亞洲 (不包括日本)，大部分視訊以 25 fps 拍攝。電影以 24 fps 拍攝。
 
@@ -443,13 +446,13 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->**Flash檢視器停售通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash檢視器停售通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
 最佳實務是使用Dynamic Media Classic HTML5視訊檢視器。 HTML5 視訊檢視器使用的預設集是健全的視訊播放器。此單一播放程式集諸多功能於一身，能夠使用 HTML5 與 CSS 來設計播放組件，能夠實現內嵌播放，還能夠根據瀏覽器的功能來使用最適化串流與漸進式串流，可協助您將多媒體內容同時提供給桌上型電腦、平板電腦和行動裝置使用者，並確保順暢的視訊體驗。
 
-請參 [閱Adobe檢視器參考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) 中的關於HTML5檢視器。
+請參 [閱Adobe檢視器參考指南](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 中的關於HTML5檢視器。
 
 請參 [閱Dynamic Media Classic檢視器預設集相容性矩陣](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -457,7 +460,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 依據檢視器而定，您可以增加社群功能。社群功能包含「內嵌」按鈕、「電子郵件」按鈕、「連結」按鈕和「造訪網站」按鈕。這些按鈕可讓使用檢視器的使用者與其他人共用檢視器，或開啟Dynamic Media Classic網站。
 
-另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 回應式網頁的檢視器支援 {#viewer-support-for-responsive-designed-web-pages}
 
@@ -483,7 +486,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **縮放檢視器** ：讓使用者按一下區域即可放大檢視。 使用者可以按一下控制項來放大、縮小，以及將影像重設為預設大小。
 
-**縮放檢視器：飛出** ：在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
+**縮放檢視器： 飛出** ：在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
 
 決定此檢視器的完整頻寬使用情況時，請考量檢視器會同時處理主要影像和彈出影像。主要影像大小 (「舞台寬度」和「舞台高度」) 和「縮放係數」會決定彈出影像大小。若要避免彈出檔案大小過大，請平衡以下兩個值: 如果您的主要影像較大，請降低「縮放係數」值。(「彈出寬度」和「彈出高度」會決定彈出視窗的大小，但不會決定提供給檢視器之彈出影像的大小。)
 
@@ -491,17 +494,17 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media Classic檢視器預設集相容性矩陣 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。
+**Flash檢視器生命週期結束注意事項**: 自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。
 
-如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 下表列出目前可用的Dynamic Media Classic Viewer預設集。 此表格也指定了檢視器與桌上型電腦和行動裝置的相容性，以及用於個別檢視器的技術。
 
-另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
-請參閱 [Adobe檢視器參考發行說明](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+請參閱 [Adobe檢視器參考發行說明](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android 智慧型手機 | Android 平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -542,12 +545,12 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
-* 您可以在以下位置找到支援此視訊格式的Blackberry裝置：Blackberry [上支援的視訊格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 您可以在以下位置找到支援此視訊格式的Blackberry裝置： [Blackberry上支援的視訊格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * 您也可以在下列位置找到支援此視訊格式的Windows裝置：Windows Phone[上支援的視訊格式](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android 智慧型手機 | Android 平板電腦 | BlackBerry 智慧型手機 | Windows 電話 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video（包含隱藏字幕的支援）。See [Best practice: Using the Universal HTML5 Video viewer.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video（包含隱藏字幕的支援）。 See [Best practice: Using the Universal HTML5 Video viewer.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social（包含對隱藏字幕和社交媒體的支援）。 | HTML5 | X | X | X | X | X | X | X |
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android 智慧型手機 | Android 平板電腦 |
@@ -644,7 +647,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 您可以匯出現有的HTML5檢視器預設集，做為建立新HTML5檢視器預設集的基礎。 匯出選項十分有用，因為您不需從頭建立檢視器， 但可以匯出與您要的外觀和行為接近的預設集，然後將其用作進行設計調整的起點。
 
-請注意，SPS中所有預設的現成檢視器預設CSS檔案都使用指向位於資產的相對影像伺服路徑 `Scene7SharedAssets`。 例如，以下是檢視器預設CSS檔案中影像資產的相對路徑，位於 `Scene7SharedAsset`:不 `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`過，如果您在自己的網站上代管檢視器CSS檔案，則必須透過在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則其外觀可能如下，其中 `https://s7d1.scene7.com` 是映像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+請注意，SPS中所有預設的現成檢視器預設CSS檔案都使用指向位於資產的相對影像伺服路徑 `Scene7SharedAssets`。 例如，以下是檢視器預設CSS檔案中影像資產的相對路徑，位於 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`不過，如果您在自己的網站上代管檢視器CSS檔案，則必須在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則其外觀可能如下，其中 `https://s7d1.scene7.com` 是映像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **若要匯出HTML5檢視器預設集**
 
@@ -703,12 +706,15 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側「URL」和「內嵌程式碼」面板中，按一下您要的檢視器右側的「**複製 URL**」。
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
    * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
    * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
 ### 複製檢視器預設集的內嵌程式碼 {#copying-the-embed-code-of-a-viewer-preset}
@@ -724,12 +730,15 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的 URL 面板中，按一下「**內嵌程式碼**」。
    * 按一下「**格點檢視**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方按一下「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
    * 按一下「**清單檢視**」。在「資產瀏覽」面板中，選取單一資產，然後按一下縮圖影像右側的「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
    * 按一下「**格點檢視**」、「**清單檢視**」或「**詳細檢視**」。在同一個工具列上，按一下「**預覽** > **檢視器清單**」。
+
    在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**內嵌程式碼**」。
 
 1. 在「內嵌程式碼」對話框中，按一下「**複製至剪貼簿**」。
