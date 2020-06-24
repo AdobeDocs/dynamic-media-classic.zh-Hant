@@ -10,16 +10,19 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 46%
 
 ---
 
 
 # 系統需求 {#system-requirements}
 
-為取得使用 Scene7 Publishing System 的最佳體驗，請確認您的系統符合下列系統需求與建議:
+為獲得使用Dynamic Media Classic案頭應用程式的最佳體驗，請確定您的系統符合下列系統需求和建議：
 
-* 必須具備 Microsoft® Windows® 7 或更新版本，或者 Mac OS X 10.6 或更新版本，以及 Macintosh® Intel 處理器。
+* 需要Microsoft® Windows® 7或更新版本或macOS X 10.6或更新版本的Macintosh® Intel處理器。
 * 必須具備 3 GB 或以上的 RAM (建議為 4 GB 或以上)。
 * 彩色螢幕。
 * 支援全彩 1280x1024 或以上之解析度的視訊卡。
