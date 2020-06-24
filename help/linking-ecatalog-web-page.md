@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 部署 eCatalog 最常見的方式，就是以 eCatalog 縮圖封面頁的形式，在網頁上放置連結。請與您的 IT 團隊合作，以確認 eCatalog 會在整潔、置中的彈出式視窗中啟動。要求您的 IT 團隊避免將工具列與位址列顯示在瀏覽器中。
 
-如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 eCatalog檢視器](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html)。
+如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 eCatalog檢視器](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)。
 
 ## 複製 eCatalog 檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
