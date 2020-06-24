@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 部署色票集的最常用方式是將一個連結 (透過瀏覽圖示) 放在網頁中。按一下後，連結會啟動可在快顯縮放視窗中顯示色票集的動態頁面 (ASP 或 JSP)。縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5縮放檢視器](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html)。
+如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5縮放檢視器](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)。
 
 ## 複製「色票集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
