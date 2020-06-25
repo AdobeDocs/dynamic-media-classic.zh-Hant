@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 全新的Dynamic Media Classic登入體驗現已推出 {#new-ui-2020}
 
-請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝應用程式，然後登入它。
+請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝新應用程式，然後登入。
 
 ## _上次更新日期：2020年6月30日_
 
@@ -24,37 +24,31 @@ Dynamic Media classic使用者現在可以存取全新的登入體驗，而不�
 
 ### **_當瀏覽器於2020年12月31日停止支援Adobe Flash時，Dynamic Media Classic（之前稱為Scene7）會受到什麼影響？_**
 
-Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用Adobe Flash Platform開發的內容。 Dynamic Media Classic的網頁使用者介面(目前標示為或 [!DNL Scene7 Publishing System] 產品 [!DNL SPS] 中的Dynamic Media Classic)目前需要Adobe Flash Player。 Adobe已為客戶提供案頭應用程式，現在可取代瀏覽器應用程式。
+Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用在Adobe Flash平台上開發的內容。 Dynamic Media Classic的Web使用者介面(目前已標示 [!DNL Scene7 Publishing System] 或 [!DNL SPS] 產品中)需要Adobe Flash Player。 當Adobe Flash於2020年12月31日停用時，Dynamic Media Classic客戶將無法再登入Web使用者介面。 因此，Adobe為客戶提供了取代瀏覽器體驗的案頭應用程式。
 
-### **_Dynamic Media Classic客戶何時可使用新的案頭應用程式？_**
-
-全新的Dynamic Media Classic案頭應用程式現在可供下載和安裝。 我們建議您在2020年10月1日之前安裝應用程式，以確保在2020年12月31日淘汰Adobe Flash Player之前，能夠順暢地轉換。  在該日期，將無法再登入瀏覽器版本的Dynamic Media Classic(在產品中標 [!DNL Scene7 Publishing System] 示為)。
-
-請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝應用程式，然後登入它。
+請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝新應用程式，然後登入。
 
 ### **_我要如何存取新的案頭應用程式？_**
 
-新的案頭應用程式是macOS的安 `.dmg` 裝程式和Windows `.exe` 的安裝程式。
+新的案頭應用程式可做為macOS的安 `.dmg` 裝程式或Windows的 `.exe` 安裝程式使用。
 
-請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝應用程式，然後登入它。
+請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝新應用程式，然後登入。
 
-下載連結也會透過Dynamic Media Classic電子報分享。
+下載連結也會透過 [Dynamic Media Classic電子報訂閱頁面共用。](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
-### **_新的案頭應用程式如何運作？_**
+### **_全新案頭應用程式如何運作？_**
 
-在您下載、安裝和啟動案頭應用程式後，會看到重新整理過的登入體驗。 只要輸入您現有的使用者名稱和密碼，並根據您所在的地區選擇適當的伺服器，您就會登入Dynamic Media Classic。 您會注意到，整體體驗與您使用的熟悉瀏覽器版本相同。 從案頭應用程式，您可以存取Dynamic Media Classic製作與測試環境。 如果您已取得此功能的認證，也可以存取媒體入口網站。
+在您下載、安裝和啟動案頭應用程式後，將會看到重新整理過的登入體驗。 只要輸入您現有的使用者名稱和密碼，並根據您所在的地區選擇適當的伺服器，您就會登入Dynamic Media Classic。 您會注意到，整體體驗與您慣用的熟悉網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Dynamic Media Classic製作與測試環境。 如果您已取得此功能的認證，也可以存取媒體入口網站。
 
 >[!IMPORTANT]
 >
->一次只能安裝一個案頭應用程式執行個體並啟用。
-
-請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝應用程式，然後登入它。
+>一次只能安裝一個案頭應用程式執行個體並啟用它。
 
 ### **_如果我使用Dynamic Media Classic API存取產品，而未透過Web使用者介面登入，該怎麼辦？_**
 
 Dynamic Media Classic的基礎API沒有變更。
 
-### **_這個全新的案頭應用程式體驗是否需要對第三方整合進行任何遷移或變更？_**
+### **_這個全新的案頭應用程式體驗需要對第三方整合進行任何移轉或變更嗎？_**
 
 否. Dynamic Media Classic客戶不需要移轉或變更任何第三方整合，就能使用新的案頭應用程式。
 
@@ -66,19 +60,27 @@ Dynamic Media Classic的基礎API沒有變更。
 
 是. 此全新案頭應用程式是跨平台解決方案，適用於Mac和PC。 不支 *援* Linux。
 
-### **_我的公司有嚴格的安全要求。 新的Dynamic Media Classic案頭應用程式將如何處理這些需求？_**
+### **_我的公司有嚴格的安全要求。 新的Dynamic Media Classic案頭應用程式如何處理這些需求？_**
 
-Adobe致力於確保我們的產品符合其客戶的安全性要求。 全新的Dynamic Media Classic案頭應用程式將持續為客戶提供高度安全的體驗，並符合所有Adobe安全性標準。
+Adobe致力於確保我們的產品符合其客戶的安全性要求。 全新的Dynamic Media Classic案頭應用程式將繼續為客戶提供符合所有Adobe安全標準的高度安全體驗。
 
 ### **_我的公司不允許我們在電腦上安裝軟體和應用程式。 您建議我們如何存取新的案頭應用程式？_**
 
 如果您的公司未經核准，不允許您在系統上下載和安裝軟體和應用程式，請及早與IT團隊合作，以取得存取新Dynamic Media Classic案頭應用程式的權限。 請記住，在2020年12月31日之後，瀏覽器版本將不再使用。 請務必避免等到最後一刻才下載新的案頭應用程式。
 
-### **_新的Dynamic Media Classic案頭應用程式是否需要新的SKU? 是否涉及授權成本？_**
+### **_新案頭應用程式的多個執行個體是否可同時開啟？_**
+
+否。全新Dynamic Media Classic案頭應用程式所建立的AIR技術，會限制使用者在指定時間開啟多個應用程式執行個體。
+
+### **_可透過本機電腦上傳至Dynamic Media Classic的檔案數量有任何限制嗎？_**
+
+在Windows上使用新的Dynamic Media Classic案頭應用程式時，您可使用「上傳」對話方塊一次最多上傳150 **[!UICONTROL 個]** 檔案。 此限制將於2020年底前解決。 macOS平 *台上* ，沒有上傳限制。
+
+### **_新的Dynamic Media Classic案頭應用程式需要新的SKU嗎？ 是否涉及授權成本？_**
 
 使用新的Dynamic Media Classic案頭應用程式時，不需要SKU或授權變更。
 
-### **_如何啟用升級至Dynamic Media Classic案頭應用程式？_**
+### **_Dynamic Media Classic案頭應用程式的升級如何啟用？_**
 
 在2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須照常下載新版本並安裝(取代 **[!UICONTROL Applications中的現有應用程式]**)。 客戶將會透過動態媒體電子報或透過其CSM收到新版本的通知。 Adobe也在開發應用程式內升級通知機制，以通知使用者升級。
 
@@ -90,8 +92,7 @@ Adobe致力於確保我們的產品符合其客戶的安全性要求。 全新�
 
 Dynamic Media Classic是功能強大、功能豐富的解決方案，旨在增強您的多媒體策略。 為確保您充分運用所有功能，請確定您已探索下列實用資源：
 
-* [最佳實務指南](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
-* [Adobe Experience League](https://guided.adobe.com/#recommended/solutions/experience-manager)
+* [動態媒體最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [動態媒體部落格文章](https://theblog.adobe.com/tag/dynamic-media/)
 * [動態媒體電子報封存](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
@@ -100,4 +101,7 @@ Dynamic Media Classic是功能強大、功能豐富的解決方案，旨在增�
 ### **_我有興趣進一步瞭解如何使用AEM Assets升級至動態媒體。 我可以在哪裡找到更多資訊？_**
 
 若要進一步瞭解升級至新一代豐富式媒體製作、發佈和動態發佈的優點，請造訪 [Dynamic Media升級入口網站](http://exploreadobe.com/dynamic-media-upgrade/)。
+
+
+<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
 
