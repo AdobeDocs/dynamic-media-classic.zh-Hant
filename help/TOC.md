@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 76%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
    + [Adobe Dynamic Media Classic案頭應用程式——現已推出](dynamic-media-classic-desktop-app.md)
-   + [關於Dynamic Media Classic](introduction.md)
+   + [關於Dynamic Media Classic說明](introduction.md)
    + [開發人員資源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系統需求](system-requirements.md)
