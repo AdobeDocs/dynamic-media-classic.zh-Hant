@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Dynamic Media Classic使用者現在可以存取新的案頭應用程式體驗�
 >
 >我們建議您在2020年10月1日之前安裝新的Adobe Dynamic Media Classic案頭應用程式。 如此可確保在2020年12月31日淘汰Adobe Flash Player之前，您的轉場順暢。 屆時，您將無法再登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，在產品中標示為Scene7 Publishing System。
 
-請參閱現已推出的 [全新Dynamic Media Classic登入體驗的常見問答集](/help/new-ui-2020.md)。
+請參閱現已提供的 [全新Dynamic Media Classic登入體驗的常見問答集。](/help/new-ui-2020.md)
 
 ## Adobe Dynamic Media Classic案頭應用程式的系統需求 {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * macOS(.dmg)-下 [載](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)。
-   * Windows(.exe)-下 [載](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)。
+   * [macOS(.dmg)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.exe)-下載。](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 根據您下載的安裝程式，執行下列其中一項作業。
 
