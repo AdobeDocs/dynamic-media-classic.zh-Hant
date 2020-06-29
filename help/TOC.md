@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 76%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 76%
 
 + [Dynamic Media Classic檔案首頁](home.md)
 + [最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新功能：2020年6月30日推出Dynamic Media Classic登入體驗](new-ui-2020.md)
++ [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
+   + [Adobe Dynamic Media Classic案頭應用程式——現已推出](dynamic-media-classic-desktop-app.md)
    + [關於Dynamic Media Classic](introduction.md)
    + [開發人員資源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系統需求](system-requirements.md)
-   + [Adobe Dynamic Media Classic案頭應用程式即將推出！](dynamic-media-classic-desktop-app.md)
    + [支援](support.md)
    + [Dynamic Media Classic Media Portal的說明](help-scene7-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
