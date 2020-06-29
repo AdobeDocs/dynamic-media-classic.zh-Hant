@@ -1,20 +1,20 @@
 ---
-title: 全新的Dynamic Media Classic登入體驗現已推出
-seo-title: 全新Dynamic Media Classic案頭應用程式現已推出
+title: Adobe Dynamic Media Classic案頭應用程式
+seo-title: Adobe Dynamic Media Classic案頭應用程式
 description: Dynamic Media Classic使用者現在可體驗使用者介面的完整更新。 本體驗提供更新登入，並提供重要資源的連結，而且此更新不再仰賴瀏覽器中的Adobe Flash技術。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# 全新的Dynamic Media Classic登入體驗現已推出 {#new-ui-2020}
+# Adobe Dynamic Media Classic案頭應用程式——現已推出 {#new-ui-2020}
 
 請參 [閱Adobe Dynamic Media Classic案頭應用程式](/help/dynamic-media-classic-desktop-app.md) ，以檢視系統需求、下載並安裝新應用程式，然後登入。
 
