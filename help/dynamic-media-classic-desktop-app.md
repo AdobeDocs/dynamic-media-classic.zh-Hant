@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
+source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
    * [macOS(.dmg)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.exe)-下載。](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.exe)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 根據您下載的安裝程式，執行下列其中一項作業。
 
