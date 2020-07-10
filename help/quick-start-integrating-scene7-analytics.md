@@ -1,6 +1,6 @@
 ---
-title: 「快速入門：整合Dynamic Media Classic和Adobe Analytics "
-seo-title: 「快速入門：整合Dynamic Media Classic和Adobe Analytics "
+title: 「快速入門： 整合Dynamic Media Classic和Adobe Analytics "
+seo-title: 「快速入門： 整合Dynamic Media Classic和Adobe Analytics "
 description: 'null'
 seo-description: 將Dynamic Media Classic與Adobe Analytic整合的簡介和快速入門，協助您快速上手使用。
 uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
@@ -10,12 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 47%
 
 ---
 
 
-# 快速入門：整合Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-scene-and-adobe-analytics}
+# 快速入門： 整合Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-scene-and-adobe-analytics}
 
 Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個地方就能針對整合自多個行銷通路的所有線上方案的資料進行評估、分析及最佳化。
 
@@ -23,7 +26,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 透過 Adobe Analytics 報告，可以非常清楚地瞭解客戶在網站上的活動。由此判定哪些產品簡報方式可以改變客戶的想法，哪些方式無法讓客戶感興趣。
 
-另請參閱[在 Adobe Analytics 中測量視訊](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
+另請參閱[在 Adobe Analytics 中測量視訊](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 >[!NOTE]
 >
