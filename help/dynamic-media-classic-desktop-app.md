@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
    | https://s7sps5.scene7.com/ | 亞太產業 |
 
 1. 張貼登入UI後，您會注意到熟悉的瀏覽器UI體驗。 您現在可以在案頭應用程式UI上，像平常一樣隨身攜帶日常活動。
+
+## 使用Dynamic Media Classic案頭應用程式的視訊逐步執行
+
+觀看使 [用Dynamic Media Classic案頭應用程式的視訊逐步執行](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (長度： 2分36秒)。
 
 ## Dynamic Media Classic的已知限制
 
