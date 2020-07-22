@@ -6,11 +6,14 @@ seo-description: 瞭解如何新增及管理Media Portal使用者
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 84%
 
 ---
 
@@ -129,6 +132,6 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 **編輯使用者資訊** ：輸入使用者的最新資訊。 請參閱編輯使用者資訊。
 
-**建立使用者定義欄位** 「建立自訂、使用者定義的中繼資料欄位」，以協助組織Scene7 Publishing System中的資產。 這些欄位也可視需要啟用或停用。
+**建立使用者定義欄位** 「建立自訂、使用者定義的中繼資料欄位」，以協助組織Dynamic Media Classic中的資產。 這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
