@@ -6,18 +6,21 @@ seo-description: 瞭解如何在Dynamic Media Classic中使用字型。
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 40%
 
 ---
 
 
 # 字型{#fonts}
 
-在某些情況下，Scene7 Publishing System 要求您上載字型檔案，以便使用特定的字型輸入或演算文字。例如，要在範本圖層上將特定的字型用於文字，請上載字型檔案。若要以特定的字型顯示 eCatalog 檢視器頁碼，請上載字型檔案。
+在某些情況下，Dynamic Media Classic會要求您上傳字型檔案，以輸入或轉換特定字型的文字。 例如，要在範本圖層上將特定的字型用於文字，請上載字型檔案。若要以特定的字型顯示 eCatalog 檢視器頁碼，請上載字型檔案。
 
 Dynamic Media Classic支援下列字型類型：
 
@@ -27,7 +30,7 @@ Dynamic Media Classic支援下列字型類型：
 * OpenType/PostScript 字型
 * PhotoFont
 
-上載字型檔案之後，您可以在「編輯資訊」畫面中變更其 SPS ID、字型名稱和類型資訊。
+上傳字型檔案後，您可以變更其Dynamic Media Classic ID、字型名稱，並在「編輯資訊」畫面上輸入資訊。
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Dynamic Media Classic支援下列字型類型：
 
 ## 上載字型檔案 {#uploading-font-files}
 
-使用與上載其他檔案相同的方法上載字型檔案。您可以將字型檔案儲存在任何 SPS 檔案夾中。請參閱[上載檔案](uploading-files.md#uploading_your_files)。
+使用與上載其他檔案相同的方法上載字型檔案。您可以將字型檔案儲存在任何Dynamic Media Classic檔案夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
 
 ## 編輯字型檔案資訊 {#editing-font-file-information}
 
