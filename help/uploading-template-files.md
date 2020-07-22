@@ -6,18 +6,21 @@ seo-description: 瞭解如何上傳範本檔案。
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 70%
 
 ---
 
 
 # 上載範本檔案{#uploading-template-files}
 
-將範本所需的檔案上載到 Scene7 Publishing System，然後開始建置範本。可以從 Adobe® Photoshop® PSD 或影像檔案建置範本。建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
+開始建立範本之前，請將範本所需的檔案上傳至Dynamic Media Classic。 可以從 Adobe® Photoshop® PSD 或影像檔案建置範本。建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
 
 >[!NOTE]
 >
