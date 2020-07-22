@@ -6,17 +6,20 @@ seo-description: 瞭解如何上傳和編碼視訊。
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '3938'
+ht-degree: 81%
 
 ---
 
 
 # 上載與編碼視訊{#uploading-and-encoding-videos}
 
-若要建立單一視訊或最適化視訊集以傳送到網路或行動裝置，請先將主視訊檔案上載到 Scene7 Publishing System。Dynamic Media Classic將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
+若要建立單一視訊或可調式視訊集，以便發佈至網頁或行動裝置，請先將主視訊檔案上傳至Dynamic Media Classic。 Dynamic Media Classic將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
 
 **MP4** Dynamic Media Classic建議MP4為偏好的視訊檔案格式。 使用 MP4 檔案可進行以下動作:
 
@@ -57,7 +60,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 1. 在「上載」頁面中，確定已核取「**上載後發佈**」。
 1. 按一下「**提交上載**」。
 
-*如果您想要使用 Scene7 Publishing System 將視訊編碼*
+*如果您想使用Dynamic Media Classic來編碼視訊*
 
 1. 在「全域導覽列」上，按一下「**上載**」。
 1. 在「上載」畫面中，按一下「**從桌面**」標籤。
@@ -119,12 +122,12 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 ## 視訊編碼最佳實踐 {#best-practices-for-video-encoding}
 
-以下是在 Scene7 Publishing System 中編碼來源視訊檔案的最佳作法提示:
+以下是在Dynamic Media Classic中編碼來源視訊檔案的最佳實務秘訣。
 
 有關視訊編碼的更多建議，請參閱以下內容:
 
 * Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
-* 影片：*視訊編碼基本功能：* [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en)。
+* 影片： *視訊編碼基本功能： * [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en)。
 
 ### 來源視訊檔案 {#source-video-files}
 
@@ -142,7 +145,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 您可以在Dynamic Media Classic中檢視檔案的中繼資料，使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，來取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
 
-1. 前往此網頁： [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
+1. 前往此網頁： [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. 選取和下載圖形介面版本的安裝程式，並按安裝指示操作。
 1. 安裝後，在視訊檔案按一下右鍵 (僅限 Windows) 並選取 MediaInfo，或者開啟 MediaInfo 並將您的視訊檔案拖曳到應用程式中。您會看到與視訊檔案相關的所有中繼資料，其中包括其寬度、高度和 fps。
 
@@ -259,7 +262,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 * 編輯視訊編碼預設集。
 * 刪除視訊預設集。
 
-任何您上載到 Scene7 Publishing System 的視訊，或您在 Scene7 Publishing System 中編碼的視訊，都視為「視訊」。換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在 Scene7 Publishing System 中預覽這些類型的視訊。您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
+您上傳至Dynamic Media Classic或您在Dynamic Media Classic中編碼的任何視訊，都會視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Dynamic Media Classic中預覽這些類型的視訊。 您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
 
 請參閱[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
 
@@ -267,7 +270,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 請參閱[在網頁上內嵌視訊檢視器](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)。
 
-對於您在Scene7 Publishing System中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
+對於您在Dynamic Media Classic中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
 
 **MP4 H.264使用** MP4檔案進行下列作業：
 
@@ -275,7 +278,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 * HLS（HTTP即時串流，Apple的串流通訊協定）。
 * 傳送漸進式視訊到 Android、Blackberry 和 Windows 行動裝置。
 
-任何其他視訊格式和轉碼器都視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在 Scene7 Publishing System 中預覽這些類型的視訊。您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
+任何其他視訊格式和轉碼器都視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Dynamic Media Classic中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
 
 ### 篩選視訊編碼預設集的清單 {#filtering-the-list-of-video-encoding-presets}
 
@@ -346,7 +349,7 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
    |--- |--- |
    | 預設集名稱 | 輸入視訊預設集的描述性名稱。您輸入的名稱會顯示在供使用者選擇轉碼選項的「上載工作選項」對話框中。 |
    | 說明 | 描述視訊預設集。您輸入的內容會在「上載工作選項」對話框 (供使用者選擇轉碼選項) 中將指標移動到預設集的名稱上時，以工具提示的形式顯示。 |
-   | 播放裝置 | 選擇要用來播放視訊的裝置。選項包括電腦（桌上型電腦）、行動裝置(iPhone、iPad、Android);或平板電腦（僅限iPad）。 此設定會自動確定在編碼期間使用的適當視訊和音訊轉碼器。 |
+   | 播放裝置 | 選擇要用來播放視訊的裝置。選項包括電腦（桌上型電腦）、行動裝置(iPhone、iPad、Android); 或平板電腦（僅限iPad）。 此設定會自動確定在編碼期間使用的適當視訊和音訊轉碼器。 |
    | 目標資料速率 | 輸入目標終端使用者的網際網路平均連線速度 (kbps)。您可以輸入速率，或拖曳滑桿進行輸入。使用者連線速度光譜會列出寬頻、DSL、行動裝置和撥接上網的常見速度。此設定會自動確定合併的視訊和音訊資料速率。也就是構成一秒鐘視訊播放所編碼的資料量。資料速率越高，所得到視訊的品質就越高。但是，如果資料速率太高，會導致檔案非常大並造成低頻寬使用者的觀看體驗不佳。最好是在高資料速率和低資料速率之間找到一個平衡點。旨在建立優質播放體驗，頻寬較低的使用者也能享受該體驗。 |
    | 外觀比例 | 外觀比例是視訊寬度相對於視訊高度的比例。以下所列的前兩個外觀比例經常用於水平顯示視訊:<ul><li> 4:3 - 幾乎適用於所有的標準畫質電視廣播內容。</li><li>16:9  - 幾乎適用於所有寬螢幕高畫質電視內容 (HDTV) 以及電影。</li><li>自動縮放 - (預設) 單一編碼預設集，可與任何外觀比例搭配使用，以為傳遞至行動裝置、平板電腦和桌上型電腦建立視訊。使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動縮放，以保留視訊的外觀比例 (寬高比)。</li><li>自訂 - 當您想要定義非標準的視訊大小時會使用。</li><li>您選擇的外觀比例決定了解析度大小的寬度和高度設定；寬度和高度值會自動縮放為適當的外觀比例。</li></ul> |
    | 解析度大小 | 解析度大小決定了尺寸，由以像素數表示的寬和高相乘來表示。以像素為單位輸入寬度和高度值，或拖曳滑桿來輸入這些值。解析度範圍列出了標準解析度大小。寬度和高度值將自動遵循所選的外觀比例。例如，如果選擇4:3作為寬高比並輸入400作為寬度，則系統會自動為高度輸入300。如果為「寬高比」設定選擇了「自動縮放」，則「解析度大小」的「寬度」值會自動設定為「自動」。按一下「預覽」可開啟瀏覽器窗口，並查看您的解析度選擇。 |
