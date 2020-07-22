@@ -6,11 +6,14 @@ seo-description: 瞭解如何使用專案來組織您的工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 59%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ## 建立專案檔案夾 {#creating-a-project-folder}
 
-您可以在資產庫中開始建立專案檔案夾，或是在將檔案上載到 Scene7 Publishing System 時建立專案檔案夾:
+您可以從「資產庫」或上傳檔案至Dynamic Media Classic時，建立「專案」檔案夾：
 
 * **在「資產庫**」中，捲動至「資產庫」底部、「專案」區段，並選取「新增專案」按鈕。 接著輸入專案的名稱。
 
@@ -49,13 +52,13 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 * **瀏覽內**&#x200B;容在「資產庫」中選取資料夾的名稱。 其資產會顯示在瀏覽面板中。
 
-* **刪除項目檔案**&#x200B;夾選擇項目資料夾，然後選擇「刪除項目」按鈕。 刪除「專案」檔案夾中的資產不會從 Scene7 Publishing System 中刪除該資產；資產會保留在其儲存位置的原始檔案夾中。
+* **刪除項目檔案**&#x200B;夾選擇項目資料夾，然後選擇「刪除項目」按鈕。 從「專案」檔案夾刪除資產並不會從Dynamic Media Classic中刪除資產； 資產會保留在儲存資產的原始資料夾中。
 
 * **更名項目文**&#x200B;件夾按兩下「資產面板」中資料夾的名稱，然後輸入新名稱。
 
 ## 將資產加入專案檔案夾 {#adding-assets-to-a-project-folder}
 
-您可以在瀏覽面板中開始將影像加入專案檔案夾，或是在將檔案上載到 Scene7 Publishing System 時，將影像加入專案檔案夾:
+您可以從「瀏覽面板」開始，或將檔案上傳至Dynamic Media Classic時，將影像新增至「專案」檔案夾：
 
 * **從「瀏覽面板**」中選取資產並拖曳至「專案」檔案夾。 您也可以選擇「檔案 > 加入專案」，在「選取專案」對話框中選取專案檔案夾名稱，然後選取「送出」按鈕。
 
