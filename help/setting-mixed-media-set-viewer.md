@@ -6,11 +6,14 @@ seo-description: 瞭解如何設定混合媒體集檢視器預設集。
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+
    「設定檢視器」視窗開啟。
 
 1. 在「預設集名稱」方框中輸入混合媒體集檢視器預設集的名稱。
@@ -53,11 +57,14 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    * **電子郵**&#x200B;件按一下「開啟」，在檢視器中啟用「電子郵件」按鈕。 如果使用者在檢視媒體集時按一下「電子郵件」按鈕，便會開啟包含該媒體集連結的電子郵件。
 
-   * **內嵌**&#x200B;按一下即時。 在「內嵌按鈕標籤」方框中，鍵入您要在檢視器中顯示的內嵌按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **內嵌**&#x200B;按一下即時。 在「內嵌按鈕標籤」方框中，鍵入您要在檢視器中顯示的內嵌按鈕名稱。視需要按一下 
+**瀏覽** ，找出並選取按鈕的自訂面板。
 
-   * **連結**&#x200B;按一下「即時」。 在「連結按鈕標籤」方框中，輸入您要在檢視器中顯示的連結按鈕名稱。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **連結**&#x200B;按一下「即時」。 在「連結按鈕標籤」方框中，輸入您要在檢視器中顯示的連結按鈕名稱。視需要按一下 
+**瀏覽** ，找出並選取按鈕的自訂面板。
 
-   * **造訪**&#x200B;按一 **下即時**。 在「造訪按鈕標籤」方框中，輸入您要在檢視器中顯示的造訪按鈕名稱。在「造訪 URL」方框中，輸入您要在按一下連結時開啟的網站 URL。
+   * **瀏覽**&#x200B;點按 
+**現時**. 在「造訪按鈕標籤」方框中，輸入您要在檢視器中顯示的造訪按鈕名稱。在「造訪 URL」方框中，輸入您要在按一下連結時開啟的網站 URL。
 
 1. 視需要指定其他選項。若要查看選項描述，請按一下選項旁的「資訊提示」圖示 。
 
