@@ -6,18 +6,21 @@ seo-description: 瞭解如何將視訊部署至您的網站和行動網站。
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 69%
 
 ---
 
 
 # 將視訊部署到網站和行動裝置網站{#deploying-video-to-your-websites-and-mobile-sites}
 
-網站、行動網站和案頭應用程式會使用URL字串或內嵌程式碼來存取Dynamic Media Classic伺服器內容，包括視訊。 Dynamic Media Classic會在發佈程式期間啟動這些URL字串。 若要將視訊的 URL 字串或內嵌程式碼放在網頁、行動網頁和桌上型電腦應用程式中，請從 Scene7 Publishing System 中複製該字串。
+網站、行動網站和案頭應用程式會使用URL字串或內嵌程式碼來存取Dynamic Media Classic伺服器內容，包括視訊。 Dynamic Media Classic會在發佈程式期間啟動這些URL字串。 若要將視訊的URL字串或內嵌程式碼置於網頁、行動頁面和案頭應用程式中，請從Dynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -37,7 +40,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
    如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
-在您發佈視訊之後，Scene7 Publishing System 會啟用 HTML 頁面或應用程式代碼的 URL 字串。
+發佈視訊後，Dynamic Media Classic會為您的HTML頁面或應用程式程式碼啟動URL字串。
 
 **發佈視訊**
 
@@ -137,11 +140,12 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 **部署使用第三方視訊播放器的視訊**
 
-1. 在 Scene7 Publishing System 的「全域導覽」列上，按一下「**設定** > **應用程式設定** > **一般設定**」。
+1. In Dynamic Media Classic, on the Global Navigation bar, click **Setup** > **Application Setup** > **General Settings**.
 1. 依據您要使用的 URL 類型，執行下列其中一項工作: 
 * 若要產生直接HLS串流視訊URL（多位元速率）
 
-   在「應 **用程式一般設定** 」頁面的「伺服器」群組的「發佈的伺服器名稱 ******** 」文字欄位中，使用下列語法來建構直接URL:例 `server/is/content/company/folder/filename.m3u8`如，假設「發佈」伺服器名稱為 `https://s7d9.scene7.com/.` 「使用步驟2中的語法」，則直接URL可能如下所示：
+   在「應 **用程式一般設定** 」頁面的「伺服器」群組的「發佈的伺服器名稱 ******** 」文字欄位中，使用下列語法來建構直接URL: `server/is/content/company/folder/filename.m3u8`
+例如，假設「已發佈」伺服器名稱為「使 `https://s7d9.scene7.com/.` 用步驟2中的語法」，則直接URL可能如下所示：
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 若要產生直接HLS串流視訊URL（單位元速率）
@@ -159,7 +163,7 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 
-Dynamic Media Classic會產生編碼視訊的縮圖，以及預先編碼視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您也可以取得Dynamic Media Classic所產生視訊縮圖的URL，並在SPS外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
+Dynamic Media Classic會產生編碼視訊的縮圖，以及預先編碼視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您也可以取得Dynamic Media Classic產生的視訊縮圖的URL，並在Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
 
 縮圖的產生以視訊中的首個異質影格 (非全黑影格或全白影格等等) 為基礎。
 
