@@ -6,11 +6,14 @@ seo-description: 瞭解Media Portal中提供的各種使用者角色。
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 73%
 
 ---
 
@@ -35,7 +38,7 @@ Media Portal 提供下列角色，每個角色都有不同的存取權與權限�
 | 瀏覽中繼資料 | X | X | X |
 | 預覽檔案 | X | X | X |
 | 搜尋檔案 | X | X | X |
-| 上載檔案至 Scene7 Publishing System |  | X | X |
+| 將檔案上傳至Dynamic Media Classic |  | X | X |
 | 編輯和匯入資產中繼資料 |  | X | X |
 | 建立、重新命名和刪除檔案夾 |  | X | X |
 | 匯出資產中繼資料 | X |  | X |
@@ -43,4 +46,4 @@ Media Portal 提供下列角色，每個角色都有不同的存取權與權限�
 | 將檔案移至其他檔案夾 |  | X | X |
 | 重新命名檔案 |  | X | X |
 | 刪除檔案 |  | X | X |
-| 從 SPS 匯出 (下載) 檔案 | X |  | X |
+| 從Dynamic Media Classic匯出（下載）檔案 | X |  | X |
