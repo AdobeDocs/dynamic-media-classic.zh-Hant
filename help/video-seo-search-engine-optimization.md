@@ -6,11 +6,14 @@ seo-description: 瞭解如何設定視訊SEO設定。
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: de7d2608f94935f238a11d8310b97dddc5476f57
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 66%
 
 ---
 
