@@ -6,18 +6,21 @@ seo-description: 瞭解如何發佈範本。
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 40%
 
 ---
 
 
 # 發佈範本{#publishing-templates}
 
-發佈範本會將範本放在動態媒體影像伺服器上，供您的網站和應用程式使用。 在發佈過程中，Scene7 Publishing System 將啟動網站和應用程式所需的 URL。
+發佈範本會將範本放在動態媒體影像伺服器上，供您的網站和應用程式使用。 在發佈程式中，Dynamic Media Classic會啟動您網站和應用程式所需的URL。
 
 >[!NOTE]
 >
