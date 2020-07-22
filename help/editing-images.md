@@ -6,18 +6,21 @@ seo-description: 瞭解如何編輯影像。
 uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 41%
 
 ---
 
 
 # 編輯影像{#editing-images}
 
-Scene7 Publishing System 提供許多工具來建立多媒體效果。按一下滑鼠指向「編輯」按鈕，就可以在瀏覽面板的詳細檢視中使用這些工具。您可以在Dynamic Media Classic中執行下列影像編輯工作：
+Dynamic Media Classic提供許多建立多媒體效果的工具。 按一下滑鼠指向「編輯」按鈕，就可以在瀏覽面板的詳細檢視中使用這些工具。您可以在Dynamic Media Classic中執行下列影像編輯工作：
 
 * **建立影像地圖**&#x200B;選取「影像」命令或「影像地圖」按鈕，以建立影像地圖。 影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個連結區，可顯示內含滑鼠指向效果文字的面板。例如，可讓使用者按一下影像地圖來啟動新網頁。請參閱建立影像地圖。
 
@@ -31,4 +34,4 @@ Scene7 Publishing System 提供許多工具來建立多媒體效果。按一下�
 
 * **編輯圖層**&#x200B;按一下「圖層」標籤，在PSD檔案中顯示個別、可編輯的圖層。 當您上傳PSD檔案時，所有圖層會個別上傳為個別檔案，以便您在Dynamic Media Classic中編輯。
 
-除了使用這些工具來編輯影像之外，您還可以在上載影像至 Scene7 Publishing System 時予以編輯。例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
+除了使用這些工具來編輯影像外，您還可以在將影像上傳至Dynamic Media Classic時編輯影像。 例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
