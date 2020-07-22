@@ -6,21 +6,21 @@ seo-description: 瞭解如何將eCatalog連結至網頁。
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # 連結 eCatalog 至網頁{#linking-an-ecatalog-to-a-web-page}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括eCatalogs。 這些 URL 字串會在發佈程序中啟用。若要在網頁與應用程式中放置 eCatalog 的 URL 字串或內嵌程式碼，請從 Scene7 Publishing System 中複製該字串。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括eCatalogs。 這些 URL 字串會在發佈程序中啟用。若要將eCatalog的URL字串或內嵌程式碼置於您的網頁和應用程式中，請從Dynamic Media Classic複製它。
 
 >[!NOTE]
 >
