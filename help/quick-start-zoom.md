@@ -6,11 +6,14 @@ seo-description: 簡介和快速開始縮放功能可協助您快速上手使用
 uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 64%
 
 ---
 
@@ -29,9 +32,9 @@ Dynamic Media Classic也提供引導式縮放功能，讓您反白顯示影像�
 
 **1. 上載縮放影像**
 
-首先將縮放影像上載到 Scene7 Publishing System。為獲得最佳縮放效果，Dynamic Media Classic建議影像在最長維度中至少為2000像素。
+首先，將縮放影像上傳至Dynamic Media Classic。 為獲得最佳縮放效果，Dynamic Media Classic建議影像在最長維度中至少為2000像素。
 
-在全域導覽列上選取「上載」按鈕，將影像從電腦或網路上載到 Scene7 Publishing System 的某個檔案夾中。請參閱[上載縮放影像](uploading-zoom-images.md#uploading_zoom_images)。
+選擇全域導覽列上的「上傳」按鈕，將影像從您的電腦或網路上傳至Dynamic Media Classic的資料夾。 請參閱[上載縮放影像](uploading-zoom-images.md#uploading_zoom_images)。
 
 **2. 建立縮放目標以進行已導引縮放**
 
@@ -41,7 +44,7 @@ Dynamic Media Classic也提供引導式縮放功能，讓您反白顯示影像�
 
 **3. 設定縮放檢視器預設集**
 
-縮放檢視器預設集可確定縮放檢視器的樣式和行為。如果您是管理員，則可以設定縮放檢視器預設集；Dynamic Media Classic也隨附預設的「最佳實務」縮放檢視器預設集。
+縮放檢視器預設集可確定縮放檢視器的樣式和行為。如果您是管理員，則可以設定縮放檢視器預設集； Dynamic Media Classic也隨附預設的「最佳實務」縮放檢視器預設集。
 
 若要建立縮放檢視器預設集，請在全域導覽列上按一下「設定」按鈕，接著選擇「檢視器預設集」。然後在「檢視器預設集」畫面上按一下「增加」按鈕，選擇一個平台並選擇縮放檢視器，再按一下「增加」。接下來選擇「設定檢視器」畫面上的選項。
 
@@ -57,7 +60,7 @@ Dynamic Media Classic提供縮放檢視器預設集選項，可讓您選取檢�
 
 **5. 發佈縮放影像**
 
-發佈縮放影像時，會將影像放在動態媒體影像伺服器上，以便將影像傳送至您的網站和應用程式。 在發佈過程中，Scene7 Publishing System 會啟動 URL 字串。這些URL字串會呼叫從動態媒體影像伺服器到您網站或應用程式的縮放影像。
+發佈縮放影像時，會將影像放在動態媒體影像伺服器上，以便將影像傳送至您的網站和應用程式。 在發佈程式中，Dynamic Media Classic會啟動URL字串。 這些URL字串會呼叫從動態媒體影像伺服器到您網站或應用程式的縮放影像。
 
 選取全域導覽列上的「發佈」按鈕以啟動發佈。在「發佈」畫面上選取「開始發佈」按鈕。請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
 
