@@ -6,11 +6,14 @@ seo-description: 影像集簡介和快速入門，可協助您使用影像集技
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 62%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。請確定影像在最大尺寸中至少為2000像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
-選取全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。
+選取全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media Classic的檔案夾。
 
 請參閱[準備影像集資產進行上載](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
