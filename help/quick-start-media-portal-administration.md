@@ -1,16 +1,19 @@
 ---
-title: 「快速入門：媒體入口網站」
-seo-title: 「快速入門：媒體入口網站」
+title: 「快速入門： 媒體入口網站」
+seo-title: 「快速入門： 媒體入口網站」
 description: 'null'
 seo-description: 介質入口網站簡介和快速入門，可協助您使用媒體入口網站技術和管理快速上手。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 84%
 
 ---
 
@@ -45,7 +48,7 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 **4. 管理 FTP 帳戶**
 
-您可以擁有多個與 Media Portal 關聯的 FTP 帳戶，並對應到您的 Scene7 Publishing System 帳戶中的特定檔案夾。這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
+您可以有與Media Portal關聯並對應至Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
 請參閱[管理 FTP 帳戶](ftp-accounts.md#managing_ftp_accounts)。
 
