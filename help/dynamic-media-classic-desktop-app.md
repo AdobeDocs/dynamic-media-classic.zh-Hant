@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dynamic Media Classic使用者現在可以存取新的案頭應用程式體驗�
 
 >[!IMPORTANT]
 >
->我們建議您在2020年10月1日之前安裝新的Adobe Dynamic Media Classic案頭應用程式。 如此可確保在2020年12月31日淘汰Adobe Flash Player之前，您的轉場順暢。 屆時，您將無法再登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，在產品中標示為Scene7 Publishing System。
+>我們建議您在2020年10月1日之前安裝新的Adobe Dynamic Media Classic案頭應用程式。 如此可確保在2020年12月31日淘汰Adobe Flash Player之前，您的轉場順暢。 在該日，您將無法再登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，在產品中標示為Dynamic Media Classic。
 
 請參閱現已提供的 [全新Dynamic Media Classic登入體驗的常見問答集。](/help/new-ui-2020.md)
 
