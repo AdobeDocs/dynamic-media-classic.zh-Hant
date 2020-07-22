@@ -6,11 +6,14 @@ seo-description: 瞭解如何移動、重新命名和刪除資產。
 uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 66%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 選取名稱，輸入新名稱，然後按 Enter 鍵或在名稱以外的位置按一下。
    * 選擇「檔案 > 重新命名」。資產名稱會以反白顯示。輸入新名稱，然後按 Enter 鍵。
 
-確認並未輸入現有 Scene7 Publishing System 資產的名稱。
+請確定您不要輸入現有Dynamic Media Classic資產的名稱。
 
 ## 刪除資產 {#delete-assets}
 
@@ -64,7 +67,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 若要在整個資產庫中一次刪除多個資產，您可以在文字檔案中列出要刪除的資產，並將清單送出至Dynamic Media Classic。
 
-建立 Scene7 Publishing System ID 的清單，並儲存為文字 (.txt) 檔案。每個 Scene7 Publishing System ID 都必須是獨立的一行 (後面接著強制換行符號)。
+建立Dynamic Media Classic ID清單，並儲存為文字(.txt)檔案。 每個Dynamic Media Classic ID都必須位於其自己的行上（後面接著硬式傳回）。
 
 建立清單之後，遵循下列步驟即可使用該清單刪除資產:
 
@@ -72,7 +75,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 1. 在「刪除資產清單」對話框中，瀏覽或輸入含有您要刪除之資產清單的文字檔案路徑。
 1. 按一下「刪除」按鈕。
 
-當您刪除包含文字檔的資產時，如果清單中沒有任何Scene7 Publishing System ID，則會顯示訊息，告知您Dynamic Media Classic是「無法驗證清單中的這些項目：」以及項目清單。 不過，Dynamic Media Classic不會在「工作」畫面上產生錯誤。
+當您刪除包含文字檔的資產時，如果清單中沒有任何Dynamic Media Classic ID，則會顯示訊息，告知您Dynamic Media Classic是「無法驗證清單中的這些項目：」以及項目清單。 不過，Dynamic Media Classic不會在「工作」畫面上產生錯誤。
 
 >[!MORELIKETHIS]
 >
