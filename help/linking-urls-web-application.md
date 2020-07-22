@@ -6,11 +6,14 @@ seo-description: 瞭解如何將URL連結至您的Web應用程式。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +22,13 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 您的網站和應用程式會透過URL字串存取動態媒體影像伺服器內容。 在您發佈影像後，Dynamic Media Classic會啟動參考動態媒體影像伺服器上影像預設集的URL字串。 您可以將這些 URL 貼至網路瀏覽器以進行測試。
 
-若要將這些 URL 字串置於網頁和應用程式中，請從 Scene7 Publishing System 複製。若要取得以影像預設集產生的 URL 字串，請前往「預覽」畫面或瀏覽面板 (在詳細檢視中)。
+若要將這些URL字串置於您的網頁和應用程式中，請從Dynamic Media Classic複製。 若要取得以影像預設集產生的 URL 字串，請前往「預覽」畫面或瀏覽面板 (在詳細檢視中)。
 
 ## 取得影像預設集 URL {#obtaining-an-image-preset-url}
 
 您可以從「預覽」或詳細檢視取得由影像預設集產生的 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。
 
-***注意&#x200B;**:在您發佈資產之前，URL不會生效。*
+***注意&#x200B;**: 在您發佈資產之前，URL不會生效。*
 
 ### 從預覽取得影像預設集 URL {#obtaining-an-image-preset-url-from-preview}
 
