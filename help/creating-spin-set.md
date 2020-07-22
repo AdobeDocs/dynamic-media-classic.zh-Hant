@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立回轉集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ## 建立迴轉集 {#create}
 
-請注意，在 Scene7 Publishing System 中錨定或建立迴轉集的順序很重要。根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，資產實際顯示在建置器中的順序，即為當使用者將滑鼠游標或手指由左向右移動時，資產迴轉的方向。
+請注意，在Dynamic Media Classic中編寫或建立回轉集的順序很重要。 根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，資產實際顯示在建置器中的順序，即為當使用者將滑鼠游標或手指由左向右移動時，資產迴轉的方向。
 
 建立集時，「**儲存後發佈**」選項會以下列方式影響集與集成員:
 
@@ -82,11 +85,13 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 按一下迴轉集的滑鼠指向效果「**編輯**」按鈕。
 1. 請執行下列任一動作:
 
-   * **移除影像**&#x200B;選取影像，然後按一下「刪 **除」**。
+   * **移除影像**&#x200B;選取影像，然後按一下 
+**刪除**.
 
    * **新增影像**&#x200B;將影像拖曳至儲存格。
 
-   * **重新排序行（二維回轉集）**&#x200B;按一下行選擇器框（在行左側），然後按一下向下 **移動行****或向上移動行**。
+   * **重新排序行（二維回轉集）**&#x200B;按一下行選擇器框（位於行左側），然後按一下 
+**向下移動行** , **或向上移動行**。
 
    * **添加行和單元格**&#x200B;在「行」框和「單元格」框中輸入一個數字，以確定每行的行數和單元格數。
 
