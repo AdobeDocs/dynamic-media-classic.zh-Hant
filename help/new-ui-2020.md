@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用�
 
 >[!IMPORTANT]
 >
->一次只能安裝一個案頭應用程式執行個體並啟用它。
+>在指定的電腦上，一次只能安裝 *一個案頭* 應用程式並啟用它。 不過，您可以跨電腦安裝的數量沒有限制。
 
 ### **_如果我使用Dynamic Media Classic API存取產品，而未透過Web使用者介面登入，該怎麼辦？_**
 
