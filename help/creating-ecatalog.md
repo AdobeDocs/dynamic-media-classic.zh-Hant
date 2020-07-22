@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立eCatalog。
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -108,7 +111,7 @@ Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，在eCa
 
 如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
-目錄標籤會儲存在影像的「使用者資料」欄位中；格式化此資料為清單 `name=<value>`` pairs separated by two question marks “??” `。 例如，若要為名為tocEN &quot;的TOC欄位設定一個標籤，請將影像的「使用者資料」設定為：
+目錄標籤會儲存在影像的「使用者資料」欄位中； 格式化此資料為清單 `name=<value>`` pairs separated by two question marks “??” `。 例如，若要為名為tocEN &quot;的TOC欄位設定一個標籤，請將影像的「使用者資料」設定為：
 
 tocEN=&lt;EN_page_label>
 
