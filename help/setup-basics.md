@@ -6,18 +6,21 @@ seo-description: 瞭解如何使用「設定」畫面輸入您的個人設定。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 66%
 
 ---
 
 
 # 設定基礎{#setup-basics}
 
-使用 Scene7 Publishing System 設定畫面輸入個人設定。如果您是管理員，請為公司進行設定。若要開啟「設定」畫面，請按一下全域導覽列上的「設定」按鈕。
+使用「動態媒體經典設定」畫面，輸入您的個人設定。 如果您是管理員，請為公司進行設定。若要開啟「設定」畫面，請按一下全域導覽列上的「設定」按鈕。
 
 此畫面中提供的設定視您的狀態為使用者或管理員而定:
 
