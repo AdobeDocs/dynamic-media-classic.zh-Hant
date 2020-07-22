@@ -6,18 +6,21 @@ seo-description: 瞭解如何準備要上傳的影像集資產。
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 68%
 
 ---
 
 
 # 準備影像集資產進行上載{#preparing-image-set-assets-for-upload}
 
-將影像集所需影像上載至 Scene7 Publishing System 前，請確保影像為正確的大小和格式。
+在將影像集所需的影像上傳至Dynamic Media Classic之前，請確定影像的大小和格式正確。
 
 若要建立多重視圖影像集，您需要的影像必須能夠從不同視角顯示項目，或是能夠顯示相同項目的不同面相。目標是要強調項目的重要功能，讓檢視者能夠完整瞭解其外觀或功能。
 
