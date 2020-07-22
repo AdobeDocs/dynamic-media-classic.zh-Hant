@@ -6,18 +6,21 @@ seo-description: 瞭解如何裁切影像。
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 86%
 
 ---
 
 
 # 裁切影像{#cropping-an-image}
 
-您可以在 Scene7 Publishing System 中裁切影像。系統會保留已裁切之影像的相關資訊，以便您將這類影像還原成原始狀態。您也可以裁切影像並以新名稱儲存裁切過的版本。
+您可以在Dynamic Media Classic中裁切影像。 系統會保留已裁切之影像的相關資訊，以便您將這類影像還原成原始狀態。您也可以裁切影像並以新名稱儲存裁切過的版本。
 
 您可以裁切影像以移除周圍的空白區域，或是裁切影像區域。
 
