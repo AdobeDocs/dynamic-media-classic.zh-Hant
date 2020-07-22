@@ -6,11 +6,14 @@ seo-description: 瞭解如何銳利化影像。
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 73%
 
 ---
 
@@ -29,15 +32,15 @@ Dynamic Media Classic也建議將銳利化新增至檢視器預設集，然後�
 >
 >「銳利化」命令會覆蓋「影像預設集」設定，包括其中的銳利化效果。影像預設集控制從動態媒體影像伺服器傳送影像的大小和格式。 強烈建議使用「影像預設集」來傳送所有影像，以確保以均勻的大小和銳利化方式傳送影像。 不過，變更個別影像的銳利化設定之後，「影像預設集」的銳利化設定就不再適用於該影像。它會在不含「影像預設集」銳利化設定的情況下傳送。
 
-通常必須將影像銳利化。Dynamic Media Classic SPS和影像伺服器提供數種銳利化選項。 請務必瞭解銳利化對影像造成的變化，以及所需的銳利化程度為何。大部分的影像都需要進行一些銳利化，不過所需的銳利化程度則取決於影像。
+通常必須將影像銳利化。Dynamic Media Classic和影像伺服器提供數種銳利化選項。 請務必瞭解銳利化對影像造成的變化，以及所需的銳利化程度為何。大部分的影像都需要進行一些銳利化，不過所需的銳利化程度則取決於影像。
 
 影像銳利化會增加像素的對比，以產生強調邊緣的效果。人們將這種加強的邊緣對比視為銳利。雖然在影像上執行銳利化濾鏡即可輕鬆改善影像，不過這樣也很容易過度銳利化影像。
 
 過度銳利化影像會產生光暈效果，或使邊緣線條產生條紋。
 
-您可以遵循最佳實務，在Scene7 Publishing System和Dynamic Media Image Server中最佳化影像銳利化。
+您可以遵循一些最佳實務，以最佳化Dynamic Media Classic和Dynamic Media Image Server中影像的銳利化。
 
-請參 [閱Scene7 Publishing System和Dynamic Media Image Server中銳利化影像的最佳範例](/help/assets/s7_sharpening_images.pdf)。
+請參 [閱Dynamic Media Classic和Dynamic Media Image Server中銳利化影像的最佳範例](/help/assets/s7_sharpening_images.pdf)。
 
 **銳利化影像**
 
@@ -55,7 +58,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 |--- |--- |--- |--- |
 | 簡單銳利化 | op_sharpen | `0 | 1` | op_sharpen=1 |
 | 重新取樣模式 | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin:選取標準雙線性式內插補點。最快速的重新取樣方法；可能會有某些明顯的鋸齒狀不自然感。<br>bicub:選取雙立方式內插補點。比 bilin 需要更大量的 CPU，但是會產生較銳利的影像，且鋸齒狀不自然感較不明顯。<br><br>sharp2:選取已修改的 Lanczos Window 函數作為內插補點演算法。產生的結果可能會比雙立方式稍微銳利一些，但是會耗用較高的 CPU 成本。<br><br>trilin: 選取已修改的三線性式內插補點，它會同時使用較高與較低解析度 (如果有的話)。建議只在必須要解決鋸齒問題時才使用，因為減少了高頻率資料，所以會降低 JPEG 大小。 | resMode=sharp2 |
-| 遮色片銳利化調整 | op_usm | 量、半徑、閾值、<br><br>單色量：濾鏡強度因子（實數0...5）<br><br>半徑：濾鏡核心半徑（像素）（實數0...250）閾 <br><br>值：濾鏡閾值級別(int 0...255)單<br><br>色：設為0以分別對每個顏色元件取消銳利化遮色片，設為1以取消銳利化遮色片影像亮度（強度） | op_usm=1,1,10,0 |
+| 遮色片銳利化調整 | op_usm | 量、半徑、閾值、<br><br>單色量： 濾鏡強度因子（實數0...5）<br><br>半徑： 濾鏡核心半徑（像素）（實數0...250）閾 <br><br>值： 濾鏡閾值級別(int 0...255)單<br><br>色： 設為0以分別對每個顏色元件取消銳利化遮色片，設為1以取消銳利化遮色片影像亮度（強度） | op_usm=1,1,10,0 |
 
 選取「銳利化」選單，然後選取一個選項:
 
@@ -81,7 +84,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 舉例來說，假設您有一張某人臉部的相片。「遮色片銳利化調整」會影響影像中對比最大的部分以及平滑皮膚本身。即使是最平滑的皮膚也會顯現亮度值的細微變化。如果您不使用臨界值，則濾鏡會在皮膚像素中強調這些細微的變化，因而建立雜訊效果 (可能是不必要的)，同時也會增加睫毛的對比，進而改善銳利度 (可能是必要的)。為了避免這個問題，請使用臨界值以告知濾鏡忽略不要大幅更改對比的像素，例如平滑皮膚。為避免在包含肉色的影像中引入雜訊或色調分離，請嘗試使用2到20之間的臨界值。 預設的「臨界值」為0，會銳化影像中的所有像素。
 
-**Apply To** Choose Each Color to apply sapplely apply sapplely apply sharpent to each color component;選擇亮度以套用至影像亮度區域的銳利化。
+**Apply To** Choose Each Color to apply sapplely apply sapplely apply sharpent to each color component; 選擇亮度以套用至影像亮度區域的銳利化。
 
 **重新取樣**
 
@@ -89,13 +92,13 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 **無** ：關閉重新取樣。
 
-**雙線性** ，最快的重採樣方法；有些鋸齒不自然現象很明顯。
+**雙線性** ，最快的重採樣方法； 有些鋸齒不自然現象很明顯。
 
 **雙立方體** (Bicubic)可增加影像伺服器的CPU使用量，但產生更銳利的影像，並減少明顯的鋸齒不自然現象。
 
 **銳利化2** 可能產生比雙立方體選項更銳利的結果，但影像伺服器的CPU成本更高。
 
-**三線性** ：如果有，則同時使用較高和較低的解析度；僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
+**三線性** ：如果有，則同時使用較高和較低的解析度； 僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
 **銳利化與影像預設集**
 
@@ -128,7 +131,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 除非您將銳利化影像修飾元增加至預設集，否則小型的初始載入影像可能會看起來柔化，因為該影像是經過縮減取樣以符合檢視器視窗，而未進行銳利化。
 
-在 SPS 中，檢視器預設集 (類似影像預設集) 可讓您將許多選項集中到單一位置，包括外觀選擇和檢視器選項 (例如包含「列印」按鈕或控制縮放動畫的速度)。檢視器預設集與影像預設集位於相同的區段中，在「設定 > 應用程式設定 > 檢視器預設集」下。
+在Dynamic Media Classic中，檢視器預設集（如影像預設集）可讓您將許多選項集中在一個位置，包括選擇外觀和檢視器選項（例如包含列印按鈕或控制縮放動畫的速度）。 檢視器預設集與影像預設集位於相同的區段中，在「設定 > 應用程式設定 > 檢視器預設集」下。
 
 「修飾元」選項則位於所有「eCatalog」、「迴轉」與「自訂縮放檢視器預設集」的「Core 設定」區段下。將 URL 銳利化命令增加至「修飾元」方框後，每次呼叫含有該檢視器預設集的檢視器時，您都可以增加銳利化。
 
@@ -142,4 +145,4 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 最後一個 (最不建議的) 銳利化方法是以逐一影像為基礎來建立銳利化覆蓋。這樣會以其專屬的特定值來覆蓋影像預設集中的銳利化。不過，這樣會覆蓋任何大小的所有其他銳利化方法。如果某些影像的解析度不夠高，且影像預設集中的值對於這些小型影像而言太高時，最適合使用此方法。在這種情況下，可能需要進行某種針對每個影像的銳利化。
 
-在 SPS 中選取任何影像，前往詳細檢視 (按兩下或按下「詳細檢視」按鈕)，然後按一下「銳利化」。更改任何參數，然後按一下「儲存」。這樣將告知影像伺服器使用這些銳利化參數，而不要使用您在 URL 中呼叫的任何命令，例如銳利化修飾元或影像預設集。您必須發佈才能看見這些更改生效。
+在Dynamic Media Classic中，選取任何影像，前往「詳細資料檢視」（按兩下或按「詳細資料檢視」按鈕），然後按一下「銳利化」。 更改任何參數，然後按一下「儲存」。這樣將告知影像伺服器使用這些銳利化參數，而不要使用您在 URL 中呼叫的任何命令，例如銳利化修飾元或影像預設集。您必須發佈才能看見這些更改生效。
