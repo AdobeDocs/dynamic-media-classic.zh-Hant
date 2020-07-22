@@ -6,28 +6,28 @@ seo-description: 瞭解如何上傳檔案。
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '3867'
-ht-degree: 52%
+source-wordcount: '3855'
+ht-degree: 44%
 
 ---
 
 
 # Uploading files{#uploading-files}
 
-將資產檔案上載到 Scene7 Publishing System 之前，確保資產檔案命名正確，並且檔案夾結構的建立及組織符合要求。 您可以從Dynamic Media Classic提供的FTP網站或直接從電腦或網路上傳檔案。 Dynamic Media Classic提供選項，可讓您在上傳檔案時最佳化檔案。 如果安裝了 Adobe Scene7 Publishing System 桌面應用程式，可以採用直接從桌面拖曳的方式來上載檔案和檔案夾。 (請參閱[應用程式一般設定](application-setup.md#general_settings)。)
+在將資產檔案上傳至Dynamic Media Classic之前，請確定資產檔案的命名正確，以及您的檔案夾結構是以您想要的方式設定和組織。 您可以從Dynamic Media Classic提供的FTP網站或直接從電腦或網路上傳檔案。 Dynamic Media Classic提供選項，可讓您在上傳檔案時最佳化檔案。 如果您已安裝Adobe Dynamic Media Classic案頭應用程式，則可直接從案頭拖曳檔案和檔案夾，以上傳檔案和檔案夾。 (請參閱[應用程式一般設定](application-setup.md#general_settings)。)
 
 ## 準備要上載的資產和檔案夾 {#preparing-your-assets-and-folders-for-uploading}
 
-在將資產上載至 Scene7 Publishing System 之前，確保資產的格式和大小正確。 您也必須遵守動態媒體經典規則來命名資產。 為檔案設定檔案夾組織和結構之前，請確定您可以輕鬆尋找和處理檔案。
+在上傳資產至Dynamic Media Classic之前，請確定資產的格式和大小正確。 您也必須遵守動態媒體經典規則來命名資產。 為檔案設定檔案夾組織和結構之前，請確定您可以輕鬆尋找和處理檔案。
 
 ### 支援的資產檔案格式 {#supported-asset-file-formats}
 
-此表格列出 Scene7 Publishing System 支援的資產檔案格式。 For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+下表列出Dynamic Media Classic支援的資產檔案格式。 For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | 資產檔案格式 | 說明 |
 |--- |--- |
@@ -90,7 +90,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 
 >[!NOTE]
 >
->將影像檔案和 PDF 上載至 SPS 時，系統將這些來源檔案轉換為 P-TIFF (金字塔 TIFF) 檔案。 這些P-TIFF是稍後發佈至動態媒體影像伺服器的檔案。 Dynamic Media Classic使用Pyramid Tiff檔案格式，因為它包含各種縮放比例，可在使用Dynamic Media Classic縮放檢視器檢視時快速縮放。
+>當您將影像檔和PDF上傳至Dynamic Media Classic時，系統會將這些來源檔案轉換為P-TIFF(Pyramid TIFF)檔案。 這些P-TIFF是稍後發佈至動態媒體影像伺服器的檔案。 Dynamic Media Classic使用Pyramid Tiff檔案格式，因為它包含各種縮放比例，可在使用Dynamic Media Classic縮放檢視器檢視時快速縮放。
 
 ### 支援的靜態檔案格式 {#supported-static-file-formats}
 
@@ -135,12 +135,12 @@ Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 ### 檔案夾組織和結構 {#folder-organization-and-structure}
 
-請先在 Scene7 Publishing System 中組織內容的檔案夾及子檔案並建立其結構，然後再將內容上載至系統。採用這種方式提前進行規劃主要有兩個好處:
+在將內容上傳至系統之前，先在Dynamic Media Classic中組織並建構您內容的檔案夾和子檔案夾。 採用這種方式提前進行規劃主要有兩個好處:
 
-* 在透過 FTP 將內容上載至 SPS 時，可以通知系統在上載期間複製檔案夾結構。這樣，在 SPS 中您的內容所在的檔案夾和子檔案夾，就與其在您電腦或網路上所在的檔案夾和子檔案夾相同。(要在 SPS 中複製您的檔案夾結構，在透過 FTP 上載資產時，選取「包含子檔案夾」選項。)
+* 當您透過FTP將內容上傳至Dynamic Media Classic時，您可以告訴系統在上傳期間複製資料夾結構。 如此，您的內容就會組織在Dynamic Media Classic的相同檔案夾和子檔案夾中，就像在電腦或網路上一樣。 （若要在Dynamic Media Classic中複製您的檔案夾結構，請在透過FTP上傳資產時選取「包含子檔案夾」選項。）
 * 與在開始就使用經過仔細計畫的檔案夾結構相比，在檔案上載之後重新對系統內的檔案夾進行組織要困難得多。
 
-您選擇用來在 Scene7 Publishing System 上儲存內容的檔案夾命名方法和結構取決於貴組織的需求。以下是一些檔案夾結構範例:
+您選擇的資料夾命名方式和結構，將內容儲存在Dynamic Media Classic上，視組織需求而定。 以下是一些檔案夾結構範例:
 
 **以SKU為基礎的** 「檔案夾」會根據SKU或項目編號來命名。 例如，為所有以 0、20、30 開頭的編號序列分別建立單獨的檔案夾。
 
@@ -154,21 +154,19 @@ Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 您可以從桌面上載個別檔案，或是透過 FTP 上載檔案夾。If you want to upload more than 100 MB of files or upload entire folders and subfolders, select the **VIA FTP** tab.
 
-如果您已安裝Scene7 Publishing System案頭應用程式，則可直接將檔案和檔案夾從案頭拖曳至目標上傳檔案夾。
+Dynamic Media Classic會寄送電子郵件訊息給您，以確認上傳工作何時開始和結束，並通知您任何問題。
 
-Scene7 Publishing System 會在您的上載工作開始和結束時向您傳送一封電子郵件進行確認，並將任何問題通知給您。
-
-執行大批量上載工作期間 (或隨後)，有些新項目可能顯示「尚未最佳化影像」訊息。出現此消息是因為檔案尚未完全處理並添加到SPS中。 您可以稍後將這些檔案最佳化。(請參閱[最佳化檔案](application-setup.md#optimize_files)。)
+執行大批量上載工作期間 (或隨後)，有些新項目可能顯示「尚未最佳化影像」訊息。此訊息會出現，因為檔案尚未完全處理並新增至Dynamic Media Classic。 您可以稍後將這些檔案最佳化。(請參閱[最佳化檔案](application-setup.md#optimize_files)。)
 
 ### 使用「從案頭」頁籤上載檔案 {#upload-files-using-sps-desktop-application}
 
-Scene7 Publishing System Desktop 應用程式允許以拖曳方式上載檔案和檔案夾。
+Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和資料夾。
 
-1. 在 Scene7 Publishing System Desktop 應用程式中，按一下全域導覽列中的「**上載**」。
+1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
 1. 在「上傳」頁面的左側，在「選取要上傳的檔案 **」區域中，按一下「** Browse **」（瀏覽）以選取您要上傳的檔案或檔案夾，然後按一下「** 開啟 ****」。
 1. 在「上傳」頁面的右側，在「選擇資料夾目標 **** 」區域中，導航到要添加已上載檔案或資料夾的目標資料夾。
-1. （可選）在「上傳」頁面底部的「作業名 **稱** 」欄位中，指定上傳工作的新名稱。 或者，您只需使用SPS提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
+1. （可選）在「上傳」頁面底部的「作業名 **稱** 」欄位中，指定上傳工作的新名稱。 或者，您只需使用Dynamic Media Classic提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
 1. （可選）如果您要自動發佈您上傳的資產，請在「上傳」頁面底部附近選取「 **上傳後發佈** 」。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. （可選）在「上傳」頁面底部附近，選取「覆寫」( **Overwrite in any folder, same base asset name)，不論副檔名為何** ，如果您要上傳的檔案以相同的名稱取代現有檔案。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
@@ -179,7 +177,7 @@ The name of this option could be different, depending on the settings in **Appli
 
 1. 在「上載工作選項」對話框中，按一下「**儲存**」。
 1. 在「上傳」頁面的右下角，按一下「提交 **上傳」**。
-若要查看上載進度，按一下全域導覽列中的「**工作**」。您可以在 Scene7 Publishing System 中繼續工作，並隨時返回「工作」頁面檢閱進行中的工作。若要取消進行中的上載工作，請選取「持續時間」旁邊的「**取消**」按鈕。
+若要查看上載進度，按一下全域導覽列中的「**工作**」。您可以繼續在Dynamic Media Classic中工作，並隨時返回「作業」頁面，以檢閱進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**取消**」按鈕。
 
 ### 使用VIA FTP標籤上傳檔案 {#upload-files-using-via-ftp}
 
@@ -187,8 +185,8 @@ The name of this option could be different, depending on the settings in **Appli
 1. 在Dynamic Media Classic的全域導覽列上，按一下「上 **傳」**。
 1. On the Upload page, click the **VIA FTP** tab.
 1. 在「上傳」頁面的左側，在「選擇 **FTP資料夾以進行上傳** 」區域中，選擇要從中上傳檔案的FTP資料夾。
-1. 在「上傳」頁面的右側，在「選擇 **SPS檔案夾目標」區域** ，選擇Scene7 Publishing System中的目標檔案夾。
-1. （可選）在「上傳」頁面底部的「作業名 **稱** 」欄位中，指定上傳工作的新名稱。 或者，您只需使用SPS提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
+1. 在「上傳」頁面的右側，在「選擇 **Adobe Dynamic Media Folder Destination** 」區域中，在Dynamic Media Classic中選擇目標檔案夾。
+1. （可選）在「上傳」頁面底部的「作業名 **稱** 」欄位中，指定上傳工作的新名稱。 或者，您只需使用Dynamic Media Classic提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
 1. （可選）如果您要自動發佈您上傳的資產，請在「上傳」頁面底部附近選取「 **上傳後發佈** 」。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. （可選）在「上傳」頁面底部附近，選取「覆寫」( **Overwrite in any folder, same base asset name)，不論副檔名為何** ，如果您要上傳的檔案以相同的名稱取代現有檔案。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
@@ -201,7 +199,7 @@ The name of this option could be different, depending on the settings in **Appli
 1. 在「上載工作選項」對話框中，按一下「**儲存**」。
 1. 在「上傳」頁面的右下角，按一下「提交 **上傳」**。
 
-   若要查看上載進度，請按一下全域導覽列中的「**工作**」。「工作」頁面隨即出現，並顯示上載的進度。您可以在 Scene7 Publishing System 中繼續工作，並隨時返回「工作」頁面檢閱進行中的工作。
+   若要查看上載進度，請按一下全域導覽列中的「**工作**」。「工作」頁面隨即出現，並顯示上載的進度。您可以繼續在Dynamic Media Classic中工作，並隨時返回「作業」頁面，以檢閱進行中的工作。
 
 若要取消進行中的上載工作，請按一下「持續時間」旁邊的「**取消**」。
 
@@ -230,7 +228,7 @@ The name of this option could be different, depending on the settings in **Appli
 如果您想要自動從已上載的ZIP或TAR檔案解壓縮所有檔案，請選取此選項。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 
    * **包含子檔案夾** — 僅在您選取「 **VIA FTP」索引標籤時** 才可用。
-如果您要一併上載檔案夾及其子檔案夾，請選取此選項。在 SPS 中會自動輸入您上載的檔案夾及其子檔案夾的名稱。
+如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的檔案夾及其子檔案夾名稱會自動在Dynamic Media Classic中輸入。
 
    * **處理中繼資料檔案** — 僅當您選取「VIA FTP」標 **簽時才可** 用。 如果要上載 Tab 字元分隔檔案或 XML 檔案以將中繼資料增加到多個資產中，可以選取該選項。請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
@@ -253,7 +251,7 @@ The name of this option could be different, depending on the settings in **Appli
 
    * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色； 沒有顏色轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
 
-   * **保留原始色域** — 在擷取至Scene7 Publishing System時，保留原始顏色，而不進行任何顏色轉換。 至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
+   * **保留原始色域** — 在擷取至Dynamic Media Classic時，保留原始顏色，而不進行任何色彩轉換。 至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
 
    * **自訂自>至** — 開啟功能表，以選擇「轉換自」和「轉換至顏色」空間。 這個進階選項會覆蓋來源檔案內嵌的任何色彩資訊。只有在您要送出的所有影像都包含不正確或遺失的色彩描述檔資料時，才應選取此選項。
 
