@@ -6,12 +6,12 @@ seo-description: 瞭解如何新增字幕至視訊
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 70%
+ht-degree: 63%
 
 ---
 
@@ -40,13 +40,13 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 **增加註解至視訊**
 
-1. 使用 Scene7 Publishing System 以外的第三方應用程式，根據您所使用的檢視器類型建立視訊註解檔案。
+1. 使用Dynamic Media Classic外部的協力廠商應用程式，根據您使用的檢視器類型建立您的視訊標題檔案。
 
    | 檢視器類型 | 註解檔案 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/): 網頁視訊文字追蹤格式。 <br><br>您可以使用免費與付費的工具與服務，在 Scene7 Publishing System 以外撰寫註解檔案。例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具： <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請在SPS中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。 在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。 <br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
+   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/): 網頁視訊文字追蹤格式。 <br><br>您可使用免費和付費的工具和服務，在Dynamic Media Classic外部製作標題檔案。 例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具： <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請在DMC中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。 在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。 <br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
 
-1. 在 Scene7 Publishing System 中，上載您的 WebVTT、DFXP 或 SMPTE XML 註解檔案。
+1. 在Dynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML標題檔案。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
