@@ -6,11 +6,14 @@ seo-description: 瞭解如何在視訊檢視器中預覽視訊。
 uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
@@ -51,7 +54,7 @@ Dynamic Media Classic隨附許多預先定義的檢視器預設集，以播放�
 
 ### 增加或編輯視訊檢視器預設集 {#adding-or-editing-a-video-viewer-preset}
 
-您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。還可以增加和編輯您自己的自訂檢視器預設集，或編輯 Scene7 Publishing System 隨附的現有檢視器預設集。
+您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。您也可以新增和編輯您自訂的檢視器預設集，或編輯Dynamic Media Classic隨附的現有檢視器預設集。
 
 在「檢視器預設集」中，您可以啟用、篩選、排序和預覽「檢視器預設集」。
 
@@ -59,7 +62,7 @@ Dynamic Media Classic隨附許多預先定義的檢視器預設集，以播放�
 
 **增加或編輯視訊檢視器預設集**
 
-1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** > **檢視器預設集**」。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    若要只查看視訊檢視器的預設集，請從表格正上方工具列中的「開啟檢視器」下拉式清單中選取「視訊檢視器」。
 
