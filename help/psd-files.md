@@ -6,11 +6,14 @@ seo-description: 瞭解如何使用PSD檔案。
 uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 上傳PSD檔案時，您可以從檔案自動建立Dynamic Media Classic範本（選取「上傳」畫面上的「建立範本」選項）。
 
-如果您使用檔案來建立範本，則 SPS 會從含有圖層的 PSD 檔案建立多個影像；它會為每個圖層建立一個影像。
+Dynamic Media Classic會從PSD檔案建立多張影像，若您使用檔案建立範本，則會使用圖層； 它會為每個圖層建立一個影像。
 
 ## PSD 上載選項 {#psd-upload-options}
 
@@ -27,7 +30,7 @@ PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 �
 
 上載 PSD 檔案時可使用以下選項:
 
-**裁切** （位於「裁切選項」下）。選擇「修剪」以自動從 PSD 檔案邊緣裁切空白區域；選擇「手動」以裁切 PSD 檔案的邊緣:
+**裁切** （位於「裁切選項」下）。 選擇「修剪」以自動從 PSD 檔案邊緣裁切空白區域；選擇「手動」以裁切 PSD 檔案的邊緣:
 
 **「修剪** 」(Trim)選取「根據選單修剪掉」(Trim Away Abased On)，然後選擇「顏色」(Color)或「透明度」(Transparency)。
 
@@ -41,13 +44,13 @@ PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 �
 
 **手動** ：輸入要從影像的任一側或每側裁切的像素數。 影像裁切的多寡取決於影像檔案的 ppi (每英吋像素) 設定。例如，如果影像顯示 150 ppi，而您在「上」、「右」、「下」及「左」文字方框中輸入「75」，則會從影像的每一側裁切半英吋。
 
-**色彩描述檔** （位於「色彩描述檔選項」下方）。選擇一個選項:
+**色彩描述檔** （位於「色彩描述檔選項」下方）。 選擇一個選項:
 
 **轉換為sRGB（預設）** ，轉換為sRGB（標準紅綠藍）。 sRGB 是在網頁上顯示影像時建議使用的色域。
 
 **保留原始色域** ：保留影像的原始色域。
 
-**「自訂自」>「至** 」開啟功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。請參閱ICC 設定檔。
+**「自訂自」>「至** 」開啟功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準的Photoshop色域或您上傳至Dynamic Media Classic的色域。 請參閱ICC 設定檔。
 
 **維護圖層** ：將PSD中的圖層（如果有）分割為個別資產。 資產圖層會維持與 PSD 相關聯。在詳細檢視中開啟 PSD 檔案，然後選取圖層面板，即可予以檢視。參閱檢視和編輯 PSD 檔案中的圖層。
 
@@ -57,7 +60,7 @@ PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 �
 
 **將圖層延伸至背景大小** ：將擷取的影像圖層的大小延伸到背景圖層的大小。
 
-**PSD檔案中** 的「圖層命名圖層」會上傳為個別影像。 在 Scene7 Publishing System 中選擇要命名這些影像的選項:
+**PSD檔案中** 的「圖層命名圖層」會上傳為個別影像。 在Dynamic Media Classic中選擇將這些影像命名的選項：
 
 **圖層名稱** (Layer Name)在影像的圖層名稱之後，在PSD檔案中命名影像。 例如，在原始 PSD 檔案中名稱為 Price Tag 的圖層會變成名稱為 Price Tag 的影像。但是，如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱 (Background、Layer 1、Layer 2 等等)，則這些影像會以 PSD 檔案中的圖層編號命名，而非預設的圖層名稱。
 
@@ -73,7 +76,7 @@ PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 �
 
 1. 在瀏覽面板中按兩下完整的 PSD 檔案，以在詳細檢視中開啟該檔案。
 
-   ***注意&#x200B;**:請確定您已開啟完整資產，而非其中一個PSD圖層。*
+   ***注意&#x200B;**: 請確定您已開啟完整資產，而非其中一個PSD圖層。*
 
 1. 按一下「圖層」以開啟「圖層」面板。所有圖層在「圖層」面板中皆會顯示為個別影像。
 1. 按兩下圖層將其開啟，然後執行下列任一動作:
