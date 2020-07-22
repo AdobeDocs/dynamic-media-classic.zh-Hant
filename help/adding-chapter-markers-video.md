@@ -6,11 +6,14 @@ seo-description: 瞭解如何新增章節標籤至視訊。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **增加章節標記至視訊**
 
-1. 在 Scene7 Publishing System 外部使用簡易文字編輯器，來建立您的視訊章節檔案。
+1. 使用Dynamic Media Classic外部的簡單文字編輯器，建立您的視訊章節檔案。
 
    >[!NOTE]
    >
@@ -65,7 +68,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    一般而言，我們建議您用和視訊檔案相同的名稱來命名章節 VTT 檔案，然後在名稱後附加「`chapters`」。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
 
-1. 在 Scene7 Publishing System 中，上載您的 WebVTT 章節檔案。
+1. 在Dynamic Media Classic中，上傳您的WebVTT章節檔案。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
