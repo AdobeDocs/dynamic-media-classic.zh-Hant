@@ -6,10 +6,13 @@ seo-description: 「發佈設定」螢幕設定會決定資產預設如何從Dyn
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2397'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 >[!NOTE]
 >
->「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media Classic假設變更這些螢幕設定的使用者熟悉Scene7 Publishing System、HTTP通訊協定標準和慣例，以及基本的影像技術。
+>「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media Classic假設變更這些螢幕設定的使用者熟悉Dynamic Media Classic、HTTP通訊協定標準和慣例，以及基本的影像技術。
 
 ## 影像伺服器 {#image-server}
 
@@ -32,7 +35,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
 
-**目錄管理** ：這些設定會決定Scene7 Publishing System與目錄的互動方式。 與大部分的Web伺服器不同，動態媒體影像伺服器URL呼叫會移至資訊清單或目錄檔案，而非影像檔本身。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+**目錄管理** ：這些設定會決定Dynamic Media Classic與目錄的互動方式。 與大部分的Web伺服器不同，動態媒體影像伺服器URL呼叫會移至資訊清單或目錄檔案，而非影像檔本身。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
 **請求屬性** ：這些設定會限制從伺服器傳送的影像。
 
@@ -51,7 +54,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
 >[!NOTE]
-> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄送電子郵件至s7support@adobe.com，要求安裝說明。
+> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄電子郵件至s7support@adobe.com以要求設定說明。
 
 如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -59,9 +62,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 >[!NOTE]
 >
->如果您想要在Scene7 Publishing System中設定「本地化支援」選項，例如「地區圖」欄位，請聯絡Adobe Dynamic Media Classic技術支援。 或者，請將電子郵件傳送到 s7support@adobe.com 請求設定協助。
+>如果您想在Dynamic Media Classic中設定「本地化支援」選項，例如「地區圖」欄位，請聯絡Adobe Dynamic Media Classic技術支援。 或者，請將電子郵件傳送到 s7support@adobe.com 請求設定協助。
 
-Scene7 Publishing System (SPS) 常見的用途之一，就是管理電子商務網站上的產品圖像。國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
+使用Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
 **資產本地化的方式**
 
@@ -97,7 +100,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 
 **實作資產本地化**
 
-Scene7 Publishing 與「影像伺服」有個介面可將影像與靜態內容本地化。
+Dynamic Media Classic和Image Serving的介面可讓影像和靜態內容定位。
 
 若未本地化，影像伺服器的 URL 將看起來如下:
 
@@ -117,7 +120,7 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 >[!NOTE]
 >
->就目前而言，「全域地區」只能透過 API 進行設定，而無法在 Scene7 Publishing System 介面內設定。
+>全域地區設定目前只有在您透過API設定時才可能，而不是在Dynamic Media Classic介面中。
 
 **字尾範例**
 
@@ -137,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **關於 defaultImage**
 
-影像伺服器會針對所請求的地區逐一嘗試各個選項。如果找不到相符項目，則會將地區選項套用至 defaultImage，並傳回相符的版本。因此，每個地區都應有未本地化的影像所適用的選項，或者，本地化的 defaultImage 版本必須設定成可在 Scene7 Publishing System 中使用。
+影像伺服器會針對所請求的地區逐一嘗試各個選項。如果找不到相符項目，則會將地區選項套用至 defaultImage，並傳回相符的版本。因此，每個地區設定都應包含影像的選項，而不需本地化，或是應在Dynamic Media Classic中提供本地化的defaultImage版本。
 
 **尋找 localeMap 的案例** 
 
@@ -220,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 「影像演算」畫面會建立預設設定，以從影像演算伺服器傳送影像集。有下列五種設定可供使用 (請參閱「影像伺服器」畫面以取得詳細的設定描述):
 
-**目錄管理** ：這些設定會決定Scene7 Publishing System與目錄檔案的互動方式。 Dynamic Media Classic Render Server URL呼叫會進入目錄，而目錄則會呼叫從伺服器傳送影像。 只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
+**目錄管理** ：這些設定會決定Dynamic Media Classic與目錄檔案的互動方式。 Dynamic Media Classic Render Server URL呼叫會進入目錄，而目錄則會呼叫從伺服器傳送影像。 只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
 
 **作業屬性** ：這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
 
