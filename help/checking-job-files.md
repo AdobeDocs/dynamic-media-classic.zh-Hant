@@ -6,18 +6,21 @@ seo-description: 瞭解如何檢查工作檔案。
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1602'
+ht-degree: 71%
 
 ---
 
 
 # 檢查工作檔案{#checking-job-files}
 
-若要監控檔案上傳至Scene7 Publishing System和您發佈至Dynamic Media Classic伺服器的檔案，SPS會提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
+若要監控檔案上傳至Dynamic Media Classic，以及您發佈至Dynamic Media Classic伺服器的檔案，Dynamic Media Classic提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
 
 在您上載資產時，「工作」選單旁會顯示一個旋轉圖示 (指示工作正在進行中) 以及進行中的檔案數目。按一下該圖示可以查看關於作用中工作的更多資訊。
 
@@ -31,7 +34,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 在「工作」頁面的「操作記錄」標籤中，工作按以下類別列出: 
 
-**作業類型** ：表徵圖表示作業類型：「上傳」和「發佈」是最常見的工作類型。
+**作業類型** ：表徵圖表示作業類型： 「上傳」和「發佈」是最常見的工作類型。
 
 **作業名稱** ：作業的名稱。 名稱包括使用者輸入的名稱部分以及日期和時間戳記。
 
@@ -51,7 +54,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 **提交者** ：上傳資產的清單。
 
-***注意&#x200B;**:您可以按一下進度列旁的「取消」按鈕，取消進行中的發佈和上傳工作。*
+***注意&#x200B;**: 您可以按一下進度列旁的「取消」按鈕，取消進行中的發佈和上傳工作。*
 
 ## 變更工作頁面上的檢視 {#changing-views-on-the-jobs-page}
 
@@ -67,7 +70,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 ## 檢視、複製或列印「工作詳細資訊」報告 {#viewing-copying-or-printing-a-job-details-report}
 
-在「工作」頁面上按兩下報告名稱，以開啟「工作詳細資訊」頁面。該頁面提供了關於工作中檔案的摘要報告。按一下「檢視詳細資訊」以查看某個項目的 SPS ID、目的地路徑和狀態資訊。如果您上載了需要使用 SPS 中未提供字型的 PDF 或 PostScript 檔案，則報告中會列出缺少的字型。
+在「工作」頁面上按兩下報告名稱，以開啟「工作詳細資訊」頁面。該頁面提供了關於工作中檔案的摘要報告。按一下「檢視詳細資訊」，以查看項目的Dynamic Media Classic ID、目標路徑和狀態資訊。 如果您上傳的PDF或PostScript檔案需要Dynamic Media Classic中不提供的字型，報表會列出遺失的字型。
 
 您可以將該資訊複製到剪貼簿。
 
@@ -95,7 +98,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 **刪除循環作業** ：選擇刪除按鈕。
 
-**暫停（並繼續）循環作業** 在「作用中」欄中，取消選取核取方塊以暫停工作；選中複選框以繼續已暫停的作業。
+**暫停（並繼續）循環作業** 在「作用中」欄中，取消選取核取方塊以暫停工作； 選中複選框以繼續已暫停的作業。
 
 ### 建立自訂上載或發佈工作時間間隔 {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -142,7 +145,7 @@ For example, `0 15 10 * * ?` schedules a job at 10:15.00 every day.
 * 0 0/5 14 * * ?: 每日下午 2:00 和 2:55 之間每五分鐘
 * 0 0/5 14,18 * * ?: 每日下午 2:00 和 2:55 之間每五分鐘，以及每日下午 6:00 和 6:55 之間每五分鐘
 * 0 10,44 14 ? 3: 三月每個星期三的下午 2:10 以及 2:44
-* 0 15 10 ? *:週一至週五的上午10:15
+* 0 15 10 ? *: 週一至週五的上午10:15
 * 0 15 10 20 * ?:每月第二十日的上午 10:15
 * 0 15 10 L * ?:每月最後一日的上午 10:15
 * 0 15 10 ? * 6L: 每月最後一個星期五的上午 10:15
