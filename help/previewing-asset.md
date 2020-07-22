@@ -6,11 +6,14 @@ seo-description: 瞭解如何預覽資產。
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 如果預覽包含參數圖層的範本資產，則可以變更這些參數或是影像預設集因為所有變更都是以內嵌形式進行，所以您可以從相同的「預覽」視窗立即檢視結果。
 
-另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **預覽資產**
 
