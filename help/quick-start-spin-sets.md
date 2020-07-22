@@ -6,11 +6,14 @@ seo-description: 簡介和快速開始回轉集可協助您快速上手使用。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 68%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 至少，一維自旋集需要8-12個項目鏡頭，二維自旋集需要16-24個項目鏡頭。 拍攝照片時必須間隔一定的角度，以便讓人感覺該項目正在旋轉和翻轉。例如，如果某個一維迴轉集中有 12 張照片，則每拍一張照片將項目旋轉 30 度 (360/12)。
 
-在全域導覽列上選取「上載」按鈕，以便將迴轉影像從電腦或網路上載到 Scene7 Publishing System。
+選取全域導覽列上的「上傳」按鈕，將回轉影像從您的電腦或網路上傳至Dynamic Media Classic。
 
 請參閱[迴轉集影像拍攝準則](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
