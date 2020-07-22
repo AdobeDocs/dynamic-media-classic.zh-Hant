@@ -6,20 +6,23 @@ seo-description: 瞭解如何發佈檔案。
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 76%
 
 ---
 
 
 # 發佈檔案{#publishing-files}
 
-您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從 Scene7 Publishing System 複製 URL 呼叫，並將其增加到網站或應用程式中。
+您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
 
-Scene7 Publishing System現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參 [閱HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參 [閱HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
@@ -62,7 +65,7 @@ Scene7 Publishing System現在支援透過HTTP/2傳送所有影像和視訊。 �
 
 1. 按一下「**送出發佈**」。
 
-SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢閱發佈工作。
+Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以在該頁面上檢閱發佈工作。
 
 >[!NOTE]
 >
@@ -92,7 +95,7 @@ SPS 會在「工作」頁面上追蹤發佈工作。您可以在該頁面上檢�
 
 * **發佈至**&#x200B;選擇伺服器類型，將資產僅發佈至特定伺服器，而非所有伺服器。
 
-* **發佈**&#x200B;依預設，SPS只會發佈新的資產，而且之前尚未發佈的資產（「上次發佈後新增」選項）。 但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
+* **發佈**&#x200B;依預設，Dynamic Media Classic只會發佈新資產，且之前未發佈的資產（「上次發佈後新增」選項）。 但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
 
 * **以任何方式運**&#x200B;行作業從清單中選擇用戶名。 可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
 
