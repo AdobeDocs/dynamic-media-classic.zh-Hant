@@ -6,14 +6,14 @@ seo-description: 所有使用者都可以變更Dynamic Media Classic的「個人
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 82%
+source-wordcount: '1194'
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->「個人設定」畫面會列出您在 Scene7 Publishing System 中的使用者角色: 公司管理員、管理員或使用者。
+>「個人設定」畫面會列出您在Dynamic Media Classic中所擔任的使用者角色： 公司管理員、管理員或使用者。
 
 「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。變更這些設定後，請記得按一下「儲存」。
 
@@ -34,11 +34,11 @@ ht-degree: 82%
 
 ### 桌面版本
 
-按一下「立即安裝」即可在本機硬碟上安裝 Scene7 Publishing System 桌面版本。或者按一下「立即重新安裝」以再次安裝桌面版本。
+按一下「立即安裝」，將Dynamic Media Classic案頭版安裝在本機硬碟上。 或者按一下「立即重新安裝」以再次安裝桌面版本。
 
 ## 在您的硬碟上安裝外掛程式
 
-1. 在 Scene7 Publishing System 中的「個人設定」頁面中，於「網路印刷的 Illustrator 外掛程式」下，按一下「**立即下載**」，以下載「**Illustrator Plug-in for Web-to-Print.zip**」檔案。
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. 解壓縮 ZIP 檔案至暫存檔案夾。
 
    在解壓縮檔案的根目錄中內含了讀我檔案，具有外掛程式的其他相關資訊。
@@ -83,8 +83,6 @@ ht-degree: 82%
    * 顯示影像後方的棋盤格圖層，可讓您輕鬆查看具有 Alpha 色版的透明影像區域。
 * **顯示檔案大小**
    * 在您瀏覽時顯示資產檔案大小。
-* **離開 SPS 時確認**
-   * 在您結束 Scene7 Publishing System 前顯示確認視窗。
 * **搜尋時包含 UDF**
    * 取消選取 (預設) 時，可讓您執行的大部分中繼資料搜尋得到較佳的系統效能。
 
