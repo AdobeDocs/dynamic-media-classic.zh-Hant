@@ -6,11 +6,11 @@ seo-description: 瞭解最佳化影像品質的最佳範例。
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 61%
@@ -50,7 +50,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請花點時間參考下列有用資源，進一步瞭解銳利化和反銳化遮色片在Dynamic Media Classic中的運作方式：
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+最佳實務白皮書 [「在Adobe Dynamic Media Classic和Image Server上銳利化影像」](/help/assets/s7_sharpening_images.pdf)。
 
 另請參閱 [使用銳利化遮色片銳利化影像](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
 
@@ -127,7 +127,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 在實驗時，您可能也會發現以下的一般性建議對於您的工作流程最佳化很實用: 
 
-* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing System的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
+* 直接在Dynamic Media Classic URL上或使用Dynamic Media Classic的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
 * 請記住，您可以將「動態媒體影像伺服」指令群組至影像預設集。 An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
 * Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用銳利化影像。 在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
 
