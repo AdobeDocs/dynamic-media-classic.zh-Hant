@@ -6,10 +6,13 @@ seo-description: 瞭解如何上傳與eCatalog相關的PDF檔案。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +23,13 @@ Adobe PDF 檔案通常是 eCatalog 的來源；這些 PDF 檔案包含所有影�
 
 ## 準備 PDF 檔案 {#preparing-your-pdf-files}
 
-將 PDF 檔案上載至 Scene7 Publishing System 前，請先準備 PDF 檔案:
+在將PDF檔案上傳至Dynamic Media Classic之前，請先準備PDF檔案：
 
 * 將所有檔案放置於電腦或網路上的同一個檔案夾中，即可更輕鬆上載檔案。
 * 以字母數字順序，依照頁面為檔案命名。排序頁面會讓您在檔案上載後，能夠更輕鬆地依照適當順序來放置頁面。
 * 檢視 PDF 頁面，即可查看其中是否包含裁切標記、對齊目標或色彩條。這些標記會決定列印文件時，要在哪裡裁切紙張；將 eCatalog 放置在網路上之前，必須將這些標記移除。Dynamic Media Classic提供在您上傳PDF檔案時裁切標籤的選項。
 * 如果您要檢視器依關鍵字搜尋 eCatalog，請檢查您的 PDF 檔案是否已「平面化」。您無法從已平面化的 PDF 檔案中擷取搜尋字詞。若要檢查 PDF 檔案是否已平面化，請嘗試選取其中的文字。如果無法選取文字，就表示 PDF 已平面化，且檢視器無法在 eCatalog 中依關鍵字搜尋。
-* 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。根據預設，SPS 可以智慧地偵測這些 CMYK 影像，並使用內部 CMYK 色彩設定檔來轉換它們。不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
+* 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。依預設，Dynamic Media Classic可以智慧偵測這些CMYK影像，並使用內部CMYK色彩描述檔來轉換它們。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
 
    請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -56,7 +59,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源；這些 PDF 檔案包含所有影�
 
 * **保留原始色域**&#x200B;保留原始色域。
 
-* **「自訂自」>「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
+* **「自訂自」>「至**&#x200B;開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準的Photoshop色域或您上傳至Dynamic Media Classic的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
