@@ -6,11 +6,14 @@ seo-description: 瞭解如何在資產公開之前先進行測試。
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 67%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 >[!NOTE]
 >
->安全測試不影響 Scene7 Publishing System 的存取。SPS 安全性將會保持一致，且存取 SPS 和相關網路服務時會要求一般認證。
+>安全測試不會影響對Dynamic Media Classic的存取。 Dynamic Media Classic安全性仍維持一致，並需要通常的認證才能存取Dynamic Media Classic和相關的web services。
 
 ## 安全測試的運作方式 {#how-secure-testing-works}
 
@@ -43,7 +46,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。這讓您可以在將資產發佈至公開影像伺服器之前先執行預覽。
 
-***注意&#x200B;**:Secure Testing Services運用已設定內部發佈內容的Catalog Server。 因此請注意，若公司設定為發佈至安全測試，任何在 Scene7 Publishing System 中上載的資產，將立刻在安全測試服務中呈現可用的狀態。此功能具強制性，不管資產上載時是否標記為發佈。*
+***注意&#x200B;**: Secure Testing Services運用已設定內部發佈內容的Catalog Server。 因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic Media Classic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
 
 安全測試服務目前支援下列資產類型和功能：
 
@@ -91,13 +94,13 @@ Last Modified Date:
  -->
 
 1. 聯絡「技術支援」並要求啟用您帳戶的安全測試。
-1. 在 Scene7 Publishing System 中按一下「**設定** > **發佈設定** > **影像伺服器**」。
+1. 在Dynamic Media Classic中，按一下「 **設定** >發 **布設定** >影 **像伺服器**」。
 1. 在「影像伺服器發佈」頁面的「發佈內容」下拉式清單中，選取「**測試影像伺服**」。
 1. 針對「用戶端位址篩選器」按一下「**增加**」。
 1. 選取核取方塊以啟用 (開啟) 位址，然後在個別的文字欄位中輸入 IP 位址和網路遮罩。
 1. 重複前兩個步驟以增加更多 IP 位址。或者，繼續下一個步驟。
 1. 在「影像伺服器發佈」頁面的左下角，按一下「**儲存**」。
-1. 將所需的影像上載到您的 Scene7 Publishing System 帳戶。
+1. 將所要的影像上傳至您的Dynamic Media Classic帳戶。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
@@ -114,7 +117,7 @@ Last Modified Date:
 
 您需要兩個網站變體，分別連結至已發佈和未發佈的資產: 
 
-* 公開版：使用您的傳統Dynamic Media Classic URL語法連結資產
+* 公開版： 使用您的傳統Dynamic Media Classic URL語法連結資產
 * 測試版本: 使用相同的語法，但以安全測試網站名稱連結資產
 
 **執行測試**
