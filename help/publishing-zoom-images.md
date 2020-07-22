@@ -6,18 +6,21 @@ seo-description: 瞭解如何發佈縮放影像。
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 27%
 
 ---
 
 
 # 發佈縮放影像{#publishing-zoom-images}
 
-發佈會將您的縮放影像放在動態媒體影像伺服器上，讓您的網站和應用程式都能使用這些影像。 在發佈過程中，SPS 可啟動 URL 字串。可以將這些 URL 字串放在網站的 HTML 代碼中。
+發佈會將您的縮放影像放在動態媒體影像伺服器上，讓您的網站和應用程式都能使用這些影像。 在發佈程式中，Dynamic Media Classic會啟動URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
 
 ## 將影像標記為發佈 {#marking-images-for-publish}
 
