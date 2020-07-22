@@ -6,18 +6,21 @@ seo-description: 瞭解如何發佈eCatalog和相關的PDF。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
 # 發佈電子目錄和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-發佈會將您的eCatalog和PDF放在動態媒體影像伺服器上，讓網站或應用程式都能使用它。 在發佈程序中，Scene7 Publishing System 會啟用 URL 字串。您可以在 HTML 網頁代碼中放置此 URL 字串。
+發佈會將您的eCatalog和PDF放在動態媒體影像伺服器上，讓網站或應用程式都能使用它。 在發佈程式中，Dynamic Media Classic會啟動URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
 
 >[!NOTE]
 >
