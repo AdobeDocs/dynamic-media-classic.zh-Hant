@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 044c4fd8dc06369b7ac6b5eb65014835d2b84fee
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 您必須先在Dynamic Media Classic應用程式的「一般設定」畫面中輸入Target Classic URL，才能將Dynamic Media Classic與Target Classic整合。 請依照下列步驟取得Target Classic URL，並在「應用程式一般設定」畫面中輸入：
 
-1. 請前往下列位址的「Target Classic登入」頁面：https://admin.testandtarget.omniture.com。
+1. 請前往下列位址的「Target Classic登入」頁面： https://admin.testandtarget.omniture.com。
 1. 輸入您的認證，然後按一下「登 **入」**。
 1. 登入後，在瀏覽器的位址列中，複製 URL 中直到 *.com*(含)的部分。
 
@@ -28,6 +31,6 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    在步驟5中，您會將複製的URL部分貼入「動態媒體傳統應用程式一般設定」畫面。
 
 1. 在Dynamic Media Classic中，按一下「 **設定** >應 **用程式設定**」。
-1. 在「應用程式一般設定」頁面的「目標傳統伺服器名稱」欄位中，貼上您在步驟3中複製的URL。
+1. 在「應用程式一般設定」頁面的「 **[!UICONTROL Test&amp;Target伺服器名稱」欄位中]** ，貼上您在步驟3中複製的URL。
 1. 按一下 **關閉**。
 
