@@ -6,21 +6,21 @@ seo-description: 瞭解如何將縮放檢視器連結至您的網頁。
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 89%
+source-wordcount: '673'
+ht-degree: 86%
 
 ---
 
 
 # 將縮放檢視器連結至網頁{#linking-zoom-viewers-to-your-web-pages}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括主影像和相關的縮放目標，以及縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將 URL 字串或內嵌程式碼放到網頁和應用程式中，請先從 Scene7 Publishing System 進行複製。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括主影像和相關的縮放目標，以及縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌的程式碼置於您的網頁和應用程式中，請從Dynamic Media Classic複製這些URL字串或內嵌的程式碼。
 
 >[!NOTE]
 >
