@@ -6,10 +6,13 @@ seo-description: 瞭解如何指定Media Portal使用者可使用的匯出選項
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 * 適用於匯出工作的壓縮 Zip 匯出檔案的檔案大小上限為 1 GB。
 * 每個匯出工作的總資產上限為 500 個。
 
-另請參閱[從 Scene7 Publishing System 匯出資產](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system)。
+另請參 [閱從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
 
 **指定 Media Portal 使用者可使用的匯出選項**
 
