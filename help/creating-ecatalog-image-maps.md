@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立eCatalog影像地圖。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 77%
 
 ---
 
@@ -80,7 +83,8 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    請參閱[調整影像地圖的位置、形狀及大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **刪除影像地**&#x200B;圖選取平移工具，按一下影像地圖以選取它，然後按一下 **刪除**。
+* **刪除影像地**&#x200B;圖選取平移工具，按一下影像地圖以選取它，然後按一下 
+**刪除**.
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
