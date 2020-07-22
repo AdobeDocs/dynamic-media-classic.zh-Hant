@@ -6,11 +6,14 @@ seo-description: 瞭解如何自訂Media Portal畫面。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 53%
 
 ---
 
