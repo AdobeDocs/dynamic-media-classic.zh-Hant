@@ -4,9 +4,9 @@ seo-title: Adobe Dynamic Media Classic案頭應用程式
 description: Dynamic Media Classic使用者現在可體驗使用者介面的完整更新。 本體驗提供更新登入，並提供重要資源的連結，而且此更新不再仰賴瀏覽器中的Adobe Flash技術。
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
