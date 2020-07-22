@@ -3,11 +3,11 @@ title: Dynamic Media Classic說明
 seo-title: Adobe Dynamic Media Classic
 description: Dynamic Media Classic概觀
 seo-description: Dynamic Media Classic概觀
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 31%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # Dynamic Media Classic說明 {#scene7-overview}
 
-歡迎使用Adobe Dynamic Media Classic（之前稱為Scene7）。它是領先的隨選跨媒體出版系統，可將動態豐富內容上傳、管理、增強及發佈至所有裝置和螢幕。 Adobe Dynamic Media Classic解決方案包括：
+歡迎使用Adobe Dynamic Media Classic，這是領先的隨選跨媒體出版系統，可將動態豐富內容上傳、管理、增強和發佈至所有裝置和螢幕。 Adobe Dynamic Media Classic解決方案包括：
 
 * 動態影像: 即時編輯、格式化與調整大小、互動縮放與平移；色票與紋理色票；360 度迴轉；影像範本；多媒體檢視器。
 * eCatalogs: 製作、熱點連結、啟用搜尋、發佈動態提供的線上目錄並傳送至可設定的檢視器。
@@ -26,16 +26,16 @@ ht-degree: 31%
 
 ## 關鍵資源
 
-* [快速入門與總覽](/help/scene7-platform-overview.md)
+* [快速入門與總覽](/help/dmc-platform-overview.md)
 * [快速入門： Ecatalog](/help/quick-start-ecatalog.md)
 * [快速入門： 影像集](/help/quick-start-image-sets.md)
 * [快速入門： 影像大小調整](/help/quick-start-image-sizing.md)
-* [快速入門： 整合Scene7分析](/help/quick-start-integrating-scene7-analytics.md)
+* [快速入門： 整合Dynamic Media Classic分析](/help/quick-start-integrating-dmc-analytics.md)
 * [快速入門： Media Portal](/help/quick-start-media-portal-administration.md)
 * [快速入門： 混合媒體集](/help/quick-start-mixed-media-sets.md)
 * [快速入門： 回轉集](/help/quick-start-spin-sets.md)
 * [快速入門： 色票集](/help/quick-start-swatch-sets.md)
-* [快速入門： Target Classic整合](/help/quick-start-target-classic-integration.md)
+* [快速入門： Target Standard/Premium整合](/help/quick-start-target-integration.md)
 * [快速入門： 範本基礎](/help/quick-start-template-basics.md)
 * [快速入門: 視訊](/help/quick-start-video.md)
 * [快速入門: 縮放](/help/quick-start-zoom.md)
