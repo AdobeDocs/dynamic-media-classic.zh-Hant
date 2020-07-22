@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立影像地圖。
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2444'
+ht-degree: 74%
 
 ---
 
@@ -39,6 +42,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
    * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
    * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
    * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+
    ![](assets/ma_image_map.png)
 
 1. 繪製矩形或多邊形影像地圖:
@@ -76,7 +80,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 **變更大小和形狀** ：變更影像地圖的形狀和大小的方式取決於您使用的是矩形還是多邊形的影像地圖：
 
-***提示&#x200B;**:您可以拖曳畫面底部的「大小」滑桿來變更檢視，並更好地檢視您的影像地圖。*
+***提示&#x200B;**: 您可以拖曳畫面底部的「大小」滑桿來變更檢視，並更好地檢視您的影像地圖。*
 
 **矩形影像地圖** ：將指標移至影像地圖的一側或一角。 當您看到雙向箭頭圖示時，請開始拖曳。拖曳時按住 Shift 鍵即可變更大小，但會維持外觀比例 (形狀)。
 
@@ -136,7 +140,7 @@ Javascript:loadProduct(‘$$’);void(0);
 
 您可以將影像地圖中所有不會變更的值放入 URL 範本。只將會變更的值增加到「影像地圖」清單的「URL」欄中。例如：
 
-* URL範本：j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL範本： j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL值： `product.htm`
 * 實際產生的URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
@@ -150,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    顯示在父級視窗 (開啟目前視窗的頁面) 之「URL」欄中指定的 URL 目標。目前視窗會維持開啟，但父級視窗會變更以顯示 URL 目標。
 
-   ***注意&#x200B;**:處理常`loadProductPW`式不支援DHTML和HTML5檢視器。*
+   ***注意&#x200B;**: 處理常`loadProductPW`式不支援DHTML和HTML5檢視器。*
 
 ### 建立 URL 範本 {#creating-a-url-template}
 
@@ -216,7 +220,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 1. 拖曳即可建立影像地圖。「建立連結」方框開啟。
 1. 選取「自訂連結」，然後按「下一步」。
 
-   ***注意&#x200B;**:您不需要在Acrobat中設定外觀選項。 您可以在Dynamic Media Classic中指定外觀。*
+   ***注意&#x200B;**: 您不需要在Acrobat中設定外觀選項。 您可以在Dynamic Media Classic中指定外觀。*
 
 1. 在「連結屬性」方框中，按一下「動作」。
 1. 從「選取動作」選單中選取「開啟網頁連結」，然後按一下「增加」。
