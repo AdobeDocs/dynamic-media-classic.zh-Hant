@@ -5,11 +5,14 @@ description: 'null'
 seo-description: 使用者產生的內容簡介。
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 UGC 支援以下檔案格式:
 
 * 點陣: JPG、PNG、TIFF
-* 向量：AI、EPS（不支援來自Adobe Illustrator 2018的EPS檔案）、PDF（僅當先前在Adobe Illustrator CS6中開啟並儲存PDF檔案時）
+* 向量： AI、EPS（不支援來自Adobe Illustrator 2018的EPS檔案）、PDF（僅當先前在Adobe Illustrator CS6中開啟並儲存PDF檔案時）
 
 上載資產之前，請取得共用密鑰。使用此密鑰來擷取上載標記。上載資產及執行其他 UGC 工作時，請送出上載標記。
 
