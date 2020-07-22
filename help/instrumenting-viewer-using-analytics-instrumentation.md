@@ -6,11 +6,14 @@ seo-description: 瞭解如何使用Adobe Analytics Instrumentation Kit來測量�
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 38%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 如果您使用任何預先定義的Dynamic Media Classic HTML5檢視器預設集，請注意，這些預設集已包含傳送資料至Adobe Analytics所需的所有實作程式碼，您不需要進一步的工具。
 
-## 從 Scene7 Publishing System 設定 Adobe Analytics 追蹤 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## 從Dynamic Media Classic設定Adobe Analytics追蹤 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 對於所有HTML5檢視器，請將下列JavaScript新增至HTML容器，通常位於&lt;head>元素中：
 
 ```as3
-<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<SPS Company ID>&preset=companypreset-1"></script>
+<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-將 `Company` 設定為 SPS 公司名稱。`&preset` 為可選項，除非公司預設集名稱不 `companypreset`是。 In such cases, it could be `companypreset-1, companypreset-2`, and so on. 數字越高，表示預設集實體越新。To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
+`Company` 設為Dynamic Media Classic公司名稱。 `&preset` 為可選項，除非公司預設集名稱不 `companypreset`是。 In such cases, it could be `companypreset-1, companypreset-2`, and so on. 數字越高，表示預設集實體越新。To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
 
 您現在要繼續增加一個函數，以便將檢視器事件傳輸到 Adobe Analytics 追蹤程式碼。
 
