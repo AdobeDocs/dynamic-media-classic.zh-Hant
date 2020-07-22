@@ -6,18 +6,21 @@ seo-description: 瞭解如何發佈回轉集。
 uuid: 3b21ee5c-e494-48d0-8ccf-cb7670d11f5b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 47%
 
 ---
 
 
 # 發佈迴轉集{#publishing-a-spin-set}
 
-發佈回轉集會將影像置於動態媒體影像伺服器上，供您的網站或應用程式使用。 而且，在發佈過程中，SPS 將為網站或應用程式啟動所需的迴轉集 URL 字串。
+發佈回轉集會將影像置於動態媒體影像伺服器上，供您的網站或應用程式使用。 此外，在發佈程式期間，Dynamic Media Classic會啟動您網站或應用程式所需的回轉集URL字串。
 
 ## 將迴轉集標記為發佈 {#marking-a-spin-set-for-publish}
 
