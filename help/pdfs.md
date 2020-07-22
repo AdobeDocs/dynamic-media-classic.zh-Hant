@@ -6,11 +6,14 @@ seo-description: 瞭解如何在Dynamic Media Classic中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 56%
 
 ---
 
@@ -61,7 +64,7 @@ PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCata
 
 **保留原始色域** ，保留原始色域。
 
-**「自訂自」>「至** 」開啟功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準 Photoshop 色域，或是上載至 SPS 的色域。
+**「自訂自」>「至** 」開啟功能表，您可以選擇「轉換自」和「轉換至顏色空間」。 您可以選擇標準的Photoshop色域或您上傳至Dynamic Media Classic的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -80,7 +83,7 @@ PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCata
 
    **根據顏色修剪** ：指定0，只有在像素完全符合您在PDF角落選取的顏色時，才可裁切像素。 數值越接近 1，允許的色彩差異就越大。
 
-   **根據透明度修剪** ：指定0，僅在像素完全透明時才裁切像素；接近1的數字使得透明度更高。
+   **根據透明度修剪** ：指定0，僅在像素完全透明時才裁切像素； 接近1的數字使得透明度更高。
 
 ## 從 PDF 頁面邊緣裁切 {#cropping-from-the-sides-of-pdf-pages}
 
