@@ -6,11 +6,14 @@ seo-description: 瞭解如何設定回轉集檢視器預設集。
 uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 75%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
    * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+
    「設定檢視器」視窗開啟。
 
 1. 在「預設集名稱」方框中，為迴轉集檢視器預設集鍵入一個名稱。
