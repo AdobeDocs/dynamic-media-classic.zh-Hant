@@ -6,11 +6,14 @@ seo-description: 瞭解如何發佈Adobe Analytics設定資訊。
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 45%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 >[!NOTE]
 >
->每當您變更 Adobe Analytics 中的「Adobe Analytics 報告」設定時，請務必從 Adobe Scene7 Publishing System 中登入回到 Adobe Analytics，重新儲存您的 Adobe Analytics 組態設定，然後再重新發佈。
+>每當您在Adobe Analytics中變更Adobe Analytics報表設定時，請務必從Dynamic Media Classic中重新登入Adobe Analytics、重新儲存Adobe Analytics組態設定，然後重新發佈。
 
 請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
