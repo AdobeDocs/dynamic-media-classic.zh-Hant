@@ -6,14 +6,14 @@ seo-description: 瞭解如何設定Dynamic Media Classic的應用程式區域。
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->只有 Scene7 Publishing System 管理員可以變更「應用程式設定」頁面上的設定。
+>只有Dynamic Media Classic管理員才能變更「應用程式設定」頁面上的設定。
 
 ## 一般設定 {#general-settings}
 
@@ -36,119 +36,113 @@ ht-degree: 71%
 
 另請參閱[測試安全測試服務](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
-**發佈伺服器名稱** ：此伺服器是即時CDN伺服器，用於您帳戶的特定所有系統產生的URL呼叫。 除非Dynamic Media Classic支援技術人員指示您更改此伺服器名稱。
+* **發佈的伺服器名稱** -此伺服器是即時CDN伺服器，用於您帳戶的特定所有系統產生的URL呼叫。 除非Dynamic Media Classic支援技術人員指示您更改此伺服器名稱。
 
-**原始伺服器名稱** ：此伺服器僅用於品質保證測試。 除非Dynamic Media Classic支援技術人員指示，否則不要更改此伺服器名稱。
+* **原始伺服器名稱** -此伺服器僅用於品質保證測試。 除非Dynamic Media Classic支援技術人員指示，否則不要更改此伺服器名稱。
 
-**AGM伺服器名稱** ：此伺服器用於Web-to-Print模板。 此伺服器會以全公司的基礎進行設定。除非Dynamic Media Classic支援技術人員指示，否則不要更改此伺服器名稱。
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Target伺服器名稱** ：您的Test&amp;Target URL，最多及包含。com。 如需有關取得此URL的指示，請參閱整合Dynamic Media Classic與Target Classic。
+* **Test&amp;Target伺服器名稱** -您的Test&amp;Target URL，最多及包含。com。 For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**iOS串流伺服器名稱** ：您的Dynamic Media Classic iOS串流伺服器的URL。 此伺服器會透過 HTTP 通訊協定將串流視訊傳送至以 iOS 為基礎的裝置。
+<!-- **Test Publish Context Server Name** -->
 
-**漸進式視訊伺服器名稱** :Dynamic Media Classic漸進式視訊伺服器的URL。 此伺服器會透過 HTTP 通訊協定來傳送漸進式視訊。
+* **iOS串流伺服器名稱** -您的iOS串流伺服 [!DNL Dynamic Media Classic] 器的URL。 此伺服器會透過 HTTP 通訊協定將串流視訊傳送至以 iOS 為基礎的裝置。
 
-**顯示未發佈資產的URL** 如果您想要Dynamic Media Classic在預覽任何資產時顯示URL，請選取此選項，無論其是否已發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
+* **漸進式視訊伺服器名稱** -您漸進式視訊伺服器 [!DNL Dynamic Media Classic] 的URL。 此伺服器會透過 HTTP 通訊協定來傳送漸進式視訊。
 
-**允許AIR安裝** ：選取此選項可讓使用者將Scene7 Publishing System案頭版下載至其本機硬碟。 使用者可以從「個人設定」畫面的「桌面版本」區域安裝應用程式。
+* **顯示未發佈資產的URL** —— 如果您想在預覽任何資產時 [!DNL Dynamic Media Classic] 顯示URL，請選取此選項，不論其是否已發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
 
-AIR 使用者必須手動解除安裝現有應用程式，並從 Scene7 Publishing System 網路版 (在「個人設定」中) 進行重新安裝。在此一次性重新安裝完成後，系統會在伺服器有新版本 Scene7 Publishing System AIR 時提示您升級。Scene7 Publishing System 已與「應用程式更新框架」整合，可簡化升級程序。
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**CDN失效範本** ：指定用於使CDN（內容傳送網路）快取失效的範本。
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **CDN失效範本** -指定用於使CDN（內容傳送網路）快取失效的範本。
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-設定 CDN 失效範本、選取名為「Backpack_B」的影像，然後按一下「**檔案** > **使 CDN 失效**」，便會在「CDN 失效」介面中產生下列 URL:
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   設定 CDN 失效範本、選取名為「Backpack_B」的影像，然後按一下「**檔案** > **使 CDN 失效**」，便會在「CDN 失效」介面中產生下列 URL:
 
-在 URL 清單方塊中，按一下「**繼續**」以清除特定影像 URL 呼叫的快取。請注意，您也可以透過輸入或將其貼上至 URL 清單方塊中以新增 URL；您不需要事先設定範本。
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-選取您的 CDN 失效範本，並進行「使 CDN 失效」要求之後，在使用者介面中會彈出指示器，讓您估計清除快取所需的時間。
+   在 URL 清單方塊中，按一下「**繼續**」以清除特定影像 URL 呼叫的快取。請注意，您也可以透過輸入或將其貼上至 URL 清單方塊中以新增 URL；您不需要事先設定範本。
 
-同樣地，如果在按一下「**檔案** > **使 CDN 失效**」時於 SPS 之中選取了多個影像，則會在儲存的範本 URL 中參照每個影像。因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，當您從快取中選取一或影像以進行失效時，URL會自動填入介面。
+   選取您的 CDN 失效範本，並進行「使 CDN 失效」要求之後，在使用者介面中會彈出指示器，讓您估計清除快取所需的時間。
 
-請參閱[內容快取](scene7-platform-overview.md#content_caching)。
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. 因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，當您從快取中選取一或影像以進行失效時，URL會自動填入介面。
 
-請參閱[重新發佈的資產和 CDN 延遲](publishing-files.md#republished_assets_and_cdn_delays)。
+   請參閱[內容快取](dmc-platform-overview.md#content_caching)。
 
-**瀏覽**
+   請參閱[重新發佈的資產和 CDN 延遲](publishing-files.md#republished_assets_and_cdn_delays)。
 
-**「顯示專案** 」會判斷「專案」是否可用來組織您的Dynamic Media Classic資產。 請參閱利用專案組織您的工作。
+### 瀏覽
 
-**顯示範例eVideo內容** 開啟或關閉eVideo範例內容的顯示。
+* **顯示專案** -判斷專案是否可做為組織Dynamic Media Classic資產的方式。 請參閱利用專案組織您的工作。
 
-**在資料夾中顯示產生的內容** ，顯示從資產產生的內容。 例如，當PDF檔案上傳時點陣化，Dynamic Media Classic會在原始PDF中為每個頁面建立一個影像。 如果選取了「顯示產生的內容」，則原始 PDF 上載時所產生的每個影像，都會與 PDF 一起出現在該 PDF 的上載檔案夾中。
+* **顯示範例eVideo內容** -開啟或關閉eVideo範例內容的顯示。
 
-**依預設顯示已取消選取的編碼視訊** （關閉）。
+* **顯示產生的內容** -在資料夾中，顯示從資產產生的內容。 例如，當PDF檔案上傳時點陣化，Dynamic Media Classic會在原始PDF中為每個頁面建立一個影像。 如果選取了「顯示產生的內容」，則原始 PDF 上載時所產生的每個影像，都會與 PDF 一起出現在該 PDF 的上載檔案夾中。
 
-若要在 Scene7 Publishing System 中快速搜尋和瀏覽影片，而無需瀏覽相同影片許多已編碼的衍生影片，請維持取消選取此選項 (預設)。只有主要影片縮圖 (也就是您上傳並用來建立所有衍生影片的來源影片) 以及「上層」適應性影片集縮圖 (包含已編碼影片集的所有「下層」衍生影片) 會顯示在使用者介面中。
+* **顯示編碼視訊** -依預設取消選取（關閉）。
 
-不過，您仍然可以從主視訊或最適化視訊集存取個別編碼的視訊。若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。接著在右側面板中按一下「**編碼的視訊**」，以存取所有「子項」視訊。
+   若要在Dynamic Media Classic中快速搜尋和瀏覽視訊，而不需瀏覽相同視訊的許多編碼衍生品，請將此選項保留為未選取（預設值）。 只有主要影片縮圖 (也就是您上傳並用來建立所有衍生影片的來源影片) 以及「上層」適應性影片集縮圖 (包含已編碼影片集的所有「下層」衍生影片) 會顯示在使用者介面中。
 
-您也可以使用「**檔案 > 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Scene7 Publishing System 會自動尋找最適化視訊集的「父項」主視訊，並使用該主視訊作為轉碼的來源視訊。不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
+   不過，您仍然可以從主視訊或最適化視訊集存取個別編碼的視訊。若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。接著在右側面板中按一下「**編碼的視訊**」，以存取所有「子項」視訊。
 
-請參閱[上載和轉碼視訊](uploading-encoding-videos.md#uploading_and_encoding_videos)。
+   您也可以使用「**檔案 > 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Dynamic Media Classic會自動尋找最適化視訊集的「父」主視訊，並將其用作轉碼的來源視訊。 不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
 
-若要繼續能夠在搜尋和瀏覽時存取所有編碼視訊的衍生物，請選取「**顯示編碼的視訊**」。
+   請參閱[上載和轉碼視訊](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
-「建置」選單上的某些動作只能用於個別視訊，或選擇性地用於個別視訊。此功能迫使您必須顯示所有可以選取之編碼視訊的衍生物，而不受您設定「**顯示編碼的視訊**」的方式影響。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   若要繼續能夠在搜尋和瀏覽時存取所有編碼視訊的衍生物，請選取「**顯示編碼的視訊**」。
 
->[注意]
->
->如果您未使用Scene7 Publishing System來上傳和編碼您的視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
+   「建置」選單上的某些動作只能用於個別視訊，或選擇性地用於個別視訊。此功能迫使您必須顯示所有可以選取之編碼視訊的衍生物，而不受您設定「**顯示編碼的視訊**」的方式影響。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**顯示刷新子資料夾按鈕** 開啟或關閉子資料夾刷新按鈕的顯示。
+   >[注意]
+   >
+   >如果您未使用Dynamic Media Classic來上傳和編碼視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
 
-**Dynamic Media Classic FTP帳戶**
+* **顯示刷新子資料夾按鈕** -開啟或關閉子資料夾刷新按鈕的顯示。
 
-**伺服器** 」列出您的FTP帳戶伺服器。
+### Dynamic Media Classic FTP帳戶
 
-**使用者名稱** ：列出您的FTP帳戶使用者名稱。
+* **伺服器** -列出您的FTP帳戶伺服器。
 
-**上載至應用程式**
+* **使用者名稱** -列出您的FTP帳戶使用者名稱。
 
-**覆寫影像** Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的 Scene7 Publishing System ID (不含副檔名的影像名稱) 皆必須為唯一。因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複影像將會以「-1」重新命名 (例如，chair.tif 會重新命名為 chair-1.tif)。這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。(請參閱使用覆寫影像選項。)
+### 上載至應用程式
 
-**目前的檔案夾內若有基本影像名稱/副檔名相同者，將予以覆寫**
+* **覆寫影像** - Dynamic Media Classic不允許兩個檔案具有相同的名稱。 每個項目的Dynamic Media Classic ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複影像將會以「-1」重新命名 (例如，chair.tif 會重新命名為 chair-1.tif)。這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。(請參閱使用覆寫影像選項。)
 
-此選項為最嚴格的取代規則。它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
+   * **覆寫目前檔案夾中的基本影像名稱／副檔名** -此選項是最嚴格的取代規則。 它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
 
-**目前檔案夾內若有基本資產名稱相同者 (無論副檔名為何)，將予以覆寫**
+   * **覆寫目前檔案夾中相同的基本資產名稱(不論副檔名為何** )-要求您將取代影像上傳至與原始檔案相同的檔案夾，但副檔名可能與原始檔案不同。 例如，chair.tif 會取代 chair.jpg。
 
-要求您將取代影像上載至與原始影像相同的檔案夾，但副檔名可以與原始檔案不同。例如，chair.tif 會取代 chair.jpg。
+   * **在任何資料夾中覆寫相同的基本資產名稱／副檔名** -要求取代影像的副檔名與原始影像相同（例如，chair.jpg必須取代chair.jpg，而非chair.tif）。 然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
 
-**任何檔案夾內若有基本資產名稱/副檔名相同者，將予以覆寫**
+   * **在任何資料夾中覆寫相同的基本資產名稱(不論副檔名為何** )-此選項是最包含的取代規則。 您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
 
-要求取代影像必須與原始影像擁有相同副檔名 (例如，chair.jpg 必須取代 chair.jpg 而非 chair.tif)。然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
+* **保留發佈** -指定上傳至Dynamic Media Classic的取代影像是否保留所取代影像的「準備發佈」設定，或是在上傳時指定設定。
 
-**在任何檔案夾中以相同的基本資產名稱 (無論副檔名為何) 覆寫**
+* **預設顏色配置檔案** -指定添加CMYK影像時作為預設顏色配置檔案選項的一部分應用的顏色配置檔案。
 
-此選項為最廣泛的取代規則。您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
+* **預設上載選項** -開啟「上載作業選項」對話框，您可以在其中指定預設上載選項。 如需有關這些選項的詳細資訊，請參閱上載選項。
 
-**保留發佈** ：指定上傳至Dynamic Media Classic的取代影像是否保留所取代影像的「準備發佈」設定，或是在上傳時指定設定。
+### 應用程式的影像地圖編輯器
 
-**預設色彩描述檔** ：指定在新增CMYK影像時，套用為「預設色彩描述檔選項」一部分的色彩描述檔。
+* **預設影像對應HREF** —— 定義影像對應href欄使用的預設URL。 此 URL 是您建立新影像地圖時會看見的預設 URL。
 
-**預設上傳選項** ：開啟「上傳工作選項」對話方塊，您可在其中指定預設的上傳選項。 如需有關這些選項的詳細資訊，請參閱上載選項。
+* **預設影像對應範本** -定義影像對應href範本的預設Javascript。 您可以在這裡設定每次按一下影像地圖時所執行的自訂代碼。
 
-**應用程式的影像地圖編輯器**
+### 應用程式的其他設定
 
-**預設影像對應HREF** 定義影像對應href欄使用的預設URL。 此 URL 是您建立新影像地圖時會看見的預設 URL。
-
-**預設影像對應範本** ：定義影像對應href範本的預設Javascript。 您可以在這裡設定每次按一下影像地圖時所執行的自訂代碼。
-
-**應用程式的其他設定**
-
-**垃圾筒可清除警告** ，垃圾筒中的資產會在七天內自動移除。 如果您要在永久刪除「垃圾桶」之資產的前四天傳送通知至公司管理員，請選取「在自動刪除垃圾桶項目前傳送電子郵件」。請參閱管理垃圾桶檔案夾。
+* **垃圾筒可清除警告** -垃圾筒中的資產會在七天內自動移除。 如果您要在永久刪除「垃圾桶」之資產的前四天傳送通知至公司管理員，請選取「在自動刪除垃圾桶項目前傳送電子郵件」。請參閱管理垃圾桶檔案夾。
 
 ## 使用「覆寫影像」選項 {#using-the-overwrite-images-option}
 
-Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的 Scene7 Publishing System ID (不含副檔名的影像名稱) 皆必須為唯一。因為此規則，所以「上載」對話框包含「覆寫影像」選項。此選項的確實效果取決於各公司的 Scene7 Publishing System 內部設定的設定。
+Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的Dynamic Media Classic ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框包含「覆寫影像」選項。此選項的確切效果取決於每家公司的「動態媒體經典內部設定」設定。
 
 如果您先前上傳的影像，然後變更原始檔案（或取代檔案），則選取的「覆寫」選項會指定Dynamic Media Classic如何取代影像。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中也包含Dynamic Media Classic中尚未包含的影像，則會新增這些影像。
 
@@ -257,7 +251,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **顏色** ：選擇下列選項：
 
-**輸出色彩描述檔** ：選取「使用預設值」，或Scene7 Publishing System上提供的其中一個ICC色彩描述檔。
+**輸出色彩描述檔** ：選取「使用預設值」，或Dynamic Media Classic上可用的其中一個ICC色彩描述檔。
 
 請另參閱 [ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -278,7 +272,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * 取消選取預設集名稱旁邊的「作用中」核取方框，將其從 MediaPortal 使用者的整個 Scene7 Publishing System 使用者介面中移除。
+   * 取消選取預設集名稱旁的「作用中」核取方塊，將它從MediaPortal使用者的整個Dynamic Media Classic使用者介面中移除。
 
 ## 啟用或停用最適化視訊預設集 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **啟用或停用最適化視訊預設集**
 
-1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**」。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. 在「最適化視訊預設集」頁面上，取消選取預設集名稱旁邊的核取方框，以從「上載工作選項」對話框的「eVideo 選項」清單中移除預設集。
 1. 按一下「**關閉**」。
 
@@ -446,7 +440,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->**Flash檢視器停售通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flash檢視器停售通知** -自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
@@ -494,7 +488,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media Classic檢視器預設集相容性矩陣 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash檢視器生命週期結束注意事項**: 自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。
+**Flash檢視器生命週期結束注意事項**: 自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
 
 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 **增加和編輯檢視器預設集**
 
-1. 在靠近 Scene7 Publishing System 右上角的地方，按一下「**設定** > **檢視器預設集**」。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    您可以篩選預設集的清單。例如，若只要查看視訊檢視器的預設集，請從表格正上方工具列上的「檢視器」下拉式選單中選取「視訊檢視器」。
 
@@ -647,7 +641,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 您可以匯出現有的HTML5檢視器預設集，做為建立新HTML5檢視器預設集的基礎。 匯出選項十分有用，因為您不需從頭建立檢視器， 但可以匯出與您要的外觀和行為接近的預設集，然後將其用作進行設計調整的起點。
 
-請注意，SPS中所有預設的現成檢視器預設CSS檔案都使用指向位於資產的相對影像伺服路徑 `Scene7SharedAssets`。 例如，以下是檢視器預設CSS檔案中影像資產的相對路徑，位於 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`不過，如果您在自己的網站上代管檢視器CSS檔案，則必須在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則其外觀可能如下，其中 `https://s7d1.scene7.com` 是映像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+請注意，Dynamic Media Classic中所有預設的立即可用的檢視器預設CSS檔案都會使用指向上資產的相對影像伺服路徑 `Scene7SharedAssets`。 例如，以下是檢視器預設CSS檔案中影像資產的相對路徑，位於 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`不過，如果您在自己的網站上代管檢視器CSS檔案，則必須在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則其外觀可能如下，其中 `https://s7d1.scene7.com` 是映像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **若要匯出HTML5檢視器預設集**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    匯出後，您會取得CSS檔案。 下載並解壓縮檔案。
 
 1. 在 CSS 編輯器中開啟 CSS 檔案，進行變更後儲存檔案。
-1. 將CSS檔案上傳至Scene7 Publishing System。
+1. 將CSS檔案上傳至Dynamic Media Classic。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
@@ -746,7 +740,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
 ## 設定預設檢視器 {#configuring-default-viewers}
 
-您可以使用「預設檢視器」來設定當您使用 Scene7 Publishing System 中的「預覽」功能時，要與其相關聯的預設檢視器。您可以針對下列資產類型設定預設的預覽體驗:
+當您使用Dynamic Media Classic中的「預覽」時，可以使用「預設檢視器」來設定與資產相關聯的預設檢視器。 您可以針對下列資產類型設定預設的預覽體驗:
 
 * 影像
 * 視訊
@@ -822,9 +816,9 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ## 使用者定義的欄位 {#user-defined-fields}
 
-媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Scene7 Publishing System中組織資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
+媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Dynamic Media Classic中組織資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
 
-使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您會根據「日期」類型定義「啟動」 *欄位*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 會檢查資產的發佈狀態與發佈操作記錄。如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
+使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您會根據「日期」類型定義「啟動」 *欄位*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic會檢查資產的發佈狀態和發佈歷史記錄。 如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
 
 >[!NOTE]
 >
@@ -886,9 +880,9 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ## 最佳化檔案 {#optimize-files}
 
-將檔案上載至 Scene7 Publishing System 後，系統便會將其最佳化以供儲存和發佈。不過，如果上載程序受到中斷，部分影像就無法最佳化。在此情況下，您會看見「尚未最佳化影像」訊息。但是，如果您是管理員，就可以最佳化這些檔案。
+當您將檔案上傳至Dynamic Media Classic時，系統會針對儲存和發佈最佳化檔案。 不過，如果上載程序受到中斷，部分影像就無法最佳化。在此情況下，您會看見「尚未最佳化影像」訊息。但是，如果您是管理員，就可以最佳化這些檔案。
 
-Scene7 Publishing System 會搜尋檔案，並僅最佳化先前尚未完整最佳化的影像。
+Dynamic Media Classic會搜尋您的檔案，並僅最佳化之前未完全最佳化的影像。
 
 1. 選擇「 **設定** >應用 **程式設定**」，然後選取「最&#x200B;**佳化檔案」**。
 1. Enter information for the optimization job and click **Submit**.
@@ -897,7 +891,7 @@ Scene7 Publishing System 會搜尋檔案，並僅最佳化先前尚未完整最�
 
 ## 批次集預設集 {#batch-set-presets}
 
-將資產上載至 Scene7 Publishing System 的工作仍在執行時，使用批次集預設集即可自動建立影像集或迴轉集。
+使用批次集預設集，在執行工作時自動建立影像集或回轉集，以上傳資產至Dynamic Media Classic。
 
 公司管理員必須先為要分組至同一個集的資產定義命名慣例。接著，您可以建立批次集預設集來參考這些影像。每個預設集都是具備唯一名稱的內部獨立式指示集，定義如何使用與預設集配置中已定義的命名慣例相符的影像來建構集。
 
