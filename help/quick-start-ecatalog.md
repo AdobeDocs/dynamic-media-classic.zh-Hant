@@ -1,28 +1,31 @@
 ---
-title: 「快速入門：eCatalogs」
-seo-title: 「快速入門：eCatalogs」
+title: 「快速入門： eCatalogs」
+seo-title: 「快速入門： eCatalogs」
 description: 'null'
 seo-description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 64%
 
 ---
 
 
-# 快速入門：eCatalogs{#quick-start-ecatalogs}
+# 快速入門： eCatalogs{#quick-start-ecatalogs}
 
 eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器會模擬閱讀列印材料的體驗。視您為eCatalog選擇的設定而定，檢視器可讓您執行下列動作：
 
 * 搜尋目錄以尋找關鍵字或關鍵字。 搜尋結果會在目錄左側的搜尋面板中顯示為縮圖清單。 每個可點按的縮圖代表一個目錄跨頁，其中已找到反白顯示的搜尋詞。
 
-* 通過社交媒體分享目錄；下載目錄以離線檢視；啟用「我的最愛」，以快速標籤您要傳回的項目，或列印目錄。
-* 使用目錄或頁面格線檢視導覽目錄；按一下頁面的中間邊緣，即可向前或向後顯示頁面。
+* 通過社交媒體分享目錄； 下載目錄以離線檢視； 啟用「我的最愛」，以快速標籤您要傳回的項目，或列印目錄。
+* 使用目錄或頁面格線檢視導覽目錄； 按一下頁面的中間邊緣，即可向前或向後顯示頁面。
 * 放大、縮小與平移即可檢查頁面上的項目。
 * 將指標移動到某個頁面區域 (稱為「影像地圖」) 即可檢視含有項目相關資訊的彈出式視窗。
 * 按一下頁面區域即可開啟含有更多項目相關資訊的新網頁。
@@ -41,7 +44,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 >
 >如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具>一般> CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
-您現在可以在SPS中製作eCatalog。
+您現在可以在Dynamic Media Classic中製作eCatalogs。
 
 **快速入門**
 
@@ -49,7 +52,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 **1. 上載 PDF 檔案**
 
-Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所以通常包含 CMYK 影像。Scene7 Publishing System 會偵測這些影像，並使用標準 CMYK 色彩設定檔來加以轉換。不過，您可能需要上載並使用自訂的色彩設定檔。
+Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所以通常包含 CMYK 影像。Dynamic Media Classic會偵測這些影像，並使用標準CMYK色彩描述檔進行轉換。 不過，您可能需要上載並使用自訂的色彩設定檔。
 
 按一下全域導覽列上的「上傳」，開始上傳eCatalog的PDF檔案或影像。 您可以從桌面或透過 FTP 上載檔案；如果您上載多個檔案或檔案大小超過 100 MB，則建議使用 FTP。
 
@@ -65,7 +68,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 若要新增頁面，請在資產庫中選取檔案夾，然後將 PDF 或影像檔案從檔案夾拖曳至「排序頁面」畫面。除了預設頁碼外，您可以提供自訂頁面名稱或匯入大量的頁面名稱。
 
-Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+按一 **[!UICONTROL 下「儲存]**」，輸入eCatalog的名稱，選擇Dynamic Media Classic資料夾以儲存它，然後按一下「儲 **[!UICONTROL 存」]**。 Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 請參閱[建立 eCatalog](creating-ecatalog.md)。
 
@@ -105,7 +108,7 @@ To find out how eCatalog Viewer Presets display your eCatalog, select your eCata
 
 **6. 發佈eCatalog和相關的PDF**
 
-發佈您的eCatalog和相關PDF會將它放在動態媒體影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程序中，Scene7 Publishing System 會針對 eCatalog 啟用 URL 字串。使用此URL，從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
+發佈您的eCatalog和相關PDF會將它放在動態媒體影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程式中，Dynamic Media Classic會啟動您eCatalog的URL字串。 使用此URL，從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
 
 在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 On the Publish screen, click **[!UICONTROL Start Publish]**.
 
