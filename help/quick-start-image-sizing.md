@@ -6,11 +6,14 @@ seo-description: 簡介和快速開始調整影像大小，協助您使用影像
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 55%
 
 ---
 
@@ -27,13 +30,13 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 **快速入門**
 
-此「影像調整大小快速入門」的設計可讓您迅速熟練 Scene7 Publishing System 中的影像調整大小技術。請遵循步驟1-5。 每一個步驟之後都有交互參照，可讓您在需要時尋找更多資訊。
+此影像調整大小快速入門旨在協助您使用Dynamic Media Classic中的影像調整大小技術快速上手。 請遵循步驟1-5。 每一個步驟之後都有交互參照，可讓您在需要時尋找更多資訊。
 
 **1. 上載主影像**
 
-先將您的主影像上載至 Scene7 Publishing System。至於大小，Dynamic Media Classic建議使用您預期在網站或應用程式上使用的影像大小最大。 例如，如果您要檢視器縮放影像，請上載最大維度至少 2000 像素的影像。Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真的TIFF和PNG影像。
+首先，將您的主影像上傳至Dynamic Media Classic。 至於大小，Dynamic Media Classic建議使用您預期在網站或應用程式上使用的影像大小最大。 例如，如果您要檢視器縮放影像，請上載最大維度至少 2000 像素的影像。Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真的TIFF和PNG影像。
 
-選取全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。請參閱[上載主影像](uploading-master-images.md#uploading_master_images)。
+選取全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media Classic的檔案夾。 請參閱[上載主影像](uploading-master-images.md#uploading_master_images)。
 
 **2. 設定影像預設集**
 
