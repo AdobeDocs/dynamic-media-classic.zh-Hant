@@ -6,18 +6,21 @@ seo-description: 瞭解如何將回轉集連結至網頁。
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 88%
 
 ---
 
 
 # 將迴轉集連結到網頁{#linking-a-spin-set-to-a-web-page}
 
-網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括回轉集。 這些 URL 字串會在發佈程序中啟用。若要在網頁與應用程式中放置「迴轉集」的 URL 字串或內嵌程式碼，請從 Scene7 Publishing System 中複製該字串。
+網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括回轉集。 這些 URL 字串會在發佈程序中啟用。若要將回轉集的URL字串或內嵌程式碼置入網頁和應用程式，請從Dynamic Media Classic複製它。
 
 >[!NOTE]
 >
