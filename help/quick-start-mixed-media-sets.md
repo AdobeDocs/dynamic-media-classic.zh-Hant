@@ -6,11 +6,14 @@ seo-description: 混合媒體集簡介和快速入門，可協助您快速上手
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 80%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 先為混合媒體集上載影像、色票檔案和視訊。由於使用者可以在混合媒體集檢視器中放大影像，因此當您選擇影像時，請考量放大比例。請確定影像在最大尺寸中至少為2000像素。
 
-按一下全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。
+按一下全域導覽列上的「上傳」，將檔案從您的電腦上傳至Dynamic Media Classic的資料夾。
 
 請參閱[上載檔案](uploading-files.md#uploading-your-files)。
 
