@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [What’s new](whats-new.md)
    + [系統需求](system-requirements.md)
    + [支援](support.md)
-   + [Dynamic Media Classic Media Portal的說明](help-scene7-media-portal.md)
+   + [Dynamic Media Classic Media Portal的說明](help-dmc-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [常用資源](popular-resources.md)
    + [培訓視訊](training-videos.md)
 + 快速入門 {#getting-started}
-   + [Adobe Dynamic Media Classic平台概觀](scene7-platform-overview.md)
+   + [Adobe Dynamic Media Classic平台概觀](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登入和登出](signing-out.md)
    + [導覽基本概念](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [移動、重新命名和刪除資產](moving-renaming-deleting-assets.md)
    + [在「詳細資訊」檢視中進行作業](detail-view.md)
    + [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)
-   + [從 Scene7 Publishing System 匯出資產](exporting-assets-scene7-publishing-system.md)
+   + [從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md)
    + [即時與同級共用資產變更](sharing-asset-changes-peers-real.md)
    + [列印資產](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速入門： 整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [快速入門： 整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [檢視 Adobe Analytics 報告以測試整合](testing-integration-viewing-analytics-report.md)
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
-+ Target Classic整合 {#target-classic}
-   + [快速入門： Target Classic整合](quick-start-target-classic-integration.md)
-   + [整合Adobe Dynamic Media Classic與Adobe Target Classic](integrating-scene7-target-classic.md)
++ Target Standard/Premium整合 {#target-classic}
+   + [快速入門： Target Standard/Premium整合](quick-start-target-integration.md)
+   + [整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [將選件集推送至Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [將選件集推送至Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + 使用者產生的內容 {#user-generated-content}
    + [關於使用者產生的內容](about-ugc.md)
    + [刪除上載的資產](deleting-uploaded-asset.md)
