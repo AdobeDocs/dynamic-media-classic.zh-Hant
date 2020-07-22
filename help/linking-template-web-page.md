@@ -6,11 +6,14 @@ seo-description: 瞭解如何將範本連結至網頁。
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 您的網站和應用程式會透過URL字串存取動態媒體影像伺服器內容。 發佈範本後，Dynamic Media Classic會啟動參考動態媒體影像伺服器上範本的URL字串。 您可以將這個 URL 貼至 Web 瀏覽器以進行測試。
 
-若要將 URL 字串置於網頁或應用程式，請從 Scene7 Publishing System 複製。若要取得使用影像預設集產生的範本 URL 字串，請移至「預覽」畫面或瀏覽面板 (在詳細檢視中)。然後選取「影像預設集」並選取「複製 URL」按鈕。
+若要將URL字串置於您的網頁和應用程式中，請從Dynamic Media Classic複製這些字串。 若要取得使用影像預設集產生的範本 URL 字串，請移至「預覽」畫面或瀏覽面板 (在詳細檢視中)。然後選取「影像預設集」並選取「複製 URL」按鈕。
 
 >[!NOTE]
 >
