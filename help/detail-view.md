@@ -6,11 +6,14 @@ seo-description: 瞭解如何在「詳細資訊」視圖中工作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 79%
 
 ---
 
@@ -51,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
-詳細檢視可提供資產或檔案的相關資訊。它會顯示項目的以下相關資訊: 儲存項目的檔案夾、項目的檔案名稱、項目上載至 Scene7 Publishing System 的日期，以及項目的發佈操作記錄。您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
+詳細檢視可提供資產或檔案的相關資訊。它會顯示有關項目的下列資訊： 儲存資料夾、檔案名稱、項目上傳至Dynamic Media Classic的日期，以及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
 
 您可以在詳細檢視中取得資產 URL；不過，除非您發佈資產，否則 URL 無法發生作用。對於影像，詳細檢視也提供建置與衍生之資產及中繼資料的清單，例如縮放目標與影像集。
 
