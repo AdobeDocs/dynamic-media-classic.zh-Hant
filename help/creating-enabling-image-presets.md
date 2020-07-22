@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立和啟用影像預設集。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。「影像預設集」是預先定義之設定的集合，而這些設定可在匯出影像時，變更影像外觀的大小、影像品質、格式、解析度及其他各方面。
 
-Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。使用者從 Scene7 Publishing System 匯出影像時，影像預設集可將影像重新格式化以符合公司規格。使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
+Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。當使用者從Dynamic Media Classic匯出影像時，影像預設集會根據貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
 
 匯出影像資產時，會套用下列限制:
 
