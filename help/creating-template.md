@@ -6,11 +6,14 @@ seo-description: 瞭解如何在Dynamic Media Classic中建立範本。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '3441'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 >[!NOTE]
 >
->如果對在 Scene7 Publishing System 的較低版本中建立的範本進行編輯，儲存時系統可能會提示「是否要增加畫布圖層？」 請選擇「否」以避免增加新的基本圖層。如果不小心選擇了「是」，則請刪除 URL 中的「&amp;allowCanvasPrompt」和「&amp;layer=0」修飾元，然後按「Enter」或「Return」鍵。
+>如果您編輯舊版Dynamic Media Classic中建立的範本，儲存時可能會收到提示，詢問「您要新增畫布圖層嗎？」 請選擇「否」以避免增加新的基本圖層。如果不小心選擇了「是」，則請刪除 URL 中的「&amp;allowCanvasPrompt」和「&amp;layer=0」修飾元，然後按「Enter」或「Return」鍵。
 
 ## 建立初始範本 {#creating-the-initial-template}
 
@@ -97,9 +100,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 **「參數摘要」按鈕** ，開啟「參數摘要」螢幕。 可以顯示範本中每個圖層的名稱，以及每個圖層上已啟動的參數名稱。
 
-**文字編輯器v4.3和文字編輯器v4.2** ：您可以選擇使用最新且功能最完整的文字編輯器、文字編輯器v4.3或先前的文字編輯器v4.2。建立新範本時，預設會選取「文字編輯器4.3版」。 編輯較舊的範本時，預設選取 Text Editor v4.2。Text Editor v4.3 目前不支援文字換行，因此，在編輯使用文字換行的舊範本時，請使用 Text Editor v4.2 保持範本的真實度完整。如果舊範本未使用文字換行，則可以選擇 Text Editor v4.3 來充分利用它所提供的許多新增功能，例如增加邊距、減少邊距、將文字設定為全部大寫及複製符合文字。
+**文字編輯器v4.3和文字編輯器v4.2** ：您可以選擇使用最新且功能最完整的文字編輯器、文字編輯器v4.3或先前的文字編輯器v4.2。 建立新範本時，預設會選取「文字編輯器4.3版」。 編輯較舊的範本時，預設選取 Text Editor v4.2。Text Editor v4.3 目前不支援文字換行，因此，在編輯使用文字換行的舊範本時，請使用 Text Editor v4.2 保持範本的真實度完整。如果舊範本未使用文字換行，則可以選擇 Text Editor v4.3 來充分利用它所提供的許多新增功能，例如增加邊距、減少邊距、將文字設定為全部大寫及複製符合文字。
 
-***注意&#x200B;**:文字編輯器4.2版最終會在Dynamic Media Classic中移除，因此建議您盡可能使用文字編輯器4.3。 「文字換行」選項將合併到文字編輯器以後的發行版中。*
+***注意&#x200B;**: 文字編輯器4.2版最終會在Dynamic Media Classic中移除，因此建議您盡可能使用文字編輯器4.3。 「文字換行」選項將合併到文字編輯器以後的發行版中。*
 
 **設計人員與開發人員** ：選取最能說明您角色的選項。
 
@@ -138,7 +141,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 1. 在文字方框中，選取要設定格式的文字。可以選取所有文字、部分文字或個別字元。
 1. 指定以下任何格式設定選項，然後按一下「套用」。
 
-   **「字型** 」在「字型」選單中選擇字型。 如果選單上未顯示要使用的字型，可以將其上載到 Scene7 Publishing System 中。請參閱字型。
+   **「字型** 」在「字型」選單中選擇字型。 如果您想要的字型未出現在功能表中，您可將其上傳至Dynamic Media Classic。 請參閱字型。
 
    **字型大小** ：從選單選擇字型大小，在方塊中輸入特定大小，或按一下向上或向下箭頭，將大小增加或減少兩點。
 
@@ -168,9 +171,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 1. 選取要設定格式的段落。
 1. 指定以下任何格式設定選項，然後按一下「套用」。
 
-   **對齊** ：按一下以指定對齊類型：左對齊、中間對齊、右對齊或對齊。
+   **對齊** ：按一下以指定對齊類型： 左對齊、中間對齊、右對齊或對齊。
 
-   **段落結尾對齊** ：按一下指定段落最後一行的對齊類型：最後一行左對齊；最後一行對中；最後一行向右對齊。
+   **段落結尾對齊** ：按一下指定段落最後一行的對齊類型： 最後一行左對齊； 最後一行對中； 最後一行向右對齊。
 
    **行間距** (Line Spacing)類型或選擇一個數值，通過該值調整段落中所有行之間的間距量。
 
@@ -184,9 +187,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
    **段後空格** ：指定段落最後一行文字下方要顯示的空格數。
 
-   **垂直對齊** ：選擇文本在文本框中垂直顯示的位置：上、中、下。
+   **垂直對齊** ：選擇文本在文本框中垂直顯示的位置： 上、中、下。
 
-   **文字方向** ：選取要顯示文字的方向：從右至左或從左至右。
+   **文字方向** ：選取要顯示文字的方向： 從右至左或從左至右。
 
 ### 調整文字圖層屬性 {#adjust-text-layer-properties}
 
@@ -290,7 +293,7 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;
 
 ## 對圖層使用陰影和光暈效果 {#using-shadow-and-glow-effects-on-layers}
 
-您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果範本源自 PSD 檔案，且帶有陰影和光暈效果，則可以在 Scene7 Publishing System 中調整這些效果。
+您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的範本源自具有陰影和光暈效果的PSD檔案，則可在Dynamic Media Classic中調整這些效果。
 
 套用陰影或光暈效果之後，您可以在「範本」畫面的「圖層屬性」區域調整其大小、色彩、不透明度和位置。
 
