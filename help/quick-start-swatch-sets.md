@@ -6,11 +6,14 @@ seo-description: 色票集簡介和快速入門，可協助您快速上手使用
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 首先為色票集上載影像和色票檔案。
 
-按一下全域導覽列上的「上載」按鈕，將您電腦的檔案上載至 Scene7 Publishing System 中的檔案夾。請參閱[準備要上載的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
+按一下全域導覽列上的「上傳」，將檔案從您的電腦上傳至Dynamic Media Classic的資料夾。 請參閱[準備要上載的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
 **2. 建立色票集**
 
