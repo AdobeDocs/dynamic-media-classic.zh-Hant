@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立色票集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +27,10 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 ## 建立色票集 {#create}
 
 建立集時，「保存後發 **布** 」選項會以下列方式影響集和設定成員：
-|「儲存後發佈」選項在儲存前已選取？|儲存後設定的狀態|儲存後設定的成員狀態||—|—|—||是|已發佈|已發佈||無|未發佈|整合員保留其已發佈或未發佈狀態。|
+|「儲存後發佈」選項在儲存前已選取？|儲存後設定的狀態|儲存後設定的成員狀態|
+|— |— |— |
+|是|已發佈|已發佈|
+|無|未發佈|整合員保留其已發佈或未發佈狀態。|
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
