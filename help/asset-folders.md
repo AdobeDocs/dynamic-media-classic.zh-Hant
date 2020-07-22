@@ -6,20 +6,23 @@ seo-description: 瞭解如何使用資產資料夾。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 55%
 
 ---
 
 
 # 使用資產檔案夾{#working-with-asset-folders}
 
-Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產庫」面板會依英文字母順序列出這些檔案夾。將檔案從電腦或網路上載到 Scene7 Publishing System 之前，系統會要求您為用來儲存檔案的檔案夾命名。上載任何檔案之前，請先建立這些檔案夾。
+Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。在將檔案從電腦或網路上傳至Dynamic Media Classic之前，系統會要求您為檔案儲存資料夾命名。 上載任何檔案之前，請先建立這些檔案夾。
 
-上載檔案之前，請務必在 Scene7 Publishing System 中建立檔案夾結構及組織，以儲存檔案。
+在上傳檔案之前，請務必建立檔案夾結構和組織，以便將檔案儲存在Dynamic Media Classic上。
 
 ## 顯示、移動、隱藏和開啟檔案夾 {#displaying-moving-hiding-and-opening-folders}
 
@@ -33,7 +36,7 @@ Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產�
 
 * **開啟檔案夾**&#x200B;選取檔案夾，在「瀏覽面板」中顯示其內容。
 
-***提示&#x200B;**:按一下資產庫左側的「展開／收合」控制項，即可隱藏或顯示資產庫。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。*
+***提示&#x200B;**: 按一下資產庫左側的「展開／收合」控制項，即可隱藏或顯示資產庫。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。*
 
 ## 建立檔案夾 {#creating-folders}
 
@@ -45,7 +48,7 @@ Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產�
 
    >[!NOTE]
    >
-   >您透過 FTP 上載檔案時，也可以在 Scene7 Publishing System 中建立檔案夾。在透過 FTP 上載時選取「包含子檔案夾」選項，即可將您電腦上的檔案夾結構複製到系統中。您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
+   >當您透過FTP上傳檔案時，也可以在Dynamic Media Classic中建立檔案夾。 在透過 FTP 上載時選取「包含子檔案夾」選項，即可將您電腦上的檔案夾結構複製到系統中。您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
 
 ## 刪除和重新命名檔案夾 {#deleting-and-renaming-folders}
 
@@ -57,4 +60,4 @@ Scene7 Publishing System 中的檔案資產會保存於檔案夾中。「資產�
 
 >[!NOTE]
 >
->您無法複製資料夾或資產，因為這麼做會在Scene7 Publishing System上建立重複的資料夾和資產，且不允許複製。
+>您無法複製資料夾或資產，因為這麼做會在Dynamic Media Classic上建立重複的資料夾和資產，且不允許複製。
