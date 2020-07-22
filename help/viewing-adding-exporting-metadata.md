@@ -6,22 +6,25 @@ seo-description: 瞭解如何檢視、新增和匯出中繼資料。
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2262'
+ht-degree: 78%
 
 ---
 
 
 # 檢視、增加和匯出中繼資料{#viewing-adding-and-exporting-metadata}
 
-您可以在 Scene7 Publishing System 中儲存您使用之檔案的特定資訊；這項資訊稱為&#x200B;*中繼資料*。您可以在Dynamic Media Classic中使用中繼資料來組織、搜尋、篩選和排序資產。
+You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. 您可以在Dynamic Media Classic中使用中繼資料來組織、搜尋、篩選和排序資產。
 
 中繼資料會與Dynamic Media Classic產生的資訊一起顯示在「詳細資料」檢視中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在詳細檢視中開啟資產，然後選取「中繼資料」面板。您可以在詳細檢視中輸入和編輯中繼資料。
 
-有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動與檔案一起上傳。 您可以在Adobe Photoshop、InDesign、Illustrator和其他應用程式中，將中繼資料嵌入來源資產；Dynamic Media Classic可辨識此中繼資料。 您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
+有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動與檔案一起上傳。 您可以在Adobe Photoshop、InDesign、Illustrator和其他應用程式中，將中繼資料嵌入來源資產； Dynamic Media Classic可辨識此中繼資料。 您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
@@ -74,9 +77,9 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 您可以從 Tab 字元分隔檔案或 XML 檔案匯入多項不同資產的中繼資料，而不是逐一針對資產手動輸入中繼資料。比起在個別資產中輸入中繼資料，在 Tab 字元分隔或 XML 檔案中輸入中繼資料並匯入檔案會更加省時。在 Tab 字元分隔檔案的第一列，針對想要記錄中繼資料的欄位輸入 ID 和名稱。在每個後續的列中，輸入隨後附有中繼資料值的資產 ID 名稱。系統不會修改 Tab 字元分隔或 XML 檔案中未包含的欄位。若要從 XML 檔案匯入中繼資料，請確定符合 DTD。
 
 >[!NOTE]
-您可以建立用於輸入中繼資料的範本，這樣就能將中繼資料正確匯入 Scene7 Publishing System。建立範本後，您便可使用範本來輸入中繼資料。請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+您可以建立範本以輸入中繼資料，以便正確匯入至Dynamic Media Classic。 建立範本後，您便可使用範本來輸入中繼資料。請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
-有關標準化屬性的更多資訊，請參閱：https://www.adobe.com/devnet/xmp.html
+有關標準化屬性的更多資訊，請參閱： https://www.adobe.com/devnet/xmp.html
 
 1. 在瀏覽面板中，從 Tab 字元分隔檔案或 XML 檔案選取要增加中繼資料的影像。
 1. 按一下「**檔案** > **匯入中繼資料**」。
@@ -127,9 +130,9 @@ XML 匯入只接受有效的 XML。匯入 XMP 或中繼資料結構欄位時將�
 
 ## 使用中繼資料批次重新命名 ID {#batch-rename-ids-using-metadata}
 
-使用從 Tab 字元分隔檔案或 XML 檔案中匯入的中繼資料，即可重新命名 Scene7 Publishing System ID。匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 不論是否已在瀏覽面板上選取該影像。
+使用從Tab分隔檔案或XML檔案匯入的中繼資料，您可以重新命名Dynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 不論是否已在瀏覽面板上選取該影像。
 
-To rename an image’s Scene7 Publishing System ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
 
 例如：
 
@@ -143,7 +146,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## 建立範本以輸入要上載的中繼資料 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用範本可確保以正確格式輸入中繼資料，這樣就能正確上載至 Scene7 Publishing System。遵循下列步驟，即可建立範本以用來記錄中繼資料並加以匯入 Scene7 Publishing System:
+Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用範本可確保以正確的格式輸入中繼資料，以便將其正確上傳至Dynamic Media Classic。 請依照下列步驟建立範本，以用於錄制和匯入中繼資料至Dynamic Media Classic:
 
 1. 選取具有範本所要用的中繼資料欄位的影像資產。
 1. 選取「檔案 > 匯入中繼資料」。
@@ -173,9 +176,9 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 系統會自動為使用者定義欄位產生自訂資料結構，且其字首為「s7udf」。這些是現有的使用者定義欄位，且是在其各自的「設定」區段中進行編輯。
 
 >[!NOTE]
-資料結構的變更絕不會變更資產中繼資料。但是，對於 SPS 和中繼資料伺服器功能而言，這些變更不一定可見，且無法在變更後加以存取。同樣地，如果有資產中繼資料，則建立相符的資料結構將使該中繼資料可在 SPS 和中繼資料伺服器中使用。
+資料結構的變更絕不會變更資產中繼資料。但是，它們並非所有Dynamic Media Classic和Metadata Server功能都可見，而且在變更後無法存取。 同樣地，如果資產的中繼資料存在，則建立相符的架構可讓中繼資料在Dynamic Media Classic和中繼資料伺服器中使用。
 
-中繼資料結構編輯器提供了一種圖像式的方式，可在 SPS 中新增或編輯自訂公司資料結構。資料結構是由一個字首、一個命名空間，以及一份屬性清單所定義。
+中繼資料結構編輯器提供在Dynamic Media Classic中新增或編輯自訂公司結構的圖形方式。 資料結構是由一個字首、一個命名空間，以及一份屬性清單所定義。
 
 * 名稱
 
@@ -183,11 +186,11 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 
 * 字首
 
-   資料結構的技術唯一識別名稱。限制為字母 a-z 以及 A-Z。在 SPS UI 中，若資產中繼資料儲存於 XMP 區塊和我們的資料庫中，則字首不可見但會加以使用。字首的用途為，在中繼資料伺服器上的中繼資料搜尋查詢中識別唯一的中繼資料欄位，或是進行匯入。
+   資料結構的技術唯一識別名稱。僅限字母a-z和A-Z。 前置詞不會顯示在Dynamic Media Classic UI中，但會在資產的中繼資料儲存在XMP區塊和我們的資料庫時使用。 字首的用途為，在中繼資料伺服器上的中繼資料搜尋查詢中識別唯一的中繼資料欄位，或是進行匯入。
 
 * 命名空間
 
-   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 如需範例，請參閱標準資料結構清單。命名空間在 SPS 中為不可見，但用於在 XMP 區塊中儲存中繼資料。
+   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 如需範例，請參閱標準資料結構清單。命名空間在Dynamic Media Classic UI中不可見，但用來儲存XMP區塊中的中繼資料。
 
 * 說明
 
@@ -200,7 +203,7 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 
 | 屬性 | 說明 |
 |--- |--- |
-| ID | 此屬性的技術識別名稱。在 SPS UI 中，若資產中繼資料儲存於 XMP 區塊和我們的資料庫中，則 ID 不可見但會加以使用。ID 會用來在中繼資料伺服器上建立搜尋查詢。ID 有下列限制: <ul><li>不可包含空格</li><li>不可包含「.」、「:」、「$」</li><li>第一個字元不可為數字</li><li>最佳實務為使用 a-z 或 A-Z 作為第一個字元</li></ul> <br>建立之後，便無法再變更 ID。 |
+| ID | 此屬性的技術識別名稱。ID在Dynamic Media Classic UI中不可見，但當資產的中繼資料儲存在XMP區塊和我們的資料庫時，就會使用。 ID 會用來在中繼資料伺服器上建立搜尋查詢。ID 有下列限制: <ul><li>不可包含空格</li><li>不可包含「.」、「:」、「$」</li><li>第一個字元不可為數字</li><li>最佳實務為使用 a-z 或 A-Z 作為第一個字元</li></ul> <br>建立之後，便無法再變更 ID。 |
 | 標籤 | 此特性的 UI 名稱。 |
 | 結構 | 決定特性類型和資料類型。結構可為下列項目:<ul><li>簡單類型: 單一資料類型值</li><li>順序: 相同資料類型值的清單</li><li>開放選擇: 從預先定義值清單選取項目，或輸入自由文字。資料類型僅可為「字串」或「整數」</li><li>限定選擇: 從預先定義值清單 (彈出式或組合式) 選取項目</li></ul> |
 | 資料類型 | 從下列可用類型中選取: <ul><li>字串</li><li>整數</li><li>浮點</li><li>是/否 (布林)</li><li>日期</li></ul> |
@@ -210,7 +213,7 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 
 | 屬性 | 說明 |
 |--- |--- |
-| ID | 此值的技術識別名稱。在 SPS UI 中，若資產中繼資料儲存於 XMP 區塊和我們的資料庫中，則 ID 不可見但會加以使用。ID 會用於中繼資料伺服器上的搜尋查詢。ID 不可包含任何空格。建立之後，便無法再變更 ID。 |
+| ID | 此值的技術識別名稱。ID在Dynamic Media Classic UI中不可見，但是當資產的中繼資料儲存在XMP區塊和資料庫時，就會使用它。 ID 會用於中繼資料伺服器上的搜尋查詢。ID 不可包含任何空格。建立之後，便無法再變更 ID。 |
 | 標籤 | 此值的 UI 名稱。 |
 
 >[!MORELIKETHIS]
