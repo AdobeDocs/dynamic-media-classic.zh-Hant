@@ -6,18 +6,23 @@ seo-description: 瞭解如何在Dynamic Media Classic中登入和登出
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 39%
 
 ---
 
 
+<!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
+
 # 登入和登出{#signing-in-and-out}
 
-使用 Scene7 Publishing System 進行上載、建置和發佈，需要符合特定使用者必要條件和系統需求。登入之後，SPS 便能識別您的身分。當您使用完Dynamic Media Classic後，請登出。
+使用Dynamic Media Classic上傳、建立和發佈需要符合特定使用者的必要條件和系統需求。 您可登入Dynamic Media Classic以識別自己。 當您使用完Dynamic Media Classic後，請登出。
 
 在使用Dynamic Media Classic之前，請確定您已具備下列功能：
 
