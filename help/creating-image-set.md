@@ -6,11 +6,14 @@ seo-description: 瞭解如何建立影像集。
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
