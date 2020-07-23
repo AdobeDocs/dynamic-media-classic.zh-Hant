@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 19%
 
 ---
 
 
-# 快速入門： Target Standard/Premium整合{#quick-start-target-integration}
+# 快速入門： Adobe Target Standard/Premium整合{#quick-start-target-integration}
 
 Adobe Target Standard/Premium將控制權直接交由行銷人員掌控，以快速且持續地執行多個A/B和多變數測試、評估效率，並透過細分、鎖定和自動化個人化提高線上內容的相關性。
 
@@ -34,7 +34,7 @@ Dynamic Media Classic可讓您建立Target Standard/Premium促銷活動的選件
 
 此快速入門功能可讓您快速啟動並執行Target Standard/Premium HTML選件集。 依照步驟 1 至 3 執行。每個步驟之後都有連接至某個主題標題的交戶參照，您可以在其中尋找更多資訊。
 
-**1. Enter your Target Standard/Premium URL in the Application General Settings screen.**
+**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
 Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/Premium整合。 Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. 請參 [閱整合Dynamic Media Classic與Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
@@ -50,6 +50,6 @@ Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/P
 
 請參閱[建立提案集](creating-offer-set.md#creating_an_offer_set)。
 
-**3. 將選件集推送至Target Standard/Premium**
+**3. 將選件集推送至Adobe Target Standard/Premium**
 
 In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. 請參 [閱推送選件集至Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
