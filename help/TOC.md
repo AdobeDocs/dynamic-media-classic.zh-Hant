@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic說明
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 75%
 
 ---
@@ -154,9 +154,9 @@ ht-degree: 75%
    + [檢視 Adobe Analytics 報告以測試整合](testing-integration-viewing-analytics-report.md)
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
-+ Target Standard/Premium整合 {#target-classic}
-   + [快速入門： Target Standard/Premium整合](quick-start-target-integration.md)
-   + [整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
++ Adobe Target Standard/Premium整合 {#target-classic}
+   + [快速入門： Adobe Target Standard/Premium整合](quick-start-target-integration.md)
+   + [整合Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [將選件集推送至Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + 使用者產生的內容 {#user-generated-content}
