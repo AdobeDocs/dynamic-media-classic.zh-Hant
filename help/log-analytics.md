@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ff112497b41f71b77f4afa47d331a1a9bc1e2d07
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 57%
+source-wordcount: '357'
+ht-degree: 36%
 
 ---
 
@@ -24,14 +24,21 @@ ht-degree: 57%
 
 當您登入時，可以選擇輸入Marketing Cloud組織ID以使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍然有效。 但是，這會導致資料無法與來自Dynamic Media Classic外部該用戶端的其他資料正確整合。
 
+>[!NOTE]
+>
+>如果您的Adobe Analytics帳戶已移轉至Adobe IMS型驗證（身分管理系統）進行登入，則無法輸入直接認證。
+
 **登入 Adobe Analytics**
 
-1. 按一下「**設定** > **應用程式設定**」。
-1. 在左窗格的「應用程式設定」下方，按一下「**Adobe Analytics**」。
-1. 在「Adobe Analytics 配置」畫面中，按一下「**Adobe Analytics 登入**」。
-1. 在「登入」對話方塊中，輸入您的公司名稱、Marketing Cloud組織ID（選用）、使用者名稱和密碼。
-1. 按一下&#x200B;**「登入」**。
-1. 選擇一個報告套件，然後按一下「**確定**」。
+1. 在「Dynamic Media Classic」（動態媒體經典）頁面的右上角附近，點選「 **[!UICONTROL 設定>應用程式設定」]**。
+1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
+1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
+1. 在「 **[!UICONTROL Adobe Analytics登入]** 」對話方塊中，在「密碼」文字欄位中輸入您的公司名稱、Marketing Cloud組織ID（可選）、使用者名稱 *和共用的機密金鑰***** 。
+
+   您可以從「分析管 *理員* 」控制台擷取共用的機密金鑰。 請參 [閱如何取得使用者帳戶的API認證](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
+
+1. 按一下&#x200B;**[!UICONTROL 「登入」]**。
+1. 在「報 **[!UICONTROL 表套裝]** 」下拉式功能表中，選擇報表套裝，然後按一下「 **[!UICONTROL 確定」]**。
 
    >[!NOTE]
    >
