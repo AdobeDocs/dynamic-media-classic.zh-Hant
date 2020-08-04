@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 65%
 
 **目錄管理** ：這些設定會決定Dynamic Media Classic與目錄的互動方式。 與大部分的Web伺服器不同，動態媒體影像伺服器URL呼叫會移至資訊清單或目錄檔案，而非影像檔本身。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
-**請求屬性** ：這些設定會限制從伺服器傳送的影像。
+**請求屬性** ：這些設定會限制從伺服器傳送的影像。 例如，「回覆影 *像大小* 上限 **[!UICONTROL 」為「寬度]** 5000」和「高 ******** 度5」。
 
 **預設請求屬性** ：這些設定屬於影像的預設外觀。
 
@@ -54,7 +54,7 @@ ht-degree: 65%
 例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
 >[!NOTE]
-> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄電子郵件至s7support@adobe.com以要求設定說明。
+> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄送電子郵件至s7support@adobe.com，要求安裝說明。
 
 如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
