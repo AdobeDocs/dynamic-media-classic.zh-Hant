@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 68%
 
    「建置」選單上的某些動作只能用於個別視訊，或選擇性地用於個別視訊。此功能迫使您必須顯示所有可以選取之編碼視訊的衍生物，而不受您設定「**顯示編碼的視訊**」的方式影響。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[注意]
+   >[!NOTE]
    >
    >如果您未使用Dynamic Media Classic來上傳和編碼視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
 
@@ -231,13 +231,13 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **重新取樣模式** ：選擇重新取樣模式選項。 下列選項會在縮減取樣影像時予以銳利化:
 
-**B-Linear** ：最快的重採樣方法； 有些鋸齒不自然現象很明顯。
+**B-Linear** ：最快的重採樣方法；有些鋸齒不自然現象很明顯。
 
 **Bi-Cubic** Reaves Image Server的CPU使用量增加，但產生更銳利的影像，並且鋸齒不自然現象較少。
 
 **Sharp2** 比「雙三次方」選項產生的結果稍微銳利，但影像伺服器的CPU成本更高。
 
-**Tri-Linear** Uses both higher resolutions and lower resolutions, if available; 僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
+**Tri-Linear** Uses both higher resolutions and lower resolutions, if available;僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
 **銳利化遮色片** ：選擇下列選項以微調銳利化：
 
@@ -259,7 +259,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **內嵌描述檔** ：選取這個選項，如果您在Adobe® Photoshop®中開啟此影像，它就會使用這個描述檔。
 
-**列印解析度** ：選擇列印此影像的解析度； 預設值為72像素。
+**列印解析度** ：選擇列印此影像的解析度；預設值為72像素。
 
 **URL修飾詞** ：如果您偏好指定定義影像預設集的URL修飾詞，而非設定，請在此處輸入修飾詞。
 
@@ -322,7 +322,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
    **單一編碼預設集**
 
-   >[註]
+   >[!NOTE]
    >
    >若要將視訊傳送到 iPad，您可以選擇「行動裝置」編碼預設集或「平板電腦」編碼預設集。平板電腦預設集專為 iPad 而設計，通常具有更高的解析度和品質，以充分利用更大的畫面和頻寬連線。傳送使用平板電腦預設集編碼的視訊檔案時，必須在您的行動裝置網站或應用程式上加入裝置偵測程式碼。此程式碼會根據播放裝置的不同，在 iPhone 或 iPad 視訊體驗間切換。更簡單的工作流程是選擇行動裝置預設集將視訊檔案傳送到 iPad。原因在於您可以將同一視訊檔案用於 iPhone 和 iPad。但是，將品質標準化為解析度更低的 iPhone 體驗。
 
@@ -342,7 +342,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **視訊位元速率（資料速率）** ：編碼成視訊播放一秒（千位／秒）的資料量。
 
-**像素寬度／高度** ：螢幕影像的寬度尺寸，以像素為單位； 螢幕影像的高度尺寸（以像素為單位）。
+**像素寬度／高度** ：螢幕影像的寬度尺寸，以像素為單位；螢幕影像的高度尺寸（以像素為單位）。
 
 **每秒影格數(fps)** ：視訊每秒的影格數，或靜止影像數。 在美國和日本，大部分視訊以 29.97 fps 拍攝；在歐洲和亞洲 (不包括日本)，大部分視訊以 25 fps 拍攝。電影以 24 fps 拍攝。
 
@@ -480,7 +480,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **縮放檢視器** ：讓使用者按一下區域即可放大檢視。 使用者可以按一下控制項來放大、縮小，以及將影像重設為預設大小。
 
-**縮放檢視器： 飛出** ：在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
+**縮放檢視器：飛出** ：在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
 
 決定此檢視器的完整頻寬使用情況時，請考量檢視器會同時處理主要影像和彈出影像。主要影像大小 (「舞台寬度」和「舞台高度」) 和「縮放係數」會決定彈出影像大小。若要避免彈出檔案大小過大，請平衡以下兩個值: 如果您的主要影像較大，請降低「縮放係數」值。(「彈出寬度」和「彈出高度」會決定彈出視窗的大小，但不會決定提供給檢視器之彈出影像的大小。)
 
@@ -488,7 +488,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media Classic檢視器預設集相容性矩陣 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash檢視器生命週期結束注意事項**: 自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
+**Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
 
 如需此重要變更的詳細資訊，請參閱下列常見問答網站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -626,7 +626,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 1. 在「設定檢視器」畫面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
 1. 設定其它想要的選項。
 
-   >[註]
+   >[!NOTE]
    >
    >選擇「與來源同」，將「視訊檢視器」自動調整為編碼視訊自身的解析度大小。如果選擇該選項，則不能輸入「舞台寬度」和「舞台高度」。相反，這些選項來自視訊本身。如果您選擇「與來源同」，請設定「邊距大小」選項以反映視訊播放區域外部的外觀尺寸。該邊距大小是視訊控制項的像素高度和寬度。您可以使用以下圖示來協助您決定要使用的邊距大小。*
 
