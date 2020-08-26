@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 56%
+source-wordcount: '1945'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,7 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic User** Can access companies they can access the companies what hees access; 不能履行行政職責。
+**Adobe Dynamic Media Classic User** Can access companies they can access the companies what hees access;不能履行行政職責。
 
 **Adobe Dynamic Media Classic公司管理員** ：只能檢視和管理自己的公司。 公司管理員也可以執行所有管理功能，包含增加管理員和使用者。公司管理員可以將用戶添加到DMC公司管理員帳戶。 (此角色為預設使用者角色。)
 
@@ -61,7 +61,7 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
    系統會在儲存之後出現提示訊息，問您是否要將使用者增加至其他公司。若您要將使用者增加至公司，請按一下「增加」。
 
-   所有新用戶都會獲得隨機生成的密碼； 使用者第一次登入Dynamic Media Classic時，必須變更密碼。
+   所有新用戶都會獲得隨機生成的密碼；使用者第一次登入Dynamic Media Classic時，必須變更密碼。
 
    您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。電子郵件提供了臨時密碼，並說明如何登入 Scene7 Publishing System。
 
@@ -114,32 +114,33 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 如果您有多位使用者，則可以選取「清單大小上限」選單並選擇數量，來限制清單大小。
 
-### 將IMS使用者身分識別連結至Dynamic Media Classic IPS使用者帳戶 {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-您可以將Adobe IMS使用者身分連結至Dynamic Media Classic IPS使用者帳戶，如此您就可以使用SSO（單一登入）從Adobe Marketing Cloud中登入並啟動Scene7 Publishing System。
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe應已設定您與Adobe Marketing Cloud組織的帳戶，並將其連結至您的Scene7 Publishing System產品內容。 如果此設定尚未完成，或您不確定是否已完成，請聯絡Adobe客戶服務。
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   完成設定後，您可以登入Adobe Marketing Cloud，並透過下列動作將您的Adobe Marketing Cloud身分識別連結至您的Dynamic Media Classic使用者帳戶。
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. 在Adobe Marketing Cloud中，導覽至您的帳戶設定。
-1. 按一下 **管理組織**。
-1. 按一 **下「連結帳戶** 」或 **「取得存取權**」。
-1. 選取 **Experience Manager**，然後輸入您的認證。
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   您的憑據包括您的IPS公司地區、電子郵件地址和密碼。
+   Your credentials include your IPS company region, email address, and password.
 
-1. 按一 **下連結**。
-1. 設定連結後，您可以從Adobe Marketing Cloud中啟動Scene7 Publishing System，或直接啟動它。
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   進行以下一項操作:
+   Do one of the following:
 
-   * 若要從Adobe Marketing Cloud的左側導軌中啟動Dynamic Media Classic，請按一下「解決方 **案** > **Experience Manager**」。 在「Dynamic Media Classic」卡下，按一下「 **啟動**」。
-   * 若要使用您的IMS認證直接登入Scene7 Publishing System，請使用下列網站：
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      以IPS公司地區的編號取代上述路徑中的&quot;N&quot;。 即北美為N=1; 3適用於EMEA地區； 或5個日本。
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## 頻寬與存放區 {#bandwidth-storage}
 
@@ -193,7 +194,7 @@ Dynamic Media Classic管理員可以為所管理的公司產生頻寬、儲存�
 
 在「頻寬和存放區」頁面產生報告後，您可以選擇檢視資訊選項。您可以選擇資訊呈現方式、在圖表或資料格線中檢視資訊，以及指定擷取資訊的時段。在「資料」視圖中，您也可以排序資訊和重新排序欄。
 
-**在圖表或資料表格中檢視資料** ，按一下圖表檢視選項，檢視圖表中的資料； 按一下「資料檢視」選項，以檢視資料格線中的資料。
+**在圖表或資料表格中檢視資料** ，按一下圖表檢視選項，檢視圖表中的資料；按一下「資料檢視」選項，以檢視資料格線中的資料。
 
 **選擇報表簡報類型** 「報表類型」功能表中的「摘要」、「每日」或「每月」，以匯總形式、依日或依月組織資料。 並非所有報告都提供此選項。
 
@@ -201,7 +202,7 @@ Dynamic Media Classic管理員可以為所管理的公司產生頻寬、儲存�
 
 **預先定義的時段** ：在「預先定義的報表」功能表中，選擇一個選項。 例如，選擇「上月」可擷取前一個月的資料。
 
-**自訂時段** ：在「預先定義的報表」功能表上，選擇自訂。 然後在「開始月份」(或「開始日期」) 選單上選擇日期，並在「月數」(或「天數」) 選單上選擇日期。對於「網域」和「視訊內容報告」，您可以選擇特定開始和結束日期，以擷取報告資訊。
+**自訂時段** ：在「預先定義報表」功能表中，選擇自訂。 然後在「開始月份」(或「開始日期」) 選單上選擇日期，並在「月數」(或「天數」) 選單上選擇日期。對於「網域」和「視訊內容報告」，您可以選擇特定開始和結束日期，以擷取報告資訊。
 
 **排序資料（僅限資料檢視）** 若要排序欄的資訊，請按一下欄的標題。 再按一下就會以遞減的順序排序。
 
