@@ -1,21 +1,21 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Dynamic Media Classic說明
+user-guide-title: Adobe Dynamic Media Classic指南
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Dynamic Media Classic說明 {#using}
+# Adobe Dynamic Media Classic指南 {#using}
 
-+ [Dynamic Media Classic檔案首頁](home.md)
++ [Adobe Dynamic Media Classic指南](home.md)
 + [最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
@@ -45,7 +45,7 @@ ht-degree: 75%
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [系統需求](system-requirements-1.md)
-   + [快速入門： Media Portal](quick-start-media-portal-administration.md)
+   + [快速入門：Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 使用者角色](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [增加和管理 Media Portal 使用者](adding-media-portal-users.md)
@@ -90,7 +90,7 @@ ht-degree: 75%
    + [發佈縮放影像](publishing-zoom-images.md)
    + [將縮放檢視器連結至網頁](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [快速入門： eCatalogs](quick-start-ecatalog.md)
+   + [快速入門：eCatalogs](quick-start-ecatalog.md)
    + [上載 PDF 檔案](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
@@ -146,7 +146,7 @@ ht-degree: 75%
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速入門： 整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,7 +155,7 @@ ht-degree: 75%
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium整合 {#target-classic}
-   + [快速入門： Adobe Target Standard/Premium整合](quick-start-target-integration.md)
+   + [快速入門：Adobe Target Standard/Premium整合](quick-start-target-integration.md)
    + [整合Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [將選件集推送至Adobe Target Standard/Premium](pushing-offer-sets-target.md)
