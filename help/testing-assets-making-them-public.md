@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 03ca030531f8d9fa0a6944bd5050e2c865adf5f5
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 67%
+source-wordcount: '1103'
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 67%
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。這讓您可以在將資產發佈至公開影像伺服器之前先執行預覽。
 
-***注意&#x200B;**: Secure Testing Services運用已設定內部發佈內容的Catalog Server。 因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic Media Classic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
+***注意&#x200B;**:Secure Testing Services運用已設定內部發佈內容的Catalog Server。 因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic Media Classic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
 
 安全測試服務目前支援下列資產類型和功能：
 
@@ -81,6 +81,8 @@ Last Modified Date:
 
 您應測試安全測試服務以確保如預期運作。
 
+注意：如果您未提及「設定>發佈設定>影像伺服器>測試影像服務」下方的任何IP，則您只新增IP，讓IP能夠呼叫資產，且不允許其他IP進行呼叫。 只要該節未提及IP，所有IP都可以呼叫資產，而且會顯示。
+
 **準備帳戶**
 
 <!-- 
@@ -98,7 +100,14 @@ Last Modified Date:
 1. 在「影像伺服器發佈」頁面的「發佈內容」下拉式清單中，選取「**測試影像伺服**」。
 1. 針對「用戶端位址篩選器」按一下「**增加**」。
 1. 選取核取方塊以啟用 (開啟) 位址，然後在個別的文字欄位中輸入 IP 位址和網路遮罩。
-1. 重複前兩個步驟以增加更多 IP 位址。或者，繼續下一個步驟。
+
+   >[!NOTE]
+   >
+   >如果您新增單一IP位址和網路遮色片，該位址可進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮色片均不允許進行資產呼叫。 因此，您可考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮色片的功能。 如此可有效 *率地允許* 所有IP位址進行資產呼叫，而且所有IP位址都會出現。
+
+1. 進行以下一項操作:
+   * 重複前兩個步驟以增加更多 IP 位址。
+   * 繼續下一步。
 1. 在「影像伺服器發佈」頁面的左下角，按一下「**儲存**」。
 1. 將所要的影像上傳至您的Dynamic Media Classic帳戶。
 
@@ -111,14 +120,14 @@ Last Modified Date:
 1. 按一下「**設定** > **應用程式設定** > **一般設定**」以確定安全測試服務的名稱。
 1. 在「應用程式一般設定」頁面的「伺服器」群組下方，尋找「**測試發佈內容伺服器名稱**」右側的名稱。
 
-如果伺服器名稱遺失或伺服器 URL 無效，請聯絡「技術支援」。
+如果伺服器名稱遺失或伺服器的URL無法運作，請連絡Adobe Care。
 
 **準備網站變體**
 
 您需要兩個網站變體，分別連結至已發佈和未發佈的資產: 
 
-* 公開版： 使用您的傳統Dynamic Media Classic URL語法連結資產
-* 測試版本: 使用相同的語法，但以安全測試網站名稱連結資產
+* 公用版本——使用傳統Dynamic Media Classic URL語法連結資產。
+* 測試版本——使用相同語法但使用Secure Testing網站名稱來連結資產。
 
 **執行測試**
 
