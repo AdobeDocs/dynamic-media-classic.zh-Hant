@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: a77f7544b5b29cb73afcee2c250b6f22af08c249
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 31%
+source-wordcount: '185'
+ht-degree: 36%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 31%
 | 支援 | 訂閱 |
 |--- |--- |
 | 個案限制 | 無限制. |
-| 回應時間 | 請參閱常見問答集，網 [址為https://helpx.adobe.com/marketing-cloud/contact-support.html](https://helpx.adobe.com/marketing-cloud/contact-support.html)。 |
-| SLA（服務級別協定） | [https://www.adobe.com/support/programs/policies/sla.html](https://www.adobe.com/support/programs/policies/sla.html). |
+| 回應時間 | 請參閱常見問答集，網 [址為https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。 |
+| SLA（服務級別協定） | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 支援的使用者 | 每個組織最多可以指定10位使用者為「受支援使用者」，他們可以向客戶服務開啟案例。 |
-| 社交支援 | 請參閱常見問答集，網 [址為https://helpx.adobe.com/marketing-cloud/contact-support.html](https://helpx.adobe.com/marketing-cloud/contact-support.html)。 |
+| 社交支援 | 請參閱常見問答集，網 [址為https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。 |
 | 免費即時網路訓練與視訊教學課程 | 包括在內. |
-| 電子郵件支援 | <ul><li>美國／加拿大： s7support@adobe.com</li> <li>日本： s7support_jp@adobe.com</li><li>歐洲／中東／非洲： s7intsupport@adobe.com</li></ul> |
-| 電話支援 | <ul><li>美國／加拿大：(800)898-9743、(800)497-033、(408)454-5910 </li> <li>日本：+81-3-6743-9632 </li><li>英國： +44(0)20 35641782</li><li>德國： +49(0)69 51709005</li><li>法國： +33 157324085</li><li>荷蘭： +31(0)20 2035138（週末支援英文版）</li></ul> |
+| 電子郵件支援 | <ul><li>美國／加拿大：s7support@adobe.com</li> <li>日本：s7support_jp@adobe.com</li><li>歐洲／中東／非洲：s7intsupport@adobe.com</li></ul> |
+| 電話支援 | <ul><li>美國／加拿大：(800)898-9743、(800)497-033、(408)454-5910 </li> <li>日本：+81-3-6743-9632 </li><li>英國：+44(0)20 35641782</li><li>德國：+49(0)69 51709005</li><li>法國：+33 157324085</li><li>荷蘭：+31(0)20 2035138（週末支援英文版）</li></ul> |
 
 向技術支援通報問題時，請包含以下資訊:
 
