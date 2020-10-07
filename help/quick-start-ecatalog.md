@@ -1,6 +1,6 @@
 ---
-title: 「快速入門： eCatalogs」
-seo-title: 「快速入門： eCatalogs」
+title: 「快速入門：eCatalogs」
+seo-title: 「快速入門：eCatalogs」
 description: 'null'
 seo-description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 64%
@@ -18,14 +18,14 @@ ht-degree: 64%
 ---
 
 
-# 快速入門： eCatalogs{#quick-start-ecatalogs}
+# 快速入門：eCatalogs{#quick-start-ecatalogs}
 
 eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器會模擬閱讀列印材料的體驗。視您為eCatalog選擇的設定而定，檢視器可讓您執行下列動作：
 
 * 搜尋目錄以尋找關鍵字或關鍵字。 搜尋結果會在目錄左側的搜尋面板中顯示為縮圖清單。 每個可點按的縮圖代表一個目錄跨頁，其中已找到反白顯示的搜尋詞。
 
-* 通過社交媒體分享目錄； 下載目錄以離線檢視； 啟用「我的最愛」，以快速標籤您要傳回的項目，或列印目錄。
-* 使用目錄或頁面格線檢視導覽目錄； 按一下頁面的中間邊緣，即可向前或向後顯示頁面。
+* 通過社交媒體分享目錄；下載目錄以離線檢視；啟用「我的最愛」，以快速標籤您要傳回的項目，或列印目錄。
+* 使用目錄或頁面格線檢視導覽目錄；按一下頁面的中間邊緣，即可向前或向後顯示頁面。
 * 放大、縮小與平移即可檢查頁面上的項目。
 * 將指標移動到某個頁面區域 (稱為「影像地圖」) 即可檢視含有項目相關資訊的彈出式視窗。
 * 按一下頁面區域即可開啟含有更多項目相關資訊的新網頁。
@@ -43,8 +43,12 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 >[!NOTE]
 >
 >如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具>一般> CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
-在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 如同 `pdfbrochure=true`在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
-您現在可以在Dynamic Media Classic中製作eCatalogs。
+>
+>在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 與 `pdfbrochure=true`
+>
+>在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
+>
+>您現在可以在Dynamic Media Classic中製作eCatalogs。
 
 **快速入門**
 
