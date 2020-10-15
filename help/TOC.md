@@ -2,22 +2,22 @@
 cloud: experience-cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media Classic指南
-breadcrumb-title: Dynamic Media Classic Guide
-user-guide-description: Learn more about using Dynamic Media Classic (formerly known as Scene7)
+user-guide-title: Adobe Dynamic Media Classic 指南
+breadcrumb-title: Dynamic Media Classic 指南
+user-guide-description: 進一步瞭解使用 Dynamic Media Classic (先前稱為 Scene7)
 index: y
 translation-type: tm+mt
 source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 74%
+source-wordcount: '754'
+ht-degree: 77%
 
 ---
 
 
-# Adobe Dynamic Media Classic指南 {#using}
+# Adobe Dynamic Media Classic 指南 {#using}
 
-+ [Adobe Dynamic Media Classic指南](home.md)
++ [Adobe Dynamic Media Classic 指南](home.md)
 + [最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
