@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 65%
 
 **色彩管理屬性** ：這些設定會決定使用哪些ICC色彩描述檔。
 
-**相容性屬性** ：此設定可讓文字圖層中的前導和尾隨段落，如同3.6版中的段落，以進行向後相容性。
+**相容性屬性** ：此設定可讓文字圖層中的前導和尾隨段落視為3.6版中的段落，以提供回溯相容性。
 
 **本地化支援** ：這些設定可讓您管理多個地區設定屬性。 也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
 
 例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
 >[!NOTE]
-> 若要設定本地化支援選項，請聯絡Adobe Dynamic Media Classic技術支援，或寄送電子郵件至s7support@adobe.com，要求安裝說明。
+> 若要設定本地化支援選項， [請使用管理控制台來建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
 如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -62,7 +62,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->如果您想在Dynamic Media Classic中設定「本地化支援」選項，例如「地區圖」欄位，請聯絡Adobe Dynamic Media Classic技術支援。 或者，請將電子郵件傳送到 s7support@adobe.com 請求設定協助。
+>如果您想在Dynamic Media Classic中設定「本地化支援」選項，例如「地區對應」欄位， [請使用「管理控制台」建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
 使用Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
@@ -120,7 +120,7 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 >[!NOTE]
 >
->全域地區設定目前只有在您透過API設定時才可能，而不是在Dynamic Media Classic介面中。
+>「全域地區設定」目前只有在您透過API設定時，才可能進行，而不是在Dynamic Media Classic介面中。
 
 **字尾範例**
 
