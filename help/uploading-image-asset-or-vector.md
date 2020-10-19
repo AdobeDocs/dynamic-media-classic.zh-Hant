@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 
 ## 要求共用密鑰 {#requesting-a-shared-secret-key}
 
-透過向 Scene 7 技術支援 (電子信箱為 s7support@adobe.com) 傳送電子郵件來要求&#x200B;*共用密鑰*。
+使用 *Admin Console建立*[支援案例，以要求共用密碼金鑰。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Dynamic Media Classic收到金鑰後，請將它儲存在本機以備日後使用。
 
