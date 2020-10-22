@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
+source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
    最新版本為20.20.2，可從以下網址取得：
 
-   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
    GA（一般可用性）版本為20.20.1，可從以下網址獲得：
 
-   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -111,7 +111,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載適用於macOS的Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 使用以下命令將下載的磁碟映像(.DMG)裝載到裝載點位置：
 
@@ -151,7 +151,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 使用下列命令，以記錄模式執行安裝程式：
 
