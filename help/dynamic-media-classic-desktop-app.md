@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 另請參閱:
 
-* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
+* [在Mac上下載並無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
 * [在Windows上下載並無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media Classic案頭應用程式。
@@ -143,7 +143,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 另請參閱:
 
 * [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
-* [在Windows上下載並無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在macOS上下載並無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
 
 若要在Windows *上下載* ，並無訊息地安裝最新版Adobe Dynamic Media Classic案頭應用程式：
 
