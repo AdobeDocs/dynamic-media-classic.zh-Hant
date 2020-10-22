@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
+source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,39 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 * macOS X 10.10或更新版本。
 * Windows 7或更新版本。
 
-## 在macOS或Windows上下載及安裝Adobe Dynamic Media Classic案頭應用程式 {#installation-dmc-app}
+## 最新版20.20.2的修正 {#latest-fixes-desktop-app}
+
+* 您可透過案頭應用程式使用者介面，針對macOS和Windows上傳的檔案數目不受限制。
+* 不需要登出案頭應用程式，即可在公司間切換。
+* Ctrl+V for paste操作現在可在Windows上運作。
+* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。
+
+## 在macOS或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#installation-dmc-app}
 
 另請參閱:
 
-* [在macOS上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
-* [在Windows上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在macOS上 *下載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
+* [在Windows上下 *載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media Classic案頭應用程式。
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   >[!NOTE]
+   >
+   >已安裝GA版本的用戶應在安裝最 *新版本* 之前，從本地Windows系統卸載該版本。 或者，使用者只需 *將本機* macOS系統上安裝的GA版本更換為最新版本。 新使用者應直接安裝最新版20.20.2。
+
+   最新版本為20.20.2，可從以下網址取得：
+
+   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+
+   GA（一般可用性）版本為20.20.1，可從以下網址獲得：
+
+   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
+
 
 1. 根據您下載的安裝程式，執行下列其中一項作業。
 
@@ -77,24 +97,24 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 張貼登入UI後，您會注意到熟悉的瀏覽器UI體驗。 您現在可以在案頭應用程式UI上，像平常一樣隨身攜帶日常活動。
 
-## 在macOS上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
+## 在macOS上 *下載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
 
 另請參閱:
 
-* [在Mac或Windows上下載及安裝Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
-* [在Windows上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
+* [在Windows上下 *載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
-若要在macOS上下 *載並無訊息* ，請安裝Adobe Dynamic Media Classic案頭應用程式：
+若要在macOS *上下載* ，並無訊息地安裝最新版Adobe Dynamic Media Classic案頭應用程式：
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media Classic案頭應用程式。
 
 1. 下載適用於macOS的Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [macOS(.DMG)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 使用以下命令將下載的磁碟映像(.DMG)裝載到裝載點位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
 1. 使用下列命令將。APP **[!UICONTROL 檔案復]** 制至應用程式：
 
@@ -115,34 +135,34 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA（歐洲、中東和非洲）生產 |
    | https://s7sps5.scene7.com/ | 亞太產業 |
 
-## 在Windows上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
+## 在Windows上下 *載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
 
 您使用的命令是用於基本MSI無訊息安裝。 不過，Dynamic Media Classic案頭應用程式安裝程式是使用InstallShield建立的InstallScript MSI安裝程式。 當您以記錄模式執行安裝程式時，任何使用者互動都會記錄在回應檔案中。 然後，此響應檔案將用於靜默安裝，如在靜默模 [式下運行安裝中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 另請參閱:
 
-* [在Mac或Windows上下載及安裝Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
-* [在Windows上下 *載並無訊息* ，安裝Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
+* [在Windows上下 *載並無訊息* ，安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
-若要在Windows上 *下載* Adobe Dynamic Media Classic案頭應用程式並無訊息安裝：
+若要在Windows *上下載* ，並無訊息地安裝最新版Adobe Dynamic Media Classic案頭應用程式：
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media Classic案頭應用程式。
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.EXE)-下載。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 使用下列命令，以記錄模式執行安裝程式：
 
-   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安裝程式窗口中，按照安裝步驟進行安裝，以便將交互／輸入（如安裝位置）記錄在文 `Setup.iss` 件中。
 
-1. 將建立的文 `Setup.iss` 件複製 `adobe-dynamic-media-classic-20.20.1.exe` 到其他電腦。
+1. 將建立的文 `Setup.iss` 件複製 `adobe-dynamic-media-classic-20.20.2.exe` 到其他電腦。
 
 1. 對靜默安裝運行以下命令：
 
-   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
 
    有關命令行參數的詳細資訊，請 [參閱Setup.exe和Update.exe命令行參數。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -165,7 +185,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 觀看使 [用Dynamic Media Classic案頭應用程式的影片逐步瀏覽](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (長度：2分36秒)。
 
-## Dynamic Media Classic的已知限制
+## Dynamic Media Classic 20.20.1的已知限制（已修正於20.20.2）
 
 **_僅適用於Windows —— 可透過案頭應用程式UI上傳的檔案數目是否有限制？_**<br>是的，一次最多可透過案頭應用程式UI上傳150個檔案。
 
