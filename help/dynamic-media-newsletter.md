@@ -3,10 +3,9 @@ description: 'Dynamic Media Newsletter by Experience League是每月的電子報
 keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: 這份一站式商店電子報提供知識建立資源，包括如何製作影片、解決方案概觀，以及介紹一些主要功能和功能，例如影像預設集、檢視器預設集、影片設定檔等。
 seo-title: 'Adobe Dynamic Media電子報 '
-solution: Dynamic Media Classic
 title: 動態媒體電子報
 translation-type: tm+mt
-source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
+source-git-commit: 23b9846eaeaacf3eaa46b1467e5f7e6419827f4e
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
