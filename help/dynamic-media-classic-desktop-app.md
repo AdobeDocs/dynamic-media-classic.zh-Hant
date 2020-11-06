@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps5.scene7.com/ | 亞太產業 |
 
 
-## 使用Dynamic Media Classic案頭應用程式的視訊逐步執行
+## 使用Dynamic Media Classic案頭應用程式的視訊逐步執行 {#dmc-app-video-walk-through}
 
 觀看使 [用Dynamic Media Classic案頭應用程式的影片逐步瀏覽](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (長度：2分36秒)。
+
+## 使用案頭應用程式清除電腦上的影像快取和資產快取
+
+1. 在Dynamic Media Classic案頭應用程式的右上角，點選「設定 **[!UICONTROL >個人]** 設定」 ****。
+1. 在「個 **[!UICONTROL 人設定]** 」頁面的「案頭」標 **[!UICONTROL 題下]** ，執行下列任一動作：
+   * 點選 **[!UICONTROL 清除影像快取]** ，從您的電腦移除所有Adobe Dynamic Media快取影像檔。 點選「 **[!UICONTROL 確定]**」。
+   * 點選「 **[!UICONTROL 清除資產快取]** 」，從您的電腦移除所有Adobe Dynamic Media快取的資產檔案。 點選「 **[!UICONTROL 確定]**」。
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### 手動清除影像快取和資產快取
+
+除了使用案頭應用程式清除影像和資產快取外，您也可以直接從檔案系統清除快取，手動完成此工作。
+
+1. 根據您的作業系統，導覽至下列：
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic Media Classic 20.20.1的已知限制（已修正於20.20.2）
 
