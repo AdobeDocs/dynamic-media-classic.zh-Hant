@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -134,7 +134,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
    * **影像和視訊**&#x200B;將影像或視訊拖曳至Test&amp;Target選件集頁面。
    >[!NOTE]
    >
-   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Standard/Premium，然後移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Dynamic Media Classic刪除，這需要登入Target Standard/Premium，而不是從Target Standard/Premium中。
+   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Standard/Premium，然後移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Dynamic Media Classic刪除，需要登入Target Standard/Premium，而不是從Target Standard/Premium中。
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. 按一下「**儲存**」，選取存放區檔案夾，輸入集名稱，然後按「**儲存**」。
