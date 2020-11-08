@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3855'
 ht-degree: 44%
@@ -119,7 +119,7 @@ Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 * 系統中不允許存在名稱完全相同的資產 ID。
 * 資產 ID 的名稱區分大小寫。
-* 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。當Dynamic Media Classic ASCII使用資產名稱來建構URL字串時，會在資產名稱中編碼空格。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
+* 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。當Dynamic Media Classic ASCII使用資產名稱來建構URL字串時，會在資產名稱中編碼空白字元。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
 * 檔名中允許使用特定語言的字元，但不允許使用下列字元:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -191,7 +191,7 @@ The name of this option could be different, depending on the settings in **Appli
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. （可選）在「上傳」頁面底部附近，選取「覆寫」( **Overwrite in any folder, same base asset name)，不論副檔名為何** ，如果您要上傳的檔案以相同的名稱取代現有檔案。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 The name of this option could be different, depending on the settings in **Application Setup > General Settings > Upload to Application > Overwrite Images**.
-1. (可選； 僅當您按一下「 **VIA FTP** 」標籤時才可用)如果您要自動從已上載的ZIP或TAR檔案中擷取所有檔案，請在「上載」頁面底部附近選取「 **Uncompress Zip or Tar Files on Upload** 」。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
+1. (可選；僅當您按一下「 **VIA FTP** 」標籤時才可用)如果您要自動從已上載的ZIP或TAR檔案中擷取所有檔案，請在「上載」頁面底部附近選取「 **Uncompress Zip or Tar Files on Upload** 」。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. Near the lower-right corner of the Upload page, click **Job Options**, then specify the options you want.
 
    參閱[上載選項](uploading-files.md#upload_options)。
@@ -249,7 +249,7 @@ The name of this option could be different, depending on the settings in **Appli
 
 * **色彩描述檔選項** — 當您建立用於Dynamic Media Classic動態傳送的最佳化檔案時，請選擇顏色轉換：
 
-   * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色； 沒有顏色轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
+   * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色；沒有顏色轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
 
    * **保留原始色域** — 在擷取至Dynamic Media Classic時，保留原始顏色，而不進行任何色彩轉換。 至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
 
