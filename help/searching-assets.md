@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -63,7 +63,7 @@ ht-degree: 77%
 
 **依資產類型篩選** ：只要在功能表中選擇資產類型，即可將搜尋範圍縮小為一種資產類型。
 
-**檔案和資料夾** ：選擇要搜索的位置： 在所有檔案與檔案夾中、在選取的檔案夾中，或在選取的檔案夾與子檔案夾中。
+**檔案和資料夾** ：選擇要搜索的位置：在所有檔案與檔案夾中、在選取的檔案夾中，或在選取的檔案夾與子檔案夾中。
 
 **「所有發佈狀態** 」搜尋已標示為可供發佈、未標示為可供發佈的檔案，或所有檔案。
 
@@ -111,7 +111,7 @@ ht-degree: 77%
 
    **選擇中繼資料欄位** ：選取篩選功能表上欄位的名稱。
 
-   ***注意&#x200B;**: 只有預設中繼資料檢視中的中繼資料欄位名稱會顯示在篩選選單中。*
+   ***注意&#x200B;**:只有預設中繼資料檢視中的中繼資料欄位名稱會顯示在篩選選單中。*
 
    請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
