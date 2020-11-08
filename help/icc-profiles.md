@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 71%
@@ -28,7 +28,7 @@ ICC (國際色彩聯盟) 設定檔是描述如何正確地將影像檔案從一�
 
 ## 上載 ICC 設定檔 {#uploading-icc-profiles}
 
-透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC描述檔儲存在任何Dynamic Media Classic資料夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
+透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC描述檔儲存在任何Dynamic Media Classic檔案夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
 
 ## 檢查 ICC 設定檔 {#examining-an-icc-profile}
 
