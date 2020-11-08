@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 64%
@@ -28,7 +28,7 @@ Dynamic Media Classic也提供引導式縮放功能，讓您反白顯示影像�
 
 **快速入門**
 
-此縮放快速入門功能是為了使用Dynamic Media Classic中的縮放技術快速啟動及執行。 依照步驟 1 至 6 執行。每個步驟之後都有連接至某個主題標題的交戶參照，您可以在其中尋找更多資訊。
+此縮放快速入門功能是為了使用Dynamic Media Classic中的縮放技術快速上手和執行。 依照步驟 1 至 6 執行。每個步驟之後都有連接至某個主題標題的交戶參照，您可以在其中尋找更多資訊。
 
 **1. 上載縮放影像**
 
@@ -44,7 +44,7 @@ Dynamic Media Classic也提供引導式縮放功能，讓您反白顯示影像�
 
 **3. 設定縮放檢視器預設集**
 
-縮放檢視器預設集可確定縮放檢視器的樣式和行為。如果您是管理員，則可以設定縮放檢視器預設集； Dynamic Media Classic也隨附預設的「最佳實務」縮放檢視器預設集。
+縮放檢視器預設集可確定縮放檢視器的樣式和行為。如果您是管理員，則可以設定縮放檢視器預設集；Dynamic Media Classic也隨附預設的「最佳實務」縮放檢視器預設集。
 
 若要建立縮放檢視器預設集，請在全域導覽列上按一下「設定」按鈕，接著選擇「檢視器預設集」。然後在「檢視器預設集」畫面上按一下「增加」按鈕，選擇一個平台並選擇縮放檢視器，再按一下「增加」。接下來選擇「設定檢視器」畫面上的選項。
 
