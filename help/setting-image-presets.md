@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 66%
@@ -64,7 +64,7 @@ Dynamic Media Classic隨附數個「最佳實務」影像預設集，這些預�
 
 1. 按一下&#x200B;**「儲存」**。
 
-此處列出的Dynamic Media Classic「最佳實務」選項有一般建議； 銳利化是高度主觀的。 這些「最佳實踐」設定是基於 2000 x 2000 主影像；更大或更小主影像的設定則可能有所不同。如果您要調整「遮色片銳利化」設定，Dynamic Media Classic建議下列範圍：
+此處列出的Dynamic Media Classic「最佳實務」選項有一般建議；銳利化是高度主觀的。 這些「最佳實踐」設定是基於 2000 x 2000 主影像；更大或更小主影像的設定則可能有所不同。如果您要調整「遮色片銳利化」設定，Dynamic Media Classic建議下列範圍：
 
 * **金額**&#x200B;介於。8和1.5之間。
 
