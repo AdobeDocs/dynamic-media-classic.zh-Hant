@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 65%
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 1. 視訊播放器會根據頻寬速度的變更，使用下列條件進行切換：
 
    1. 播放器會選擇低於或等於估計頻寬的最高頻寬資料流。
-   1. 播放器僅會考慮80%的可用頻寬。 但是，如果它正在轉換，則其轉換率更高，只有70%，以避免高估，並且必須立即轉換。
+   1. 播放器僅會考慮80%的可用頻寬。 但是，如果它正在轉換，則轉換率更高，只有70%，以避免高估，並且必須立即轉換。
 
 如需演算法的相關技術資訊，請 [參閱](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp的演算法邏輯。
 
