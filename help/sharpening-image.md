@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 73%
@@ -58,7 +58,7 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 |--- |--- |--- |--- |
 | 簡單銳利化 | op_sharpen | `0 | 1` | op_sharpen=1 |
 | 重新取樣模式 | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin:選取標準雙線性式內插補點。最快速的重新取樣方法；可能會有某些明顯的鋸齒狀不自然感。<br>bicub:選取雙立方式內插補點。比 bilin 需要更大量的 CPU，但是會產生較銳利的影像，且鋸齒狀不自然感較不明顯。<br><br>sharp2:選取已修改的 Lanczos Window 函數作為內插補點演算法。產生的結果可能會比雙立方式稍微銳利一些，但是會耗用較高的 CPU 成本。<br><br>trilin: 選取已修改的三線性式內插補點，它會同時使用較高與較低解析度 (如果有的話)。建議只在必須要解決鋸齒問題時才使用，因為減少了高頻率資料，所以會降低 JPEG 大小。 | resMode=sharp2 |
-| 遮色片銳利化調整 | op_usm | 量、半徑、閾值、<br><br>單色量： 濾鏡強度因子（實數0...5）<br><br>半徑： 濾鏡核心半徑（像素）（實數0...250）閾 <br><br>值： 濾鏡閾值級別(int 0...255)單<br><br>色： 設為0以分別對每個顏色元件取消銳利化遮色片，設為1以取消銳利化遮色片影像亮度（強度） | op_usm=1,1,10,0 |
+| 遮色片銳利化調整 | op_usm | 量、半徑、閾值、<br><br>單色量：濾鏡強度因子（實數0...5）<br><br>半徑：濾鏡核心半徑（像素）（實數0...250）閾 <br><br>值：濾鏡閾值級別(int 0...255)單<br><br>色：設為0以分別對每個顏色元件取消銳利化遮色片，設為1以取消銳利化遮色片影像亮度（強度） | op_usm=1,1,10,0 |
 
 選取「銳利化」選單，然後選取一個選項:
 
@@ -82,9 +82,9 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 臨界值會使用 0-255 的值，它是灰階影像中亮度步階的數值。0=黑、128=50% 灰，而 255=白。例如，會忽略輕微變化的臨界值 12 為皮膚色調亮度，因此不會增加雜訊，同時會增加反差區域的邊緣對比，例如睫毛碰到皮膚的地方。
 
-舉例來說，假設您有一張某人臉部的相片。「遮色片銳利化調整」會影響影像中對比最大的部分以及平滑皮膚本身。即使是最平滑的皮膚也會顯現亮度值的細微變化。如果您不使用臨界值，則濾鏡會在皮膚像素中強調這些細微的變化，因而建立雜訊效果 (可能是不必要的)，同時也會增加睫毛的對比，進而改善銳利度 (可能是必要的)。為了避免這個問題，請使用臨界值以告知濾鏡忽略不要大幅更改對比的像素，例如平滑皮膚。為避免在包含肉色的影像中引入雜訊或色調分離，請嘗試使用2到20之間的臨界值。 預設的「臨界值」為0，會銳化影像中的所有像素。
+舉例來說，假設您有一張某人臉部的相片。「遮色片銳利化調整」會影響影像中對比最大的部分以及平滑皮膚本身。即使是最平滑的皮膚也會顯現亮度值的細微變化。如果您不使用臨界值，則濾鏡會在皮膚像素中強調這些細微的變化，因而建立雜訊效果 (可能是不必要的)，同時也會增加睫毛的對比，進而改善銳利度 (可能是必要的)。為了避免這個問題，請使用臨界值以告知濾鏡忽略不要大幅更改對比的像素，例如平滑皮膚。為避免在包含肉色的影像中引入雜訊或色調分離，請嘗試使用2到20之間的臨界值。 預設的「臨界值」值0會銳化影像中的所有像素。
 
-**Apply To** Choose Each Color to apply sapplely apply sapplely apply sharpent to each color component; 選擇亮度以套用至影像亮度區域的銳利化。
+**Apply To** Choose Each Color to apply sapplely apply sapplely apply sharpent to each color component;選擇亮度以套用至影像亮度區域的銳利化。
 
 **重新取樣**
 
@@ -92,13 +92,13 @@ To sharpen an image, click its rollover **Edit** button and choose Sharpen, or o
 
 **無** ：關閉重新取樣。
 
-**雙線性** ，最快的重採樣方法； 有些鋸齒不自然現象很明顯。
+**雙線性** ，最快的重採樣方法；有些鋸齒不自然現象很明顯。
 
 **雙立方體** (Bicubic)可增加影像伺服器的CPU使用量，但產生更銳利的影像，並減少明顯的鋸齒不自然現象。
 
 **銳利化2** 可能產生比雙立方體選項更銳利的結果，但影像伺服器的CPU成本更高。
 
-**三線性** ：如果有，則同時使用較高和較低的解析度； 僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
+**三線性** ：如果有，則同時使用較高和較低的解析度；僅當鋸齒是問題時建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
 **銳利化與影像預設集**
 
