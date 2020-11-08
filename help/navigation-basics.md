@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # 導覽基本概念{#navigation-basics}
 
-Dynamic Media Classic螢幕包含三個主要區域： 全域導覽列、資產庫和瀏覽面板／建置面板。
+Dynamic Media Classic螢幕包含三個主要區域：全域導覽列、資產庫和瀏覽面板／建置面板。
 
 ![導覽基本概念](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -32,7 +32,7 @@ Dynamic Media Classic螢幕包含三個主要區域： 全域導覽列、資產�
 
 **上傳** ：開啟「上傳」畫面，讓您從電腦或網路上傳檔案至Dynamic Media Classic。 您可以從桌上型電腦或是透過 FTP 來上載檔案。請參閱上載檔案。
 
-**Build** （構建）從菜單中選擇「Build」（構建）任務。 會開啟「建置」面板，讓您建立資產類型。
+**Build** （構建）從菜單中選擇一個Build任務。 會開啟「建置」面板，讓您建立資產類型。
 
 **「發佈** 」開啟「發佈」螢幕，讓您可以將多媒體資產發佈至動態媒體影像伺服器，以及其餘的Dynamic Media Classic SAAS基礎架構。 請參閱發佈。
 
