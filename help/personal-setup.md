@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 76%
@@ -24,7 +24,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->「個人設定」畫面會列出您在Dynamic Media Classic中所擔任的使用者角色： 公司管理員、管理員或使用者。
+>「個人設定」畫面會列出您在Dynamic Media Classic中所擔任的使用者角色：公司管理員、管理員或使用者。
 
 「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。變更這些設定後，請記得按一下「儲存」。
 
@@ -49,9 +49,9 @@ ht-degree: 76%
 
 | 如果您執行 | 請執行此動作 |
 |--- |--- |
-| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014」。</li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.dll`」複製到 Adobe Illustrator 的執行檔檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`。 </li></ul><br/>**注意&#x200B;**: 此示例路徑用於64位位置； 32位元位置可能會落在「Program Files」(x86)之下。<br/><ul><li>返回相同的資產庫檔案夾，按一下「flamingo」，然後將 `aflamingo.dll` 複製到您在先前步驟中使用的相同 Adobe Illustrator 可執行檔檔案夾。 </li><li>返回您在步驟 2 中選取的 win32 或 win64 檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`。 </li></ul> <br/>**注意&#x200B;**: 此示例路徑用於64位位置； 32位元位置可能會落在「Program Files」(x86)之下。 |
-| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意&#x200B;**: 此示例路徑用於64位位置； 32位元位置可能會落在「Program Files」(x86)之下。 |
-| Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮的檔案夾根目錄，按一下「6.0」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。 </li><li>將 AdobeS7FXGFileFormat.aip 複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意&#x200B;**: 此示例路徑用於64位位置； 32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014」。</li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.dll`」複製到 Adobe Illustrator 的執行檔檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`。 </li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 <br/><ul><li>返回相同的資產庫檔案夾，按一下「flamingo」，然後將 `aflamingo.dll` 複製到您在先前步驟中使用的相同 Adobe Illustrator 可執行檔檔案夾。 </li><li>返回您在步驟 2 中選取的 win32 或 win64 檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`。 </li></ul> <br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮的檔案夾根目錄，按一下「6.0」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。 </li><li>將 AdobeS7FXGFileFormat.aip 複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
 
 ### Mac
 
@@ -119,7 +119,7 @@ ht-degree: 76%
       * 至少包含一個小寫字母
       * 至少包含一個大寫字母
       * 至少包含一個數字
-      * 至少包含下列其中一個特殊字元： #$&amp;-_:{}
+      * 至少包含下列其中一個特殊字元：#$&amp;-_:{}
 * **重新輸入密碼**
    * 重新輸入新密碼，以確定您已正確輸入密碼。
 * **密碼有效期**
