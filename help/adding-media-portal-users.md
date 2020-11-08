@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 84%
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 # 增加和管理 Media Portal 使用者{#adding-and-managing-media-portal-users}
 
-身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取這個畫面，請按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
+身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取這個畫面，請按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
 
 >[!NOTE]
 >
@@ -30,21 +30,21 @@ ht-degree: 84%
 
 Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎」電子郵件，其中含有您予以註冊時所使用的密碼。管理員可以決定 Media Portal 使用者是否能夠變更此密碼。
 
-1. 按一下「**設定** > **Media Portal 設定** > **一般設定**」。
-1. 在「一般設定」頁面上，選取或取消選取&#x200B;**允許 Media Portal 使用者變更密碼**。
-1. 按一下「**儲存**」。
+1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL Media Portal 設定]** > **[!UICONTROL 一般設定]**」。
+1. 在「一般設定」頁面上，選取或取消選取&#x200B;**[!UICONTROL 允許 Media Portal 使用者變更密碼]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 >[!NOTE]
 >
->可以變更密碼的 Media Portal 使用者，可以按一下「**設定** > **個人設定**」，並在「個人設定」畫面上更改密碼，以進行此動作。
+>可以變更密碼的 Media Portal 使用者，可以按一下「**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**」，並在「個人設定」畫面上更改密碼，以進行此動作。
 
 ## 增加 Media Portal 使用者 {#adding-a-media-portal-user}
 
-1. 按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
+1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
 1. 在「使用者管理」頁面上，按一下「**增加**」。
-1. 在「增加使用者」對話框的「使用者資訊」面板中，輸入使用者的「名字」、「姓氏」和「電子郵件地址」，然後按&#x200B;**下一步**。
+1. 在「增加使用者」對話框的「使用者資訊」面板中，輸入使用者的「名字」、「姓氏」和「電子郵件地址」，然後按&#x200B;**[!UICONTROL 下一步]**。
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
-1. 在「角色」清單中，選取一個 Media Portal 角色，然後按&#x200B;**下一步**。
+1. 在「角色」清單中，選取一個 Media Portal 角色，然後按&#x200B;**[!UICONTROL 下一步]**。
 
    請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -52,11 +52,11 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
    請參閱[建立和管理 Media Portal 群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
-1. (選擇性) 按一下「**電子郵件設定**」可選擇與預設設定不同的電子郵件設定。
+1. (選擇性) 按一下「**[!UICONTROL 電子郵件設定]**」可選擇與預設設定不同的電子郵件設定。
 
    請參閱[設定 Media Portal 使用者的「歡迎」電子郵件](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)。
 
-1. 按一下「**增加使用者**」。
+1. 按一下「**[!UICONTROL 增加使用者]**」。
 
 增加使用者之後，Media Portal 會將「歡迎」電子郵件傳送給該使用者。該訊息含有臨時密碼與 Media Portal URL。
 
@@ -90,48 +90,49 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 ### 上載 CSV 檔案 {#uploading-the-csv-file}
 
 1. 開啟「使用者管理設定」畫面。
-1. 按一下「**上載使用者清單**」。
-1. 在「選取要上載的檔案」對話框中選取 CSV 檔案，然後按一下「**開啟**」。
+1. 按一下「**[!UICONTROL 上載使用者清單]**」。
+1. 在「選取要上載的檔案」對話框中選取 CSV 檔案，然後按一下「**[!UICONTROL 開啟]**」。
 
 清單中的每個使用者都會自動增加到指定的群組中。系統會將「歡迎」電子郵件傳送給每個使用者。
 
 >[!NOTE]
-如果 CSV 檔案的格式不正確，則會出現下列錯誤訊息:「處理上載的 CSV 檔案時發生錯誤。請檢查檔案內容是否為有效資料。」 此外，如果 CSV 包含現有的 IP 或 IPS 使用者，該使用者就不會增加到「使用者清單」中。
+>
+>如果 CSV 檔案的格式不正確，則會出現下列錯誤訊息:「處理上載的 CSV 檔案時發生錯誤。請檢查檔案內容是否為有效資料。」 此外，如果 CSV 包含現有的 IP 或 IPS 使用者，該使用者就不會增加到「使用者清單」中。
 
 ## 產生 Media Portal 使用者的可選取清單 {#generating-a-selectable-list-of-media-portal-users}
 
 您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
 
-1. 按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
-1. 在「**依使用者角色**」下拉式清單中，選擇 Media Portal 使用者角色的名稱，然後按一下「**重新整理**」，即可顯示某一類 Media Portal 使用者的名稱。
-1. 按一下「**彈出式清單**」，即可開啟彈出式視窗。您可以複製和貼上這份清單。
+1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
+1. 在「**[!UICONTROL 依使用者角色]**」下拉式清單中，選擇 Media Portal 使用者角色的名稱，然後按一下「**[!UICONTROL 重新整理]**」，即可顯示某一類 Media Portal 使用者的名稱。
+1. 按一下「**[!UICONTROL 彈出式清單]**」，即可開啟彈出式視窗。您可以複製和貼上這份清單。
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或通知Dynamic Media Classic不要傳送。
 
-1. 選擇「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
-1. In the User Administration Setup screen, click **Email Settings**.
+1. 選擇「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
+1. In the User Administration Setup screen, click **[!UICONTROL Email Settings]**.
 1. 在「電子郵件設定」對話框中，指定下列任一設定:
 
-   **傳送電子郵件** ：如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
+   **[!UICONTROL 傳送電子郵件]** ：如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
 
-   **預設密碼** ：為新使用者輸入暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。 系統會在使用者首次登入時，要求使用者變更密碼。
+   **[!UICONTROL 預設密碼]** ：為新使用者輸入暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。 系統會在使用者首次登入時，要求使用者變更密碼。
 
-   **取代URL** 如果您的使用者透過不同的URL存取Dynamic Media Classic，請輸入與預設值不同的URL。
+   **[!UICONTROL 取代URL]** 如果您的使用者透過不同的URL存取Dynamic Media Classic，請輸入與預設值不同的URL。
 
 ## 其它使用者管理任務 {#other-user-management-tasks}
 
 從「使用者管理設定」畫面開始，您也可以執行下列工作:
 
-**篩選並排序使用者清單** 篩選Media Portal使用者清單以找出使用者。 請參閱篩選和排序使用者清單。
+**[!UICONTROL 篩選並排序使用者清單]** 篩選Media Portal使用者清單以找出使用者。 請參閱篩選和排序使用者清單。
 
-**刪除用戶** ：從清單中刪除用戶。 請參閱刪除使用者。
+**[!UICONTROL 刪除用戶]** ：從清單中刪除用戶。 請參閱刪除使用者。
 
-**啟用和停用使用者** 暫停使用者存取資料夾。 請參閱啟用和停用使用者。
+**[!UICONTROL 啟用和停用使用者]** 暫停使用者存取資料夾。 請參閱啟用和停用使用者。
 
-**編輯使用者資訊** ：輸入使用者的最新資訊。 請參閱編輯使用者資訊。
+**[!UICONTROL 編輯使用者資訊]** ：輸入使用者的最新資訊。 請參閱編輯使用者資訊。
 
-**建立使用者定義欄位** 「建立自訂、使用者定義的中繼資料欄位」，以協助組織Dynamic Media Classic中的資產。 這些欄位也可視需要啟用或停用。
+**[!UICONTROL 建立使用者定義欄位]** 「建立自訂、使用者定義的中繼資料欄位」，以協助組織Dynamic Media Classic中的資產。 這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
