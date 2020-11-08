@@ -8,7 +8,7 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 63%
@@ -44,17 +44,17 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
    | 檢視器類型 | 註解檔案 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/): 網頁視訊文字追蹤格式。 <br><br>您可使用免費和付費的工具和服務，在Dynamic Media Classic外部製作標題檔案。 例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具： <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請在DMC中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。 在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。 <br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
+   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/):網頁視訊文字追蹤格式。 <br><br>您可使用免費和付費的工具和服務，在Dynamic Media Classic外部製作標題檔案。 例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具： <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請在DMC中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。 在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。 <br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
 
 1. 在Dynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML標題檔案。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
 1. 在左側的「資產庫」面板中，導覽至要與已上載的註解檔案相關聯的視訊檔案所在的資產資料夾。
-1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**預覽**」>「**檢視器清單**」。
+1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**[!UICONTROL 預覽]**」>「**[!UICONTROL 檢視器清單]**」。
 1. In the Viewer List table, find the HTML5 viewer named **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, or **Universal_HTML5_MixedMedia_light**, then do one of the following:
 
-   * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**複製 URL**」。
+   * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**[!UICONTROL 複製 URL]**」。
 
       以下列語法附加複製的視訊 URL，使其與複製的註解檔案 URL 產生關聯:
 
@@ -62,9 +62,9 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
       Note the `,1` at the end of the caption URL path. 緊接在路徑中的 .vtt 副檔名之後，您可以選擇啟用或停用視訊播放程式列上的隱藏式註解按鈕 (方法分別是設為 `1` 或 `0`)。
 
-   * 如欲以內嵌視訊使用檢視器，請按一下名稱最右側的「**內嵌程式碼**」。
+   * 如欲以內嵌視訊使用檢視器，請按一下名稱最右側的「**[!UICONTROL 內嵌程式碼]**」。
 
-      在「內嵌程式碼」對話框中，按一下「**複製至剪貼簿**」。
+      在「內嵌程式碼」對話框中，按一下「**[!UICONTROL 複製至剪貼簿]**」。
 
       For the HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, or `Universal_HTML5_MixedMedia_light` viewers, append the copied embed code with the following:
 
