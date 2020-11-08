@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -73,7 +73,7 @@ PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCata
 1. 若要在上載 PDF 檔案時自動裁切其中的空白區域像素，請選取「裁切」選單並選擇「修剪」。
 1. 指定下列選項:
 
-   **修剪離開根據** ：選擇是根據顏色還是透明度裁切：
+   **裁切離開根據** ：選擇是否根據顏色或透明度裁切：
 
    **顏色** ：選擇顏色選項。 接著選取「邊角」選單，然後選擇對所要裁切之色彩呈現最佳空白區域色彩的 PDF 邊角。
 
@@ -83,7 +83,7 @@ PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCata
 
    **根據顏色修剪** ：指定0，只有在像素完全符合您在PDF角落選取的顏色時，才可裁切像素。 數值越接近 1，允許的色彩差異就越大。
 
-   **根據透明度修剪** ：指定0，僅在像素完全透明時才裁切像素； 接近1的數字使得透明度更高。
+   **根據透明度修剪** ：指定0，僅在像素完全透明時才裁切像素；接近1的數字使得透明度更高。
 
 ## 從 PDF 頁面邊緣裁切 {#cropping-from-the-sides-of-pdf-pages}
 
