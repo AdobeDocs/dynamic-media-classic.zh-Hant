@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 69%
@@ -28,9 +28,9 @@ ht-degree: 69%
 
 Dynamic Media Classic提供下列縮放檢視器預設集：
 
-* **縮放檢視器： 基本**&#x200B;對原始影像提供基本縮放。
+* **縮放檢視器：基本**&#x200B;對原始影像提供基本縮放。
 
-* **縮放檢視器： 飛出顯**&#x200B;示原始影像旁放大區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
+* **縮放檢視器：飛出顯**&#x200B;示原始影像旁放大區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
 
 決定此檢視器的完整頻寬使用情況時，請考量檢視器會同時處理主要影像和彈出影像。彈出影像大小取決於主影像大小 (舞台寬度和高度) 和縮放係數。若要避免彈出檔案大小過大，請平衡以下兩個值: 如果您的主要影像較大，請降低「縮放係數」值。(「彈出寬度」和「彈出高度」會決定彈出視窗的大小，但不會決定提供給檢視器之彈出影像的大小。)
 
@@ -42,7 +42,7 @@ Dynamic Media Classic建議以下參數用於彈出縮放檢視器預設集：
 
 * **影像大**&#x200B;小為100KB或以下，不超過150KB（壓縮檔案以使其保持在150KB以下）。
 
-* **縮放檢視器： 自訂**&#x200B;提供引導或未引導的縮放功能，包括影像、具有多個檢視的影像集或色票集。
+* **縮放檢視器：自訂**&#x200B;提供引導或未引導的縮放功能，包括影像、具有多個檢視的影像集或色票集。
 
 ## 建立和編輯縮放檢視器預設集 {#creating-and-editing-zoom-viewer-presets}
 
