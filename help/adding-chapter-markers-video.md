@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 87%
@@ -73,18 +73,18 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
 1. 在左側的「資產庫」面板中，導覽至要與已上載的章節檔案相關聯的視訊檔案所在的資產資料夾。
-1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**預覽**」>「**檢視器清單**」。
+1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**[!UICONTROL 預覽]**」>「**[!UICONTROL 檢視器清單]**」。
 1. 在「檢視器清單」表格中，找到命名為「**Univeral_HTML5_Video**」的 HTML5 檢視器，然後執行下列任一操作:
 
-   * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**複製 URL**」。
+   * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**[!UICONTROL 複製 URL]**」。
 
       以下列語法附加複製的視訊 URL，使其與複製的註解檔案 URL 產生關聯:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 如欲以內嵌視訊使用檢視器，請按一下名稱最右側的「**內嵌程式碼**」。
+   * 如欲以內嵌視訊使用檢視器，請按一下名稱最右側的「**[!UICONTROL 內嵌程式碼]**」。
 
-      在「內嵌程式碼」對話框中，按一下「**複製至剪貼簿**」。
+      在「內嵌程式碼」對話框中，按一下「**[!UICONTROL 複製至剪貼簿]**」。
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
