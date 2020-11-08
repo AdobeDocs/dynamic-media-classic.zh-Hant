@@ -1,6 +1,6 @@
 ---
-title: 「快速入門： 整合Dynamic Media Classic和Adobe Analytics "
-seo-title: 「快速入門： 整合Dynamic Media Classic和Adobe Analytics "
+title: 「快速入門：整合Dynamic Media Classic和Adobe Analytics "
+seo-title: 「快速入門：整合Dynamic Media Classic和Adobe Analytics "
 description: 'null'
 seo-description: 將Dynamic Media Classic與Adobe Analytic整合的簡介和快速入門，協助您快速上手使用。
 uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 44%
@@ -18,7 +18,7 @@ ht-degree: 44%
 ---
 
 
-# 快速入門： 整合Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-dmc-analytics}
+# 快速入門：整合Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-dmc-analytics}
 
 Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個地方就能針對整合自多個行銷通路的所有線上方案的資料進行評估、分析及最佳化。
 
