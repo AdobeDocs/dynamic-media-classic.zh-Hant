@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 上傳PSD檔案時，您可以從檔案自動建立Dynamic Media Classic範本（選取「上傳」畫面上的「建立範本」選項）。
 
-Dynamic Media Classic會從PSD檔案建立多張影像，若您使用檔案建立範本，則會使用圖層； 它會為每個圖層建立一個影像。
+Dynamic Media Classic會從PSD檔案建立多張影像，若您使用檔案建立範本，則會使用圖層；它會為每個圖層建立一個影像。
 
 ## PSD 上載選項 {#psd-upload-options}
 
@@ -76,7 +76,7 @@ Dynamic Media Classic會從PSD檔案建立多張影像，若您使用檔案建�
 
 1. 在瀏覽面板中按兩下完整的 PSD 檔案，以在詳細檢視中開啟該檔案。
 
-   ***注意&#x200B;**: 請確定您已開啟完整資產，而非其中一個PSD圖層。*
+   ***注意&#x200B;**:請確定您已開啟完整資產，而非其中一個PSD圖層。*
 
 1. 按一下「圖層」以開啟「圖層」面板。所有圖層在「圖層」面板中皆會顯示為個別影像。
 1. 按兩下圖層將其開啟，然後執行下列任一動作:
