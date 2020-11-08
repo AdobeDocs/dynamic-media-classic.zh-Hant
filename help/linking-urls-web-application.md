@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 72%
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 您可以從「預覽」或詳細檢視取得由影像預設集產生的 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。
 
-***注意&#x200B;**: 在您發佈資產之前，URL不會生效。*
+***注意&#x200B;**:在您發佈資產之前，URL不會生效。*
 
 ### 從預覽取得影像預設集 URL {#obtaining-an-image-preset-url-from-preview}
 
