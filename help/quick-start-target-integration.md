@@ -1,6 +1,6 @@
 ---
-title: 「快速入門： Target Standard/Premium整合」
-seo-title: 「快速入門： Target Standard/Premium整合」
+title: 「快速入門：Target Standard/Premium整合」
+seo-title: 「快速入門：Target Standard/Premium整合」
 description: 'null'
 seo-description: Adobe Target Standard/Premium的簡介和快速入門，可協助您快速上手使用Target Standard/Premium整合技術。
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 19%
@@ -18,7 +18,7 @@ ht-degree: 19%
 ---
 
 
-# 快速入門： Adobe Target Standard/Premium整合{#quick-start-target-integration}
+# 快速入門：Adobe Target Standard/Premium整合{#quick-start-target-integration}
 
 Adobe Target Standard/Premium將控制權直接交由行銷人員掌控，以快速且持續地執行多個A/B和多變數測試、評估效率，並透過細分、鎖定和自動化個人化提高線上內容的相關性。
 
