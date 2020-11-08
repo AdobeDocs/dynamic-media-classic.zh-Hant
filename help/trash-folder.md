@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 61%
@@ -24,7 +24,7 @@ ht-degree: 61%
 
 所有使用者都可以將「垃圾桶」檔案夾中的項目還原到其刪除來源的檔案夾。所有使用者也都可以清空「垃圾桶」檔案夾中的所有內容。
 
-從「垃圾筒」資料夾刪除項目會從Dynamic Media Classic中永久刪除項目； 從垃圾筒資料夾刪除的項目無法再復原。 如需設定在資產即將從「垃圾桶」中自動刪除時通知公司管理員的資訊，請參閱[應用程式一般設定](application-setup.md#general_settings)。
+從「垃圾筒」資料夾刪除項目會從Dynamic Media Classic中永久刪除項目；從垃圾筒資料夾刪除的項目無法再復原。 如需設定在資產即將從「垃圾桶」中自動刪除時通知公司管理員的資訊，請參閱[應用程式一般設定](application-setup.md#general_settings)。
 
 >[!NOTE]
 >
