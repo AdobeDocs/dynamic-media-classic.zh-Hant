@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 進一步瞭解使用 Dynamic Media Classic (先前稱為 Scene7)
+user-guide-description: 進一步瞭解使用Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
+source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 77%
+source-wordcount: '750'
+ht-degree: 76%
 
 ---
 
