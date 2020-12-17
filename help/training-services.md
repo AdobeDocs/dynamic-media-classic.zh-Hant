@@ -26,13 +26,13 @@ Dynamic Media Classic提供視訊教學課程、講師指導的研討會和網�
 
 Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓練。訓練形式可為區域型的大學式課堂、以網路為基礎的課程，或客製化的網站研討會。區域型的課堂開放所有客戶參加，並定期在全北美、歐洲、中東和非洲地區各個地點舉行。客製化的課程可為初學至進階使用者、終端使用者、管理員及 IT 人員量身訂做。
 
-請參 [閱Adobe訓練服務](https://training.adobe.com/training.html)[](https://www.adobe.com/go/learn_sc7_trainingrequest_en)。
+請參閱[Adobe訓練服務](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en)。
 
 **演示**
 
 觀看Dynamic Media Classic檢視器功能的展示。
 
-請參 [閱示範](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)。
+請參閱[演示](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)。
 
 **說明的「快速入門」章節**
 
