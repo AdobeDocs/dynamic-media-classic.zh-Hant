@@ -55,7 +55,7 @@ ht-degree: 66%
 1. 請執行下列任一動作:
 
    * 若要刪除一或多項資產，請在瀏覽面板中選取資產，然後按 Delete 鍵或選擇「檔案 > 刪除」。
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * 要刪除資料夾，請在「資產庫」中選擇該資料夾，然後按一下「刪除資料夾」。****
 
       刪除檔案夾會刪除該檔案夾、其中的所有資產，以及其子檔案夾中的所有資產。
 
