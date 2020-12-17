@@ -43,7 +43,7 @@ ht-degree: 72%
 1. 在「影像預設集清單」視窗的預覽窗格右上角中，針對選取的預設集類型按一下「複製 URL」。
 1. 在「影像預設集清單」視窗右下角，按一下「關閉」即可返回「資產」畫面。
 
-### 從瀏覽面板取得影像預設集 URL {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 從瀏覽面板取得影像預設集 URL  {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左側的「資產庫」面板中，導覽至含有您要預覽之影像資產的「資產」檔案夾。
 1. 在「資產」視窗上方的工具列右側，按一下「格點檢視」。從瀏覽面板取得影像預設集 URL
@@ -51,7 +51,7 @@ ht-degree: 72%
 1. 按一下畫面右側面板上的 URL，以展開影像預設集清單。
 1. 在含有您要複製至剪貼簿之 URL 的影像預設集名稱旁，按一下「複製 URL」連結。
 
-## 關於影像預設集 URL 字串 {#about-image-preset-url-strings}
+## 關於影像預設集 URL 字串  {#about-image-preset-url-strings}
 
 動態媒體影像伺服器的影像大小URL呼叫具有下列基本語法：
 
@@ -75,11 +75,11 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。When a Dynamic Media Image Server encounters the Image Preset portion of the URL (the `Large` in this case), using the size and formatting instructions defined by the “Large” Image Preset.
+URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當動態媒體影像伺服器遇到URL的影像預設集部分（本例中為`Large`）時，請使用「大型」影像預設集所定義的大小和格式指示。
 
 ## 增加動態影像至網頁 {#adding-dynamic-images-to-your-web-page}
 
-To add dynamic images to your web page, the `<IMG>` tag in your HTML web page code typically is modified using the Dynamic Media Classic URL string to make a request to Dynamic Media Image Servers. 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
+若要將動態影像新增至網頁，HTML網頁程式碼中的`<IMG>`標籤通常會使用Dynamic Media Classic URL字串加以修改，以向Dynamic Media Image Servers提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
 
 例如，您不需使用一般呼叫即可開啟靜態影像，如
 
@@ -87,10 +87,10 @@ To add dynamic images to your web page, the `<IMG>` tag in your HTML web page co
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-you now use the `<IMG>`tag to replace the reference to a static image with an Image Preset call to the Dynamic Media Classic platform. 範例呼叫的外觀如下:
+您現在可使用`<IMG>`標籤，將靜態影像的參考取代為對Dynamic Media Classic平台的影像預設集呼叫。 範例呼叫的外觀如下:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-In this example, a Dynamic Media Image Server “looks up” the definition of `$thumbnail$` and dynamically generates the appropriate image with the sizing and formatting specifications defined by the `thumbnail`Image Preset. 在 URL 字串中，除了產品影像檔案名稱 (在此範例中為 `backpack_trns`) 之外的所有項目，通常都會連接至頁面範本。唯一自動從商務伺服器插入頁面範本的元素是 IPS ID 或影像名稱。
+在此範例中，動態媒體影像伺服器會「尋找」`$thumbnail$`的定義，並動態產生適當的影像，並使用`thumbnail`影像預設集所定義的大小和格式規格。 在 URL 字串中，除了產品影像檔案名稱 (在此範例中為 `backpack_trns`) 之外的所有項目，通常都會連接至頁面範本。唯一自動從商務伺服器插入頁面範本的元素是 IPS ID 或影像名稱。
