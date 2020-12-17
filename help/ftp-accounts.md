@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # 管理 FTP 帳戶{#managing-ftp-accounts}
 
-只有 Media Portal 管理員才能夠管理 FTP 帳戶。In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+只有 Media Portal 管理員才能夠管理 FTP 帳戶。此外，只有具有*Media Portal Contributor-User *或&#x200B;*Media Portal Contributor*&#x200B;角色的使用者才能上傳數位資產。
 
 請記住，您可以透過「管理設定」中的「使用者管理」頁面來啟用或停用現有的 Media Portal 使用者。
 
