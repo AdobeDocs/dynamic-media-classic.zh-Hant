@@ -24,11 +24,11 @@ ht-degree: 25%
 
 * Adobe Analytics視訊報表與Dynamic Media Classic的整合支援解決方案變數，但不支援自訂變數。
 
-   See [Configure Analytics Video Reporting](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) for more information about solution variables and custom variables.
+   如需解決方案變數和自訂變數的詳細資訊，請參閱[設定Analytics視訊報表](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html)。
 
 * 支援現成的一分鐘增量區段。不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
 
-For more information about Video Heartbeat requirements and setup, see [Measuring Video in Adobe Analytics using Video Heartbeat](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/).
+如需視訊心率需求與設定的詳細資訊，請參閱[使用視訊心率在Adobe Analytics中測量視訊](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/)。
 
 >[!NOTE]
 >
