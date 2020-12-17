@@ -22,7 +22,7 @@ ht-degree: 78%
 
 在瀏覽面板中，來源視訊標記為「主視訊」。編碼視訊則標記為「視訊」。您可以匯出來源視訊和主視訊。若要匯出視訊檔案，請在瀏覽面板中將其選取，並選擇「檔案 > 匯出」。
 
-請參 [閱從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+請參閱[從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
 
 >[!MORELIKETHIS]
 >
