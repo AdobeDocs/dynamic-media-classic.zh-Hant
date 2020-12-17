@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 進一步瞭解使用Dynamic Media Classic
+user-guide-description: 深入了解 Dynamic Media Classic 使用方法
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic簡介 {#intro}
++ Adobe Dynamic Media Classic {#intro}簡介
    + [Adobe Dynamic Media Classic案頭應用程式——現已推出](dynamic-media-classic-desktop-app.md)
    + [關於Dynamic Media Classic說明](introduction.md)
    + [開發人員資源](developer-resources.md)
@@ -77,7 +77,7 @@ ht-degree: 76%
    + [列印資產](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
    + [利用專案組織您的工作](organizing-projects.md)
-+ Image sizing {#image-sizing}
++ 影像大小{#image-sizing}
    + [快速入門: 影像調整大小](quick-start-image-sizing.md)
    + [上載主影像](uploading-master-images.md)
    + [發佈主影像](publishing-master-images.md)
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [發佈迴轉集](publishing-spin-set.md)
    + [設定迴轉集檢視器預設集](setting-spin-set-viewer-presets.md)
    + [將迴轉集連結到網頁](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ 範本基礎知識{#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [上載範本檔案](uploading-template-files.md)
    + [建立範本](creating-template.md)
@@ -141,13 +141,13 @@ ht-degree: 76%
    + [增加章節標記視訊](adding-chapter-markers-video.md)
    + [將視訊部署到網站和行動裝置網站](deploying-video-websites-mobile-sites.md)
    + [匯出來源和編碼視訊](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ 混合介質集{#mixed-media-sets}
    + [快速入門: 混合媒體集](quick-start-mixed-media-sets.md)
    + [設定混合媒體集檢視器預設集](setting-mixed-media-set-viewer.md)
    + [建立混合媒體集](creating-mixed-media-set.md)
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
++ Adobe Analytics工具套件{#analytics-kit}
    + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
@@ -156,7 +156,7 @@ ht-degree: 76%
    + [檢視 Adobe Analytics 報告以測試整合](testing-integration-viewing-analytics-report.md)
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
-+ Adobe Target Standard/Premium整合 {#target-classic}
++ Adobe Target Standard/Premium整合{#target-classic}
    + [快速入門：Adobe Target Standard/Premium整合](quick-start-target-integration.md)
    + [整合Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
