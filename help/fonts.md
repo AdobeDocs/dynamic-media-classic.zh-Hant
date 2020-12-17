@@ -40,30 +40,30 @@ Dynamic Media Classic支援下列字型類型：
 
 使用與上載其他檔案相同的方法上載字型檔案。您可以將字型檔案儲存在任何Dynamic Media Classic檔案夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
 
-## 編輯字型檔案資訊 {#editing-font-file-information}
+## 編輯字型檔案資訊  {#editing-font-file-information}
 
 您可以變更字型的 ID 名稱及其類型資訊。編輯字型檔案有助於搜尋，並且使得字型更易於識別。
 
 在瀏覽面板中，選取您要在詳細檢視中編輯的字型檔案，然後選取「檔案 > 編輯資訊」。此時將開啟「編輯資訊」畫面。選擇以下選項，然後選取「送出」按鈕。
 
-**字型名稱** ：此名稱會在發佈時識別字型。
+**字型** 名稱此名稱會在發佈時識別字型。
 
-**PostScript名稱** ：此名稱是字型的完整PostScript名稱。 它通常表示粗細或樣式。
+**PostScript名** 稱此名稱是字型的完整PostScript名稱。它通常表示粗細或樣式。
 
-**RTF名稱** ：此名稱顯示在建立模板文本層的RTF編輯器的彈出菜單中。
+**RTF名** 稱此名稱顯示在建立模板文本層的RTF編輯器的彈出菜單中。
 
-**字型系列名稱** ：此名稱列出沒有樣式、粗細或字型類型指示符的字型名稱。
+**字型系列** 名稱此名稱會列出沒有樣式、粗細或字型指示符的字型名稱。
 
-**字型樣式** ：選項為純、粗體、斜體和粗斜體。
+**字型** 樣式選項為純、粗體、斜體和粗斜體。
 
-**字型** ：選項為TrueType和Adobe Type 1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
+**字型** 類型選項為TrueType和Adobe Type 1。如果使用其他名稱命名這些字型，可以輸入該名稱。
 
-**字型縮寫** ：選項如下：
+**字型類** 型縮寫選項如下：
 
-**TTF** TrueType字型檔案，用於PDF/PostScript轉譯和影像伺服。
+**TTFTrueType字型** 檔案，用於PDF/PostScript轉譯和影像伺服。
 
-**AFM** Adobe PostScript字型檔案，其中包含Adobe Font Metrics資訊，並用於影像伺服。
+**AFMAdobe PostScript字型檔案，其中包含Adobe字型量度資訊，並用於影像伺服。** 
 
-**PFM** Adobe PostScript字型檔案，其中包含二進位字型量度資訊。
+**包含** 二進位字型量度資訊的PFMAdobe PostScript字型檔案。
 
-**PFB** Adobe PostScript字型檔案，包含二進位字型外框資訊，並用於PDF/PostScript轉譯和影像伺服。
+**包含** 二進位字型外框資訊並用於PDF/PostScript轉譯和影像伺服的PFBAdobe PostScript字型檔案。
