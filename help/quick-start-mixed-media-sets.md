@@ -36,19 +36,19 @@ ht-degree: 80%
 
 請參閱[上載檔案](uploading-files.md#uploading-your-files)。
 
-**2. 建立媒體集以供在混合媒體集中使用**
+**2.建立媒體集以供在混合媒體集中使用**
 
 您可以增加影像、影像集、色票集、迴轉集和視訊至混合媒體集。請先準備好媒體集，再將其增加至混合媒體集。
 
 請參閱[建立影像集](creating-image-set.md#creating-an-image-set)、[建立色票集](creating-swatch-set.md#creating-a-swatch-set)和[建立迴轉集](creating-spin-set.md#creating-a-spin-set)。
 
-**3. 建立混合媒體集**
+**3.建立混合媒體集**
 
 按一下「建置」按鈕，然後選擇「混合媒體集」。將影像、色票集、影像集和視訊拖曳至「混合媒體集」畫面。若要增加音軌，請將音訊檔案拖曳至「音軌」方框。
 
 請參閱[建立混合媒體集](creating-mixed-media-set.md#creating-a-mixed-media-set)。
 
-**4. 設定混合媒體集檢視器預設集**
+**4.設定混合媒體集檢視器預設集**
 
 Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 管理員可以建立或修改混合媒體集檢視器預設集。
 
@@ -56,21 +56,21 @@ Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 管理�
 
 請參閱[設定混合媒體集檢視器預設集](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset)和[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
-**5. 預覽混合媒體集**
+**5.預覽混合媒體集**
 
 按一下混合媒體集的滑鼠指向「預覽」按鈕。「混合媒體集」出現。您可以按一下縮圖和色票圖示，以在混合媒體集檢視器中檢視混合媒體集。您可以從「預設集」選單選擇不同的檢視器。
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-**6. 發佈混合媒體集**
+**6.發佈混合媒體集**
 
 發佈混合媒體集會將它置於Dynamic Media Classic伺服器上並啟動URL字串。
 
-您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。您可以使用&#x200B;**視訊伺服器**&#x200B;來發佈標示為發佈的實際視訊，此外，您還可以使 **用Image Server** ，來發佈相關資產，例如視訊縮圖，並設定任何最適化視訊集的資訊。
+您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。您可以使用&#x200B;**視訊伺服器**&#x200B;來發佈標示為發佈的實際視訊，此外，您還可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產，例如視訊縮圖，並設定任何最適化視訊集的資訊。
 
 請參閱[發佈混合媒體集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
-**7. 將混合媒體集連結至網頁**
+**7.將混合媒體集連結至網頁**
 
 Dynamic Media Classic會在您發佈混合媒體集後啟動URL呼叫。 您可以從「預覽」畫面複製這些 URL。
 
