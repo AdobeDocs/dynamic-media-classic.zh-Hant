@@ -38,7 +38,7 @@ ht-degree: 76%
 
 ## 在您的硬碟上安裝外掛程式
 
-1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
+1. 在Dynamic Media Classic的「個人設定」頁面上，按一下Illustrator網路印刷外掛程式下方的「立即下載」，以下載網路印刷外掛程式的「Illustrator外掛程式」。********
 1. 解壓縮 ZIP 檔案至暫存檔案夾。
 
    在解壓縮檔案的根目錄中內含了讀我檔案，具有外掛程式的其他相關資訊。
@@ -49,8 +49,8 @@ ht-degree: 76%
 
 | 如果您執行 | 請執行此動作 |
 |--- |--- |
-| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014」。</li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.dll`」複製到 Adobe Illustrator 的執行檔檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`。 </li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 <br/><ul><li>返回相同的資產庫檔案夾，按一下「flamingo」，然後將 `aflamingo.dll` 複製到您在先前步驟中使用的相同 Adobe Illustrator 可執行檔檔案夾。 </li><li>返回您在步驟 2 中選取的 win32 或 win64 檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`。 </li></ul> <br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
-| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014」。</li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.dll`」複製到 Adobe Illustrator 的執行檔檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`。 </li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。  <br/><ul><li>返回相同的資產庫檔案夾，按一下「flamingo」，然後將 `aflamingo.dll` 複製到您在先前步驟中使用的相同 Adobe Illustrator 可執行檔檔案夾。 </li><li>返回您在步驟 2 中選取的 win32 或 win64 檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`。 </li></ul> <br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> 將`AdobeS7FXGFileFormat.aip`複製至Adobe Illustrator的增效模組檔案夾。 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
 | Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮的檔案夾根目錄，按一下「6.0」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。 </li><li>將 AdobeS7FXGFileFormat.aip 複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
 
 ### Mac
@@ -58,8 +58,8 @@ ht-degree: 76%
 | 如果您執行 | 請執行此動作 |
 |--- |--- |
 | Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014 > mac64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.framework`」檔案夾複製到 Adobe Illustrator 套件內容檔案夾。例如, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. （若要開啟Adobe Illustrator的套件內容檔案夾，請在Adobe Illustrator CC 2014圖示上按一下滑鼠右鍵，然後按一下「從內容選單顯示套件內容」）。</li><li>回到相同的資產庫檔案夾，按一下「`flamingo`」，然後將 `aflamingo.framework` 檔案夾複製到您在先前步驟中使用的相同 Adobe Illustrator 套件內容檔案夾。</li><li>回到您在步驟 1 中選取的「mac64」檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」檔案夾複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
-| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮資料夾的根目錄，按一下「CC > mac64」</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. 例如，`/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
-| Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮資料夾的根目錄，按一下6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. 例如，`/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`。</li></ul> |
+| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮資料夾的根目錄，按一下「CC > mac64」</li><li>將`AdobeS7FXGFileFormat.aip`檔案夾複製至Adobe Illustrator的增效模組檔案夾。 例如，`/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
+| Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮資料夾的根目錄，按一下6.0 > mac64</li><li>將`AdobeS7FXGFileFormat.aip`檔案夾複製至Adobe Illustrator的增效模組檔案夾。 例如，`/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`。</li></ul> |
 
 外掛程式現在已可在 Adobe Illustrator 中使用。
 
