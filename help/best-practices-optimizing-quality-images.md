@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 61%
@@ -71,14 +71,14 @@ Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和�
       * `threshold` （0-255，效果敏感性）。
 
          此參數可決定銳化像素與周圍區域的差異程度，之後才會被視為邊緣像素，濾鏡會銳化這些像素。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
-      如需如何設定這三個參數的詳細資訊，包括使用濾鏡的最佳實踐，請參閱以下資源: 
 
-      [銳利化影像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)上的Dynamic Media Classic說明主題。
+         如需如何設定這三個參數的詳細資訊，包括使用濾鏡的最佳實踐，請參閱以下資源: 
 
-      最佳實務白皮書[在Adobe Scene7 Publishing System和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
+         [銳利化影像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)上的Dynamic Media Classic說明主題。
 
-   * Dynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
+         最佳實務白皮書[在Adobe Scene7 Publishing System和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
 
+      * Dynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
 最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
 
@@ -130,4 +130,3 @@ JPG壓縮的最佳實務是使用`&qlt=85,0`。
 * 直接在Dynamic Media Classic URL上或使用Dynamic Media Classic的影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
 * 請記住，您可以將「動態媒體影像伺服」指令群組至影像預設集。 影像預設集基本上是具有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
 * Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用銳利化影像。 在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
-
