@@ -50,11 +50,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-In the example above, `Chapter 1` is the cue identifier and is optional. `00:00:000 --> 01:04:364` 的提示時間指定章節的開始時間和結束時間，格式為 00:00:000。最後的三個數字為毫秒，如需要可保留為 000。The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. 當使用者將滑鼠指標移過視訊時間軸中的視覺提示點時，提示識別名稱、開始提示時間和章節標題全都會出現在視訊播放程式的彈出式視窗中。
+在上述範例中，`Chapter 1`是提示識別碼，是選用的。 `00:00:000 --> 01:04:364` 的提示時間指定章節的開始時間和結束時間，格式為 00:00:000。最後的三個數字為毫秒，如需要可保留為 000。`The bicycle store behind it all`的章節標題是章節內容的實際說明。 當使用者將滑鼠指標移過視訊時間軸中的視覺提示點時，提示識別名稱、開始提示時間和章節標題全都會出現在視訊播放程式的彈出式視窗中。
 
 因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節檔案名稱的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+請參閱[WebVTT:網頁視訊文字軌道格式](https://dev.w3.org/html5/webvtt/)。
 
 **增加章節標記至視訊**
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       在「內嵌程式碼」對話框中，按一下「**[!UICONTROL 複製至剪貼簿]**」。
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      對於HTML5 `Universal_HTML5_Video`檢視器，請附加複製的內嵌程式碼，並附加下列項目：
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
