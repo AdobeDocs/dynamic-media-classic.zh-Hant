@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ## 要求共用密鑰 {#requesting-a-shared-secret-key}
 
-使用 *Admin Console建立*[支援案例，以要求共用密碼金鑰。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
+使用管理控制台，透過[要求&#x200B;*shared-secret金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Dynamic Media Classic收到金鑰後，請將它儲存在本機以備日後使用。
 
@@ -34,10 +34,10 @@ ht-degree: 84%
 上載標記是字母數字字串，只能在指定時間內使用。請使用以下 URL 代替您的共用密鑰來擷取上載標記。
 
 * 影像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，shared-secret金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，shared-secret金鑰為  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * 向量
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`在此範例中，shared-secret金鑰為 `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`在此範例中，shared-secret金鑰為  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若需要求更多時間，請在 URL 中加上 `expires`，以及您要求的時間量 (以秒鐘為單位)。例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
 
@@ -90,7 +90,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 請參閱[上載影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
-## 上載影像資產 {#uploading-an-image-asset}
+## 上載影像資產  {#uploading-an-image-asset}
 
 您擷取在指定時間內有效的上載標記後，即可上載影像資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
@@ -98,7 +98,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token`和`company_name`欄位為必填欄位。
 
 請參閱[擷取上載標記](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
@@ -110,7 +110,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+`file_limit`參數指定檔案大小限制（以位元組為單位）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
@@ -126,7 +126,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上傳時影像編 [輯選項中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載[的「影像編輯」選項中的「挖空背景」。](image-editing-options-upload.md#image-editing-options-at-upload)
 * 待上載檔案的名稱
 
 <!-- 
@@ -145,9 +145,9 @@ Last Modified Date:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下「檢視頁 **面來源」**。 代碼顯示當使用者按一下「**送出**」時執行的對應 URL 查詢字串和 POST 方式。
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下「檢視頁面來源」**。**&#x200B;代碼顯示當使用者按一下「**送出**」時執行的對應 URL 查詢字串和 POST 方式。
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視 > 原始檔**」。To view XML response in Firefox, click **Tools > Web Developer > Page Source**. 建議使用 Firefox 檢視 XML 回應。
+若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視 > 原始檔**」。若要在Firefox中檢視XML回應，請按一下「工具>網頁開發人員>頁面來源&#x200B;**」。**&#x200B;建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -205,7 +205,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 取得影像的資產中繼資料 {#getting-asset-metadata-for-images}
+### 取得影像的資產中繼資料  {#getting-asset-metadata-for-images}
 
 您可以使用 `image_info`   擷取所上載資產的中繼資料，如以下範例中所示:
 
@@ -253,7 +253,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 GET 和 POST
 
-## 上載向量資產 {#uploading-a-vector-asset}
+## 上載向量資產  {#uploading-a-vector-asset}
 
 您擷取在指定時間內有效的上載標記後，即可上載向量資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
@@ -261,7 +261,7 @@ GET 和 POST
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token`和`company_name`欄位為必填欄位。
 
 請參閱[擷取上載標記](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
@@ -273,7 +273,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+`file_limit`參數指定檔案大小限制（以位元組為單位）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
@@ -289,7 +289,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上傳時影像編 [輯選項中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載[的「影像編輯」選項中的「挖空背景」。](image-editing-options-upload.md#image-editing-options-at-upload)
 * 待上載檔案的名稱
 
 <!-- 
@@ -394,4 +394,4 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 **允許的 HTTP 方式:**
 
-POST
+貼文
