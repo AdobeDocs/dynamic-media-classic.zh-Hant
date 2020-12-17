@@ -2,7 +2,7 @@
 title: 關於管理資產
 seo-title: 關於管理資產
 description: 'null'
-seo-description: 在Dynamic Media Classic中管理資產簡介
+seo-description: Dynamic Media Classic中管理資產簡介
 uuid: 875e3227-d8a9-4e6c-be4e-6f0328eb4ef8
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
