@@ -2,7 +2,7 @@
 title: '"快速入門:迴轉集"'
 seo-title: '"快速入門:迴轉集"'
 description: 'null'
-seo-description: 簡介和快速開始回轉集可協助您快速上手使用。
+seo-description: 簡介和回轉集快速入門，協助您快速上手使用。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -30,7 +30,7 @@ ht-degree: 68%
 
 **快速入門**
 
-此回轉集快速入門旨在透過Dynamic Media Classic中的回轉集技術快速上手。 依照步驟 1 至 7 執行。每個步驟的結尾都有到主題標題的交互參照，您可以在其中找到更多資訊 (如果需要)。
+此回轉集快速入門旨在透過Dynamic Media Classic中的回轉集技術快速啟動及執行。 依照步驟 1 至 7 執行。每個步驟的結尾都有到主題標題的交互參照，您可以在其中找到更多資訊 (如果需要)。
 
 **1. 建立和上載影像**
 
@@ -40,7 +40,7 @@ ht-degree: 68%
 
 請參閱[迴轉集影像拍攝準則](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
-**2. 建立迴轉集**
+**2.建立迴轉集**
 
 若要建立迴轉集，請按一下「建置」按鈕，然後選擇「迴轉集」。在「迴轉集大小」對話框中，選擇需要的列和儲存格數，然後按一下「確定」。隨後將影像拖入迴轉集畫面上的格線中。
 
@@ -66,13 +66,13 @@ Last Modified Date:
 
  -->
 
-**3. 編輯迴轉集**
+**3.編輯迴轉集**
 
 若要編輯某個迴轉集，請選取該迴轉集的「編輯」滑鼠指向按鈕。「迴轉集」畫面隨即開啟。增加、移除和變更影像的位置。您可以變更二維迴轉集中列的位置。
 
 請參閱[編輯迴轉集](creating-spin-set.md#editing-a-spin-set)。
 
-**4. 設定迴轉集檢視器預設集**
+**4.設定迴轉集檢視器預設集**
 
 管理員可以建立迴轉集檢視器預設集。這些預設集決定了迴轉集檢視器的外觀。若要設定新的迴轉集檢視器預設集，請在全域導覽列上選取「設定」按鈕。在「設定」畫面上，顯示「應用程式設定」選項，然後選取「檢視器預設集」。
 
@@ -80,24 +80,24 @@ Last Modified Date:
 
 請參閱[設定迴轉集檢視器預設集](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets)。
 
-**5. 預覽迴轉集**
+**5.預覽迴轉集**
 
 在瀏覽面板中選取迴轉集，然後按一下其滑鼠指向「預覽」按鈕。在「預覽」畫面上，按住滑鼠按鈕並將指標往左或右拖曳，將項目「迴轉」視覺化。
 
 請參閱[預覽迴轉集](previewing-spin-set.md#previewing-a-spin-set)。
 
-**6. 發佈迴轉集**
+**6.發佈迴轉集**
 
 發佈回轉集會將它置於Dynamic Media Classic伺服器上，以便動態傳送至您的網站或應用程式。 它也會啟動URL字串，將「從動態媒體影像伺服器回轉集」呼叫至您的網站或應用程式。
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. 按一 **下「全域導覽** 」列上的「發佈」，以啟動發佈。 On the Publish screen, click **Start Publish**.
+若要發佈回轉集，請在「瀏覽面板」中選取其名稱旁的&#x200B;**標示為發佈**&#x200B;圖示，將其標示為發佈。 按一下全域導覽列上的&#x200B;**Publish**&#x200B;以啟動發佈。 在「發佈」畫面上，按一下「開始發佈」**。**
 
 請參閱[發佈迴轉集](publishing-spin-set.md#publishing-a-spin-set)。
 
-**7. 將迴轉集連結到網頁**
+**7.將迴轉集連結到網頁**
 
 Dynamic Media Classic會為回轉集建立URL圖說字串，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
-選取「回轉集」，然後按一下「預 **覽」**。 「預覽」畫面開啟。選取迴轉集檢視器預設集。然後按一 **下「複製URL**」。
+選擇「回轉集」，然後按一下「預覽」。 ****「預覽」畫面開啟。選取迴轉集檢視器預設集。然後按一下「複製URL」。****
 
 請參閱[將迴轉集連結到網頁](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page)。
