@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# 使用不同的縮放檢視器預覽影像資產{#previewing-image-assets-with-different-zoom-viewers}
 
 在「檢視器清單」畫面上，您可以使用不同縮放檢視器預設集來預覽影像。
 
