@@ -24,23 +24,23 @@ Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與�
 
 若要存取樣式設定，請選擇&#x200B;**設定** > **Media Portal 設定** > **樣式設定**。 完成設定之後，請務必按一下「**儲存**」，以儲存的設定。您可以按一下「**還原**」來恢復預設設定。完成選擇之後，「預覽」面板會顯示您所作之選項所產生的外觀。
 
-**標誌按一下** 「瀏覽」，然後在「選擇標誌影像」窗口中選擇圖形。
+**標** 志按一下瀏覽，然後在選擇標誌影像窗口中選擇圖形。
 
-**應用程式** ：在「背景漸層顏色」選單上進行選擇，以建立漸層顏色混合。
+**應用** 程式：在「背景漸層顏色」選單上進行選擇，以建立漸層顏色混合。
 
-**樹** (Tree)選擇變換顏色（將指針移到項目上時顯示的顏色）和選擇顏色（選擇項目時顯示的顏色）。
+**樹選** 擇變換顏色（將指針移到項目上時顯示的顏色）和選擇顏色（選擇項目時顯示的顏色）。
 
-**收合式** (Accordion)為顯示在「詳細資訊」視圖螢幕右側的收合式(accordion)選擇背景顏色、邊框樣式、變換和選定顏色。
+**收合** 式面板為顯示在「詳細資訊」視圖中螢幕右側的收合式面板選擇背景顏色、邊框樣式、變換和選定顏色。
 
-**Accordion Header** （accordion頁首）選擇是否在accordion頁首粗體中建立文字。
+**Accordion頁** 首選擇是否在accordion頁首粗體中建立文字。
 
-**資料表格** ：為資料表格中的標題列選擇顏色。
+**數** 據網格選擇資料網格中標題行的顏色。
 
-**警報** ：為警報消息框選擇背景顏色。
+**警** 報為警報消息框選擇背景顏色。
 
-**進度列** ：為列選擇指示上傳和下載進度的顏色。
+**進度** 列選擇指示上載和下載進度的列的顏色。
 
-For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
+Media Portal使用者若要查看您選擇的樣式設定，必須將`?company=(company name)`附加至存取Media Portal的URL。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
