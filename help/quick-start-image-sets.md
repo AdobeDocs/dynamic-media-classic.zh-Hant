@@ -34,7 +34,7 @@ ht-degree: 62%
 
 請參閱[準備影像集資產進行上載](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
-**2. 建立影像集**
+**2.建立影像集**
 
 在影像集中，使用者只要按一下影像集檢視器中的縮圖影像，就能夠以不同方向或角度查看影像。
 
@@ -44,7 +44,7 @@ ht-degree: 62%
 
 另請參閱[將縮放目標和影像地圖納入影像集](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)。
 
-**3. 視需要設定影像集檢視器預設集**
+**3.視需要設定影像集檢視器預設集**
 
 管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
 
@@ -52,13 +52,13 @@ ht-degree: 62%
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
-**4. 預覽影像集**
+**4.預覽影像集**
 
 在瀏覽面板中選取影像集，然後按一下「預覽」。您的影像集便會出現在「預覽」畫面中。按一下縮圖圖示，在所選取的檢視器中檢查您的影像集。您可以從「預設集」選單選擇不同的檢視器。
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-**5. 發佈影像集**
+**5.發佈影像集**
 
 「發佈影像集」會將影像集放在Dynamic Media Classic伺服器上並啟動URL字串。
 
@@ -66,14 +66,14 @@ ht-degree: 62%
 >
 >如果您在建立並儲存影像集時，在儲存***（預設值）後選取**Publish，則不需要此步驟。
 
-Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+在「瀏覽面板」中，按一下其名稱左側的「標示為發佈」圖示。然後，按一下「**發佈**」。 在「發佈」畫面上，按一下「開始發佈」**。**
 
 請參閱[發佈](publishing-files.md#publishing-files)。
 
-**6. 將影像集連結至網站**
+**6.將影像集連結至網站**
 
 Dynamic Media Classic會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
-選取影像集，然後按一下「預覽」按鈕。「預覽」畫面開啟。Select an Image Set Viewer Preset and click **Copy URL**.
+選取影像集，然後按一下「預覽」按鈕。「預覽」畫面開啟。選取影像集檢視器預設集，然後按一下「複製URL」。****
 
 請參閱[將影像集連結至網頁](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)。
