@@ -39,21 +39,21 @@ ht-degree: 78%
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
-   **首先選取檔案** 。在「瀏覽面板」中，選取檔案，然後按一下「建立>eCatalogs」。
+   **先選取檔案** 在「瀏覽面板」中，選取檔案，然後按一下「建立>eCatalogs」。
 
-   **從eCatalog畫面開始** ，按一下「建立>eCatalogs」。 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
+   **從eCatalog畫面開始按一** 下「建立>eCatalogs」。在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
 
-   ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
+   ***附註**:要按名稱而不是縮圖查看資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選擇「名稱」選項。*
 
-1. 為 eCatalog 選取整體版面。按一下「1 欄式」按鈕  以使用單一頁面，「2 欄式」按鈕  以使用雙頁式跨頁，或按一下「自訂」按鈕  以使用兩頁以上的跨頁。「更改 eCatalog 版面」對話框會出現。Select the All Spreads options and click **OK**.
-1. 或者按一下個別頁面或跨頁，然後選擇「1 欄式」、「2 欄式」或「自訂」按鈕，以變更其版面。「更改 eCatalog 版面」對話框會出現。Select the Selected Spreads options and click **OK**.
+1. 為 eCatalog 選取整體版面。按一下「1 欄式」按鈕  以使用單一頁面，「2 欄式」按鈕  以使用雙頁式跨頁，或按一下「自訂」按鈕  以使用兩頁以上的跨頁。「更改 eCatalog 版面」對話框會出現。選擇「所有跨頁」選項，然後按一下&#x200B;**確定**。
+1. 或者按一下個別頁面或跨頁，然後選擇「1 欄式」、「2 欄式」或「自訂」按鈕，以變更其版面。「更改 eCatalog 版面」對話框會出現。選擇「選定跨頁」選項，然後按一下&#x200B;**確定**。
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
-   **拖曳** 「將頁面或頁面跨頁拖曳至新位置」。 垂直列會顯示移動頁面的位置。
+   **拖** 曳頁面或頁面跨頁拖曳至新位置。垂直列會顯示移動頁面的位置。
 
-   **「移至」按鈕** 「選擇頁面跨頁」，按一下「移至」按鈕，然後在功能表上選擇您希望頁面之前顯示的頁面。
+   **「移至」** 按鈕選擇頁面或頁面跨頁，按一下「移至」按鈕，然後在功能表上選擇您希望頁面之前顯示的頁面。
 
-   **序列** #在清單視圖中，在序列號欄位中輸入頁碼。
+   **序列#** 在清單視圖中，在序列#欄位中輸入頁碼。
 
 1. 完成時，在頁面右上角附近，請確保選取了「**儲存後發佈**」(預設)。
 1. 按一下&#x200B;**「儲存」**。
@@ -62,7 +62,7 @@ ht-degree: 78%
 
    儲存 eCatalog 之後，您可以按一下「**預覽**」來預覽。
 
-## 編輯 eCatalog {#editing-an-ecatalog}
+## 編輯 eCatalog  {#editing-an-ecatalog}
 
 根據您編輯的是已發佈的集或未發佈的集，「**儲存後發佈**」選項會以下列方式影響集與集成員:
 
@@ -82,7 +82,7 @@ ht-degree: 78%
 1. 完成編輯時，在頁面右上角附近，請確保選取了「**儲存後發佈**」(預設)。
 1. 按一下「**儲存**」，選取存放區檔案夾，輸入集名稱，然後按「**儲存**」。
 
-## 刪除 eCatalog {#deleting-an-ecatalog}
+## 刪除 eCatalog  {#deleting-an-ecatalog}
 
 刪除集時，便會將集本身移到垃圾桶。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
 
@@ -93,9 +93,9 @@ ht-degree: 78%
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個 eCatalog。
 1. 在全域導覽列上，按一下「**檔案** > **刪除** > **刪除**」。
 
-## 自訂目錄 (TOC) {#customizing-the-table-of-contents-toc}
+## 自訂目錄 (TOC)  {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，在eCatalog中提供預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，首頁可以讀取「封面」，而非「頁面0-1」。
+Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，首頁可以讀取「封面」，而非「頁面0-1」。
 
 您可以手動為 eCatalog 建立自訂的目錄 (TOC)，或從 CSV (僅限 Mac) 或 XML 檔案匯入頁面名稱。
 
@@ -103,15 +103,15 @@ Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，在eCa
 >
 >若要還原預設頁面標題，請按一下「排序頁面」標籤上的「TOC 標籤」按鈕，然後選擇「還原預設值 (全部)」。
 
-### 手動輸入頁面名稱 {#manually-entering-page-names}
+### 手動輸入頁面名稱  {#manually-entering-page-names}
 
 若要逐次手動輸入頁面名稱，請前往「eCatalog」畫面的「排序頁面」標籤。然後在頁碼欄位中按一下，並輸入名稱。為每個要命名的頁面輸入名稱。
 
-### 匯入頁面名稱 {#importing-page-names}
+### 匯入頁面名稱  {#importing-page-names}
 
 如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
-目錄標籤會儲存在影像的「使用者資料」欄位中；格式化此資料為清單 `name=<value>`` pairs separated by two question marks “??” `。 例如，若要為名為tocEN &quot;的TOC欄位設定一個標籤，請將影像的「使用者資料」設定為：
+目錄標籤會儲存在影像的「使用者資料」欄位中；將此資料格式化為`name=<value>` ` pairs separated by two question marks “??” `的清單。 例如，若要為名為tocEN &quot;的TOC欄位設定一個標籤，請將影像的「使用者資料」設定為：
 
 tocEN=&lt;EN_page_label>
 
@@ -123,7 +123,7 @@ tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
 | IPSID | 使用者資料 |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>?tocFR=&lt;FR_page_label> |
 
 若要在 XML 檔案中匯入「使用者資料」欄位，請包括屬性 `vc_userdata`:
 
