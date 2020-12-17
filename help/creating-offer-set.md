@@ -26,7 +26,7 @@ ht-degree: 57%
 * 參數化範本
 * 影像
 
-For templates, click **Add and Preview**, then set the parameters you choose. 其他提案集類型不包括參數，但仍然可以進行自訂，方法是按一下「**預覽**」，然後變更可用預設集。
+對於模板，按一下「添加並預覽」，然後設定您選擇的參數。 ****&#x200B;其他提案集類型不包括參數，但仍然可以進行自訂，方法是按一下「**預覽**」，然後變更可用預設集。
 
 Dynamic Media Classic提供編輯和建立選件集的工具。
 
@@ -38,13 +38,16 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 從以下類型的提案集中建立一個提案集:
 
-* **影像**&#x200B;您可以組合選件集的影像。 每張影像在集合中包含不同的選件。
+* **影**
+像您可以組合選件集的影像。每張影像在集合中包含不同的選件。
 
-* **影像範本**&#x200B;您可以在Dynamic Media Classic中使用「建立>範本基礎」指令，將影像範本參數化。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像**
+範本您可以使用「建立>範本基礎」命令，在Dynamic Media Classic中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
 
-* **視訊**&#x200B;您可以組合選件集的視訊。 每個視訊是提案集中的一個不同提案。
+* **視**
+訊您可以組合選件集的視訊。每個視訊是提案集中的一個不同提案。
 
-## 使用參數化範本建立選件集 {#creating-an-offer-set-with-a-parameterized-template}
+## 使用參數化範本{#creating-an-offer-set-with-a-parameterized-template}建立選件集
 
 建立提案集時，「**儲存後發佈**」選項會以下列方式影響集與集成員:
 
@@ -72,8 +75,8 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
    「Test&amp;Target選件集」頁面會列出您建立的選件。
 
 1. 重複步驟 3 到 5 為提案集建立更多提案。
-1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
-1. Click **Close**, enter a name for the offer set, and then click **Save**.
+1. 完成時，在頁面右下角附近，請確定已選取「儲存後發佈」（預設）。****
+1. 按一下「關閉」，輸入選件集的名稱，然後按一下「儲存」。********
 
 在您關閉「Test&amp;Target選件集」頁面之前，請將選件集推送至Target Standard/Premium。 請參閱[將提案集發送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
@@ -92,18 +95,20 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 1. 為選件集組合影像或視訊。 從Test&amp;Target選件集畫面或「格線檢視」或「清單檢視」中開始，然後使用下列其中一種方法：
 
-   * **Test&amp;Target選件集螢幕按一**&#x200B;下「 **[!UICONTROL 建置> Test&amp;Target選件集」]**。 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Test&amp;Target選件集螢幕按**
+一下 **[!UICONTROL 建置> Test&amp;Target選件集]**。將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   * **格點或清單檢視**&#x200B;選取影像或視訊，然後按一 **[!UICONTROL 下「建立> Test&amp;Target選件集」]**。
+   * **格線或清單**
+檢視選取影像或視訊，然後按一 **[!UICONTROL 下「建立> Test&amp;Target選件集」]**。
 
-1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或視訊。
+1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或影片。
 
    * 選擇預設集以變更影像或視訊的外觀和大小。
    * 按一下「將所選預設集套用於全部」核取方框，將所選預設集套用到提案集中的所有提案。
 
    按一下「**儲存**」以儲存您對影像或視訊提案的變更。然後按一下「**關閉**」回到「Test&amp;Target 提案集」頁面。
 
-1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
+1. 完成為選件集建立選件並選擇「影像預設集」以建立不同影像後，請確定已選取「儲存後發佈」（預設）。****
 1. 按一下「**儲存**」然後輸入提案集的名稱，並按「**儲存**」。
 
 在關閉「Test&amp;Target選件集」頁面之前，請將選件集推送至Target Standard/Premium。 請參閱[將提案集發送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
@@ -123,23 +128,27 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 **編輯提案集**
 
-1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
+1. 若要編輯選件集，請在「格線檢視」或「清單檢視」中顯示選件集，然後按一下其&#x200B;**編輯**&#x200B;變換按鈕。
 1. 在「Test&amp;Target選件集」頁面中，執行下列任一動作：
 
-   * **移除選件**&#x200B;選取選件，然後按一下 
-**刪除** ，從集合中移除選件。
-   * **新增選件**&#x200B;新增選件的方式取決於您使用的選件集類型：
-   * **範本按**&#x200B;一下 
+   * **移除選件選**
+擇選件，然後按一下 
+**刪** 除以從集合中移除選件。
+   * **新增選**
+件新增選件的方式取決於您使用的選件集類型：
+   * **範本**
+點按 
 **新增與預覽**，並在「新增與預覽選件」頁面上建立另一個選件。
-   * **影像和視訊**&#x200B;將影像或視訊拖曳至Test&amp;Target選件集頁面。
+   * **影像和視**
+訊將影像或視訊拖曳至Test&amp;Target選件集頁面。
    >[!NOTE]
    >
    >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動關聯的選件集，請先登入Target Standard/Premium，然後移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Dynamic Media Classic刪除，需要登入Target Standard/Premium，而不是從Target Standard/Premium中。
 
-1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
+1. 編輯完成後，在頁面右下角附近，請確定已選取「儲存後發佈」（預設）。****
 1. 按一下「**儲存**」，選取存放區檔案夾，輸入集名稱，然後按「**儲存**」。
 
-## 刪除提案集 {#deleting-an-offer-set}
+## 刪除提案集  {#deleting-an-offer-set}
 
 刪除提案集時，便會將集本身移到垃圾桶。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
 
