@@ -24,11 +24,11 @@ ht-degree: 27%
 
 ## 將影像標記為發佈 {#marking-images-for-publish}
 
-必須將影像標示為要發佈，才能將影像複製至動態媒體影像伺服器。 You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. 也可以在上載時將影像標記為發佈。
+必須將影像標示為要發佈，才能將影像複製至動態媒體影像伺服器。 您可以在「瀏覽面板」中選取「標籤為發佈」圖示，將影像標示為發佈。 ****&#x200B;也可以在上載時將影像標記為發佈。
 
 ## 發佈影像 {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+若要發佈縮放影像，請先按一下全域導覽列上的&#x200B;**Publish**。 然後，選擇&#x200B;**When選項（一次性或循環）**，或者輸入發佈作業的名稱，然後按一下&#x200B;**開始發佈**。
 
 >[!MORELIKETHIS]
 >
