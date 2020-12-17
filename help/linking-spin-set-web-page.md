@@ -45,7 +45,7 @@ ht-degree: 88%
 
       在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
-## 將迴轉集 URL 增加到網頁中 {#adding-spin-set-urls-to-your-web-page}
+## 將迴轉集 URL 增加到網頁中  {#adding-spin-set-urls-to-your-web-page}
 
 迴轉集的部署方式與所有縮放檢視器一樣，即透過在縮放視窗中顯示迴轉集的動態頁面 (ASP 或 JSP) 部署。對Dynamic Media Classic平台的URL呼叫會遵循縮放檢視器上的相同通訊協定。 不過，「檢視器預設集」名稱取決於管理員定義為預設「迴轉集檢視器預設集」的預設集。例如，以下非線上的 URL 語法範例包括名為 `viewer.jsp` 的預設集名稱，而現在 SKU 參數為迴轉集名稱:
 
@@ -53,7 +53,7 @@ ht-degree: 88%
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-在此 URL 語法範例 (非線上連結) 中，注意 SKU 號碼 (`sku=backpack_spin`)。The string after `sku=` is the Spin Set name ( `backpack spin`).
+在此 URL 語法範例 (非線上連結) 中，注意 SKU 號碼 (`sku=backpack_spin`)。`sku=`後面的字串是回轉集名稱(`backpack spin`)。
 
 ## 複製「迴轉集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-spin-set-viewer}
 
