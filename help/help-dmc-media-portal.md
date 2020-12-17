@@ -22,4 +22,4 @@ ht-degree: 0%
 
 Dynamic Media Classic也提供下列說明檔案：
 
-**使用Dynamic Media Classic Media Portal** Adobe Dynamic Media Classic Media Portal是以瀏覽器為基礎的環境，讓入口網站使用者可以輕鬆存取公司核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。 請參 [閱www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)。
+**使用Dynamic Media Classic Media** PortalAdobe Dynamic Media Classic Media Portal是以瀏覽器為基礎的環境，讓入口網站使用者可以輕鬆存取公司核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。請參閱[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)。
