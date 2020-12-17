@@ -18,7 +18,7 @@ ht-degree: 43%
 ---
 
 
-# Media Portal系統需求 {#system-requirements}
+# Media Portal系統要求{#system-requirements}
 
 為獲得使用Dynamic Media Classic Media Portal的最佳體驗，請確定您的系統符合下列系統需求和建議：
 
