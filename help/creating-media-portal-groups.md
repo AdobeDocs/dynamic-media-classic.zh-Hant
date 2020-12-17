@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >使用者可以隸屬於多個群組。如果使用者所屬的群組對於某個檔案夾擁有不同存取權限，則會將最高存取權授與該使用者。
 
-## 增加群組 {#adding-a-group}
+## 增加群組  {#adding-a-group}
 
 1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 按一下「**增加**」。
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. 按一下「**關閉**」。
 
-## 為群組建立資產存取權限 {#establishing-asset-access-permissions-for-a-group}
+## 為群組建立資產存取權限  {#establishing-asset-access-permissions-for-a-group}
 
 1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 在「群組清單」頁面上，執行下列其中一個動作:
@@ -76,7 +76,7 @@ ht-degree: 96%
 >
 >選取方框後便會建立存取權。將權限指定給檔案夾時，也會將該檔案夾的權限指定給其子檔案夾與其中的所有檔案。不過，您可以針對個別子檔案夾與資產檔案指定不同權限。
 
-## 為群組選擇影像預設集存取權限 {#choosing-image-preset-access-permissions-for-a-group}
+## 為群組選擇影像預設集存取權限  {#choosing-image-preset-access-permissions-for-a-group}
 
 如果要指定群組成員在透過 Media Portal 匯出資產時，可以使用哪些影像預設集，請為群組選擇影像預設集存取權限。
 
@@ -92,12 +92,12 @@ ht-degree: 96%
 1. 選取或取消選取「影像預設集」，即可指定 Media Portal 使用者在匯出資產時，可以使用哪些預設集。
 1. 按一下「**關閉**」。
 
-## 編輯和刪除群組 {#edit-and-delete-groups}
+## 編輯和刪除群組  {#edit-and-delete-groups}
 
 1. 按一下「**設定** > **Media Portal 設定** > **群組**」。
 1. 在「群組清單」頁面上，選取某個群組，然後加以編輯或刪除。
 
-   **編輯群組** 「按一下編輯」，然後在「編輯群組」對話方塊中選擇選項。
+   **編輯群組** 按一下「編輯」，然後在「編輯群組」對話方塊中選擇選項。
 
-   **刪除群組按一下** 「刪除」。
+   **刪除群組按** 一下刪除。
 
