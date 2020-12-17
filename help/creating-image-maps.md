@@ -39,17 +39,17 @@ ht-degree: 74%
 
 1. 進行以下一項操作:
 
-   * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
-   * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
-   * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+   * 如果您正在「網格視圖」或「清單視圖」中處理影像，請在「編輯」下拉清單中按一下「影像映射」。 ****&#x200B;或者，在「詳細資料檢視」中開啟，然後按一下影像上方的「影像地圖」。****
+   * 如果要在「網格視圖」或「清單視圖」中使用回轉集，請按一下「編輯」****。 或者，在「詳細資料檢視」中開啟它，然後按一下「編輯」**。**&#x200B;選取影像資產，然後按一下「影像地圖」。****
+   * 如果您正在使用eCatalog，請在「網格視圖」、「清單視圖」、「詳細資訊視圖」中按一下「編輯」。 ****&#x200B;按一下&#x200B;**映射頁**&#x200B;頁籤。
 
    ![](assets/ma_image_map.png)
 
 1. 繪製矩形或多邊形影像地圖:
 
-   **矩形地圖** ：選取「矩形影像地圖」工具，並拖曳至頁面上以建立矩形。 若要為矩形地圖增加一個點 (將它變成多邊形地圖)，請按 Ctrl 鍵，然後將插入工具放在想要的位置，再按一下滑鼠。
+   **矩形** 地圖選取矩形影像地圖工具並拖曳至頁面以建立矩形。若要為矩形地圖增加一個點 (將它變成多邊形地圖)，請按 Ctrl 鍵，然後將插入工具放在想要的位置，再按一下滑鼠。
 
-   **多邊形圖** (Polygonal map)選取「多邊形影像圖」工具，然後按一下您要封閉之影像區域周長上的點。 使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
+   **多邊** 形圖選擇多邊形影像圖工具，然後按一下要封閉影像區域周長上的點。使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
 
 1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。在您繪製影像地圖後，Dynamic Media Classic會為其指派名稱。
 
@@ -72,25 +72,25 @@ ht-degree: 74%
 
 1. 按一下「儲存」。
 
-### 調整影像地圖的位置、形狀及大小 {#adjusting-the-position-shape-and-size-of-image-maps}
+### 調整影像地圖的位置、形狀及大小  {#adjusting-the-position-shape-and-size-of-image-maps}
 
 若要變更影像地圖的位置、形狀及大小，請選取「影像地圖」按鈕 。然後，選取「平移」工具，並依照下列指示進行：
 
-**變更位置** ：將指標移至影像地圖邊界附近，但不移至影像地圖邊界上方。 當您看到四向箭頭圖示時，請將地圖拖曳到新位置。
+**變更** 位置將指標移至影像地圖邊界附近，但不移至影像地圖邊界上方。當您看到四向箭頭圖示時，請將地圖拖曳到新位置。
 
-**變更大小和形狀** ：變更影像地圖的形狀和大小的方式取決於您使用的是矩形還是多邊形的影像地圖：
+**變更大小和形** 狀變更影像地圖的形狀和大小取決於您是使用矩形或多邊形的影像地圖：
 
 ***提示&#x200B;**:您可以拖曳畫面底部的「大小」滑桿來變更檢視，並更好地檢視您的影像地圖。*
 
-**矩形影像地圖** ：將指標移至影像地圖的一側或一角。 當您看到雙向箭頭圖示時，請開始拖曳。拖曳時按住 Shift 鍵即可變更大小，但會維持外觀比例 (形狀)。
+**矩形影** 像地圖將指標移至影像地圖的一側或一角。當您看到雙向箭頭圖示時，請開始拖曳。拖曳時按住 Shift 鍵即可變更大小，但會維持外觀比例 (形狀)。
 
-**多邊形影像地圖** ：拖曳方形選取控點。 若要建立選取範圍控制點，請按一下影像地圖的邊框，然後開始拖曳。
+**多邊形影像** 地圖拖曳方形選取控點。若要建立選取範圍控制點，請按一下影像地圖的邊框，然後開始拖曳。
 
 ### 處理重疊影像地圖 {#handling-overlapping-image-maps}
 
 如果影像或 eCatalog 頁面包含多個影像地圖，而地圖有重疊，則您可以決定地圖重疊的方式。若要這樣做，請變更「影像地圖」清單上的地圖順序。在清單上，將地圖名稱拖曳至較高處或較低處。影像地圖名稱在清單上的高度，可決定該影像地圖否覆蓋其它影像地圖。
 
-### 匯入影像地圖資料 {#importing-image-map-data}
+### 匯入影像地圖資料  {#importing-image-map-data}
 
 您可以為影像、迴轉集或 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。匯入影像地圖資料可為您免除麻煩，就不需要在建立每個影像地圖時，都要在影像地圖清單中輸入資料。
 
@@ -105,7 +105,7 @@ ht-degree: 74%
 1. (選擇性) 在「工作名稱」欄位中，為中繼資料上載工作指定名稱。
 1. 按一下「上載」。
 
-### 複製影像地圖 {#copying-image-maps}
+### 複製影像地圖  {#copying-image-maps}
 
 您可以將影像地圖從某個影像或 eCatalog 頁面複製到另一個影像或 eCatalog 頁面。使用「複製影像地圖」可以更快開始建立影像地圖。您也可複製影像地圖，以在共用相同版面或對應結構的影像或頁面中，重新建立這些影像地圖。
 
@@ -122,15 +122,15 @@ ht-degree: 74%
 
 1. 按一下「選取」。
 
-## 使用範本來輸入 JavaScript 與 URL {#using-a-template-to-enter-javascript-and-urls}
+## 使用範本來輸入 JavaScript 與 URL  {#using-a-template-to-enter-javascript-and-urls}
 
-您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。By default, the URL template contains a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens the image in a new window.
+您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。依預設，URL範本包含專屬的Dynamic Media Classic JavaScript處理常式，稱為`loadProduct`，可在新視窗中開啟影像。
 
 >[!NOTE]
 >
 >請注意，當您增加 Javascript 程式碼至影像地圖的 HREF 屬性時，程式碼是在用戶端電腦上執行。因此，請確定 Javascript 程式碼是安全的。
 
-### 關於 URL 範本 {#about-url-templates}
+### 關於 URL 範本  {#about-url-templates}
 
 URL 範本的運作方式，是以範本中的雙貨幣符號 (「$$」) 取代「影像地圖」清單中的「URL」欄內容:
 
@@ -141,10 +141,10 @@ Javascript:loadProduct(‘$$’);void(0);
 您可以將影像地圖中所有不會變更的值放入 URL 範本。只將會變更的值增加到「影像地圖」清單的「URL」欄中。例如：
 
 * URL範本：j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
-* URL值： `product.htm`
-* 實際產生的URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL值：`product.htm`
+* 實際產生的URL:`javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Dynamic Media Classic處理常式：
+依預設，URL範本包含稱為`loadProduct`的專屬Dynamic Media Classic JavaScript處理常式，可開啟具有URL目標的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Dynamic Media Classic處理常式：
 
 * `loadProductCW`
 
@@ -161,24 +161,24 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 建立 URL 範本︰
 
 1. 在「地圖編輯器」畫面 (影像或迴轉集) 或 eCatalog 畫面 (eCatalog) 的「地圖頁面」標籤上，選取「URL 範本」選項旁的「編輯」。「編輯地圖範本」對話框開啟。
-1. Enter the JavaScript code and the complete URL (with the variable portion replaced by dollar signs [$$]). 用滑鼠右鍵按一下，然後選擇「貼上」，即可貼上程式碼。
+1. 輸入JavaScript程式碼和完整的URL（變數部分由美元符號[$$]取代）。 用滑鼠右鍵按一下，然後選擇「貼上」，即可貼上程式碼。
 1. 選取「儲存」按鈕。
 
-### 處理 URL 範本 {#handling-url-templates}
+### 處理 URL 範本  {#handling-url-templates}
 
 「地圖編輯器」頁面 (影像與迴轉集) 與 eCatalog 畫面 (eCatalog) 的「地圖頁面」標籤都提供下列命令，以處理 URL 範本:
 
-**URL範本選項** ：選取「URL範本」選項，將URL範本套用至影像或eCatalog頁面上的所有影像地圖。
+**URL範本選** 項選取「URL範本」選項，將URL範本套用至影像或eCatalog頁面上的所有影像地圖。
 
-**範本選項** ：如果您不希望個別的影像地圖使用URL範本，請取消選取「URL影像地圖」清單中的「範本」選項。
+**範本** 選項如果您不想讓個別影像地圖使用URL範本，請取消選取「URL影像地圖」清單中的「範本」選項。
 
 ## 為影像地圖定義其它動作 {#defining-other-actions-for-image-maps}
 
 選取「顯示」選單，然後選擇「其他動作」，即可觸發滑鼠指向效果文字以外的動作，進而啟動網頁。當使用者將指標移動到影像地圖上方，您就可以啟動動作。這些動作是全球資訊網協會 HTML 規格針對用戶端影像地圖所定義的屬性， 包括︰
 
-**accesskey** —當用戶按下鍵盤上的指定鍵時觸發操作。
+**accesskey** 當使用者按下鍵盤上的指定鍵時觸發動作。
 
-**onfocus** 當影像地圖接收焦點時觸發事件——透過游標、標籤或按存取金鑰。 例如，您可以在影像地圖成為焦點時啟動網頁，並在影像地圖不再成為焦點時關閉該網頁。
+**onfocus** 在影像地圖接收焦點時觸發事件——透過游標、滑滑鼠或按存取鍵。例如，您可以在影像地圖成為焦點時啟動網頁，並在影像地圖不再成為焦點時關閉該網頁。
 
 **onblur** 當影像地圖失去焦點時觸發事件，不論是透過游標或標籤。
 
@@ -190,7 +190,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
 如果要讓影像地圖同時具備滑鼠指向效果文字與動作，請選取「顯示」選單，然後選擇「兩者」。
 
-## 使用 Adobe Acrobat 或 Adobe InDesign 建立影像地圖 {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
+## 使用 Adobe Acrobat 或 Adobe InDesign 建立影像地圖  {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
 您可以在使用 Adobe Acrobat 或 Adobe InDesign 設計 eCatalog 時建立影像地圖。
 
@@ -198,7 +198,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
 如需詳細資訊，請參閱 InDesign 說明或 Acrobat 說明。
 
-### 在 Adobe InDesign 中建立影像地圖 {#to-create-image-maps-in-adobe-indesign}
+### 在 Adobe InDesign 中建立影像地圖  {#to-create-image-maps-in-adobe-indesign}
 
 1. 在 InDesign 中，按一下「視窗 > 互動式 > 超連結」，即可開啟「超連結」面板。
 1. 選取要成為影像地圖的文字、框架或圖形。
@@ -220,7 +220,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 1. 拖曳即可建立影像地圖。「建立連結」方框開啟。
 1. 選取「自訂連結」，然後按「下一步」。
 
-   ***注意&#x200B;**:您不需要在Acrobat中設定外觀選項。 您可以在Dynamic Media Classic中指定外觀。*
+   ***注意&#x200B;**:您不需要在Acrobat中設定外觀選項。您可以在Dynamic Media Classic中指定外觀。*
 
 1. 在「連結屬性」方框中，按一下「動作」。
 1. 從「選取動作」選單中選取「開啟網頁連結」，然後按一下「增加」。
