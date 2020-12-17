@@ -26,13 +26,17 @@ Dynamic Media Classic是整合的多媒體管理、發佈和服務環境。 多�
 
 Dynamic Media Classic工作流程的主要步驟為：
 
-* **上傳及管理您的資產**&#x200B;將您的媒體資產上傳至Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
+* **上傳及管理您的資**
+產將您的媒體資產上傳至Dynamic Media Classic。您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
 
-* **建立豐富式媒**&#x200B;體建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。 如需詳細資訊，請參閱關於多媒體。
+* **建立豐**
+富式媒體建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。如需詳細資訊，請參閱關於多媒體。
 
-* **發佈和管理** Publish資產至Dynamic Media Classic Saas網路，並在資產發佈時監控資產狀態、管理使用者權限並維護安全性。
+* **發佈和管**
+理將資產發佈至Dynamic Media Classic Saas網路，並在資產發佈時監控資產狀態、管理使用者權限並維護安全性。
 
-* **提供**&#x200B;從Dynamic Media Classic SaaS網路將媒體發佈至網頁、應用程式和行動裝置； 媒體已最佳化效能，並以CDN快取傳送。 Dynamic Media Classic提供每個資產的URL。 您發佈資產後，URL 便會生效。
+* **Serve**
+將媒體從Dynamic Media Classic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並以CDN快取傳送。Dynamic Media Classic提供每個資產的URL。 您發佈資產後，URL 便會生效。
 
 ![Dynamic Media Classic工作流程程式](/help/assets/gs_workflow.png)
 
@@ -46,4 +50,4 @@ Dynamic Media Classic與其他系統有根本不同，因為您可以使用Dynam
 
 ## 內容快取 {#content-caching}
 
-Dynamic Media Classic動態產生的影像可快取； 在大多數情況下，它們是具有唯一URL呼叫的JPEG影像，可識別它們。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。當使用任何CDN廠商實作快取機制時，您只需變更伺服器名稱，以指向啟用CDN的動態媒體影像伺服器。 所有Dynamic Media Classic版本都包含搭售的CDN快取。
+Dynamic Media Classic動態產生的影像可快取；在大多數情況下，它們是具有唯一URL呼叫的JPEG影像，可識別它們。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。當使用任何CDN廠商實作快取機制時，您只需變更伺服器名稱，以指向啟用CDN的動態媒體影像伺服器。 所有Dynamic Media Classic版本都包含搭售的CDN快取。
