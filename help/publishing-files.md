@@ -22,19 +22,21 @@ ht-degree: 76%
 
 您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
 
-Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參 [閱HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參閱[HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
 資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media Classic的任何資產都會自動標示為要發佈。
 
-如需詳細資訊，請參 [閱立即發佈通知PDF](/help/assets/rendering-instant-publish-notification.pdf)。
+如需詳細資訊，請參閱[立即發佈通知PDF](/help/assets/rendering-instant-publish-notification.pdf)。
 
 使用以下方法將資產標記為發佈:
 
-* **上傳後發佈**&#x200B;在底部附近的「上傳」頁面上，選取「上傳後發佈」。 預設狀態是已選取。
+* **上傳後發**
+布在下方的「上傳」頁面上，選取「上傳後發佈」。預設狀態是已選取。
 
-* **上傳後發佈**&#x200B;在「工作選項」對話方塊中，選取「上傳後發佈」。 預設狀態是已選取。
+* **上傳後發**
+布在「工作選項」對話方塊中，選取「上傳後發佈」。預設狀態是已選取。
 
 如果父項資產標記為發佈，則某些「子項」資產會自動標記為發佈。該表格列出自動標記為發佈的子項資產。
 
@@ -77,7 +79,7 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
 如果希望在以後發佈工作，選取「時間」選單，然後選取「排程在稍後進行」。然後使用「行事曆和時間」滑桿來選取執行發佈工作的日期和時間。
 
-### 建立週期性發佈工作 {#creating-a-recurring-publish-job}
+### 建立週期性發佈工作  {#creating-a-recurring-publish-job}
 
 在「發佈」頁面上選取「週期性」選項，建立週期性發佈工作。
 
@@ -93,17 +95,21 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
 您可以在「發佈」頁面上顯示「進階」選項，並選擇這些選項來處理發佈工作: 
 
-* **發佈至**&#x200B;選擇伺服器類型，將資產僅發佈至特定伺服器，而非所有伺服器。
+* **發佈**
+至選擇伺服器類型，將資產僅發佈至特定伺服器，而非所有伺服器。
 
-* **發佈**&#x200B;依預設，Dynamic Media Classic只會發佈新資產，且之前未發佈的資產（「上次發佈後新增」選項）。 但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
+* **發**
+布依預設，Dynamic Media Classic只會發佈新資產，且之前未發佈的資產（「上次發佈後新增」選項）。但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
 
-* **以任何方式運**&#x200B;行作業從清單中選擇用戶名。 可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
+* **運行作**
+業從清單中選擇用戶名。可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
 
-**HTTP通知**&#x200B;輸入URL以觸發後續的發佈工作。
+**HTTP通**
+知輸入URL以觸發後續的發佈工作。
 
 請參閱[使用上載或發佈工作作為觸發器](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)。)
 
-## 取消發佈工作 {#canceling-a-publish-job}
+## 取消發佈工作  {#canceling-a-publish-job}
 
 您可以取消進行中的發佈工作。此外，管理員還可以透過公司的「工作」頁面取消進行中的發佈工作。
 
@@ -113,7 +119,7 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 >
 >取消發佈工作之後，其狀態變更為「正在停止」，直至達到一個安全的停止點。如果工作正從資料庫取得資料，則停止發佈工作可能會花費一些時間。
 
-## 手動發佈資產 {#manually-publishing-assets}
+## 手動發佈資產  {#manually-publishing-assets}
 
 您可以手動發佈個別資產，而不是建立發佈工作。發佈集 (例如影像集或最適化視訊集) 時，將會發佈該集內的集 (或稱為「父項」) 和所有成員 (或稱為「子項」)。
 
@@ -129,7 +135,7 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，按一下資產名稱左側帶有斜線的灰色圓形圖示。
 
-## 手動取消發佈資產 {#manually-unpublishing-assets}
+## 手動取消發佈資產  {#manually-unpublishing-assets}
 
 您可以手動取消發佈個別資產。取消發佈集時，例如色票集或 eCatalog，集 (或稱為「父項」) 本身會變成未發佈狀態。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
 
@@ -141,11 +147,11 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個發佈的資產。
 
-      On the Global Navigation Bar, click **File > **Unpublish**.
+      在全域導覽列上，按一下「**檔案> **解除發佈**」。
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，按一下資產名稱左側的綠色圓形勾選記號圖示。
 
-## 取得資產發佈操作記錄 {#getting-an-asset-s-publish-history}
+## 取得資產發佈操作記錄  {#getting-an-asset-s-publish-history}
 
 資產上次發佈的日期顯示在面板頂部的詳細檢視中。您可以開啟詳細檢視中的「操作記錄和已發佈的伺服器」面板，取得關於發佈操作記錄的更多詳細資訊。在該面板中可以查看資產發佈時間以及發佈的目標伺服器。
 
