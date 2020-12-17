@@ -20,23 +20,26 @@ ht-degree: 78%
 
 # 檢視、增加和匯出中繼資料{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. 您可以在Dynamic Media Classic中使用中繼資料來組織、搜尋、篩選和排序資產。
+您可以在Dynamic Media Classic中儲存您使用之檔案的特定資訊；此資訊稱為&#x200B;*中繼資料*。 您可以在Dynamic Media Classic中使用中繼資料來組織、搜尋、篩選和排序資產。
 
 中繼資料會與Dynamic Media Classic產生的資訊一起顯示在「詳細資料」檢視中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在詳細檢視中開啟資產，然後選取「中繼資料」面板。您可以在詳細檢視中輸入和編輯中繼資料。
 
 有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動與檔案一起上傳。 您可以在Adobe Photoshop、InDesign、Illustrator和其他應用程式中，將中繼資料嵌入來源資產；Dynamic Media Classic可辨識此中繼資料。 您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
-For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+如需內嵌中繼資料的詳細資訊，請參閱[www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en)。
 
 ## 檢視中繼資料 {#view-metadata}
 
 若要檢視資產的中繼資料，請在詳細檢視中開啟資產，然後按一下「中繼資料」面板。然後在「中繼資料檢視」選單上選擇選項，以選取一組中繼資料欄位。Dynamic Media Classic提供下列中繼資料檢視：
 
-* **精簡檢視**&#x200B;基本值清單。
+* **精簡**
+檢視基本值清單。
 
-* **IPTC**&#x200B;價值，由國際新聞電信委員會定義。
+* **IPTCV**
+由國際新聞電信理事會定義。
 
-* **XMP**&#x200B;值，由可擴充的中繼資料平台定義。
+* **由可**
+擴充中繼資料平台定義的XMPV值。
 
 管理員可以建立中繼資料檢視。這些檢視也會顯示在「中繼資料檢視」選單上。如需有關建立中繼資料檢視的資訊，請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
@@ -54,7 +57,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 >
 >若要同時編輯數項資產的中繼資料，請選取資產，然後選擇「檔案 > 編輯資訊」。您在「編輯資訊」視窗針對中繼資料進行的編輯，會套用至您選取的所有資產。
 
-## 增加或編輯關鍵字 {#add-or-edit-keywords}
+## 增加或編輯關鍵字  {#add-or-edit-keywords}
 
 除了中繼資料外，您還可以使用關鍵字來協助搜尋和管理資產。
 
@@ -73,7 +76,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 >
 >當您將關鍵字上傳至Dynamic Media Classic時，可將關鍵字新增至檔案。 在「上載工作選項」對話框中，選擇「其他中繼資料」並輸入關鍵字。參閱[上載選項](uploading-files.md#upload_options)。
 
-## 匯入中繼資料 {#import-metadata}
+## 匯入中繼資料  {#import-metadata}
 
 您可以從 Tab 字元分隔檔案或 XML 檔案匯入多項不同資產的中繼資料，而不是逐一針對資產手動輸入中繼資料。比起在個別資產中輸入中繼資料，在 Tab 字元分隔或 XML 檔案中輸入中繼資料並匯入檔案會更加省時。在 Tab 字元分隔檔案的第一列，針對想要記錄中繼資料的欄位輸入 ID 和名稱。在每個後續的列中，輸入隨後附有中繼資料值的資產 ID 名稱。系統不會修改 Tab 字元分隔或 XML 檔案中未包含的欄位。若要從 XML 檔案匯入中繼資料，請確定符合 DTD。
 
@@ -122,7 +125,7 @@ XML 匯入只接受有效的 XML。匯入 XMP 或中繼資料結構欄位時將�
 
 必須將字首新增至匯入欄位相關的欄標題。
 
-## 匯入中繼資料 (透過 FTP) {#import-metadata-via-ftp}
+## 匯入中繼資料 (透過 FTP)  {#import-metadata-via-ftp}
 
 將中繼資料輸入 Tab 字元分隔檔案或 XML 檔案，然後選取「上載 (透過 FTP)」畫面上的「處理中繼資料檔案」選項，就可以為多個檔案匯入中繼資料。
 
@@ -130,11 +133,11 @@ XML 匯入只接受有效的 XML。匯入 XMP 或中繼資料結構欄位時將�
 
 按一下全域導覽列的「上載」按鈕，然後在「工作」畫面中選取「透過 FTP」標籤，即可匯入中繼資料。然後按一下「工作選項」。在「上載工作選項」對話框中，選擇「處理中繼資料檔案」。
 
-## 使用中繼資料批次重新命名 ID {#batch-rename-ids-using-metadata}
+## 使用中繼資料批次重新命名 ID  {#batch-rename-ids-using-metadata}
 
 使用從Tab分隔檔案或XML檔案匯入的中繼資料，您可以重新命名Dynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 不論是否已在瀏覽面板上選取該影像。
 
-To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+若要重新命名影像的Dynamic Media Classic ID，請將標示&#x200B;*newipsid*&#x200B;的欄新增至以Tab分隔的檔案，或將名為* new_vc_objectname*的欄位新增至XML資料。
 
 例如：
 
@@ -146,7 +149,7 @@ To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid*
 
 「中繼資料」工作的工作記錄檔會顯示已成功重新命名以及未重新命名的 ID。
 
-## 建立範本以輸入要上載的中繼資料 {#create-a-template-for-entering-metadata-to-upload}
+## 建立範本以輸入要上載的中繼資料  {#create-a-template-for-entering-metadata-to-upload}
 
 Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用範本可確保以正確的格式輸入中繼資料，以便將其正確上傳至Dynamic Media Classic。 請依照下列步驟建立範本，以用於錄制和匯入中繼資料至Dynamic Media Classic:
 
@@ -193,7 +196,7 @@ Dynamic Media Classic提供建立範本以錄制中繼資料的命令。 使用�
 
 * 命名空間
 
-   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 如需範例，請參閱標準資料結構清單。命名空間在Dynamic Media Classic UI中不可見，但用來儲存XMP區塊中的中繼資料。
+   架構的技術唯一識別碼，通常為`https://your.company.com/name/version/`格式的URL。 如需範例，請參閱標準資料結構清單。命名空間在Dynamic Media Classic UI中不可見，但用來儲存XMP區塊中的中繼資料。
 
 * 說明
 
