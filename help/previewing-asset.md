@@ -26,7 +26,7 @@ ht-degree: 98%
 
 如果預覽包含參數圖層的範本資產，則可以變更這些參數或是影像預設集因為所有變更都是以內嵌形式進行，所以您可以從相同的「預覽」視窗立即檢視結果。
 
-另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱[Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **預覽資產**
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 
 1. 在「檢視器清單」視窗右下角，按一下「關閉」即可返回「資產」畫面。
 
-## 依據影像預設集來預覽影像資產 {#previewing-an-image-asset-based-on-its-image-preset}
+## 依據影像預設集來預覽影像資產  {#previewing-an-image-asset-based-on-its-image-preset}
 
 您可以依據影像預設集來預覽影像資產，瞭解系統以不同大小將其動態提供給網站或是應用程式時的外觀。
 
