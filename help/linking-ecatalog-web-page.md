@@ -45,11 +45,11 @@ ht-degree: 87%
 
       在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
-## 增加 eCatalog URL 至網頁 {#adding-ecatalog-urls-to-your-web-page}
+## 增加 eCatalog URL 至網頁  {#adding-ecatalog-urls-to-your-web-page}
 
 部署 eCatalog 最常見的方式，就是以 eCatalog 縮圖封面頁的形式，在網頁上放置連結。請與您的 IT 團隊合作，以確認 eCatalog 會在整潔、置中的彈出式視窗中啟動。要求您的 IT 團隊避免將工具列與位址列顯示在瀏覽器中。
 
-如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 eCatalog檢視器](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)中的[內嵌HTML5 eCatalog檢視器。
 
 ## 複製 eCatalog 檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
