@@ -18,7 +18,7 @@ ht-degree: 81%
 ---
 
 
-# 管理eCatalog中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
+# 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
@@ -29,13 +29,13 @@ ht-degree: 81%
 * 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
-## 為eCatalogs設定回應範本 {#set-up-a-response-template-for-ecatalogs}
+## 為eCatalogs {#set-up-a-response-template-for-ecatalogs}設定回應範本
 
 您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取一個預設回應範本，也可以自行建立一個。
 
 >[!NOTE]
 >
->您也可以在檢視器預設集中設定回應範本。To use the Response Template in the Viewer Preset instead, add `fmt=1` to the end of the Information Server URL in the Viewer Preset.
+>您也可以在檢視器預設集中設定回應範本。若要改用檢視器預設集中的「回應範本」，請將`fmt=1`新增至檢視器預設集中的資訊伺服器URL結尾。
 >
 >請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
@@ -52,9 +52,9 @@ ht-degree: 81%
    * 如果整天經常更新資料，請設定較低的數字。
    * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
 
-1. Click **Publish**.
+1. 按一下「**發佈**」。
 
-## Import source content for the Info Panel in eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
+## 匯入eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}中「資訊面板」的來源內容
 
 對於 eCatalog 之資訊面板的來源文字，您可以使用逗號分隔值檔案 (CSV) 或 Tab 字元分隔檔案 (TXT)。Tab 字元分隔檔案必須使用 UTF16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
 
@@ -64,7 +64,7 @@ ht-degree: 81%
 * 確定第一個項目或資料欄為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
 * 確定識別名稱之後的每個 Tab 字元或逗號分隔項目都是您要取代回應範本的項目 (因此，第一欄會取代成 $1$，第二欄會取代成 $2$，以此類推)。
 
-### Import CSV content into eCatalogs from an externally hosted location {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### 從外部代管位置{#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}將CSV內容匯入eCatalogs
 
 1. 按兩下「eCatalog」，以在「詳細檢視」中加以開啟。
 1. 按一下「資訊面板資料摘要」面板，加以開啟。
@@ -87,7 +87,7 @@ Last Modified Date:
 1. 按兩下「eCatalog」，以在「詳細檢視」中加以開啟。
 1. 按一下「資訊面板設定」面板加以開啟。
 1. **按一下「上傳S7Info內容**」。
-1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
+1. 按一下「**瀏覽**」，選取您要使用的Tab分隔TXT檔案、CSV或SSV檔案，然後按一下「開啟&#x200B;****」。
 1. 按一下&#x200B;**上載**。
 
 Dynamic Media Classic會寄送電子郵件給您，告知您上傳是否成功。
