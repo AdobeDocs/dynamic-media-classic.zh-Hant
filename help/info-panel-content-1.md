@@ -28,14 +28,14 @@ ht-degree: 73%
 * 「資訊面板資料摘要」面板可讓您指定 CSV 檔案，其中包含您要在資訊面板滑鼠指向效果文字中顯示的文字，也可以讓您排程時間以更新資訊。
 * 「匯入中繼資料」對話框可讓您匯入內含滑鼠指向效果文字資訊的 Tab 字元分隔之 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資訊面板資料摘要」面板。
 
-## 設定影像集的回應範本 {#set-up-a-response-template-for-image-sets}
+## 設定影像集{#set-up-a-response-template-for-image-sets}的回應範本
 
 您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取一個預設回應範本，也可以自行建立一個。
 
 **若要設定回應範本**
 
 1. 按兩下影像集，在詳細檢視中加以開啟。
-1. Click **InfoPanel Setup** to unfold the panel.
+1. 按一下&#x200B;**「資訊」「面板設定」**&#x200B;展開面板。
 1. 在「回應範本」下拉式清單中，執行下列任一操作:
 
    * 選取「預設」以使用預設回應。用於範本設計的 XML 會以暗灰色顯示在「使用者範本」文字方框中。
@@ -47,14 +47,14 @@ ht-degree: 73%
    * 如果整天經常更新資料，請設定較低的數字。
    * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
 
-1. Click **Upload** to upload info panel content, based on the rollover_key values, to s7info.
-1. In the S7Info Upload dialog box, browse to the file that you want to use, and then click **Upload**.
+1. 按一下「上傳」**「上傳」**，以根據rollover_key值將資訊面板內容上傳至s7info。
+1. 在「S7Info上傳」對話方塊中，瀏覽至您要使用的檔案，然後按一下「上傳&#x200B;****」。
 
    支援的檔案格式包括使用 UTF-16 編碼方式的 Tab 字元分隔檔案以及使用 ASCII 編碼的 CSV 檔案。如果是 CSV 檔案，則非 ASCII 字元必須使用 HTML 編碼。
 
-1. In the InfoPanel Setup panel, click **Publish**.
+1. 在「資訊面板設定」面板中，按一下「**發佈**」。
 
-## 匯入影像集中「資訊」面板的來源內容 {#import-source-content-for-the-info-panel-in-image-sets}
+## 匯入影像集{#import-source-content-for-the-info-panel-in-image-sets}中資訊面板的來源內容
 
 您可以針對影像集之資訊面板的來源文字，使用以 ASCII 編碼 (非 ASCII 字元必須以 HTML 編碼) 的 CSV (逗號分隔值) 檔案，或是 Tab 字元分隔檔案。Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
 
@@ -64,14 +64,14 @@ ht-degree: 73%
 * 第一個項目或資料欄必須為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
 * 確定識別名稱之後的每個 Tab 字元或逗號分隔項目都是您要取代回應範本的項目 (因此，第一欄會取代成 $1$，第二欄會取代成 $2$，以此類推)。
 
-### 從外部托管位置將CSV內容匯入影像集 {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### 從外部托管位置{#import-csv-content-into-image-sets-from-an-externally-hosted-location}將CSV內容匯入影像集
 
 1. 按兩下影像集，在詳細檢視中加以開啟。
-1. Click **InfoPanel Datafeed** to unfold the panel.
+1. 按一下「**資訊面板資料饋送**」以展開面板。
 1. 在外部代管的 CSV 檔案位置 (HTTP) 文字欄位中，輸入 CSV 檔案的 URL。
-1. (Optional) In the Schedule Update fields, specify a time to update the content, and then click **Add**.
+1. （選擇性）在「排程更新」欄位中，指定更新內容的時間，然後按一下「新增&#x200B;****」。
 
-   您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」文字方框中。To remove a scheduled time, select it, and then click **Delete**.
+   您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」文字方框中。要刪除計畫時間，請選擇該時間，然後按一下&#x200B;**刪除**。
 
-1. (Optional) Click **Run Update** to immediately update the content.
+1. （可選）按一下「執行更新&#x200B;**」，立即更新內容。**
 
