@@ -34,7 +34,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
    1. 播放器會選擇低於或等於估計頻寬的最高頻寬資料流。
    1. 播放器僅會考慮80%的可用頻寬。 但是，如果它正在轉換，則轉換率更高，只有70%，以避免高估，並且必須立即轉換。
 
-如需演算法的相關技術資訊，請 [參閱](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp的演算法邏輯。
+如需演算法的相關技術資訊，請參閱[https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)的演算法邏輯。
 
 若要管理單一視訊和最適化視訊集，Dynamic Media Classic支援下列功能：
 
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
    產生最適化視訊集時，會包含MP4視訊。
 
-   `**Note:**` 主版／來源視訊和任何其他來源格式視訊 *不會新* 增至最適化視訊集。
+   `**Note:**` 主版／來源視訊和任何其他來源格式視訊 ** 不會新增至最適化視訊集。
 
 * Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊字幕，以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_Media光源檢視器。
 
@@ -55,15 +55,15 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
    在各種 iOS 平台上支援最適化視訊串流。
 
-   請參閱 [Adobe檢視器參考指南中的最新支援](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+   請參閱[Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)中的最新支援。
 
    Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。 您可以在下列網站中找到支援此視訊格式的 Blackberry 裝置: 
 
-   請參 [閱Blackberry上支援的視訊格式](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)。
+   請參閱[Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)上支援的視訊格式。
 
    您可以在下列連結找到支援此視訊格式的 Windows 裝置:
 
-   請參 [閱Windows Phone上支援的視訊格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
+   請參閱[Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)上支援的視訊格式。
 
 * 使用Dynamic Media Classic Viewer Presets（動態媒體經典檢視器預設集）播放視訊，包括：
 
@@ -81,10 +81,12 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
 使用下列其中一個案例，上載並產生最適化視訊集: 
 
-* **上傳預先編碼的視訊**&#x200B;如果您的視訊已編碼在Dynamic Media Classic以外，請按一下 
-**上傳** 「全域導覽列」，以瀏覽MP4視訊檔案並直接上傳至Dynamic Media Classic。 然後，按一下「**建置 > 最適化視訊集**」。瀏覽至視訊檔案。拖放您要的視訊檔案至「最適化視訊集」表格，然後儲存視訊集。
-* **上傳主要來源影**&#x200B;片若您的影片未編碼，請按一下 
-**在全域導覽列上** ，上傳主視訊來源檔案（非MP4），並讓Dynamic Media Classic將它們編碼為MP4檔案。 在「上載工作選項」對話框的「EVideo 選項」底下，選取「**最適化視訊**」。
+* **上傳預先編碼的**
+視訊如果您的視訊已編碼在Dynamic Media Classic外部，請按一下 
+**上** 載全域導覽列，以瀏覽MP4視訊檔案並直接上傳至Dynamic Media Classic。然後，按一下「**建置 > 最適化視訊集**」。瀏覽至視訊檔案。拖放您要的視訊檔案至「最適化視訊集」表格，然後儲存視訊集。
+* **上傳主要來源**
+視訊若您的視訊未編碼，請按一下 
+**上** 載全域導覽列以上載主視訊來源檔案（非MP4），並讓Dynamic Media Classic為您編碼為MP4檔案。在「上載工作選項」對話框的「EVideo 選項」底下，選取「**最適化視訊**」。
 
    此優先選項可讓您建立會自動套用正確編碼預設集至視訊的最適化視訊集 (無論是 16:9 還是 4:3)，以符合您所上載之視訊的尺寸。當您送出上載工作時，系統會自動為您建立一個最適化視訊集，內含三個具有正確外觀比例的視訊編碼。
 
@@ -102,7 +104,7 @@ Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些�
 
 請參閱[使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
-**2. 在視訊檢視器中預覽視訊**
+**2.在視訊檢視器中預覽視訊**
 
 若要查看終端使用者在桌上型電腦、您的網站或是行動裝置上看到的視訊播放方式，請在瀏覽面板中選取該視訊，然後按一下「**預覽**」。
 
@@ -116,13 +118,13 @@ Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些�
 
 請參閱[使用視訊檢視器預設集](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
-**3. 將視訊部署到網站和行動裝置網站**
+**3.將視訊部署到網站和行動裝置網站**
 
 若要將視訊整合至網站，您可執行下列其中一項作業: 
 
 * 在本身的彈出式視窗或強制回應視窗中顯示視訊，這種情況下您應使用「複製 URL」功能。
 
-   若要取得視訊的 URL，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中加以選取。Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   若要取得視訊的 URL，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中加以選取。按一下「預覽」，然後按一下`Universal_HTML5_Viewer`右側的「複製URL」。
 
    按一下「複製 URL」時，該 URL 便會複製到剪貼簿。將此程式碼放置在網站、行動裝置網站或應用程式的 HTML 中。
 
