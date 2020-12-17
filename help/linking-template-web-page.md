@@ -36,9 +36,9 @@ ht-degree: 69%
 1. 使用預設選單，選擇要用於傳送範本影像的影像預設集。「預覽」畫面可顯示從伺服器傳送後的範本效果。
 1. 按一下「複製 URL」按鈕，將 URL 複製到剪貼簿。
 
-## 將範本 URL 增加到網頁中 {#adding-template-urls-to-your-web-page}
+## 將範本 URL 增加到網頁中  {#adding-template-urls-to-your-web-page}
 
-To add a template to your web page, consult with your web page development team to modify the `<IMG>` tag in your HTML web page code using the Dynamic Media Classic URL string to make a request to Dynamic Media Image Servers. 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
+若要將範本新增至網頁，請洽詢您的網頁開發團隊，以使用Dynamic Media Classic URL字串修改HTML網頁程式碼中的`<IMG>`標籤，以向動態媒體影像伺服器提出要求。 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
 
 >[!MORELIKETHIS]
 >
