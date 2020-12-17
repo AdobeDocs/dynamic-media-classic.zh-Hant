@@ -21,7 +21,7 @@ ht-degree: 81%
 
 若要建立單一視訊或可調式視訊集，以便發佈至網頁或行動裝置，請先將主視訊檔案上傳至Dynamic Media Classic。 Dynamic Media Classic將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
 
-**MP4** Dynamic Media Classic建議MP4為偏好的視訊檔案格式。 使用 MP4 檔案可進行以下動作:
+**MP4** Dynamic Media Classic建議MP4為偏好的視訊檔案格式。使用 MP4 檔案可進行以下動作:
 
 * 桌面的 HTTP 動態串流。
 * HTTP 即時串流(Apple 的串流通訊協定)。
@@ -29,9 +29,9 @@ ht-degree: 81%
 
 Dynamic Media Classic提供兩個上傳視訊檔案的工作流程：
 
-**預先編碼的視訊** ：您直接將MP4檔案上傳至Dynamic Media Classic。 在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
+**預先編碼** 的視訊您直接將MP4檔案上傳至Dynamic Media Classic。在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
 
-**主來源影片** 上傳主來源影片檔案，並在上傳時將這些檔案編碼為MP4檔案。 在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Dynamic Media Classic支援多種格式的視訊檔案編碼。
+**主要來源** 影片上傳主要來源影片檔案，並在上傳時將這些檔案編碼為MP4檔案。在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Dynamic Media Classic支援多種格式的視訊檔案編碼。
 
 * 請確定您要編碼的主來源視訊檔案受到支援。
 
@@ -55,7 +55,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 1. 在「全域導覽列」上，按一下「**上載**」。
 1. 在「上載」畫面中，按一下「**從桌面**」標籤。
-1. On the Upload page, in the Select Files for Upload panel, click **Browse**, navigate to an MP4 video file, and then click **Open**.
+1. 在「上傳」頁面的「選擇要上傳的檔案」面板中，按一下&#x200B;**瀏覽**，導航到MP4視頻檔案，然後按一下&#x200B;**開啟**。
 1. 在「選擇檔案夾目的地」面板中，為已上載的檔案選取一個檔案夾。
 1. 在「上載」頁面中，確定已核取「**上載後發佈**」。
 1. 按一下「**提交上載**」。
@@ -93,9 +93,9 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 下表列出在上載檔案時可以編碼為 MP4 或 OGV 格式的視訊檔案類型 (具有允許的視訊編碼器)。此表格列出了檔案格式和轉碼器:
 
-**視訊檔案格式** ：視訊檔案格式與ZIP檔案類似，可決定檔案在視訊檔案中的包含方式。 視訊檔案通常包含多個軌道:一個視訊軌道 (沒有音訊) 和一或多個音訊軌道 (沒有視訊)。這些軌道相互關聯並且同步。視訊檔案格式決定了這些不同資料軌道和中繼資料的組織方式。
+**視訊檔** 案格式類似於ZIP檔案，視訊檔案格式會決定檔案在視訊檔案中的包含方式。視訊檔案通常包含多個軌道:一個視訊軌道 (沒有音訊) 和一或多個音訊軌道 (沒有視訊)。這些軌道相互關聯並且同步。視訊檔案格式決定了這些不同資料軌道和中繼資料的組織方式。
 
-**視訊轉碼器** ：視訊轉碼器描述視訊編碼的演算法。 視訊播放器根據其轉碼器對視訊進行解碼，然後在畫面顯示一系列影像或影格。轉碼器將視訊檔案儲存為播放視訊所需的資訊量降至最低。只會儲存一個影格和下一個影格之間差異的相關資訊，而不儲存每個單獨影格的相關資訊。因為大部分視訊從一個影格到下一影格會稍有不同，所以轉碼器可執行高壓縮率，讓檔案更小。
+**視訊** 轉碼器視訊轉碼器說明視訊編碼的演算法。視訊播放器根據其轉碼器對視訊進行解碼，然後在畫面顯示一系列影像或影格。轉碼器將視訊檔案儲存為播放視訊所需的資訊量降至最低。只會儲存一個影格和下一個影格之間差異的相關資訊，而不儲存每個單獨影格的相關資訊。因為大部分視訊從一個影格到下一影格會稍有不同，所以轉碼器可執行高壓縮率，讓檔案更小。
 
 | 視訊檔案格式 | 視訊轉碼器 |
 |:--- |:--- |
@@ -126,7 +126,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 有關視訊編碼的更多建議，請參閱以下內容:
 
-* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
+* 文章：*串流101:基本功能— 轉碼器、頻寬、資料速率和解析度：* [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en)。
 * 影片：*視訊編碼基本功能：* [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en)。
 
 ### 來源視訊檔案 {#source-video-files}
@@ -141,15 +141,15 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps (依據視訊中的動作量而定) |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps (依據視訊中的動作量而定) |
 
-### 取得檔案中繼資料 {#obtaining-a-file-s-metadata}
+### 取得檔案中繼資料  {#obtaining-a-file-s-metadata}
 
 您可以在Dynamic Media Classic中檢視檔案的中繼資料，使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，來取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
 
-1. 前往此網頁： [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. 前往此網頁：[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
 1. 選取和下載圖形介面版本的安裝程式，並按安裝指示操作。
 1. 安裝後，在視訊檔案按一下右鍵 (僅限 Windows) 並選取 MediaInfo，或者開啟 MediaInfo 並將您的視訊檔案拖曳到應用程式中。您會看到與視訊檔案相關的所有中繼資料，其中包括其寬度、高度和 fps。
 
-### 外觀比例 {#aspect-ratio}
+### 外觀比例  {#aspect-ratio}
 
 在為主視訊檔案選擇或建立視訊編碼預設集時，請確定該預設集具有與主視訊檔案相同的外觀比例。*外觀比例*&#x200B;是視訊寬度相對於視訊高度的比例。
 
@@ -168,9 +168,9 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 例如，寬度 1440 x 高度 1080 的視訊具有 1440/1080 (或 1.33) 的外觀比例。這種情況下，您可選擇外觀比例為 4:3 的視訊編碼預設集來為該視訊檔案進行編碼。
 
-### 資料速率 {#data-rate}
+### 資料速率  {#data-rate}
 
-The *data rate* (also called the* bit rate*) is the amount of data that is encoded to make up a single second of video playback. 資料速率以千位元/秒鐘 (Kbps) 為度量單位。
+*資料速率*（也稱為*位速率*）是編碼成一秒視訊播放的資料量。 資料速率以千位元/秒鐘 (Kbps) 為度量單位。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 | 2000 | 標準頻寬桌面連線。針對此連線，以800-2000 Kbps範圍內的資料速率為目標，大部分目標的平均速率為1200-1500 Kbps。 |
 | 5000 | 標準高速頻寬連線。不建議在此上限範圍內編碼，因為大部分消費者無法使用此速度的視訊傳送。 |
 
-### 解析度 {#resolution}
+### 解析度  {#resolution}
 
 *解析度*&#x200B;說明了視訊檔案的高度和寬度 (以像素為單位)。大多數來源視訊都以高解析度 (例如 1920 x 1080) 儲存。為了實現串流，將來源視訊壓縮為更小的解析度 (640 x 480 或更小)。
 
@@ -220,13 +220,13 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 | 720p | 720 | 大型畫面 |
 | 1080p | 1080 | 高畫質大型畫面 |
 
-### Fps (每秒鐘影格數) {#fps-frames-per-second}
+### Fps (每秒鐘影格數)  {#fps-frames-per-second}
 
 在美國和日本，大部分視訊以 29.97 影格/秒鐘 (fps) 拍攝；在歐洲，大部分視訊以 25 fps 拍攝。電影以 24 fps 拍攝。
 
 選擇與您的主視訊檔案的 fps 比率相符的視訊編碼預設集。例如，如果您的主視訊是 25 fps，選擇 25 fps 的編碼預設集。根據預設，所有自訂編碼都使用主視訊檔案的 fps。因此，在建立視訊編碼預設集時，您不需要明確指定 fps 設定。
 
-### 視訊編碼尺寸 {#video-encoding-dimensions}
+### 視訊編碼尺寸  {#video-encoding-dimensions}
 
 為獲得最佳效果，請選取將來源視訊整個乘上所有編碼視訊的編碼尺寸。
 
@@ -240,14 +240,14 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 |--- |--- |--- |--- |
 | 來源 | 1920 x 1080 | 1 | 1 |
 | 編碼 | 960 x 540 | 2 | 2 |
-| 編碼 | 640x360 | 3 | 3 |
+| 編碼 | 640x360 | 3 | 1 |
 | 編碼 | 480x270 | 4 | 4 |
 
-### 編碼視訊檔案格式 {#encoded-video-file-format}
+### 編碼視訊檔案格式  {#encoded-video-file-format}
 
 Adobe Dynamic Media Classic建議使用MP4 H.264視訊編碼預設集。 因為 MP4 檔案使用 H.264 視訊轉碼器，所以會提供高畫質視訊，但是會壓縮檔案大小。
 
-## 使用視訊編碼預設集 {#working-with-video-encoding-presets}
+## 使用視訊編碼預設集  {#working-with-video-encoding-presets}
 
 透過視訊製作設備和視訊編輯軟體建立的主視訊檔案通常太大，並且格式不適用於傳送到線上目的地位置。若要將数位視訊轉換為適用於在不同畫面上播放的適當格式和規格，您可以將視訊檔案&#x200B;*轉碼* (此過程也稱為&#x200B;*編碼*)。在編碼過程中，會將視訊壓縮為小而有效的檔案大小，適合傳送到網路和行動裝置。
 
@@ -272,7 +272,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 對於您在Dynamic Media Classic中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
 
-**MP4 H.264使用** MP4檔案進行下列作業：
+**MP4 H.264使** 用MP4檔案進行下列作業：
 
 * 桌面的 HTTP 動態串流。
 * HLS（HTTP即時串流，Apple的串流通訊協定）。
@@ -280,7 +280,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 任何其他視訊格式和轉碼器都視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Dynamic Media Classic中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
 
-### 篩選視訊編碼預設集的清單 {#filtering-the-list-of-video-encoding-presets}
+### 篩選視訊編碼預設集的清單  {#filtering-the-list-of-video-encoding-presets}
 
 「視訊預設集」頁面和「最適化視訊預設集」頁面由表格組成，其中列出作用中狀態、預設集名稱、目標播放裝置、視訊尺寸、每個視訊預設集的目標資料速率。
 
@@ -290,7 +290,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 **篩選視訊編碼預設集的清單**
 
-1. In Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets** or **Single Encoding Presets**.
+1. 在Dynamic Media Classic中，按一下「**設定** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**&#x200B;或&#x200B;**單一編碼預設集**」。
 
    「最適化視訊預設集」和「單一編碼預設集」頁面包含表格，其中列出作用中狀態、預設集名稱、目標播放裝置、視訊尺寸、每個視訊預設集的目標資料速率。
 
@@ -299,13 +299,13 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
    * 首先，在較窄的下拉式清單中選擇「**兩者**」以查看所有視訊預設集，或選擇「**作用中**」或「**非作用中**」將清單縮減成作用中或非作用中的預設集。
    * 接著，在較寬的下拉式清單中選擇播放裝置選項，將清單縮減成用於在桌上型電腦上播放視訊，或用於在行動裝置或平板電腦上播放視訊的視訊預設集。
 
-### 啟用或停用視訊預設集 {#activating-or-deactivating-video-encoding-presets}
+### 啟用或停用視訊預設集  {#activating-or-deactivating-video-encoding-presets}
 
 已啟用的視訊預設集會顯示在「上載工作選項」對話框中。當使用者在上載過程中上載視訊檔案時，就會出現此對話框。他們可以從所有已啟用的編碼預設集中選擇。
 
 **啟用或停用視訊編輯預設集**
 
-1. 在Dynamic Media Classic中，按一下「 **設定** >應 **用程式設定** > **視訊預設集**」。
+1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
 1. 進行以下一項操作:
 
    * 按一下「**最適化視訊預設集**」。
@@ -316,11 +316,11 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
    * 若要啟用視訊預設集，請在預設集頁面的「作用中」欄底下，選取預設集名稱旁的方框。
    * 若要停用視訊預設集，請取消選取要停用之視訊預設集旁的方框。
 
-      ***note**: Inactive Video Presets do not appear in the Upload Job Options dialog box. *
+      ***附註**:非作用中的視訊預設集不會出現在「上傳工作選項」對話方塊中。*
 
 1. 按一下頁面右下角的「**關閉**」。
 
-### 增加或編輯視訊編碼預設集 {#adding-or-editing-a-video-encoding-preset}
+### 增加或編輯視訊編碼預設集  {#adding-or-editing-a-video-encoding-preset}
 
 您可以建立自己的自訂單一編碼視訊預設集，並將其增加到「視訊預設集」表格。您也可以變更Dynamic Media Classic隨附的任何預先定義的單一編碼視訊預設集，前提是您必須以新名稱儲存編輯的預設集。
 
@@ -332,14 +332,14 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
 
 **增加或編輯視訊編碼預設集**
 
-1. 在Dynamic Media Classic中，按一下「 **設定** >應 **用程式設定** > **視訊預設集**」。
+1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
 1. 按一下「**單一編碼預設集**」以開啟「視訊預設集」頁面。
 1. 在「視訊預設集」頁面中，執行下列任一項作業: 
 
    * 在「視訊預設集」工具列上，按一下「**增加**」以新增「視訊預設集」。
    * 選取視訊預設集。按一下工具列中的「**編輯**」。
 
-      You cannot edit Dynamic Media Classic predefined presets; you can only create a preset from an existing one by choosing **Save As**.
+      您無法編輯Dynamic Media Classic預先定義的預設集；您只能通過選擇&#x200B;**另存為**&#x200B;從現有預設建立預設。
 
 1. 在「增加視訊預設集」頁面或「編輯視訊預設集」頁面上，設定您想要的視訊預設集選項。
 
@@ -361,13 +361,13 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
    * 如果您增加或編輯「視訊預設集」，請按一下「**儲存**」。
    * 如果您從現有預設集開始增加「視訊預設集」，請按一下「**另存新檔**」。
 
-### 刪除視訊編碼預設集 {#deleting-a-video-encoding-preset}
+### 刪除視訊編碼預設集  {#deleting-a-video-encoding-preset}
 
 管理員可以刪除自訂視訊預設集。無法刪除Dynamic Media Classic隨附的視訊預設集。
 
 **除刪視訊編碼預設集**
 
-1. 在Dynamic Media Classic中，按一下「 **設定** >應 **用程式設定** > **視訊預設集**」。
+1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
 1. 按一下「**單一編碼預設集**」以開啟「視訊預設集」頁面。
 1. 在「視訊預設集」頁面中，選取表格中您不再想要或需要的視訊預設集。
 1. 按一下「視訊預設集」工具列上的「**刪除**」。
