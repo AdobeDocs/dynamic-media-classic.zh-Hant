@@ -1,8 +1,6 @@
 ---
-title: 登入和登出
-seo-title: 登入和登出
-description: 'null'
-seo-description: 瞭解如何在Dynamic Media Classic中登入和登出
+title: 登入和登出Adobe Dynamic Media Classic
+description: 瞭解登入與登出Adobe Dynamic Media Classic，以及如何連接至北美地區(NA)或歐洲、中東、非洲(EMEA)或亞太地區(APAC)的生產環境伺服器。
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,24 +8,24 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# 登入Dynamic Media Classic {#sign-in}
+# 登入Adobe Dynamic Media Classic {#sign-in}
 
-您登入Dynamic Media Classic和登出的方式取決於您使用的是案頭應用程式或網頁瀏覽器。
+登入Dynamic Media Classic和登出的方式取決於您是使用[案頭應用程式](#sign-in-dmc-app)或[網頁瀏覽器](#sign-out)。
 
 無論您如何登入，在使用Dynamic Media Classic之前，請務必具備下列功能：
 
-* **登入**
-名稱您使用您的電子郵件地址作為登入名稱。
+* **用**
+戶名您使用電子郵件地址作為登錄名。
 
 * **密**
 碼您可從Dynamic Media Classic或Dynamic Media Classic管理員，在「歡迎」電子郵件中取得暫存密碼。首次登入時，系統會提示您變更此臨時密碼。
