@@ -28,7 +28,7 @@ ht-degree: 42%
 
    例如，如果要測量影像集內最常用的替代檢視，請預設影像集，並按一下不同的縮圖影像。
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. 在Adobe Analytics內，前往「自訂流量>自訂流量1-10 > [prop名稱」，從功能表選項中選擇您的流量prop名稱。]
 
    例如，若要存取範例帳戶中的 LoadAsset 屬性，則適當的選單選項為「自訂流量 > 自訂流量 1-10 > LoadAsset」。如果您有超過十個自訂屬性，可能還會看到其他選單選項。
 
@@ -38,4 +38,4 @@ ht-degree: 42%
 >
 >所有Dynamic Media Classic檢視器資料都會顯示並報告在Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中。
 
-如需詳細資訊，請參 [閱www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)。
+如需詳細資訊，請參閱[www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)。
