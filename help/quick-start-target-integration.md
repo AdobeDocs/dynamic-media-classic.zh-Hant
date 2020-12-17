@@ -34,22 +34,22 @@ Dynamic Media Classic可讓您建立Target Standard/Premium促銷活動的選件
 
 此快速入門功能可讓您快速啟動並執行Target Standard/Premium HTML選件集。 依照步驟 1 至 3 執行。每個步驟之後都有連接至某個主題標題的交戶參照，您可以在其中尋找更多資訊。
 
-**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
+**1. 在「應用程式一般設定」畫面中輸入您的Adobe Target Standard/Premium URL。**
 
-Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/Premium整合。 Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. 請參 [閱整合Dynamic Media Classic與Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target)。
+Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/Premium整合。 將Target Standard/Premium URL的部分複製至&#x200B;*.com*，並在「動態媒體經典應用程式一般設定」畫面中輸入。 請參閱[整合Dynamic Media Classic與Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
-**2. 建立提案集**
+**2.建立提案集**
 
-使用參數化範本或影像來建立提案集。請在「Test&amp;Target 提案集」畫面上建立 HTML 提案集。To open this screen, select your template or images, and click **Build** > **Test&amp;Target Offer Set**.
+使用參數化範本或影像來建立提案集。請在「Test&amp;Target 提案集」畫面上建立 HTML 提案集。若要開啟此畫面，請選取範本或影像，然後按一下&#x200B;**Build** > **Test&amp;Target選件集**。
 
-若要建立含範本的選件，請按一下「新 **增與預覽」**。 在「新增與預覽」畫面上，變更參數值。
+若要建立含範本的選件，請按一下「新增與預覽」。 ****&#x200B;在「新增與預覽」畫面上，變更參數值。
 
-若要使用影像建立提案，請將影像拖入「Test&amp;Target 提案集」畫面。Click **Preview** to choose an Image Preset for an image or all the images in the offer set.
+若要使用影像建立提案，請將影像拖入「Test&amp;Target 提案集」畫面。按一下「預覽」，為影像或選件集中的所有影像選擇影像預設集。****
 
 建立提案集後請將其儲存。
 
 請參閱[建立提案集](creating-offer-set.md#creating_an_offer_set)。
 
-**3. 將選件集推送至Adobe Target Standard/Premium**
+**3.將選件集推送至Adobe Target Standard/Premium**
 
-In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. 請參 [閱推送選件集至Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在「Test&amp;Target選件集」畫面中，按一下「推播選件&#x200B;**」，然後在「Test&amp;Target登入」對話方塊中輸入您的登入認證。**&#x200B;請參閱[推送選件集至Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
