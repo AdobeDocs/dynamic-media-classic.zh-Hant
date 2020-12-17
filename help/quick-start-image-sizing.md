@@ -38,25 +38,25 @@ ht-degree: 55%
 
 選取全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media Classic的檔案夾。 請參閱[上載主影像](uploading-master-images.md#uploading_master_images)。
 
-**2. 設定影像預設集**
+**2.設定影像預設集**
 
 如同巨集，影像預設集是儲存於同一個名稱下的預先定義大小和格式命令集合。影像預設集控制從動態媒體影像伺服器傳送影像的大小和格式。 如果您擁有公司管理員狀態，便可以自行設定影像預設集。Dynamic Media Classic也隨附預設的影像預設集，您可以使用這些預設集動態傳送影像。
 
-若要建立影像預設集 (如果您是管理員)，請選擇「設定 > 應用程式設定」。在「設定」畫面上，顯示「應用程式設定」選項，並選擇「影像預設集」。然後按一 **下「新增** 」或「 **編輯** 」以建立影像預設集。
+若要建立影像預設集 (如果您是管理員)，請選擇「設定 > 應用程式設定」。在「設定」畫面上，顯示「應用程式設定」選項，並選擇「影像預設集」。然後按一下「新增」或「編輯」，以建立影像預設集。********
 
 您建立的影像預設集會增加至「預覽」畫面的「影像預設集」選單。您可以使用新影像預設集，在網站和應用程式中動態顯示影像。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
 
-**3. 預覽影像預設集**
+**3.預覽影像預設集**
 
 下一步是以不同預設集大小預覽管理員所設定的影像預設集。
 
-To explore Image Presets, click **Setup** > **Image Presets**, and then browse to an Image Preset.
+若要探索影像預設集，請按一下「設定&#x200B;**** > **影像預設集**」，然後瀏覽至影像預設集。
 
 以不同的影像預設集進行實驗。看看您的影像在以不同大小動態傳送至網站或應用程式時的外觀。
 
 請參閱[依據影像預設集來預覽影像資產](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)。
 
-**4. 發佈主影像**
+**4.發佈主影像**
 
 發佈主影像檔案有兩個主要目的:
 
@@ -65,8 +65,8 @@ To explore Image Presets, click **Setup** > **Image Presets**, and then browse t
 
 選取全域導覽列上的「發佈」按鈕以啟動發佈。在「發佈」畫面上選取「開始發佈」按鈕。請參閱[發佈主影像](publishing-master-images.md#publishing_master_images)。
 
-**5. 將 URL 連結至網路應用程式**
+**5.將 URL 連結至網路應用程式**
 
 Dynamic Media Classic會建立影像的URL圖說字串。 當您將影像發佈至動態媒體影像伺服器時，URL會變為作用中。 您可以從瀏覽面板(在詳細檢視中的)或「預覽」畫面複製這些 URL 字串。複製 URL 字串後，您便可以在網站和應用程式中使用這些字串。影像調整大小的 URL 會將參照取代為網頁代碼中的靜態影像名稱。URL 會參照主影像名稱，而該名稱會被要顯示之新影像的資料庫取代。
 
-使用影像預設集產生的 URL 字串會包含一個影像預設集的名稱。This name is enclosed in dollar signs (`$`). For example, `$thumbnail$` can be the Image Preset designed to show master images at thumbnail size. 請參閱[將 URL 連結至網路應用程式](linking-urls-web-application.md#linking_urls_to_your_web_application)。
+使用影像預設集產生的 URL 字串會包含一個影像預設集的名稱。此名稱以美元符號括起(`$`)。 例如，`$thumbnail$`可以是設計為以縮圖大小顯示主影像的影像預設集。 請參閱[將 URL 連結至網路應用程式](linking-urls-web-application.md#linking_urls_to_your_web_application)。
