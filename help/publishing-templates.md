@@ -28,7 +28,7 @@ ht-degree: 40%
 
 ## 將範本標記為發佈 {#marking-templates-for-publish}
 
-範本及其所有支援檔案都必須標籤為發佈，才能放在動態媒體影像伺服器上。 You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+範本及其所有支援檔案都必須標籤為發佈，才能放在動態媒體影像伺服器上。 您可以按一下&#x200B;**標籤為發佈**&#x200B;圖示，在「瀏覽面板」中將這些項目標示為發佈。
 
 ## 發佈範本 {#publishing-your-template}
 
