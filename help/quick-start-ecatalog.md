@@ -34,7 +34,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 * 使用手勢互動，包括雙指縮放與揮動翻頁。
 * 依項目關鍵字搜尋。
 
-![eCatalog 顯示給使用者的外觀。A)eCatalog開啟頁面。 B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![eCatalog 顯示給使用者的外觀。A)eCatalog開啟頁面。 B)eCatalog已轉至第2頁。](/help/assets/ec_cat_viewer_popup.png)
 
 為了建立 eCatalog，一般會使用 Adobe® Acrobat® 或其他列印程式中建立的高解析度 PDF 檔案，但也可以從影像檔建立 eCatalog。
 
@@ -42,11 +42,11 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中 `pdfbrochure` 編輯值。 若要這麼做，請在AEM中按一下「工 **[!UICONTROL 具>一般> CRXDE Lite]**」。 在左側面板導覽樹狀結構中，導覽至 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+>如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中編輯`pdfbrochure`值。 若要這麼做，請在AEM中按一下「工具>一般> CRXDE Lite **[!UICONTROL 」。]**&#x200B;在左側面板導航樹中，導航至`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 >
->在右下方窗格的「屬性 **[!UICONTROL 」頁籤]** ，選擇 `jobParam` 行。 將值從 `pdfbrochure` 到 `false` 設定 `true`。 與 `pdfbrochure=true`
+>在右下窗格的&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，選擇`jobParam`行。 將`pdfbrochure`的值從`false`設為`true`。 與`pdfbrochure=true`中一樣
 >
->在CRXDE Lite頁面的左上角，按一下「全 **[!UICONTROL 部儲存」]**。
+>在「CRXDE Lite」頁面的左上角，按一下「全部儲存」。****
 >
 >您現在可以在Dynamic Media Classic中製作eCatalogs。
 
@@ -64,7 +64,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 請參閱[上載 PDF 檔案](uploading-pdf-files.md#uploading_the_pdf_files)。
 
-**2. 建立 eCatalog**
+**2.建立 eCatalog**
 
 在瀏覽面板中選取 PDF 或影像檔案，然後按一下「建置」按鈕並選擇 eCatalog 來建立 eCatalog。「eCatalog」畫面開啟。
 
@@ -72,15 +72,15 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 若要新增頁面，請在資產庫中選取檔案夾，然後將 PDF 或影像檔案從檔案夾拖曳至「排序頁面」畫面。除了預設頁碼外，您可以提供自訂頁面名稱或匯入大量的頁面名稱。
 
-按一 **[!UICONTROL 下「儲存]**」，輸入eCatalog的名稱，選擇Dynamic Media Classic資料夾以儲存它，然後按一下「儲 **[!UICONTROL 存」]**。 Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+按一下&#x200B;**[!UICONTROL 保存]**，輸入eCatalog的名稱，選擇Dynamic Media Classic資料夾以保存它，然後按一下&#x200B;**[!UICONTROL 保存]**。 每次您變更頁面順序或編輯eCatalog時，按一下「儲存」以儲存變更。****
 
 請參閱[建立 eCatalog](creating-ecatalog.md)。
 
-**3. 建立影像地圖**
+**3.建立影像地圖**
 
 影像地圖會將其他尺寸增加到 eCatalog 頁面。影像地圖是頁面的某個區域，提供更多有關項目的資訊。檢視者捲動指標至影像地圖上時，就會看到項目的描述。按一下影像地圖會啟動外部參照，它會開啟一個新網頁，您可以在其中瞭解更多有關項目的資訊。
 
-若要建立影像地圖，請開啟「eCatalog」畫面。Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. 您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
+若要建立影像地圖，請開啟「eCatalog」畫面。然後，前往eCatalog畫面的「對應頁面」標籤，並使用「矩形影像地圖」工具或「多邊形影像地圖」工具繪製地圖。 ]****[!UICONTROL &#x200B;您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
 
 繪製影像地圖之後，輸入按一下影像地圖時要前往的 URL 位址。您也可以輸入將指標移動到影像地圖上時會顯示的滑鼠指向效果文字。
 
@@ -92,33 +92,33 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 請參閱[管理資訊面板內容](info-panel-content.md#managing-info-panel-content)。
 
-**4. 設定 eCatalog 檢視器預設集**
+**4.設定 eCatalog 檢視器預設集**
 
 終端使用者會在 eCatalog 檢視器中檢視您的 eCatalog。如果您是管理員，便可以設定 eCatalog 檢視器。您可以變更其外框色彩，並選取新的「外觀」，讓 eCatalog 擁有品牌特色。Dynamic Media Classic隨附數種「最佳實務」eCatalog檢視器預設集。 您可以選擇其中一個預設集，來顯示 eCatalog。如果您是管理員，也可以建立自己的 eCatalog 檢視器預設集。
 
-若要建立eCatalog檢視器預設集，請在全域導覽列上按一下「設定」 **** ，然後選 **[!UICONTROL 擇「檢視器預設集」]**。 Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
+若要建立eCatalog檢視器預設集，請在全域導覽列上按一下「設定」****，然後選擇「檢視器預設集」]**。**[!UICONTROL &#x200B;然後按一下「新增&#x200B;****」，選擇平台，然後按一下「eCatalog >檢視器&#x200B;]**」。**[!UICONTROL 
 
 請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
-**5. 在 eCatalog 檢視器中預覽 eCatalog**
+**5.在 eCatalog 檢視器中預覽 eCatalog**
 
 eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
-To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. 「預覽」畫面會在預設的檢視器中開啟。
+若要瞭解eCatalog檢視器預設集如何顯示eCatalog，請在「瀏覽面板」中選取您的eCatalog，然後按一下「預覽」。 ****「預覽」畫面會在預設的檢視器中開啟。
 
 請注意方向、色彩方案、變更頁面的控制項外觀，以及頁面翻頁時的外觀。
 
 請參閱[在 eCatalog 檢視器中預覽 eCatalog](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)。
 
-**6. 發佈eCatalog和相關的PDF**
+**6.發佈eCatalog和相關PDF**
 
 發佈您的eCatalog和相關PDF會將它放在動態媒體影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程式中，Dynamic Media Classic會啟動您eCatalog的URL字串。 使用此URL，從動態媒體影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 On the Publish screen, click **[!UICONTROL Start Publish]**.
+在「瀏覽面板」中將eCatalog和PDF標示為要發佈後，選取「全域導覽列」上的「發佈」按鈕以開始發佈。 在「發佈」畫面上，按一下「開始發佈」**[!UICONTROL 。]**
 
-請參 [閱發佈eCatalogs和關聯的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
+請參閱[發佈eCatalogs和相關的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
-**7. 連結 eCatalog 至網頁**
+**7.連結 eCatalog 至網頁**
 
 當您將eCatalog發佈至動態媒體影像伺服器時，Dynamic Media Classic會啟動顯示eCatalog所需的URL圖說字串。 您可以選取瀏覽面板中的 URL，從「預覽」畫面與瀏覽面板 (在詳細檢視中) 複製這個 URL 字串。複製 URL 字串後，它便可供網站及應用程式使用。
 
