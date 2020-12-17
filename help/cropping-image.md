@@ -44,11 +44,11 @@ ht-degree: 86%
 >
 >完成裁切後若要將影像還原至原始狀態，請在「裁切編輯器」畫面中顯示影像，然後選取「重設」按鈕。
 
-## 選取要裁切的區域 {#select-an-area-to-crop}
+## 選取要裁切的區域  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. 若要裁切影像，請按一下其變換編輯按鈕並選擇&#x200B;**裁切**，或在「詳細資料」檢視的「瀏覽面板」中顯示影像，然後按一下「裁切&#x200B;**a3/>」。**
 
-1. 在「裁切編輯器」視窗中，將您不想裁切的影像部分置於裁切方塊中。 What appears inside the box remains when you click **Save** and crop the image.
+1. 在「裁切編輯器」視窗中，將您不想裁切的影像部分置於裁切方塊中。 當您按一下「儲存」並裁切影像時，方塊中顯示的內容仍會保留。****
 1. 若要調整裁切區域，請執行下列其中一個動作:
 
    * 拖曳方塊某一側或邊角。拖曳時按住 Shift 鍵即可變更大小，但會維持裁切方塊的外觀比例 (形狀)。
