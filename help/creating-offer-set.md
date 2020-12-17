@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
 1. 為選件集組合影像或視訊。 從Test&amp;Target選件集畫面或「格線檢視」或「清單檢視」中開始，然後使用下列其中一種方法：
 
-   * **Test&amp;Target選件集螢幕按**
-一下 **[!UICONTROL 建置> Test&amp;Target選件集]**。將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Test&amp;Target選件集螢幕按** 一下 **[!UICONTROL 建置> Test&amp;Target選件集]**。將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   * **格線或清單**
-檢視選取影像或視訊，然後按一 **[!UICONTROL 下「建立> Test&amp;Target選件集」]**。
+   * **格線或清單** 檢視選取影像或視訊，然後按一 **[!UICONTROL 下「建立> Test&amp;Target選件集」]**。
 
 1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或影片。
 
