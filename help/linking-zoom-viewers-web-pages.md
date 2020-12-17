@@ -44,11 +44,11 @@ ht-degree: 86%
 
       在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**複製 URL**」。
 
-## 將縮放檢視器的 URL 增加到網頁中 {#adding-zoom-viewer-urls-to-your-web-page}
+## 將縮放檢視器的 URL 增加到網頁中  {#adding-zoom-viewer-urls-to-your-web-page}
 
 網站訪客通常透過先選取「縮放」圖示 (通常該圖示顯示為放大鏡影像) 來縮放影像。選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參 [閱Adobe檢視器參考指南中的內嵌HTML5 Basic Zoom Viewer](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)中的[內嵌HTML5基本縮放檢視器。
 
 ## 複製「縮放」檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
