@@ -27,8 +27,8 @@ ht-degree: 75%
 1. 按一下「**設定**」>「**檢視器預設集**」。
 1. 進行以下一項操作:
 
-   * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
-   * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+   * 若要建立新預設集，請按一下「新增&#x200B;****」，然後在「新增檢視器預設集」對話方塊中選擇平台，然後按一下「回轉集檢視器&#x200B;**」。**
+   * 若要編輯現有的回轉集檢視器預設集，請選取預設集，然後按一下「編輯」。****
 
    「設定檢視器」視窗開啟。
 
