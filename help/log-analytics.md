@@ -30,15 +30,15 @@ ht-degree: 36%
 
 **登入 Adobe Analytics**
 
-1. 在「Dynamic Media Classic」（動態媒體經典）頁面的右上角附近，點選「 **[!UICONTROL 設定>應用程式設定」]**。
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. 在「 **[!UICONTROL Adobe Analytics登入]** 」對話方塊中，在「密碼」文字欄位中輸入您的公司名稱、Marketing Cloud組織ID（可選）、使用者名稱 *和共用的機密金鑰***** 。
+1. 在「動態媒體經典」頁面的右上角，點選「設定>應用程式設定」**[!UICONTROL 。]**
+1. 在左窗格的「應用程式設定」下方，點選「**[!UICONTROL Adobe Analytics]**」。****
+1. 在「Adobe Analytics設定」頁面中，點選「**[!UICONTROL Adobe Analytics登入]**」。
+1. 在&#x200B;**[!UICONTROL Adobe Analytics登入]**&#x200B;對話方塊中，在&#x200B;**[!UICONTROL 密碼]**&#x200B;文字欄位中輸入您的公司名稱、Marketing Cloud組織ID（選用）、使用者名稱和&#x200B;*共用密碼*&#x200B;金鑰。
 
-   您可以從「分析管 *理員* 」控制台擷取共用的機密金鑰。 請參 [閱如何取得使用者帳戶的API認證](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
+   您可以從Analytics管理員控制台擷取&#x200B;*共用密碼*&#x200B;金鑰。 請參閱[如何取得使用者帳戶的API憑證](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
 
 1. 按一下&#x200B;**[!UICONTROL 「登入」]**。
-1. 在「報 **[!UICONTROL 表套裝]** 」下拉式功能表中，選擇報表套裝，然後按一下「 **[!UICONTROL 確定」]**。
+1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;下拉式功能表中，選擇報表套裝，然後按一下&#x200B;**[!UICONTROL 確定]**。
 
    >[!NOTE]
    >
