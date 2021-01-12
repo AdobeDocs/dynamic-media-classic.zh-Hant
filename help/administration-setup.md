@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
    系統會在儲存之後出現提示訊息，問您是否要將使用者增加至其他公司。若您要將使用者增加至公司，請按一下「增加」。
 
-   所有新用戶都會獲得隨機生成的密碼；使用者第一次登入Dynamic Media Classic時，必須變更密碼。
+   所有新用戶都會獲得隨機生成的密碼；使用者第一次登入Dynamic Media Classic案頭應用程式時，必須變更密碼。
 
-   您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。電子郵件提供了臨時密碼，並說明如何登入 Scene7 Publishing System。
+   您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。此電子郵件提供暫存密碼，並說明如何登入Dynamic Media Classic。
 
    如果使用者未收到歡迎電子郵件，請他們前往Dynamic Media Classic登入頁面(https://s7sps1.scene7.com)，然後按一下「忘記我的密碼」。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
 
