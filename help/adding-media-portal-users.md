@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -117,7 +117,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
    **[!UICONTROL 傳送]** 電子郵件如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
 
-   **[!UICONTROL 預設]** 密碼輸入新使用者的暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。系統會在使用者首次登入時，要求使用者變更密碼。
+   **[!UICONTROL 預設]** 密碼輸入新使用者的暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。使用者第一次登入時，會被要求變更密碼。
 
    **[!UICONTROL 取代]** URL如果您的使用者透過不同的URL存取Dynamic Media Classic，請輸入與預設值不同的URL。
 
