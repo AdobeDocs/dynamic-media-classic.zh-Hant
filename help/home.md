@@ -5,7 +5,7 @@ description: Adobe Dynamic Media Classic技術檔案
 seo-description: 'Adobe Dynamic Media Classic（先前稱為Scene 7）的技術檔案、發行說明和自助資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 全新Dynamic Media Classic登入體驗於2020年6月30日推出
 
-在2020年6月30日，Dynamic Media classic使用者將可存取新的登入體驗，而不再仰賴瀏覽器中的Adobe Flash技術。 請閱讀下列常見問題以瞭解更多資訊。
+在2020年6月30日，Dynamic Media classic使用者將可存取全新的體驗登入點，而不再仰賴瀏覽器中的Adobe Flash技術。 請閱讀下列常見問題以瞭解更多資訊。
 
 請參閱[常見問題](new-ui-2020.md)。 截至2020年5月7日的新更新。
 
