@@ -1,8 +1,6 @@
 ---
 title: 設定基礎
-seo-title: 設定基礎
-description: 'null'
-seo-description: 瞭解如何使用「設定」畫面輸入您的個人設定。 如果您是管理員，請為公司進行設定。
+description: 瞭解如何使用「設定」畫面輸入您的個人設定。 如果您是管理員，請為公司進行設定。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 66%
 
 ---
