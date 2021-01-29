@@ -1,8 +1,6 @@
 ---
-title: '"最佳做法: 使用 HTML5 視訊檢視器"'
-seo-title: '"最佳做法: 使用 HTML5 視訊檢視器"'
-description: 'null'
-seo-description: 瞭解使用HTML5視訊檢視器的最佳範例。
+title: 使用HTML5視訊檢視器的最佳實務
+description: 瞭解使用HTML5視訊檢視器的最佳範例。
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# 最佳做法: 使用 HTML5 視訊檢視器{#best-practice-using-the-html-video-viewer}
+# 使用HTML5視訊檢視器的最佳範例{#best-practice-using-the-html-video-viewer}
 
 Dynamic Media Classic HTML5 Video檢視器預設集是強穩的視訊播放器。 在播放器的設計端，您可以使用標準網頁開發工具來建立視訊播放器的所有功能。 例如，您可以使用 HTML5 和 CSS 來設計按鈕、控制項與自訂海報影像背景，並藉助自訂的外觀來吸引客戶。
 
