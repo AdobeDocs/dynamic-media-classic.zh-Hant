@@ -1,8 +1,6 @@
 ---
 title: 預覽迴轉集
-seo-title: 預覽迴轉集
-description: 'null'
-seo-description: 瞭解如何預覽回轉集。
+description: 瞭解如何預覽回轉集。
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 96%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
