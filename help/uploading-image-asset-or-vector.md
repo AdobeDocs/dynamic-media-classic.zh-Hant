@@ -1,17 +1,15 @@
 ---
 title: 上載影像資產或向量資產
-seo-title: 上載影像資產或向量資產
-description: 'null'
-seo-description: 瞭解如何上傳影像資產或向量資產。
+description: 瞭解如何上傳影像資產或向量資產。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1527'
 ht-degree: 84%
 
 ---
@@ -126,7 +124,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載[的「影像編輯」選項中的「挖空背景」。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載](image-editing-options-upload.md#image-editing-options-at-upload)的「影像編輯」選項中的「挖空背景」。[
 * 待上載檔案的名稱
 
 <!-- 
@@ -289,7 +287,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載[的「影像編輯」選項中的「挖空背景」。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載](image-editing-options-upload.md#image-editing-options-at-upload)的「影像編輯」選項中的「挖空背景」。[
 * 待上載檔案的名稱
 
 <!-- 
