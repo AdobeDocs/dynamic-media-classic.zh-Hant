@@ -1,8 +1,6 @@
 ---
 title: '"快速入門: 影像調整大小"'
-seo-title: '"快速入門: 影像調整大小"'
-description: 'null'
-seo-description: 簡介和快速開始調整影像大小，協助您使用影像調整大小技術快速上手。
+description: 簡介和快速開始調整影像大小，協助您使用影像調整大小技術快速上手。
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '846'
 ht-degree: 55%
 
 ---
