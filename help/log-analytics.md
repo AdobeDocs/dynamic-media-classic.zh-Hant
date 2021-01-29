@@ -1,8 +1,6 @@
 ---
 title: 登入 Adobe Analytics
-seo-title: 登入 Adobe Analytics
-description: 'null'
-seo-description: 瞭解如何登入Adobe Analytics。
+description: 瞭解如何登入Adobe Analytics。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '351'
 ht-degree: 36%
 
 ---
@@ -30,7 +28,7 @@ ht-degree: 36%
 
 **登入 Adobe Analytics**
 
-1. 在「動態媒體經典」頁面的右上角，點選「設定>應用程式設定」**[!UICONTROL 。]**
+1. 在「動態媒體經典」頁面的右上角，點選「設定>應用程式設定」]**。**[!UICONTROL 
 1. 在左窗格的「應用程式設定」下方，點選「**[!UICONTROL Adobe Analytics]**」。****
 1. 在「Adobe Analytics設定」頁面中，點選「**[!UICONTROL Adobe Analytics登入]**」。
 1. 在&#x200B;**[!UICONTROL Adobe Analytics登入]**&#x200B;對話方塊中，在&#x200B;**[!UICONTROL 密碼]**&#x200B;文字欄位中輸入您的公司名稱、Marketing Cloud組織ID（選用）、使用者名稱和&#x200B;*共用密碼*&#x200B;金鑰。
