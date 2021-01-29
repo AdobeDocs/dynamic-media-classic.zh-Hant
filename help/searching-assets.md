@@ -1,8 +1,6 @@
 ---
 title: 搜尋資產
-seo-title: 搜尋資產
-description: 'null'
-seo-description: 瞭解如何搜尋資產。
+description: 瞭解如何搜尋資產。
 uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 77%
 
 ---
