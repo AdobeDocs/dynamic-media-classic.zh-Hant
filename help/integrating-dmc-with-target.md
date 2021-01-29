@@ -1,8 +1,6 @@
 ---
 title: 整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium
-seo-title: 整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium
-description: 'null'
-seo-description: 瞭解如何將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合。
+description: 瞭解如何將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合。
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 10%
+source-wordcount: '166'
+ht-degree: 11%
 
 ---
 
