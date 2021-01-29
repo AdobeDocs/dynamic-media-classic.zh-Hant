@@ -1,16 +1,14 @@
 ---
 title: Adobe Dynamic Media Classic案頭應用程式——現已推出
-seo-title: Adobe Dynamic Media Classic案頭應用程式——現已推出
-description: 'null'
-seo-description: 進一步瞭解Dynamic Media Classic案頭應用程式。
+description: 進一步瞭解Dynamic Media Classic案頭應用程式。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -34,12 +32,18 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 * macOS X 10.10或更新版本。
 * Windows 7或更新版本。
 
-## 最新版20.20.2 {#latest-fixes-desktop-app}的修正
+## 最新版本(20.21.1){#latest-fixes-desktop-app}的修正
+
+* 由於逾時而導致下列訊息的登入問題：*此使用者可能在未取得權限的情況下被指派給群組。 請與管理員聯繫。*
+* 檢視器預設集會與每次嘗試的密碼錯誤重複。
+* 案頭應用程式由於根資料夾中有大量資產，因此無法回應。 (修正於Windows;視需要在macOS上工作)。
+
+## 舊版(20.20.2){#previous-version-fixes-desktop-app}的修正
 
 * 您可透過案頭應用程式使用者介面，針對macOS和Windows上傳的檔案數目不受限制。
 * 不需要登出案頭應用程式，即可在公司間切換。
 * Ctrl+V for paste操作現在可在Windows上運作。
-* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。
+* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。 —>
 
 ## 在macOS或Windows {#installation-dmc-app}上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式
 
@@ -52,20 +56,14 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   >[!NOTE]
-   >
-   >已安裝GA版本的用戶應在安裝最新版本之前，從本地Windows系統卸載&#x200B;*。*&#x200B;或者，使用者只需將其本機macOS系統上已安裝的GA版本更換為最新版本。 **&#x200B;新使用者應直接安裝最新版20.20.2。
+   * 最新版本(20.21.1)可從以下網址取得：
 
-   最新版本為20.20.2，可從以下網址取得：
+      * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * 舊版(20.20.2)可從以下網址取得：
 
-   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
-
-   GA（一般可用性）版本為20.20.1，可從以下網址獲得：
-
-   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
-
+      * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
@@ -111,11 +109,11 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載適用於macOS的Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
 1. 使用以下命令將下載的磁碟映像(.DMG)裝載到裝載點位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令將。APP檔案複製到&#x200B;**[!UICONTROL Applications]**:
 
@@ -151,19 +149,19 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. 使用下列命令，以記錄模式執行安裝程式：
 
-   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安裝程式窗口中，按照安裝步驟進行安裝，使交互／輸入（如安裝位置）記錄在`Setup.iss`檔案中。
 
-1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.20.2.exe`複製到其他電腦。
+1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.21.1.exe`複製到其他電腦。
 
 1. 對靜默安裝運行以下命令：
 
-   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    有關命令行參數的詳細資訊，請參閱[Setup.exe和Update.exe命令行參數。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
