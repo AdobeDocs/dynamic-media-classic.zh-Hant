@@ -1,8 +1,6 @@
 ---
 title: 上載時的影像編輯選項
-seo-title: 上載時的影像編輯選項
-description: 'null'
-seo-description: 瞭解上傳時可用的影像編輯選項。
+description: 瞭解上傳時可用的影像編輯選項。
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1138'
 ht-degree: 78%
 
 ---
