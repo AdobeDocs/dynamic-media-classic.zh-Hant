@@ -1,8 +1,6 @@
 ---
 title: 將範本連結到網頁
-seo-title: 將範本連結到網頁
-description: 'null'
-seo-description: 瞭解如何將範本連結至網頁。
+description: 瞭解如何將範本連結至網頁。
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '332'
 ht-degree: 69%
 
 ---
