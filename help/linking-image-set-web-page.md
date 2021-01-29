@@ -1,8 +1,6 @@
 ---
 title: 將影像集連結至網頁
-seo-title: 將影像集連結至網頁
-description: 'null'
-seo-description: 瞭解如何將影像集連結至網頁。
+description: 瞭解如何將影像集連結至網頁。
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '671'
 ht-degree: 91%
 
 ---
@@ -49,7 +47,7 @@ ht-degree: 91%
 
 部署影像集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下連結時，會啟動動態頁面(JSP)，在快顯縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南[中的「內嵌HTML5縮放檢視器」。](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)中的「內嵌HTML5縮放檢視器」。[
 
 ## 複製「影像集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
 
