@@ -1,8 +1,6 @@
 ---
 title: 編輯影像
-seo-title: 編輯影像
-description: 'null'
-seo-description: 瞭解如何編輯影像。
+description: 瞭解如何編輯影像。
 uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '312'
 ht-degree: 41%
 
 ---
