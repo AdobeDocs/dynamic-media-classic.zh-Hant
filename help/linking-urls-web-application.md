@@ -1,8 +1,6 @@
 ---
 title: 將 URL 連結至網路應用程式
-seo-title: 將 URL 連結至網路應用程式
-description: 'null'
-seo-description: 瞭解如何將URL連結至您的Web應用程式。
+description: 瞭解如何將URL連結至您的Web應用程式。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '834'
 ht-degree: 72%
 
 ---
