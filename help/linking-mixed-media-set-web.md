@@ -1,8 +1,6 @@
 ---
 title: 將混合媒體集連結至網頁
-seo-title: 將混合媒體集連結至網頁
-description: 'null'
-seo-description: 瞭解如何將混合媒體集連結至網頁。
+description: 瞭解如何將混合媒體集連結至網頁。
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 97%
+source-wordcount: '638'
+ht-degree: 98%
 
 ---
 
