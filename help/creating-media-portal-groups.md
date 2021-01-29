@@ -1,8 +1,6 @@
 ---
 title: 建立和管理 Media Portal 群組
-seo-title: 建立和管理 Media Portal 群組
-description: 'null'
-seo-description: 瞭解如何建立和管理Media Portal群組。
+description: 瞭解如何建立和管理Media Portal群組。
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '822'
 ht-degree: 96%
 
 ---
