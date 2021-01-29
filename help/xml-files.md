@@ -1,17 +1,13 @@
 ---
 title: XML 檔案
-seo-title: XML 檔案
-description: 'null'
-seo-description: 使用XML系統來管理影像和影像資訊的網站可將XML檔案上傳至Dynamic Media Classic。 進一步瞭解XML檔案。
-uuid: 6301d042-2040-4408-b816-8f134482beb7
+description: 使用XML系統來管理影像和影像資訊的網站可將XML檔案上傳至Dynamic Media Classic。 進一步瞭解XML檔案。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 61%
 
 ---
