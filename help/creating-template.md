@@ -1,8 +1,6 @@
 ---
 title: 建立範本
-seo-title: 建立範本
-description: 'null'
-seo-description: 瞭解如何在Dynamic Media Classic中建立範本。
+description: 瞭解如何在Dynamic Media Classic中建立範本。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3437'
 ht-degree: 65%
 
 ---
