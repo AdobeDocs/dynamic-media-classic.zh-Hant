@@ -1,8 +1,6 @@
 ---
 title: 設定影像預設集
-seo-title: 設定影像預設集
-description: 'null'
-seo-description: 瞭解如何設定影像預設集。
+description: 瞭解如何設定影像預設集。
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '649'
 ht-degree: 66%
 
 ---
@@ -65,7 +63,7 @@ Dynamic Media Classic隨附數個「最佳實務」影像預設集，這些預�
    |--- |--- |--- |--- |--- |
    | 交叉銷售 (迷你縮圖) | 75 x 75 | 1.5 | 0.8 | 5 |
    | 縮圖 | 150 x 150 | 1.1 | 1 | 5 |
-   | 主影像 | 350 x 350 | 1 | 1 | 6 |
+   | 主影像 | 350 x 350 | 1 | 3 | 6 |
    | 放大 | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 按一下&#x200B;**「儲存」**。
