@@ -1,8 +1,6 @@
 ---
 title: 「快速入門：eCatalogs」
-seo-title: 「快速入門：eCatalogs」
-description: 'null'
-seo-description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
+description: eCatalogs簡介和快速入門，可協助您快速上手使用eCatalog技術。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1446'
 ht-degree: 64%
 
 ---
@@ -42,7 +40,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中編輯`pdfbrochure`值。 若要這麼做，請在AEM中按一下「工具>一般> CRXDE Lite **[!UICONTROL 」。]**&#x200B;在左側面板導航樹中，導航至`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+>如果您是AEM Dynamic Media - Scene7模式使用者，並想要使用eCatalogs，則需要在CRXDE Lite中編輯`pdfbrochure`值。 若要這麼做，請在AEM中按一下「工具>一般> CRXDE Lite ]**」。**[!UICONTROL &#x200B;在左側面板導航樹中，導航至`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 >
 >在右下窗格的&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，選擇`jobParam`行。 將`pdfbrochure`的值從`false`設為`true`。 與`pdfbrochure=true`中一樣
 >
@@ -80,7 +78,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 影像地圖會將其他尺寸增加到 eCatalog 頁面。影像地圖是頁面的某個區域，提供更多有關項目的資訊。檢視者捲動指標至影像地圖上時，就會看到項目的描述。按一下影像地圖會啟動外部參照，它會開啟一個新網頁，您可以在其中瞭解更多有關項目的資訊。
 
-若要建立影像地圖，請開啟「eCatalog」畫面。然後，前往eCatalog畫面的「對應頁面」標籤，並使用「矩形影像地圖」工具或「多邊形影像地圖」工具繪製地圖。 ]****[!UICONTROL &#x200B;您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
+若要建立影像地圖，請開啟「eCatalog」畫面。然後，前往eCatalog畫面的「對應頁面」標籤，並使用「矩形影像地圖」工具或「多邊形影像地圖」工具繪製地圖。 ****&#x200B;您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
 
 繪製影像地圖之後，輸入按一下影像地圖時要前往的 URL 位址。您也可以輸入將指標移動到影像地圖上時會顯示的滑鼠指向效果文字。
 
