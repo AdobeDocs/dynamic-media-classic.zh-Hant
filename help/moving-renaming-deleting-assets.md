@@ -1,8 +1,6 @@
 ---
 title: 移動、重新命名和刪除資產
-seo-title: 移動、重新命名和刪除資產
-description: 'null'
-seo-description: 瞭解如何移動、重新命名和刪除資產。
+description: 瞭解如何移動、重新命名和刪除資產。
 uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '567'
 ht-degree: 66%
 
 ---
