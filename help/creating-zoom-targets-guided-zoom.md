@@ -1,8 +1,6 @@
 ---
 title: 建立已導引縮放的縮放目標
-seo-title: 建立已導引縮放的縮放目標
-description: 'null'
-seo-description: 瞭解如何建立引導縮放的縮放目標。
+description: 瞭解如何建立引導縮放的縮放目標。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 69%
+source-wordcount: '731'
+ht-degree: 68%
 
 ---
 
@@ -42,7 +40,7 @@ ht-degree: 69%
 * 按一下變換&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後選擇縮放目標。
 * 在瀏覽面板中，在&#x200B;**[!UICONTROL 詳細資料檢視]**&#x200B;中顯示影像，然後按一下&#x200B;**[!UICONTROL 縮放目標]**。
 
-在「縮放目標編輯器」螢幕上，按一下「選擇目標」按鈕（箭頭）以在更改目標大小或位置之前選擇目標。 ]****[!UICONTROL &#x200B;按一下「新增目標」(****（矩形），在影像上建立縮放目標。 「縮放目標編輯器」畫面上也提供了用於刪除、複製和命名縮放目標的工具。
+在「縮放目標編輯器」螢幕上，按一下「選擇目標」按鈕（箭頭）以在更改目標大小或位置之前選擇目標。 ****&#x200B;按一下「新增目標」(****（矩形），在影像上建立縮放目標。 「縮放目標編輯器」畫面上也提供了用於刪除、複製和命名縮放目標的工具。
 
 ### 建立縮放目標  {#creating-a-zoom-target}
 
@@ -96,6 +94,6 @@ ht-degree: 69%
 可以將縮放目標從一個影像複製到另一個影像。如果兩個影像的內容相似且縮放目標位於同一位置，則可複製目標。請按照以下步驟將縮放目標複製到其他影像:
 
 1. 在「縮放目標編輯器」畫面中開啟帶有要複製的縮放目標的影像。
-1. 按一下「將目標複製到&#x200B;**[!UICONTROL 」。]**
+1. 按一下「將目標複製到&#x200B;]**」。**[!UICONTROL 
 1. 在「選擇影像」對話框中，選擇影像並按一下&#x200B;**[!UICONTROL 選擇]**。
 
