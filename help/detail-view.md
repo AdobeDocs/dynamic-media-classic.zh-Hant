@@ -1,8 +1,6 @@
 ---
 title: 在「詳細資訊」檢視中進行作業
-seo-title: 在「詳細資訊」檢視中進行作業
-description: 'null'
-seo-description: 瞭解如何在「詳細資訊」視圖中工作。
+description: 瞭解如何在「詳細資訊」視圖中工作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '583'
 ht-degree: 79%
 
 ---
@@ -46,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 在這個資產按兩下。
    * 選擇資產，然後按一下&#x200B;**[!UICONTROL 詳細資訊視圖]**。
-   * 選取資產，然後按一下「檔案>詳細資訊&#x200B;**[!UICONTROL 」。]**
+   * 選取資產，然後按一下「檔案>詳細資訊&#x200B;]**」。**[!UICONTROL 
 
 >[!NOTE]
 >
