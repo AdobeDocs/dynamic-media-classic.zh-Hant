@@ -1,17 +1,15 @@
 ---
 title: 設定 eCatalog 檢視器預設集
-seo-title: 設定 eCatalog 檢視器預設集
-description: 'null'
-seo-description: 瞭解如何設定eCatalog檢視器預設集。
+description: 瞭解如何設定eCatalog檢視器預設集。
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '473'
 ht-degree: 66%
 
 ---
