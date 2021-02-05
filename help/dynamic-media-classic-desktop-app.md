@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Dynamic Media Classic使用者現在可以存取新的案頭應用程式體驗�
 
 >[!IMPORTANT]
 >
->我們建議您在2020年10月1日之前安裝新的Adobe Dynamic Media Classic案頭應用程式。 如此可確保在2020年12月31日淘汰Adobe Flash Player之前，您的轉場順暢。 在該日，您將無法再登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，在產品中標示為Dynamic Media Classic。
+>Adobe建議您在2020年10月1日之前安裝新的Adobe Dynamic Media Classic案頭應用程式。 如此可確保在2020年12月31日淘汰Adobe Flash Player之前，您的轉場順暢。 在該日期之後，您就無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，在產品中標示為Dynamic Media Classic。
 
 請參閱[New Dynamic Media Classic登入體驗的常見問答集。](/help/new-ui-2020.md)
 
 ## Adobe Dynamic Media Classic案頭應用程式的系統需求{#system-requirements-dmc-app}
 
 Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
-* macOS X 10.10或更新版本。
+
+* macOS 10.10或更新版本。
 * Windows 7或更新版本。
 
 ## 最新版本(20.21.1){#latest-fixes-desktop-app}的修正
 
-* 由於逾時而導致下列訊息的登入問題：*此使用者可能在未取得權限的情況下被指派給群組。 請與管理員聯繫。*
+* 由於逾時而導致下列訊息的登入問題：*未經許可，可將此用戶分配給組或組。 請與管理員聯繫。*
 * 檢視器預設集會與每次嘗試的密碼錯誤重複。
-* 案頭應用程式由於根資料夾中有大量資產，因此無法回應。 (修正於Windows;視需要在macOS上工作)。
+* 案頭應用程式由於根資料夾中有許多資產，因此無法回應。 (修正於Windows;視需要在macOS上工作)。
 
 ## 舊版(20.20.2){#previous-version-fixes-desktop-app}的修正
 
@@ -84,7 +85,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
    ![Dynamic Media Classic登入](/help/assets/dmclassic-login1.png)
 
-1. 使用與您的瀏覽器認證相同的認證來登入Adobe Dynamic Media Classic。
+1. 若要登入Adobe Dynamic Media Classic案頭應用程式，請使用與您在瀏覽器中登入Dynamic Media Classic時相同的認證。
 
    要使用&#x200B;**[!UICONTROL Server]**，請參見生產環境的以下映射：
 
@@ -94,7 +95,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
    | https://s7sps3.scene7.com/ | EMEA（歐洲、中東和非洲）生產 |
    | https://s7sps5.scene7.com/ | 亞太產業 |
 
-1. 張貼登入UI後，您會注意到熟悉的瀏覽器UI體驗。 您現在可以在案頭應用程式UI上，像平常一樣隨身攜帶日常活動。
+1. 登入後，請注意熟悉的瀏覽器使用者介面體驗。 您可以像平常一樣，在案頭應用程式上繼續日常的Dynamic Media Classic活動。
 
 ## 在macOS {#install-silent-mac-dmc-app}上下載並&#x200B;*silent*&#x200B;安裝最新的Adobe Dynamic Media Classic案頭應用程式
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media Classic登入](/help/assets/dmclassic-login1.png)
 
-1. 使用與您的瀏覽器認證相同的認證來登入Adobe Dynamic Media Classic。
+1. 若要登入Adobe Dynamic Media Classic案頭應用程式，請使用與您在瀏覽器中登入Dynamic Media Classic時相同的認證。
 
    要使用&#x200B;**[!UICONTROL Server]**，請參見生產環境的以下映射：
 
@@ -169,7 +170,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media Classic登入](/help/assets/dmclassic-login1.png)
 
-1. 使用與您的瀏覽器認證相同的認證來登入Adobe Dynamic Media Classic。
+1. 若要登入Adobe Dynamic Media Classic案頭應用程式，請使用與您在瀏覽器中登入Dynamic Media Classic時相同的認證。
 
    要使用&#x200B;**[!UICONTROL Server]**，請參見生產環境的以下映射：
 
@@ -194,7 +195,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 ### 手動清除影像快取和資產快取
 
-除了使用案頭應用程式清除影像和資產快取外，您也可以直接從檔案系統清除快取，手動完成此工作。
+除了使用案頭應用程式清除影像和資產快取外，您也可以直接從檔案系統手動清除快取。
 
 1. 根據您的作業系統，導覽至下列：
 
@@ -207,7 +208,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 **_適用於Windows和macOS —— 如何在公司間切換？_**<br>若要在公司之間切換，請執行下列動作：
 * 在Dynamic Media Classic應用程式中，從公司下拉式清單中選取新公司。
-* 當快顯視窗出現時，點選&#x200B;**[!UICONTROL OK]**&#x200B;以登出並關閉應用程式。
+* 出現快顯視窗時，點選&#x200B;**[!UICONTROL OK]**&#x200B;以登出並關閉應用程式。
 
    ![重新啟動應用程式以使用新公司](/help/assets/dmclassic-new-company1.png)
 * 重新啟動Dynamic Media Classic，然後照常登入，以便與新公司合作。
@@ -216,7 +217,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 **_在Dynamic Media Classic的登陸頁面上，我無法看到「Media Cart」面板。_**<br>在Dynamic Media Classic中，點選「**[!UICONTROL 設定>個人設定」]**。在「瀏覽器」區段中，請確定已選取**[!UICONTROL 「顯示MediaPortal功能&#x200B;]**」（已勾選）。 點選**[!UICONTROL 儲存>關閉&#x200B;]**。
 
-**_資產的發佈狀態（綠色指標）無法正確反映。_**<br>在瀏覽器UI中，必須重新登入UI，才能查看資產的正確發佈狀態。在案頭應用程式中，我們在**[!UICONTROL 選擇無&#x200B;]**按鈕右側的工具列上引入了**[!UICONTROL 重新整理&#x200B;]**圖示。 點選**[!UICONTROL 重新整理&#x200B;]**圖示，查看指定頁面上所有資產的最新狀態。 不需要像瀏覽器UI一樣重新登入。
+**_資產的發佈狀態（綠色指標）無法正確反映。_**<br>在瀏覽器使用者介面中，必須重新登入UI，才能查看資產的正確發佈狀態。在案頭應用程式中，Adobe在**[!UICONTROL 選取無&#x200B;]**按鈕右側的工具列中引入了**[!UICONTROL Refresh ]**圖示。 點選**[!UICONTROL 重新整理&#x200B;]**圖示，查看指定頁面上所有資產的最新狀態。 不需要像瀏覽器UI一樣重新登入。
 
 ![「刷新」](/help/assets/refresh-icon1.png)
 *表徵圖「刷新」表徵圖*
