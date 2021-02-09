@@ -1,13 +1,11 @@
 ---
 title: 發佈設定
 description: 「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media Classic伺服器傳送至網站或應用程式。
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ ht-degree: 64%
 
 管理員可以在「影像伺服器」、「影像演算」和「暈映」畫面中變更預設設定，以建立預設設定並用來從伺服器傳送資產。
 
-若要開啟「發佈資產」畫面，請按一下「設定 > 應用程式設定 > 發佈設定」。
+若要開啟「發佈設定」畫面，請按一下「設定&#x200B;**** > **應用程式設定** > **發佈設定**」。
 
 >[!NOTE]
 >
