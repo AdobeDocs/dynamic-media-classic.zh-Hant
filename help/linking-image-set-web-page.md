@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 91%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
 
 部署影像集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下連結時，會啟動動態頁面(JSP)，在快顯縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)中的「內嵌HTML5縮放檢視器」。[
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的「內嵌HTML5縮放檢視器」。[
 
 ## 複製「影像集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
 
