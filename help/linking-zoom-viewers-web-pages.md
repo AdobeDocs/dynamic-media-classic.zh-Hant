@@ -1,17 +1,15 @@
 ---
 title: 將縮放檢視器連結至網頁
 description: 瞭解如何將縮放檢視器連結至您的網頁。
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ ht-degree: 86%
 
 網站訪客通常透過先選取「縮放」圖示 (通常該圖示顯示為放大鏡影像) 來縮放影像。選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)中的[內嵌HTML5基本縮放檢視器。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5基本縮放檢視器。
 
 ## 複製「縮放」檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ ht-degree: 86%
 
    不可在「內嵌程式碼」對話框中編輯程式碼。
 
-1. 按一下 關閉。
-
+1. 按一下 **關閉**。
