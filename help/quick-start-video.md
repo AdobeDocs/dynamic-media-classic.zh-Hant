@@ -1,16 +1,14 @@
 ---
 title: '"快速入門: 視訊"'
-description: 簡介和快速入門影片可協助您快速上手使用。
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: Adobe Dynamic Media Classic Video簡介和快速入門，協助您快速上手使用。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
    在各種 iOS 平台上支援最適化視訊串流。
 
-   請參閱[Adobe檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)中的最新支援。
+   請參閱[Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)中的最新支援。
 
    Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。 您可以在下列網站中找到支援此視訊格式的 Blackberry 裝置: 
 
