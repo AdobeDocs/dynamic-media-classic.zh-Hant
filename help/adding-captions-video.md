@@ -6,9 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 63%
 
 Dynamic Media Classic可將標題檔案轉換為JSON（JavaScript物件註解）格式。 這項轉換意味著您可以在網頁中內嵌 JSON 文字，成為隱藏但完整的視訊文字。搜尋引擎便可以為內容建立編目或索引，讓視訊更易於尋找，為客戶提供更多有關視訊內容的詳細資訊。
 
-如需在URL中使用JSON函式的詳細資訊，請參閱&#x200B;*Adobe Image Serving API說明*&#x200B;中的[伺服靜態（非影像）內容](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html)。
+如需在URL中使用JSON函式的詳細資訊，請參閱&#x200B;*Adobe Image Serving API說明*&#x200B;中的[伺服靜態（非影像）內容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)。
 
 **增加註解至視訊**
 
