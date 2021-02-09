@@ -1,18 +1,14 @@
 ---
 title: 應用程式設定
-seo-title: 應用程式設定
-description: 瞭解如何設定Dynamic Media Classic的應用程式區域。
-seo-description: 瞭解如何設定Dynamic Media Classic的應用程式區域。
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: 瞭解如何設定Dynamic Media Classic的「應用程式」區域。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的D
 
 若要開啟「影像預設集」畫面，請在全域導覽列上按一下「設定&#x200B;**** > **影像預設集**」。
 
-請參閱[智慧型影像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+請參閱[智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
 ### 建立和編輯「影像預設集」{#creating-and-editing-image-presets}
 
@@ -374,10 +370,10 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
 | 2 | 4:3、384x288px、行動裝置 (iPhone、iPad、Android)、(400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
-| 1 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
+| 3 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
 | 4 | 4:3、384x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
 | 5 | 16:9、640x360、平板電腦 (iPad、Android)、(800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等解析度、WiFi |
-| 6 | 4:3、640x480、平板電腦 (iPad、Android)、(800 Kbps) | 900 | _iPad_640x480_800K | 600 | 640x480 | 與來源同 | 80 | 中等解析度、WiFi |
+| 6 | 4:3、640x480、平板電腦 (iPad、Android)、(800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640x480 | 與來源同 | 80 | 中等解析度、WiFi |
 | 7 | 16:9、768x432、平板電腦 (iPad、Android)、(1200 Kbps) | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | 與來源同 | 96 | 高解析度、WiFi |
 | 8 | 4:3、768x576、平板電腦 (iPad、Android)、(1200 Kbps) | 1.5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | 與來源同 | 96 | 高解析度、WiFi |
 | 9 | 16:9, 1280x720，桌上型電腦，(2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
@@ -393,8 +389,8 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9、480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
-| 2 | 16:9、640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
+| 3 | 16:9、480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
+| 2 | 16:9、640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
 | 1 | 16:9、800x450 (1200 Kbps) | 1.5 Mbps | _800x450_1200K | 1200 | 800x450 | 與來源同 | 96 | 中高解析度 |
 | 4 | 16:9、1280x720 (2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000年 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
 | 5 | 4:3、320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320x240 | 與來源同 | 64 | 低解析度 |
@@ -406,12 +402,12 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
-| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 600 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
+| 3 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
+| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
 | 1 | 16:9、800x450 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 與來源同 | 96 | 中高解析度 |
 | 4 | 16:9、1280x720 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000年 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
 | 5 | 4:3、320x240 (400 Kbps)、OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 與來源同 | 64 | 低解析度 |
-| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | 與來源同 | 80 | 中等解析度 |
+| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 與來源同 | 80 | 中等解析度 |
 | 7 | 4:3、640x480 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 與來源同 | 96 | 中高解析度 |
 | 8 | 4:3、1280x960 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000年 | 1280x960 | 與來源同 | 128 | 高畫質 |
 
@@ -425,14 +421,14 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊位元速率 (Kbps) | 像素寬度/高度 | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9、512x288、行動裝置 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
-| 2 | 16:9、512x288、行動裝置 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
+| 3 | 16:9、512x288、行動裝置 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
+| 2 | 16:9、512x288、行動裝置 (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
 | 3 | 16:9、512x288、行動裝置 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 與來源同 | 80 | 中等解析度、Wi-Fi |
 | 4 | 16:9、512x288、行動裝置 (1000 Kbps) | 1.2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 與來源同 | 80 | 高解析度、Wi-Fi |
 | 5 | 16:9、512x288、行動裝置 (1200 Kbps) | 1.5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | 與來源同 | 96 | 高解析度、Wi-Fi |
 | 6 | 4:3、384x288、行動裝置 (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
-| 7 | 4:3、384x288、行動裝置 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
-| 8 | 4:3、448x336、行動裝置 (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448x336 | 與來源同 | 80 | 中等解析度、Wi-Fi |
+| 7 | 4:3、384x288、行動裝置 (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
+| 8 | 4:3、448x336、行動裝置 (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | 與來源同 | 80 | 中等解析度、Wi-Fi |
 | 9 | 4:3、448x336、行動裝置 (1000 Kbps) | 1.2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | 與來源同 | 80 | 高解析度、Wi-Fi |
 | 10 | 4:3、448x336、行動裝置 (1200 Kbps) | 1.5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | 與來源同 | 96 | 高解析度、Wi-Fi |
 
@@ -440,13 +436,13 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->**Flash檢視器停售通知** -自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。如需此重要變更的詳細資訊，請參閱下列常見問答網站：[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash檢視器停售通知** -自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
 最佳實務是使用Dynamic Media Classic HTML5視訊檢視器。 HTML5 視訊檢視器使用的預設集是健全的視訊播放器。此單一播放程式集諸多功能於一身，能夠使用 HTML5 與 CSS 來設計播放組件，能夠實現內嵌播放，還能夠根據瀏覽器的功能來使用最適化串流與漸進式串流，可協助您將多媒體內容同時提供給桌上型電腦、平板電腦和行動裝置使用者，並確保順暢的視訊體驗。
 
-請參閱Adobe檢視器參考指南中的[關於HTML5檢視器](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)。
+請參閱Adobe檢視器參考指南中的[關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
 請參閱[動態媒體經典檢視器預設集相容性矩陣](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -490,15 +486,13 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
 
-如需此重要變更的詳細資訊，請參閱下列常見問答網站：[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
-
 下表列出目前可用的Dynamic Media Classic Viewer預設集。 此表格也指定了檢視器與桌上型電腦和行動裝置的相容性，以及用於個別檢視器的技術。
 
 另請參閱[Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
-請參閱[Adobe檢視器參考發行說明](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+請參閱[Adobe檢視器參考發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)。
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android 智慧型手機 | Android 平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
    >
    >選擇「與來源同」，將「視訊檢視器」自動調整為編碼視訊自身的解析度大小。如果選擇該選項，則不能輸入「舞台寬度」和「舞台高度」。相反，這些選項來自視訊本身。如果您選擇「與來源同」，請設定「邊距大小」選項以反映視訊播放區域外部的外觀尺寸。該邊距大小是視訊控制項的像素高度和寬度。您可以使用以下圖示來協助您決定要使用的邊距大小。*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![視訊檢視器的邊界設定](assets/vs_video_viewer_configure_margin.png)
 
 1. 進行以下一項操作:
 
