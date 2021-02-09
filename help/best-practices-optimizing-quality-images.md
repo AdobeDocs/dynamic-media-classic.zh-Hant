@@ -1,16 +1,14 @@
 ---
 title: 影像品質最佳化的最佳實踐
 description: 瞭解最佳化影像品質的最佳範例。
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 61%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 61%
 
 Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和最佳化影像和轉譯結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱[Smart imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+另請參閱[Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和�
 
 最佳實務白皮書[在Adobe Dynamic Media Classic和Image Server](/help/assets/s7_sharpening_images.pdf)中銳利化影像。
 
-另請參閱[使用非銳利遮色片銳利化影像](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 有了Dynamic Media Classic，您就可以在擷取、傳送或兩者上銳利化影像。 不過在大部分情況下，您應該只使用其中一種方法 (而非同時使用兩者) 將影像銳利化。傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
 
@@ -70,11 +68,7 @@ Dynamic Media Classic包含超過100個影像伺服指令，可用來調整和�
 
          此參數可決定銳化像素與周圍區域的差異程度，之後才會被視為邊緣像素，濾鏡會銳化這些像素。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
 
-         如需如何設定這三個參數的詳細資訊，包括使用濾鏡的最佳實踐，請參閱以下資源: 
-
-         [銳利化影像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)上的Dynamic Media Classic說明主題。
-
-         最佳實務白皮書[在Adobe Scene7 Publishing System和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
+         如需如何設定這三個參數的詳細資訊，包括搭配濾鏡使用的最佳實務，請參閱「在Adobe Scene7 Publishing System中銳利化影像」和「影像伺服器」](/help/assets/s7_sharpening_images.pdf)。[
 
       * Dynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
