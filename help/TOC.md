@@ -4,12 +4,12 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 深入了解 Dynamic Media Classic 使用方法
+user-guide-description: 進一步了解使用 Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '748'
 ht-degree: 77%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 77%
 # Adobe Dynamic Media Classic 指南 {#using}
 
 + [Adobe Dynamic Media Classic 指南](home.md)
-+ [最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
 + [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro}簡介
