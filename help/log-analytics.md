@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 36%
+source-wordcount: '354'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 36%
 1. 在「Adobe Analytics設定」頁面中，點選「**[!UICONTROL Adobe Analytics登入]**」。
 1. 在&#x200B;**[!UICONTROL Adobe Analytics登入]**&#x200B;對話方塊中，在&#x200B;**[!UICONTROL 密碼]**&#x200B;文字欄位中輸入您的公司名稱、Marketing Cloud組織ID（選用）、使用者名稱和&#x200B;*共用密碼*&#x200B;金鑰。
 
-   您可以從Analytics管理員控制台擷取&#x200B;*共用密碼*&#x200B;金鑰。 請參閱[如何取得使用者帳戶的API憑證](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
+   您可以從Analytics管理員控制台擷取&#x200B;*共用密碼*&#x200B;金鑰。 請參閱[如何取得使用者帳戶的API憑證](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 「登入」]**。
 1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;下拉式功能表中，選擇報表套裝，然後按一下&#x200B;**[!UICONTROL 確定]**。
