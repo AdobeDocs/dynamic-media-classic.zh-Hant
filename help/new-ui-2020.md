@@ -1,14 +1,13 @@
 ---
 title: Adobe Dynamic Media Classic案頭應用程式
-seo-title: Adobe Dynamic Media Classic案頭應用程式
 description: Dynamic Media Classic使用者現在可體驗使用者介面的完整更新。 本體驗提供更新登入，並提供重要資源的連結，而且此更新不再仰賴瀏覽器中的Adobe Flash技術。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Adobe致力於確保我們的產品符合其客戶的安全性要求。 全新�
 
 Dynamic Media Classic是功能強大、功能豐富的解決方案，旨在增強您的多媒體策略。 為確保您充分運用所有功能，請確定您已探索下列實用資源：
 
-* [動態媒體最佳實務教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [動態媒體最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [動態媒體部落格文章](https://theblog.adobe.com/tag/dynamic-media/)
-* [動態媒體電子報封存](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [動態媒體電子報封存](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-此外，[訂閱動態媒體電子報](https://www.adobe.com/subscription/dynamic-media-newsletter.html)，隨時掌握最新消息、資訊、培訓機會、[Smart Imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)等強大功能，以及輔助稽核計畫。
+此外，[訂閱動態媒體電子報](https://www.adobe.com/subscription/dynamic-media-newsletter.html)，隨時掌握最新消息、資訊、培訓機會、[Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)等強大功能，以及輔助稽核計畫。
 
 ### **_我有興趣進一步瞭解如何使用AEM Assets升級至動態媒體。我可以在哪裡找到更多資訊？_**
 
