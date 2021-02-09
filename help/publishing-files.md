@@ -1,17 +1,15 @@
 ---
 title: 發佈檔案
-description: 瞭解如何發佈檔案。
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: 您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
 
-Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參閱[HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參閱[HTTP2內容傳送常見問答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
