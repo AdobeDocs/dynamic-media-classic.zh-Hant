@@ -5,9 +5,9 @@ description: Adobe Dynamic Media Classic技術檔案
 seo-description: 'Adobe Dynamic Media Classic（先前稱為Scene 7）的技術檔案、發行說明和自助資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 ## Dynamic Media 開發人員資源
 
-* [動態媒體開發人員資源登陸頁面](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — 包含檢視器參考指南、影像伺服／影像轉換API、影像製作系統API和動態媒體經典版本注意事項。
+* [動態媒體開發人員資源登陸頁面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — 包含檢視器參考指南、影像伺服／影像轉換API、影像製作系統API和動態媒體經典版本注意事項。
 * [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html) — 包含視訊、可購買媒體、混合媒體、回轉集、內嵌縮放、影像和色票集，以及浮動畫面的檢視器範例。
 
 ## Dynamic Media Classic使用者資源
