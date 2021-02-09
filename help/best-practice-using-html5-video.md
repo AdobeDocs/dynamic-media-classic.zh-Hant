@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 26%
 
 ---
@@ -24,7 +24,7 @@ Dynamic Media Classic HTML5 Video檢視器預設集是強穩的視訊播放器�
 
 此單一播放程式集諸多功能於一身，能夠使用 HTML5 與 CSS 來設計播放組件，能夠實現內嵌播放，還能夠根據瀏覽器的功能來使用最適化串流與漸進式串流，可協助您將多媒體內容同時提供給桌上型電腦使用者和行動裝置使用者，並確保順暢的視訊體驗。
 
-另請參閱Adobe檢視器參考指南中的[關於HTML5檢視器](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)。
+另請參閱Adobe檢視器參考指南中的[關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
 ## 在桌上型電腦和行動裝置上使用Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}播放視訊
 
