@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Dynamic Media經典版2021.1的已知限制
+## Dynamic Media經典版20.21.1的已知限制
 
 * **[!UICONTROL Server]**&#x200B;下拉式清單在更新至Dynamic Media傳統案頭應用程式20.21.1後為空——藍本：您可以安裝並登入Dynamic MediaClassic 20.20.1或20.20.2，然後關閉應用程式。 然後更新為Dynamic Media經典20.21.1。當您嘗試登入時，**[!UICONTROL 登入帳戶]**&#x200B;對話方塊中的&#x200B;**[!UICONTROL Server]**&#x200B;下拉式清單是空的。 要解決此問題，您必須[手動清除快取](#clear-cache)（請參閱上述步驟）。
 
