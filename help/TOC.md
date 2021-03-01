@@ -19,21 +19,21 @@ ht-degree: 77%
 
 + [Adobe Dynamic Media Classic 指南](home.md)
 + [最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新功能：體驗動態媒體經典登入功能現已推出](new-ui-2020.md)
-+ [動態媒體電子報，依Experience League區分](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic {#intro}簡介
-   + [Adobe Dynamic Media Classic案頭應用程式——現已推出](dynamic-media-classic-desktop-app.md)
-   + [關於Dynamic Media Classic說明](introduction.md)
++ [新功能：Dynamic Media經典體驗登入現已推出](new-ui-2020.md)
++ [Dynamic Media電子報，作者Experience League](dynamic-media-newsletter.md)
++ Adobe·Dynamic Media經典{#intro}簡介
+   + [AdobeDynamic Media經典案頭應用程式——現已推出](dynamic-media-classic-desktop-app.md)
+   + [關於Dynamic Media經典幫助](introduction.md)
    + [開發人員資源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系統需求](system-requirements.md)
    + [支援](support.md)
-   + [Dynamic Media Classic Media Portal的說明](help-dmc-media-portal.md)
+   + [Dynamic Media經典媒體入口網站的說明](help-dmc-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [常用資源](popular-resources.md)
    + [培訓視訊](training-videos.md)
 + 快速入門 {#getting-started}
-   + [Adobe Dynamic Media Classic平台概觀](dmc-platform-overview.md)
+   + [AdobeDynamic Media經典平台概觀](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登入和登出](signing-out.md)
    + [導覽基本概念](navigation-basics.md)
@@ -72,7 +72,7 @@ ht-degree: 77%
    + [移動、重新命名和刪除資產](moving-renaming-deleting-assets.md)
    + [在「詳細資訊」檢視中進行作業](detail-view.md)
    + [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)
-   + [從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md)
+   + [匯出資產自Dynamic Media經典](exporting-assets-from-dmc.md)
    + [即時與同級共用資產變更](sharing-asset-changes-peers-real.md)
    + [列印資產](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -147,8 +147,8 @@ ht-degree: 77%
    + [建立混合媒體集](creating-mixed-media-set.md)
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
-+ Adobe Analytics工具套件{#analytics-kit}
-   + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
++ Adobe Analytics工具包{#analytics-kit}
+   + [快速入門：整合Dynamic Media經典與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定 Adobe Analytics 報告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -156,11 +156,11 @@ ht-degree: 77%
    + [檢視 Adobe Analytics 報告以測試整合](testing-integration-viewing-analytics-report.md)
    + [啟用 Adobe Analytics 視訊報告](enabling-analytics-video-reports.md)
    + [發佈 Adobe Analytics 配置資訊](publishing-analytics-configuration-information.md)
-+ Adobe Target Standard/Premium整合{#target-classic}
-   + [快速入門：Adobe Target Standard/Premium整合](quick-start-target-integration.md)
-   + [整合Dynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
++ Adobe Target標準版／高級版整合{#target-classic}
+   + [快速入門：Adobe Target標準版/Premium整合](quick-start-target-integration.md)
+   + [整合Dynamic Media經典與Adobe Target標準版／高級版](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [將選件集推送至Adobe Target Standard/Premium](pushing-offer-sets-target.md)
+   + [將選件集推送至Adobe TargetStandard/Premium](pushing-offer-sets-target.md)
 + 使用者產生的內容 {#user-generated-content}
    + [關於使用者產生的內容](about-ugc.md)
    + [刪除上載的資產](deleting-uploaded-asset.md)
