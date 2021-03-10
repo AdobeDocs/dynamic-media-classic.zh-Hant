@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 * 您可透過案頭應用程式使用者介面，針對macOS和Windows上傳的檔案數目不受限制。
 * 不需要登出案頭應用程式，即可在公司間切換。
 * Ctrl+V for paste操作現在可在Windows上運作。
-* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。 —>
+* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。
 
 ## 在macOS或Windows {#installation-dmc-app}上下載並安裝最新的AdobeDynamic Media經典案頭應用程式
 
