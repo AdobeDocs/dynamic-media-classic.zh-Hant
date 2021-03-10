@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 * 由於逾時而導致下列訊息的登入問題：*未經許可，可將此用戶分配給組或組。 請與管理員聯繫。*
 * 檢視器預設集會與每次嘗試的密碼錯誤重複。
 * 案頭應用程式由於根資料夾中有許多資產，因此無法回應。 (修正於Windows;視需要在macOS上工作)。
-* jlkjlkj
 
 ## 舊版(20.20.2){#previous-version-fixes-desktop-app}的修正
 
