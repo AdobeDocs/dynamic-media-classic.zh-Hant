@@ -33,8 +33,8 @@ ht-degree: 77%
 地圖選取矩形影像地圖工具並拖曳至頁面以建立矩形。
 
    * **多邊形**
-地圖選取「多邊形影像地圖」工具，並在影像周長周圍按幾下所需的次數。當您按一下時，Dynamic Media Classic會繪製影像地圖的邊界。
-   在您繪製影像地圖後，Dynamic Media Classic會在影像地圖清單中為其指派名稱。 若要建立名稱，Dynamic Media Classic會在您正在工作的eCatalog頁面名稱中附加一個循序編號。
+地圖選取「多邊形影像地圖」工具，並在影像周長周圍按幾下所需的次數。當您按一下時，Dynamic Media經典會繪製影像地圖的邊界。
+   在您繪製影像地圖後，Dynamic Media經典會在影像地圖清單中為其指派名稱。 要形成名稱，Dynamic Media經典在您正在工作的eCatalog頁面名稱中附加一個連續編號。
 
 1. (選擇性) 在「影像地圖」清單面板中的「名稱」欄下，輸入「影像地圖」的新名稱。請勿在輸入的名稱中包含空格。
 1. 您可以讓檢視者在按一下「影像地圖」時開啟新網頁。在「影像地圖」清單面板中的「URL」欄中輸入網頁的 URL。
@@ -137,7 +137,7 @@ ht-degree: 77%
 
 ## 在 eCatalog 之間複製影像地圖  {#copying-image-maps-between-ecatalogs}
 
-您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了成功複製，Dynamic Media Classic建議在具有相同頁數和相同影像的eCatalog之間複製。
+您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了成功複製，Dynamic Media經典建議在具有相同頁數和相同影像的eCatalog之間複製。
 
 >[!NOTE]
 >
@@ -149,4 +149,4 @@ ht-degree: 77%
 1. 在「排序頁面」標籤上，按一下「複製地圖」。
 1. 在「選取資產」對話框中，選取您要複製其影像地圖的 eCatalog，然後按一下「選取」。
 
-如果目標eCatalog（您複製影像對應的eCatalog）具有不同大小的頁數或影像，Dynamic Media Classic會顯示警告訊息。 您可以不理會警告，按一下「繼續」以複製影像地圖。
+Dynamic Media經典會在目標eCatalog（您複製影像地圖的eCatalog）具有不同頁數且大小不同的影像時，顯示警告訊息。 您可以不理會警告，按一下「繼續」以複製影像地圖。
