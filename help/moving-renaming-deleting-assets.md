@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 66%
+source-wordcount: '574'
+ht-degree: 65%
 
 ---
 
@@ -38,7 +40,7 @@ ht-degree: 66%
    * 選取名稱，輸入新名稱，然後按 Enter 鍵或在名稱以外的位置按一下。
    * 選擇「檔案 > 重新命名」。資產名稱會以反白顯示。輸入新名稱，然後按 Enter 鍵。
 
-請確定您不要輸入現有Dynamic Media Classic資產的名稱。
+請確定您不要輸入現有的Dynamic Media經典資產的名稱。
 
 ## 刪除資產 {#delete-assets}
 
@@ -59,13 +61,13 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->如果您刪除資產檔案的原因是要以相同名稱取代另一個檔案，Dynamic Media Classic建議覆寫資產檔案，而非將其刪除。
+>Dynamic Media·Classic建議覆寫資產檔案，而非刪除資產檔案，前提是您刪除資產檔案的理由是以相同名稱取代另一個檔案。
 
 ## 利用文字檔案刪除多項資產 {#delete-multiple-assets-with-a-text-file}
 
-若要在整個資產庫中一次刪除多個資產，您可以在文字檔案中列出要刪除的資產，並將清單送出至Dynamic Media Classic。
+若要一次刪除整個資產庫中的許多資產，您可以在文字檔案中列出要刪除的資產，並將清單送出至Dynamic Media經典。
 
-建立Dynamic Media Classic ID清單，並儲存為文字(.txt)檔案。 每個Dynamic Media Classic ID都必須位於其自己的行上（後面接著硬式傳回）。
+建立Dynamic Media經典ID的清單，並儲存為文字(.txt)檔案。 每個Dynamic Media經典ID都必須在自己的行中（後面接著硬返回）。
 
 建立清單之後，遵循下列步驟即可使用該清單刪除資產:
 
@@ -73,7 +75,7 @@ ht-degree: 66%
 1. 在「刪除資產清單」對話框中，瀏覽或輸入含有您要刪除之資產清單的文字檔案路徑。
 1. 按一下「刪除」按鈕。
 
-當您刪除包含文字檔的資產時，如果清單中沒有任何Dynamic Media Classic ID，則會顯示訊息，告知您Dynamic Media Classic是「無法驗證清單中的這些項目：」以及項目清單。 不過，Dynamic Media Classic不會在「工作」畫面上產生錯誤。
+當您刪除包含文字檔的資產時，如果清單中沒有任何Dynamic Media經典ID，會顯示訊息，告知您Dynamic Media經典是「無法驗證清單中的這些項目：」以及項目清單。 不過，Dynamic Media經典不會在「工作」畫面上產生錯誤。
 
 >[!MORELIKETHIS]
 >
