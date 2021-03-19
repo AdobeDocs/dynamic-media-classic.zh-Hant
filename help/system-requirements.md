@@ -1,24 +1,26 @@
 ---
 title: 系統需求
-description: '瞭解使用Dynamic Media Classic提供最佳體驗的系統需求。 '
+description: '瞭解使用Dynamic Media經典的最佳體驗所需的系統需求。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 45%
+source-wordcount: '98'
+ht-degree: 42%
 
 ---
 
 
 # 系統需求 {#system-requirements}
 
-為獲得使用Dynamic Media Classic案頭應用程式的最佳體驗，請確定您的系統符合下列系統需求和建議：
+為獲得使用Dynamic Media經典案頭應用程式的最佳體驗，請確定您的系統符合下列系統需求和建議：
 
 * 需要Microsoft® Windows® 7或更新版本或macOS X 10.6或更新版本的Macintosh® Intel處理器。
 * 必須具備 3 GB 或以上的 RAM (建議為 4 GB 或以上)。
