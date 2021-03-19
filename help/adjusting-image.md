@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
 
 # 調整影像{#adjusting-an-image}
 
-Dynamic Media Classic提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
+Dynamic Media經典提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
 
 另請參閱[建立影像的別名](adjusting-image.md#creating_an_alias_for_an_image)。
 
