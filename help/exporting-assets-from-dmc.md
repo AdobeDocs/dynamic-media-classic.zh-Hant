@@ -1,30 +1,32 @@
 ---
-title: 從Dynamic Media Classic匯出資產
-description: 瞭解如何從Dynamic Media Classic匯出資產。
+title: 匯出資產自Dynamic Media經典
+description: 瞭解如何從Dynamic Media經典匯出資產。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 70%
+source-wordcount: '431'
+ht-degree: 69%
 
 ---
 
 
-# 從Dynamic Media Classic匯出資產{#exporting-assets-from-dmc}
+# 匯出資產自Dynamic Media經典{#exporting-assets-from-dmc}
 
-您可以將在Dynamic Media Classic中編輯的資產儲存至本機網路磁碟機。 匯出的資產會合併成 ZIP 檔案，適合下載或透過電子郵件傳送。
+您可以將在Dynamic Media經典中編輯的資產儲存至本機網路磁碟機。 匯出的資產會合併成 ZIP 檔案，適合下載或透過電子郵件傳送。
 
 適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。另外，請注意，每個匯出工作的總資產上限為 500 個。
 
-Dynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
+Dynamic Media·克拉西斯在「工作」螢幕中記錄了出口工作記錄。
 
-**若要從Dynamic Media Classic匯出資產**
+**從Dynamic Media經典出口資產**
 
 1. 選取要匯出的資產，然後按一下「**檔案** > **匯出**」。
 1. 在「匯出選取的資產」視窗中，按一下「**影像選項**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):
