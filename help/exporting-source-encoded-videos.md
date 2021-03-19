@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 77%
+source-wordcount: '75'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 77%
 
 在瀏覽面板中，來源視訊標記為「主視訊」。編碼視訊則標記為「視訊」。您可以匯出來源視訊和主視訊。若要匯出視訊檔案，請在瀏覽面板中將其選取，並選擇「檔案 > 匯出」。
 
-請參閱[從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+請參閱[從Dynamic MediaClassic](exporting-assets-from-dmc.md#exporting-assets-from-dmc)匯出資產。
 
 >[!MORELIKETHIS]
 >
