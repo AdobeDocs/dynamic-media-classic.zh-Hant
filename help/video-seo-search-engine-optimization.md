@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
+feature: Dynamic Media經典
+role: 管理員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '982'
 ht-degree: 66%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 66%
 
 SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎擅於收集以文字為基礎之內容的相關資訊，但除非向其提供此資訊，否則也無法充分取得視訊相關資訊。
 
-使用Dynamic Media Classic Video SEO，您可以運用視訊中繼資料，為搜尋引擎提供視訊說明。 Dynamic Media Classic提供建立視訊網站地圖和mRSS饋送的功能。 下列為標準 XML 檔案，可用來將視訊資訊送出至搜尋引擎:
+使用Dynamic Media經典視訊搜尋引擎優化(SEO)，您可以運用視訊中繼資料來提供搜尋引擎視訊的說明。 Dynamic Media經典提供建立視訊網站地圖和mRSS饋送的功能。 下列為標準 XML 檔案，可用來將視訊資訊送出至搜尋引擎:
 
 **視訊** 網站地圖告知Google視訊內容在網站上的確切位置和內容。因此，您完全可以在 Google 上搜尋視訊。例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的詳細資訊，請參閱https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
 
@@ -30,17 +32,17 @@ SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎擅�
 >
 >Google 同時支援視訊網站地圖和 mRSS 新聞頻道通訊協定，可用來送出資訊至搜尋引擎。
 
-Dynamic Media Classic可以根據儲存在每個視訊中的中繼資料，產生視訊網站地圖和mRSS饋送。 建立視訊網站地圖和 mRSS 新聞頻道後，請決定要包含哪些中繼資料欄位來自視訊檔案。這樣，您可以向搜尋引擎描述視訊，以便搜尋引擎能夠更精確地將流量引導至您網站上的視訊。
+Dynamic Media經典可以根據儲存在每個視訊中的中繼資料，產生視訊網站地圖和mRSS饋送。 建立視訊網站地圖和 mRSS 新聞頻道後，請決定要包含哪些中繼資料欄位來自視訊檔案。這樣，您可以向搜尋引擎描述視訊，以便搜尋引擎能夠更精確地將流量引導至您網站上的視訊。
 
 >[!NOTE]
 >
 >在建立視訊網站地圖或 mRSS 新聞頻道前，請先確定搜尋引擎需要 XML 檔案中的哪些欄位，以及如何建立這些欄位的結構。若要建立成功的視訊網站地圖或 mRSS 新聞頻道，它必須符合搜尋引擎的要求。
 
-Dynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，建立有關這些報表。 您可以在「視訊 SEO 報告」畫面取得這些報告。
+Dynamic Media經典會在您產生視訊網站地圖和mRSS饋送後建立相關報表。 您可以在「視訊 SEO 報告」畫面取得這些報告。
 
 >[!NOTE]
 >
->對於視訊網站地圖和mRSS饋送，Dynamic Media Classic只會從標籤為要發佈的視訊擷取中繼資料。 將視訊標記為發佈，即可將其中繼資料包含於視訊網站地圖和 mRSS 新聞頻道中。
+>對於視訊網站地圖和mRSS饋送，Dynamic Media經典僅會從標籤為發佈的視訊擷取中繼資料。 將視訊標記為發佈，即可將其中繼資料包含於視訊網站地圖和 mRSS 新聞頻道中。
 
 ## 選擇視頻SEO設定{#choosing-video-seo-settings}
 
@@ -64,7 +66,7 @@ Dynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，建立�
 
 在「自動/手動模式」下拉式清單中，選擇要自動或手動產生:
 
-**自動** 模式Dynamic Media Classic每天自動產生一個視訊網站地圖、媒體RSS(mRSS)饋送，或兩者。選擇「標籤為發佈」選項，以自動標籤為發佈Dynamic Media Classic產生的XML檔案。
+**自動** 模式Dynamic Media Classic每天自動產生一個視訊網站地圖、媒體RSS(mRSS)饋送，或兩者。選擇「標籤為發佈」選項，以自動標籤為發佈Dynamic Media·Classic生成的XML檔案。
 
 **手動模** 式當您在「視訊搜尋最佳化設定」畫面中按一下「產生」或「儲存並產生」時，Dynamic Media Classic會產生視訊網站地圖、媒體RSS(mRSS)饋送，或兩者。同時，也請選擇這些選項:
 
@@ -76,7 +78,7 @@ Dynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，建立�
 
 ### 選擇產生設定  {#choosing-generation-settings}
 
-「產生設定」區域會列出視訊網站地圖和/或 mRSS 新聞頻道的輸入欄位，並在「中繼資料」面板中列出中繼資料欄位名稱。使用「一般設定」區域，即可將輸入欄位對應至中繼資料欄位。如此一來，您就會告訴Dynamic Media Classic如何取得視訊網站地圖和／或mRSS饋送的中繼資料。
+「產生設定」區域會列出視訊網站地圖和/或 mRSS 新聞頻道的輸入欄位，並在「中繼資料」面板中列出中繼資料欄位名稱。使用「一般設定」區域，即可將輸入欄位對應至中繼資料欄位。如此一來，您就會告訴Dynamic MediaClassic如何取得視訊網站地圖和／或mRSS饋送的中繼資料。
 
 1. 在「中繼資料檢視」選單上選擇中繼資料檢視。選擇檢視後，中繼資料欄位的名稱便會顯示在「中繼資料」面板中。(如需有關中繼資料檢視的資訊，請參閱[中繼資料檢視](application-setup.md#metadata_views)。)
 1. 將中繼資料欄位名稱從「中繼資料」面板拖曳至「登陸頁面」、「標題」、「描述」、「標籤」和「類別」輸入欄位。「登陸頁面」、「標題」和「描述」欄位為必填。
