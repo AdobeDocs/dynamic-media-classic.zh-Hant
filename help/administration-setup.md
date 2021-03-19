@@ -1,16 +1,18 @@
 ---
 title: 管理設定
-description: 瞭解如何設定Dynamic Media Classic的管理區域。
+description: 瞭解如何設定Dynamic Media經典的管理區。
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
+feature: Dynamic Media經典
+role: 管理員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 63%
+source-wordcount: '1948'
+ht-degree: 62%
 
 ---
 
@@ -19,25 +21,25 @@ ht-degree: 63%
 
 # 管理設定{#administration-setup}
 
-「管理設定」畫面是用於管理Dynamic Media Classic使用者。 使用這些畫面，讓使用者可在Dynamic Media Classic中工作，並透過電子郵件與使用者通訊。
+管理設定螢幕用於管理Dynamic Media經典用戶。 使用這些畫面，讓使用者在Dynamic MediaClassic中工作，並透過電子郵件與使用者通訊。
 
 1. 要訪問「管理設定」選項，請按一下「設定」**「設定」>「個人設定」**>「管理設定」**。******
 
 ## 使用者管理 {#user-administration}
 
-所有Dynamic Media Classic使用者都會被指派角色，以決定其權限和對Dynamic Media Classic功能的存取權限。 管理員會決定不同角色和其對於所指派公司的責任。
+所有Dynamic Media經典用戶都被指派一個角色，決定其權限和對Dynamic Media經典中功能的訪問權限。 管理員會決定不同角色和其對於所指派公司的責任。
 
-通常，Dynamic Media Classic會設定第一組公司，並指派公司管理員。 然後，公司管理員會設定並管理Dynamic Media Classic使用者。
+通常，Dynamic Media經典配置第一組公司，並指派公司管理員。 然後，公司管理員會設定並管理Dynamic Media經典使用者。
 
-Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dynamic Media Classic所設定的公司：
+Dynamic Media經典版支援數個使用者角色。 這些角色可以訪問為Dynamic Media經典網站設定的公司：
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic** UserCan存取被指派給的公司；不能履行行政職責。
+**AdobeDynamic Media** 經典用戶可以訪問他們被指派的公司；不能履行行政職責。
 
-**Adobe Dynamic Media Classic公司管** 理員僅能檢視和管理其公司。公司管理員也可以執行所有管理功能，包含增加管理員和使用者。公司管理員可以將用戶添加到DMC公司管理員帳戶。 (此角色為預設使用者角色。)
+**AdobeDynamic Media傳統公** 司管理員僅能檢視和管理自己的公司。公司管理員也可以執行所有管理功能，包含增加管理員和使用者。公司管理員可以將用戶添加到DMC公司管理員帳戶。 (此角色為預設使用者角色。)
 
-新增使用者後，Dynamic Media Classic會傳送歡迎電子郵件訊息給使用者。 訊息包含密碼和Dynamic Media Classic URL。
+添加用戶後，Dynamic Media經典會向用戶發送歡迎電子郵件。 訊息包含密碼和Dynamic Media經典URL。
 
 ### 增加使用者或管理員 {#adding-a-user-or-administrator}
 
@@ -51,7 +53,7 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 1. 選擇要指派給該使用者的「角色」選項。
 
-   請參閱[動態媒體經典使用者角色和權限](administration-setup.md#user_administration)。
+   請參閱[Dynamic Media經典用戶角色和權限](administration-setup.md#user_administration)。
 
 1. 選取公司名稱以將使用者增加至公司。
 1. 如果您要將使用者增加至群組 (如果您要增加「Media Portal」使用者或參與者)，請按一下「下一步」然後增加使用者。
@@ -59,17 +61,17 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
    系統會在儲存之後出現提示訊息，問您是否要將使用者增加至其他公司。若您要將使用者增加至公司，請按一下「增加」。
 
-   所有新用戶都會獲得隨機生成的密碼；使用者第一次登入Dynamic Media Classic案頭應用程式時，必須變更密碼。
+   所有新用戶都會獲得隨機生成的密碼；使用者第一次登入Dynamic Media經典案頭應用程式時，必須變更密碼。
 
-   您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。此電子郵件提供暫存密碼，並說明如何登入Dynamic Media Classic。
+   您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。此電子郵件提供暫時密碼，並說明如何登入Dynamic Media經典。
 
-   如果使用者未收到歡迎電子郵件，請他們前往Dynamic Media Classic登入頁面(https://s7sps1.scene7.com)，然後按一下「忘記我的密碼」。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
+   如果使用者未收到歡迎電子郵件，請他們前往Dynamic Media經典登入頁面(https://s7sps1.scene7.com)，然後按一下「忘記我的密碼」。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
 
    若要新增「Media Portal」使用者，您也可以前往「設定 > 應用程式設定 > 使用者管理」，然後按一下「上載使用者清單」並選取內含不超過 500 名使用者的 .csv 檔案。
 
 ### 刪除使用者 {#deleting-a-user}
 
-您可以將使用者設為無效，從Dynamic Media Classic中刪除。 無效的使用者會從系統和所有帳戶中移除。
+您可以將用戶從Dynamic Media經典中刪除，方法是使用者無效。 無效的使用者會從系統和所有帳戶中移除。
 
 1. 按一下「**設定** > **應用程式設定** > **管理設定** > **使用者管理**」。
 1. 從清單中選取使用者，然後按一下「**編輯**」。
@@ -108,7 +110,7 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 **篩選無效的使** 用者取消選取「包含無效」選項。搜尋結果只會顯示系統中的使用者。已從系統和您所管理的帳戶中刪除無效的使用者。
 
-**依欄標題排** 序按一下標題，可依使用者的狀態、依名字、姓氏或電子郵件的字母順序、依使用者角色或有效／無效狀態來排序所有使用者。
+**依欄標題排** 序按一下標題，可依使用者狀態、依名字、姓氏或電子郵件的字母順序、依使用者角色或有效／無效狀態來排序所有使用者。
 
 如果您有多位使用者，則可以選取「清單大小上限」選單並選擇數量，來限制清單大小。
 
@@ -142,7 +144,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## 頻寬與存放區  {#bandwidth-storage}
 
-Dynamic Media Classic管理員可以為所管理的公司產生頻寬、儲存空間和其他類型的報表。 您可以在「頻寬和存放區」畫面取得這些報告。
+Dynamic Media傳統管理員可以為所管理的公司產生頻寬、儲存空間和其他類型的報表。 您可以在「頻寬和存放區」畫面取得這些報告。
 
 若要開啟此畫面，請按一下「設定 > 個人設定」。展開「管理設定」，然後按一下「頻寬與存放區」。
 
@@ -155,7 +157,7 @@ Dynamic Media Classic管理員可以為所管理的公司產生頻寬、儲存�
 | 頻寬 | 公司所使用的頻寬 | 追蹤公司在特定日期範圍的頻寬使用情況，以判斷流量模式。 |
 | 存放區 | 存放區使用情況 | 追蹤由公司上載的資料量。 |
 | 影像內容 | 特定類型的影像要求數量 | 追蹤要求數量以及不同影像類型的容量。 |
-| 網域 | 特定網域的 URL 要求數量 | 根據特定公司之影像要求的網域來追蹤影像使用情況。(Dynamic Media Classic可為每個帳戶提供多個網域。 如需更多資訊，請聯絡技術支援。) |
+| 網域 | 特定網域的 URL 要求數量 | 根據特定公司之影像要求的網域來追蹤影像使用情況。(Dynamic Media經典網域可為每個帳戶提供多個網域。 如需更多資訊，請聯絡技術支援。) |
 | 視訊串流 | 串流視訊的頻寬使用情況 | 追蹤公司在特定日期範圍的串流視訊使用情況，以判斷流量模式。 |
 | 視訊內容 | 不同視訊的播放時間 | 判定哪些是檢視最多和檢視最少的視訊。 |
 
@@ -216,7 +218,7 @@ Dynamic Media Classic管理員可以為所管理的公司產生頻寬、儲存�
 
 ## 影像錯誤 {#image-errors}
 
-Dynamic Media Classic管理員可產生「影像錯誤」報表。 「影像錯誤」報告會針對您目前登入的公司，提供過去 24 小時內 20 個最常見的影像錯誤清單。遵循下列步驟即可產生影像錯誤報告。
+Dynamic Media傳統型管理員可產生影像錯誤報告。 「影像錯誤」報告會針對您目前登入的公司，提供過去 24 小時內 20 個最常見的影像錯誤清單。遵循下列步驟即可產生影像錯誤報告。
 
 1. 按一下「設定 > 個人設定」。
 1. 展開「管理設定」，然後按一下「影像錯誤」。
