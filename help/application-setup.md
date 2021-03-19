@@ -1,14 +1,16 @@
 ---
 title: 應用程式設定
-description: 瞭解如何設定Dynamic Media Classic的「應用程式」區域。
+description: 瞭解如何設定Dynamic Media經典應用程式區。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
+feature: Dynamic Media經典
+role: 管理員
 translation-type: tm+mt
-source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '10925'
+source-wordcount: '10929'
 ht-degree: 68%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->只有Dynamic Media Classic管理員才能變更「應用程式設定」頁面上的設定。
+>只有Dynamic MediaClassic管理員才能更改「應用程式設定」頁面上的設定。
 
 ## 一般設定 {#general-settings}
 
@@ -28,13 +30,13 @@ ht-degree: 68%
 
 ### 伺服器
 
-在建立帳戶時，Dynamic Media Classic會自動為您的公司提供指派的伺服器。 這些伺服器是用來為您的網站和應用程式建立 URL 字串。這些 URL 呼叫皆專屬於您的帳戶。
+在建立帳戶時，Dynamic Media經典會自動為您的公司提供指派的伺服器。 這些伺服器是用來為您的網站和應用程式建立 URL 字串。這些 URL 呼叫皆專屬於您的帳戶。
 
 另請參閱[測試安全測試服務](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
-* **發佈的伺服器名稱** -此伺服器是即時CDN伺服器，用於您帳戶的特定所有系統產生的URL呼叫。除非Dynamic Media Classic支援技術人員指示您更改此伺服器名稱。
+* **發佈的伺服器名稱** -此伺服器是即時CDN伺服器，用於您帳戶的特定所有系統產生的URL呼叫。除非Dynamic MediaClassic支援技術人員指示您更改此伺服器名稱，否則請勿更改此伺服器名稱。
 
-* **原始伺服器名稱** -此伺服器僅用於品質保證測試。除非Dynamic Media Classic支援技術人員指示，否則不要更改此伺服器名稱。
+* **原始伺服器名稱** -此伺服器僅用於品質保證測試。除非Dynamic MediaClassic支援技術人員指示，否則不要更改此伺服器名稱。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
@@ -58,7 +60,7 @@ ht-degree: 68%
 
    `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   如果範本僅包含`<ID>`，則Dynamic Media Classic會填入`https://<server>/is/image`，其中`<server>`是「一般設定」中定義的發佈伺服器名稱。
+   如果範本僅包含`<ID>`，則Dynamic Media經典版會填入`https://<server>/is/image`，其中`<server>`是「一般設定」中定義的發佈伺服器名稱。
 
    設定 CDN 失效範本、選取名為「Backpack_B」的影像，然後按一下「**檔案** > **使 CDN 失效**」，便會在「CDN 失效」介面中產生下列 URL:
 
@@ -68,7 +70,7 @@ ht-degree: 68%
 
    選取您的 CDN 失效範本，並進行「使 CDN 失效」要求之後，在使用者介面中會彈出指示器，讓您估計清除快取所需的時間。
 
-   同樣地，如果在Dynamic Media Classic中按一下「使CDN無效」時選取多個影像，則儲存的範本URL會參照每個影像。 ********&#x200B;因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，當您從快取中選取一或影像以進行失效時，URL會自動填入介面。
+   同樣地，如果在Dynamic Media經典影像中，按一下「使CDN無效」時，選取了多個影像，則儲存的範本URL會參照每個影像。 ********&#x200B;因此，您可以定義參照您網站所參照之 URL (如產品詳細資訊、搜尋結果等等) 的 CDN 失效範本。然後，當您從快取中選取一或影像以進行失效時，URL會自動填入介面。
 
    請參閱[內容快取](dmc-platform-overview.md#content_caching)。
 
@@ -76,19 +78,19 @@ ht-degree: 68%
 
 ### 瀏覽
 
-* **顯示專案** -判斷專案是否可做為組織Dynamic Media Classic資產的方式。請參閱利用專案組織您的工作。
+* **顯示項目** -確定項目是否可作為組織您的Dynamic Media經典資產的一種方式。請參閱利用專案組織您的工作。
 
 * **顯示範例eVideo內容** -開啟或關閉eVideo範例內容的顯示。
 
-* **顯示產生的內容** -在資料夾中，顯示從資產產生的內容。例如，當PDF檔案上傳時點陣化，Dynamic Media Classic會在原始PDF中為每個頁面建立一個影像。 如果選取了「顯示產生的內容」，則原始 PDF 上載時所產生的每個影像，都會與 PDF 一起出現在該 PDF 的上載檔案夾中。
+* **顯示產生的內容** -在資料夾中，顯示從資產產生的內容。例如，當PDF檔案上傳時點陣化，Dynamic Media·經典會在原始PDF中為每個頁面建立一個影像。 如果選取了「顯示產生的內容」，則原始 PDF 上載時所產生的每個影像，都會與 PDF 一起出現在該 PDF 的上載檔案夾中。
 
 * **顯示編碼視訊** -依預設取消選取（關閉）。
 
-   若要在Dynamic Media Classic中快速搜尋和瀏覽視訊，而不需瀏覽相同視訊的許多編碼衍生品，請將此選項保留為未選取（預設值）。 只有主要影片縮圖 (也就是您上傳並用來建立所有衍生影片的來源影片) 以及「上層」適應性影片集縮圖 (包含已編碼影片集的所有「下層」衍生影片) 會顯示在使用者介面中。
+   若要在Dynamic Media經典中快速搜尋和瀏覽視訊，而不需瀏覽相同視訊的許多編碼衍生品，請將此選項保留為未選取（預設值）。 只有主要影片縮圖 (也就是您上傳並用來建立所有衍生影片的來源影片) 以及「上層」適應性影片集縮圖 (包含已編碼影片集的所有「下層」衍生影片) 會顯示在使用者介面中。
 
    不過，您仍然可以從主視訊或最適化視訊集存取個別編碼的視訊。若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。接著在右側面板中按一下「**編碼的視訊**」，以存取所有「子項」視訊。
 
-   您也可以使用「**檔案 > 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Dynamic Media Classic會自動尋找最適化視訊集的「父」主視訊，並將其用作轉碼的來源視訊。 不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
+   您也可以使用「**檔案 > 重新處理**」，直接從最適化視訊集來建立更多編碼的「子項」視訊。Dynamic Media經典會自動尋找最適化視訊集的「父」主視訊，並將其當做原始視訊進行轉碼。 不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
 
    請參閱[上載和轉碼視訊](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
@@ -98,11 +100,11 @@ ht-degree: 68%
 
    >[!NOTE]
    >
-   >如果您未使用Dynamic Media Classic來上傳和編碼視訊資產，Dynamic Media Classic會顯示您的所有個別編碼視訊，即使取消選取此選項亦然。
+   >如果您未使用Dynamic Media經典上傳和編碼您的視訊資產，Dynamic Media經典會顯示您所有個別編碼的視訊，即使取消選取此選項亦然。
 
 * **顯示刷新子資料夾按鈕** -開啟或關閉子資料夾刷新按鈕的顯示。
 
-### Dynamic Media Classic FTP帳戶
+### Dynamic Media傳統FTP帳戶
 
 * **伺服器** -列出您的FTP帳戶伺服器。
 
@@ -110,7 +112,7 @@ ht-degree: 68%
 
 ### 上載至應用程式
 
-* **覆寫影像** - Dynamic Media Classic不允許兩個檔案具有相同名稱。每個項目的Dynamic Media Classic ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複影像將會以「-1」重新命名 (例如，chair.tif 會重新命名為 chair-1.tif)。這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。(請參閱使用覆寫影像選項。)
+* **覆寫影像** -Dynamic Media經典影像不允許兩個檔案具有相同名稱。每個項目的Dynamic Media經典ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複影像將會以「-1」重新命名 (例如，chair.tif 會重新命名為 chair-1.tif)。這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。(請參閱使用覆寫影像選項。)
 
    * **在目前資料夾中覆寫相同的基本影像名稱／副檔名** -此選項是最嚴格的取代規則。它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
 
@@ -120,7 +122,7 @@ ht-degree: 68%
 
    * **在任何資料夾中覆寫相同的基本資產名稱(不論副檔名為何** )-此選項是最包含的取代規則。您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
 
-* **保留發佈** -指定上傳至Dynamic Media Classic的取代影像是否保留所取代影像的「準備發佈」設定，或是在上傳時指定設定。
+* **保留發佈** -指定上傳至Dynamic Media經典影像的取代影像是否保留所取代影像的「準備發佈」設定，或是在上傳時指定設定。
 
 * **預設顏色配置檔案** -指定添加CMYK影像時作為預設顏色配置檔案選項的一部分應用的顏色配置檔案。
 
@@ -138,19 +140,19 @@ ht-degree: 68%
 
 ## 使用「覆寫影像」選項 {#using-the-overwrite-images-option}
 
-Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的Dynamic Media Classic ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框包含「覆寫影像」選項。此選項的確切效果取決於每家公司的「動態媒體經典內部設定」設定。
+Dynamic Media經典不允許兩個檔案具有相同的名稱。 每個項目的Dynamic Media經典ID（影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框包含「覆寫影像」選項。此選項的確切效果取決於每家公司的「Dynamic Media經典內部設定」設定。
 
-如果您先前上傳的影像，然後變更原始檔案（或取代檔案），則選取的「覆寫」選項會指定Dynamic Media Classic如何取代影像。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中也包含Dynamic Media Classic中尚未包含的影像，則會新增這些影像。
+如果您先前上傳的影像，然後變更原始檔案（或已取代），則選取的「覆寫」選項會指定Dynamic Media經典影像取代影像的方式。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中還包含不在Dynamic Media經典中的影像，則會添加這些影像。
 
-如果您上載的影像已經變更 (影像經過修改)，但影像的參照保持不變，則使用此選項。上載和擷取 Adobe® PDF 檔案時，覆寫功能也很有幫助。若要微調Dynamic Media Classic *擷取影像的方式，請調整「上傳」對話方塊中的ICC色彩設定檔選項，然後使用「覆寫」功能重新上傳。*
+如果您上載的影像已經變更 (影像經過修改)，但影像的參照保持不變，則使用此選項。上載和擷取 Adobe® PDF 檔案時，覆寫功能也很有幫助。若要微調Dynamic Media經典影像&#x200B;*rips*&#x200B;的擷取方式，請調整「上傳」對話方塊中的ICC色彩設定檔選項，然後使用「覆寫」功能重新上傳。
 
-用於從生產伺服器存取影像的Dynamic Media Classic ID是從影像檔名衍生而來。 在檔案名稱中使用大寫和小寫字元很重要，不論是在取代現有檔案時，還是用於存取影像的Dynamic Media Classic ID。 請確定在上傳至Dynamic Media Classic之前，檔案名稱中的大寫和小寫字元使用正確，以避免只針對相同影像大小寫不同的Dynamic Media Classic ID。
+用於從生產伺服器存取影像的Dynamic Media經典ID是從影像檔名衍生而來。 在檔案名稱中使用大寫和小寫字元很重要，不論是在取代現有檔案時，還是用於存取影像的Dynamic Media經典ID。 請確定在上傳至Dynamic Media經典影像之前，檔案名稱中的大寫和小寫字元使用正確，以避免只針對相同影像而有所不同的Dynamic Media經典ID。
 
 如果取消選取此選項，所有與現存影像擁有相同檔案名稱的影像都會視為重複項目，而不會增加。
 
 ## 影像預設集 {#image-presets}
 
-「影像預設集」畫面是用來建立和編輯影像預設集。影像預設集可讓Dynamic Media Classic以不同大小動態傳送相同主影像的影像。 每個影像預設集都代表了一個用來顯示影像之大小調整與格式命令的預先定義集合。建立影像預設集時，請選擇影像傳送大小。同時也請選擇格式命令，以便在影像傳送供檢視時將影像外觀最佳化。
+「影像預設集」畫面是用來建立和編輯影像預設集。影像預設集可讓Dynamic Media經典以不同大小動態傳送相同主影像的影像。 每個影像預設集都代表了一個用來顯示影像之大小調整與格式命令的預先定義集合。建立影像預設集時，請選擇影像傳送大小。同時也請選擇格式命令，以便在影像傳送供檢視時將影像外觀最佳化。
 
 管理員可以建立匯出資產用的預設集。使用者可以選擇匯出影像時要用的預設集，該預設集同時可將影像重新格式化為管理員指定的規格。
 
@@ -247,19 +249,19 @@ Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的D
 
 **顏** 色選擇下列選項：
 
-**輸出顏** 色配置檔案選擇「使用預設」或Dynamic Media Classic上可用的ICC顏色配置檔案之一。
+**輸出顏** 色配置檔案選擇「使用預設」或Dynamic Media經典版上可用的ICC顏色配置檔案之一。
 
 請另參閱 [ICC 設定檔](icc-profiles.md#icc_profiles)。
 
 **渲染方** 式如果要覆蓋顏色配置檔案的預設渲染方式，請選擇一個選項。符合以下所有條件時使用此選項: 其中一個預設 ICC 設定檔是色彩轉換的目標色域、此設定檔中特別含有輸出裝置 (印表機或螢幕)，且指定的演算色彩比對方式在此設定檔中有效。
 
-**內嵌** 描述檔選取此選項，如此，如果您在Adobe® Photoshop®中開啟此影像，就會使用此描述檔。
+**內嵌** 描述檔選取此選項，如此，如果您在Adobe®Photoshop®中開啟此影像，就會使用此描述檔。
 
 **列印解** 析度選擇列印此影像的解析度；預設值為72像素。
 
 **URL修** 飾詞：如果您偏好指定定義影像預設集的URL修飾詞，而非設定，請在此處輸入修飾詞。
 
-**範例影** 像URL會列出動態媒體影像伺服器用來傳送影像的「原始」URL字串，以及您要新增或編輯的影像預設集。此 URL 字串會將您在「增加預設集」或「編輯預設集」畫面中選取的所有格式設定加以編碼。
+**範例影** 像URL列出Dynamic Media影像伺服器用來傳送影像的「原始」URL字串，以及您要新增或編輯的影像預設集。此 URL 字串會將您在「增加預設集」或「編輯預設集」畫面中選取的所有格式設定加以編碼。
 
 ### 編輯、移除或停用影像預設集  {#editing-removing-or-deactivating-an-image-preset}
 
@@ -268,11 +270,11 @@ Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項目的D
 
    * 按一下&#x200B;**編輯** ，然後在編輯預設對話框中指定新選項。
    * 按一下&#x200B;**Delete**&#x200B;從清單中刪除預設。
-   * 取消選取預設集名稱旁的「作用中」核取方塊，將它從MediaPortal使用者的整個Dynamic Media Classic使用者介面中移除。
+   * 取消選取預設集名稱旁的「作用中」核取方塊，將它從MediaPortal使用者的整個Dynamic Media經典使用者介面中移除。
 
 ## 啟用或停用最適化視訊預設集 {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設集清單，其中將 16:9 最適化視訊預設集與 4:3 最適化視訊預設集合併到一個群組中。這些預先定義的預設集反映了最常見的編碼設定，並已針對目標行動裝置、平板電腦和桌上型電腦的播放進行最佳化。
+Dynamic Media經典提供最適化視訊編碼預設集。 此為主要預設集清單，其中將 16:9 最適化視訊預設集與 4:3 最適化視訊預設集合併到一個群組中。這些預先定義的預設集反映了最常見的編碼設定，並已針對目標行動裝置、平板電腦和桌上型電腦的播放進行最佳化。
 
 預設只會啟動 (啟用或「開啟」)「最適化視訊」編碼預設集。您可以視需要加以停用。非作用中的最適化視訊預設集，並不會以可選取的選項顯示在「上載工作選項」對話框的「eVideo」區段中。
 
@@ -280,7 +282,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **啟用或停用最適化視訊預設集**
 
-1. 在Dynamic Media Classic的右上角附近，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**」。
+1. 在Dynamic Media經典影像的右上角附近，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**」。
 1. 在「最適化視訊預設集」頁面上，取消選取預設集名稱旁邊的核取方框，以從「上載工作選項」對話框的「eVideo 選項」清單中移除預設集。
 1. 按一下「**關閉**」。
 
@@ -290,7 +292,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->除了預設啟用的「最適化視訊」以外，您可能無法在「上載工作選項」對話框中查看所有其他的最適化視訊或單一視訊編碼預設集。Dynamic Media Classic管理員會決定在「上傳工作選項」對話方塊中顯示哪些視訊編碼預設集。
+>除了預設啟用的「最適化視訊」以外，您可能無法在「上載工作選項」對話框中查看所有其他的最適化視訊或單一視訊編碼預設集。Dynamic Media傳統管理員會決定哪些視訊編碼預設集會顯示在「上傳工作選項」對話方塊中。
 
 * 從下列最適化視訊編碼或單一編碼預設集中選擇一項:
 
@@ -368,10 +370,10 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
+| 1 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
 | 2 | 4:3、384x288px、行動裝置 (iPhone、iPad、Android)、(400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
 | 1 | 16:9、512x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
-| 4 | 4:3、384x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
+| 4 | 4:3、384x288、行動裝置 (iPhone、iPad、Android)、(600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
 | 5 | 16:9、640x360、平板電腦 (iPad、Android)、(800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等解析度、WiFi |
 | 6 | 4:3、640x480、平板電腦 (iPad、Android)、(800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640x480 | 與來源同 | 80 | 中等解析度、WiFi |
 | 7 | 16:9、768x432、平板電腦 (iPad、Android)、(1200 Kbps) | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | 與來源同 | 96 | 高解析度、WiFi |
@@ -389,7 +391,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9、480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
+| 3 | 16:9、480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
 | 2 | 16:9、640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
 | 1 | 16:9、800x450 (1200 Kbps) | 1.5 Mbps | _800x450_1200K | 1200 | 800x450 | 與來源同 | 96 | 中高解析度 |
 | 4 | 16:9、1280x720 (2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000年 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
@@ -421,9 +423,9 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊位元速率 (Kbps) | 像素寬度/高度 | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9、512x288、行動裝置 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
+| 1 | 16:9、512x288、行動裝置 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
 | 2 | 16:9、512x288、行動裝置 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
-| 3 | 16:9、512x288、行動裝置 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 與來源同 | 80 | 中等解析度、Wi-Fi |
+| 1 | 16:9、512x288、行動裝置 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 與來源同 | 80 | 中等解析度、Wi-Fi |
 | 4 | 16:9、512x288、行動裝置 (1000 Kbps) | 1.2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 與來源同 | 80 | 高解析度、Wi-Fi |
 | 5 | 16:9、512x288、行動裝置 (1200 Kbps) | 1.5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | 與來源同 | 96 | 高解析度、Wi-Fi |
 | 6 | 4:3、384x288、行動裝置 (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
@@ -436,25 +438,25 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 >[!NOTE]
 >
->**Flash檢視器停售通知** -自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
+>**Flash檢視器停售通知** -自2017年1月31日起，AdobeDynamic Media經典影視器平台的支援正式終止。
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
-最佳實務是使用Dynamic Media Classic HTML5視訊檢視器。 HTML5 視訊檢視器使用的預設集是健全的視訊播放器。此單一播放程式集諸多功能於一身，能夠使用 HTML5 與 CSS 來設計播放組件，能夠實現內嵌播放，還能夠根據瀏覽器的功能來使用最適化串流與漸進式串流，可協助您將多媒體內容同時提供給桌上型電腦、平板電腦和行動裝置使用者，並確保順暢的視訊體驗。
+最佳實務是使用Dynamic Media經典HTML5視訊檢視器。 HTML5 視訊檢視器使用的預設集是健全的視訊播放器。此單一播放程式集諸多功能於一身，能夠使用 HTML5 與 CSS 來設計播放組件，能夠實現內嵌播放，還能夠根據瀏覽器的功能來使用最適化串流與漸進式串流，可協助您將多媒體內容同時提供給桌上型電腦、平板電腦和行動裝置使用者，並確保順暢的視訊體驗。
 
-請參閱Adobe檢視器參考指南中的[關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
+請參閱「Adobe檢視器參考指南」中的[關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
-請參閱[動態媒體經典檢視器預設集相容性矩陣](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
+請參閱[Dynamic Media經典查看器預設集相容性表](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
 請參閱[最佳實踐: 使用 HTML5 視訊檢視器](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)。
 
-依據檢視器而定，您可以增加社群功能。社群功能包含「內嵌」按鈕、「電子郵件」按鈕、「連結」按鈕和「造訪網站」按鈕。這些按鈕可讓使用檢視器的使用者與其他人共用檢視器，或開啟Dynamic Media Classic網站。
+依據檢視器而定，您可以增加社群功能。社群功能包含「內嵌」按鈕、「電子郵件」按鈕、「連結」按鈕和「造訪網站」按鈕。這些按鈕可讓使用檢視器的使用者與其他人共用檢視器，或開啟Dynamic Media經典網站。
 
-另請參閱[Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱[Adobe查看器參考庫示例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 回應式網頁的檢視器支援 {#viewer-support-for-responsive-designed-web-pages}
 
-不同網頁有不同的需求。有時候您希望網頁提供的連結可在個別的瀏覽器視窗中開啟 HTML5 檢視器。有時候，則必須將 HTML5 檢視器直接嵌入主控頁面中。以後者來說，網頁可能有靜態版面。或者，可能會依據不同的裝置或不同的瀏覽器視窗大小進行「回應」並顯示不同的內容。為滿足這些需求，Dynamic Media Classic隨附的HTML5檢視器支援靜態網頁和互動式設計網頁。
+不同網頁有不同的需求。有時候您希望網頁提供的連結可在個別的瀏覽器視窗中開啟 HTML5 檢視器。有時候，則必須將 HTML5 檢視器直接嵌入主控頁面中。以後者來說，網頁可能有靜態版面。或者，可能會依據不同的裝置或不同的瀏覽器視窗大小進行「回應」並顯示不同的內容。為滿足這些需求，隨附於Dynamic MediaClassic的HTML5檢視器支援靜態網頁和互動式設計網頁。
 
 如需如何將回應式檢視器內嵌至網頁的詳細資訊，請參閱[關於回應式影像庫](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api)、[使用回應式影像庫](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)和[命令參考——命令屬性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library)。
 
@@ -470,7 +472,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **回轉集檢** 視器提供影像的多個檢視，讓使用者可以旋轉物件來檢查不同的側面和角度。
 
-**視訊檢** 視器使用來源檔案的解析度尺寸或自訂大小來顯示視訊。Dynamic Media Classic隨附許多預先定義的檢視器預設集，以播放視訊，如果您是管理員，則可建立自訂的視訊檢視器預設集。 有十幾種不同的設定可用於配置「視訊檢視器」。您可以設定其大小、前景和背景顏色、視訊和音訊控制項、進度列、使用者介面外觀、社交功能和「說明」。
+**視訊檢** 視器使用來源檔案的解析度尺寸或自訂大小來顯示視訊。Dynamic Media·Classic隨附許多預先定義的檢視器預設集，以播放視訊，如果您是管理員，則可建立自訂的視訊檢視器預設集。 有十幾種不同的設定可用於配置「視訊檢視器」。您可以設定其大小、前景和背景顏色、視訊和音訊控制項、進度列、使用者介面外觀、社交功能和「說明」。
 
 **縮放檢** 視器提供三種縮放檢視器類型的選擇：
 
@@ -482,13 +484,13 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 例如，如果您的主影像大小為 350 x 350 像素且「縮放係數」為 3，則產生的彈出影像為 1050 x 1050 像素。如果您的主影像大小為 300 x 300 像素且「縮放係數」為 4，則彈出影像為 1200 x 1200 像素。視 JPEG 品質設定 (建議設定為 80-90 之間) 而定，您可以顯著地降低檔案大小。建議的縮放係數為 2.5 至 4，視主影像大小而定。
 
-### Dynamic Media Classic Viewer預設集相容性矩陣{#scene-viewer-preset-compatibility-matrix}
+### Dynamic Media經典查看器預設集相容性表{#scene-viewer-preset-compatibility-matrix}
 
-**Flash檢視器生命週期結束注意事項**:自2017年1月31日起，Adobe Dynamic Media Classic正式終止對Flash檢視器平台的支援。
+**Flash檢視器生命週期結束通知**:自2017年1月31日起，AdobeDynamic Media經典影像正式終止支援Flash檢視器平台。
 
-下表列出目前可用的Dynamic Media Classic Viewer預設集。 此表格也指定了檢視器與桌上型電腦和行動裝置的相容性，以及用於個別檢視器的技術。
+下表列出目前可用的Dynamic Media經典檢視器預設集。 此表格也指定了檢視器與桌上型電腦和行動裝置的相容性，以及用於個別檢視器的技術。
 
-另請參閱[Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱[Adobe查看器參考庫示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
@@ -531,7 +533,7 @@ Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設�
 
 **eVideo 檢視器**
 
-Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
+Dynamic MediaClassic支援MP4 H.264視訊的行動視訊播放。
 
 * 您可以在以下位置找到支援此視訊格式的Blackberry裝置：[Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)上支援的視訊格式
 * 您也可以在以下位置找到支援此視訊格式的Windows裝置：[Windows Phone上支援的視訊格式](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
@@ -601,7 +603,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 **增加和編輯檢視器預設集**
 
-1. 在Dynamic Media Classic的右上角附近，按一下「Setup **>**&#x200B;檢視器預設集&#x200B;**」。**
+1. 在Dynamic Media經典影像的右上角附近，按一下「Setup **** > **檢視器預設集**」。
 
    您可以篩選預設集的清單。例如，若只要查看視訊檢視器的預設集，請從表格正上方工具列上的「檢視器」下拉式選單中選取「視訊檢視器」。
 
@@ -635,7 +637,7 @@ Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 您可以匯出現有的HTML5檢視器預設集，做為建立新HTML5檢視器預設集的基礎。 匯出選項十分有用，因為您不需從頭建立檢視器， 但可以匯出與您要的外觀和行為接近的預設集，然後將其用作進行設計調整的起點。
 
-請注意，Dynamic Media Classic中所有預設的立即可用的檢視器預設CSS檔案都會使用指向`Scene7SharedAssets`上資產的相對影像伺服路徑。 例如，以下是位於`Scene7SharedAsset`的檢視器預設CSS檔案中影像資產的相對路徑：`.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的網站上代管檢視器CSS檔案，則必須透過在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則可能如下所示，其中`https://s7d1.scene7.com`是映像伺服器的直接路徑：`https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+請注意，所有預設的Out-of-Box檢視器都會使用指向`Scene7SharedAssets`上資產的相對影像伺服路徑來預設CSS檔案。 例如，以下是位於`Scene7SharedAsset`的檢視器預設CSS檔案中影像資產的相對路徑：`.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的網站上代管檢視器CSS檔案，則必須透過在自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 為了便於說明，如果要將上面的相對路徑更新為顯式路徑，則可能如下所示，其中`https://s7d1.scene7.com`是映像伺服器的直接路徑：`https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **若要匯出HTML5檢視器預設集**
 
@@ -658,11 +660,11 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    匯出後，您會取得CSS檔案。 下載並解壓縮檔案。
 
 1. 在 CSS 編輯器中開啟 CSS 檔案，進行變更後儲存檔案。
-1. 將CSS檔案上傳至Dynamic Media Classic。
+1. 將CSS檔案上傳至Dynamic Media經典。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
-1. 將CSS檔案發佈至動態媒體影像伺服器。
+1. 將CSS檔案發佈至Dynamic Media影像伺服器。
 
    請參閱[發佈檔案](publishing-files.md#publishing_files)。
 
@@ -734,7 +736,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
 ## 設定預設檢視器  {#configuring-default-viewers}
 
-當您使用Dynamic Media Classic中的「預覽」時，可以使用「預設檢視器」來設定與資產相關聯的預設檢視器。 您可以針對下列資產類型設定預設的預覽體驗:
+當您使用「在Dynamic Media經典中預覽」時，可以使用「預設檢視器」來設定與資產相關聯的預設檢視器。 您可以針對下列資產類型設定預設的預覽體驗:
 
 * 影像
 * 視訊
@@ -755,9 +757,9 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
 ## 中繼資料檢視 {#metadata-views}
 
-*中繼資料*&#x200B;是有關資產的標準化資料。您可以使用中繼資料來簡化工作流程、組織資產和改善搜尋。Dynamic Media Classic支援IPTC（國際新聞通訊委員會）標準和XMP（可擴充的中繼資料平台）標準。 使用者在詳細檢視中檢視或輸入有關資產的中繼資料前，可以開啟「中繼資料檢視」選單，並選擇要檢視或用來描述資產的中繼資料欄位集。
+*中繼資料*&#x200B;是有關資產的標準化資料。您可以使用中繼資料來簡化工作流程、組織資產和改善搜尋。Dynamic Media經典公司支援IPTC（國際新聞電信委員會）標準和XMP（可擴展元資料平台）標準。 使用者在詳細檢視中檢視或輸入有關資產的中繼資料前，可以開啟「中繼資料檢視」選單，並選擇要檢視或用來描述資產的中繼資料欄位集。
 
-Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建立自己的中繼資料檢視，讓使用者在輸入中繼資料時選擇。
+Dynamic Media經典提供預先定義的中繼資料檢視，管理員可建立自己的中繼資料檢視，讓使用者在輸入中繼資料時選擇。
 
 ### 建立中繼資料檢視 {#creating-a-metadata-view}
 
@@ -793,7 +795,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 1. 在「中繼資料預設集」面板中，執行下列任一項作業:
 
    * 要建立預設，請按一下&#x200B;**添加**。 在「中繼資料範本名稱」文字欄位中，輸入預設集的名稱，然後按一下「中繼資料檢視」**，然後從下拉式清單中選擇檢視（請參閱[中繼資料檢視](application-setup.md#metadata_views)）。**
-   * 若要編輯現有預設，請從「中繼資料預設集」清單中選取預設集，然後按一下「編輯」**。**
+   * 若要編輯現有預設，請從「中繼資料預設集」清單中選取預設集，然後按一下「編輯&#x200B;**」。**
 
 1. 展開您要加入預設集的標題，並在您要加入預設集的不同欄位中輸入值。
 1. 按一下&#x200B;**「儲存」**。
@@ -810,9 +812,9 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ## 使用者定義的欄位 {#user-defined-fields}
 
-媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Dynamic Media Classic中組織資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
+媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Dynamic Media經典中整理資產。 您可以視需要將欄位標示為「作用中」。 啟用時，這些自訂中繼資料欄位的名稱會顯示在詳細檢視的「中繼資料」面板中。使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
 
-使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您可以根據&#x200B;*Date*&#x200B;類型定義「啟動」欄位。 然後，使用&#x200B;**Detail**&#x200B;檢視或&#x200B;**File** > **Edit Info**&#x200B;中的&#x200B;**Metadata**&#x200B;面板，您可以指定何時啟動資產。 Dynamic Media Classic會檢查資產的發佈狀態和發佈歷史記錄。 如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
+使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您可以根據&#x200B;*Date*&#x200B;類型定義「啟動」欄位。 然後，使用&#x200B;**Detail**&#x200B;檢視或&#x200B;**File** > **Edit Info**&#x200B;中的&#x200B;**Metadata**&#x200B;面板，您可以指定何時啟動資產。 Dynamic Media·經典會檢查資產的發佈狀態和發佈歷史記錄。 如果未在啟動時間內，則發佈狀態會顯示為「未發佈」。
 
 >[!NOTE]
 >
@@ -854,7 +856,7 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
    **套用** 至（可選）如果您希望中繼資料欄位只套用至特定資產類型，請選擇資產類型。
 
-   ***注意**:請謹慎選擇&#x200B;**套用至**&#x200B;選項，因為您無法在建立使用者定義的欄位後變更&#x200B;**套用至**&#x200B;選項。 Dynamic Media Classic可讓您編輯使用者定義欄位的名稱、類型和預設值，但不能編輯「套用至&#x200B;**」設定。***
+   ***注意**:請謹慎選擇&#x200B;**套用至**&#x200B;選項，因為您無法在建立使用者定義的欄位後變更&#x200B;**套用至**&#x200B;選項。 Dynamic Media經典版可讓您編輯使用者定義欄位的名稱、類型和預設值，但不能編輯「套用至&#x200B;**」設定。***
 
 1. 完成建立中繼資料欄位後，請按一下「**儲存**」。
 
@@ -874,9 +876,9 @@ Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員可建�
 
 ## 最佳化檔案 {#optimize-files}
 
-當您將檔案上傳至Dynamic Media Classic時，系統會針對儲存和發佈最佳化檔案。 不過，如果上載程序受到中斷，部分影像就無法最佳化。在此情況下，您會看見「尚未最佳化影像」訊息。但是，如果您是管理員，就可以最佳化這些檔案。
+當您將檔案上傳至Dynamic Media經典影像時，系統會針對儲存和發佈最佳化檔案。 不過，如果上載程序受到中斷，部分影像就無法最佳化。在此情況下，您會看見「尚未最佳化影像」訊息。但是，如果您是管理員，就可以最佳化這些檔案。
 
-Dynamic Media Classic會搜尋您的檔案，並僅最佳化之前未完全最佳化的影像。
+Dynamic Media經典版會搜尋您的檔案，並僅最佳化之前未完全最佳化的影像。
 
 1. 選擇「**設定** > **應用程式設定**」，然後選擇「O **最佳化檔案**」。
 1. 輸入優化作業的資訊，然後按一下&#x200B;**Submit**。
@@ -885,11 +887,11 @@ Dynamic Media Classic會搜尋您的檔案，並僅最佳化之前未完全最�
 
 ## 批次集預設集 {#batch-set-presets}
 
-使用批次集預設集，在執行工作時自動建立影像集或回轉集，以上傳資產至Dynamic Media Classic。
+使用批次集預設集，在執行工作時自動建立影像集或回轉集，以上傳資產至Dynamic Media經典。
 
 公司管理員必須先為要分組至同一個集的資產定義命名慣例。接著，您可以建立批次集預設集來參考這些影像。每個預設集都是具備唯一名稱的內部獨立式指示集，定義如何使用與預設集配置中已定義的命名慣例相符的影像來建構集。
 
-所有作用中的公司批次集預設集都會列在「上載工作選項」對話框中，以便您指定要在每個上載工作階段期間套用的預設集。公司管理員會看到所有作用中和非作用中的批次集預設集。當您上傳檔案時，Dynamic Media Classic會自動建立一組檔案，其中所有檔案都符合作用中預設集中定義的命名慣例。
+所有作用中的公司批次集預設集都會列在「上載工作選項」對話框中，以便您指定要在每個上載工作階段期間套用的預設集。公司管理員會看到所有作用中和非作用中的批次集預設集。上傳檔案時，Dynamic Media經典會自動建立一組檔案，其中包含所有符合作用中預設集中所定義之命名慣例的檔案。
 
 ### 預設命名 {#default-naming}
 
@@ -916,7 +918,7 @@ Dynamic Media Classic會搜尋您的檔案，並僅最佳化之前未完全最�
 
 ### 建立批次集預設集  {#creating-a-batch-set-preset}
 
-Dynamic Media Classic使用批次集預設集，將共用某些常見資訊或內容的資產組織成一組影像，以便在檢視器中顯示。 批次集預設方式會隨您在Dynamic Media Classic中排程的資產匯入工作一起自動執行。
+Dynamic Media經典影像使用批次集預設集，將共用一些常見資訊或內容的資產組織成一組影像，以便在檢視器中顯示。 批集預設配方會自動與您在Dynamic Media經典中排程的資產匯入工作一起運行。
 
 使用「批次集預設集」即可建立、編輯和管理批次集預設集。您可以視需要建立同等數量的批次集預設集，以涵蓋您需要得所有資產擷取工作。批次集預設集定義共有兩個形式: 一種用於您可能已經設定的預設命名慣例，另一種則用於您動態建立的自訂命名慣例。
 
@@ -938,8 +940,8 @@ Dynamic Media Classic使用批次集預設集，將共用某些常見資訊或�
    * 如果您要使用先前在「應用程式設定 > 批次集預設集 > 預設命名」下設定的預設命名慣例，請展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**預設**」。
    * 若要在設定預設集時定義命名慣例，請展開「**資產命名慣例**」，然後在「檔案命名」下拉式清單中按一下「**自訂**」。
 
-1. 在「序列」順序中，在Dynamic Media Classic中將影像集分組後，定義影像的順序。 根據預設，您的資產會按照字母順序排列。不過，您可以使用規則運算式以逗號分隔的清單來定義順序。
-1. 針對「設定命名和建立慣例」，請為您在「資產命名慣例」中定義的基本名稱指定字尾或字首。也可定義在Dynamic Media Classic檔案夾結構中建立影像集的位置。
+1. 在「序列」順序中，定義在Dynamic Media經典中將集合分組後的影像順序。 根據預設，您的資產會按照字母順序排列。不過，您可以使用規則運算式以逗號分隔的清單來定義順序。
+1. 針對「設定命名和建立慣例」，請為您在「資產命名慣例」中定義的基本名稱指定字尾或字首。也可定義在「Dynamic Media經典」資料夾結構內建立影像集的位置。
 
    如果您定義了大量影像集，則您可能會想要將這些影像集與本身含有資產的檔案夾加以區隔。許多客戶會建立影像集檔案夾，並將應用程式重新導向，以將批次集所產生的集置放於此處。
 
@@ -1013,7 +1015,7 @@ spin-03-12
    >
    >如果列與欄規則運算式的組合無法決定資產在多維度迴轉集陣列內的位置，則不會將該資產增加至集內，並且會記錄錯誤。
 
-1. 針對「設定命名和建立慣例」，請為您在「資產命名慣例」中定義的基本名稱指定字尾或字首。也可定義在Dynamic Media Classic檔案夾結構中建立影像集的位置。
+1. 針對「設定命名和建立慣例」，請為您在「資產命名慣例」中定義的基本名稱指定字尾或字首。也可定義在「Dynamic Media經典」資料夾結構內建立影像集的位置。
 
    如果您定義了大量影像集，則您可能會想要將這些影像集與本身含有資產的檔案夾加以區隔。許多客戶會建立影像集檔案夾，並將應用程式重新導向，以將批次集所產生的集置放於此處。
 
