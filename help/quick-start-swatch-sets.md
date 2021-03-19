@@ -7,28 +7,30 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
+feature: Dynamic Media經典，觀眾
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 63%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
 
 # 快速入門: 色票集{#quick-start-swatch-sets}
 
-動態媒體經典色票集為使用者提供整合的檢視體驗。 在動態的色票集檢視器中，只需按一下縮圖，使用者即可看到以不同色彩、材質、紋理、飾面或織物演算的項目。
+Dynamic Media經典色票集為使用者提供整合的檢視體驗。 在動態的色票集檢視器中，只需按一下縮圖，使用者即可看到以不同色彩、材質、紋理、飾面或織物演算的項目。
 
 **快速入門**
 
-此色票集快速入門功能是專為在Dynamic Media Classic中使用色票集技術快速啟動及執行而設計。
+此色票集快速入門功能是專為使用Dynamic Media經典中的色票集技術快速上手而設計。
 
 **1. 上載影像和色票檔案**
 
 首先為色票集上載影像和色票檔案。
 
-按一下全域導覽列上的「上傳」，將檔案從您的電腦上傳至Dynamic Media Classic的資料夾。 請參閱[準備要上載的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
+按一下全域導覽列上的「上傳」，將檔案從您的電腦上傳至Dynamic Media經典的資料夾。 請參閱[準備要上載的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
 **2.建立色票集**
 
@@ -36,7 +38,7 @@ ht-degree: 63%
 
 **3.設定色票集檢視器預設集**
 
-管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
+管理員可以建立或修改影像集檢視器預設集。Dynamic Media經典版隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
@@ -48,7 +50,7 @@ ht-degree: 63%
 
 **5.發佈色票集**
 
-「發佈色票集」會將其置於Dynamic Media Classic伺服器上並啟動URL字串。
+發佈色票集會將其置於Dynamic Media經典伺服器上並啟動URL字串。
 
 在「瀏覽面板」中按一下其名稱左側的「標籤為發佈」圖示。然後，按一下「發佈」。 ********&#x200B;在「發佈」畫面上，按一下「開始發佈」**。**
 
@@ -56,6 +58,6 @@ ht-degree: 63%
 
 **6.將色票集連結至網頁**
 
-Dynamic Media Classic會建立色票集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
+Dynamic Media經典會建立色票集的URL呼叫，並在您發佈後啟動這些呼叫。 您可以從「預覽」畫面複製這些 URL。
 
 選取「色票集」，然後選取「預覽」按鈕。「預覽」畫面開啟。選取一個色票集檢視器預設集，然後選取「複製 URL」按鈕。請參閱[將色票集連結至網頁](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
