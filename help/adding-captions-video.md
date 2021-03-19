@@ -5,10 +5,12 @@ uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '912'
 ht-degree: 63%
 
 ---
@@ -32,19 +34,19 @@ ht-degree: 63%
 
 另請參閱[增加和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
-Dynamic Media Classic可將標題檔案轉換為JSON（JavaScript物件註解）格式。 這項轉換意味著您可以在網頁中內嵌 JSON 文字，成為隱藏但完整的視訊文字。搜尋引擎便可以為內容建立編目或索引，讓視訊更易於尋找，為客戶提供更多有關視訊內容的詳細資訊。
+Dynamic MediaClassic具備將標題檔案轉換為JSON（JavaScript物件註解）格式的功能。 這項轉換意味著您可以在網頁中內嵌 JSON 文字，成為隱藏但完整的視訊文字。搜尋引擎便可以為內容建立編目或索引，讓視訊更易於尋找，為客戶提供更多有關視訊內容的詳細資訊。
 
-如需在URL中使用JSON函式的詳細資訊，請參閱&#x200B;*Adobe Image Serving API說明*&#x200B;中的[伺服靜態（非影像）內容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)。
+如需在URL中使用JSON函式的詳細資訊，請參閱&#x200B;*Adobe影像服務API說明*&#x200B;中的[伺服靜態（非影像）內容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)。
 
 **增加註解至視訊**
 
-1. 使用Dynamic Media Classic外部的協力廠商應用程式，根據您使用的檢視器類型建立您的視訊標題檔案。
+1. 使用Dynamic Media經典影像以外的協力廠商應用程式，根據您使用的檢視器類型建立您的影片標題檔案。
 
    | 檢視器類型 | 註解檔案 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/):網頁視訊文字追蹤格式。<br><br>您可使用免費和付費的工具和服務，在Dynamic Media Classic外部製作標題檔案。例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具：<br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請在DMC中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。此程式會提供視訊檔案本身的URL，您可將它貼入視訊檔案的<b>輸入視訊檔案的URL</b>欄位。 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。<br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
+   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://dev.w3.org/html5/webvtt/):網頁視訊文字追蹤格式。<br><br>您可以免費和付費購買工具和服務，用於在Dynamic MediaClassic以外製作標題檔。例如，若要建立沒有樣式的簡單視訊標題檔案，您可以使用下列免費的線上標題製作和編輯工具：<br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>為獲得最佳效果，請使用Internet Explorer 9或更新版本、Google Chrome或Safari中的工具。 <br><br>在此工具的 <b>Enter URL of video file</b> 欄位中，貼上視訊檔案的 URL，然後按一下 <b>Load</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media經典URL，請在DMC中連按兩下個別視訊資產（非最適化視訊集或主視訊），以在詳細資料檢視中開啟它。在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。接著，在「行動裝置」群組下的「行動裝置 (漸進式)」右側，按一下「複製 URL」。此程式會提供視訊檔案本身的URL，您可將它貼入視訊檔案的<b>輸入視訊檔案的URL</b>欄位。 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成時，請將註解檔案內容複製並貼至純文字編輯器中，並以 .vtt 副檔名儲存。<br><br><b>注意：</b> 若要全域支援英文以外的語言的視訊標題，請注意，WebVTT標準要求您針對想要支援的每種語言建立個別的。vtt檔案和呼叫。<br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
 
-1. 在Dynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML標題檔案。
+1. 在Dynamic MediaClassic中，上傳您的WebVTT、DFXP或SMPTE XML標題檔案。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
