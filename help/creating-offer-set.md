@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
+feature: Dynamic Media經典
+role: 資料工程師、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1223'
 ht-degree: 57%
 
 ---
@@ -26,11 +28,11 @@ ht-degree: 57%
 
 對於模板，按一下「添加並預覽」，然後設定您選擇的參數。 ****&#x200B;其他提案集類型不包括參數，但仍然可以進行自訂，方法是按一下「**預覽**」，然後變更可用預設集。
 
-Dynamic Media Classic提供編輯和建立選件集的工具。
+Dynamic Media經典提供編輯和建立選件集的工具。
 
 >[!NOTE]
 >
->在建立選件集之前，請務必發佈您要用於該集合的所有資產，並設定為Dynamic Media Classic。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
+>在建立選件集之前，請務必發佈您要用於該集的所有資產，並設定為「Dynamic Media經典」。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
 ## 提案集的類型 {#types-of-offer-sets}
 
@@ -39,8 +41,8 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 * **影**
 像您可以組合選件集的影像。每張影像在集合中包含不同的選件。
 
-* **影像**
-範本您可以使用「建立>範本基礎」命令，在Dynamic Media Classic中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像范**
+本您可以使用「建立>範本基礎」命令，在Dynamic Media經典影像中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
 
 * **視**
 訊您可以組合選件集的視訊。每個視訊是提案集中的一個不同提案。
@@ -97,7 +99,7 @@ Dynamic Media Classic提供編輯和建立選件集的工具。
 
    * **格線或清單** 檢視選取影像或視訊，然後按一 **[!UICONTROL 下「建立> Test&amp;Target選件集」]**。
 
-1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或影片。
+1. 也可以選取影像或視訊，然後按一下「**預覽**」。在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或視訊。
 
    * 選擇預設集以變更影像或視訊的外觀和大小。
    * 按一下「將所選預設集套用於全部」核取方框，將所選預設集套用到提案集中的所有提案。
