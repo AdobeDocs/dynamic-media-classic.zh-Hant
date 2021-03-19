@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1145'
 ht-degree: 78%
 
 ---
@@ -66,7 +68,7 @@ sRGBConverts至sRGB（標準紅綠藍）。sRGB 是在網頁上顯示影像時�
 域保留原始色域。
 
 * **「自訂自」>「**
-至開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色域或您上傳至Dynamic Media Classic的色域。
+至開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色域或您上傳至Dynamic Media經典的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -84,14 +86,14 @@ sRGBConverts至sRGB（標準紅綠藍）。sRGB 是在網頁上顯示影像時�
 
 | 遮色片銳利化調整選項 | 說明 |
 |--- |--- |
-| 數量 | 控制要套用到邊緣像素的對比量。<br><br>可以將它視為效果的強度。Dynamic Media Classic中「遮色片銳利化」的量值與Adobe Photoshop中的量值之間的主要差異，是Photoshop的量範圍是1%到500%。 而在Dynamic Media Classic中，值範圍是0.0到5.0。Dynamic Media Classic中的值為5.0，大致相當於Photoshop中的500%;值0.9等於90%，依此類推。 |
+| 數量 | 控制要套用到邊緣像素的對比量。<br><br>可以將它視為效果的強度。Dynamic Media經典中「銳利遮色片」的量值與Adobe Photoshop中的量值之間的主要差異是，Photoshop的量範圍為1%到500%。 而在Dynamic Media經典中，值範圍是0.0到5.0。Dynamic Media經典的5.0值大致相當於Photoshop的500%;值0.9等於90%，依此類推。 |
 | 半徑 | 控制效果的半徑。<br><br>值範圍是0-250。效果會在影像中的所有像素上執行，並從所有方向的所有像素發出輻射。半徑是以像素為測量單位。例如，若要讓 2000 x 2000 像素的影像和 500 x 500 像素的影像有相似的銳利化效果，可將 2000 x 2000 像素影像的半徑值設為 2 個像素，將 500 x 500 像素影像的半徑值設為 1 個像素。較多像素的影像要用較大的值。 |
 | 臨界值 | 臨界值是在套用遮色片銳利化調整時忽略的對比範圍。這很重要，在使用此濾鏡時才不會產生「雜訊」。值範圍是 0-255，表示灰階影像中亮度步階的數值。0=黑、128=50% 灰，而 255=白。<br><br>例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，但仍會增加反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。<br><br>例如，假設您有一張某人臉部的相片，「遮色片銳利化調整」會影響影像中的對比部分 (例如睫毛和皮膚鄰接之處) 以產生明顯的對比區域，以及影響平滑皮膚本身。即使是最平滑的皮膚也會顯現亮度值的細微變化。如果您不使用臨界值，則濾鏡會在皮膚像素中強調這些細微的變化。因而產生雜訊和不想要的效果，同時提高睫毛的對比，增強銳利度。<br><br>為了避免這個問題，而引進臨界值來告知濾鏡忽略不要大幅更改對比的像素，例如平滑皮膚。<br><br>在稍早顯示的拉鍊圖中，請注意拉鍊旁的紋理。影像中呈現雜訊，這是因為臨界值太低而無法抑制雜訊。 |
 | 單色 | 選取以針對影像亮度 (飽和度) 進行遮色片銳利化調整。<br><br>取消選取以分別對每個色彩元件進行遮色片銳利化調整。 |
 
 另請參閱[銳利化影像](sharpening-image.md#sharpening_an_image)。
 
-另請參閱「在Scene7 Publishing System中銳利化影像」和「影像伺服器」上的「[銳利化影像」。](/help/assets/s7_sharpening_images.pdf)
+另請參閱「在Scene7出版系統中銳利化影像」和「影像伺服器」上的「銳利化影像」。[](/help/assets/s7_sharpening_images.pdf)
 
 **背景去底色**
 
