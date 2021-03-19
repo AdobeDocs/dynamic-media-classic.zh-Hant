@@ -7,27 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 32%
+source-wordcount: '250'
+ht-degree: 31%
 
 ---
 
 
 # 上載主影像{#uploading-master-images}
 
-在將影像上傳至Dynamic Media Classic之前，請確定影像是最高品質的大小和格式。 Dynamic Media Classic建議上傳具有足夠像素計數（長度為1500到2000像素）的高品質影像。 這樣能夠允許使用任何必需的動態影像。
+在將影像上傳至Dynamic Media經典影像之前，請確定影像是最高品質的大小和格式。 Dynamic Media經典影像建議上傳具有足夠像素計數（長尺寸為1500到2000像素）的高品質影像。 這樣能夠允許使用任何必需的動態影像。
 
 如需上載影像的詳細資訊，請參閱[上載檔案](uploading-files.md#uploading_files)。
 
 **準備主影像進行上載**
 
-在將主影像檔案上傳至Dynamic Media Classic之前，請先準備這些檔案：
+在將主影像檔案上傳至Dynamic Media經典影像之前，請先準備這些檔案：
 
 * **影像**
-大小建立您預期使用的最大影像。在最長尺寸中，一般影像大小的範圍介於 1500 至 2500 像素之間。如果您要使用「縮放」功能，Dynamic Media Classic建議使用最長維度至少2000像素的影像，以取得最佳縮放細節。 Dynamic Media Classic可以每張2500萬像素的影像轉換效果。 例如，您可使用5000 x 5000百萬像素影像或任何其他大小的組合，最高2500萬像素。
+大小建立您預期使用的最大影像。在最長尺寸中，一般影像大小的範圍介於 1500 至 2500 像素之間。如果您想要使用「縮放」功能，Dynamic Media經典影像建議使用最長維度至少2000像素的影像，以取得最佳縮放細節。 Dynamic Media經典影像可以每張2500萬像素的轉換效果。 例如，您可使用5000 x 5000百萬像素影像或任何其他大小的組合，最高2500萬像素。
 
 * **檔案**
 格式Dynamic Media Classic支援所有標準影像檔案格式，包括TIFF、BMP、JPEG、PSD、GIF和EPS。建議使用不失真影像格式—TIFF 和 PNG。如果使用 JPEG 影像，請使用最高品質設定。
