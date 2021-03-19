@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
+feature: Dynamic Media經典，檢視器，eCatalog
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1008'
 ht-degree: 78%
 
 ---
@@ -93,7 +95,7 @@ ht-degree: 78%
 
 ## 自訂目錄 (TOC)  {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，在eCatalog中提供預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，首頁可以讀取「封面」，而非「頁面0-1」。
+Dynamic Media·Classic在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，首頁可以讀取「封面」，而非「頁面0-1」。
 
 您可以手動為 eCatalog 建立自訂的目錄 (TOC)，或從 CSV (僅限 Mac) 或 XML 檔案匯入頁面名稱。
 
