@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 84%
+source-wordcount: '774'
+ht-degree: 83%
 
 ---
 
@@ -40,19 +42,19 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。但請注意，您在桌面預覽中看到的內容並不是在行動裝置上實際播放時的效果。若要預覽視訊在行動裝置上的內容呈現和播放效果，請前往「預覽」畫面，選取「複製 URL」，並在行動裝置的網頁瀏覽器中輸入該 URL。如需詳細資訊，請參閱[將視訊部署到網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>Dynamic Media經典提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。但請注意，您在桌面預覽中看到的內容並不是在行動裝置上實際播放時的效果。若要預覽視訊在行動裝置上的內容呈現和播放效果，請前往「預覽」畫面，選取「複製 URL」，並在行動裝置的網頁瀏覽器中輸入該 URL。如需詳細資訊，請參閱[將視訊部署到網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
 使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集之後，您可以取得 URL 或內嵌程式碼，以便使用所選的「檢視器預設集」播放視訊。
 
-Dynamic Media Classic隨附許多預先定義的檢視器預設集，以播放視訊，如果您是管理員，則可建立自訂的檢視器預設集。 有十幾種不同的設定可用於配置「視訊檢視器」。您可以設定其大小、色彩、視訊和音訊控制項、進度列、使用者介面外觀和社交功能。
+Dynamic Media·Classic隨附許多預先定義的檢視器預設集，以播放視訊，如果您是管理員，則可建立自訂的檢視器預設集。 有十幾種不同的設定可用於配置「視訊檢視器」。您可以設定其大小、色彩、視訊和音訊控制項、進度列、使用者介面外觀和社交功能。
 
 另請參閱[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
 
 ### 增加或編輯視訊檢視器預設集 {#adding-or-editing-a-video-viewer-preset}
 
-您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。您也可以新增和編輯您自訂的檢視器預設集，或編輯Dynamic Media Classic隨附的現有檢視器預設集。
+您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。您也可以新增和編輯自訂的檢視器預設集，或編輯現有的Dynamic Media經典檢視器預設集。
 
 在「檢視器預設集」中，您可以啟用、篩選、排序和預覽「檢視器預設集」。
 
@@ -60,7 +62,7 @@ Dynamic Media Classic隨附許多預先定義的檢視器預設集，以播放�
 
 **增加或編輯視訊檢視器預設集**
 
-1. 在Dynamic Media Classic的右上角附近，按一下「Setup **>**&#x200B;檢視器預設集&#x200B;**」。**
+1. 在Dynamic Media經典影像的右上角附近，按一下「Setup **** > **檢視器預設集**」。
 
    若要只查看視訊檢視器的預設集，請從表格正上方工具列中的「開啟檢視器」下拉式清單中選取「視訊檢視器」。
 
