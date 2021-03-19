@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2447'
 ht-degree: 74%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 74%
 
 影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個區域，可顯示內含滑鼠指向效果文字的面板。使用者按一下「影像地圖」時，就會觸發某種動作。例如，啟動網頁讓使用者進一步瞭解產品。為了吸引使用者注意到影像地圖，當使用者將指標移到影像地圖上時，其周圍會出現外框。
 
-除了能夠在Dynamic Media Classic中建立影像地圖外，您也可以在Adobe Acrobat或Adobe InDesign中設計目錄時建立影像地圖。
+除了在Dynamic Media經典中建立影像地圖外，或者在Adobe Acrobat或Adobe InDesign設計目錄時也可以建立影像地圖。
 
 建立影像地圖時，您可以執行下列任一動作:
 
@@ -49,9 +51,9 @@ ht-degree: 74%
 
    **多邊** 形圖選擇多邊形影像圖工具，然後按一下要封閉影像區域周長上的點。使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
 
-1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。在您繪製影像地圖後，Dynamic Media Classic會為其指派名稱。
+1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。在您繪製影像地圖後，Dynamic Media經典會為其指派一個名稱。
 
-   若要建立名稱，Dynamic Media Classic會在您使用的影像或eCatalog頁面名稱中附加一個循序編號。 您也可以自行輸入名稱。
+   若要建立名稱，Dynamic Media傳統型會在您使用的影像或eCatalog頁面名稱中附加一個循序編號。 您也可以自行輸入名稱。
 
 1. 如果要讓使用者在按一下影像地圖時開啟新網頁，請在「影像地圖」清單中輸入 URL。
 
@@ -122,7 +124,7 @@ ht-degree: 74%
 
 ## 使用範本來輸入 JavaScript 與 URL  {#using-a-template-to-enter-javascript-and-urls}
 
-您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。依預設，URL範本包含專屬的Dynamic Media Classic JavaScript處理常式，稱為`loadProduct`，可在新視窗中開啟影像。
+您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。依預設，URL範本包含專屬的Dynamic Media傳統JavaScript處理常式，稱為`loadProduct`，可在新視窗中開啟影像。
 
 >[!NOTE]
 >
@@ -142,7 +144,7 @@ Javascript:loadProduct(‘$$’);void(0);
 * URL值：`product.htm`
 * 實際產生的URL:`javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-依預設，URL範本包含稱為`loadProduct`的專屬Dynamic Media Classic JavaScript處理常式，可開啟具有URL目標的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Dynamic Media Classic處理常式：
+依預設，URL範本包含專屬的Dynamic Media傳統JavaScript處理常式，稱為`loadProduct`，可開啟具有URL目標的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Dynamic Media傳統處理常式：
 
 * `loadProductCW`
 
@@ -192,7 +194,7 @@ Javascript:loadProduct(‘$$’);void(0);
 
 您可以在使用 Adobe Acrobat 或 Adobe InDesign 設計 eCatalog 時建立影像地圖。
 
-使用 Acrobat 或 InDesign 時，在您要顯示影像地圖的位置建立超連結參照，然後針對影像地圖指定 URL 位置。將PDF檔案上傳至Dynamic Media Classic時，選取「擷取連結」選項會自動將連結轉換為影像地圖。
+使用 Acrobat 或 InDesign 時，在您要顯示影像地圖的位置建立超連結參照，然後針對影像地圖指定 URL 位置。將PDF檔案上傳至Dynamic Media經典時，選取「擷取連結」選項會自動將連結轉換為影像地圖。
 
 如需詳細資訊，請參閱 InDesign 說明或 Acrobat 說明。
 
@@ -202,15 +204,15 @@ Javascript:loadProduct(‘$$’);void(0);
 1. 選取要成為影像地圖的文字、框架或圖形。
 1. 在「超連結」面板中，按一下面板選單中的「新增超連結」。
 1. 在「新增超連結」對話框中，從「連結至」選單選擇「URL」。
-1. 在「URL」方框中輸入或貼上產品，然後按一下「確定」 （Dynamic Media Classic使用影像地圖URL範本完成URL。）
+1. 在「URL」方框中輸入或貼上產品，然後按一下「確定」 (Dynamic Media經典使用影像地圖URL範本完成URL。)
 
    >[!NOTE]
    >
-   >您不需要在 InDesign 中設定外觀選項。您可以在Dynamic Media Classic中指定外觀。
+   >您不需要在 InDesign 中設定外觀選項。您可以在Dynamic Media經典中指定外觀。
 
 1. 針對您要建立的所有影像地圖，重複步驟 2 到 5。
 1. 將檔案匯出成 PDF。
-1. 將PDF上傳至Dynamic Media Classic，然後從PDF選項中選取「擷取連結」。
+1. 將PDF上傳至Dynamic Media經典，然後從PDF選項中選取「擷取連結」。
 
 ### 在 Adobe Acrobat 中建立影像地圖 {#to-create-image-maps-in-adobe-acrobat}
 
@@ -218,12 +220,12 @@ Javascript:loadProduct(‘$$’);void(0);
 1. 拖曳即可建立影像地圖。「建立連結」方框開啟。
 1. 選取「自訂連結」，然後按「下一步」。
 
-   ***注意&#x200B;**:您不需要在Acrobat中設定外觀選項。您可以在Dynamic Media Classic中指定外觀。*
+   ***注意&#x200B;**:您不需要在Acrobat設定外觀選項。您可以在Dynamic Media經典中指定外觀。*
 
 1. 在「連結屬性」方框中，按一下「動作」。
 1. 從「選取動作」選單中選取「開啟網頁連結」，然後按一下「增加」。
-1. 在「編輯 URL」方框中輸入影像地圖的產品 ID，然後按一下「確定」 （Dynamic Media Classic使用影像對應URL範本完成URL。）
+1. 在「編輯 URL」方框中輸入影像地圖的產品 ID，然後按一下「確定」 (Dynamic Media經典使用影像地圖URL範本完成URL。)
 1. 針對您要建立的所有影像地圖，重複步驟 1 到 7。
 1. 儲存檔案。
-1. 將PDF上傳至Dynamic Media Classic，然後從PDF選項中選取「擷取連結」。
+1. 將PDF上傳至Dynamic Media經典，然後從PDF選項中選取「擷取連結」。
 
