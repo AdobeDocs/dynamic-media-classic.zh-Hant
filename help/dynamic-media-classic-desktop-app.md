@@ -1,14 +1,16 @@
 ---
 title: AdobeDynamic Media經典案頭應用程式——現已推出
-description: 進一步瞭解Dynamic Media經典案頭應用程式。
+description: 進一步瞭解Dynamic MediaClassic案頭應用程式。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
+source-git-commit: 24f8d9f6e997269d879562d777199d3d86d8114a
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
