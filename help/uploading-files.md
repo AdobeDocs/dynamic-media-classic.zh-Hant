@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 44%
 
 ---
@@ -17,15 +19,15 @@ ht-degree: 44%
 
 # Uploading files{#uploading-files}
 
-在將資產檔案上傳至Dynamic Media Classic之前，請確定資產檔案的命名正確，以及您的檔案夾結構是以您想要的方式設定和組織。 您可以從Dynamic Media Classic提供的FTP網站或直接從電腦或網路上傳檔案。 Dynamic Media Classic提供選項，可讓您在上傳檔案時最佳化檔案。 如果您已安裝Adobe Dynamic Media Classic案頭應用程式，則可直接從案頭拖曳檔案和檔案夾，以上傳檔案和檔案夾。 (請參閱[應用程式一般設定](application-setup.md#general_settings)。)
+在將資產檔案上傳至Dynamic Media經典之前，請確定資產檔案的命名正確，以及您的檔案夾結構是以您想要的方式設定和組織。 您可以從Dynamic MediaClassic提供的FTP網站或直接從電腦或網路上傳檔案。 Dynamic Media經典提供在上傳檔案時最佳化檔案的選項。 如果您安裝了AdobeDynamic Media經典案頭應用程式，則可以直接從案頭拖曳檔案和檔案夾，以上傳檔案和檔案夾。 (請參閱[應用程式一般設定](application-setup.md#general_settings)。)
 
 ## 準備要上載的資產和檔案夾 {#preparing-your-assets-and-folders-for-uploading}
 
-在上傳資產至Dynamic Media Classic之前，請確定資產的格式和大小正確。 您也必須遵守動態媒體經典規則來命名資產。 為檔案設定檔案夾組織和結構之前，請確定您可以輕鬆尋找和處理檔案。
+在上傳資產至Dynamic Media經典之前，請確定資產的格式和大小正確。 您還必須遵守Dynamic Media經典規則來命名資產。 為檔案設定檔案夾組織和結構之前，請確定您可以輕鬆尋找和處理檔案。
 
 ### 支援的資產檔案格式  {#supported-asset-file-formats}
 
-下表列出Dynamic Media Classic支援的資產檔案格式。 如需支援Camera Raw檔案的詳細資訊，請參閱[www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en)。
+下表列出了Dynamic Media經典支援的資產檔案格式。 有關支援的Camera Raw檔案的資訊，請參見[www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en)。
 
 | 資產檔案格式 | 說明 |
 |--- |--- |
@@ -41,7 +43,7 @@ ht-degree: 44%
 | PDF | PDF |
 | Photoshop | PSD、FXG 和 Camera Raw |
 | PostScript | EPS、PS |
-| 動態媒體經典影像製作 | VNC、VNT、VNW |
+| Dynamic Media經典影像製作 | VNC、VNT、VNW |
 | SVG | SVG、SVGX |
 | TAR | TAR |
 | 視訊 | 3GP、AVI、M2P、M2T、M2TS、M2V、M4V、MOV、MP4、MPEG、MPG、MTS、OGV、TS、VOB、WMV/ASF |
@@ -50,11 +52,11 @@ ht-degree: 44%
 
 TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓縮檔案。
 
-### 動態媒體{#unsupported-image-formats-dynamic-media}中不支援的影像格式
+### Dynamic Media{#unsupported-image-formats-dynamic-media}中不支援的影像格式
 
-下列清單說明動態媒體中支援&#x200B;*not*&#x200B;的點陣影像檔案格式子類型。
+下列清單說明在Dynamic Media支援的&#x200B;*not*&#x200B;點陣影像檔案格式的子類型。
 
-另請參閱[偵測動態媒體不支援的檔案格式。](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)
+另請參見[檢測Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)不支援的檔案格式。
 
 * IDAT區塊大小大於100 MB的PNG檔案。
 * PSB檔案。
@@ -65,7 +67,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 
 ### 資產類型 {#asset-types}
 
-若要使用Dynamic Media Classic平台取得最佳效果，請務必使用建議的檔案格式和大小。 下表格列出了資產類型，其中一些資產類型具有常用資產的建議格式和檔案大小。
+若要使用Dynamic Media經典平台取得最佳效果，請務必使用建議的檔案格式和大小。 下表格列出了資產類型，其中一些資產類型具有常用資產的建議格式和檔案大小。
 
 | 資產類型 | 描述/建議 |
 |--- |--- |
@@ -73,7 +75,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 | 影像 (用於調整影像大小、縮放、影像集、迴轉集) | 影像的最大尺寸必須至少為 2000 像素；典型影像大小最大尺寸範圍在 1500 到 2500 像素之間。 建議使用不失真的影像格式，包括 TIFF 和 PNG 檔案。 如果使用 JPEG 影像，請使用最高品質的設定。動畫GIF檔案的處理方式與其他靜態內容相同。 |
 | eCatalog | 使用在 Adobe® Acrobat® 或 Creative Suite 應用程式中建立並儲存為「印刷就緒」的高解析度 PDF 檔案。 PDF 包括所有需要的字型、影像、遮色片以及參照的圖形化元素，採用單頁、雙頁式跨頁或多頁格式。 透過按字母數字順序為檔案命名來排列頁面順序。 將 eCatalog 的所有 PDF 檔放於一個檔案夾中，以便上載。 您可以在上載時選取裁切選項，以便從 PDF 中移除修剪區域，包括裁切標記、對齊目標或色彩導表。 多數印刷就緒的 PDF 檔案採用 CMYK 色域，因此務必要獲得用於 PDF 檔案的 CMYK ICC 色彩設定檔。 |
 | 範本 | 分層影像或版面設計，可以包括文字、影像和圖層。 可以將圖層、文字字串和屬性 (如色彩和大小) 參數化，從而可以自訂變數資料。 在範本中使用時的影像要求與其他影像相同。 在 Photoshop 或其他影像編輯程式中準備圖形。 採用 TIFF 或 PNG 格式將每個圖形儲存為平面化透明檔案。 確保影像解析度適合所要求的用途。 準備列印的影像應為 300 ppi。 |
-| 視訊 | Dynamic Media Classic支援以OGV和MP4格式儲存的視訊檔案。 您可以在上載時將檔案轉碼為MP4格式。請參閱[支援的資產檔案格式](#supported-static-file-formats)。 |
+| 視訊 | Dynamic Media經典版支援以OGV和MP4格式儲存的視訊檔案。 您可以在上載時將檔案轉碼為MP4格式。請參閱[支援的資產檔案格式](#supported-static-file-formats)。 |
 | 字型 | 上載的 TrueType、Type1 (僅 Windows)、OpenType 字型以及 PhotoFont |
 | 影像 | 影像和分層影像檔案。 |
 | 影像集和色票集 | 可以在檢視器中顯示的一組相關影像。 |
@@ -88,11 +90,11 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 
 >[!NOTE]
 >
->當您將影像檔和PDF上傳至Dynamic Media Classic時，系統會將這些來源檔案轉換為P-TIFF(Pyramid TIFF)檔案。 這些P-TIFF是稍後發佈至動態媒體影像伺服器的檔案。 Dynamic Media Classic使用Pyramid Tiff檔案格式，因為它包含各種縮放比例，可在使用Dynamic Media Classic縮放檢視器檢視時快速縮放。
+>當您將影像檔和PDF上傳至Dynamic Media經典檔時，系統會將這些來源檔案轉換為P-TIFF(Pyramid TIFF)檔案。 這些P-TIFF是稍後發佈至Dynamic Media影像伺服器的檔案。 Dynamic Media經典影像使用Tiff檔案格式，因為它包含各種縮放比例，可在使用Dynamic Media經典影像縮放檢視器檢視時快速縮放。
 
 ### 支援的靜態檔案格式 {#supported-static-file-formats}
 
-Dynamic Media Classic支援數種靜態檔案格式。 靜態內容是任何「原狀」發佈的資產，例如CSS、PDF、SVG、XML等。
+Dynamic Media經典檔支援數種靜態檔案格式。 靜態內容是任何「原狀」發佈的資產，例如CSS、PDF、SVG、XML等。
 
 您可以發佈下列檔案類型:
 
@@ -107,17 +109,17 @@ Dynamic Media Classic支援數種靜態檔案格式。 靜態內容是任何「�
 * XML
 * ZIP
 
-Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
+Dynamic Media經典不提供產生靜態內容預覽URL的選項。
 
 ### 檔案名稱要求 {#filename-requirements}
 
-由於在檔案上載過程中將去除檔案名中的副檔名，因此系統不允許檔案使用相同的根名稱。在Dynamic Media Classic系統中，資產檔案名稱減去副檔名會變成資產的資產ID。 因此，兩個資產不能同名。
+由於在檔案上載過程中將去除檔案名中的副檔名，因此系統不允許檔案使用相同的根名稱。在Dynamic Media經典系統中，資產檔案名稱減去副檔名會變成資產的資產ID。 因此，兩個資產不能同名。
 
 確保貴公司的所有使用者都瞭解以下檔案命名規則: 
 
 * 系統中不允許存在名稱完全相同的資產 ID。
 * 資產 ID 的名稱區分大小寫。
-* 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。當Dynamic Media Classic ASCII使用資產名稱來建構URL字串時，會在資產名稱中編碼空白字元。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
+* 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。Dynamic Media傳統ASCII會在使用資產名稱來建構URL字串時，在資產名稱中編碼空白字元。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
 * 檔名中允許使用特定語言的字元，但不允許使用下列字元:
 
    \;/ ? :@ &amp; = + $, * &quot; &lt; > | &#39; { } %
@@ -133,18 +135,18 @@ Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 ### 檔案夾組織和結構  {#folder-organization-and-structure}
 
-在將內容上傳至系統之前，先在Dynamic Media Classic中組織並建構您內容的檔案夾和子檔案夾。 採用這種方式提前進行規劃主要有兩個好處:
+在將內容上傳至系統之前，先在Dynamic Media經典中組織並建構您的內容的檔案夾和子檔案夾。 採用這種方式提前進行規劃主要有兩個好處:
 
-* 當您透過FTP將內容上傳至Dynamic Media Classic時，您可以告訴系統在上傳期間複製資料夾結構。 如此，您的內容就會組織在Dynamic Media Classic的相同檔案夾和子檔案夾中，就像在電腦或網路上一樣。 （若要在Dynamic Media Classic中複製您的檔案夾結構，請在透過FTP上傳資產時選取「包含子檔案夾」選項。）
+* 當您透過FTP將內容上傳至Dynamic Media經典網站時，您可以告訴系統在上傳期間複製您的資料夾結構。 這樣，您的內容就會組織在您電腦或網路上的Dynamic Media經典檔案夾和子檔案夾中。 (若要複製Dynamic Media經典中的資料夾結構，請在透過FTP上傳資產時選取「包含子檔案夾」選項。)
 * 與在開始就使用經過仔細計畫的檔案夾結構相比，在檔案上載之後重新對系統內的檔案夾進行組織要困難得多。
 
-您選擇的資料夾命名方式和結構，將內容儲存在Dynamic Media Classic上，視組織需求而定。 以下是一些檔案夾結構範例:
+您選擇的資料夾命名方式和結構，將內容儲存在Dynamic Media經典影像上，視組織需求而定。 以下是一些檔案夾結構範例:
 
 **SKU架構** 的資料夾會根據SKU或項目編號來命名。例如，為所有以 0、20、30 開頭的編號序列分別建立單獨的檔案夾。
 
 **以品牌為** 基礎對於擁有多個品牌系列的製造商和行銷其他公司其他品牌的零售商，請將檔案分離為以不同品牌命名的產品資料夾。
 
-**Project-** basedFolders會根據推出／放置日期或專案名稱來組織。主要產生 eCatalog 的客戶喜歡使用這種方法。
+**Project-** basedFolders會根據轉出／放置日期或專案名稱來組織。主要產生 eCatalog 的客戶喜歡使用這種方法。
 
 **網站資料夾階層的** 鏡像此資料夾結構會鏡像網站的資料夾結構，例如為產品類別命名的資料夾。
 
@@ -152,22 +154,22 @@ Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 您可以從桌面上載個別檔案，或是透過 FTP 上載檔案夾。如果要上傳超過100 MB的檔案或上傳整個檔案夾和子檔案夾，請選取「VIA FTP」標籤。****
 
-Dynamic Media Classic會寄送電子郵件訊息給您，以確認上傳工作何時開始和結束，並通知您任何問題。
+Dynamic Media·Classic會寄電子郵件給您，確認您的上傳工作何時開始和結束，並通知您任何問題。
 
-執行大批量上載工作期間 (或隨後)，有些新項目可能顯示「尚未最佳化影像」訊息。此訊息會出現，因為檔案尚未完全處理並新增至Dynamic Media Classic。 您可以稍後將這些檔案最佳化。(請參閱[最佳化檔案](application-setup.md#optimize_files)。)
+執行大批量上載工作期間 (或隨後)，有些新項目可能顯示「尚未最佳化影像」訊息。出現此消息是因為檔案尚未完全處理並添加到Dynamic Media經典中。 您可以稍後將這些檔案最佳化。(請參閱[最佳化檔案](application-setup.md#optimize_files)。)
 
 ### 使用「從案頭」頁籤{#upload-files-using-sps-desktop-application}上載檔案
 
-Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和資料夾。
+Dynamic Media經典案頭應用程式可讓您透過拖曳來上傳檔案和資料夾。
 
-1. 在Dynamic Media Classic案頭應用程式的全域導覽列上，按一下&#x200B;**Upload**。
+1. 在「Dynamic Media經典台式機」應用程式的全局導航欄上，按一下&#x200B;**Upload**。
 1. 在「上傳」頁面上，按一下&#x200B;**FROM DESKTOP**&#x200B;頁籤。
 1. 在「上載」頁的左側，在&#x200B;**選擇要上載的檔案**&#x200B;區域中，按一下&#x200B;**瀏覽**&#x200B;以選擇要上載的檔案或資料夾，然後按一下&#x200B;**開啟**。
 1. 在「上載」頁的右側，在&#x200B;**選擇資料夾目標**&#x200B;區域中，導航到要添加已上載檔案或資料夾的目標資料夾。
-1. （可選）在「上傳」頁面底部附近的&#x200B;**「作業名稱**」欄位中，指定上傳作業的新名稱。 或者，您只需使用Dynamic Media Classic提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
+1. （可選）在「上傳」頁面底部附近的&#x200B;**「作業名稱**」欄位中，指定上傳作業的新名稱。 或者，您只需使用Dynamic Media經典提供的預設系統產生名稱即可。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
 1. （可選）如果您要自動發佈您上傳的資產，請在「上傳」頁面底部附近選取「上傳後發佈」。
 ****&#x200B;當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
-1. （可選）在「上傳」頁面底部附近，如果您希望上傳的檔案以相同的名稱取代現有檔案，請選取「覆寫任何資料夾中相同的基本資產名稱」，不論副檔名&#x200B;**為何。**請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
+1. （可選）在「上傳」頁面底部附近，如果您希望上傳的檔案以相同的名稱取代現有檔案，請選取「覆寫任何資料夾中相同的基本資產名稱」，不論副檔名&#x200B;**。**請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 此選項的名稱可能不同，具體取決於**應用程式設定>一般設定>上傳至應用程式>覆寫影像**&#x200B;中的設定。
 1. 在「上傳」頁面的右下角附近，按一下「工作選項」，然後指定您想要的選項。****
 
@@ -175,19 +177,19 @@ Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和
 
 1. 在「上載工作選項」對話框中，按一下「**儲存**」。
 1. 在「上傳」頁面的右下角，按一下「提交上傳」。
-****&#x200B;若要查看上載進度，按一下全域導覽列中的「**工作**」。您可以繼續在Dynamic Media Classic中工作，並隨時返回「作業」頁面，以檢閱進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**取消**」按鈕。
+****&#x200B;若要查看上載進度，按一下全域導覽列中的「**工作**」。您可以繼續在Dynamic Media經典中工作，並隨時返回「作業」頁面以查看進行中的作業。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**取消**」按鈕。
 
 ### 使用VIA FTP標籤{#upload-files-using-via-ftp}上傳檔案
 
-1. 登入您特定地區專屬的Dynamic Media Classic FTP網站。 使用管理員寄給您的 FTP 使用者名稱與密碼。
-1. 在Dynamic Media Classic的全域導覽列上，按一下&#x200B;**Upload**。
+1. 登入您特定地區專屬的Dynamic Media經典FTP網站。 使用管理員寄給您的 FTP 使用者名稱與密碼。
+1. 在「Dynamic Media經典」的全域導覽列上，按一下「上傳」****。
 1. 在「上傳」頁面上，按一下「VIA FTP **」標籤。**
 1. 在「上傳」頁面的左側，在&#x200B;**選擇「FTP資料夾以進行上傳」區域中，選擇要從中上傳檔案的FTP資料夾。**
-1. 在「上傳」頁面的右側，在&#x200B;**選擇「Adobe Dynamic Media Folder Destination」（Adobe動態媒體資料夾目標）區域，在Dynamic Media Classic中選擇目標資料夾。**
-1. （可選）在「上傳」頁面底部附近的&#x200B;**「作業名稱**」欄位中，指定上傳作業的新名稱。 或者，您只需使用Dynamic Media Classic提供的預設系統產生名稱。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
+1. 在「上傳」頁面的右側，在&#x200B;**選擇「AdobeDynamic Media資料夾目標」區域，選擇「Dynamic Media經典」中的目標資料夾。**
+1. （可選）在「上傳」頁面底部附近的&#x200B;**「作業名稱**」欄位中，指定上傳作業的新名稱。 或者，您只需使用Dynamic Media經典提供的預設系統產生名稱即可。 工作和其他的上載及發佈工作會記錄於「工作」頁面中，您可以從中檢查工作的狀態。請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
 1. （選擇性）如果您要自動發佈您上傳的資產，請在「上傳」頁面底部附近選取「上傳後發佈」。
 ****&#x200B;當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
-1. （可選）在「上傳」頁面底部附近，如果您希望上傳的檔案以相同的名稱取代現有檔案，請選取「覆寫任何資料夾中相同的基本資產名稱」，不論副檔名&#x200B;**為何。**請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
+1. （可選）在「上傳」頁面底部附近，如果您希望上傳的檔案以相同的名稱取代現有檔案，請選取「覆寫任何資料夾中相同的基本資產名稱」，不論副檔名&#x200B;**。**請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 此選項的名稱可能不同，具體取決於**應用程式設定>一般設定>上傳至應用程式>覆寫影像**&#x200B;中的設定。
 1. (可選；僅當您按一下&#x200B;**VIA FTP**&#x200B;頁籤時可用)在「上傳」頁面底部附近，如果您想從已上載的ZIP或TAR檔案中自動解壓縮所有檔案，請選擇&#x200B;**「上載時解壓縮Zip或Tar檔案」。**&#x200B;請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 1. 在「上傳」頁面的右下角附近，按一下「工作選項」，然後指定您想要的選項。****
@@ -197,7 +199,7 @@ Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和
 1. 在「上載工作選項」對話框中，按一下「**儲存**」。
 1. 在「上傳」頁面的右下角，按一下「提交上傳」。****
 
-   若要查看上載進度，請按一下全域導覽列中的「**工作**」。「工作」頁面隨即出現，並顯示上載的進度。您可以繼續在Dynamic Media Classic中工作，並隨時返回「作業」頁面，以檢閱進行中的工作。
+   若要查看上載進度，請按一下全域導覽列中的「**工作**」。「工作」頁面隨即出現，並顯示上載的進度。您可以繼續在Dynamic Media經典中工作，並隨時返回「作業」頁面以查看進行中的作業。
 
 若要取消進行中的上載工作，請按一下「持續時間」旁邊的「**取消**」。
 
@@ -224,12 +226,12 @@ Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和
 
    * **上傳時解壓縮Zip或Tar檔案** — 如果您選取了「 **FROM** DESKTOP」標籤或「 **VIA** FTP」標籤，則可用。如果您想要自動從已上載的ZIP或TAR檔案解壓縮所有檔案，請選取此選項。 請注意，「作業選項」(Job Options)對話框中也提供了此同一選項。
 
-   * **包含子檔案夾** — 僅在您選取「 **VIA** FTP」標籤時可用。如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的檔案夾及其子檔案夾名稱會自動在Dynamic Media Classic中輸入。
+   * **包含子檔案夾** — 僅在您選取「 **VIA** FTP」標籤時可用。如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的檔案夾及其子檔案夾名稱會自動在Dynamic Media經典中輸入。
 
    * **處理中繼資料檔案** — 僅當您選取「VIA  **FTP」索引** 標籤時可用。如果要上載 Tab 字元分隔檔案或 XML 檔案以將中繼資料增加到多個資產中，可以選取該選項。請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
 
-* **裁切選項** — 若要自動裁切影像中的空白像素，請開啟「裁切」功能表，選擇「手動」，然後在「頂端」、「右側」、「底部」和「左側」欄位中輸入像素測量值，以便從兩側裁切。您也可以從「裁切」選單中選擇「修剪」並選擇以下選項:
+* **裁切OPTIONS** — 若要自動裁切影像中的空白像素，請開啟「裁切」功能表，選擇「手動」，然後在「頂端」、「右側」、「底部」和「左側」欄位中輸入像素測量值，以便從兩側裁切。您也可以從「裁切」選單中選擇「修剪」並選擇以下選項:
 
    * **根據** — 選擇要根據顏色還是透明度進行裁切：
 
@@ -243,25 +245,25 @@ Dynamic Media Classic Desktop應用程式可讓您透過拖曳來上傳檔案和
 
       * **容忍** — 拖動滑塊以指定0到1的公差。
 
-* **色彩描述檔選項** — 當您建立用於Dynamic Media Classic動態傳送的最佳化檔案時，請選擇顏色轉換：
+* **色彩描述檔OPTIONS** — 當您建立用於Dynamic Media經典動態傳送的最佳化檔案時，請選擇顏色轉換：
 
    * **預設色彩保留** — 當影像包含色域資訊時，保持原始影像顏色；沒有顏色轉換。幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
 
-   * **保留原始色域** — 在擷取至Dynamic Media Classic時，保留原始顏色，而不進行任何色彩轉換。至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
+   * **保留原始色域** — 保留原始顏色，在擷取到Dynamic Media經典時不進行任何色彩轉換。至於沒有內嵌色彩設定檔的影像，則會使用「發佈」中設定的預設色彩設定檔進行任何必要的色彩轉換，以利處理影像請求。這些色彩設定檔可能和以此選項建立的檔案中的色彩不一致。因此，最好使用「預設色彩保存」選項。
 
    * **自訂自>至** — 開啟功能表，以選擇「轉換自」和「轉換至顏色」空間。這個進階選項會覆蓋來源檔案內嵌的任何色彩資訊。只有在您要送出的所有影像都包含不正確或遺失的色彩描述檔資料時，才應選取此選項。
 
-* **影像編輯選項** — 您可以保留影像 &lt;> 中的剪裁遮色片，並選擇色彩描述檔。請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
+* **影像編輯OPTIONS** — 您可以保留影像 &lt;> 中的剪裁遮色片，並選擇色彩描述檔。請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
 
-* **POSTSCRIPT選項** — 您可以點陣化PostScript®檔案、裁切檔案、維護透明背景、選擇解析度，以及選擇色域。請參閱[使用 PostScript 和 Illustrator 檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
+* **POSTSCRIPTOPTIONS** — 您可以點陣化PostScript®檔案、裁切檔案、維持透明背景、選擇解析度，以及選擇色域。請參閱[使用 PostScript 和 Illustrator 檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **PHOTOSHOP選項** — 您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定至範本的方式。請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
+* **PhotoshopOPTIONS** — 您可以從Adobe®Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定至範本的方式。請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
-* **PDF選項** — 您可以點陣化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇色域。請參閱[PDF 上載選項](pdfs.md#pdf_upload_options)。
+* **PDFOPTIONS** — 您可以點陣化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇色域。請參閱[PDF 上載選項](pdfs.md#pdf_upload_options)。
 
-* **ILLUSTRATOR選項** — 您可以點陣化Adobe Illustrator®檔案、維護透明背景、選擇解析度，以及選擇色域。請參閱[使用 PostScript 和 Illustrator 檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
+* **IllustratorOPTIONS** — 您可以點陣化Adobe Illustrator®檔案、維持透明背景、選擇解析度，以及選擇色域。請參閱[使用 PostScript 和 Illustrator 檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **EVIDEO選項** — 您可以選擇「視訊預設集」來轉碼視訊檔案。請參閱[使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)。
+* **EVIDEOOPTIONS** — 您可以選擇「視訊預設集」來轉碼視訊檔案。請參閱[使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
 * **其他中繼資料** — 輸入描述您要上傳之檔案的關鍵字。用逗號分隔關鍵字。使用關鍵字使搜尋資產變得更容易。請參閱[實施進階搜尋](searching-assets.md#conducting_an_advanced_search)。
 
