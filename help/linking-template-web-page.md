@@ -7,20 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 69%
+source-wordcount: '337'
+ht-degree: 68%
 
 ---
 
 
 # 將範本連結到網頁{#linking-a-template-to-a-web-page}
 
-您的網站和應用程式會透過URL字串存取動態媒體影像伺服器內容。 發佈範本後，Dynamic Media Classic會啟動參考動態媒體影像伺服器上範本的URL字串。 您可以將這個 URL 貼至 Web 瀏覽器以進行測試。
+您的網站和應用程式會透過URL字串存取Dynamic Media影像伺服器內容。 發佈範本後，Dynamic Media經典會啟動參考Dynamic Media影像伺服器上範本的URL字串。 您可以將這個 URL 貼至 Web 瀏覽器以進行測試。
 
-若要將URL字串置於您的網頁和應用程式中，請從Dynamic Media Classic複製這些字串。 若要取得使用影像預設集產生的範本 URL 字串，請移至「預覽」畫面或瀏覽面板 (在詳細檢視中)。然後選取「影像預設集」並選取「複製 URL」按鈕。
+若要將URL字串置於您的網頁和應用程式中，請從Dynamic Media經典複製。 若要取得使用影像預設集產生的範本 URL 字串，請移至「預覽」畫面或瀏覽面板 (在詳細檢視中)。然後選取「影像預設集」並選取「複製 URL」按鈕。
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ ht-degree: 69%
 
 ## 將範本 URL 增加到網頁中  {#adding-template-urls-to-your-web-page}
 
-若要將範本新增至網頁，請洽詢您的網頁開發團隊，以使用Dynamic Media Classic URL字串修改HTML網頁程式碼中的`<IMG>`標籤，以向動態媒體影像伺服器提出要求。 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
+若要將範本新增至網頁，請洽詢您的網頁開發團隊，以使用Dynamic Media經典URL字串修改HTML網頁程式碼中的`<IMG>`標籤，以向Dynamic Media影像伺服器提出要求。 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
 
 >[!MORELIKETHIS]
 >
