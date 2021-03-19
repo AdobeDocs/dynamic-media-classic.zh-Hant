@@ -1,16 +1,18 @@
 ---
 title: 建立範本
-description: 瞭解如何在Dynamic Media Classic中建立範本。
+description: 瞭解如何在Dynamic Media經典中建立範本。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3437'
+source-wordcount: '3442'
 ht-degree: 65%
 
 ---
@@ -22,7 +24,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->如果您編輯舊版Dynamic Media Classic中建立的範本，儲存時可能會收到提示，詢問「您要新增畫布圖層嗎？」 請選擇「否」以避免增加新的基本圖層。如果不小心選擇了「是」，則請刪除 URL 中的「&amp;allowCanvasPrompt」和「&amp;layer=0」修飾元，然後按「Enter」或「Return」鍵。
+>如果您編輯在舊版Dynamic Media經典中建立的範本，在儲存時可能會收到提示，詢問「您要新增畫布圖層嗎？」 請選擇「否」以避免增加新的基本圖層。如果不小心選擇了「是」，則請刪除 URL 中的「&amp;allowCanvasPrompt」和「&amp;layer=0」修飾元，然後按「Enter」或「Return」鍵。
 
 ## 建立初始範本 {#creating-the-initial-template}
 
@@ -51,7 +53,7 @@ ht-degree: 65%
 1. 按一下&#x200B;**「儲存」**。
 1. 選取用於儲存範本的檔案夾，輸入範本名稱，並按一下「**送出**」。
 
-   Dynamic Media Classic會視需要縮小影像，以配合畫布，畫布是範本畫面上用來定義範本的區域。
+   Dynamic Media·Classic會視需要縮小影像，以配合畫布，畫布是範本畫面上用來定義範本的區域。
 
 ## 編輯範本集 {#editing-a-template-set}
 
@@ -100,7 +102,7 @@ ht-degree: 65%
 
 **文字編輯器v4.3和文字編輯器v4.2** 您可以選擇使用最新且功能最完整的文字編輯器、文字編輯器v4.3或先前的文字編輯器v4.2。建立新範本時，預設會選取「文字編輯器4.3版」。編輯較舊的範本時，預設選取 Text Editor v4.2。Text Editor v4.3 目前不支援文字換行，因此，在編輯使用文字換行的舊範本時，請使用 Text Editor v4.2 保持範本的真實度完整。如果舊範本未使用文字換行，則可以選擇 Text Editor v4.3 來充分利用它所提供的許多新增功能，例如增加邊距、減少邊距、將文字設定為全部大寫及複製符合文字。
 
-***注意&#x200B;**:文字編輯器4.2版最終會在Dynamic Media Classic中移除，因此建議您盡可能使用文字編輯器4.3。「文字換行」選項將合併到文字編輯器以後的發行版中。*
+***注意&#x200B;**:文字編輯器4.2版最終會在Dynamic Media經典版中移除，因此建議您盡可能使用文字編輯器4.3。「文字換行」選項將合併到文字編輯器以後的發行版中。*
 
 **設計人員** 和開發人員選擇最能說明您角色的選項。
 
@@ -118,7 +120,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->如有必要，Dynamic Media Classic會在您建立影像圖層時縮小影像，使其符合畫布。
+>如有必要，Dynamic Media經典影像會在您建立影像圖層時縮小影像，使其適合畫布。
 
 ## 建立文字圖層 {#creating-a-text-layer}
 
@@ -139,7 +141,7 @@ ht-degree: 65%
 1. 在文字方框中，選取要設定格式的文字。可以選取所有文字、部分文字或個別字元。
 1. 指定以下任何格式設定選項，然後按一下「套用」。
 
-   **字** 體在「字型」選單中選擇字型。如果您想要的字型未出現在功能表中，您可將其上傳至Dynamic Media Classic。 請參閱字型。
+   **字** 體在「字型」選單中選擇字型。如果您想要的字型未出現在功能表中，您可以將它上傳至Dynamic Media經典。 請參閱字型。
 
    **字型** 大小從選單選擇字型大小，在方塊中輸入特定大小，或按一下向上或向下箭頭，將大小增加或減少兩點。
 
@@ -241,7 +243,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Dynamic Media Classic建議建立與範本大小相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
+>Dynamic Media·經典建議建立與範本大小相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
 
 **變更圖層大小**
 
@@ -287,11 +289,11 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;
 
 **不透** 明度拖曳「不透明度」滑桿，讓任何圖層變得半透明，讓部分底層影像顯示透明。100% 設定表示完全不透明；0 設定則表示透明。
 
-**混合** 模式選擇一個選項，以模擬Photoshop中可用的一種混合模式。選項包括「正常」、「溶解」、「變亮」、「變暗」、「色彩增值」和「螢幕」。這些選項可用於圖層，但不可用於畫布。
+**混合** 模式選擇一個選項，以模擬Photoshop可用的一種混合模式。選項包括「正常」、「溶解」、「變亮」、「變暗」、「色彩增值」和「螢幕」。這些選項可用於圖層，但不可用於畫布。
 
 ## 對圖層使用陰影和光暈效果  {#using-shadow-and-glow-effects-on-layers}
 
-您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的範本源自具有陰影和光暈效果的PSD檔案，則可在Dynamic Media Classic中調整這些效果。
+您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的範本源自具有陰影和光暈效果的PSD檔案，您可以在Dynamic Media經典影像中調整這些效果。
 
 套用陰影或光暈效果之後，您可以在「範本」畫面的「圖層屬性」區域調整其大小、色彩、不透明度和位置。
 
@@ -324,7 +326,7 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;
 
 **不** 透明度拖曳滑桿以判斷效果有多強。不透明效果越少即越透明。
 
-**混合模** 式選擇一個選項，以模擬Photoshop中可用的一種混合模式。選項包括「正常」、「溶解」、「變亮」、「變暗」、「色彩增值」和「螢幕」。
+**混合模** 式選擇一個選項，以模擬Photoshop可用的一種混合模式。選項包括「正常」、「溶解」、「變亮」、「變暗」、「色彩增值」和「螢幕」。
 
 **大** 小在X和Y框中輸入測量，以放大或縮小陰影效果。「大小」選項僅適用於內陰影和投影。
 
