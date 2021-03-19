@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
+feature: Dynamic Media經典，檢視器，縮放
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 26%
+source-wordcount: '157'
+ht-degree: 25%
 
 ---
 
 
 # 發佈縮放影像{#publishing-zoom-images}
 
-發佈會將您的縮放影像放在動態媒體影像伺服器上，讓您的網站和應用程式都能使用這些影像。 在發佈程式中，Dynamic Media Classic會啟動URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
+發佈會將您的縮放影像放在Dynamic Media影像伺服器上，讓您的網站和應用程式都能使用這些影像。 在發佈程式中，Dynamic Media經典會啟動URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
 
 ## 將影像標記為發佈 {#marking-images-for-publish}
 
-必須將影像標示為要發佈，才能將影像複製至動態媒體影像伺服器。 您可以在「瀏覽面板」中選取「標籤為發佈」圖示，將影像標示為發佈。 ****&#x200B;也可以在上載時將影像標記為發佈。
+必須將影像標示為發佈，才能將影像複製至Dynamic Media影像伺服器。 您可以在「瀏覽面板」中選取「標籤為發佈」圖示，將影像標示為發佈。 ****&#x200B;也可以在上載時將影像標記為發佈。
 
 ## 發佈影像 {#publishing-the-images}
 
