@@ -7,24 +7,26 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
+feature: Dynamic Media經典，檢視器，eCatalog
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 35%
+source-wordcount: '189'
+ht-degree: 33%
 
 ---
 
 
 # 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-發佈會將您的eCatalog和PDF放在動態媒體影像伺服器上，讓網站或應用程式都能使用它。 在發佈程式中，Dynamic Media Classic會啟動URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
+發佈會將您的eCatalog和PDF放在Dynamic Media影像伺服器上，讓您的網站或應用程式都能使用。 在發佈程式中，Dynamic Media經典會啟動URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
 
 >[!NOTE]
 >
 >請確定您的eCatalog和PDF位於相同的檔案夾中，並在發佈之前，先在「瀏覽面板」或「資產詳細資料」頁面中標示為要發佈。
 
-若要將eCatalog發佈至動態媒體影像伺服器：
+要將eCatalog發佈到Dynamic Media映像伺服器：
 
 1. 按一下全域導覽列上的&#x200B;**Publish**。
 1. 在「發佈」畫面上，選取「時間」選項 (「一次性」或「週期性」)。
