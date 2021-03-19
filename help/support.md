@@ -5,18 +5,20 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 34%
+source-wordcount: '191'
+ht-degree: 33%
 
 ---
 
 
 # 支援 {#support}
 
-技術支援提供的內容設計能夠符合所有規模大小之公司的需求。下表說明Dynamic Media Classic客戶服務方案：
+技術支援提供的內容設計能夠符合所有規模大小之公司的需求。下表說明Dynamic Media傳統客戶服務方案：
 
 | 支援 | 訂閱 |
 |--- |--- |
@@ -31,9 +33,9 @@ ht-degree: 34%
 
 向技術支援通報問題時，請包含以下資訊:
 
-* Dynamic Media Classic公司名稱。
+* Dynamic Media經典公司名稱。
 * 您的姓名、電話號碼與電子郵件地址.
-* Dynamic Media Classic應用程式、平台和版本。
+* Dynamic Media傳統應用程式、平台和版本。
 * 問題說明與重現問題所需步驟.
 * 錯誤訊息（如果有）。
 * 瀏覽器類型和版本（如果適用）。
