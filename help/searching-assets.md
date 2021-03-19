@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
+feature: Dynamic Media經典，資產管理，搜索
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1412'
 ht-degree: 77%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 77%
 
 # 搜尋資產{#searching-assets}
 
-若要在Dynamic Media Classic中尋找檔案資產，您可以依類型檢視資產、在「瀏覽面板」中排序資產、執行簡單搜尋、執行進階搜尋，以及篩選資產。
+若要在Dynamic Media經典中尋找檔案資產，您可以依類型檢視資產、在瀏覽面板中排序資產、執行簡單搜尋、執行進階搜尋，以及篩選資產。
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->Dynamic Media Classic會追蹤搜尋。 若要執行第二次搜尋，請選取「搜尋」按鈕，然後在「搜尋」選單的底部選擇搜尋名稱。
+>Dynamic Media經典追蹤搜尋。 若要執行第二次搜尋，請選取「搜尋」按鈕，然後在「搜尋」選單的底部選擇搜尋名稱。
 
 ## 執行進階搜尋  {#conducting-an-advanced-search}
 
@@ -153,7 +155,7 @@ ht-degree: 77%
 
 **立即發** 布在進行中繼資料變更時，會自動推送這些變更，包括新資產、關鍵字變更等。
 
-**XMP封** 包發佈XMP封包。這個封包並非用於搜尋，而是提供最新的 XMP。
+**XMP封包發XMP布封包。** 這個封包並非用於搜尋，而是提供最新的 XMP。
 
 **關鍵** 字將關鍵字發佈至中繼資料伺服器以用於搜尋。
 
