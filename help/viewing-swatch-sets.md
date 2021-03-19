@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
+feature: Dynamic Media經典，觀眾
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '436'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 86%
 
 可以使用可用預設集在「預覽」視窗中檢視色票集。可使用色票集的「縮放檢視器: 自訂檢視器預設集」。
 
-Dynamic Media Classic隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
+Dynamic Media經典版隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
 ## 為色票集設定縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
