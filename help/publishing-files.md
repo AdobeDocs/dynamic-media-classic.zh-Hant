@@ -1,28 +1,30 @@
 ---
 title: 發佈檔案
-description: 您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
+description: 「瞭解如何將您的資產發佈至Dynamic Media影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media經典以定期排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製來自Dynamic Media經典網站的URL呼叫，並將其新增至您的網站或應用程式。」
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 75%
+source-wordcount: '1715'
+ht-degree: 74%
 
 ---
 
 
 # 發佈檔案{#publishing-files}
 
-您可將資產發佈至動態媒體影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media Classic以定期發佈資產。 發佈資產後，這些資產即可用來傳送。您可以從Dynamic Media Classic複製URL呼叫，並將它們新增至您的網站或應用程式。
+您將資產發佈至Dynamic Media影像伺服器。 您可以一次性發佈資產，或安排Dynamic Media經典以定期排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製來自Dynamic Media經典網站的URL呼叫，並將其新增至您的網站或應用程式。
 
-Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 此傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media Classic資產都能有更佳的回應和載入時間。 請參閱[HTTP2內容傳送常見問答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
+Dynamic Media經典現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可與任何接受代管資產的應用程式整合。 然後，該已發佈資產會透過HTTP/2通訊協定傳送。 這種傳送方式改善了瀏覽器和伺服器通訊的方式，讓您的所有Dynamic Media經典資產都能有更佳的回應和載入時間。 請參閱[HTTP2內容傳送常見問答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
-資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media Classic的任何資產都會自動標示為要發佈。
+資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Dynamic Media經典的任何資產都會自動標示為要發佈。
 
 如需詳細資訊，請參閱[立即發佈通知PDF](/help/assets/rendering-instant-publish-notification.pdf)。
 
@@ -47,7 +49,7 @@ Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也�
 
 ## 建立發佈工作 {#creating-a-publish-job}
 
-建立發佈工作以發佈您已上傳至Dynamic Media Classic伺服器的資產，但選擇不自動發佈這些資產。 您可以執行一次性發佈工作，或者排程定期的週期性工作。Dynamic Media Classic提供進階的發佈選項，可發佈至特定伺服器，以及重新發佈已發佈資產的選項。
+建立發佈工作以發佈您已上傳至Dynamic Media經典伺服器的資產，但選擇尚未自動發佈。 您可以執行一次性發佈工作，或者排程定期的週期性工作。Dynamic Media經典提供進階的發佈選項，可發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
 **建立發佈工作**
 
@@ -63,7 +65,7 @@ Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也�
 
 1. 按一下「**送出發佈**」。
 
-Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以在該頁面上檢閱發佈工作。
+Dynamic Media·古典在「工作」頁面上追蹤發佈工作。 您可以在該頁面上檢閱發佈工作。
 
 >[!NOTE]
 >
@@ -79,7 +81,7 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
 在「發佈」頁面上選取「週期性」選項，建立週期性發佈工作。
 
-然後選擇「重複」選項 (「每天」、「每週」、「每月」或「自訂」)，以宣告重複發佈工作的時間。Dynamic Media Classic提供日曆工具，以排程週期性發佈工作。 您可以選擇「自訂」選項，並在「規則」方框中輸入規則來描述自訂工作時間間隔。
+然後選擇「重複」選項 (「每天」、「每週」、「每月」或「自訂」)，以宣告重複發佈工作的時間。Dynamic Media·Classic提供日曆工具來排程循環發佈工作。 您可以選擇「自訂」選項，並在「規則」方框中輸入規則來描述自訂工作時間間隔。
 
 請參閱[建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)。
 
@@ -94,8 +96,8 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 * **發佈**
 至選擇伺服器類型，將資產僅發佈至特定伺服器，而非所有伺服器。
 
-* **發**
-布依預設，Dynamic Media Classic只會發佈新資產，且之前未發佈的資產（「上次發佈後新增」選項）。但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
+* ****
+Publish依預設，Dynamic Media經典僅發佈新資產，且之前未發佈（「新的上次發佈後開始」選項）。但也可以選擇「完整發佈」，從而發佈自上次發佈以來已經更新或變更的資產。如果要發佈 eCatalog 並且希望讀者能夠透過關鍵字搜尋到該 eCatalog，則選擇「全文包含搜尋資料」。
 
 * **運行作**
 業從清單中選擇用戶名。可以在「工作」頁面上依使用者名稱排序工作。可以透過選擇名稱將發佈工作與使用者建立關聯。
@@ -153,11 +155,11 @@ Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以�
 
 ## 重新發佈的資產和 CDN 延遲 {#republished-assets-and-cdn-delays}
 
-動態Media Classic資產會散布在內容傳送網路(CDN)上。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網路內容從這些網路快取傳送到終端使用者，從而提高了傳送速度。
+Dynamic Media傳統資產會散布在內容傳送網路(CDN)上。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網路內容從這些網路快取傳送到終端使用者，從而提高了傳送速度。
 
 使用者首次下載網頁時，這些資產即傳送到 CDN 網路快取伺服器。資產儲存在該伺服器上，當下次同一區域中有人存取該網頁時，可以更快地傳送快取的相同內容。內容傳送速度更快是因為其位置更接近終端使用者。CDN 提高了網頁顯示速度。它降低了中央伺服器上的頻寬要求，因為內容是從邊緣快取網路傳送，而不是從每個實體的中央伺服器傳送。
 
-最新發佈的Dynamic Media Classic內容可立即提供給使用者，並快速填入邊緣快取網路。 但重新發佈的內容 (與之前發佈到影像伺服器的影像完全同名的影像) 需要長達十個小時之後才會在 CDN 上更新。終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Dynamic Media Classic重新發佈的資產在十小時內可能無法對使用者顯示。
+新發佈的Dynamic Media經典內容可立即提供給用戶，並快速填充邊緣快取網路。 但重新發佈的內容 (與之前發佈到影像伺服器的影像完全同名的影像) 需要長達十個小時之後才會在 CDN 上更新。終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Dynamic Media經典版重新發佈的資產可能會在十小時內無法提供給使用者。
 
 如果希望重新發佈的影像資產在可用前的延遲時間小於十個小時，可以清空 CDN 上的網路快取。清空這些網路快取可以從 CDN 網路快取中移除舊內容，並將其取代為最新發佈的資產。
 
