@@ -8,10 +8,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3945'
 ht-degree: 81%
 
 ---
@@ -19,19 +21,19 @@ ht-degree: 81%
 
 # 上載與編碼視訊{#uploading-and-encoding-videos}
 
-若要建立單一視訊或可調式視訊集，以便發佈至網頁或行動裝置，請先將主視訊檔案上傳至Dynamic Media Classic。 Dynamic Media Classic將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
+若要建立單一視訊或可調式視訊集，以便發佈至網路或行動裝置，請先將主視訊檔案上傳至Dynamic Media經典。 Dynamic Media經典將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
 
-**MP4** Dynamic Media Classic建議MP4為偏好的視訊檔案格式。使用 MP4 檔案可進行以下動作:
+**MP4** Dynamic Media經典建議MP4作為首選視頻檔案格式。使用 MP4 檔案可進行以下動作:
 
 * 桌面的 HTTP 動態串流。
 * HTTP 即時串流(Apple 的串流通訊協定)。
 * 傳送漸進式視訊到 Android、Blackberry 和 Windows 行動裝置
 
-Dynamic Media Classic提供兩個上傳視訊檔案的工作流程：
+Dynamic Media經典提供兩個上傳視訊檔案的工作流程：
 
-**預先編碼** 的視訊您直接將MP4檔案上傳至Dynamic Media Classic。在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
+**預先編碼的** 視訊您直接將MP4檔案上傳至Dynamic Media經典。在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
 
-**主要來源** 影片上傳主要來源影片檔案，並在上傳時將這些檔案編碼為MP4檔案。在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Dynamic Media Classic支援多種格式的視訊檔案編碼。
+**主要來源** 影片上傳主要來源影片檔案，並在上傳時將這些檔案編碼為MP4檔案。在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Dynamic Media經典支援多種格式的視訊檔案編碼。
 
 * 請確定您要編碼的主來源視訊檔案受到支援。
 
@@ -43,7 +45,7 @@ Dynamic Media Classic提供兩個上傳視訊檔案的工作流程：
 
    請參閱[視訊編碼的最佳實踐](uploading-encoding-videos.md#best-practices-for-video-encoding)。
 
-Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮圖、如何取得其 URL，以及修改海報框架。
+Dynamic Media·Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮圖、如何取得其 URL，以及修改海報框架。
 
 請參閱[使用視訊縮圖](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)。
 
@@ -60,7 +62,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 1. 在「上載」頁面中，確定已核取「**上載後發佈**」。
 1. 按一下「**提交上載**」。
 
-*如果您想使用Dynamic Media Classic來編碼視訊*
+*如果您想使用Dynamic Media·Classic來編碼視訊*
 
 1. 在「全域導覽列」上，按一下「**上載**」。
 1. 在「上載」畫面中，按一下「**從桌面**」標籤。
@@ -77,7 +79,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 如果您想要將先前上載的視訊檔案重新編碼
 
-1. 在Dynamic Media Classic的「瀏覽」面板中，導覽至視訊並選取它。
+1. 在「Dynamic Media經典」的「瀏覽」面板中，導覽至影片並選取它。
 1. 按一下「**檔案** > **重新處理**」。
 1. 在「重新處理資產」對話框中，展開「EVideo 選項」。
 1. 進行以下一項操作:
@@ -122,7 +124,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 ## 視訊編碼最佳實踐 {#best-practices-for-video-encoding}
 
-以下是在Dynamic Media Classic中編碼來源視訊檔案的最佳實務秘訣。
+以下是在Dynamic Media經典中編碼來源視訊檔案的最佳實務秘訣。
 
 有關視訊編碼的更多建議，請參閱以下內容:
 
@@ -143,7 +145,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 ### 取得檔案中繼資料  {#obtaining-a-file-s-metadata}
 
-您可以在Dynamic Media Classic中檢視檔案的中繼資料，使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，來取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
+您可以在Dynamic Media經典中檢視檔案的中繼資料，使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，以取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
 
 1. 前往此網頁：[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
 1. 選取和下載圖形介面版本的安裝程式，並按安裝指示操作。
@@ -245,7 +247,7 @@ Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮�
 
 ### 編碼視訊檔案格式  {#encoded-video-file-format}
 
-Adobe Dynamic Media Classic建議使用MP4 H.264視訊編碼預設集。 因為 MP4 檔案使用 H.264 視訊轉碼器，所以會提供高畫質視訊，但是會壓縮檔案大小。
+AdobeDynamic Media經典影像建議使用MP4 H.264視訊編碼預設集。 因為 MP4 檔案使用 H.264 視訊轉碼器，所以會提供高畫質視訊，但是會壓縮檔案大小。
 
 ## 使用視訊編碼預設集  {#working-with-video-encoding-presets}
 
@@ -253,7 +255,7 @@ Adobe Dynamic Media Classic建議使用MP4 H.264視訊編碼預設集。 因為 
 
 請參閱[上載與編碼視訊](uploading-encoding-videos.md#uploading-and-encoding-videos)。
 
-Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映現今最常用的編碼設定。 這些編碼預設集已針對在目標畫面播放進行了最佳化。此外，管理員還可以建立自己的視訊編碼預設集，以便自訂視訊的大小和對終端使用者播放的品質。所有視訊編碼預設集，不論是來自Dynamic Media Classic的現成可用預設集，或是自訂的MP4檔案格式輸出視訊。
+Dynamic Media經典為您提供預先定義的視訊編碼預設集資料庫，可反映現今最常用的編碼設定。 這些編碼預設集已針對在目標畫面播放進行了最佳化。此外，管理員還可以建立自己的視訊編碼預設集，以便自訂視訊的大小和對終端使用者播放的品質。所有視訊編碼預設集，不論是來自Dynamic MediaClassic的現成可用預設集，或是自訂的MP4檔案格式輸出視訊。
 
 在「視訊預設集」畫面上，管理員可以設定和管理視訊編碼。他們可以執行下列作業: 
 
@@ -262,7 +264,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 * 編輯視訊編碼預設集。
 * 刪除視訊預設集。
 
-您上傳至Dynamic Media Classic或您在Dynamic Media Classic中編碼的任何視訊，都會視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Dynamic Media Classic中預覽這些類型的視訊。 您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
+您上傳至Dynamic Media經典或您在Dynamic Media經典中編碼的任何視訊都會被視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Dynamic Media經典中預覽這些類型的視訊。 您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
 
 請參閱[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
 
@@ -270,7 +272,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 請參閱[在網頁上內嵌視訊檢視器](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)。
 
-對於您在Dynamic Media Classic中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
+對於您在Dynamic MediaClassic中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
 
 **MP4 H.264使** 用MP4檔案進行下列作業：
 
@@ -278,7 +280,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 * HLS（HTTP即時串流，Apple的串流通訊協定）。
 * 傳送漸進式視訊到 Android、Blackberry 和 Windows 行動裝置。
 
-任何其他視訊格式和轉碼器都視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Dynamic Media Classic中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
+任何其他視訊格式和轉碼器都視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Dynamic Media經典中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
 
 ### 篩選視訊編碼預設集的清單  {#filtering-the-list-of-video-encoding-presets}
 
@@ -290,7 +292,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 **篩選視訊編碼預設集的清單**
 
-1. 在Dynamic Media Classic中，按一下「**設定** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**&#x200B;或&#x200B;**單一編碼預設集**」。
+1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集** > **最適化視訊預設集**&#x200B;或&#x200B;**單一編碼預設集**」。
 
    「最適化視訊預設集」和「單一編碼預設集」頁面包含表格，其中列出作用中狀態、預設集名稱、目標播放裝置、視訊尺寸、每個視訊預設集的目標資料速率。
 
@@ -305,7 +307,7 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 **啟用或停用視訊編輯預設集**
 
-1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
+1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集**」。
 1. 進行以下一項操作:
 
    * 按一下「**最適化視訊預設集**」。
@@ -322,9 +324,9 @@ Dynamic Media Classic提供預先定義的視訊編碼預設集庫，可反映�
 
 ### 增加或編輯視訊編碼預設集  {#adding-or-editing-a-video-encoding-preset}
 
-您可以建立自己的自訂單一編碼視訊預設集，並將其增加到「視訊預設集」表格。您也可以變更Dynamic Media Classic隨附的任何預先定義的單一編碼視訊預設集，前提是您必須以新名稱儲存編輯的預設集。
+您可以建立自己的自訂單一編碼視訊預設集，並將其增加到「視訊預設集」表格。您也可以變更隨附於Dynamic Media經典的任何預先定義的編碼視訊預設集，前提是您必須以新名稱儲存編輯的預設集。
 
-Dynamic Media Classic已針對目標資料速率、解析度高度和解析度寬度設定最大限制，以確保提供適當的播放體驗。 如果您超過以下限制，就會出現警告訊息: 
+Dynamic Media經典影像設定了目標資料速率、解析度高度和解析度寬度的上限，以確保播放體驗正確。 如果您超過以下限制，就會出現警告訊息: 
 
 * 對於電腦播放，限制為: (寬度/16) * (高度/16) &lt; 8192。
 * 對於行動裝置播放，限制為: (寬度/16) * (高度/16) &lt; 660；目標資料速率 &lt; 4000。
@@ -332,14 +334,14 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
 
 **增加或編輯視訊編碼預設集**
 
-1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
+1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集**」。
 1. 按一下「**單一編碼預設集**」以開啟「視訊預設集」頁面。
 1. 在「視訊預設集」頁面中，執行下列任一項作業: 
 
    * 在「視訊預設集」工具列上，按一下「**增加**」以新增「視訊預設集」。
    * 選取視訊預設集。按一下工具列中的「**編輯**」。
 
-      您無法編輯Dynamic Media Classic預先定義的預設集；您只能通過選擇&#x200B;**另存為**&#x200B;從現有預設建立預設。
+      您無法編輯Dynamic Media經典預先定義的預設集；您只能通過選擇&#x200B;**另存為**&#x200B;從現有預設建立預設。
 
 1. 在「增加視訊預設集」頁面或「編輯視訊預設集」頁面上，設定您想要的視訊預設集選項。
 
@@ -354,7 +356,7 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
    | 外觀比例 | 外觀比例是視訊寬度相對於視訊高度的比例。以下所列的前兩個外觀比例經常用於水平顯示視訊:<ul><li> 4:3 - 幾乎適用於所有的標準畫質電視廣播內容。</li><li>16:9  - 幾乎適用於所有寬螢幕高畫質電視內容 (HDTV) 以及電影。</li><li>自動縮放 - (預設) 單一編碼預設集，可與任何外觀比例搭配使用，以為傳遞至行動裝置、平板電腦和桌上型電腦建立視訊。使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動縮放，以保留視訊的外觀比例 (寬高比)。</li><li>自訂 - 當您想要定義非標準的視訊大小時會使用。</li><li>您選擇的外觀比例決定了解析度大小的寬度和高度設定；寬度和高度值會自動縮放為適當的外觀比例。</li></ul> |
    | 解析度大小 | 解析度大小決定了尺寸，由以像素數表示的寬和高相乘來表示。以像素為單位輸入寬度和高度值，或拖曳滑桿來輸入這些值。解析度範圍列出了標準解析度大小。寬度和高度值將自動遵循所選的外觀比例。例如，如果選擇4:3作為寬高比並輸入400作為寬度，則系統會自動為高度輸入300。如果為「寬高比」設定選擇了「自動縮放」，則「解析度大小」的「寬度」值會自動設定為「自動」。按一下「預覽」可開啟瀏覽器窗口，並查看您的解析度選擇。 |
    | 編碼檔案字尾 | 輸入字尾。該字尾會附加到產生的編碼視訊檔案。您可以在名稱中輸入連字符號和底線；不允許使用空格和特殊字元。 |
-   | 其他設定 | Dynamic Media Classic會根據最佳實務編碼方針自動決定所有其他編碼設定。 |
+   | 其他設定 | Dynamic Media經典版會根據最佳實務編碼准則自動決定所有其他編碼設定。 |
 
 1. 進行以下一項操作:
 
@@ -363,11 +365,11 @@ Dynamic Media Classic已針對目標資料速率、解析度高度和解析度�
 
 ### 刪除視訊編碼預設集  {#deleting-a-video-encoding-preset}
 
-管理員可以刪除自訂視訊預設集。無法刪除Dynamic Media Classic隨附的視訊預設集。
+管理員可以刪除自訂視訊預設集。無法刪除隨附於Dynamic Media經典影片的視訊預設集。
 
 **除刪視訊編碼預設集**
 
-1. 在Dynamic Media Classic中，按一下「**Setup** > **應用程式設定** > **視訊預設集**」。
+1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集**」。
 1. 按一下「**單一編碼預設集**」以開啟「視訊預設集」頁面。
 1. 在「視訊預設集」頁面中，選取表格中您不再想要或需要的視訊預設集。
 1. 按一下「視訊預設集」工具列上的「**刪除**」。
