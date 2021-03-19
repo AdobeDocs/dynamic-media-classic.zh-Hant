@@ -1,24 +1,26 @@
 ---
 title: '"快速入門:迴轉集"'
-description: 簡介和回轉集快速入門，協助您快速上手使用。
+description: 簡介和快速開始回轉集可協助您快速上手使用。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
+feature: Dynamic Media經典，觀眾，旋轉集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 68%
+source-wordcount: '760'
+ht-degree: 67%
 
 ---
 
 
 # 快速入門:迴轉集{#quick-start-spin-sets}
 
-迴轉集用於模擬轉動物件進行查看時的真實動作。利用迴轉集能夠從任何角度查看項目，從而獲得任何角度的重要視覺詳細資訊。迴轉集會模擬 360 度的視覺效果。Dynamic Media Classic提供一維回轉集（檢視器可在其中旋轉項目）和二維回轉集（檢視器可在其中旋轉和翻轉項目）。 此外，使用者只需按幾下滑鼠，就可「自由格式」縮放和平移任何檢視。 透過這種方式，使用者能夠以特定的視點，更仔細地檢查項目。
+迴轉集用於模擬轉動物件進行查看時的真實動作。利用迴轉集能夠從任何角度查看項目，從而獲得任何角度的重要視覺詳細資訊。迴轉集會模擬 360 度的視覺效果。Dynamic Media經典提供一維回轉集（檢視器可在其中旋轉項目）和二維回轉集（檢視器可在其中旋轉和翻轉項目）。 此外，使用者只需按幾下滑鼠，就可「自由格式」縮放和平移任何檢視。 透過這種方式，使用者能夠以特定的視點，更仔細地檢查項目。
 
 ![迴轉集的影像。](/help/assets/spin_set.png)
 
@@ -28,13 +30,13 @@ ht-degree: 68%
 
 **快速入門**
 
-此回轉集快速入門旨在透過Dynamic Media Classic中的回轉集技術快速啟動及執行。 依照步驟 1 至 7 執行。每個步驟的結尾都有到主題標題的交互參照，您可以在其中找到更多資訊 (如果需要)。
+此回轉集快速入門旨在利用Dynamic Media經典公司的回轉集技術快速啟動和運行。 依照步驟 1 至 7 執行。每個步驟的結尾都有到主題標題的交互參照，您可以在其中找到更多資訊 (如果需要)。
 
 **1. 建立和上載影像**
 
 至少，一維自旋集需要8-12個項目鏡頭，二維自旋集需要16-24個項目鏡頭。 拍攝照片時必須間隔一定的角度，以便讓人感覺該項目正在旋轉和翻轉。例如，如果某個一維迴轉集中有 12 張照片，則每拍一張照片將項目旋轉 30 度 (360/12)。
 
-選取全域導覽列上的「上傳」按鈕，將回轉影像從您的電腦或網路上傳至Dynamic Media Classic。
+選取全域導覽列上的「上傳」按鈕，將回轉影像從您的電腦或網路上傳至Dynamic Media經典影像。
 
 請參閱[迴轉集影像拍攝準則](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
@@ -86,7 +88,7 @@ Last Modified Date:
 
 **6.發佈迴轉集**
 
-發佈回轉集會將它置於Dynamic Media Classic伺服器上，以便動態傳送至您的網站或應用程式。 它也會啟動URL字串，將「從動態媒體影像伺服器回轉集」呼叫至您的網站或應用程式。
+發佈回轉集會將它放置在Dynamic Media經典伺服器上，以便動態傳遞至您的網站或應用程式。 它也會啟動URL字串，從Dynamic Media影像伺服器呼叫回轉集至您的網站或應用程式。
 
 若要發佈回轉集，請在「瀏覽面板」中選取其名稱旁的&#x200B;**標示為發佈**&#x200B;圖示，將其標示為發佈。 按一下全域導覽列上的&#x200B;**Publish**&#x200B;以啟動發佈。 在「發佈」畫面上，按一下「開始發佈」**。**
 
@@ -94,7 +96,7 @@ Last Modified Date:
 
 **7.將迴轉集連結到網頁**
 
-Dynamic Media Classic會為回轉集建立URL圖說字串，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
+Dynamic Media經典會建立回轉集的URL圖說字串，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
 選擇「回轉集」，然後按一下「預覽」。 ****「預覽」畫面開啟。選取迴轉集檢視器預設集。然後按一下「複製URL」。****
 
