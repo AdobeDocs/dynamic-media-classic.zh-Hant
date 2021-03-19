@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
+feature: Dynamic Media經典，資產管理，協作
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 70%
+source-wordcount: '279'
+ht-degree: 68%
 
 ---
 
 
 # 即時與同級共用資產變更{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的一部或多部電腦上執行多份Dynamic Media Classic時，所有對等用戶端都會即時更新來自任何Dynamic Media Classic用戶端的下列動作：
+在同一公司的一部或多部電腦上執行多份Dynamic Media經典影像，所有對等用戶端都會即時更新任何Dynamic Media經典影像用戶端的下列動作：
 
 * 編輯資產 (建置器、影像編輯器等)
 * 重新命名資產
