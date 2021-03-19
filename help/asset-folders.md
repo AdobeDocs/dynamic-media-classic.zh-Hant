@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 54%
 
 ---
@@ -18,9 +20,9 @@ ht-degree: 54%
 
 # 使用資產檔案夾{#working-with-asset-folders}
 
-Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。在將檔案從電腦或網路上傳至Dynamic Media Classic之前，系統會要求您為檔案儲存資料夾命名。 上載任何檔案之前，請先建立這些檔案夾。
+Dynamic Media經典中的檔案資產保存在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。在您從電腦或網路上傳檔案至Dynamic Media經典之前，系統會要求您命名檔案儲存資料夾。 上載任何檔案之前，請先建立這些檔案夾。
 
-在上傳檔案之前，請務必建立檔案夾結構和組織，以便將檔案儲存在Dynamic Media Classic上。
+在上傳檔案之前，請務必建立檔案夾結構和組織，以便將檔案儲存在Dynamic Media經典。
 
 ## 顯示、移動、隱藏和開啟檔案夾 {#displaying-moving-hiding-and-opening-folders}
 
@@ -50,7 +52,7 @@ Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫�
 
    >[!NOTE]
    >
-   >當您透過FTP上傳檔案時，也可以在Dynamic Media Classic中建立檔案夾。 在透過 FTP 上載時選取「包含子檔案夾」選項，即可將您電腦上的檔案夾結構複製到系統中。您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
+   >當您透過FTP上傳檔案時，也可以在Dynamic Media經典中建立檔案夾。 在透過 FTP 上載時選取「包含子檔案夾」選項，即可將您電腦上的檔案夾結構複製到系統中。您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
 
 ## 刪除和重新命名檔案夾 {#deleting-and-renaming-folders}
 
@@ -64,4 +66,4 @@ Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫�
 
 >[!NOTE]
 >
->您無法複製資料夾或資產，因為這麼做會在Dynamic Media Classic上建立重複的資料夾和資產，且不允許複製。
+>您無法複製資料夾或資產，因為這麼做會在Dynamic MediaClassic上建立重複的資料夾和資產，而且不允許複製。
