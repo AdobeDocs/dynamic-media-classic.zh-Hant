@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
+feature: Dynamic Media經典，協作，元資料，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 89%
+source-wordcount: '172'
+ht-degree: 84%
 
 ---
 
 
 # 更有效地使用中繼資料{#making-more-efficient-use-of-metadata}
 
-Dynamic Media Classic上的所有檔案都包含中繼資料。 中繼資料可說明和識別檔案，以及用來搜尋和組織資產。若要檢視資產的中繼資料，請在詳細檢視中開啟資產，然後檢視「中繼資料」面板。這個面板上的中繼資料欄位可提供有關資產的說明資訊。
+Dynamic Media經典上的所有檔案都包含元資料。 中繼資料可說明和識別檔案，以及用來搜尋和組織資產。若要檢視資產的中繼資料，請在詳細檢視中開啟資產，然後檢視「中繼資料」面板。這個面板上的中繼資料欄位可提供有關資產的說明資訊。
 
 除非在中繼資料欄位正確輸入中繼資料，否則無法使用中繼資料來進行搜尋和組織資產。為了正確輸入中繼資料，並確保所有正確的中繼資料欄位都包含中繼資料，您可以建立中繼資料預設集。*中繼資料預設集*&#x200B;是預先定義的一組中繼資料項目。使用者可以在詳細檢視中，選擇中繼資料預設集，並以預先定義的資訊填入中繼資料欄位，而非自行輸入中繼資料。
 
