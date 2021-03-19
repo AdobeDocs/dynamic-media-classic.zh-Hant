@@ -7,24 +7,26 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
+feature: Dynamic Media經典，檢視器，縮放
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 69%
+source-wordcount: '616'
+ht-degree: 68%
 
 ---
 
 
 # 設定縮放檢視器預設集{#setting-up-zoom-viewer-presets}
 
-縮放檢視器預設集可確定縮放檢視器的樣式、行為和外觀。Dynamic Media Classic提供許多自訂和設定檢視器外觀的選項。 Dynamic Media Classic隨附預設的基本（快速）、跳出和自訂縮放檢視器預設集。 如果您是管理員，則可以建立新的公司縮放檢視器預設集，或編輯預設預設集並儲存為新名稱。
+縮放檢視器預設集可確定縮放檢視器的樣式、行為和外觀。Dynamic Media經典提供許多自訂和設定檢視器外觀的選項。 Dynamic Media經典版隨附預設的基本（快速）、快速移除和自訂縮放檢視器預設集。 如果您是管理員，則可以建立新的公司縮放檢視器預設集，或編輯預設預設集並儲存為新名稱。
 
 所有縮放檢視器都帶有用於放大、縮小、平移並在縮放後將影像重設為原始狀態的按鈕。按鈕和視窗的顯示效果取決於所選的縮放檢視器預設集。您可以使用不同的色彩、邊框、字型及影像設定來設定縮放檢視器預設集。設定已導引縮放檢視器時，還可以選擇縮放目標的位置。縮放目標指的是使用者按一下後可縮放到指定區域的縮圖。
 
 ## 關於縮放檢視器預設集 {#about-zoom-viewer-presets}
 
-Dynamic Media Classic提供下列縮放檢視器預設集：
+Dynamic Media經典提供下列縮放檢視器預設集：
 
 * **縮放檢視器：基**
 本對原始影像提供基本縮放。
@@ -36,7 +38,7 @@ Dynamic Media Classic提供下列縮放檢視器預設集：
 
 例如，如果您的主影像大小為 350 x 350 像素且「縮放係數」為 3，則產生的彈出影像為 1050 x 1050 像素。如果您的主影像大小為 300 x 300 像素且「縮放係數」為 4，則彈出影像為 1200 x 1200 像素。視 JPEG 品質設定 (建議設定為 80-90 之間) 而定，您可以顯著地降低檔案大小。建議的縮放係數為 2.5 至 4，視主影像大小而定。
 
-Dynamic Media Classic建議以下參數用於彈出縮放檢視器預設集：
+Dynamic Media·Classic建議將下列參數用於彈出縮放檢視器預設集：
 
 * **放大影**
 像大小約1500 x 1500像素，不超過2000 x 2000像素。
@@ -55,7 +57,7 @@ Dynamic Media Classic建議以下參數用於彈出縮放檢視器預設集：
 1. 進行以下一項操作:
 
    * **建立預設集**
-按一下「新增」。在「新增檢視器預設集」對話方塊中，選擇平台、選擇縮放檢視器，然後按一下「新增」。 在「預設名稱」方塊中輸入預設的名稱。
+按一下「新增」。在「新增檢視器預設集」對話方塊中，選擇平台、選擇縮放檢視器，然後按一下「新增」。 在「預設集名稱」方塊中輸入預設集的名稱。
 
    * **編輯預設**
 集選取縮放檢視器預設集，然後按一下 
