@@ -7,26 +7,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
+feature: Dynamic Media經典，觀眾，旋轉集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 74%
+source-wordcount: '909'
+ht-degree: 73%
 
 ---
 
 
 # 建立迴轉集{#creating-a-spin-set}
 
-若要建立有效的迴轉集，請確定正確拍攝影像。您可以在Dynamic Media Classic中建立回轉集，方法是選擇「建立」按鈕，然後選擇「回轉集」。 在「迴轉集」畫面中編輯迴轉集。
+若要建立有效的迴轉集，請確定正確拍攝影像。您可以在Dynamic Media經典中建立回轉集，方法是選擇「生成」按鈕並選擇「回轉集」。 在「迴轉集」畫面中編輯迴轉集。
 
 >[!NOTE]
 >
->舊版Dynamic Media Classic未提供二維回轉集。 如果您在舊版Dynamic Media Classic中建立回轉集，則必須先以不同名稱儲存一維回轉集，才能儲存該回轉集。 在「回轉集」畫面中按一下「另存新檔」，然後輸入新名稱，以便在Dynamic Media Classic中編輯。
+>舊版Dynamic Media經典並未提供二維自旋集。 如果您在舊版Dynamic Media經典中建立了回轉集，則必須先以不同的名稱儲存一維回轉集，才能儲存它。 在「回轉集」畫面中按一下「另存新檔」，然後輸入新名稱，以便在Dynamic Media經典中編輯。
 
 ## 迴轉集影像拍攝準則 {#guidelines-for-shooting-spin-set-images}
 
-通常，迴轉集中的影像越多，影像的旋轉效果越好。不過，在迴轉集中加入許多影像會增加影像的載入時間。Dynamic Media Classic建議拍攝影像以用於回轉集的下列准則：
+通常，迴轉集中的影像越多，影像的旋轉效果越好。不過，在迴轉集中加入許多影像會增加影像的載入時間。Dynamic Media經典影像拍攝指南建議在回轉集中使用：
 
 * 至少，在一維回轉集中使用8-12張影像，在二維回轉集中使用16-24張影像。
 * 請使用不失真的格式；建議使用 TIFF 和 PNG。
@@ -36,7 +38,7 @@ ht-degree: 74%
 
 ## 建立迴轉集 {#create}
 
-請注意，在Dynamic Media Classic中編寫或建立回轉集的順序很重要。 根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，資產實際顯示在建置器中的順序，即為當使用者將滑鼠游標或手指由左向右移動時，資產迴轉的方向。
+請注意，在Dynamic Media經典中編寫或建立回轉集的順序很重要。 根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，資產實際顯示在建置器中的順序，即為當使用者將滑鼠游標或手指由左向右移動時，資產迴轉的方向。
 
 建立集時，「**儲存後發佈**」選項會以下列方式影響集與集成員:
 
