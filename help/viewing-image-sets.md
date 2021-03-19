@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
+feature: Dynamic Media經典，觀眾，影像集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 89%
+source-wordcount: '464'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 89%
 
 您可以在「預覽」視窗中使用可用預設集來檢視影像集。使用縮放檢視器: 自訂影像集的檢視器預設集。
 
-Dynamic Media Classic隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
+Dynamic Media經典版隨附預設檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
 ## 為影像集設定縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-image-sets}
 
