@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 87%
+source-wordcount: '626'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +58,7 @@ Cost-efficient access to rapidly evolving technology.
 
 **增加章節標記至視訊**
 
-1. 使用Dynamic Media Classic外部的簡單文字編輯器，建立您的視訊章節檔案。
+1. 使用Dynamic Media經典網站外的簡單文字編輯器，建立您的影片章節檔案。
 
    >[!NOTE]
    >
@@ -66,7 +68,7 @@ Cost-efficient access to rapidly evolving technology.
 
    一般而言，我們建議您用和視訊檔案相同的名稱來命名章節 VTT 檔案，然後在名稱後附加「`chapters`」。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
 
-1. 在Dynamic Media Classic中，上傳您的WebVTT章節檔案。
+1. 在Dynamic Media經典中，上傳您的WebVTT章節檔案。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
