@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
+feature: Dynamic Media經典，協作，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 83%
+source-wordcount: '1034'
+ht-degree: 82%
 
 ---
 
@@ -107,7 +109,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或通知Dynamic Media Classic不要傳送。
+新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或通知Dynamic Media經典網站不要傳送。
 
 1. 選擇「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
 1. 在「User Administration Setup」（用戶管理設定）螢幕中，按一下「Email Settings」（電子郵件設定）]**。**[!UICONTROL 
@@ -115,9 +117,9 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
    **[!UICONTROL 傳送]** 電子郵件如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
 
-   **[!UICONTROL 預設]** 密碼輸入新使用者的暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。使用者第一次登入時，會被要求變更密碼。
+   **[!UICONTROL 預設]** 密碼輸入新用戶的臨時密碼，或將欄位留空以使Dynamic Media經典生成隨機密碼。使用者第一次登入時，會被要求變更密碼。
 
-   **[!UICONTROL 取代]** URL如果您的使用者透過不同的URL存取Dynamic Media Classic，請輸入與預設值不同的URL。
+   **[!UICONTROL 取代]** URL如果您的使用者透過不同的URL存取Dynamic Media經典，請輸入與預設值不同的URL。
 
 ## 其它使用者管理任務 {#other-user-management-tasks}
 
@@ -131,6 +133,6 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 **[!UICONTROL 編輯使]** 用者資訊輸入使用者的最新資訊。請參閱編輯使用者資訊。
 
-**[!UICONTROL 建立使用者定義的欄]** 位建立自訂、使用者定義的中繼資料欄位，以協助組織Dynamic Media Classic中的資產。這些欄位也可視需要啟用或停用。
+**[!UICONTROL 建立使用者定義欄]** 位建立自訂、使用者定義的中繼資料欄位，以協助組織Dynamic Media經典中的資產。這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
