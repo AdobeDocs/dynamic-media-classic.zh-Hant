@@ -6,11 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
+feature: Dynamic Media經典，協作，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 83%
+source-wordcount: '377'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +26,7 @@ ht-degree: 83%
 * 適用於匯出工作的壓縮 Zip 匯出檔案的檔案大小上限為 1 GB。
 * 每個匯出工作的總資產上限為 500 個。
 
-另請參閱[從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
+另請參閱[從Dynamic MediaClassic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)導出資產。
 
 **指定 Media Portal 使用者可使用的匯出選項**
 
