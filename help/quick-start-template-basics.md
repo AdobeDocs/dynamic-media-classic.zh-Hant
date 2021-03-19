@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '789'
 ht-degree: 71%
 
 ---
@@ -18,9 +20,9 @@ ht-degree: 71%
 
 # Quick Start: Template Basics{#quick-start-template-basics}
 
-「範本基礎」是動態建立和可定址的圖層影像檔，例如Adobe Photoshop等影像編輯應用程式中的圖層檔案。 與包含圖層的靜態檔案 (如 PSD 檔案) 不同，範本可以包括參數。透過各種參數，影像的不同方面都可以定址及自訂。
+「範本基礎」是動態建立和可定址的分層影像檔案，例如影像編輯應用程式(例如Adobe Photoshop)中的分層檔案。 與包含圖層的靜態檔案 (如 PSD 檔案) 不同，範本可以包括參數。透過各種參數，影像的不同方面都可以定址及自訂。
 
-範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層（例如圖層PSD檔案）的靜態檔案轉換為範本，並在Dynamic Media Classic中建立範本。 您可以使用上傳至Dynamic Media Classic的字型，在範本中建立文字圖層。 將文字增加到範本中之後，可以透過變更其對齊方式、字型、字型大小以及色彩來設定字型格式。
+範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層（例如圖層PSD檔案）的靜態檔案轉換為範本，並在Dynamic Media經典中建立範本。 您可以使用上傳至Dynamic Media經典的字型在範本中建立文字圖層。 將文字增加到範本中之後，可以透過變更其對齊方式、字型、字型大小以及色彩來設定字型格式。
 
 透過「參數」畫面，可以將範本的任何方面轉換為可定址的參數。使用「參數」畫面時，可以變更要在範本中使用的分層影像或文字值。這些參數是透過 URL 字串傳遞的，因此可以透過變更任何參數，動態自訂從影像伺服器產生的回覆影像。
 
@@ -30,13 +32,13 @@ ht-degree: 71%
 
 **1. 上載檔案**
 
-首先請為範本上載 PSD 檔案或影像檔案。除了PSD外，Dynamic Media Classic還支援許多影像檔案格式，但範本建議使用不失真的TIFF和PNG影像，因為它們允許透明度。
+首先請為範本上載 PSD 檔案或影像檔案。Dynamic Media經典影像除了支援PSD以外，還支援許多影像檔案格式，但是建議範本使用不失真的TIFF和PNG影像，因為它們允許透明度。
 
-如果建置範本時使用的是 PSD 檔案，請在上載 PSD 檔案時，從「上載工作選項」對話框中選取「建立範本」選項。也選擇「圖層命名」選項，告訴Dynamic Media Classic當PSD圖層上傳至Dynamic Media Classic時，如何命名這些圖層。
+如果建置範本時使用的是 PSD 檔案，請在上載 PSD 檔案時，從「上載工作選項」對話框中選取「建立範本」選項。也選擇「圖層命名」選項，告訴Dynamic Media·Classic，當PSD圖層上傳至Dynamic Media·Classic時，如何命名這些圖層。
 
 如果使用的是影像檔案，可以裁切影像，也可以上載時在影像中從剪裁路徑建立遮色片。
 
-選取全域導覽列上的「上傳」按鈕，將PSD檔案或其他影像檔案從您的電腦上傳至Dynamic Media Classic的檔案夾。 請參閱[上載範本檔案](uploading-template-files.md#uploading_template_files)。
+選取全域導覽列上的「上傳」按鈕，將PSD檔案或其他影像檔案從您的電腦上傳至Dynamic Media經典影像的檔案夾。 請參閱[上載範本檔案](uploading-template-files.md#uploading_template_files)。
 
 **2.建立範本**
 
@@ -58,7 +60,7 @@ ht-degree: 71%
 
 **4.發佈範本**
 
-發佈範本時，範本會放在動態媒體影像伺服器上，以便動態傳遞至您的網站或應用程式。 發佈功能也會啟動URL，將範本從動態媒體影像伺服器呼叫至您的網站或應用程式。
+發佈範本會將範本放在Dynamic Media影像伺服器上，以便動態傳遞至您的網站或應用程式。 發佈功能也會啟動URL，將範本從Dynamic Media影像伺服器呼叫至您的網站或應用程式。
 
 請確保發佈與範本相關的所有影像。
 
@@ -66,6 +68,6 @@ ht-degree: 71%
 
 **5.將範本連結至網頁**
 
-Dynamic Media Classic會建立範本的URL，並在您發佈範本至動態媒體影像伺服器時啟動URL。 可以從「範本預覽」畫面複製這些 URL 字串。
+Dynamic Media經典會建立範本的URL，並在您發佈範本至Dynamic Media影像伺服器時啟動URL。 可以從「範本預覽」畫面複製這些 URL 字串。
 
 在瀏覽面板中選取範本，然後按一下「預覽」按鈕，開啟「範本預覽」畫面。然後選取「影像預設集」來傳送範本，並選取「複製 URL」按鈕。從「預覽」畫面複製 URL 之後，就可以將它用於網站或應用程式。請參閱[將範本連結至網頁](linking-template-web-page.md#linking_a_template_to_a_web_page)。
