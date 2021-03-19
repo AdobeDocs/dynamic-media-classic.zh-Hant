@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
+feature: Dynamic Media經典，協作，影像預設，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 89%
+source-wordcount: '263'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 89%
 
 使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。「影像預設集」是預先定義之設定的集合，而這些設定可在匯出影像時，變更影像外觀的大小、影像品質、格式、解析度及其他各方面。
 
-Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。當使用者從Dynamic Media Classic匯出影像時，影像預設集會根據貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
+Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。當使用者從Dynamic Media經典影像匯出影像時，影像預設集會根據貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
 
 匯出影像資產時，會套用下列限制:
 
