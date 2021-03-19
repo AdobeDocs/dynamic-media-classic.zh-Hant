@@ -1,16 +1,18 @@
 ---
 title: 個人設定
-description: 所有使用者都可以變更Dynamic Media Classic的「個人設定」畫面上的設定。
+description: 所有使用者都可以變更Dynamic Media經典的個人設定畫面設定。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1197'
 ht-degree: 76%
 
 ---
@@ -22,7 +24,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->「個人設定」畫面會列出您在Dynamic Media Classic中所擔任的使用者角色：公司管理員、管理員或使用者。
+>「個人設定」螢幕列出了您在Dynamic Media經典中所擔任的用戶角色：公司管理員、管理員或使用者。
 
 「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。變更這些設定後，請記得按一下「儲存」。
 
@@ -32,11 +34,11 @@ ht-degree: 76%
 
 ### 桌面版本
 
-按一下「立即安裝」，將Dynamic Media Classic案頭版安裝在本機硬碟上。 或者按一下「立即重新安裝」以再次安裝桌面版本。
+按一下「立即安裝」，在本機硬碟上安裝案頭版的Dynamic Media經典。 或者按一下「立即重新安裝」以再次安裝桌面版本。
 
 ## 在您的硬碟上安裝外掛程式
 
-1. 在Dynamic Media Classic的「個人設定」頁面上，按一下Illustrator網路印刷外掛程式下方的「立即下載」，以下載網路印刷外掛程式的「Illustrator外掛程式」。********
+1. 在「Dynamic Media經典」的「個人設定」頁面的「Illustrator網路印刷插件」下，按一下「立即下載」以下載「Illustrator網路印刷插件」檔案。********
 1. 解壓縮 ZIP 檔案至暫存檔案夾。
 
    在解壓縮檔案的根目錄中內含了讀我檔案，具有外掛程式的其他相關資訊。
@@ -48,14 +50,14 @@ ht-degree: 76%
 | 如果您執行 | 請執行此動作 |
 |--- |--- |
 | Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014」。</li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.dll`」複製到 Adobe Illustrator 的執行檔檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`。 </li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。  <br/><ul><li>返回相同的資產庫檔案夾，按一下「flamingo」，然後將 `aflamingo.dll` 複製到您在先前步驟中使用的相同 Adobe Illustrator 可執行檔檔案夾。 </li><li>返回您在步驟 2 中選取的 win32 或 win64 檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`。 </li></ul> <br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
-| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> 將`AdobeS7FXGFileFormat.aip`複製至Adobe Illustrator的增效模組檔案夾。 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
+| Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。</li><li> 將`AdobeS7FXGFileFormat.aip`複製到Adobe Illustrator的插件資料夾。 例如，`C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
 | Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮的檔案夾根目錄，按一下「6.0」。 </li><li>根據您使用的 Adobe Illustrator 產品版本，按一下「win32」或「win64」。 </li><li>將 AdobeS7FXGFileFormat.aip 複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`。</li></ul><br/>**注意**:此路徑範例是64位元位置；32位元位置可能會落在「Program Files」(x86)之下。 |
 
 ### Mac
 
 | 如果您執行 | 請執行此動作 |
 |--- |--- |
-| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014 > mac64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.framework`」檔案夾複製到 Adobe Illustrator 套件內容檔案夾。例如, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. （若要開啟Adobe Illustrator的套件內容檔案夾，請在Adobe Illustrator CC 2014圖示上按一下滑鼠右鍵，然後按一下「從內容選單顯示套件內容」）。</li><li>回到相同的資產庫檔案夾，按一下「`flamingo`」，然後將 `aflamingo.framework` 檔案夾複製到您在先前步驟中使用的相同 Adobe Illustrator 套件內容檔案夾。</li><li>回到您在步驟 1 中選取的「mac64」檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」檔案夾複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
+| Adobe Creative Cloud 2014 中的 Adobe Illustrator 18 | <ul><li>從解壓縮的檔案夾根目錄，按一下「CC-2014 > mac64」。</li><li>按一下「資產庫 > flame」，然後將「`aflame.framework`」檔案夾複製到 Adobe Illustrator 套件內容檔案夾。例如, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (若要開啟Adobe Illustrator的套件內容檔案夾，請在Adobeillustrator CC 2014圖示上按一下滑鼠右鍵，然後按一下內容選單中的「顯示套件內容」)。</li><li>回到相同的資產庫檔案夾，按一下「`flamingo`」，然後將 `aflamingo.framework` 檔案夾複製到您在先前步驟中使用的相同 Adobe Illustrator 套件內容檔案夾。</li><li>回到您在步驟 1 中選取的「mac64」檔案夾，然後將「`AdobeS7FXGFileFormat.aip`」檔案夾複製到 Adobe Illustrator 的外掛程式檔案夾。例如，`/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
 | Adobe Creative Cloud 中的 Adobe Illustrator 17 | <ul><li>從解壓縮資料夾的根目錄，按一下「CC > mac64」</li><li>將`AdobeS7FXGFileFormat.aip`檔案夾複製至Adobe Illustrator的增效模組檔案夾。 例如，`/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`。</li></ul><br/> |
 | Adobe Creative Suite 6 中的 Adobe Illustrator 16 | <ul><li>從解壓縮資料夾的根目錄，按一下6.0 > mac64</li><li>將`AdobeS7FXGFileFormat.aip`檔案夾複製至Adobe Illustrator的增效模組檔案夾。 例如，`/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`。</li></ul> |
 
@@ -102,7 +104,7 @@ ht-degree: 76%
 ## 電子郵件
 
 * **電子郵件選項**
-   * 選擇您希望Dynamic Media Classic在上傳和發佈工作完成時以電子郵件通知您的方式。 只有在出現警告或錯誤時才會收到工作完成通知。
+   * 選擇您要如何讓Dynamic Media經典網站在上傳和發佈工作完成時以電子郵件通知您。 只有在出現警告或錯誤時才會收到工作完成通知。
 * **電子郵件範圍**
    * 決定您要接收公司的所有電子郵件，或僅接收有關您啟動之上載和發佈工作的電子郵件。
 * **電子郵件類型**
