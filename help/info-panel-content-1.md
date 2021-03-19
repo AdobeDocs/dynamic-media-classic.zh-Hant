@@ -7,11 +7,13 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
+feature: Dynamic Media經典，觀眾，影像集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 74%
+source-wordcount: '776'
+ht-degree: 73%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 74%
 
 除了針對影像集中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
-您可以使用Dynamic Media Classic中的下列功能來管理InfoPanel設定和資料：
+您可以使用Dynamic Media經典中的下列功能來管理您的InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈影像集。
 * 「資訊面板資料摘要」面板可讓您指定 CSV 檔案，其中包含您要在資訊面板滑鼠指向效果文字中顯示的文字，也可以讓您排程時間以更新資訊。
@@ -39,7 +41,7 @@ ht-degree: 74%
    * 選取「預設」以使用預設回應。用於範本設計的 XML 會以暗灰色顯示在「使用者範本」文字方框中。
    * 選取「自訂」即可自行建立回應範本。在「使用者範本」文字方框中，輸入範本 XML 定義。您可以在文字方框中使用已經定義的預設範本為基礎，以作為自己的回應。
 
-1. （可選）在「預設回應」方塊中，輸入當Dynamic Media Classic擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設回應」方塊中，輸入當Dynamic Media經典影像在擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」文字欄位中輸入要在快取資料前等待的小時數。
 
    * 如果整天經常更新資料，請設定較低的數字。
