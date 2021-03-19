@@ -4,10 +4,12 @@ description: 瞭解如何上傳影像資產或向量資產。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 84%
 
 ---
@@ -19,9 +21,9 @@ ht-degree: 84%
 
 ## 要求共用密鑰 {#requesting-a-shared-secret-key}
 
-使用管理控制台，透過[要求&#x200B;*shared-secret金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
+通過[使用Admin Console請求&#x200B;*shared-secret密鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
 
-在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Dynamic Media Classic收到金鑰後，請將它儲存在本機以備日後使用。
+在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Dynamic Media經典收到金鑰後，請將它儲存在本機，以備日後使用。
 
 ## 擷取上載標記 {#retrieving-the-upload-token}
 
@@ -390,4 +392,4 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 **允許的 HTTP 方式:**
 
-貼文
+POST
