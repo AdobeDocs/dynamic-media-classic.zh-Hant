@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
+feature: Dynamic Media經典，觀眾，影片
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1687'
 ht-degree: 68%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 68%
 
 # 將視訊部署到網站和行動裝置網站{#deploying-video-to-your-websites-and-mobile-sites}
 
-網站、行動網站和案頭應用程式會使用URL字串或內嵌程式碼來存取Dynamic Media Classic伺服器內容，包括視訊。 Dynamic Media Classic會在發佈程式期間啟動這些URL字串。 若要將視訊的URL字串或內嵌程式碼置於網頁、行動頁面和案頭應用程式中，請從Dynamic Media Classic複製。
+網站、行動網站和案頭應用程式都可使用URL字串或內嵌程式碼來存取Dynamic Media經典伺服器內容，包括視訊。 Dynamic Media·Classic會在發佈程式中啟動這些URL字串。 若要將視訊的URL字串或內嵌程式碼置於網頁、行動頁面和案頭應用程式中，請從Dynamic Media經典複製。
 
 >[!NOTE]
 >
@@ -26,19 +28,19 @@ ht-degree: 68%
 
 ## 發佈視訊 {#publishing-video}
 
-發佈視訊可讓Dynamic Media Classic伺服器將視訊發佈至您的網站、行動網站或應用程式。
+發佈視訊可讓Dynamic MediaClassic伺服器將視訊發佈至您的網站、行動網站或應用程式。
 
 您可使用兩種不同的方法來發佈視訊: 
 
 * **在上載時立即自動發佈視訊**
 
-   在視訊上傳程式中，Dynamic Media Classic可在上傳和編碼視訊時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
+   在視訊上傳程式中，Dynamic Media經典可在上傳和編碼視訊時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
 
 * **在上載後手動發佈視訊**
 
    如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
-發佈視訊後，Dynamic Media Classic會為您的HTML頁面或應用程式程式碼啟動URL字串。
+在您發佈影片後，Dynamic Media·Classic會為您的HTML頁面或應用程式程式碼啟動URL字串。
 
 **發佈視訊**
 
@@ -110,7 +112,7 @@ ht-degree: 68%
 
 ### 實作內嵌程式碼以搭配MP4視訊資產使用HTML5視訊{#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-如果您不使用Dynamic Media Classic HTML5視訊播放器，但想要搭配MP4視訊資產使用原生HTML5 `<video>`標籤，則可使用下列內嵌程式碼範例：
+如果您不使用Dynamic MediaClassic HTML5視訊播放器，但想要搭配MP4視訊資產使用原生HTML5 `<video>`標籤，則可使用下列內嵌程式碼範例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -134,11 +136,11 @@ ht-degree: 68%
 
 ## 部署使用第三方視訊播放器的視訊  {#deploying-video-using-a-third-party-video-player}
 
-如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
+如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic MediaClassic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
 
 **部署使用第三方視訊播放器的視訊**
 
-1. 在Dynamic Media Classic中，在全域導覽列上，按一下「設定&#x200B;**** > **應用程式設定** > **一般設定**」。
+1. 在「Dynamic Media經典」中，在全球導航欄上，按一下「設定」「**** > **應用程式設定」「** > **常規設定」「**」。
 1. 依據您要使用的 URL 類型，執行下列其中一項工作: 
 * 若要產生直接HLS串流視訊URL（多位元速率）
 
@@ -161,13 +163,13 @@ ht-degree: 68%
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 
-Dynamic Media Classic會產生編碼視訊的縮圖，以及預先編碼視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您也可以取得Dynamic Media Classic產生的視訊縮圖的URL，並在Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
+Dynamic Media·Classic會產生編碼視訊的縮圖，以及預先編碼的視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您也可以取得Dynamic Media經典所產生視訊縮圖的URL，並將這些URL部署在Dynamic Media經典以外的地方。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
 
 縮圖的產生以視訊中的首個異質影格 (非全黑影格或全白影格等等) 為基礎。
 
 ### 取得視訊縮圖 URL {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖在清單檢視和格點檢視的瀏覽面板中顯示。
+Dynamic Media·Classic會在上傳程式期間自動產生視訊縮圖。 縮圖在清單檢視和格點檢視的瀏覽面板中顯示。
 
 若要產生視訊縮圖的 URL，請執行發佈作業。
 
@@ -177,7 +179,7 @@ Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖�
 
 ### 在視訊檢視器中修改海報影格  {#modifying-poster-frames-in-video-viewers}
 
-「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。Dynamic Media Classic使用視訊縮圖做為海報影格。
+「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。Dynamic Media·Classic使用視訊縮圖做為海報影格。
 
 您可以將影像修飾元套用至海報影格。例如，您可以裁切海報影格或使其變得透明。若要修改海報影格，請開啟視訊檢視器配置畫面，並在「海報影像修飾元」區段輸入修飾元。
 
