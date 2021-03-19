@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 71%
+source-wordcount: '446'
+ht-degree: 70%
 
 ---
 
@@ -20,13 +22,13 @@ ht-degree: 71%
 
 ICC (國際色彩聯盟) 設定檔是描述如何正確地將影像檔案從一個 色域轉換到另一個 色域的檔案。ICC 設定檔有助於為影像獲取正確的色彩。例如，要正確地顯示用於電腦顯示器上列印的影像，可以選擇 ICC 設定檔。該設定檔將影像轉換到不同的 色域並確保色彩正確地在線上顯示。
 
-在Dynamic Media Classic中，您可以選擇ICC描述檔，在上傳影像時將影像轉換為不同的色域。 Dynamic Media Classic預設會提供所有標準的Photoshop ICC設定檔。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂轉換」，再從「轉換自」和「轉換到」選單中選擇 ICC 設定檔的名稱。請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
+在Dynamic Media經典影像中，您可以選擇ICC描述檔，在上傳影像時將影像轉換為不同的色域。 所有標準的PhotoshopICC配置檔案都預設可在Dynamic Media經典中使用。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂轉換」，再從「轉換自」和「轉換到」選單中選擇 ICC 設定檔的名稱。請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
 
-除了使用預設的ICC描述檔，您還可以將其他ICC描述檔上傳至Dynamic Media Classic，並將它們用於色域轉換。 在瀏覽面板中切換到詳細檢視，以便調查 ICC 設定檔的設定檔類別、 色域類型和 PCS 類型。
+除了使用預設的ICC描述檔，您還可將其他ICC描述檔上傳至Dynamic Media經典，並將它們用於色域轉換。 在瀏覽面板中切換到詳細檢視，以便調查 ICC 設定檔的設定檔類別、 色域類型和 PCS 類型。
 
 ## 上載 ICC 設定檔 {#uploading-icc-profiles}
 
-透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC描述檔儲存在任何Dynamic Media Classic檔案夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
+透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC描述檔儲存在任何Dynamic Media經典檔案夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
 
 ## 檢查 ICC 設定檔  {#examining-an-icc-profile}
 
