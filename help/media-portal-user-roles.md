@@ -9,11 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
+feature: Dynamic Media經典，協作，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 73%
+source-wordcount: '331'
+ht-degree: 71%
 
 ---
 
@@ -42,7 +44,7 @@ User可存取資料夾和檔案。參與者 - 使用者可瀏覽、預覽、下�
 | 瀏覽中繼資料 | X | X | X |
 | 預覽檔案 | X | X | X |
 | 搜尋檔案 | X | X | X |
-| 將檔案上傳至Dynamic Media Classic |  | X | X |
+| 上傳檔案至Dynamic Media經典 |  | X | X |
 | 編輯和匯入資產中繼資料 |  | X | X |
 | 建立、重新命名和刪除檔案夾 |  | X | X |
 | 匯出資產中繼資料 | X |  | X |
@@ -50,4 +52,4 @@ User可存取資料夾和檔案。參與者 - 使用者可瀏覽、預覽、下�
 | 將檔案移至其他檔案夾 |  | X | X |
 | 重新命名檔案 |  | X | X |
 | 刪除檔案 |  | X | X |
-| 從Dynamic Media Classic匯出（下載）檔案 | X |  | X |
+| 從Dynamic Media經典網站匯出（下載）檔案 | X |  | X |
