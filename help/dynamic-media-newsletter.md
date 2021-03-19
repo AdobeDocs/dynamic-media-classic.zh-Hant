@@ -2,10 +2,12 @@
 description: 'Experience League的Dynamic Media電子報是每月電子報。 它可協助您快速上手使用Dynamic Media和Dynamic Media經典，讓您立即實現價值。 本一站式商店電子報提供寶貴的知識建立資源。 其中包括如何製作影片和解決方案概觀。 此外，還介紹主要功能，例如影像預設集、檢視器預設集和視訊設定檔。 '
 keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影像；功能
 title: Dynamic Media電子報
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: 416ac66db1cbe60a2cac80f72db1e3e0354f9e0a
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
