@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
+feature: Dynamic Media經典，檢視器，縮放
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 49%
+source-wordcount: '221'
+ht-degree: 47%
 
 ---
 
 
 # 上傳縮放影像{#uploading-zoom-images}
 
-縮放影像必須具有高像素。影像需要具有高像素，以便檢視者在縮放影像時可以清楚地查看影像細節。在將影像上傳至Dynamic Media Classic之前，請確定您使用的影像大小正確。
+縮放影像必須具有高像素。影像需要具有高像素，以便檢視者在縮放影像時可以清楚地查看影像細節。請先確定您使用的影像大小適當，然後再將影像上傳至Dynamic Media經典。
 
 在全域導覽列上選取「上載」按鈕，開始上載影像。
 
@@ -26,7 +28,7 @@ ht-degree: 49%
 
 **準備用於縮放的影像**
 
-若要充份運用Dynamic Media Classic Zoom功能，請在上傳縮放影像檔案之前先準備這些檔案：
+若要充份運用Dynamic Media經典縮放功能，請在上傳縮放影像檔案之前先準備這些檔案：
 
 * **影像**
 大小Dynamic Media Classic建議使用最長維度至少2000像素的影像檔案。以便使用者縮放時影像可以清楚地顯示。
