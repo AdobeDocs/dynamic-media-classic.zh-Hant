@@ -1,24 +1,26 @@
 ---
 title: 處理 PDF
-description: 瞭解如何在Dynamic Media Classic中使用PDF。
+description: 瞭解如何在Dynamic Media經典中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 56%
+source-wordcount: '677'
+ht-degree: 55%
 
 ---
 
 
 # 處理 PDF{#working-with-pdfs}
 
-PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCatalog。 當您上傳PDF檔案、Dynamic Media Classic點陣化或拼貼時，預設會顯示頁面，讓這些頁面可用來建立多媒體。
+PDF（可攜式檔案格式）檔案最常用於Dynamic MediaClassic建立eCatalog。 當您上傳PDF檔案、Dynamic Media經典點陣化(Metion Classic Rasterizes)或Rips時，預設會顯示頁面，讓這些頁面可用來建立多媒體。
 
 ## PDF 上載選項 {#pdf-upload-options}
 
@@ -62,7 +64,7 @@ PDF（可攜式檔案格式）檔案最常用於Dynamic Media Classic建立eCata
 
 **保留原始色** 域保留原始色域。
 
-**「自訂自」>「** 至開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色域或您上傳至Dynamic Media Classic的色域。
+**「自訂自」>「** 至開啟」功能表，您可以選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色域或您上傳至Dynamic Media經典的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
