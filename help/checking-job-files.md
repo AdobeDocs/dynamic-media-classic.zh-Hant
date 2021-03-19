@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1605'
 ht-degree: 71%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 71%
 
 # 檢查工作檔案{#checking-job-files}
 
-若要監控檔案上傳至Dynamic Media Classic，以及您發佈至Dynamic Media Classic伺服器的檔案，Dynamic Media Classic提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
+要監視檔案上傳到Dynamic Media經典和發佈到Dynamic Media經典伺服器的檔案，Dynamic Media經典提供了「作業」頁。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
 
 在您上載資產時，「工作」選單旁會顯示一個旋轉圖示 (指示工作正在進行中) 以及進行中的檔案數目。按一下該圖示可以查看關於作用中工作的更多資訊。
 
@@ -40,7 +42,7 @@ ht-degree: 71%
 
 **總** 計傳輸的檔案數。
 
-**W（警告）** 作業中的警告數（如果有）。警告指出工作中不影響總體工作完成的問題。這些警告通常可以忽略，因為其報告隱藏檔案的情況。例如，.DS_store 檔案 (Macintosh) 和 Thumbs.db 檔案 (Windows) 包含關於如何向使用者顯示影像檔案的資訊。但是，這些檔案的警告項目可以忽略，因為它們與Dynamic Media Classic中這些檔案的使用方式無關。 您可以按兩下工作名稱來取得有關警告的詳細資訊。
+**W（警告）** 作業中的警告數（如果有）。警告指出工作中不影響總體工作完成的問題。這些警告通常可以忽略，因為其報告隱藏檔案的情況。例如，.DS_store 檔案 (Macintosh) 和 Thumbs.db 檔案 (Windows) 包含關於如何向使用者顯示影像檔案的資訊。但是，這些檔案的警告項目可以忽略，因為它們與這些檔案在Dynamic Media經典中的使用方式無關。 您可以按兩下工作名稱來取得有關警告的詳細資訊。
 
 **E（錯誤）** 列出作業中的錯誤數（如果有）。您可以按兩下工作名稱來取得有關錯誤的詳細資訊。
 
@@ -68,7 +70,7 @@ ht-degree: 71%
 
 ## 檢視、複製或列印「工作詳細資訊」報告 {#viewing-copying-or-printing-a-job-details-report}
 
-在「工作」頁面上按兩下報告名稱，以開啟「工作詳細資訊」頁面。該頁面提供了關於工作中檔案的摘要報告。按一下「檢視詳細資訊」，以查看項目的Dynamic Media Classic ID、目標路徑和狀態資訊。 如果您上傳的PDF或PostScript檔案需要Dynamic Media Classic中不提供的字型，報表會列出遺失的字型。
+在「工作」頁面上按兩下報告名稱，以開啟「工作詳細資訊」頁面。該頁面提供了關於工作中檔案的摘要報告。按一下「檢視詳細資訊」，以檢視登入項目的Dynamic Media傳統ID、目標路徑和狀態資訊。 如果您上傳的PDF或PostScript檔案需要Dynamic Media傳統版中不提供的字型，報表會列出遺失的字型。
 
 您可以將該資訊複製到剪貼簿。
 
