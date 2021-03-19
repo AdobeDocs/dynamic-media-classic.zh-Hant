@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 79%
+source-wordcount: '590'
+ht-degree: 78%
 
 ---
 
@@ -52,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
-詳細檢視可提供資產或檔案的相關資訊。它會顯示有關項目的下列資訊：儲存資料夾、檔案名稱、項目上傳至Dynamic Media Classic的日期，以及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
+詳細檢視可提供資產或檔案的相關資訊。它會顯示有關項目的下列資訊：儲存資料夾、檔案名稱、項目上傳至Dynamic Media經典網站的日期，以及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
 
 您可以在詳細檢視中取得資產 URL；不過，除非您發佈資產，否則 URL 無法發生作用。對於影像，詳細檢視也提供建置與衍生之資產及中繼資料的清單，例如縮放目標與影像集。
 
