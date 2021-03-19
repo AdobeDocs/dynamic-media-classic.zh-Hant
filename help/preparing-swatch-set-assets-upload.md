@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
+feature: Dynamic Media經典，觀眾
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 84%
+source-wordcount: '178'
+ht-degree: 82%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 84%
 * 同一外套的黑色、棕色和綠色快照。
 * 黑色、棕色及綠色色票。
 
-由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Dynamic Media經典影像支援多種影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
 如需上載資產的詳細說明，請參閱[上載檔案](uploading-files.md#uploading_files)。
 
