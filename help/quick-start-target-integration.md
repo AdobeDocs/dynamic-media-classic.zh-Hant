@@ -1,40 +1,42 @@
 ---
 title: 「快速入門：Target Standard/Premium整合」
-description: Adobe Target Standard/Premium的簡介和快速入門，可協助您快速上手使用Target Standard/Premium整合技術。
+description: Adobe Target標準版／高級版的簡介和快速入門，可協助您使用Target Standard/高級版整合技術快速上手使用。
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
+feature: Dynamic Media經典
+role: 資料工程師、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '482'
 ht-degree: 19%
 
 ---
 
 
-# 快速入門：Adobe Target Standard/Premium整合{#quick-start-target-integration}
+# 快速入門：Adobe Target標準版／高級版整合{#quick-start-target-integration}
 
-Adobe Target Standard/Premium將控制權直接交由行銷人員掌控，以快速且持續地執行多個A/B和多變數測試、評估效率，並透過細分、鎖定和自動化個人化提高線上內容的相關性。
+Adobe Target標準版/Premium將控制權直接交給行銷人員，以快速且持續地執行多個A/B和多變數測試，衡量成效，並透過細分、鎖定和自動化個人化提高線上內容的相關性。
 
-Dynamic Media Classic可讓您建立Target Standard/Premium促銷活動的選件和選件集。 例如，您可以建立包含相同豐富型媒體資產三種變化的選件集。 然後，您可以讓Target Standard/Premium決定哪個資產提供更佳的轉換提升度。 您可以透過基本範本或各個影像建立提案和提案集。將選件集推送或儲存至Adobe Target Standard/Premium後，Target Standard/Premium可執行促銷活動，以判斷哪一種網站變化對點進和轉換效果最佳。
+Dynamic Media經典可讓您建立Target Standard/Premium促銷活動的選件和選件集。 例如，您可以建立包含相同豐富型媒體資產三種變化的選件集。 然後，您可以讓Target Standard/Premium決定哪個資產提供更佳的轉換提升度。 您可以透過基本範本或各個影像建立提案和提案集。將選件集推送或儲存至Adobe TargetStandard/Premium後，在Standard/Premium中，選件與mbox和體驗相關聯，Target Standard/Premium可執行促銷活動，以判斷哪一種網站變化對點進和轉換效果最佳。
 
-若要進一步自訂動態Dynamic Media Classic內容，請使用Target Standard/Premium HTML選件。 如需詳細資訊，請參閱Target Standard/Premium產品檔案。
+若要進一步自訂動態Dynamic Media經典內容，請使用Target Standard/Premium HTML選件。 如需詳細資訊，請參閱Target Standard/Premium產品檔案。
 
 >[!NOTE]
 >
->必須有有效的Adobe Target Standard/Premium帳戶，才能搭配Dynamic Media Classic使用Target Standard/Premium。
+>必須有有效的Adobe Target標準版／高級版帳戶才能搭配使用Target Standard/Premium和Dynamic Media經典版。
 
 **快速入門**
 
 此快速入門功能可讓您快速啟動並執行Target Standard/Premium HTML選件集。 依照步驟 1 至 3 執行。每個步驟之後都有連接至某個主題標題的交戶參照，您可以在其中尋找更多資訊。
 
-**1. 在「應用程式一般設定」畫面中輸入您的Adobe Target Standard/Premium URL。**
+**1. 在「應用程式一般設定」畫面中輸入您的Adobe Target標準版／高級版URL。**
 
-Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/Premium整合。 將Target Standard/Premium URL的部分複製至&#x200B;*.com*，並在「動態媒體經典應用程式一般設定」畫面中輸入。 請參閱[整合Dynamic Media Classic與Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target)。
+Dynamic Media傳統版需要您的Target Standard/Premium URL與Target Standard/Premium整合。 將Target Standard/Premium URL的部分複製到&#x200B;*.com*，然後在「Dynamic Media傳統應用程式一般設定」畫面中輸入。 請參閱[將Dynamic Media經典與Target Standard/Premium整合](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
 **2.建立提案集**
 
@@ -48,6 +50,6 @@ Dynamic Media Classic需要您的Target Standard/Premium URL與Target Standard/P
 
 請參閱[建立提案集](creating-offer-set.md#creating_an_offer_set)。
 
-**3.將選件集推送至Adobe Target Standard/Premium**
+**3.將選件設定為Adobe Target標準版／高級版**
 
 在「Test&amp;Target選件集」畫面中，按一下「推播選件&#x200B;**」，然後在「Test&amp;Target登入」對話方塊中輸入您的登入認證。**&#x200B;請參閱[推送選件集至Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
