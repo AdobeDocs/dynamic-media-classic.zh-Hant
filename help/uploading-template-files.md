@@ -7,28 +7,30 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
+feature: Dynamic Media經典
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 70%
+source-wordcount: '294'
+ht-degree: 69%
 
 ---
 
 
 # 上載範本檔案{#uploading-template-files}
 
-開始建立範本之前，請將範本所需的檔案上傳至Dynamic Media Classic。 可以從 Adobe® Photoshop® PSD 或影像檔案建置範本。建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
+開始建立範本之前，請將範本所需的檔案上傳至Dynamic Media經典。 可以從 Adobe® Photoshop® PSD 或影像檔案建置範本。建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
 
 >[!NOTE]
 >
->Dynamic Media Classic建議在範本中使用透明TIFF或PSD影像，其大小與您要在網站上顯示的影像大小完全相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
+>Dynamic Media經典影像建議在範本中使用透明TIFF或PSD影像，其大小與您要在網站上顯示的影像大小完全相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
 
 可以使用 Adobe Photoshop PSD 檔案或影像檔案建立範本。
 
 有關上載檔案的詳細指示，請參閱[上載檔案](uploading-files.md#uploading_files)。上載範本檔案時請注意以下事項:
 
-* 如果上載的是 PSD 檔案，則可以從該檔案建立範本。Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話框中，選取「Photoshop 選項」，選取「保留圖層」選項，然後選取「建立範本」選項。然後，在「圖層命名」選單中選擇選項，以命名Dynamic Media Classic從PSD的圖層建立的影像。 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
+* 如果上載的是 PSD 檔案，則可以從該檔案建立範本。Dynamic Media·Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話框中，選取「Photoshop 選項」，選取「保留圖層」選項，然後選取「建立範本」選項。然後，在「圖層命名」選單中選擇選項，以命名Dynamic Media經典影像從PSD的圖層建立的影像。 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 * 如果上載的是影像，則可以從其剪裁路徑建立遮色片。此選項適用於使用影像編輯應用程式所建立而具有剪裁路徑的影像。在「上載工作選項」對話框中，選取「影像編輯選項」，然後選取「從剪裁路徑建立遮色片」選項。請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
 
 >[!MORELIKETHIS]
