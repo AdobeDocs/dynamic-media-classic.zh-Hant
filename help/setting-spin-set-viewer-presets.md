@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
+feature: Dynamic Media經典，檢視器，回轉集，檢視器預設集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 75%
+source-wordcount: '240'
+ht-degree: 72%
 
 ---
 
 
 # 設定迴轉集檢視器預設集{#setting-up-spin-set-viewer-presets}
 
-迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Dynamic Media Classic隨附預設的回轉集檢視器預設集。 如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
+迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Dynamic Media經典版隨附預設的回轉集檢視器預設集。 如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
 
 請按照以下步驟建立迴轉集檢視器預設集:
 
