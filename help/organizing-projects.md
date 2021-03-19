@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 59%
+source-wordcount: '488'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +28,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->Dynamic Media Classic建議使用中繼資料來組織資產，而非「專案」。 請參閱[檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)。
+>Dynamic Media經典建議使用中繼資料來組織資產，而非「專案」。 請參閱[檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)。
 
 >[!NOTE]
 >
@@ -34,7 +36,7 @@ ht-degree: 59%
 
 ## 建立專案檔案夾 {#creating-a-project-folder}
 
-您可以從「資產庫」或上傳檔案至Dynamic Media Classic時，建立「專案」檔案夾：
+您可以從「資產庫」或將檔案上傳至「Dynamic Media經典」時，建立「專案」檔案夾：
 
 * **在「資產庫」**
 中，捲動至「資產庫」的底部、「專案」區段，然後選取「新增專案」按鈕。接著輸入專案的名稱。
@@ -54,14 +56,14 @@ ht-degree: 59%
 內容在「資產庫」中選取資料夾的名稱。其資產會顯示在瀏覽面板中。
 
 * **刪除項目文**
-件夾選擇項目資料夾，然後選擇刪除項目按鈕。從「專案」檔案夾刪除資產並不會從Dynamic Media Classic中刪除資產；資產會保留在儲存資產的原始資料夾中。
+件夾選擇項目資料夾，然後選擇刪除項目按鈕。從Project資料夾刪除資產並不會將資產從Dynamic Media經典中刪除；資產會保留在儲存資產的原始資料夾中。
 
 * **重新命名**
 專案檔案夾在「資產面板」中按兩下檔案夾名稱，然後輸入新名稱。
 
 ## 將資產加入專案檔案夾 {#adding-assets-to-a-project-folder}
 
-您可以從「瀏覽面板」開始，或將檔案上傳至Dynamic Media Classic時，將影像新增至「專案」檔案夾：
+您可以從「瀏覽面板」開始，或將檔案上傳至「Dynamic Media經典」時，將影像新增至「專案」檔案夾：
 
 * **從「瀏覽」面**
 板選取資產，並拖曳至「專案」檔案夾。您也可以選擇「檔案 > 加入專案」，在「選取專案」對話框中選取專案檔案夾名稱，然後選取「送出」按鈕。
