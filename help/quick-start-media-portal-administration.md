@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
+feature: Dynamic Media經典，協作，資產管理
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 84%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
 
 # 快速入門：媒體入口{#quick-start-media-portal}
 
-Media Portal可讓公司輕鬆取得、控制並將已核准的創意資產發佈給外部合作夥伴和通路，以及內部商業使用者。 此瀏覽器型「自助式」環境為Media Portal使用者提供管理員控制的「檢視」至Dynamic Media Classic資產，讓使用者以公司核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
+Media Portal可讓公司輕鬆取得、控制並將已核准的創意資產發佈給外部合作夥伴和通路，以及內部商業使用者。 此瀏覽器型「自助式」環境為媒體入口網站使用者提供管理員控制的「檢視」至Dynamic Media經典資產的「檢視」，讓使用者以公司核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
 
 身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在 Media Portal 介面中，指定字型、字型色彩與字型大小，也可以併入如標誌等品牌元素。
 
@@ -46,7 +48,7 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 **4.管理 FTP 帳戶**
 
-您可以有與Media Portal關聯並對應至Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
+您可以有與Media Portal關聯並對應至Dynamic Media傳統型帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
 請參閱[管理 FTP 帳戶](ftp-accounts.md#managing_ftp_accounts)。
 
