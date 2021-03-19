@@ -1,13 +1,15 @@
 ---
 title: 發佈設定
-description: 「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media Classic伺服器傳送至網站或應用程式。
+description: 「發佈設定」設定可讓您決定資產預設如何從Dynamic Media經典伺服器傳送至網站或應用程式。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media經典
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2422'
 ht-degree: 64%
 
 ---
@@ -15,7 +17,7 @@ ht-degree: 64%
 
 # 發佈設定 {#publish-setup}
 
-「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media Classic伺服器傳送至網站或應用程式。 如果未指定任何設定，Dynamic Media Classic伺服器會根據「發佈設定」畫面上的預設設定來傳送資產。 例如，不包含解析度屬性的傳遞影像要求，會在「影像伺服器」畫面中產生含有「預設物件解析度」設定的影像。
+「發佈設定」螢幕設定會決定資產預設如何從Dynamic Media經典伺服器傳送至網站或應用程式。 如果未指定任何設定，Dynamic Media經典伺服器會根據「發佈設定」畫面上的預設設定來傳送資產。 例如，不包含解析度屬性的傳遞影像要求，會在「影像伺服器」畫面中產生含有「預設物件解析度」設定的影像。
 
 管理員可以在「影像伺服器」、「影像演算」和「暈映」畫面中變更預設設定，以建立預設設定並用來從伺服器傳送資產。
 
@@ -23,15 +25,15 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media Classic假設變更這些螢幕設定的使用者熟悉Dynamic Media Classic、HTTP通訊協定標準和慣例，以及基本的影像技術。
+>「發佈設定」畫面可供資深的網站開發人員與程式設計師使用。Dynamic Media經典(Monig Classic)假設在這些畫面上變更設定的使用者熟悉Dynamic Media經典(Moning Classic)、HTTP通訊協定標準與慣例以及基本影像技術。
 
 ## 影像伺服器 {#image-server}
 
 「影像伺服器」畫面會建立預設設定，以從影像伺服器傳送影像。有下列五種設定可供使用 (請參閱「影像伺服器」畫面以取得詳細的設定描述)。
 
-只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
+只有在Dynamic Media經典網站的支援人員協助下，才能變更這些設定。
 
-**目錄管** 理這些設定可決定Dynamic Media Classic與目錄的互動方式。與大部分的Web伺服器不同，動態媒體影像伺服器URL呼叫會移至資訊清單或目錄檔案，而非影像檔本身。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+**目錄管** 理這些設定決定了Dynamic Media經典與目錄的互動方式。與大部分的Web伺服器不同，Dynamic Media影像伺服器URL呼叫會移至資訊清單或型錄檔，而非影像檔。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
 **請求** 屬性這些設定會限制從伺服器傳送的影像。例如，*最大***[!UICONTROL 「回覆影像大小限制」為**[!UICONTROL  Width ]**5000和**[!UICONTROL  Height ]**5000。]**
 
@@ -50,7 +52,7 @@ ht-degree: 64%
 例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
 >[!NOTE]
-> 要設定本地化支援選項，請[使用管理控制台建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
+> 要設定本地化支援選項，請[使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
 如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -58,9 +60,9 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->如果您想在Dynamic Media Classic中設定「本地化支援」選項，例如「地區對應」欄位，請[使用「管理控制台」來建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
+>如果要在「Dynamic Media經典語言」中設定本地化支援選項，如「地區圖」欄位，請[使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
-使用Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
+使用Dynamic Media經典網站的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。這些差異通常出現在整體媒體中的微小部分上。針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media經典使用基本的查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
 **資產本地化的方式**
 
@@ -96,7 +98,7 @@ IS支援任意可打印的ASCII字串。`locale=`命令具有全局範圍，這�
 
 **實作資產本地化**
 
-Dynamic Media Classic和Image Serving的介面可讓影像和靜態內容定位。
+Dynamic Media經典和影像伺服的介面可讓影像和靜態內容定位。
 
 若未本地化，影像伺服器的 URL 將看起來如下:
 
@@ -116,7 +118,7 @@ Dynamic Media Classic和Image Serving的介面可讓影像和靜態內容定位�
 
 >[!NOTE]
 >
->「全域地區設定」目前只有在您透過API設定時，才可能進行，而不是在Dynamic Media Classic介面中。
+>「全域地區設定」目前只有在您透過API設定時，才可能進行，而不是在「Dynamic Media經典」介面中。
 
 **字尾範例**
 
@@ -132,11 +134,11 @@ Dynamic Media Classic和Image Serving的介面可讓影像和靜態內容定位�
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 
-如果`locale=`提供未知或空白的地區設定參數，則會掃描localeMap，以找到空值「開頭為」。 請務必設定此值，以便在地區不明時套用預設地區。
+如果`locale=`提供未知或空白的地區設定參數，則會掃描localeMap以找到空值「開頭為」。 請務必設定此值，以便在地區不明時套用預設地區。
 
 **關於 defaultImage**
 
-影像伺服器會針對所請求的地區逐一嘗試各個選項。如果找不到相符項目，則會將地區選項套用至 defaultImage，並傳回相符的版本。因此，每個地區設定都應包含影像的選項，而不需本地化，或是應在Dynamic Media Classic中提供本地化的defaultImage版本。
+影像伺服器會針對所請求的地區逐一嘗試各個選項。如果找不到相符項目，則會將地區選項套用至 defaultImage，並傳回相符的版本。因此，每個語言環境都應包含一個不含本地化的影像選項，或者應在Dynamic Media經典中提供本地化的defaultImage版本。
 
 **尋找 localeMap 的案例** 
 
@@ -219,7 +221,7 @@ Dynamic Media Classic和Image Serving的介面可讓影像和靜態內容定位�
 
 「影像演算」畫面會建立預設設定，以從影像演算伺服器傳送影像集。有下列五種設定可供使用 (請參閱「影像伺服器」畫面以取得詳細的設定描述):
 
-**目錄管** 理這些設定可決定Dynamic Media Classic與目錄檔案的互動方式。Dynamic Media Classic Render Server URL呼叫會進入目錄，而目錄則會呼叫從伺服器傳送影像。 只有在Dynamic Media Classic支援人員的協助下，才能變更這些設定。
+**目錄管** 理這些設定可決定Dynamic Media經典與目錄檔案的互動方式。Dynamic Media傳統轉譯伺服器URL呼叫會轉至目錄，而目錄則會呼叫從伺服器傳送影像。 只有在Dynamic Media經典網站的支援人員協助下，才能變更這些設定。
 
 **作業** 屬性這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
 
