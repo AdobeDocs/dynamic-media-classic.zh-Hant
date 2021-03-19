@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
+feature: Dynamic Media經典，檢視器，eCatalog
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 86%
+source-wordcount: '686'
+ht-degree: 85%
 
 ---
 
 
 # 連結 eCatalog 至網頁{#linking-an-ecatalog-to-a-web-page}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取動態媒體影像伺服器內容，包括eCatalogs。 這些 URL 字串會在發佈程序中啟用。若要將eCatalog的URL字串或內嵌程式碼置於您的網頁和應用程式中，請從Dynamic Media Classic複製它。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括eCatalogs。 這些 URL 字串會在發佈程序中啟用。若要將eCatalog的URL字串或內嵌程式碼放入網頁和應用程式，請從Dynamic Media經典複製。
 
 >[!NOTE]
 >
