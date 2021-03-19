@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
+feature: Dynamic Media經典，資產管理，觀眾
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +26,7 @@ ht-degree: 98%
 
 如果預覽包含參數圖層的範本資產，則可以變更這些參數或是影像預設集因為所有變更都是以內嵌形式進行，所以您可以從相同的「預覽」視窗立即檢視結果。
 
-另請參閱[Adobe檢視器參考資料庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
+另請參閱[Adobe查看器參考庫示例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **預覽資產**
 
