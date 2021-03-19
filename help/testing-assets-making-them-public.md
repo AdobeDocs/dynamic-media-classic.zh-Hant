@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1103'
 ht-degree: 54%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 54%
 
 # 在公開資產前加以測試 {#testing-assets-before-making-them-public}
 
-安全測試可以協助您根據可設定的 IP 位址集和範圍，定義安全測試環境並建置健全的 B2B 解決方案。此功能可讓您將Dynamic Media Classic部署與內容管理與商務平台的架構搭配使用。
+安全測試可以協助您根據可設定的 IP 位址集和範圍，定義安全測試環境並建置健全的 B2B 解決方案。此功能可讓您將您的Dynamic Media經典版部署與您的內容管理與商務平台的架構搭配使用。
 
 進行安全測試之後，您便能預覽內容未發佈的網站測試版本。
 
@@ -30,7 +32,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->安全測試不會影響對Dynamic Media Classic的存取。 Dynamic Media Classic安全性仍維持一致，並需要通常的認證才能存取Dynamic Media Classic和相關的web services。
+>安全測試不會影響對Dynamic Media經典的訪問。 Dynamic Media傳統安全性仍然保持一致，並需要通常的認證才能訪問Dynamic Media傳統和相關的web services。
 
 ## 安全測試的運作方式 {#how-secure-testing-works}
 
@@ -38,13 +40,13 @@ ht-degree: 54%
 
 從您的公司網路，您可以使用https://whatismyip.com等網站來判斷您的公開IP位址，或向您的公司IT組織要求這項資訊。
 
-使用安全測試，Dynamic Media Classic為測試環境或內部應用程式建立專用的映像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果要求不在已核准 IP 位址清單中，則會傳回失敗回應。Dynamic Media Classic Company Administrator會為其公司的安全測試環境設定已核准的IP位址清單。
+通過安全測試，Dynamic Media經典軟體為測試環境或內部應用程式建立專用的映像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果要求不在已核准 IP 位址清單中，則會傳回失敗回應。「Dynamic Media經典公司管理員」會為其公司的安全測試環境配置已核准的IP位址清單。
 
-由於必須確認原始請求的位置，因此安全測試服務的流量不會透過內容散發網路（例如公用動態媒體影像伺服器流量）路由。 與公用動態媒體影像伺服器相比，要求安全測試服務的延遲可能略高。
+由於必須確認原始請求的位置，因此安全測試服務的流量不會經由內容分發網路(例如公開的Dynamic Media影像伺服器流量)路由。 與公開的Dynamic Media映像伺服器相比，向安全測試服務請求的延遲可能略高。
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。這讓您可以在將資產發佈至公開影像伺服器之前先執行預覽。
 
-***注意&#x200B;**:Secure Testing Services運用已設定內部發佈內容的Catalog Server。因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic Media Classic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
+***注意&#x200B;**:Secure Testing Services運用已設定內部發佈內容的Catalog Server。因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic MediaClassic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
 
 安全測試服務目前支援下列資產類型和功能：
 
@@ -62,8 +64,8 @@ Last Modified Date:
 * 暈映 (演算伺服器要求)。
 * Render Server請求（支援，但客戶必須明確要求）。
 * 集，包含影像集、eCatalog、演算集和媒體集。
-* 標準Dynamic Media Classic多媒體檢視器。
-* Dynamic Media Classic OnDemand JSP頁。
+* 標準Dynamic Media經典多媒體檢視器。
+* Dynamic Media經典OnDemand JSP頁。
 * 靜態內容，如 PDF 檔案和逐步伺服視訊。
 * HTTP 視訊串流。
 * 漸進式視訊串流。
@@ -73,7 +75,7 @@ Last Modified Date:
 * RTMP 視訊串流
 * UGC 服務
 * 網路印刷
-* 動態媒體經典資訊或eCatalog搜尋
+* Dynamic Media經典資訊或eCatalog搜尋
 
 ## 測試安全測試服務 {#testing-the-secure-testing-service}
 
@@ -95,7 +97,7 @@ Last Modified Date:
  -->
 
 1. 聯絡「技術支援」並要求啟用您帳戶的安全測試。
-1. 在Dynamic Media Classic中，按一下「Setup **** > **發佈設定** > **影像伺服器**」。
+1. 在「Dynamic Media經典」中，按一下「設定」>「發佈設定」>「影像伺服器」**。**********
 1. 在「影像伺服器發佈」頁面的「發佈內容」下拉式清單中，選取「**測試影像伺服**」。
 1. 針對「用戶端位址篩選器」按一下「**增加**」。
 1. 選取核取方塊以啟用 (開啟) 位址，然後在個別的文字欄位中輸入 IP 位址和網路遮罩。
@@ -108,7 +110,7 @@ Last Modified Date:
    * 重複前兩個步驟以增加更多 IP 位址。
    * 繼續下一步。
 1. 在「影像伺服器發佈」頁面的左下角，按一下「**儲存**」。
-1. 將所要的影像上傳至您的Dynamic Media Classic帳戶。
+1. 將所要的影像上傳至您的Dynamic Media經典帳戶。
 
    請參閱[上載檔案](uploading-files.md#uploading_files)。
 
@@ -119,13 +121,13 @@ Last Modified Date:
 1. 按一下「**設定** > **應用程式設定** > **一般設定**」以確定安全測試服務的名稱。
 1. 在「應用程式一般設定」頁面的「伺服器」群組下方，尋找「**測試發佈內容伺服器名稱**」右側的名稱。
 
-如果伺服器名稱遺失或伺服器的URL無法運作，請連絡Adobe Care。
+如果伺服器名稱遺失或伺服器的URL無法運作，請連絡Adobe服務。
 
 **準備網站變體**
 
 您需要兩個網站變體，分別連結至已發佈和未發佈的資產: 
 
-* 公用版本——使用傳統Dynamic Media Classic URL語法連結資產。
+* 公用版本——使用傳統的Dynamic Media經典URL語法連結資產。
 * 測試版本——使用相同語法但使用Secure Testing網站名稱來連結資產。
 
 **執行測試**
@@ -136,7 +138,7 @@ Last Modified Date:
 
    在先前定義的 IP 位址範圍所識別的企業網路中，網站測試版本應顯示所有影像，不論其是否標記為發佈。這讓您得以進行測試而不會意外地在預覽批准或產品推出前使影像曝光。
 
-   確認您網站的公開版會像之前使用Dynamic Media Classic時那樣顯示已發佈的資產。
+   確認您網站的公開版本顯示的已發佈資產與Dynamic Media經典網站的先前經驗相同。
 
 1. 從企業網路外部確認未發佈 (也就是未標記為發佈) 的資產皆受到保護，不受第三方存取。
 
