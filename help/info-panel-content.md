@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
+feature: Dynamic Media經典，檢視器，eCatalog
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 82%
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 82%
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
-您可以使用Dynamic Media Classic中的下列功能來管理InfoPanel設定和資料：
+您可以使用Dynamic Media經典中的下列功能來管理您的InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
 * 「資訊面板資料摘要」面板可讓您指定 CSV 檔案，其中包含您要在「資訊面板」滑鼠指向效果文字中顯示的文字，也可以讓您排程時間以更新資訊。
@@ -44,7 +46,7 @@ ht-degree: 82%
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
    * 選取「自訂」即可自行建立回應範本。在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
-1. （可選）在「預設回應」方塊中，輸入當Dynamic Media Classic擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設回應」方塊中，輸入當Dynamic Media經典影像在擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
@@ -88,7 +90,7 @@ Last Modified Date:
 1. 按一下「**瀏覽**」，選取您要使用的Tab分隔TXT檔案、CSV或SSV檔案，然後按一下「開啟&#x200B;****」。
 1. 按一下&#x200B;**上載**。
 
-Dynamic Media Classic會寄送電子郵件給您，告知您上傳是否成功。
+Dynamic Media經典會寄電子郵件給您，告知您上傳是否成功。
 
 ## 預覽影像地圖的滑鼠指向效果關鍵文字 {#preview-rollover-key-text-for-an-image-map}
 
