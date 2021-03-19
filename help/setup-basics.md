@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 66%
+source-wordcount: '199'
+ht-degree: 64%
 
 ---
 
 
 # 設定基礎{#setup-basics}
 
-使用「動態媒體經典設定」畫面，輸入您的個人設定。 如果您是管理員，請為公司進行設定。若要開啟「設定」畫面，請按一下全域導覽列上的「設定」按鈕。
+使用「Dynamic Media經典設定」螢幕輸入您的個人設定。 如果您是管理員，請為公司進行設定。若要開啟「設定」畫面，請按一下全域導覽列上的「設定」按鈕。
 
 此畫面中提供的設定視您的狀態為使用者或管理員而定:
 
@@ -35,7 +37,7 @@ ht-degree: 66%
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic使用者角色和權限](administration-setup.md#user_administration)
+>* [Dynamic Media傳統用戶角色和權限](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [Viewer Presets](application-setup.md#viewer_presets)
 
