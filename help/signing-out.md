@@ -1,34 +1,36 @@
 ---
-title: 登入和登出Adobe Dynamic Media Classic
-description: 瞭解登入與登出Adobe Dynamic Media Classic，以及如何連接至北美地區(NA)或歐洲、中東、非洲(EMEA)或亞太地區(APAC)的生產環境伺服器。
+title: 登入與登出AdobeDynamic Media經典
+description: 瞭解登入與登出Adobe的Dynamic MediaClassic，以及如何連接至北美地區(NA)或歐洲、中東、非洲(EMEA)或亞太地區(APAC)的生產環境伺服器。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+feature: Dynamic Media經典
+role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 7%
+source-wordcount: '231'
+ht-degree: 6%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# 登入Adobe Dynamic Media Classic {#dmc-sign-in}
+# 登入AdobeDynamic Media經典{#dmc-sign-in}
 
-在使用Dynamic Media Classic案頭應用程式之前，請確定您已具備下列功能：
+在使用Dynamic Media經典台式機應用程式之前，請確定您具有以下功能：
 
 * **用**
 戶名您使用電子郵件地址作為登錄名。
 
 * **密**
-碼您可從Dynamic Media Classic或Dynamic Media Classic管理員，在「歡迎」電子郵件中取得暫存密碼。首次登入時，系統會提示您變更此臨時密碼。
+碼您可以從Dynamic Media經典公司或Dynamic Media經典公司管理員的&quot;歡迎&quot;電子郵件中獲得臨時密碼。首次登入時，系統會提示您變更此臨時密碼。
 
-1. 開啟Adobe Dynamic Media Classic案頭應用程式。
+1. 開啟AdobeDynamic Media經典案頭應用程式。
 
-   ![Dynamic Media Classic登入](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media經典登入](/help/assets/dmclassic-login1.png)
 
 1. 在&#x200B;**[!UICONTROL 用戶名]**&#x200B;欄位中，輸入您的電子郵件地址。
 1. 在&#x200B;**[!UICONTROL Password]**&#x200B;欄位中，輸入密碼。
@@ -43,9 +45,9 @@ ht-degree: 7%
 
 1. 點選「**[!UICONTROL 登入]**」。
 
-## 從Adobe Dynamic Media Classic {#dmc-sign-out}登出
+## 從AdobeDynamic Media經典{#dmc-sign-out}登出
 
-1. 在Dynamic Media Classic案頭應用程式的右上角，點選&#x200B;**[!UICONTROL 登出]**，然後再點選&#x200B;**[!UICONTROL 登出]**。
+1. 在Dynamic MediaClassic案頭應用程式的右上角，點選「Sign Out（登出）」**[!UICONTROL ，然後再次點選「Sign Out（登出）」****。]**
 
 >[!MORELIKETHIS]
 >
