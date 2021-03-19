@@ -7,28 +7,30 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
+feature: Dynamic Media經典，觀眾，影像集
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 62%
+source-wordcount: '568'
+ht-degree: 61%
 
 ---
 
 
 # 快速入門: 影像集{#quick-start-image-sets}
 
-動態媒體經典影像集為使用者提供整合的檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。「影像集」可讓您呈現項目的替代高解析度檢視。
+Dynamic Media經典影像集為使用者提供整合的檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。「影像集」可讓您呈現項目的替代高解析度檢視。
 
 影像集檢視器提供了縮放工具，以便近距離檢查影像。如果您想要，也可以讓已導引縮放目標和影像地圖成為您影像集的一部分。影像集能創造更一致且緊密的檢視體驗。
 
-本影像集快速入門旨在透過Dynamic Media Classic中的影像集技術快速上手。
+本影像集快速入門旨在運用Dynamic Media經典影像集技術快速上手。
 
 **1. 為多重檢視和色票上載主影像**
 
-請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。請確定影像在最大尺寸中至少為2000像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。請確定影像在最大尺寸中至少為2000像素。Dynamic Media經典影像支援多種影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
-選取全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media Classic的檔案夾。
+選擇全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media經典的資料夾。
 
 請參閱[準備影像集資產進行上載](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
@@ -44,7 +46,7 @@ ht-degree: 62%
 
 **3.視需要設定影像集檢視器預設集**
 
-管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
+管理員可以建立或修改影像集檢視器預設集。Dynamic Media經典版隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
 
 您可以從「應用程式設定」畫面增加或編輯檢視器預設集。
 
@@ -58,7 +60,7 @@ ht-degree: 62%
 
 **5.發佈影像集**
 
-「發佈影像集」會將影像集放在Dynamic Media Classic伺服器上並啟動URL字串。
+發佈影像集會將它置於Dynamic Media經典伺服器上並啟動URL字串。
 
 >[!NOTE]
 >
@@ -70,7 +72,7 @@ ht-degree: 62%
 
 **6.將影像集連結至網站**
 
-Dynamic Media Classic會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
+Dynamic Media經典會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
 選取影像集，然後按一下「預覽」按鈕。「預覽」畫面開啟。選取影像集檢視器預設集，然後按一下「複製URL」。****
 
