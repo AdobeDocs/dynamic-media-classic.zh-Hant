@@ -1,22 +1,24 @@
 ---
-title: 整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium
-description: 瞭解如何將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合。
+title: 整合AdobeDynamic Media經典與Adobe Target標準版／高級版
+description: 瞭解如何整合AdobeDynamic Media經典與Adobe Target標準版／高級版。
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
+feature: Dynamic Media經典
+role: 資料工程師、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 11%
+source-wordcount: '174'
+ht-degree: 10%
 
 ---
 
 
-# 整合Adobe Dynamic Media Classic與Adobe Target Standard/Premium {#integrating-dmc-with-target}
+# 整合AdobeDynamic Media經典與Adobe Target標準版／高級版{#integrating-dmc-with-target}
 
 在將[!DNL Dynamic Media Classic]與[!DNL Target Standard/Premium]整合之前，您必須在[!DNL Dynamic Media Classic]應用程式一般設定畫面中輸入您的Target URL。 請依照下列步驟取得您的Target URL，並在「應用程式一般設定」畫面中輸入它：
 
