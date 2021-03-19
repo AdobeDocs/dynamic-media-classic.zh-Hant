@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
+feature: Dynamic Media經典，資產管理
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 41%
+source-wordcount: '319'
+ht-degree: 40%
 
 ---
 
 
 # 編輯影像{#editing-images}
 
-Dynamic Media Classic提供許多建立多媒體效果的工具。 按一下滑鼠指向「編輯」按鈕，就可以在瀏覽面板的詳細檢視中使用這些工具。您可以在Dynamic Media Classic中執行下列影像編輯工作：
+Dynamic Media經典提供許多工具來建立多媒體特效。 按一下滑鼠指向「編輯」按鈕，就可以在瀏覽面板的詳細檢視中使用這些工具。您可以在Dynamic Media經典影像中執行下列影像編輯工作：
 
 * **建立影像**
 地圖選取「影像」命令或「影像地圖」按鈕，以建立影像地圖。影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個連結區，可顯示內含滑鼠指向效果文字的面板。例如，可讓使用者按一下影像地圖來啟動新網頁。請參閱建立影像地圖。
@@ -36,6 +38,6 @@ Dynamic Media Classic提供許多建立多媒體效果的工具。 按一下滑�
 像選取「調整」指令或「調整」按鈕，以反轉、旋轉、模糊、上色或變更影像的色彩平衡。請參閱調整影像。
 
 * **編輯**
-圖層按一下「圖層」標籤，在PSD檔案中顯示個別、可編輯的圖層。當您上傳PSD檔案時，所有圖層會個別上傳為個別檔案，以便您在Dynamic Media Classic中編輯。
+圖層按一下「圖層」標籤，在PSD檔案中顯示個別、可編輯的圖層。當您上傳PSD檔案時，所有圖層會個別上傳為個別的檔案，以便您在Dynamic Media經典影像中編輯。
 
-除了使用這些工具來編輯影像外，您還可以在將影像上傳至Dynamic Media Classic時編輯影像。 例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
+除了使用這些工具編輯影像，您還可以在將影像上傳至Dynamic Media經典時編輯影像。 例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
