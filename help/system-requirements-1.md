@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
+feature: Dynamic Media經典，協作，資產管理
+role: 管理員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 43%
+source-wordcount: '100'
+ht-degree: 41%
 
 ---
 
 
 # Media Portal系統要求{#system-requirements}
 
-為獲得使用Dynamic Media Classic Media Portal的最佳體驗，請確定您的系統符合下列系統需求和建議：
+為獲得使用Dynamic Media經典媒體入口網站的最佳體驗，請確定您的系統符合下列系統需求和建議：
 
 * 需要Microsoft® Windows® 7或更新版本或macOS X 10.6或更新版本的Macintosh® Intel處理器。
 * 必須具備 3 GB 或以上的 RAM (建議為 4 GB 或以上)。
