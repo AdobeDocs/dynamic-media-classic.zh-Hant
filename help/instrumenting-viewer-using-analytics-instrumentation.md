@@ -1,28 +1,30 @@
 ---
 title: 使用 Adobe Analytics 檢測套件來檢測檢視器
-description: 瞭解如何使用Adobe Analytics Instrumentation Kit來測量檢視器。
+description: 瞭解如何使用Adobe Analytics儀器套件來測量檢視器。
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
+feature: Dynamic Media經典
+role: 資料工程師、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 36%
+source-wordcount: '307'
+ht-degree: 35%
 
 ---
 
 
 # 使用 Adobe Analytics 檢測套件來檢測檢視器{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-您可以使用Adobe Analytics Instrumentation Kit將HTML5檢視器與Adobe Analytics整合。
+您可以使用Adobe Analytics工具套件將HTML5檢視器與Adobe Analytics整合。
 
-如果您使用任何預先定義的Dynamic Media Classic HTML5檢視器預設集，請注意，這些預設集已包含傳送資料至Adobe Analytics所需的所有實作程式碼，您不需要進一步的工具。
+如果您使用任何預先定義的Dynamic MediaClassic HTML5檢視器預設集，請注意，這些預設集已包含傳送資料至Adobe Analytics所需的所有實作程式碼，您不需要進一步的工具。
 
-## 從Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}設定Adobe Analytics追蹤
+## 從Dynamic Media經典網站設定Adobe Analytics追蹤{#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 對於所有HTML5檢視器，請將下列JavaScript新增至HTML容器，通常位於&lt;head>元素中：
 
@@ -30,7 +32,7 @@ ht-degree: 36%
 <!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` 設為Dynamic Media Classic公司名稱。`&preset` 為可選項，除非公司預設集名稱不 `companypreset`是。在這種情況下，它可能是`companypreset-1, companypreset-2`，依此類推。 數字越高，表示預設集實體越新。若要判斷正確的公司預設值名稱，請按一下「複製URL **」，然後查看`preset=`參數以尋找公司預設值名稱。**
+`Company` 設為Dynamic Media經典公司名稱。`&preset` 為可選項，除非公司預設集名稱不 `companypreset`是。在這種情況下，它可能是`companypreset-1, companypreset-2`，依此類推。 數字越高，表示預設集實體越新。若要判斷正確的公司預設值名稱，請按一下「複製URL **」，然後查看`preset=`參數以尋找公司預設值名稱。**
 
 您現在要繼續增加一個函數，以便將檢視器事件傳輸到 Adobe Analytics 追蹤程式碼。
 
