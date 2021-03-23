@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media經典
 role: 管理員
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎擅於收集以文字為基礎之內容的相關資訊，但除非向其提供此資訊，否則也無法充分取得視訊相關資訊。
 
-使用Dynamic Media經典視訊搜尋引擎優化(SEO)，您可以運用視訊中繼資料來提供搜尋引擎視訊的說明。 Dynamic Media經典提供建立視訊網站地圖和mRSS饋送的功能。 下列為標準 XML 檔案，可用來將視訊資訊送出至搜尋引擎:
+使用Dynamic Media經典視訊搜尋引擎優化(SEO)，您可以套用視訊中繼資料，提供搜尋引擎視訊的說明。 Dynamic Media經典可讓您建立視訊網站地圖和mRSS饋送。 這些標準XML檔案可用來將視訊資訊送出至搜尋引擎：
 
-**視訊** 網站地圖告知Google視訊內容在網站上的確切位置和內容。因此，您完全可以在 Google 上搜尋視訊。例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的詳細資訊，請參閱https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
+**視訊** 網站地圖告知Google視訊內容在網站上的確切位置和內容。因此，視訊可在Google上完全搜尋。 例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的詳細資訊，請參閱https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
 
 **mRSS（媒體真正簡單的匯集）** 饋送內容發佈者用來將媒體檔案饋送到Yahoo!視訊搜尋。如需有關mRSS饋送的資訊，請參閱https://www.rssboard.org/media-rss。
 
@@ -62,7 +62,7 @@ Dynamic Media經典會在您產生視訊網站地圖和mRSS饋送後建立相關
 
 **兩** 者皆建立這兩種XML檔案。
 
-**關** 閉選擇此選項，停止產生視訊網站地圖和媒體RSS(mRSS)饋送。
+**關** 閉若要停止產生視訊網站地圖和媒體RSS(mRSS)饋送，請選擇此選項。
 
 在「自動/手動模式」下拉式清單中，選擇要自動或手動產生:
 
@@ -74,7 +74,7 @@ Dynamic Media經典會在您產生視訊網站地圖和mRSS饋送後建立相關
 
 **標籤為** PublishMarks以發佈所產生的XML檔案。
 
-**允許部分** 開發如果XML檔案未包含所有視訊的完整中繼資料資訊，搜尋引擎可能會拒絕它。即使部分視訊沒有中繼資料，此選項也會產生 XML 檔案。警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
+**允許部分** 開發如果XML檔案未包含所有視訊的完整中繼資料資訊，搜尋引擎可以拒絕它。即使部分視訊沒有中繼資料，此選項也會產生 XML 檔案。警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
 
 ### 選擇產生設定  {#choosing-generation-settings}
 
@@ -93,7 +93,7 @@ Dynamic Media經典會在您產生視訊網站地圖和mRSS饋送後建立相關
 
 >[!NOTE]
 >
->您必須先發佈視訊網站地圖或 mRSS 新聞頻道，才能將其送出至搜尋引擎。視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。如有需要，請將這些 XML 檔案標記為發佈，並按一下「發佈」。
+>先發佈視訊網站地圖或mRSS饋送，再將它送出至搜尋引擎。 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。如有需要，請將這些 XML 檔案標記為發佈，並按一下「發佈」。
 
 ## 將視訊網站地圖和 mRSS 新聞頻道檔案送出至搜尋引擎  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
