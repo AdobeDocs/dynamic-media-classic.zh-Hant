@@ -8,17 +8,17 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media經典
 role: 資料工程師、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 19%
+source-wordcount: '248'
+ht-degree: 16%
 
 ---
 
 
 # 啟用 Adobe Analytics 視訊報告{#enabling-adobe-analytics-video-reports}
 
-使用以Adobe Analytics心率為基礎的視訊報告，在Dynamic Media經典中設定Adobe Analytics時，您不再需要啟用四個視訊檢視器事件（播放、暫停、停止、里程碑）。 視訊心率可與現成可用的Dynamic MediaClassic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
+使用以Adobe Analytics心率為基礎的視訊報表，在Dynamic Media經典中設定Adobe Analytics時，您不再必須啟用四個視訊檢視器事件（播放、暫停、停止、里程碑）。 視訊心率可與現成可用的Dynamic MediaClassic HTML5視訊和MixedMedia檢視器搭配使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
 
 * 如需串流媒體和「心率測量」的簡介，請參閱[關於串流媒體的Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media)。
 
@@ -26,7 +26,7 @@ ht-degree: 19%
 
    如需解決方案變數和自訂變數的詳細資訊，請參閱[音訊和視訊參數](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata)。
 
-* 支援現成的一分鐘增量區段。不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
+* 支援以1分鐘為增量的現成區段。 不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
 
    如需串流媒體需求與設定的詳細資訊，請參閱[測量Adobe Analytics的串流媒體](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
