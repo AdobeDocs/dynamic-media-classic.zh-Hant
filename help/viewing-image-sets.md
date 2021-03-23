@@ -10,10 +10,10 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media經典，觀眾，影像集
 role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Media經典版隨附預設檢視器預設集。 管理員可以建立或
 
 1. 在「設定檢視器」畫面中選擇選項。
 
-   若要查看選項描述，請按一下選項旁的「資訊提示」圖示 。
+   若要查看選項的說明，請按一下選項旁的「資訊提示」圖示。
 
    預覽畫面會在您更新並變更設定時顯示檢視器。
 
@@ -57,11 +57,11 @@ Dynamic Media經典版隨附預設檢視器預設集。 管理員可以建立或
    * 在「資產」視窗中選取資產。在工具列上，按一下「檔案&#x200B;**** > **預覽**」。
 
 1. (選擇性) 在「預覽」視窗下方的下拉式清單中，選取您要在複製 URL 時套用至資產 URL 的 URL 編碼。
-1. 按一下檢視器連結，即可預覽所選取檢視器的資產。
+1. 若要在選取的檢視器中預覽資產，請按一下檢視器連結。
 
    您按一下提供的檢視器連結時，與其相關聯的 URL 便會自動複製到剪貼簿。
 
-1. 關閉顯示的檢視器即可返回「預覽」畫面。
+1. 若要返回「預覽」畫面，請關閉顯示的檢視器。
 1. 按一下「**關閉**」即可返回「資產」畫面。
 
 >[!MORELIKETHIS]
