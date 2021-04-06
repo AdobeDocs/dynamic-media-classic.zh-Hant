@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media經典
 role: 管理員，業務從業人員
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 33%
+source-wordcount: '189'
+ht-degree: 28%
 
 ---
-
 
 # 支援 {#support}
 
@@ -23,13 +22,15 @@ ht-degree: 33%
 | 支援 | 訂閱 |
 |--- |--- |
 | 個案限制 | 無限制. |
-| 回應時間 | 請參閱[https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)的常見問答集。 |
-| SLA（服務級別協定） | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| 檢查Adobe系統狀態 | [Dynamic Media經典系統狀態](https://status.adobe.com/products/1175)。 |
+| 找不到答案嗎？ | [若要取得支援的協助，請開啟票證](https://experienceleague.adobe.com/?support-solution=General#support)。 |
+| 社群論壇 | [Experience Manager社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
+| SLA（服務級別協定） | [支援服務／條款與條件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
 | 支援的使用者 | 每個組織最多可以指定10位使用者為「受支援使用者」，他們可以向客戶服務開啟案例。 |
-| 社交支援 | 請參閱[https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html)的常見問答集。 |
 | 免費即時網路訓練與視訊教學課程 | 包括在內. |
-| 建立支援案例 | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| 電話支援 | <ul><li>美國／加拿大：(800)898-9743、(800)497-033、(408)454-5910 </li> <li>日本：+81-3-6743-9632 </li><li>英國：+44(0)20 35641782</li><li>德國：+49(0)69 51709005</li><li>法國：+33 157324085</li><li>荷蘭：+31(0)20 2035138（週末支援英文版）</li></ul> |
+| 電話支援 | <ul><li>美國和加拿大：1-800-497-0335 </li><li>[其他地區的電話號碼](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)。</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 向技術支援通報問題時，請包含以下資訊:
 
@@ -39,4 +40,3 @@ ht-degree: 33%
 * 問題說明與重現問題所需步驟.
 * 錯誤訊息（如果有）。
 * 瀏覽器類型和版本（如果適用）。
-
