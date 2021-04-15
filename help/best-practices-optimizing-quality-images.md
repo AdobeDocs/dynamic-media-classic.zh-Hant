@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media經典，資產管理
-role: 業務從業人員
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 61%
+source-wordcount: '1465'
+ht-degree: 55%
 
 ---
-
 
 # 影像品質最佳化的最佳實踐{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Dynamic Media經典包含超過100種影像伺服指令，可用來調整和最�
 
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
 * 如果URL中未提供格式命令，Dynamic Media影像伺服預設為JPG以傳送。
-* JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。PNG的壓縮比約為2:1，但在某些情況下除外，例如當影像包含空白背景時。 大致上 PNG 檔案的大小比 JPG 檔案更大。
+* JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。PNG壓縮的比例約為2:1，但有時影像包含空白背景時除外。 大致上 PNG 檔案的大小比 JPG 檔案更大。
 * JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
 * 如果您的影像具有透明度，請使用 PNG，因為 JPG 不支援透明度。
@@ -52,7 +52,7 @@ Dynamic Media經典包含超過100種影像伺服指令，可用來調整和最�
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-有了Dynamic Media經典影像，您就可以在擷取、傳送或兩者上銳利化影像。 不過在大部分情況下，您應該只使用其中一種方法 (而非同時使用兩者) 將影像銳利化。傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
+有了Dynamic Media經典影像，您就可以在擷取、傳送或兩者上銳利化影像。 不過，您通常只使用一種或另一種方法來銳利化影像，但不同時使用兩種方法。 傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
 
 您可使用兩種方法將影像銳利化: 
 
@@ -100,7 +100,7 @@ JPG壓縮的最佳實務是使用`&qlt=85,0`。
 
 ## JPEG 大小調整的最佳實踐 (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-如果您想要確保影像不會超過特定大小，以便傳送至記憶體有限的裝置，`jpegSize` 是實用的參數。
+如果您想要保證影像不會超過特定大小，以傳送至記憶體有限的裝置，則`jpegSize`參數很實用。
 
 * 此參數以千位元組(`jpegSize=<size_in_kilobytes>`)為單位設定。 它可定義影像傳送所允許的大小上限。
 * `&jpegSize=` 與JPG壓縮參數互動 `&qlt=`。如果具有指定JPG壓縮參數(`&qlt=`)的JPG回應未超過`jpegSize`值，則會傳回已定義的`&qlt=`影像。 否則，`&qlt=`會逐漸縮小，直到影像符合允許的最大大小，或直到系統判斷它無法符合併傳回錯誤為止。
@@ -119,8 +119,8 @@ JPG壓縮的最佳實務是使用`&qlt=85,0`。
 
 如果仍不滿意銳利化的結果，以小數遞增 radius。每一次小數增量，amount 就從 1.75 重新開始逐漸增加至 4。重複這個程序，直到得到想要的結果為止。上述值是經過 Creative Studios 驗證的方法，請記住您可以依循其他策略並從其他值開始。您對於結果的滿意度很主觀，因此，結構化實驗是關鍵。
 
-在實驗時，您可能也會發現以下的一般性建議對於您的工作流程最佳化很實用: 
+在您進行實驗時，下列一般建議有助於最佳化您的工作流程：
 
-* 直接在Dynamic Media經典URL上或使用Dynamic Media經典影像調整功能（提供調整作業的即時預覽），即時嘗試並測試不同的參數。
-* 請記住，您可以將「Dynamic Media影像伺服」指令群組至影像預設集。 影像預設集基本上是具有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL 路徑中的自訂預設集名稱會呼叫這些預設集。這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
-* Dynamic Media經典也提供更進階的影像品質調整方式，例如在擷取時套用銳利化影像。 在進階使用案例中，這是進一步調整及最佳化演算結果的方法之一，Adobe Professional Services 可協助您進行自訂分析和最佳實踐。
+* 直接在Dynamic Media經典URL或使用Dynamic Media經典影像調整功能，即時嘗試並測試不同的參數。 後者提供調整操作的即時預覽。
+* 請記住，您可以將「Dynamic Media影像伺服」指令群組至影像預設集。 影像預設集基本上是具有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
+* Dynamic Media經典也提供更進階的影像品質調整方式，例如在擷取時套用影像銳利化。 若是進階使用案例，若需進一步調整和最佳化轉譯結果，Adobe Professional Services可協助您自訂見解和最佳實務。
