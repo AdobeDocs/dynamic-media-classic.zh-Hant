@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media經典，觀眾，影片
-role: 業務從業人員
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 13%
 
 ---
-
 
 # 使用HTML5視訊檢視器的最佳範例{#best-practice-using-the-html-video-viewer}
 
 Dynamic Media經典HTML5視訊檢視器預設集是強穩的視訊播放器。 在播放器的設計端，您可以使用標準網頁開發工具來建立視訊播放器的完整功能。 例如，您可以使用 HTML5 和 CSS 來設計按鈕、控制項與自訂海報影像背景，並藉助自訂的外觀來吸引客戶。
 
-在檢視器的播放方面，它會自動偵測瀏覽器的視訊功能，然後，它使用HLS（自適應視訊串流）來提供視訊。 或者，如果該傳送方法不存在，則會改用HTML5漸進式。
+在檢視器的播放方面，它會自動偵測瀏覽器的視訊功能，然後，它使用HLS（HTTP即時串流）來提供視訊，也稱為最適化視訊串流。 或者，如果該傳送方法不存在，則會改用HTML5漸進式。
 
 結合為單一播放器可提供下列功能：
 
