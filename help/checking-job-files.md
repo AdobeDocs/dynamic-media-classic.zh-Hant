@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media經典，資產管理
-role: 業務從業人員
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # 檢查工作檔案{#checking-job-files}
 
@@ -121,7 +121,7 @@ ht-degree: 60%
 | 小時 | 0-23 | 注意事項使用 24 小時制。 | `, - * /` |
 | 日期 | 1-31 | 不能為「日期」和「星期幾」同時指定數值。其中一個欄位必須使用`?`萬用字元。 | `, - * / ? L C` |
 | 月 | 1-12或1月、2月、3月、4月、5月、6月、7月、8月、9月、9月、10月、11月、12月 | 值區分大小寫。 | `, - * /` |
-| 星期 | 週一、週二、週三、週四、週五、週六、週日 | 值區分大小寫。 不能為「日期」和「星期幾」同時指定數值。這些欄位中必須有一個欄位使用 ? 萬用字元。 | `, - * / ? L C #` |
+| 星期 | 週一、週二、週三、週四、週五、週六、週日 | 值區分大小寫。 不能為「日期」和「星期幾」同時指定數值。其中一個欄位必須使用`?`萬用字元。 | `, - * / ? L C #` |
 | 年 (選擇性) | 空或1970-2099 |  | `, - * /` |
 
 
