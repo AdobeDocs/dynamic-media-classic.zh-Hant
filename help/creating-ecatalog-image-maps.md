@@ -8,26 +8,26 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media經典，檢視器，eCatalog
-role: 業務從業人員
+role: Business Practitioner
+exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 77%
+source-wordcount: '1488'
+ht-degree: 58%
 
 ---
 
-
 # 建立 eCatalog 影像地圖{#creating-ecatalog-image-maps}
 
-影像地圖是 eCatalog 頁面上的一個區域，您可以使用滑鼠滑過其上或按一下，以觸發各種動作。例如，當您移動指標至影像地圖上，您會看到某個項目的滑鼠指向效果文字描述。您按一下「影像地圖」時，會啟動其他動作。例如，您可以開啟一個網頁，以便檢視者瞭解更多關於某項目的資訊或購買項目，或者您可以啟動視訊查看使用中的項目。
+影像地圖是 eCatalog 頁面上的一個區域，您可以使用滑鼠滑過其上或按一下，以觸發各種動作。當您將指標移至影像地圖上時，您會看到項目的變換文字說明。 您按一下「影像地圖」時，會啟動其他動作。例如，您可以開啟一個網頁，以便檢視者瞭解更多關於某項目的資訊或購買項目，或者您可以啟動視訊查看使用中的項目。
 
 ## 繪製 eCatalog 影像地圖 {#drawing-ecatalog-image-maps}
 
 如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。建立影像地圖時，其名稱會輸入影像地圖清單中。
 
 1. 按一下 eCatalog 的滑鼠指向「編輯」按鈕。
-1. 按一下&#x200B;**映射頁**。
+1. 按一下&#x200B;**[!UICONTROL 映射頁]**。
 1. 在「地圖頁面」畫面的左方，選取您要的頁面。
 1. 在影像地圖區域中，繪製一個矩形或多邊形影像地圖:
 
@@ -41,25 +41,25 @@ ht-degree: 77%
 1. (選擇性) 在「影像地圖」清單面板中的「名稱」欄下，輸入「影像地圖」的新名稱。請勿在輸入的名稱中包含空格。
 1. 您可以讓檢視者在按一下「影像地圖」時開啟新網頁。在「影像地圖」清單面板中的「URL」欄中輸入網頁的 URL。
 
-   按一下「編輯」並輸入範本，使輸入 URL (Href 範本) 的過程更容易。
+   按一下「編輯」**[!UICONTROL 並輸入範本，讓輸入URL（Href範本）變得更輕鬆。]**
 
-   請參閱[使用範本來輸入 JavaScript 與 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
+   請參閱[使用範本輸入JavaScript™和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
 1. （可選）在「顯示」下拉式清單中，按一下「滑鼠指向效果文字」，然後輸入當使用者將指標移至影像圖上時，您希望使用者在螢幕上看到的文字。****
-1. （可選）在「顯示」下拉式清單中，按一下「其他動作」**，然後輸入屬性，在使用者將指標移至影像圖上時觸發模糊或對焦動作。**
+1. （可選）在「顯示」下拉式清單中，按一下「其他動作」**[!UICONTROL ，然後輸入屬性，在使用者將指標移至影像圖上時觸發模糊或對焦動作。]**
 
    請參閱[為影像地圖定義其它動作](creating-image-maps.md#defining_other_actions_for_image_maps)。
 
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. （可選）按一下「預覽」，以使用預設的eCatalog檢視器預設集來檢視eCatalog。****
 
-若要刪除「影像地圖」，請在「影像地圖」清單中選取其名稱，並按一下「刪除」。若要從頁面暫時停用「影像地圖」而不刪除「影像地圖」，請在「影像地圖」清單面板中，取消選取該「影像地圖」的「開啟」選項。
+若要刪除影像地圖，請在影像地圖清單中選取其名稱，然後按一下「刪除」。 ****&#x200B;若要從頁面暫時停用「影像地圖」而不刪除「影像地圖」，請在「影像地圖」清單面板中，取消選取該「影像地圖」的「開啟」選項。
 
 ## 在 eCatalog 中內嵌豐富媒體  {#embedding-rich-media-in-an-ecatalog}
 
 您可以使用「eCatalog 豐富媒體」選項，將 MP4 格式的視訊或迴轉集增加到您已在 eCatalog 增加的「影像地圖」。使用者按一下 eCatalog 中的「影像地圖」區域時，會彈出相關聯的視訊或迴轉集。如果您希望可讓客戶查看使用中的項目，或從不同角度和視角查看項目，此功能特別實用。
 
-您也可以選擇性顯示工具提示文字，以便客戶將指標移過「影像地圖」時知道自己即將點選的選項內容。
+您也可以選擇在客戶將指標移至影像地圖上時顯示工具提示文字，讓客戶知道點選的項目。
 
 **在 eCatalog 中內嵌豐富媒體**
 
@@ -71,7 +71,7 @@ ht-degree: 77%
 1. 在左側的「增加資產」面板中，導覽至含有您要內嵌之迴轉集或視訊 (MP4 格式) 資產的資料夾。
 1. 將資產拖曳至「影像地圖」。
 1. (選擇性) 在「影像地圖」清單面板中的「工具提示」欄標題下，輸入您希望檢視者將游標移過「影像地圖」時，在螢幕上可看到的文字。
-1. 按一下「儲存」。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 編輯 eCatalog 影像地圖 {#editing-ecatalog-image-maps}
 
@@ -88,8 +88,7 @@ ht-degree: 77%
    請參閱[調整影像地圖的位置、形狀及大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
 * **刪除影**
-像地圖選取平移工具，按一下影像地圖以選取它，然後按一下 
-**刪除**.
+像地圖選取平移工具，按一下影像地圖以選取它，然後按一下 **[!UICONTROL 刪除]**。
 
    若要從eCatalog移除所有影像地圖，請按一下「排序頁面」標籤，然後按一下「清除地圖」。********
 
@@ -99,13 +98,13 @@ ht-degree: 77%
    請參閱[處理重疊影像地圖](creating-image-maps.md#handling_overlapping_image_maps)。
 
 * **將影像對應複製到其**
-他頁面選取「複製對應至」按鈕（請確定您位於「對應頁面」標籤上）。在「選取影像」畫面上，選取要複製影像地圖的頁面，然後按一下「選取」按鈕。
+他頁面選取「複製對應至」按鈕（請確定您位於「對應頁面」標籤上）。在「選擇影像」螢幕上，選擇要複製影像映射的頁或頁，然後按一下**[!UICONTROL 選擇]**&#x200B;按鈕。
 
    請參閱[將影像地圖複製到其它影像](creating-image-maps.md#copying_image_maps)。
 
 >[!NOTE]
 >
->如同在 eCatalog 中複製影像地圖到不同頁面，您可以在 eCatalog 中將所有影像地圖複製到不同的 eCatalog。請參閱[在 eCatalog 之間複製影像地圖](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
+>除了將影像對應複製到eCatalog中的不同頁面，您還可以將eCatalog中的所有影像對應複製到不同的eCatalog。 請參閱[在 eCatalog 之間複製影像地圖](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
 
 ## 檢視及匯入影像地圖資料  {#reviewing-and-importing-image-map-data}
 
@@ -115,14 +114,14 @@ ht-degree: 77%
 
 ### 檢視影像地圖資料摘要  {#review-image-map-data-summary}
 
-1. 在「地圖頁面」畫面上按一下「摘要」。
+1. 在「映射頁面」螢幕上，按一下&#x200B;**[!UICONTROL 摘要]**。
 
    「地圖摘要」畫面會顯示 eCatalog 中的影像地圖數目、URL、滑鼠指向效果文字敘述以及其它動作。
 
-1. 如果發生滑鼠指向按鍵錯誤，請按一下「Rollover_Key 錯誤」欄中的錯誤，即可在試算表中查看需要變更的內容，以更正錯誤。您可以從這個訊息選取並複製文字，然後將其貼上試算表。
-1. 按一下「預覽」即可在 eCatalog 檢視器中檢視頁面，按一下「X」即可關閉「摘要」畫面，並返回至「地圖頁面」畫面，或按一下「關閉」以返回至「瀏覽」。
+1. 如果有變換鍵錯誤，請按一下「變換鍵錯誤」欄中的錯誤，查看試算表中必須變更什麼才能更正錯誤。 您可以從這個訊息選取並複製文字，然後將其貼上試算表。
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;檢查eCatalog查看器中的頁，按一下X關閉「摘要」螢幕並返回「映射頁」螢幕，或按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;**[!UICONTROL 瀏覽]**。
 
-### 匯入影像地圖資料  {#import-image-map-data}
+### 匯入影像地圖資料 {#import-image-map-data}
 
 您可以為整個 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。匯入影像地圖資料可為您免除麻煩，就不需要在建立每個影像地圖時，都要在影像地圖清單中輸入資料。
 
@@ -132,12 +131,13 @@ ht-degree: 77%
 
 在「地圖摘要」畫面上開始作業，然後遵循下列步驟，為建立的影像地圖匯入影像地圖資料:
 
-1. 按一下「匯入地圖資料」。
-1. 在「匯入中繼資料」對話框中按一下「瀏覽」，然後選取 Tab 字元分隔或 XML DTD 檔案。
+1. 按一下&#x200B;**[!UICONTROL 導入映射資料]**。
+1. 在「匯入中繼資料」對話方塊中，按一下「瀏覽&#x200B;**[!UICONTROL 」。]**
+1. 選擇以制表符分隔或XML DTD檔案。
 1. 在「工作名稱」欄位中，鍵入檔案的名稱 (請注意保留其副檔名)。
-1. 按一下「上載」。
+1. 按一下&#x200B;**[!UICONTROL 上載]**。
 
-## 在 eCatalog 之間複製影像地圖  {#copying-image-maps-between-ecatalogs}
+## 在 eCatalog 之間複製影像地圖 {#copying-image-maps-between-ecatalogs}
 
 您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了成功複製，Dynamic Media經典建議在具有相同頁數和相同影像的eCatalog之間複製。
 
@@ -147,8 +147,8 @@ ht-degree: 77%
 
 遵循下列步驟，即可將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog:
 
-1. 選取您要複製其影像地圖的 eCatalog，然後按一下 eCatalog 的滑鼠指向「編輯」按鈕。
-1. 在「排序頁面」標籤上，按一下「複製地圖」。
-1. 在「選取資產」對話框中，選取您要複製其影像地圖的 eCatalog，然後按一下「選取」。
+1. 選擇包含您要複製之影像地圖的eCatalog，然後按一下eCatalog的變換&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
+1. 在「訂購頁面」標籤上，按一下「複製地圖」。****
+1. 在「選擇資產」對話框中，選擇要複製映像映射的eCatalog，然後按一下&#x200B;**[!UICONTROL 選擇]**。
 
-Dynamic Media經典會在目標eCatalog（您複製影像地圖的eCatalog）具有不同頁數且大小不同的影像時，顯示警告訊息。 您可以不理會警告，按一下「繼續」以複製影像地圖。
+Dynamic Media經典會在目標eCatalog（您複製影像地圖的eCatalog）具有不同頁數且大小不同的影像時，顯示警告訊息。 您可以按一下「**[!UICONTROL 繼續]**」來複製影像地圖，儘管有警告。
