@@ -9,10 +9,10 @@ feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dynamic Media經典版使用者現在可以存取全新的案頭應用程式體驗，而不再仰賴Adobe的Flash技術。
 
-這個新應用程式現在已可用於Windows和macOS。
+此新應用程式現已適用於Windows®和macOS。
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Dynamic Media經典版使用者現在可以存取全新的案頭應用程式體�
 AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 
 * macOS 10.10或更新版本。
-* Windows 7或更新版本。
+* Windows® 7或更新版本。
+
+>[!NOTE]
+>
+>對於&#x200B;*minor*&#x200B;版本，不會在Dynamic MediaClassic台式機應用程式中生成升級通知。 從次要版本的修正中獲益的客戶可以升級。
+
+## 次發行(20.21.2){#minor-release}中的修正
+
+* Server下拉式清單20.21.1中的已知限制為空。
+* 在&#x200B;**[!UICONTROL 上傳作業選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下方的圖層命名預設值現在為&#x200B;**[!UICONTROL Photoshop和圖層名稱]**。 PSD 檔案中的圖層以個別影像上載。
+   * 先前預設的&#x200B;**[!UICONTROL 圖層名稱]**，會在影像的圖層名稱或圖層編號之後，在PSD檔案中命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
+   * 新的預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會將影像命名為PSD檔案後面的影像，後面接著圖層名稱或圖層編號。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。
+   * 鑑於Dynamic Media經典影像中的圖層影像現在有唯一的名稱，現有PSD或範本（原始PSD檔案中的共用圖層名稱）將不會更新。
+* 資產的縮圖損毀。
 
 ## 最新版本(20.21.1){#latest-fixes-desktop-app}的修正
 
 * 由於逾時而導致下列訊息的登入問題：*未經許可，可將此用戶分配給組或組。 請與管理員聯繫。*
 * 檢視器預設集會與每次嘗試的密碼錯誤重複。
-* 案頭應用程式由於根資料夾中有許多資產，因此無法回應。 (修正於Windows;視需要在macOS上工作)。
+* 案頭應用程式由於根資料夾中有許多資產，因此無法回應。 (修正於Windows®;視需要在macOS上工作)。
 
 ## 舊版(20.20.2){#previous-version-fixes-desktop-app}的修正
 
-* 您可透過案頭應用程式使用者介面，針對macOS和Windows上傳的檔案數目不受限制。
+* 您可透過案頭應用程式使用者介面，針對macOS和Windows®上傳的檔案數目不受限制。
 * 不需要登出案頭應用程式，即可在公司間切換。
-* Ctrl+V for paste操作現在可在Windows上運作。
+* Ctrl+V for paste操作現在可在Windows®上運作。
 * 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。
 
-## 在macOS或Windows {#installation-dmc-app}上下載並安裝最新的AdobeDynamic Media經典案頭應用程式
+## 在macOS或Windows® {#installation-dmc-app}上下載並安裝最新的AdobeDynamic Media經典案頭應用程式
 
 另請參閱:
 
 * [在Mac上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-mac-dmc-app)
-* [在Windows上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-windows-dmc-app)
+* [在Windows®上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-windows-dmc-app)
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media經典案頭應用程式。
 
 1. 下載AdobeDynamic Media經典案頭應用程式的最新安裝程式。
 
-   * 最新版本(20.21.1)可從以下網址取得：
+   * 最新版本(20.21.2)可從以下網址取得：
 
-      * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * 舊版(20.20.2)可從以下網址取得：
+      * [macOS(.DMG)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows®(.EXE)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * 舊版(20.21.1)可從以下網址取得：
 
-      * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS(.DMG)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows®(.EXE)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. 根據您下載的安裝程式，執行下列其中一項作業。
@@ -103,8 +119,8 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 
 另請參閱:
 
-* [在Mac或Windows上下載並安裝最新的AdobeDynamic Media經典案頭應用程式](#installation-dmc-app)
-* [在Windows上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-windows-dmc-app)
+* [在Mac或Windows®上下載並安裝最新的AdobeDynamic Media經典案頭應用程式](#installation-dmc-app)
+* [在Windows®上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-windows-dmc-app)
 
 若要下載並&#x200B;*silent*&#x200B;在macOS上安裝最新版的AdobeDynamic Media經典案頭應用程式：
 
@@ -112,11 +128,11 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 
 1. 下載AdobemacOS專用Dynamic Media經典案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS(.DMG)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. 使用以下命令將下載的磁碟映像(.DMG)裝載到裝載點位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令將。APP檔案複製到&#x200B;**[!UICONTROL Applications]**:
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA（歐洲、中東和非洲）生產 |
    | https://s7sps5.scene7.com/ | 亞太產業 |
 
-## 下載並&#x200B;*silent*&#x200B;在Windows {#install-silent-windows-dmc-app}上安裝最新的AdobeDynamic Media經典案頭應用程式
+## 下載並&#x200B;*silent*&#x200B;在Windows® {#install-silent-windows-dmc-app}上安裝最新的AdobeDynamic Media經典案頭應用程式
 
-您使用的命令是用於基本MSI無訊息安裝。 不過，Dynamic Media傳統案頭應用程式安裝程式是使用InstallShield建立的InstallScript MSI安裝程式。 當您以記錄模式執行安裝程式時，任何使用者互動都會記錄在回應檔案中。 然後，此響應檔案將用於靜默安裝，如[在靜默模式下運行安裝中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+您使用的命令是用於基本MSI無訊息安裝。 不過，Dynamic Media傳統案頭應用程式安裝程式是使用InstallShield建立的InstallScript MSI安裝程式。 當您以記錄模式執行安裝程式時，任何使用者互動都會記錄在回應檔案中。 然後，此響應檔案將用於靜默安裝，如[在靜默模式下運行安裝中所述。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 另請參閱:
 
-* [在Mac或Windows上下載並安裝最新的AdobeDynamic Media經典案頭應用程式](#installation-dmc-app)
+* [在Mac或Windows®上下載並安裝最新的AdobeDynamic Media經典案頭應用程式](#installation-dmc-app)
 * [在macOS上下載並無訊息安裝最新的AdobeDynamic Media經典案頭應用程式](#install-silent-mac-dmc-app)
 
-要下載並&#x200B;*silent*&#x200B;在Windows上安裝最新版的AdobeDynamic Media經典案頭應用程式：
+要下載並&#x200B;*silent*&#x200B;在Windows®上安裝最新版的AdobeDynamic Media經典案頭應用程式：
 
 1. 在您的系統上解除安裝任何舊版Dynamic Media經典案頭應用程式。
 
 1. 下載AdobeDynamic Media經典案頭應用程式的最新安裝程式。
 
-   * [Windows(.EXE)-下載。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows®(.EXE)-下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. 使用下列命令，以記錄模式執行安裝程式：
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安裝程式窗口中，按照安裝步驟進行安裝，使交互／輸入（如安裝位置）記錄在`Setup.iss`檔案中。
 
-1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.21.1.exe`複製到其他電腦。
+1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.21.2.exe`複製到其他電腦。
 
 1. 對靜默安裝運行以下命令：
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   有關命令行參數的詳細資訊，請參閱[Setup.exe和Update.exe命令行參數。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   有關命令行參數的詳細資訊，請參閱[Setup.exe和Update.exe命令行參數。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. 當您開啟應用程式時，會顯示新的Adobe「Dynamic Media傳統登入」頁面：
 
@@ -202,7 +218,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 1. 根據您的作業系統，導覽至下列：
 
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic Media經典版20.21.1的已知限制
 
@@ -210,9 +226,10 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 ## Dynamic MediaClassic 20.20.1的已知限制（已修正於20.20.2）
 
-**_僅適用於Windows —— 可透過案頭應用程式UI上傳的檔案數目是否有限制？_**<br>是的，一次最多可透過案頭應用程式UI上傳150個檔案。
+**_僅適用於Windows® —— 可透過案頭應用程式UI上傳的檔案數目是否有限制？_**<br>是的，一次最多可透過案頭應用程式UI上傳150個檔案。
 
-**_適用於Windows和macOS —— 如何在公司間切換？_**<br>若要在公司之間切換，請執行下列動作：
+**_適用於Windows®和macOS —— 如何在公司間切換？_**<br>若要在公司之間切換，請執行下列動作：
+
 * 在Dynamic Media經典應用程式中，從公司下拉式清單中選取新公司。
 * 出現快顯視窗時，點選&#x200B;**[!UICONTROL OK]**&#x200B;以登出並關閉應用程式。
 
