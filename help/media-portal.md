@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
-feature: Dynamic Media經典，資產管理
-role: 管理員，業務從業人員
+feature: Dynamic Media Classic,Asset Management
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ description: 瞭解如何上傳影像資產或向量資產。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media經典
-role: 業務從業人員
+feature: Dynamic Media Classic
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt

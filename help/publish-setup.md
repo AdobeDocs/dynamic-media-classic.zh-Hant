@@ -4,8 +4,8 @@ description: 「發佈設定」設定可讓您決定資產預設如何從Dynamic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media經典
-role: 管理員
+feature: Dynamic Media Classic
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt

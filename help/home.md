@@ -4,8 +4,8 @@ seo-title: AdobeDynamic Media經典的技術檔案與自助服務
 description: AdobeDynamic Media經典技術檔案
 seo-description: 'AdobeDynamic Media經典（原Scene 7）的技術檔案、發行說明和自助資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media經典
-role: 管理員，業務從業人員
+feature: Dynamic Media Classic
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
