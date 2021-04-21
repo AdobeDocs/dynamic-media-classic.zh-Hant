@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media經典，資產管理
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # 在公開資產前加以測試 {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ ht-degree: 54%
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。這讓您可以在將資產發佈至公開影像伺服器之前先執行預覽。
 
-***注意&#x200B;**:Secure Testing Services運用已設定內部發佈內容的Catalog Server。因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic MediaClassic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。*
+>[!NOTE]
+>
+>安全測試服務採用與內部發佈內容一併設定的目錄伺服器。因此，如果您的公司已設定發佈至Secure Testing，請注意，Dynamic MediaClassic中任何已上傳的資產都會立即在Secure Testing服務上使用。 此功能具強制性，不管資產上載時是否標記為發佈。
 
 安全測試服務目前支援下列資產類型和功能：
 
@@ -145,4 +147,3 @@ Last Modified Date:
    從外部 (例如家中電腦或 3G 連線) 存取網路，然後確認網站公開版本顯示了所有已發佈的資產，而並未顯示任何未發佈內容。
 
    確認測試版本並未顯示任何資產，因為您是透過未經核准的 IP 位置存取安全測試服務。
-
