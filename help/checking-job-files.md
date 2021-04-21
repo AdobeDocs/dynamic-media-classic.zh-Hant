@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media經典，資產管理
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,9 @@ ht-degree: 60%
 
 **已上** 傳資產的提交者清單。
 
-***注意&#x200B;**:您可以按一下進度列旁的「取消」按鈕，取消進行中的發佈和上傳工作。*
+>[!NOTE]
+>
+>按一下進度列旁的「取消」按鈕可以取消進行中的發佈和上載工作。
 
 ## 變更工作頁面上的檢視 {#changing-views-on-the-jobs-page}
 
@@ -88,7 +90,7 @@ ht-degree: 60%
 >
 >您可以使用「工作類型」和「顯示」選單在「已排程」標籤上篩選工作清單。選擇「工作類型」，以將清單範圍縮小至特定類型的發佈工作。選擇「顯示」選項以顯示您建立的工作或者您公司每個人所建立的工作。
 
-### 編輯、刪除、暫停和繼續週期性工作 {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### 編輯、刪除、暫停和繼續週期性工作  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 在「工作」頁面上選取週期性工作，並按照以下指示編輯或刪除該工作: 
 
