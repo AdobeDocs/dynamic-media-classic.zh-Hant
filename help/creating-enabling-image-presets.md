@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media經典，協作，影像預設，資產管理
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # 建立和啟用影像預設集{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Media Portal 管理員可以建立影像預設集，來控制影像匯出時重�
 匯出影像資產時，會套用下列限制:
 
 * 每個影像的寬度 x 高度都必須小於或等於 100 MB。例如，影像不可超過 10K x 10K，或以下任何長寬變化，例如 8K x 12K。
-* 每個匯出工作的總檔案大小上限為 1 GB。
+* 每個匯出工作的檔案大小上限為1-GB。
 * 每個匯出工作的總資產上限為 500 個。
 
 >[!NOTE]
