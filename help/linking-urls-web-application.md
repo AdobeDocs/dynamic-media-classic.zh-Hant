@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # 將 URL 連結至網路應用程式{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ ht-degree: 72%
 
 您可以從「預覽」或詳細檢視取得由影像預設集產生的 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。
 
-***注意&#x200B;**:在您發佈資產之前，URL不會生效。*
+>[!NOTE]
+>
+>在發佈資產之前，URL 不會產生作用。
 
-### 從預覽取得影像預設集 URL {#obtaining-an-image-preset-url-from-preview}
+### 從預覽取得影像預設集 URL  {#obtaining-an-image-preset-url-from-preview}
 
 1. 在左側的「資產庫」面板中，導覽至含有您要預覽之影像資產的「資產」檔案夾。
 1. 執行下列任一項作業︰
