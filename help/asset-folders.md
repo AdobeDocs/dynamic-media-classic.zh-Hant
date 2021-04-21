@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media經典，資產管理
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,7 +36,9 @@ Dynamic Media經典中的檔案資產保存在資料夾中。 「資產庫」面
 
 * **開啟檔案夾** -選取檔案夾，在「瀏覽面板」中顯示其內容。
 
-***提示&#x200B;**:按一下資產庫左側的「展開／收合」控制項，即可隱藏或顯示資產庫。如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。*
+>[!TIP]
+>
+>按一下資產庫左側的&#x200B;**[!UICONTROL 展開]**&#x200B;或&#x200B;**[!UICONTROL 收合]**&#x200B;控制項，即可隱藏或顯示資產庫。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。
 
 ## 建立檔案夾 {#creating-folders}
 
@@ -50,7 +52,7 @@ Dynamic Media經典中的檔案資產保存在資料夾中。 「資產庫」面
    >
    >當您透過FTP上傳檔案時，也可以在Dynamic Media經典中建立檔案夾。 在透過 FTP 上載時選取「包含子檔案夾」選項，即可將您電腦上的檔案夾結構複製到系統中。您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
 
-## 刪除和重新命名檔案夾 {#deleting-and-renaming-folders}
+## 刪除和重新命名檔案夾  {#deleting-and-renaming-folders}
 
 選取檔案夾，並使用這些技巧予以刪除或重新命名:
 
