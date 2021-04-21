@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media經典，觀眾，影片
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # 上載與編碼視訊{#uploading-and-encoding-videos}
 
@@ -242,7 +242,7 @@ Dynamic Media·Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮
 |--- |--- |--- |--- |
 | 來源 | 1920 x 1080 | 1 | 1 |
 | 編碼 | 960 x 540 | 2 | 2 |
-| 編碼 | 640x360 | 3 | 1 |
+| 編碼 | 640x360 | 3 | 3 |
 | 編碼 | 480x270 | 4 | 4 |
 
 ### 編碼視訊檔案格式  {#encoded-video-file-format}
@@ -305,22 +305,24 @@ Dynamic Media經典為您提供預先定義的視訊編碼預設集資料庫，�
 
 已啟用的視訊預設集會顯示在「上載工作選項」對話框中。當使用者在上載過程中上載視訊檔案時，就會出現此對話框。他們可以從所有已啟用的編碼預設集中選擇。
 
-**啟用或停用視訊編輯預設集**
+**啟用或停用視訊編輯預設集:**
 
-1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **應用程式設定** > **視訊預設集**」。
+1. 在「Dynamic Media經典」中，按一下「設定&#x200B;**** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]**」。
 1. 進行以下一項操作:
 
-   * 按一下「**最適化視訊預設集**」。
-   * 按一下「**單一編碼預設集**」。
+   * 按一下「**[!UICONTROL 最適化視訊預設集]**」。
+   * 按一下「**[!UICONTROL 單一編碼預設集]**」。
 
 1. 進行以下一項操作:
 
    * 若要啟用視訊預設集，請在預設集頁面的「作用中」欄底下，選取預設集名稱旁的方框。
    * 若要停用視訊預設集，請取消選取要停用之視訊預設集旁的方框。
 
-      ***附註**:非作用中的視訊預設集不會出現在「上傳工作選項」對話方塊中。*
+      >[!NOTE]
+      >
+      >非作用中視訊預設集不會出現在「上載工作選項」對話框中。
 
-1. 按一下頁面右下角的「**關閉**」。
+1. 按一下頁面右下角的「**[!UICONTROL 關閉]**」。
 
 ### 增加或編輯視訊編碼預設集  {#adding-or-editing-a-video-encoding-preset}
 
