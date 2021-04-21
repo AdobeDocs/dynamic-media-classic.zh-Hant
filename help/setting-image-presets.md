@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media經典，影像預設集
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 66%
 
 ---
-
 
 # 設定影像預設集{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Dynamic Media經典影像包含數種「最佳實務」影像預設集，已經�
 
 如果您是公司管理員，則可以建立自己的影像預設集。您可以建立新的影像預設集，或從Dynamic Media·經典提供的預設影像預設集開始，加以編輯，然後以新名稱儲存。
 
-**建立影像預設集**
+**建立影像預設集:**
 
 1. 按一下「**設定** > **影像預設集**」。
 
@@ -65,7 +65,7 @@ Dynamic Media經典影像包含數種「最佳實務」影像預設集，已經�
    |--- |--- |--- |--- |--- |
    | 交叉銷售 (迷你縮圖) | 75 x 75 | 1.5 | 0.8 | 5 |
    | 縮圖 | 150 x 150 | 1.1 | 1 | 5 |
-   | 主影像 | 350 x 350 | 1 | 3 | 6 |
+   | 主影像 | 350 x 350 | 1 | 1 | 6 |
    | 放大 | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 按一下&#x200B;**「儲存」**。
