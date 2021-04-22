@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # AdobeDynamic Media經典平台概觀{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Media經典是整合的豐富式媒體管理、出版與服務環境。 
 
 關鍵的Dynamic Media經典工作流程步驟包括：
 
-* **上傳及管理您的資**
-產上傳您的媒體資產至Dynamic Media經典。您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
+* **上傳及管理您的資產** -將您的媒體資產上傳至Dynamic Media經典。您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
 
-* **建立豐**
-富式媒體建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。如需詳細資訊，請參閱關於多媒體。
+* **建立豐富式媒體** -建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合式媒體集、基本範本和FXG範本。
 
-* **發佈和管**
-理將資產發佈到Dynamic MediaClassic Saas網路，並監控資產發佈時的狀態、管理用戶權限和維護安全性。
+* **發佈和管理** -將資產發佈到Dynamic MediaClassic SaaS網路，並在資產發佈時監控資產狀態、管理用戶權限並維護安全。
 
-* **服務**
-將媒體從Dynamic Media經典SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並以CDN快取傳送。Dynamic Media經典為您提供每個資產的URL。 您發佈資產後，URL 便會生效。
+* **服務** -將媒體從Dynamic MediaClassic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並以CDN快取傳送。Dynamic Media經典為您提供每個資產的URL。 您發佈資產後，URL 便會生效。
 
 ![Dynamic Media經典工作流程程式](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Dynamic Media經典與其他系統有本質的不同，因為您可以使用Dyna
 
 ## 內容快取 {#content-caching}
 
-Dynamic Media經典動態產生的影像對快取友好；在大多數情況下，它們是具有唯一URL呼叫的JPEG影像，可識別它們。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。當使用任何CDN廠商實作快取機制時，您只需變更伺服器名稱，以指向啟用CDN的Dynamic Media影像伺服器。 所有Dynamic MediaClassic版本都包含搭售的CDN快取。
+Dynamic Media經典動態產生的影像對快取友好；通常是具有唯一URL呼叫的JPEG影像，可識別它們。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。當使用任何CDN廠商實作快取機制時，您只需變更伺服器名稱，以指向啟用CDN的Dynamic Media影像伺服器。 所有Dynamic MediaClassic版本都包含搭售的CDN快取。
