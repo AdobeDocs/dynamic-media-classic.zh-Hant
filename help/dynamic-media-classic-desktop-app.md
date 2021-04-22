@@ -5,13 +5,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 * 在&#x200B;**[!UICONTROL 上傳作業選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下方的圖層命名預設值現在為&#x200B;**[!UICONTROL Photoshop和圖層名稱]**。 PSD 檔案中的圖層以個別影像上載。
    * 先前預設的&#x200B;**[!UICONTROL 圖層名稱]**，會在影像的圖層名稱或圖層編號之後，在PSD檔案中命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
    * 新的預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會將影像命名為PSD檔案後面的影像，後面接著圖層名稱或圖層編號。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。
-   * 鑑於Dynamic Media經典影像中的圖層影像現在有唯一的名稱，現有PSD或範本（原始PSD檔案中的共用圖層名稱）將不會更新。
+   * 鑑於Dynamic Media經典影像中的圖層影像現在有唯一的名稱，現有PSD或範本不會更新（原始PSD檔案中的共用圖層名稱）。
 * 資產的縮圖損毀。
 
 ## 最新版本(20.21.1){#latest-fixes-desktop-app}的修正
@@ -59,7 +59,7 @@ AdobeDynamic Media經典案頭應用程式與下列作業系統相容：
 * 您可透過案頭應用程式使用者介面，針對macOS和Windows®上傳的檔案數目不受限制。
 * 不需要登出案頭應用程式，即可在公司間切換。
 * Ctrl+V for paste操作現在可在Windows®上運作。
-* 未來，當案頭應用程式發行新版本時，使用者會在案頭應用程式本身收到通知。
+* 未來，當案頭應用程式發行新版本時，使用者將會在案頭應用程式本身收到通知。
 
 ## 在macOS或Windows® {#installation-dmc-app}上下載並安裝最新的AdobeDynamic Media經典案頭應用程式
 
