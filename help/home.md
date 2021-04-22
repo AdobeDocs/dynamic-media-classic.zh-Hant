@@ -4,16 +4,16 @@ seo-title: AdobeDynamic Media經典的技術檔案與自助服務
 description: AdobeDynamic Media經典技術檔案
 seo-description: 'AdobeDynamic Media經典（原Scene 7）的技術檔案、發行說明和自助資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '585'
+ht-degree: 7%
 
 ---
-
 
 # Adobe Dynamic Media Classic 指南 {#scene7-overview}
 
@@ -27,8 +27,8 @@ ht-degree: 6%
 
 ## Dynamic Media 開發人員資源
 
-* [Dynamic Media開發人員資源登陸頁面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — 包含檢視器參考指南、影像伺服／影像演算API、影像製作系統API和Dynamic Media經典版本注意事項。
-* [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html) — 包含視訊、可購買媒體、混合媒體、回轉集、內嵌縮放、影像和色票集，以及浮動畫面的檢視器範例。
+* [Dynamic Media開發人員資源登陸頁面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) -包含檢視器參考指南、影像伺服／影像轉換API、影像製作系統API和Dynamic Media傳統版本注意事項。
+* [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html) -包含視訊、可購買媒體、混合媒體、回轉集、內嵌縮放、影像和色票集以及篩選的檢視器範例。
 
 ## Dynamic Media經典用戶資源
 
