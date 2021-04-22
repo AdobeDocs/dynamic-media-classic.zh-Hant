@@ -7,23 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: fa5b3971-1c7d-4371-8d69-c399cec0390d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '82'
+ht-degree: 48%
 
 ---
 
-
 # 停用 Adobe Analytics 追蹤{#disabling-adobe-analytics-tracking}
 
-**停用 Adobe Analytics 追蹤**
+**停用 Adobe Analytics 追蹤:**
 
 1. 關閉Dynamic Media經典中「Adobe Analytics配置」頁中的所有事件。
 1. 儲存並發佈。
 
-這會關閉透過Dynamic MediaClassic和透過從&#x200B;**CopyURL**&#x200B;功能取得的URL的支援。 如果您實作自訂追蹤，則停用「配置」頁面中設定的 Adobe Analytics 追蹤功能，可防止與自訂實作項目產生衝突。
-
+這些步驟會關閉透過Dynamic Media經典網站和從CopyURL功能取得的URL的支援。 如果您實作自訂追蹤，則停用「配置」頁面中設定的 Adobe Analytics 追蹤功能，可防止與自訂實作項目產生衝突。
