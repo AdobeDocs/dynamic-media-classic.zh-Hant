@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media經典，檢視器，eCatalog
 role: Business Practitioner
+exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 81%
+source-wordcount: '862'
+ht-degree: 67%
 
 ---
-
 
 # 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
@@ -25,7 +25,7 @@ ht-degree: 81%
 您可以使用Dynamic Media經典中的下列功能來管理您的InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
-* 「資訊面板資料摘要」面板可讓您指定 CSV 檔案，其中包含您要在「資訊面板」滑鼠指向效果文字中顯示的文字，也可以讓您排程時間以更新資訊。
+* 「資訊面板資料饋送」面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」變換文字中的文字，並排程更新資訊的時間。
 * 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
@@ -40,11 +40,11 @@ ht-degree: 81%
 >請參閱[設定 eCatalog 檢視器預設集](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
 1. 按兩下 eCatalog，在詳細檢視中加以開啟。
-1. 按一下「資訊面板設定」面板加以開啟。
+1. 按一下「資訊」(Info)「面板設定」(Panel Setup)面板。
 1. 選取回應範本:
 
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
-   * 選取「自訂」即可自行建立回應範本。在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
+   * 要建立您自己的響應模板，請選擇&#x200B;**[!UICONTROL Custom]**。 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
 1. （可選）在「預設回應」方塊中，輸入當Dynamic Media經典影像在擷取影像地圖資訊時遇到錯誤時，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
@@ -52,7 +52,7 @@ ht-degree: 81%
    * 如果整天經常更新資料，請設定較低的數字。
    * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
 
-1. 按一下「**發佈**」。
+1. 按一下「**[!UICONTROL 發佈]**」。
 
 ## 匯入eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}中「資訊面板」的來源內容
 
@@ -62,12 +62,12 @@ ht-degree: 81%
 
 * 確定 Tab 字元分隔與逗號分隔的資料所包含的欄數目，與滑鼠指向範本所需的欄數相等。
 * 確定第一個項目或資料欄為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
-* 確定識別名稱之後的每個 Tab 字元或逗號分隔項目都是您要取代回應範本的項目 (因此，第一欄會取代成 $1$，第二欄會取代成 $2$，以此類推)。
+* 請確定識別碼後面的每個制表符或逗號分隔項目是您要取代至回應範本的項目。因此，第一欄會取代為$1$，第二欄會取代為$2$，依此類推。
 
 ### 從外部代管位置{#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}將CSV內容匯入eCatalogs
 
 1. 按兩下「eCatalog」，以在「詳細檢視」中加以開啟。
-1. 按一下「資訊面板資料摘要」面板，加以開啟。
+1. 按一下「資訊面板資料饋送」面板。
 1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。您可以在此欄位中貼上 URL，也可以直接鍵入。
 1. (選擇性) 使用「排程更新」選單來指定更新內容的時間，並按一下「增加」。您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取該時間，然後按一下「刪除」。)
 1. (選擇性) 按一下「立即執行更新」以立即更新內容。
@@ -85,10 +85,10 @@ Last Modified Date:
  -->
 
 1. 按兩下「eCatalog」，以在「詳細檢視」中加以開啟。
-1. 按一下「資訊面板設定」面板加以開啟。
-1. **按一下「上傳S7Info內容**」。
-1. 按一下「**瀏覽**」，選取您要使用的Tab分隔TXT檔案、CSV或SSV檔案，然後按一下「開啟&#x200B;****」。
-1. 按一下&#x200B;**上載**。
+1. 按一下「資訊」(Info)「面板設定」(Panel Setup)面板。
+1. 按一下「上傳S7Info內容&#x200B;]**」。**[!UICONTROL 
+1. 按一下&#x200B;**[!UICONTROL 瀏覽]**，選取您要使用的Tab分隔TXT檔案、CSV或SSV檔案，然後按一下&#x200B;**[!UICONTROL 開啟]**。
+1. 按一下&#x200B;**[!UICONTROL 上載]**。
 
 Dynamic Media經典會寄電子郵件給您，告知您上傳是否成功。
 
@@ -96,9 +96,8 @@ Dynamic Media經典會寄電子郵件給您，告知您上傳是否成功。
 
 使用「地圖頁面」畫面，您可以輕鬆且快速地檢視 eCatalog 特定頁面之影像地圖的「資訊面板」文字。
 
-1. 按一下 eCatalog 的滑鼠指向「編輯」按鈕。
-1. 按一下「地圖頁面」。
-1. 在畫面右側的表格頂端，從「顯示」選單中選擇「資訊面板」。
+1. 按一下「目錄」的滑鼠指向效果&#x200B;**[!UICONTROL 「編輯]**」按鈕。
+1. 按一下&#x200B;**[!UICONTROL 映射頁]**。
+1. 在螢幕右側的表頂部，從「顯示」菜單選擇「資訊面板」。****
 
    出現在每個包含「資訊面板」文字的影像對應旁邊的變換金鑰文字。
-
