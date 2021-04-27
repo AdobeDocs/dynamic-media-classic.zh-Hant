@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media經典，觀眾
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # 快速入門: 色票集{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Dynamic Media經典色票集為使用者提供整合的檢視體驗。 在動態
 
 發佈色票集會將其置於Dynamic Media經典伺服器上並啟動URL字串。
 
-在「瀏覽面板」中按一下其名稱左側的「標籤為發佈」圖示。然後，按一下「發佈」。 ********&#x200B;在「發佈」畫面上，按一下「開始發佈」**。**
+在「瀏覽面板」中按一下其名稱左側的「標籤為發佈」圖示。然後，按一下「發佈」。 ********&#x200B;在「發佈」畫面上，按一下「提交發佈」。****
 
 請參閱[發佈](publishing-files.md#publishing-files)。
 
