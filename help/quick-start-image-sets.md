@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media經典，觀眾，影像集
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # 快速入門: 影像集{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Dynamic Media經典影像集為使用者提供整合的檢視體驗。 在動態
 >
 >如果您在建立並儲存影像集時，在儲存***（預設值）後選取**Publish，則不需要此步驟。
 
-在「瀏覽面板」中，按一下其名稱左側的「標示為發佈」圖示。然後，按一下「**發佈**」。 在「發佈」畫面上，按一下「開始發佈」**。**
+在「瀏覽面板」中，按一下其名稱左側的「標示為發佈」圖示。然後，按一下「**發佈**」。 在「發佈」畫面上，按一下「提交發佈」。****
 
 請參閱[發佈](publishing-files.md#publishing-files)。
 
-**6.將影像集連結至網站**
+**6.將影像集連結至網站:**
 
 Dynamic Media經典會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
