@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media經典，資產管理
 role: Business Practitioner
+exl-id: b0010107-248c-4ebc-955c-7514462f351d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 27%
+source-wordcount: '160'
+ht-degree: 22%
 
 ---
-
 
 # 發佈主影像{#publishing-master-images}
 
@@ -24,11 +24,13 @@ ht-degree: 27%
 
 ## 標記主影像為發佈 {#marking-master-images-for-publish}
 
-主影像必須標示為要發佈，才能複製至Dynamic Media影像伺服器。 您可以按一下「標示為發佈」圖示，在「瀏覽面板」中將主影像標示為要發佈。 您也可以在將影像上傳至Dynamic Media經典時，將影像標籤為要發佈。
+主影像必須標籤為發佈，才能複製至Dynamic Media影像伺服器。 您可以按一下&#x200B;**[!UICONTROL 標示為發佈]**&#x200B;圖示，將主影像標示為發佈。 您也可以在將影像上傳至Dynamic Media經典時，將影像標籤為要發佈。
 
 ## 發佈主影像 {#publishing-your-master-images}
 
-若要將主影像發佈至Dynamic Media影像伺服器，請從選取全域導覽列上的「發佈」按鈕開始。 然後選取「時間」選項 (「一次」或「週期性」)，選擇性輸入發佈工作的名稱，然後選取「開始發佈」按鈕。
+1. 在「全域導覽」列上按一下「**[!UICONTROL 發佈]**」。在「發佈」對話框中，選擇「時間」選項（**[!UICONTROL One-Time]**&#x200B;或&#x200B;**[!UICONTROL Recurring]**），然後選擇性地輸入發佈作業的名稱
+
+1. 按一下「**[!UICONTROL 送出發佈]**」。
 
 >[!NOTE]
 >
