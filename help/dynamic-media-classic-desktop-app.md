@@ -9,9 +9,9 @@ feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1850'
 ht-degree: 1%
 
 ---
@@ -246,4 +246,4 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 ![「刷新」](/help/assets/refresh-icon1.png)
 *表徵圖「刷新」表徵圖*
 
-**_我看不到在案頭應用程式中運作的批次集預設集。_**<br>點選「**[!UICONTROL 上傳>工作選項>批次集預設集」]**。確保已啟用相關的**[!UICONTROL 批集預設集&#x200B;]**。 按一下「儲存並送出上傳」**[!UICONTROL 。]**
+**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選「**[!UICONTROL 上傳>工作選項>批次集預設集」]**。確保已啟用相關的**[!UICONTROL 批集預設集&#x200B;]**。 按一下「儲存並送出上傳」**[!UICONTROL 。]**
