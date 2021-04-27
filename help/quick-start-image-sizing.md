@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media經典，資產管理
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 55%
+source-wordcount: '850'
+ht-degree: 54%
 
 ---
-
 
 # 快速入門: 影像調整大小{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ ht-degree: 55%
 * 將您的主影像發佈至Dynamic Media影像伺服器，以便動態地將影像傳送至您的網站和應用程式。
 * 發佈會啟動URL字串，以從Dynamic Media影像伺服器呼叫影像至您的網站或應用程式。 發佈後，您可以在網站或應用程式中複製並放置Dynamic Media經典網頁產生的URL。
 
-選取全域導覽列上的「發佈」按鈕以啟動發佈。在「發佈」畫面上選取「開始發佈」按鈕。請參閱[發佈主影像](publishing-master-images.md#publishing_master_images)。
+選取全域導覽列上的「發佈」按鈕以啟動發佈。在「發佈」對話方塊中，按一下「提交發佈」。 ****&#x200B;請參閱[發佈主影像](publishing-master-images.md#publishing_master_images)。
 
-**5.將 URL 連結至網路應用程式**
+**5.將 URL 連結至網路應用程式:**
 
 Dynamic Media·Classic為影像建立URL圖說字串。 當您將影像發佈至Dynamic Media影像伺服器時，URL會變為作用中。 您可以從瀏覽面板(在詳細檢視中的)或「預覽」畫面複製這些 URL 字串。複製 URL 字串後，您便可以在網站和應用程式中使用這些字串。影像調整大小的 URL 會將參照取代為網頁代碼中的靜態影像名稱。URL 會參照主影像名稱，而該名稱會被要顯示之新影像的資料庫取代。
 
