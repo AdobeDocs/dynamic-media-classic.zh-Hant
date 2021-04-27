@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media經典，檢視器，縮放
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # 快速入門: 縮放{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Dynamic Media經典版提供縮放檢視器預設集選項，可讓您選取檢�
 
 發佈縮放影像會將影像放在Dynamic Media影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程式中，Dynamic Media經典會啟動URL字串。 這些URL字串會呼叫從Dynamic Media影像伺服器到您網站或應用程式的縮放影像。
 
-選取全域導覽列上的「發佈」按鈕以啟動發佈。在「發佈」畫面上選取「開始發佈」按鈕。請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
+在「全域導覽」列上按一下「**[!UICONTROL 發佈]**」。在「發佈」對話方塊中，按一下「提交發佈」。 請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
 
 **6.將縮放檢視器連結到網頁**
 
