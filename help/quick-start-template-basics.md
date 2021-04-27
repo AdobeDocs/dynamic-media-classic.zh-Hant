@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Quick Start: Template Basics{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 
 請確保發佈與範本相關的所有影像。
 
-若要發佈範本，請將其標記為發佈，接著在全域導覽列上選取「發佈」按鈕。然後選取「開始發佈」按鈕。請參閱[發佈範本](publishing-templates.md#publishing_templates)。
+若要發佈範本，請將其標記為發佈，接著在全域導覽列上選取「發佈」按鈕。然後按一下「提交發佈」。 ****&#x200B;請參閱[發佈範本](publishing-templates.md#publishing_templates)。
 
 **5.將範本連結至網頁**
 
