@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media經典，檢視器，eCatalog
 role: Business Practitioner
+exl-id: 00b70162-2394-433d-a46c-1d90667030af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 33%
+source-wordcount: '190'
+ht-degree: 26%
 
 ---
-
 
 # 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
@@ -26,15 +26,15 @@ ht-degree: 33%
 >
 >請確定您的eCatalog和PDF位於相同的檔案夾中，並在發佈之前，先在「瀏覽面板」或「資產詳細資料」頁面中標示為要發佈。
 
-要將eCatalog發佈到Dynamic Media映像伺服器：
+**若要發佈eCatalogs和關聯的PDF:**
 
-1. 按一下全域導覽列上的&#x200B;**Publish**。
-1. 在「發佈」畫面上，選取「時間」選項 (「一次性」或「週期性」)。
-1. (選擇性) 輸入發佈工作的名稱，但是保留時間與日期戳記。
+1. 在「全域導覽」列上按一下「**[!UICONTROL 發佈]**」。
+1. 在「發佈」畫面上，按一下「單次」或「重複」。********
+1. （可選）在「作業名稱」欄位中，輸入發佈作業的名稱，但保留預先定義的日期和時間文字。
 
-   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。按一下「進階」，然後按一下「進階選項」。 在「發佈」下拉式功能表中，按一下「完整含搜尋資料」。 根據預設值，此選項為已選取。
+   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」對話方塊中，按一下「**[!UICONTROL 進階]**」。 從&#x200B;**[!UICONTROL Publish]**&#x200B;下拉式功能表，按一下「完整搜尋資料」]**。**[!UICONTROL &#x200B;根據預設值，此選項為已選取。
 
-1. 按一下「開始發佈」。****
+1. 按一下「****[!UICONTROL 送出發佈]****」。
 
 >[!MORELIKETHIS]
 >
