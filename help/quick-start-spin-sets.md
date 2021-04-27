@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media經典，觀眾，旋轉集
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # 快速入門:迴轉集{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Last Modified Date:
 
 發佈回轉集會將它放置在Dynamic Media經典伺服器上，以便動態傳遞至您的網站或應用程式。 它也會啟動URL字串，從Dynamic Media影像伺服器呼叫回轉集至您的網站或應用程式。
 
-若要發佈回轉集，請在「瀏覽面板」中選取其名稱旁的&#x200B;**標示為發佈**&#x200B;圖示，將其標示為發佈。 按一下全域導覽列上的&#x200B;**Publish**&#x200B;以啟動發佈。 在「發佈」畫面上，按一下「開始發佈」**。**
+若要發佈回轉集，請在「瀏覽面板」中選取其名稱旁的&#x200B;**標示為發佈**&#x200B;圖示，將其標示為發佈。 按一下全域導覽列上的&#x200B;**Publish**&#x200B;以啟動發佈。 在「發佈」畫面上，按一下「提交發佈」。****
 
 請參閱[發佈迴轉集](publishing-spin-set.md#publishing-a-spin-set)。
 
