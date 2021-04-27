@@ -11,10 +11,10 @@ feature: Dynamic Media經典，觀眾，混合媒體集
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**發佈混合媒體集**
+**發佈混合媒體集:**
 
 1. 進行以下一項操作:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (選擇性) 在「**[!UICONTROL 工作名稱]**」欄位中，輸入發佈工作的名稱。
 1. 在「**[!UICONTROL 進階]**」選項的「**[!UICONTROL 發佈至]**」下拉式清單中選取「**[!UICONTROL 視訊伺服器]**」。
 
-   如需確認您可設定的其他選項，請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)。
+   如需您可設定的更多選項，請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)。
 
 1. 按一下「**[!UICONTROL 送出發佈]**」。
 1. 重複上述步驟 2 到步驟 4。
 1. 在「**[!UICONTROL 進階]**」的「**[!UICONTROL 發佈至]**」下拉式清單中選取「**[!UICONTROL 影像伺服器]**」。
 
-   如需確認您可設定的其他選項，請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)。
+   如需您可設定的更多選項，請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)。
 
 1. 按一下「**[!UICONTROL 送出發佈]**」。
