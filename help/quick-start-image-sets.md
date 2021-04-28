@@ -11,10 +11,10 @@ feature: Dynamic Media經典，觀眾，影像集
 role: Business Practitioner
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 61%
+source-wordcount: '553'
+ht-degree: 41%
 
 ---
 
@@ -26,25 +26,25 @@ Dynamic Media經典影像集為使用者提供整合的檢視體驗。 在動態
 
 本影像集快速入門旨在運用Dynamic Media經典影像集技術快速上手。
 
-**1. 為多重檢視和色票上載主影像**
+## 1.上傳多種檢視和色票的主影像
 
-請先為影像集上載影像。因為使用者可以縮放影像集檢視器中的影像，因此在選擇影像時請考慮縮放。請確定影像在最大尺寸中至少為2000像素。Dynamic Media經典影像支援多種影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時請務必考量這項功能。 請確定影像大小至少為2000像素。 Dynamic Media經典影像支援多種影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
-選擇全域導覽列上的「上傳」按鈕，將檔案從您的電腦上傳至Dynamic Media經典的資料夾。
+在全域導覽列上，按一下&#x200B;**[!UICONTROL Upload]**，將檔案從您的電腦上傳至Dynamic Media經典的資料夾。
 
 請參閱[準備影像集資產進行上載](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
-**2.建立影像集**
+## 2.建立影像集
 
 在影像集中，使用者只要按一下影像集檢視器中的縮圖影像，就能夠以不同方向或角度查看影像。
 
-若要建立影像集，請按一下「建置」按鈕，然後選擇「影像集」。然後在「影像集」畫面將影像拖曳至畫面上以建立影像集。視需求組織、新增和刪除影像。
+若要建立影像集，請在全域導覽列上按一下「**[!UICONTROL Build]**」，然後選擇「影像集&#x200B;]**」。**[!UICONTROL &#x200B;在「影像集」視窗中，將影像拖曳至頁面上以合成影像集。 視需求組織、新增和刪除影像。
 
 請參閱[建立影像集](creating-image-set.md#creating-an-image-set)。
 
 另請參閱[將縮放目標和影像地圖納入影像集](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)。
 
-**3.視需要設定影像集檢視器預設集**
+## 3.視需要設定影像集檢視器預設集
 
 管理員可以建立或修改影像集檢視器預設集。Dynamic Media經典版隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
 
@@ -52,28 +52,28 @@ Dynamic Media經典影像集為使用者提供整合的檢視體驗。 在動態
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
-**4.預覽影像集**
+## 4.預覽影像集
 
-在瀏覽面板中選取影像集，然後按一下「預覽」。您的影像集便會出現在「預覽」畫面中。按一下縮圖圖示，在所選取的檢視器中檢查您的影像集。您可以從「預設集」選單選擇不同的檢視器。
+在「瀏覽面板」中選取「影像集」，然後按一下「預覽」。 ****&#x200B;在「預覽」頁面中，按一下縮圖圖示，以檢查所選檢視器中的影像集。 您可以從「預設集」選單選擇不同的檢視器。
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-**5.發佈影像集**
+## 5.發佈影像集
 
 發佈影像集會將它置於Dynamic Media經典伺服器上並啟動URL字串。
 
 >[!NOTE]
 >
->如果您在建立並儲存影像集時，在儲存***（預設值）後選取**Publish，則不需要此步驟。
+>如果在您建立和儲存影像集時選取了「**[!UICONTROL 儲存後發佈]**」(預設)，則此步驟並非必要。
 
-在「瀏覽面板」中，按一下其名稱左側的「標示為發佈」圖示。然後，按一下「**發佈**」。 在「發佈」畫面上，按一下「提交發佈」。****
+在「瀏覽面板」中按一下名稱左側的「標籤為發佈」圖示。 ****&#x200B;然後，按一下「**[!UICONTROL 發佈]**」。 在「發佈」頁面上，按一下「提交發佈」。****
 
 請參閱[發佈](publishing-files.md#publishing-files)。
 
-**6.將影像集連結至網站:**
+## 6.將影像集連結至您的網站
 
 Dynamic Media經典會建立影像集的URL呼叫，並在您發佈後加以啟動。 您可以從「預覽」畫面複製這些 URL。
 
-選取影像集，然後按一下「預覽」按鈕。「預覽」畫面開啟。選取影像集檢視器預設集，然後按一下「複製URL」。****
+選擇「影像集」，然後按一下「預覽」。 ****&#x200B;現在，選取影像集檢視器預設集，然後按一下「複製URL」。****
 
 請參閱[將影像集連結至網頁](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)。
