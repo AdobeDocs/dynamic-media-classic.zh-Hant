@@ -7,33 +7,31 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Administrator,Business Practitioner
+exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 64%
+source-wordcount: '192'
+ht-degree: 23%
 
 ---
 
-
 # 設定基礎{#setup-basics}
 
-使用「Dynamic Media經典設定」螢幕輸入您的個人設定。 如果您是管理員，請為公司進行設定。若要開啟「設定」畫面，請按一下全域導覽列上的「設定」按鈕。
+使用「Dynamic Media經典設定」頁可以輸入您的個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁，請在全局導航欄上按一下&#x200B;**[!UICONTROL Setup]**。
 
-此畫面中提供的設定視您的狀態為使用者或管理員而定:
+此頁面上的可用設定取決於您作為使用者或管理員的狀態：
 
-* 使用者只能存取個人設定和其所屬公司的帳戶，而不能執行任何管理工作。
-* 管理員可以存取個人設定，也可以檢視和管理其公司帳戶。同時，他們也可以執行所有應用程式設定功能和所有管理功能，包含增加管理員和使用者。
+* 用戶只能訪問&#x200B;**[!UICONTROL 個人設定]**&#x200B;及其所屬公司的帳戶；不能執行任何管理任務。
+* 管理員可以訪問&#x200B;**[!UICONTROL 個人設定]**，並查看和管理自己的公司帳戶。 同時，他們也可以執行所有應用程式設定功能和所有管理功能，包含增加管理員和使用者。
 
-管理員也可以在「設定」畫面中設定影像預設集和檢視器預設集:
+管理員也可以在&#x200B;**[!UICONTROL Setup]**&#x200B;頁面中設定影像預設集和檢視器預設集：
 
-* **影像預**
-設集影像預設集是儲存格式，以顯示不同大小和格式的主影像。
+* **影像預設集** -影像預設集是儲存格式，以顯示不同大小和格式的主影像。
 
-* **檢視**
-器預設集檢視器預設集會決定您在檢視器中檢視多媒體時的檢視方式。
+* **檢視器預設** -檢視器預設集可決定您在檢視器中檢視多媒體時的檢視方式。
 
 >[!MORELIKETHIS]
 >
