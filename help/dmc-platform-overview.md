@@ -1,6 +1,6 @@
 ---
-title: AdobeDynamic Media經典平台概觀
-description: Dynamic Media經典平台與工作流程流程的概觀。
+title: AdobeDynamic Media經典計畫概觀
+description: Dynamic Media經典計畫和工作流程流程概述。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 31%
 
 ---
 
-# AdobeDynamic Media經典平台概觀{#adobe-scene-platform-overview}
+# AdobeDynamic Media經典計畫概觀{#adobe-scene-platform-overview}
 
 Dynamic Media經典是整合的豐富式媒體管理、出版與服務環境。 多媒體可以傳送至所有行銷和銷售管道，包含網路、列印資料、電子郵件行銷活動、入口網站、桌上型電腦和裝置。
 
