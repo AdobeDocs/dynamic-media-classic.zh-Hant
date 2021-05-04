@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 進一步了解使用 Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
@@ -33,7 +33,7 @@ ht-degree: 77%
    + [常用資源](popular-resources.md)
    + [培訓視訊](training-videos.md)
 + 快速入門 {#getting-started}
-   + [AdobeDynamic Media經典平台概觀](dmc-platform-overview.md)
+   + [AdobeDynamic Media經典計畫概觀](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登入和登出](signing-out.md)
    + [導覽基本概念](navigation-basics.md)
