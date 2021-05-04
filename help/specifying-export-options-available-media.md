@@ -1,21 +1,21 @@
 ---
-title: 指定Media Portal使用者可用的匯出選項
+title: 指定 Media Portal 使用者可使用的匯出選項
 description: 瞭解如何指定Media Portal使用者可使用的匯出選項。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media經典，協作，資產管理
 role: Administrator,Business Practitioner
+exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 81%
+source-wordcount: '380'
+ht-degree: 71%
 
 ---
-
 
 # 指定 Media Portal 使用者可使用的匯出選項 {#specifying-export-options-available-to-media-portal-users}
 
@@ -28,20 +28,18 @@ ht-degree: 81%
 
 另請參閱[從Dynamic MediaClassic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)導出資產。
 
-**指定 Media Portal 使用者可使用的匯出選項**
+**指定 Media Portal 使用者可使用的匯出選項:**
 
-1. 按一下「**設定** > **影像預設集**」。
+1. 在全域導覽列上，按一下「設定&#x200B;**** > **[!UICONTROL 影像預設集]**」。
 1. 在「影像預設集」視窗中，選取下列任一選項:
 
-   * **啟用使用者定**
-義轉換選取此選項後，使用者可從「匯出選取的資產」視窗的「大小」下拉式清單中選擇其他。使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
+   * **啟用使用者定義的轉換** -選取此選項後，使用者可從「匯出選取的資產」視窗的「已 **** 選取的資產」下拉式清單中選擇其他。使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
 
-      從「**大小**」下拉式清單中選取「**像素**」時，生成的影像寬度 x 高度不得超過 1 億像素。此大小相當于方形影像的 10,000 x 10,000 像素，或者大約為 2x3 外觀比例影像的 8,000 x 12,000 像素。如果匯出原始主影像，則不會套用此大小限制。
+      從「**[!UICONTROL 大小]**」下拉式清單中選取「**[!UICONTROL 像素]**」時，生成的影像寬度 x 高度不得超過 1 億像素。此大小相當于方形影像的 10,000 x 10,000 像素，或者大約為 2x3 外觀比例影像的 8,000 x 12,000 像素。如果匯出原始主影像，則不會套用此大小限制。
 
       如果要讓使用者下載檔案，但不要在下載時重新格式化，請取消選取此選項。
 
-   * **啟用匯出原**
-稿可讓您匯出原始的主影像。使用者可以在「匯出選取的資產」面板中開啟「轉換」下拉式選單，然後選擇「匯出原始檔案」，來匯出原始檔案。如果要強制使用者在匯出影像時選擇影像預設集或選擇轉換選項，請取消選取此選項。
+   * **啟用「匯出原稿** 」-可讓您匯出原始的主影像。在&#x200B;**[!UICONTROL 匯出選取的資產]**&#x200B;面板中，使用者可以開啟&#x200B;**[!UICONTROL 轉換]**&#x200B;下拉式選單，並選擇&#x200B;**[!UICONTROL 匯出原稿]**&#x200B;以匯出原始檔案。 如果您想要強制使用者選擇影像預設集，或在使用者匯出影像時選擇轉換選項，請取消選取此選項。
 
 >[!MORELIKETHIS]
 >
