@@ -9,7 +9,7 @@ feature: Dynamic Media經典，觀眾，影片
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ AdobeDynamic Media經典視訊是端對端解決方案，可讓您輕鬆發佈�
 
    產生最適化視訊集時，會包含MP4視訊。
 
-   `**Note:**` 主版／來源視訊和任何其他來源格式視訊 ** 不會新增至最適化視訊集。
+   >[!NOTE]
+   >
+   >主／來源視訊和任何其他來源格式視訊皆&#x200B;*not*&#x200B;新增至最適化視訊集。
 
 * Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊字幕，以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_Media光源檢視器。
 
