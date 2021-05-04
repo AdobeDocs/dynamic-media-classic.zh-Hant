@@ -5,16 +5,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 7%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 在使用Dynamic Media經典台式機應用程式之前，請確定您具有以下功能：
 
-* **用**
-戶名您使用電子郵件地址作為登錄名。
+* **用戶名** -您使用您的電子郵件地址作為登錄名。
 
-* **密**
-碼您可以從Dynamic Media經典公司或Dynamic Media經典公司管理員的&quot;歡迎&quot;電子郵件中獲得臨時密碼。首次登入時，系統會提示您變更此臨時密碼。
+* **密碼** -您可以在「歡迎」電子郵件中從Dynamic Media經典或Dynamic Media經典管理員獲得臨時密碼。首次登入時，系統會提示您變更此臨時密碼。
 
 1. 開啟AdobeDynamic Media經典案頭應用程式。
 
@@ -47,7 +45,7 @@ ht-degree: 6%
 
 ## 從AdobeDynamic Media經典{#dmc-sign-out}登出
 
-1. 在Dynamic MediaClassic案頭應用程式的右上角，點選「Sign Out（登出）」**[!UICONTROL ，然後再次點選「Sign Out（登出）」****。]**
+1. 在Dynamic MediaClassic案頭應用程式的右上角，點選「Sign out（登出）」**[!UICONTROL ，然後再點選「Sign out（登出）」****。]**
 
 >[!MORELIKETHIS]
 >
