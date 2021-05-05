@@ -4,16 +4,16 @@ description: 瞭解如何上傳影像資產或向量資產。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic
+feature: Dynamic Media經典
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # 上載影像資產或向量資產{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 *上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。它確保上載合法且來自信任的來源。
 
-上載標記是字母數字字串，只能在指定時間內使用。請使用以下 URL 代替您的共用密鑰來擷取上載標記。
+上載標記是字母數字字串，只能在指定時間內使用。請使用下列URL，以共用的機密金鑰取代，以便擷取上傳Token。
 
 * 影像
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，shared-secret金鑰為  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ ht-degree: 84%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-影像的成功回應如下所示:
+影像的成功回應會類似下列：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**允許的 HTTP 方式:** GET 和 POST
+**允許的HTTP方法：**
+`GET` 和  `POST`
 
 您現在可以上載影像資產。
 
@@ -124,8 +125,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載](image-editing-options-upload.md#image-editing-options-at-upload)的「影像編輯」選項中的「挖空背景」。[
-* 待上載檔案的名稱
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
+請參閱上載[的影像編輯選項中的挖空背景。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 待上載檔案的名稱.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+您可以按一下[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)來檢視與上述表單相關的HTML原始碼
 
-您可以按一下下列連結，檢視與上述表單關聯的HTML原始碼：
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下「檢視頁面來源」]**。**[!UICONTROL &#x200B;代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下「檢視頁面來源」**。**&#x200B;代碼顯示當使用者按一下「**送出**」時執行的對應 URL 查詢字串和 POST 方式。
-
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視 > 原始檔**」。若要在Firefox中檢視XML回應，請按一下「工具>網頁開發人員>頁面來源&#x200B;**」。**&#x200B;建議使用 Firefox 檢視 XML 回應。
+若要在 Internet Explorer 中檢視 XML 回應，請按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 原始檔]**」。若要在Firefox中檢視XML回應，請按一下「工具&#x200B;**** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**」。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -183,13 +181,13 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 | URL 參數 | 必要或選擇性 | 值 |
 |--- |--- |--- |
-| op | 必要 | 上載 |
-| upload_token | 必要 | 與公司關聯的共用密鑰上載標記。 |
-| company_name | 必要 | 執行上載的公司名稱。 |
-| file_limit | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
-| file_exts | 選擇性 | 影像資產檔案允許的副檔名清單。 |
-| preserve_colorprofile | 選擇性 | 用於在將上載檔案轉換成 PTIFF 格式時保留任何內嵌的色彩設定檔。可能的值為 true 或 false。預設為 false。 |
-| preserve_filename | 選擇性 | 保留所上載資產的檔案名稱。可能的值為 true 或 false。預設為 false。 |
+| `op` | 必要 | 上載 |
+| `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
+| `company_name` | 必要 | 執行上載的公司名稱。 |
+| `file_limit` | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
+| `file_exts` | 選擇性 | 影像資產檔案允許的副檔名清單。 |
+| `preserve_colorprofile` | 選擇性 | 用於在將上載檔案轉換成 PTIFF 格式時保留任何內嵌的色彩設定檔。可能的值為 true 或 false。預設為 false。 |
+| `preserve_filename` | 選擇性 | 保留所上載資產的檔案名稱。可能的值為 true 或 false。預設為 false。 |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-成功回應的範例如下所示:
+成功回應的範例如下：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 | URL 參數 | 必要或選擇性 | 值 |
 |--- |--- |--- |
-| op | 必要 | image_info |
-| shared_secret | 必要 | 公司的共用密鑰。 |
-| image_name | 必要 | 影像的名稱。 |
+| `op` | 必要 | image_info |
+| `shared_secret` | 必要 | 公司的共用密鑰。 |
+| `image_name` | 必要 | 影像的名稱。 |
 
 **範例 URL:**
 
@@ -287,8 +285,9 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 檔案大小限制.
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色配置檔案和檔案名。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。 請參閱上載](image-editing-options-upload.md#image-editing-options-at-upload)的「影像編輯」選項中的「挖空背景」。[
-* 待上載檔案的名稱
+* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
+請參閱上載[的影像編輯選項中的挖空背景。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 待上載檔案的名稱.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-當您在瀏覽器視窗中按一下右鍵，然後針對圖中顯示的表單按一下「**檢視來源**」時，將顯示以下 HTML 代碼。代碼顯示當使用者按一下「**送出**」時執行的對應 URL 查詢字串和 POST 方式。
+當您在瀏覽器視窗中按一下滑鼠右鍵，然後針對範例中所示的表單按一下「檢視來源」**[!UICONTROL 時，會顯示下列HTML程式碼。]**&#x200B;代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**檢視** > **原始檔**」。若要在 Firefox 中檢視 XML 回應，請按一下「**檢視** > **網頁原始碼**」。建議使用 Firefox 檢視 XML 回應。
+若要在 Internet Explorer 中檢視 XML 回應，請按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 原始檔]**」。若要在Firefox中檢視XML回應，請按一下「工具&#x200B;**** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 頁面來源]**」。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -366,7 +363,7 @@ return true;
 >
 >上載的資產 (AI、EPS、PDF 等) 轉換為 FXG 格式，回應會傳送該 FXG 資產的直接連結。
 
-該資產類似於任何其他的網路印刷資源；您可以對其套用處理查詢。例如，下列 URL 會將 FXG 資源轉換為 500x500 png 影像。
+這項資產與任何其他網路印刷資源一樣；您可以對其應用處理查詢。 例如，下列 URL 會將 FXG 資源轉換為 500x500 png 影像。
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 | URL 參數 | 必要或選擇性 | 值 |
 |--- |--- |--- |
-| op | 必要 | 上載 |
-| upload_token | 必要 | 與公司關聯的共用密鑰上載標記。 |
-| company_name | 必要 | 執行上載的公司名稱。 |
-| file_limit | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
-| file_exts | 選擇性 | 資產檔案允許的副檔名清單。 |
+| `op` | 必要 | 上載 |
+| `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
+| `company_name` | 必要 | 執行上載的公司名稱。 |
+| `file_limit` | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
+| `file_exts` | 選擇性 | 資產檔案允許的副檔名清單。 |
 
 >[!NOTE]
 >
