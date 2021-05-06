@@ -11,10 +11,10 @@ feature: Dynamic Media經典，資產管理
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![詳細資訊檢視](/help/assets/image_0.img.png)
+![「詳](/help/assets/image_0.img.png)
+*細資料檢視」「詳細資料檢視」,「資產資料庫」面板在左側的檢視中隱藏。*
 
 >[!NOTE]
 >
@@ -42,10 +43,10 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 若要仔細檢查、預覽或處理資產，可在詳細檢視中顯示該資產。
 
-1. 在瀏覽面板中，執行下列其中一個動作:
+1. 在「瀏覽面板」中，執行下列任一項作業：
 
+   * 選取資產。在「Dynamic Media經典」的右上角，按一下&#x200B;**[!UICONTROL 詳細視圖]**&#x200B;表徵圖。
    * 在這個資產按兩下。
-   * 選擇資產，然後按一下&#x200B;**[!UICONTROL 詳細資訊視圖]**。
    * 選擇資產，然後按一下「檔案&#x200B;**** > **[!UICONTROL 詳細資訊]**」。
 
 >[!NOTE]
