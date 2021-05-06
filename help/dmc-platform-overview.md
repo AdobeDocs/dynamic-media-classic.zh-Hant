@@ -11,10 +11,10 @@ feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '454'
+ht-degree: 30%
 
 ---
 
@@ -43,6 +43,7 @@ Dynamic Media經典與其他系統有本質的不同，因為您可以使用Dyna
 您使用Dynamic MediaClassic產生的URL字串包含指示，告訴伺服器在傳送資產時如何顯示資產。 例如，相同的主影像可以使用不同大小、格式、寬度、色彩和縮放檢視來傳送。在使用Dynamic Media經典建立和發佈媒體素材時，您可以視覺化設定效果。 如此，您便建立了正確告知伺服器如何向應用程式呈現主資產的 URL 呼叫。
 
 ![Dynamic Media經典可以針對不同尺寸和格式的不同媒體提供相同的主影像。](/help/assets/gs_dynamic_publishing.png)
+*Dynamic Media經典版可確保將一致、高品質的體驗傳遞至任何螢幕，不論螢幕大小或頻寬為何。*
 
 ## 內容快取 {#content-caching}
 
