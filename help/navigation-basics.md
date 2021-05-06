@@ -11,18 +11,20 @@ feature: Dynamic Media經典
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # 導覽基本概念{#navigation-basics}
 
-「Dynamic Media經典」螢幕包括三個主要方面：全域導覽列、資產庫和瀏覽面板／建置面板。
+「Dynamic Media經典」螢幕包括三個主要方面：全域導覽列、資產庫、資產篩選標籤、瀏覽面板／建置面板和媒體購物車（僅限媒體入口網站）。
 
-![導覽基本概念](/help/assets/gs_navigation_basics_popup_popup.png)
+![導覽基](/help/assets/gs_navigation_basics_popup_popup.png)
+*本資訊Dynamic Media主要*
+*經典區域A)全域導覽列B)資產庫面板C)資產篩選標籤D)瀏覽面板E)媒體購物車（僅限媒體入口網站）*
 
 ## 全域導覽列 {#global-navigation-bar}
 
