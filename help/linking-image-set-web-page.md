@@ -1,16 +1,15 @@
 ---
 title: 將影像集連結至網頁
-description: 瞭解如何將影像集連結至網頁。
+description: 了解如何將影像集連結至網頁。
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
-feature: Dynamic Media經典，觀眾，影像集
+feature: Dynamic Media Classic，檢視器，影像集
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -26,7 +25,7 @@ ht-degree: 89%
 >
 >在發佈資產之前，URL 不會產生作用。
 
-## 複製「影像集 URL」{#copying-an-image-set-url}
+## 複製「影像集 URL」 {#copying-an-image-set-url}
 
 1. 在「資產瀏覽」面板中，從「顯示」下拉式清單中按一下「**[!UICONTROL 影像集]**」。
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「影像集」的資產資料夾。
@@ -47,9 +46,9 @@ ht-degree: 89%
 
 ## 增加影像集 URL 至網頁 {#adding-image-set-urls-to-your-web-page}
 
-部署影像集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下連結時，會啟動動態頁面(JSP)，在快顯縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
+部署影像集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下後，連結將啟動一個動態頁(JSP)，該頁在彈出式縮放窗口中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5縮放檢視器。
+如需更多詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5縮放檢視器。
 
 ## 複製「影像集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -82,5 +81,5 @@ ht-degree: 89%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [發佈](publishing-files.md#publishing_files)
 
