@@ -1,16 +1,15 @@
 ---
 title: 「快速入門：媒體入口網站」
-description: 介質入口網站簡介和快速入門，可協助您使用媒體入口網站技術和管理快速上手。
+description: 介質入口網站簡介和快速入門可協助您使用媒體入口網站技術和管理，快速上手並執行。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Media經典，協作，資產管理
+feature: Dynamic Media Classic，協作，資產管理
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,13 +17,13 @@ ht-degree: 73%
 
 ---
 
-# 快速入門：媒體入口{#quick-start-media-portal}
+# 快速入門：媒體入口網站{#quick-start-media-portal}
 
-Media Portal可讓公司輕鬆取得、控制並將已核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 此瀏覽器型「自助式」環境為媒體入口網站使用者提供管理員控制的「檢視」至Dynamic Media經典資產的「檢視」，讓使用者以公司核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
+Media Portal可讓公司輕鬆取得、控制並將已核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 此瀏覽器型「自助式」環境可讓Media Portal使用者以管理員控制的方式，「檢視」至Dynamic Media Classic資產，以企業核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
 
-身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以指定字型、字型顏色、字型大小，並在媒體入口網站介面中整合標誌等品牌元素。
+身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在Media Portal介面中指定字型、字型顏色、字型大小，並合併品牌元素，例如標誌。
 
-本快速入門的設計可讓您迅速熟練 Media Portal 管理。在每個步驟結束時，按一下主題連結以進一步瞭解。
+本快速入門的設計可讓您迅速熟練 Media Portal 管理。在每個步驟結束時，按一下主題連結以深入了解。
 
 ## 1. 瞭解 Media Portal 使用者角色
 
@@ -46,7 +45,7 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 ## 4. 管理 FTP 帳戶
 
-您可以有與Media Portal關聯並對應至Dynamic Media傳統型帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
+您可以有與Media Portal相關聯且對應至Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
 請參閱[管理 FTP 帳戶](ftp-accounts.md#managing_ftp_accounts)。
 
@@ -74,8 +73,8 @@ Media Portal 使用者匯出檔案時，可以重新格式化檔案和匯出原�
 
 請參閱[更有效地使用中繼資料](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 
-## 8.自訂媒體入口網站頁面
+## 8.自訂Media Portal頁面
 
-Media Portal樣式設定可讓您以公司標誌和顏色為Media Portal頁面加上品牌。 使用樣式設定，將您的公司品牌放在Media Portal上。
+Media Portal樣式設定可讓您以公司標誌和顏色為Media Portal頁面加上品牌。 使用樣式設定將公司品牌推廣到媒體入口網站。
 
-請參閱[自訂媒體入口網頁](customizing-media-portal-screen.md#customizing_the_media_portal_screen)。
+請參閱[自訂媒體入口頁面](customizing-media-portal-screen.md#customizing_the_media_portal_screen)。
