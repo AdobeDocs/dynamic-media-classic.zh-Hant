@@ -1,16 +1,15 @@
 ---
 title: 使用不同的縮放檢視器預覽影像資產
-description: 瞭解如何使用不同的縮放檢視器預覽影像資產。
+description: 了解如何使用不同的縮放檢視器預覽影像資產。
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
-feature: Dynamic Media經典，檢視器，縮放
+feature: Dynamic Media Classic，檢視器，縮放
 role: Business Practitioner
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '245'
@@ -38,10 +37,10 @@ ht-degree: 74%
 
 1. 在「檢視器清單」視窗的表格中，按一下檢視器連結以預覽所選檢視器中的資產。
 1. 關閉顯示的檢視器。
-1. 在「檢視器清單」視窗的右下角，按一下「關閉」以返回「資產」畫面。****
+1. 在「檢視器清單」視窗的右下角，按一下「**[!UICONTROL 關閉]**」以返回「資產」畫面。
 
 >[!MORELIKETHIS]
 >
 >* [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [設定預設檢視器](application-setup.md#configuring_default_viewers)
+* [設定預設檢視器](application-setup.md#configuring_default_viewers)
 
