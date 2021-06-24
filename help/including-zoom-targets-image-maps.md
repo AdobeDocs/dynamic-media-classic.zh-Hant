@@ -1,22 +1,21 @@
 ---
 title: 將縮放目標和影像地圖納入影像集
-description: 瞭解如何在影像集中加入縮放目標和影像地圖。
+description: 了解如何在影像集中加入縮放目標和影像地圖。
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic，檢視器，影像集
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 88%
+source-wordcount: '166'
+ht-degree: 89%
 
 ---
-
 
 # 將縮放目標和影像地圖納入影像集{#including-zoom-targets-and-image-maps-in-image-sets}
 
@@ -26,6 +25,6 @@ ht-degree: 88%
 
 >[!MORELIKETHIS]
 >
->* [Creating zoom targets for Guided Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [Creating Image Maps](creating-image-maps.md#creating_image_maps)
+>* [建立已導引縮放的縮放目標](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+* [建立影像地圖](creating-image-maps.md#creating_image_maps)
 
