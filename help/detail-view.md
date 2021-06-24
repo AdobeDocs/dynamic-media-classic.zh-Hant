@@ -1,16 +1,15 @@
 ---
 title: 在「詳細資訊」檢視中進行作業
-description: 瞭解如何在「詳細資訊」視圖中工作。
+description: 了解如何在「詳細資訊」檢視中運作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media經典，資產管理
+feature: Dynamic Media Classic，資產管理
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '612'
@@ -32,8 +31,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![「詳](/help/assets/image_0.img.png)
-*細資料檢視」「詳細資料檢視」,「資產資料庫」面板在左側的檢視中隱藏。*
+![詳細](/help/assets/image_0.img.png)
+*資訊視圖詳細資訊視圖，左側的「資產庫」面板隱藏在視圖中。*
 
 >[!NOTE]
 >
@@ -43,19 +42,19 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 若要仔細檢查、預覽或處理資產，可在詳細檢視中顯示該資產。
 
-1. 在「瀏覽面板」中，執行下列任一項作業：
+1. 在「瀏覽」面板中，執行下列任一操作：
 
-   * 選取資產。在「Dynamic Media經典」的右上角，按一下&#x200B;**[!UICONTROL 詳細視圖]**&#x200B;表徵圖。
+   * 選取資產。在Dynamic Media Classic的右上角附近，按一下&#x200B;**[!UICONTROL Detail View]**&#x200B;圖示。
    * 在這個資產按兩下。
-   * 選擇資產，然後按一下「檔案&#x200B;**** > **[!UICONTROL 詳細資訊]**」。
+   * 選取資產，然後按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]**」。
 
 >[!NOTE]
 >
->在詳細檢視中，選取「前一個資產」或「下一個資產」按鈕，即可逐頁檢視同一檔案夾中的資產。這些按鈕位於「細節」檢視的右上角。
+>在詳細檢視中，選取「前一個資產」或「下一個資產」按鈕，即可逐頁檢視同一檔案夾中的資產。這些按鈕位於「詳細資訊」視圖的右上角。
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
-詳細檢視可提供資產或檔案的相關資訊。它會顯示有關項目的下列資訊：儲存資料夾、檔案名稱、項目上傳至Dynamic Media經典網站的日期，以及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
+詳細檢視可提供資產或檔案的相關資訊。它會顯示項目的下列資訊：儲存該項目的資料夾、其檔案名稱、項目上傳至Dynamic Media Classic的日期，及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
 
 您可以在詳細檢視中取得資產 URL；不過，除非您發佈資產，否則 URL 無法發生作用。對於影像，詳細檢視也提供建置與衍生之資產及中繼資料的清單，例如縮放目標與影像集。
 
@@ -63,25 +62,25 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 詳細檢視提供的工具，可用來處理您開啟的資產。可供使用的工具取決於您使用的資產類型，但是詳細檢視一定會提供下列功能:
 
-* **用於發佈的項目** -按一下名 **** 稱左側的「發佈」，或按一下「檔案>發佈 **[!UICONTROL 者檔]** 案>取消發佈 ****」。
+* **要發佈的項目**  — 按一下名 **** 稱左側的「發佈」，或按一下「檔案>發 **[!UICONTROL 布]** 者檔案 **[!UICONTROL >取消發佈」]**。
 
-* **重新命名資產** -選擇名稱並輸入新名稱。
+* **重新命名資產**  — 選取名稱並輸入新名稱。
 
-* **編輯和新增中繼資料** -選取「中繼資料」面板並視需要變更。請參閱[檢視、增加和匯出中繼資料](/help/viewing-adding-exporting-metadata.md)。
+* **編輯和新增中繼資料**  — 選取「中繼資料」面板，並視需要變更。請參閱[檢視、增加和匯出中繼資料](/help/viewing-adding-exporting-metadata.md)。
 
-* **編輯和新增關鍵字** -選擇關鍵字並視需要新增或移除關鍵字。請參閱[增加或編輯關鍵字](/help/viewing-adding-exporting-metadata.md)。
+* **編輯和新增關鍵字**  — 選取「關鍵字」，並視需要新增或移除關鍵字。請參閱[增加或編輯關鍵字](/help/viewing-adding-exporting-metadata.md)。
 
-* **刪除資產** -按一下「 **[!UICONTROL 檔案]** >刪 **[!UICONTROL 除」]**。
+* **刪除資產**  — 按一 **[!UICONTROL 下「檔案]**  >  **[!UICONTROL 刪除」]**。
 
 對於性質各異的檔案 (例如影像、影像集及字體)，您可以在詳細檢視中檢視發佈和編輯操作記錄，以及檢查工作詳細資訊。
 
-此表顯示了「詳細資訊」視圖中哪些其它選項可用於不同類型的資產。
+此表格在「詳細資料」檢視中顯示哪些其他選項可搭配不同資產類型使用。
 
 | 資產類型 | 編輯/調整 | 預覽 |
 |--- |--- |--- |
 | 影像 | 增加影像地圖<br>新增縮放目<br><br><br>標裁切銳利化建立調整後的檢視 | 是；縮放與影像影像預設集 |
 | 封包與視窗涵蓋範圍影像 | 否 | 縮圖 |
-| eCatalog | 編輯 | Yes<br>Info Panel as also available |
+| eCatalog | 編輯 | 是<br>資訊面板也可用 |
 | 字型 | 編輯字體資訊 | 否 |
 | FXG 檔案 | 編輯 | 是 |
 | ICC 設定檔 | 編輯設定檔資訊 | 否 |
@@ -94,7 +93,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 | SVG 檔案 | 否 | 否 |
 | 範本 | 編輯 | 是 |
 | 視訊 | 否 | 是 |
-| 暈映與演算後的暈映 | 否 | 影像顯示<br>您可以以XML格式查看暈映的可轉譯元素的內容和結構 |
+| 暈映與演算後的暈映 | 否 | 如所示<br>您可以以XML格式查看暈映的可呈現元素的內容和結構 |
 | XML 檔案 | 否 | 已顯示內容 |
 | ZIP 檔案 | 否 | 未顯示內容 |
 
