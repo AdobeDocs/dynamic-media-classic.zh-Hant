@@ -1,16 +1,15 @@
 ---
 title: 利用專案組織您的工作
-description: 瞭解如何使用專案來組織您的工作。
+description: 了解如何使用專案組織您的工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
-feature: Dynamic Media經典，資產管理
+feature: Dynamic Media Classic，資產管理
 role: Business Practitioner
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '477'
@@ -22,13 +21,13 @@ ht-degree: 38%
 
 專案為您提供組織資產的次要選擇，而這種組織方式與資產儲存在哪個檔案夾無關。資產只能放在一個檔案夾中，但是可以基於組織目的而複製到多個「專案」檔案夾。
 
-建立「專案」檔案夾之後，就可以放入資產。不過，專案中的資產實際上是指向資產儲存所在之「資產庫」資料夾的指標。 您可以將資產放入多個專案。例如，襯衫的影像可以同時放在「襯衫」與「秋季系列時裝」專案檔案夾中。
+建立「專案」檔案夾之後，就可以放入資產。不過，專案中的資產實際上是資產儲存所在之「資產程式庫」資料夾的指標。 您可以將資產放入多個專案。例如，襯衫的影像可以同時放在「襯衫」與「秋季系列時裝」專案檔案夾中。
 
 您可以在上載檔案時建立專案，或是在「資產庫」面板中建立專案。
 
 >[!NOTE]
 >
->Dynamic Media經典建議使用中繼資料來組織資產，而非「專案」。 請參閱[檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)。
+>Dynamic Media Classic建議使用中繼資料而非專案來組織資產。 請參閱[檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md)。
 
 >[!NOTE]
 >
@@ -36,30 +35,30 @@ ht-degree: 38%
 
 ## 建立專案檔案夾 {#creating-a-project-folder}
 
-您可以從「資產庫」或將檔案上傳至「Dynamic Media經典」時，建立「專案」檔案夾：
+您可以從「資產資料庫」開始，或在將檔案上傳至Dynamic Media Classic時，建立專案資料夾：
 
-* **在「資產庫** 」中——捲動至「資產庫」的底部、「專案」區段，然後按一下「新 **[!UICONTROL 增專案]**」。輸入項目的名稱。
+* **在「資產庫** 」中 — 捲動至「資產庫」底部、「專案」區段，然後按一下「新 **[!UICONTROL 增專案」]**。輸入專案的名稱。
 
-* **上傳檔案** -在「上傳」畫面中，按一下「新 **[!UICONTROL 增至專案]** >建 **[!UICONTROL 立專案」]**。輸入項目的名稱。
+* **上傳檔案**  — 在「上傳」畫面中，按一 **[!UICONTROL 下「新增至專案]**  >建 **[!UICONTROL 立專案」]**。輸入專案的名稱。
 
 >[!NOTE]
 >
->「資產庫」中的「專案」區域是單一層級資料夾清單；不允許子檔案夾。
+>「資產庫」中的「專案」區域是單一層級資料夾清單；不允許子資料夾。
 
 ## 使用專案檔案夾 {#working-with-project-folders}
 
-要顯示、刪除和更名項目資料夾，請執行下列任一操作：
+要顯示、刪除和更名「項目」資料夾，請執行以下操作之一：
 
-* **瀏覽內容** -在「資產庫」中選取資料夾的名稱。其資產會顯示在瀏覽面板中。
+* **瀏覽內容**  — 選取「資產資料庫」中資料夾的名稱。其資產會顯示在瀏覽面板中。
 
-* **刪除項目資料夾** -選擇項目資料夾，然後按一下 **[!UICONTROL 刪除項目]**。從Project資料夾刪除資產並不會將資產從Dynamic Media經典中刪除；資產會保留在儲存資產的原始資料夾中。
+* **刪除項目資料夾**  — 選擇項目資料夾，然後按一下 **[!UICONTROL 刪除項目]**。從專案資料夾刪除資產並不會從Dynamic Media Classic刪除資產；資產會保留在儲存資產的原始資料夾中。
 
-* **更名項目資料夾** -在「資產面板」中按兩下資料夾的名稱，然後輸入新名稱。
+* **重新命名專案資料夾**  — 在「資產面板」中按兩下資料夾名稱，然後輸入新名稱。
 
 ## 將資產加入專案檔案夾 {#adding-assets-to-a-project-folder}
 
-您可以從「瀏覽面板」開始，或將檔案上傳至「Dynamic Media經典」時，將影像新增至「專案」檔案夾：
+從「瀏覽」面板開始，或將檔案上傳至Dynamic Media Classic時，您可以將影像新增至「專案」資料夾：
 
-* **從「瀏覽面板** 」-選取資產並拖曳至「專案」檔案夾。您也可以按一下「檔案&#x200B;**** > **[!UICONTROL 新增至專案]**」。 在「選擇項目」對話框中選擇項目資料夾名稱，然後按一下&#x200B;**[!UICONTROL 提交]**。
+* **從「瀏覽面板** 」 — 選取資產並將其拖曳至「專案」資料夾。您也可以按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**」。 在「選擇項目」對話框中選擇項目資料夾名稱，然後按一下「**[!UICONTROL 提交]**」。
 
-* **上傳檔案時** -在「上傳」頁面中，按一下「工 **[!UICONTROL 作選項]**」。在「上載作業選項」對話框中，按一下&#x200B;**[!UICONTROL 項目]**，然後選擇項目名稱。
+* **上傳檔案**  — 在「上傳」頁面中，按一下「工 **[!UICONTROL 作選項」]**。在「上載作業選項」對話框中，按一下&#x200B;**[!UICONTROL 項目]**，然後選擇項目名稱。
