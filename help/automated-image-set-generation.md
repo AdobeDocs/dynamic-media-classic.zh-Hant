@@ -1,16 +1,15 @@
 ---
 title: 自動產生影像集
-description: '瞭解如何自動產生影像集。 '
+description: '了解如何自動產生影像集。 '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic，檢視器，影像集
 role: Business Practitioner
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '101'
