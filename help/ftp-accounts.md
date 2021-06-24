@@ -1,16 +1,15 @@
 ---
 title: 管理 FTP 帳戶
-description: 瞭解如何管理FTP帳戶。
+description: 了解如何管理FTP帳戶。
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
-feature: Dynamic Media經典，協作，資產管理
+feature: Dynamic Media Classic，協作，資產管理
 role: Administrator,Business Practitioner
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -29,7 +28,7 @@ ht-degree: 82%
 1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP 帳戶]**」。
 1. 在「新增 FTP 帳戶」頁面的「FTP 帳戶使用者名稱」下拉式清單中，選取使用者。
 
-   如果未列出使用者，您必須透過「管理設定」，將其新增為媒體入口網站管理員、媒體入口網站投稿者——使用者或媒體入口網站投稿者。 增加含有適當角色的使用者之後，他們的使用者名稱便會出現在下拉式清單中。
+   若未列出使用者，您必須透過「管理設定」，將使用者新增為Media Portal管理員、Media Portal貢獻者 — 使用者或Media Portal貢獻者。 增加含有適當角色的使用者之後，他們的使用者名稱便會出現在下拉式清單中。
 
    請參閱[增加 Media Portal 使用者](adding-media-portal-users.md#adding_a_media_portal_user)。
 
