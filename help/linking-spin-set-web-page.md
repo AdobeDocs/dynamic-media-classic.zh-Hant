@@ -1,16 +1,15 @@
 ---
 title: 將迴轉集連結到網頁
-description: 瞭解如何將回轉集連結至網頁。
+description: 了解如何將回轉集連結至網頁。
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
-feature: Dynamic Media經典，觀眾，旋轉集
+feature: Dynamic Media Classic，檢視器，回轉集
 role: Business Practitioner
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '720'
@@ -20,7 +19,7 @@ ht-degree: 87%
 
 # 將迴轉集連結到網頁{#linking-a-spin-set-to-a-web-page}
 
-網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括回轉集。 這些 URL 字串會在發佈程序中啟用。若要將回轉集的URL字串或內嵌程式碼置於您的網頁和應用程式中，請從Dynamic Media經典複製。
+網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括回轉集。 這些 URL 字串會在發佈程序中啟用。若要將回轉集的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Dynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ ht-degree: 87%
 
       在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**[!UICONTROL 複製 URL]**」。
 
-## 將迴轉集 URL 增加到網頁中  {#adding-spin-set-urls-to-your-web-page}
+## 將迴轉集 URL 增加到網頁中 {#adding-spin-set-urls-to-your-web-page}
 
-迴轉集的部署方式與所有縮放檢視器一樣，即透過在縮放視窗中顯示迴轉集的動態頁面 (ASP 或 JSP) 部署。對Dynamic Media經典平台的URL呼叫遵循縮放檢視器上的相同通訊協定。 不過，「檢視器預設集」名稱取決於管理員定義為預設「迴轉集檢視器預設集」的預設集。例如，以下非線上的 URL 語法範例包括名為 `viewer.jsp` 的預設集名稱，而現在 SKU 參數為迴轉集名稱:
+迴轉集的部署方式與所有縮放檢視器一樣，即透過在縮放視窗中顯示迴轉集的動態頁面 (ASP 或 JSP) 部署。對Dynamic Media Classic平台的URL呼叫遵循縮放檢視器上相同的通訊協定。 不過，「檢視器預設集」名稱取決於管理員定義為預設「迴轉集檢視器預設集」的預設集。例如，以下非線上的 URL 語法範例包括名為 `viewer.jsp` 的預設集名稱，而現在 SKU 參數為迴轉集名稱:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
