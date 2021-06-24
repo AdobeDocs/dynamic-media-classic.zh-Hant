@@ -1,16 +1,15 @@
 ---
 title: 將混合媒體集連結至網頁
-description: 瞭解如何將混合媒體集連結至網頁。
+description: 了解如何將混合媒體集連結至網頁。
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media經典，觀眾，混合媒體集
+feature: Dynamic Media Classic，檢視器，混合媒體集
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -45,7 +44,7 @@ ht-degree: 97%
 
 部署混合媒體集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下後，連結便會啟動動態頁面 (ASP 或 JSP)，在混合媒體集檢視器中顯示混合媒體集。
 
-## 複製「混合媒體集」檢視器的內嵌程式碼  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## 複製「混合媒體集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 您可使用「內嵌程式碼」功能查看所選「混合媒體集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。「內嵌代碼」對話方塊中不允許編 輯代碼 。
 
@@ -76,5 +75,5 @@ ht-degree: 97%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [發佈](publishing-files.md#publishing_files)
 
