@@ -1,16 +1,15 @@
 ---
 title: 調整影像
-description: 瞭解如何調整影像
+description: 了解如何調整影像
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，資產管理
 role: Business Practitioner
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -20,7 +19,7 @@ ht-degree: 86%
 
 # 調整影像{#adjusting-an-image}
 
-Dynamic Media經典提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
+Dynamic Media Classic提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
 
 另請參閱[建立影像的別名](adjusting-image.md#creating_an_alias_for_an_image)。
 
@@ -49,9 +48,9 @@ Dynamic Media經典提供多種指令來調整影像外觀。 您可以翻轉、
 
       按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-   * 將影像儲存為主影像的另一個檢視。 您可以建立它的別名。按一下「**[!UICONTROL 另存新檔]**」。
+   * 將影像另存為主影像的另一個視圖。 您可以建立它的別名。按一下「**[!UICONTROL 另存新檔]**」。
 
-      在&#x200B;**[!UICONTROL 另存新檔]**&#x200B;對話方塊的下拉式清單中，按一下&#x200B;**[!UICONTROL 另存新檔至master]**&#x200B;的另一個檢視。
+      在&#x200B;**[!UICONTROL 另存新檔]**&#x200B;對話方塊中，在下拉式清單中，按一下&#x200B;**[!UICONTROL 另存新檔為主版]**&#x200B;的另一個檢視。
 
       在「**[!UICONTROL 檔案夾名稱]**」清單方塊中，選取檔案夾以儲存新的主影像。
 
@@ -59,7 +58,7 @@ Dynamic Media經典提供多種指令來調整影像外觀。 您可以翻轉、
 
 ## 建立影像的別名 {#creating-an-alias-for-an-image}
 
-調整好影像後，您可以將它儲存為主影像的另一個檢視。 作法是使用「**[!UICONTROL 另存為主影像的額外視圖]**」功能來建立影像的別名。
+調整影像後，可將其另存為主影像的另一個視圖。 作法是使用「**[!UICONTROL 另存為主影像的額外視圖]**」功能來建立影像的別名。
 
 1. 在「格線檢視」或「清單檢視」中，從您要建立別名的影像旁邊的「**[!UICONTROL 編輯]**」下拉式清單中，按一下「**[!UICONTROL 調整]**」。
 1. 在頁面右下角，按一下「**[!UICONTROL 另存新檔]**」。
