@@ -1,16 +1,15 @@
 ---
 title: 建立影像集
-description: 瞭解如何建立影像集。
+description: 了解如何建立影像集。
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
-feature: Dynamic Media經典，觀眾，影像集
+feature: Dynamic Media Classic，檢視器，影像集
 role: Business Practitioner
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '586'
@@ -37,20 +36,20 @@ ht-degree: 86%
 
 1. 進行以下一項操作:
 
-   * **先選取影像** -在「瀏覽面板」中，選取您要用於影像集的影像，按一下「建立 **[!UICONTROL >影像]** 集」 ****。
+   * **先選取影像**  — 在「瀏覽」面板中，選取您要用於影像集的影像，按一下「 **[!UICONTROL 建立]**  >影 **[!UICONTROL 像集」]**。
 
-   * **從「影像集」畫面開始** -按一下「 **[!UICONTROL 建立]** >影 **[!UICONTROL 像集」]**。「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
+   * **從「影像集」畫面** 開始 — 按一 **[!UICONTROL 下「建]** 置> **[!UICONTROL 影像集」]**。「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
 
 1. 若要變更影像順序，請將影像拖曳至新位置。
 1. 在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 按一下「**[!UICONTROL 儲存]**」，選取要儲存影像集的檔案夾，輸入影像集名稱，然後按「**[!UICONTROL 儲存]**」。
 1. 若要在影像集檢視器中查看影像集，請按一下「影像集」畫面上的「**[!UICONTROL 預覽]**」。您可以按一下影像集檢視器中的色票縮圖，以查看它們如何運作。
 
-## 編輯影像集  {#editing-an-image-set}
+## 編輯影像集 {#editing-an-image-set}
 
-無論您編輯已發佈或未發佈的集合，**[!UICONTROL 儲存後發佈(save]**)選項都會以下列方式影響集合和集合成員：
+無論您編輯已發佈或未發佈的集，**[!UICONTROL 儲存後發佈]**&#x200B;選項都會以下列方式影響集和設定成員：
 
-| 已發佈集? | **[!UICONTROL 在儲存編輯]** 之前，選取儲存選項後進行發佈？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | **[!UICONTROL 在儲存編輯]** 之前選取儲存選項後發佈？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
 | 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
@@ -71,7 +70,7 @@ ht-degree: 86%
 1. 完成集的編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 按一下「**[!UICONTROL 儲存]**」，選取儲存集的存放區檔案夾，輸入集名稱，然後按「**[!UICONTROL 儲存]**」。
 
-## 刪除影像集  {#deleting-an-image-set}
+## 刪除影像集 {#deleting-an-image-set}
 
 刪除集時，便會將集本身移到垃圾桶。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
 
