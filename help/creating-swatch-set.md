@@ -1,20 +1,19 @@
 ---
 title: 建立色票集
-description: 瞭解如何建立色票集。
+description: 了解如何建立色票集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
-feature: Dynamic Media經典，觀眾
+feature: Dynamic Media Classic，檢視器
 role: Business Practitioner
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -26,11 +25,11 @@ ht-degree: 79%
 
 ## 建立色票集 {#create}
 
-建立集時，**保存後發佈**選項會以下列方式影響集並設定成員：
-|**[!UICONTROL 在儲存前選取儲存後發佈]**選項？|儲存後設定的狀態|儲存後設定成員的狀態|
-|— |— |— |
+建立集時，「**儲存後發佈**」選項會以下列方式影響集與集成員:
+|**[!UICONTROL 在保存前選擇的「保存後發佈」選項？|保存後的集狀態|保存後的整合員狀態|
+| — | — | — |
 |是|已發佈|已發佈|
-|無|未發佈|整合員保留其已發佈或未發佈狀態。|
+|否|取消發佈|設定成員將保留其已發佈或取消發佈的狀態。|]**
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
@@ -38,9 +37,9 @@ ht-degree: 79%
 
 1. 進行以下一項操作:
 
-   * **先選取影像** -在「瀏覽面板」中選取影像，然後按一下「建立 **[!UICONTROL >色票集]**  ****」。
+   * **先選取影像**  — 在「瀏覽」面板中，選取影像，然後按一下「建 **[!UICONTROL 置]**  > **[!UICONTROL 色票集」]**。
 
-   * **從「色票集」螢幕開始** -按一下「 **[!UICONTROL 生成]** >色 **[!UICONTROL 票集」]**。從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
+   * **從「色票集」畫面** 開始 — 按一 **[!UICONTROL 下「建]** 置> **[!UICONTROL 色票集」]**。從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
 
 1. 將色票色彩、圖樣或飾面拖曳到「色票集」頁面上的「色票」預留位置方框中。
 
@@ -48,14 +47,14 @@ ht-degree: 79%
 
 1. 若要變更色票集中影像的順序，請將影像拖曳到新位置。
 1. 在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
-1. 按一下&#x200B;**[!UICONTROL 保存]**，選擇用於儲存色票色票集的資料夾，輸入該集的名稱，然後按一下&#x200B;**[!UICONTROL 提交]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**，選擇用於儲存色板色票集的資料夾，輸入該集的名稱，然後按一下&#x200B;**[!UICONTROL Submit]**。
 1. 若要在色票集檢視器中查看色票集，請按一下「色票集」畫面上的「**[!UICONTROL 預覽]**」。您可以按一下色票集檢視器中的色票縮圖來查看它們的行為方式。
 
-## 編輯色票集  {#editing-a-swatch-set}
+## 編輯色票集 {#editing-a-swatch-set}
 
-無論您編輯已發佈或未發佈的集合，**[!UICONTROL 儲存後發佈(save]**)選項都會以下列方式影響集合和集合成員：
+無論您編輯已發佈或未發佈的集，**[!UICONTROL 儲存後發佈]**&#x200B;選項都會以下列方式影響集和設定成員：
 
-| 已發佈集? | **[!UICONTROL 儲存]** 編輯前，選取儲存後發佈選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | **[!UICONTROL 在儲]** 存編輯前選取儲存後發佈選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已發佈 | 已發佈 |
 | 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
@@ -76,7 +75,7 @@ ht-degree: 79%
 1. 完成集的編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 按一下「**[!UICONTROL 儲存]**」，選取存放區檔案夾，輸入集名稱，然後按「**[!UICONTROL 儲存]**」。
 
-## 刪除色票集  {#deleting-a-swatch-set}
+## 刪除色票集 {#deleting-a-swatch-set}
 
 刪除集時，便會將集本身移到垃圾桶。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
 
