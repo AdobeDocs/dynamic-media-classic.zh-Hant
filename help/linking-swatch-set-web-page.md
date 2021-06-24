@@ -1,14 +1,13 @@
 ---
 title: 將色票集連結至網頁
-description: 瞭解如何將色票集連結至網頁。
+description: 了解如何將色票集連結至網頁。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-feature: Dynamic Media經典，觀眾
+feature: Dynamic Media Classic，檢視器
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -47,7 +46,7 @@ ht-degree: 92%
 
 部署色票集的最常用方式是將一個連結 (透過瀏覽圖示) 放在網頁中。按一下後，連結會啟動可在快顯縮放視窗中顯示色票集的動態頁面 (ASP 或 JSP)。縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5縮放檢視器。
+如需更多詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5縮放檢視器。
 
 ## 複製「色票集」檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -80,5 +79,5 @@ ht-degree: 92%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [發佈](publishing-files.md#publishing_files)
 
