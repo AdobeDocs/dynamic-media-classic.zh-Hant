@@ -1,14 +1,13 @@
 ---
 title: 將縮放檢視器連結至網頁
-description: 瞭解如何將縮放檢視器連結至您的網頁。
+description: 了解如何將縮放檢視器連結至您的網頁。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-feature: Dynamic Media經典，檢視器，縮放
+feature: Dynamic Media Classic，檢視器，縮放
 role: Business Practitioner
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '678'
@@ -18,7 +17,7 @@ ht-degree: 81%
 
 # 將縮放檢視器連結至網頁{#linking-zoom-viewers-to-your-web-pages}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括主影像和相關的縮放目標，以及縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌的程式碼置於您的網頁和應用程式中，請從Dynamic Media經典複製。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括主影像和相關的縮放目標，以及縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放入您的網頁和應用程式中，請從Dynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -42,11 +41,11 @@ ht-degree: 81%
 
       在「檢視器清單」頁面，按一下表格中「動作」欄下方的「**[!UICONTROL 複製 URL]**」。
 
-## 將縮放檢視器的 URL 增加到網頁中  {#adding-zoom-viewer-urls-to-your-web-page}
+## 將縮放檢視器的 URL 增加到網頁中 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
+通常，訪客會先選取「縮放」圖示來縮放網站上的影像（通常圖示會顯示放大鏡的影像）。 選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5 Basic Zoom Viewer。
+如需更多詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[內嵌HTML5基本縮放檢視器。
 
 ## 複製「縮放」檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
