@@ -1,15 +1,14 @@
 ---
 title: 建立混合媒體集
-description: 瞭解如何建立混合媒體集。
+description: 了解如何建立混合媒體集。
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media經典，觀眾，混合媒體集
+feature: Dynamic Media Classic，檢視器，混合媒體集
 role: Business Practitioner
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '625'
@@ -41,7 +40,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >混合媒體集不支援包含下列任何字元之檔案名稱的資產：`( ) { }`。
+   >混合媒體集不支援檔案名稱包含下列任何字元的資產：`( ) { }`。
 
 1. 請執行下列任一動作:
 
@@ -52,13 +51,13 @@ ht-degree: 88%
 1. 在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 按一下「**[!UICONTROL 儲存]**」，選取儲存混合媒體集的檔案夾，輸入混合媒體集名稱，然後按「**[!UICONTROL 儲存]**」。
 
-   若要在「影像集檢視器」中查看您的組合影像集外觀，請按一下「預覽」。****
+   若要查看組合影像集在影像集查看器中的外觀，請按一下「**[!UICONTROL 預覽]**」。
 
 ## 編輯混合媒體集 {#edit-a-mixed-media-set}
 
 您可以編輯混合媒體集。如果您要在混合媒體集內編輯，請將其單獨開啟、編輯，然後儲存。編輯的內容會顯示在混合媒體集中。
 
-無論您編輯已發佈或未發佈的集合，**[!UICONTROL 儲存後發佈(save]**)選項都會以下列方式影響集合和集合成員：
+無論您編輯已發佈或未發佈的集，**[!UICONTROL 儲存後發佈]**&#x200B;選項都會以下列方式影響集和設定成員：
 
 | 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- |--- |--- |--- |
