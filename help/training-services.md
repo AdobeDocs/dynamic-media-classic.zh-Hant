@@ -1,16 +1,15 @@
 ---
 title: Adobe 訓練服務
-description: 進一步瞭解Adobe培訓服務。
+description: 進一步了解Adobe培訓服務。
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
-feature: Dynamic Media經典
+feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '163'
@@ -20,7 +19,7 @@ ht-degree: 52%
 
 # Adobe 訓練服務{#adobe-training-services}
 
-Dynamic Media經典提供視訊訓練、講師指導的研討會和網路課程，以及示範程式等形式的培訓。
+Dynamic Media Classic提供視訊訓練、由講師授課的研討會和網路講座，以及示範等形式的訓練。
 
 ## Adobe 訓練服務
 
@@ -30,12 +29,12 @@ Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓�
 
 ## 演示
 
-觀看Dynamic Media經典檢視器功能的展示。
+觀看Dynamic Media Classic檢視器功能的示範。
 
-請參閱[演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
+請參閱[Demos](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ## 說明的「快速入門」章節
 
-說明系統的「快速入門」區段為剛接觸Dynamic Media經典的使用者提供指示。 它說明程式、導覽、設定、資產管理和建立多媒體的基本概念。
+說明系統的快速入門區段提供Dynamic Media Classic新手使用者的指示。 它說明了方案、導覽、設定、資產管理和構建富媒體的基本知識。
 
 請參閱[快速入門](dmc-platform-overview.md)。
