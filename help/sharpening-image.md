@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic，資產管理
-role: Business Practitioner
+role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '2169'
 ht-degree: 45%
@@ -101,7 +101,7 @@ Dynamic Media Classic也建議將銳利化新增至檢視器預設集，然後�
 
 **銳利化與影像預設集**
 
-您可以合併所有這三種銳利化效果，以取得最終結果。 不過，不建議使用此方法。 Dynamic Media Classic建議您將銳利化效果儲存為影像預設集的一部分。 影像預設集可讓您封裝最常使用的影像修飾元，以在小文字字串中建立動態調整大小的影像。 「影像預設集」包含檔案格式（通常為網頁的JPEG）、像素計數和影像銳利化的值。 您不必使用每個影像修飾元來附加URL以建立特定類型的影像大小，而是建立命名的「影像預設集」，例如「縮圖」。 然後，使用適當的大小、檔案格式和銳利化選項來配置縮圖「影像預設集」。 使用「影像預設集」名稱呼叫影像。 影像預設集會縮短整體URL的長度。 這兩個URL會以銳利化產生相同的350x350 JPEG影像：
+您可以合併所有這三種銳利化效果，以獲得最終結果。 不過，不建議使用此方法。 Dynamic Media Classic建議您將銳利化效果儲存為影像預設集的一部分。 影像預設集可讓您封裝最常使用的影像修飾元，以在小文字字串中建立動態調整大小的影像。 「影像預設集」包含檔案格式（通常為網頁的JPEG）、像素計數和影像銳利化的值。 您不必使用每個影像修飾元來附加URL以建立特定類型的影像大小，而是建立命名的「影像預設集」，例如「縮圖」。 然後，使用適當的大小、檔案格式和銳利化選項來配置縮圖「影像預設集」。 使用「影像預設集」名稱呼叫影像。 影像預設集會縮短整體URL的長度。 這兩個URL會以銳利化產生相同的350x350 JPEG影像：
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
