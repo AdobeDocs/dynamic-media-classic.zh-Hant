@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic，檢視器，影片
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 83%
+source-wordcount: '627'
+ht-degree: 54%
 
 ---
 
 # 增加章節標記視訊{#adding-chapter-markers-to-video}
 
-透過加入章節標記至單一視訊或最適化視訊集中，您可以讓您的長版視訊更易於觀看或導覽。使用者播放視訊時，他們可以按一下視訊時間軸上的章節記號 (也稱為視訊筆畫壓感)，輕鬆導覽到感興趣的點，或立即跳至新內容、示範、教學課程等等。
+透過加入章節標記至單一視訊或最適化視訊集中，您可以讓您的長版視訊更易於觀看或導覽。使用者播放視訊時，可以按一下視訊時間軸上的章節標籤（也稱為視訊清除程式）。 如此可讓使用者輕鬆導覽至其興趣點，或立即跳至新內容、示範、教學課程等。
 
 >[!NOTE]
 >
 >使用的視訊播放程式必須支援使用章節記號。
 
-請參閱[增加或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)，以設定 `Universal_HTML5_Video` 檢視器 (HTML5) 的章節導覽提示點和章節標題彈出式文字。
+如果要配置`Universal_HTML5_Video`查看器(HTML5)的章節導航提示點和章節標題彈出文本，請參閱[添加或編輯視頻查看器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
 另請參閱[增加和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上述範例中，`Chapter 1`是提示識別碼，且為選用。 `00:00:000 --> 01:04:364`的提示時間以00:00:000格式指定章節的開始時間和結束時間。 最後的三個數字為毫秒，如需要可保留為 000。`The bicycle store behind it all`的章節標題是該章節內容的實際說明。 當使用者將滑鼠指標移過視訊時間軸中的視覺提示點時，提示識別名稱、開始提示時間和章節標題全都會出現在視訊播放程式的彈出式視窗中。
+在上述範例中，`Chapter 1`是提示識別碼，且為選用。 `00:00:000 --> 01:04:364`的提示時間以00:00:000格式指定章節的開始時間和結束時間。 最後的三個數字為毫秒，如需要可保留為 000。`The bicycle store behind it all`的章節標題是該章節內容的實際說明。 當指標置於影片時間軸的視覺提示點上方時，提示識別碼、開始提示時間和章節標題都會顯示在影片播放器的快顯視窗中。
 
-因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節檔案名稱的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。
+因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節副檔名為.VTT。 您可以深入瞭解有關 WebVTT 註解標準的資訊。
 
-請參閱[WebVTT:Web視頻文本跟蹤格式](https://dev.w3.org/html5/webvtt/)。
+請參閱[WebVTT:Web視頻文本跟蹤格式](https://w3c.github.io/webvtt/)。
 
-**增加章節標記至視訊**
+**增加章節標記至視訊:**
 
 1. 使用Dynamic Media Classic以外的簡單文字編輯器，建立您的視訊章節檔案。
 
    >[!NOTE]
    >
-   >若要對視訊章節提供非英文語言的全域支援，請注意，根據 WebVTT 標準，您必須針對要支援的每個語言，建立個別的 .vtt 檔案和呼叫。
+   >為全域支援英文以外的語言的視訊章節，WebVTT標準要求您針對要支援的每種語言建立個別的.vtt檔案和呼叫。
 
-1. 將 .vtt 檔案以 UTF8 編碼儲存可避免章節標題文字中的節目字元發生問題。
+1. 以UTF8編碼儲存VTT檔案，以避免章節標題文字的字元轉譯問題。
 
    一般而言，我們建議您用和視訊檔案相同的名稱來命名章節 VTT 檔案，然後在名稱後附加「`chapters`」。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
 
@@ -77,7 +77,7 @@ Cost-efficient access to rapidly evolving technology.
 
    * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**[!UICONTROL 複製 URL]**」。
 
-      以下列語法附加複製的視訊 URL，使其與複製的註解檔案 URL 產生關聯:
+      使用下列語法附加視訊的複製URL，以便將其與複製的URL關聯至註解檔案：
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
