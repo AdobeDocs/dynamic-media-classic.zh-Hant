@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic，檢視器
-role: Business Practitioner
+role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 82%
@@ -26,10 +26,10 @@ ht-degree: 82%
 ## 建立色票集 {#create}
 
 建立集時，「**儲存後發佈**」選項會以下列方式影響集與集成員:
-|在保存前選擇的「保存後發佈」選項？|保存後的集狀態|保存後的整合員狀態|
-|--- |--- |--- |
+|**[!UICONTROL 在保存前選擇的「保存後發佈」選項？|保存後的集狀態|保存後的整合員狀態|
+| — | — | — |
 |是|已發佈|已發佈|
-|否|取消發佈|設定成員將保留其已發佈或取消發佈的狀態。|
+|否|取消發佈|設定成員將保留其已發佈或取消發佈的狀態。|]**
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
