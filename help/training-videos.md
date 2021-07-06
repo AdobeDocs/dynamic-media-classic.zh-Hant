@@ -2,9 +2,9 @@
 title: Dynamic Media Classic訓練影片
 description: Dynamic Media Classic訓練影片，以了解快速入門、動態影像、視訊、媒體入口網站、範本，以及影像製作和轉譯。
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '6547'
 ht-degree: 0%
