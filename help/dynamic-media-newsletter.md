@@ -3,9 +3,9 @@ description: 'Dynamic Media電子報(依Experience League)是每月電子報。 
 keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影片；功能
 title: Dynamic Media電子報
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
