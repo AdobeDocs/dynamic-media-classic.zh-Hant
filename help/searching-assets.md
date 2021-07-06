@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic，資產管理
-role: Business Practitioner
+role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 24%
@@ -119,7 +119,7 @@ ht-degree: 24%
 
       請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
-   * **新增中繼資料欄位**  — 按一下 **[!UICONTROL 「新增面板」]**。在「篩選器」窗格上出現該面板後，按一下其&#x200B;**[!UICONTROL Field]**&#x200B;按鈕，然後在篩選菜單上選擇元資料欄位的名稱。
+   * **新增中繼資料欄位**  — 按一下 **[!UICONTROL 「新增面板」]**。在「篩選器」窗格上出現該面板後，按一下其&#x200B;**[!UICONTROL Field]**&#x200B;按鈕，然後在篩選菜單中選擇元資料欄位的名稱。
 
    * **移除中繼資料欄位**  — 按一下 **[!UICONTROL 在篩選]** 功能表中移除此面板。
 
