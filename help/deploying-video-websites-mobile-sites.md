@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic，檢視器，影片
-role: Business Practitioner
+role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 63%
@@ -187,7 +187,7 @@ Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖�
 
 請參閱[增加或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-請參閱[影像伺服指南](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api)。
+請參閱[影像伺服指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 
