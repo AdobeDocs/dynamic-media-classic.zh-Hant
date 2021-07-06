@@ -9,7 +9,7 @@ discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic，檢視器，混合媒體集
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
+source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 88%
