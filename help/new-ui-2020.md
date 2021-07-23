@@ -1,15 +1,15 @@
 ---
 title: AdobeDynamic Media Classic案頭應用程式
-description: Dynamic Media Classic使用者現在可以體驗使用者介面的完全重新整理。 體驗提供具有寶貴資源連結的更新登入，而且此更新不再仰賴瀏覽器的AdobeFlash技術。
+description: Dynamic Media Classic使用者現在可以體驗使用者介面的完全重新整理。 體驗提供更新的登入，並提供寶貴資源的連結，而且此更新不再仰賴瀏覽器的AdobeFlash技術。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## _上次更新日期： 2020年6月30日_
 
-Dynamic Media classic使用者現在可以存取新的登入體驗，不再仰賴瀏覽器的AdobeFlash技術。
+Dynamic Media Classic使用者現在可以存取新的登入體驗，不再仰賴瀏覽器的AdobeFlash技術。
 
 ### **_2020年12月31日瀏覽器停止支援AdobeFlash時，Dynamic Media Classic(先前的Scene7)是否會受到任何影響？_**
 
@@ -98,7 +98,7 @@ Dynamic Media Classic是功能強大、功能豐富的解決方案，專為增�
 
 ### **_我有興趣進一步了解如何使用AEM Assets升級至Dynamic Media。我可以在哪裡找到更多資訊？_**
 
-若要進一步了解升級至新一代多媒體製作、發佈和動態傳送的優點，請造訪[Dynamic Media升級入口網站](http://exploreadobe.com/dynamic-media-upgrade/)。
+若要進一步了解升級至新一代多媒體製作、發佈和動態傳送的優點，請造訪[Dynamic Media升級入口網站](https://exploreadobe.com/dynamic-media-upgrade/)。
 
 >[!MORELIKETHIS]
 >
