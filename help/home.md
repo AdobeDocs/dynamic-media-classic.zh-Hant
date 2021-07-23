@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 56326029d2792071baa60a82e3deac42e9fd8f66
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 7%
@@ -36,7 +36,7 @@ ht-degree: 7%
 * [指南：銳利化影像的最佳實務指南](/help/assets/s7_sharpening_images.pdf)
 * [指南：Adobe Dynamic Media Classic如何支援SEO](/help/assets/s7_seo.pdf)  — 現在的搜尋引擎可讓您搜尋網站和影像。Dynamic Media Classic支援讓影像搜尋引擎更方便的工作，以便讓更多流量驅動至Dynamic Media Classic使用者網站。 本PDF指南提供背景和實作建議，協助您達成此目標。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [網路研討會：最佳實務使用Dynamic Media Classic提供互動式體驗](http://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 了解如何將內容匯入及匯出Dynamic Media Classic，以及如何設定影像預設集以獲得最佳效能和體驗。您也將學到檢視器預設集與快取配置。
+* [網路研討會：最佳實務使用Dynamic Media Classic提供互動式體驗](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 了解如何將內容匯入及匯出Dynamic Media Classic，以及如何設定影像預設集以獲得最佳效能和體驗。您也將學到檢視器預設集與快取配置。
 * [網路研討會：最大化資產投資報酬率](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解業界最佳實務，在您的網站和行動應用程式間提供多媒體。在此網路研討會中，Adobe提供範例和示範，示範如何跨裝置有效傳送視訊、在行銷活動中提供動態創意內容，以及透過讓任何影像、樣式指南或概覽可購買來增加轉換。
 * [網路研討會：加速您的內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  -Adobe Experience Manager Assets簡介和示範 — 隨選，此為新一代的多媒體管理與傳送平台。了解如何在創意和行銷團隊之間共同作業和共用資產，以簡化資產審核流程。 了解最佳實務，讓您能夠有效管理資產中繼資料，以便輕鬆尋找、使用、重複使用和共用資產，以及如何提供互動式跨管道豐富媒體體驗。
 * [網路研討會：行動最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 使用Dynamic Media Classic，為所有裝置有效提供目標式多媒體。了解如何設計和提供跨行動應用程式和回應式網站有效的影像和視訊檢視體驗。
