@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
+source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Dynamic Media Classic是功能強大、功能豐富的解決方案，專為增�
 * [Adobe部落格貼文](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media電子報封存檔](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-此外，[訂閱Dynamic Media電子報](https://www.adobe.com/subscription/dynamic-media-newsletter.html)以隨時掌握最新新聞、資訊、培訓機會、您可使用的強大功能（如[智慧影像處理](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)）以及補充性稽核計畫。
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 ### **_我有興趣進一步了解如何使用AEM Assets升級至Dynamic Media。我可以在哪裡找到更多資訊？_**
 
