@@ -1,6 +1,6 @@
 ---
-title: 增加章節標記視訊
-description: 了解如何將章節標籤新增至視訊。
+title: 新增章節標籤至視訊
+description: 了解如何在Dynamic Media Classic中將章節標籤新增至視訊。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic，檢視器，影片
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 54%
+source-wordcount: '631'
+ht-degree: 40%
 
 ---
 
-# 增加章節標記視訊{#adding-chapter-markers-to-video}
+# 新增章節標籤至視訊 {#adding-chapter-markers-to-video}
 
-透過加入章節標記至單一視訊或最適化視訊集中，您可以讓您的長版視訊更易於觀看或導覽。使用者播放視訊時，可以按一下視訊時間軸上的章節標籤（也稱為視訊清除程式）。 如此可讓使用者輕鬆導覽至其興趣點，或立即跳至新內容、示範、教學課程等。
+透過加入章節標記至單一視訊或最適化視訊集中，您可以讓您的長版視訊更易於觀看或導覽。當使用者播放視訊時，可以選取視訊時間軸上的章節標籤（也稱為視訊清除程式）。 如此可讓使用者輕鬆導覽至其興趣點，或立即跳至新內容、示範、教學課程等。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 54%
 
 如果要配置`Universal_HTML5_Video`查看器(HTML5)的章節導航提示點和章節標題彈出文本，請參閱[添加或編輯視頻查看器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-另請參閱[增加和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
+另請參閱[新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
 為視訊建立章節清單的方式與建立註解的方式非常類似。也就是說，您會建立 WebVTT 檔案。但請注意，該檔案必須與您可能在使用的任何 WebVTT 註解檔案不同；您不能將註解與章節合併在一個 WebVTT 檔案中。
 
@@ -69,21 +69,21 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 在Dynamic Media Classic中，上傳您的WebVTT章節檔案。
 
-   請參閱[上載檔案](uploading-files.md#uploading_files)。
+   請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 1. 在左側的「資產庫」面板中，導覽至要與已上載的章節檔案相關聯的視訊檔案所在的資產資料夾。
-1. 在「資產瀏覽」面板中，選取單一資產，然後在資產的縮圖影像下方按一下「**[!UICONTROL 預覽]**」>「**[!UICONTROL 檢視器清單]**」。
+1. 在「資產瀏覽」面板中，選取單一視訊資產，然後在資產的縮圖影像下方，選取「預覽&#x200B;**** > **[!UICONTROL 檢視器清單]**」。
 1. 在「檢視器清單」表格中，找到命名為「**Univeral_HTML5_Video**」的 HTML5 檢視器，然後執行下列任一操作:
 
-   * 如欲以彈出式視窗使用視訊檢視器，請按一下名稱最右側的「**[!UICONTROL 複製 URL]**」。
+   * 對於快顯視訊檢視器體驗，請選取名稱最右側的&#x200B;**[!UICONTROL 複製URL]**。
 
       使用下列語法附加視訊的複製URL，以便將其與複製的URL關聯至註解檔案：
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 如欲以內嵌視訊使用檢視器，請按一下名稱最右側的「**[!UICONTROL 內嵌程式碼]**」。
+   * 針對內嵌的視訊檢視器體驗，選取名稱最右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-      在「內嵌程式碼」對話框中，按一下「**[!UICONTROL 複製至剪貼簿]**」。
+      在「內嵌代碼」對話方塊中，選取「**[!UICONTROL 複製到剪貼簿]**」。
 
       對於HTML5 `Universal_HTML5_Video`檢視器，請將複製的內嵌程式碼附加至下列項目：
 
