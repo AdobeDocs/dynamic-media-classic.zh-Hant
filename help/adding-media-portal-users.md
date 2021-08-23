@@ -1,6 +1,6 @@
 ---
-title: 增加和管理 Media Portal 使用者
-description: 了解如何新增和管理Media Portal使用者
+title: 新增和管理Media Portal使用者
+description: 了解如何在Dynamic Media Classic中新增和管理Media Portal使用者。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
@@ -10,52 +10,52 @@ discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic，協作，資產管理
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1018'
+ht-degree: 58%
 
 ---
 
-# 增加和管理 Media Portal 使用者{#adding-and-managing-media-portal-users}
+# 新增和管理Media Portal使用者{#adding-and-managing-media-portal-users}
 
-身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取這個畫面，請按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
+身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。要訪問此螢幕，請導航至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
 
 >[!NOTE]
 >
->增加使用者之前，請先設定用來管理使用者的群組。如果您在增加使用者時，沒有為使用者指定一或多個群組，則 Media Portal 不會讓您增加使用者。如需詳細資訊，請參閱[建立和管理 Media Portal 群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+>增加使用者之前，請先設定用來管理使用者的群組。如果您在增加使用者時，沒有為使用者指定一或多個群組，則 Media Portal 不會讓您增加使用者。如需詳細資訊，請參閱[建立和管理媒體入口網站群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
-## 處理 Media Portal 密碼 {#handling-media-portal-passwords}
+## 管理媒體入口網站密碼 {#handling-media-portal-passwords}
 
 Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎」電子郵件，其中含有您予以註冊時所使用的密碼。管理員可以決定 Media Portal 使用者是否能夠變更此密碼。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL Media Portal 設定]** > **[!UICONTROL 一般設定]**」。
+1. 導覽至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL General Settings]**。
 1. 在「一般設定」頁面上，選取或取消選取&#x200B;**[!UICONTROL 允許 Media Portal 使用者變更密碼]**。
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 選擇&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
->可以變更密碼的 Media Portal 使用者，可以按一下「**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**」，並在「個人設定」畫面上更改密碼，以進行此動作。
+>允許更改密碼的Media Portal用戶可以通過選擇&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**&#x200B;並在Personal Setup螢幕上更改密碼來更改密碼。
 
-## 增加 Media Portal 使用者 {#adding-a-media-portal-user}
+## 新增Media Portal使用者 {#adding-a-media-portal-user}
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 在「使用者管理」頁面上，按一下「**增加**」。
-1. 在「增加使用者」對話框的「使用者資訊」面板中，輸入使用者的「名字」、「姓氏」和「電子郵件地址」，然後按&#x200B;**[!UICONTROL 下一步]**。
+1. 導航至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 在「用戶管理」頁上，選擇&#x200B;**Add**。
+1. 在「添加用戶」對話框的「用戶資訊」面板中，輸入用戶的名字、姓氏和電子郵件地址，然後選擇&#x200B;**[!UICONTROL Next]**。
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
-1. 在「角色」清單中，選取一個 Media Portal 角色，然後按&#x200B;**[!UICONTROL 下一步]**。
+1. 在「角色」清單中，選擇媒體門戶角色，然後選擇&#x200B;**[!UICONTROL Next]**。
 
    請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
 1. 在「存取群組」面板中，選取一或多個群組。
 
-   請參閱[建立和管理 Media Portal 群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+   請參閱[建立和管理媒體入口群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
-1. (選擇性) 按一下「**[!UICONTROL 電子郵件設定]**」可選擇與預設設定不同的電子郵件設定。
+1. （可選）選擇&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;以選擇與預設設定不同的電子郵件設定。
 
    請參閱[設定 Media Portal 使用者的「歡迎」電子郵件](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)。
 
-1. 按一下「**[!UICONTROL 增加使用者]**」。
+1. 選擇&#x200B;**[!UICONTROL 添加用戶]**。
 
 增加使用者之後，Media Portal 會將「歡迎」電子郵件傳送給該使用者。該訊息含有臨時密碼與 Media Portal URL。
 
@@ -85,12 +85,11 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 | 大草原 | 凱特 | `prairiek@company.com` | 歡迎 | Media Portal 管理員 | PortalCo/IT,PortalCo/Admin |
 | 里克 | 布魯格 | `rickb@myco.com` | 歡迎 | Media Portal 使用者 | PortalCo/MktgGroup, PortalCo/test |
 
-
 ### 上載 CSV 檔案 {#uploading-the-csv-file}
 
 1. 開啟「使用者管理設定」畫面。
-1. 按一下「**[!UICONTROL 上載使用者清單]**」。
-1. 在「選取要上載的檔案」對話框中選取 CSV 檔案，然後按一下「**[!UICONTROL 開啟]**」。
+1. 選擇&#x200B;**[!UICONTROL 上載用戶清單]**。
+1. 在選擇要上載的檔案對話框中，選擇CSV檔案，然後選擇&#x200B;**[!UICONTROL 開啟]**。
 
 清單中的每個使用者都會自動增加到指定的群組中。系統會將「歡迎」電子郵件傳送給每個使用者。
 
@@ -102,16 +101,16 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 在「**[!UICONTROL 依使用者角色]**」下拉式清單中，選擇 Media Portal 使用者角色的名稱，然後按一下「**[!UICONTROL 重新整理]**」，即可顯示某一類 Media Portal 使用者的名稱。
-1. 按一下「**[!UICONTROL 彈出式清單]**」，即可開啟彈出式視窗。複製並貼上此清單。
+1. 導航至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 在&#x200B;**[!UICONTROL 按用戶角色]**&#x200B;下拉清單中，選擇Media Portal用戶角色的名稱，然後選擇&#x200B;**[!UICONTROL 刷新]**&#x200B;以顯示一個類Media Portal用戶的名稱。
+1. 選擇&#x200B;**[!UICONTROL 彈出清單]**。 複製並貼上此清單。
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件，或通知Dynamic Media Classic不要傳送。
 
-1. 選擇「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 在「用戶管理設定」螢幕中，按一下「**[!UICONTROL 電子郵件設定]**」。
+1. 導航至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 在「用戶管理設定」螢幕中，選擇&#x200B;**[!UICONTROL 電子郵件設定]**。
 1. 在「電子郵件設定」對話框中，指定下列任一設定:
 
    * **[!UICONTROL 傳送電子郵件]**  — 如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
@@ -132,6 +131,6 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 * **[!UICONTROL 編輯使用者資訊]**  — 輸入使用者的最新資訊。
 
-* **[!UICONTROL 建立使用者定義欄位]**  — 建立自訂、使用者定義的中繼資料欄位，以協助組織Dynamic Media Classic中的資產。這些欄位也可視需要啟用或停用。
+* **[!UICONTROL 建立使用者定義欄位]**  — 建立自訂、使用者定義的中繼資料欄位，協助您在Dynamic Media Classic中整理資產。這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
