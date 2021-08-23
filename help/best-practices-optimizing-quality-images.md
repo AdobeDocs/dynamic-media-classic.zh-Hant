@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic，資產管理
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 55%
@@ -47,7 +47,7 @@ Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最�
 
 影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以深入了解銳利化和遮色片銳利化在Dynamic Media Classic中的運作方式：
 
-最佳實務白皮書[在AdobeDynamic Media Classic和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
+最佳作法白皮書[在AdobeDynamic Media Classic和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -69,7 +69,7 @@ Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最�
 
          此參數可決定銳化像素與周圍區域的差異程度，之後才會被視為邊緣像素，濾鏡會銳化這些像素。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
 
-         如需如何設定這三個參數的詳細資訊，包括搭配篩選器使用的最佳實務，請參閱[在Adobe Scene7 Publishing System和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
+         有關如何設定這三個參數的詳細資訊，包括如何與篩選器搭配使用的最佳實務，請參閱[在Dynamic Media ClassicAdobe和影像伺服器](/help/assets/s7_sharpening_images.pdf)上銳化影像。
 
       * Dynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
