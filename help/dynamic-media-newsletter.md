@@ -5,7 +5,7 @@ title: Dynamic Media電子報封存
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
+source-git-commit: 076b387445e5a05f412b6c45d0a2b189186abc7e
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -53,10 +53,6 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
    * 從2020線上Adobe Summit檢視Dynamic Media課程。
    * 進一步了解Adobe的免費Dynamic Media Classic稽核。
    * 客戶成功服務高級計畫經理John Monroe。
-
-<!--     >[!IMPORTANT]
-    >
-    >Adobe wants to make sure they are only sending the Dynamic Media newsletter to people who want to receive it. To continue receiving the newsletter after this issue, sign up for it [here](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&reserved=0). -->
 
 * **[2020年2月第2期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
