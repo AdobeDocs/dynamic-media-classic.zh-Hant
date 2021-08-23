@@ -1,6 +1,6 @@
 ---
 title: 自動產生影像集
-description: '了解如何自動產生影像集。 '
+description: '了解如何在Dynamic Media Classic中自動產生影像集。 '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic，檢視器，影像集
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '107'
+ht-degree: 63%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 您可以單獨執行自動產生集的工作，而不需要仰賴上載。
 
-**自動產生影像集**
+**自動產生影像集:**
 
-1. 按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 產生集]**」。
+1. 前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 產生集]**。
 1. 在「產生集」對話框中，指定工作名稱。
 
    根據預設，系統會為工作命名，指出該工作屬於產生的工作以及該工作產生的時間。
 
 1. 選取要套用的預設集。
-1. 按一下「**[!UICONTROL 目的地檔案夾]**」，然後指定您要使用的檔案夾。
-1. 按一下&#x200B;**[!UICONTROL 提交]**。
+1. 選擇&#x200B;**[!UICONTROL 目標資料夾]**，然後指定要使用的資料夾。
+1. 選擇&#x200B;**[!UICONTROL Submit]**。
