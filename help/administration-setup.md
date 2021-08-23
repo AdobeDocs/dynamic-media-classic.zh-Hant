@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 41%
+source-wordcount: '1948'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 「管理設定」畫面可用於管理Dynamic Media Classic使用者。 使用這些畫面，讓使用者能在Dynamic Media Classic中工作，並透過電子郵件與使用者通訊。
 
-1. 要訪問「管理設定」選項，請按一下「**設定** > **個人設定** > **管理設定**」。
+1. 要訪問「管理設定」選項，請轉至&#x200B;**Setup** > **Personal Setup** > **Administration Setup**。
 
 ## 使用者管理 {#user-administration}
 
@@ -40,11 +40,11 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 新增使用者後，Dynamic Media Classic會傳送歡迎電子郵件給使用者。 訊息包含密碼和Dynamic Media Classic URL。
 
-### 增加使用者或管理員 {#adding-a-user-or-administrator}
+### 添加用戶或管理員 {#adding-a-user-or-administrator}
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 按一下「**[!UICONTROL 增加]**」。
-1. 輸入要添加的用戶或管理員的姓名和電子郵件地址，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 選擇&#x200B;**[!UICONTROL 添加]**。
+1. 輸入要添加的用戶或管理員的姓名和電子郵件地址，然後選擇&#x200B;**[!UICONTROL Next]**。
 
    >[!NOTE]
    >
@@ -55,45 +55,45 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
    請參閱[Dynamic Media Classic使用者角色和權限](administration-setup.md#user_administration)。
 
 1. 若要新增使用者至公司，請選取公司名稱。
-1. 如果要將使用者新增至群組（如果您要新增Media Portal使用者或貢獻者），請按一下&#x200B;**[!UICONTROL Next]**&#x200B;並新增使用者。
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以完成用戶設定。
+1. 如果要將用戶添加到組（如果要添加Media Portal用戶或參與者），請選擇&#x200B;**[!UICONTROL Next]**&#x200B;並添加該用戶。
+1. 選擇&#x200B;**[!UICONTROL Save]**&#x200B;以完成用戶設定。
 
-   系統會在儲存之後出現提示訊息，問您是否要將使用者增加至其他公司。如果您想要將使用者新增至公司，請按一下「**[!UICONTROL 新增]**」。
+   系統會在儲存之後出現提示訊息，問您是否要將使用者增加至其他公司。如果要將使用者新增至公司，請選取「**[!UICONTROL 新增]**」。
 
    所有新用戶都被隨機生成密碼；使用者第一次登入Dynamic Media Classic案頭應用程式時，必須變更密碼。
 
    您增加新使用者後，新的使用者便會收到「歡迎」電子郵件。此電子郵件提供暫時密碼，並說明如何登入Dynamic Media Classic。
 
-   如果使用者未收到歡迎電子郵件，請讓他們前往Dynamic Media Classic登入頁面(https://s7sps1.scene7.com)，然後按一下忘記我的密碼。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
+   如果使用者未收到歡迎電子郵件，請讓他們前往Dynamic Media Classic登入頁面(https://s7sps1.scene7.com)，然後選取「**[!UICONTROL 忘記我的密碼]**」。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
 
-   新增Media Portal使用者時，您也可以前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**，然後按一下&#x200B;**[!UICONTROL Upload User List]**&#x200B;並選取不超過500個使用者的.csv檔案。
+   新增Media Portal使用者時，您也可以前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**，然後選取&#x200B;**[!UICONTROL Upload User List]**&#x200B;並選取不超過500個使用者的.csv檔案。
 
 ### 刪除使用者 {#deleting-a-user}
 
 您可以將使用者設為無效，以從Dynamic Media Classic中刪除使用者。 無效的使用者會從系統和所有帳戶中移除。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 從清單中選取使用者，然後按一下「**[!UICONTROL 編輯]**」。
+1. 轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 從清單中選擇用戶，然後選擇&#x200B;**[!UICONTROL Edit]**。
 1. 取消選取「有效」。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 選擇&#x200B;**[!UICONTROL 保存]**。
 
 ### 啟用或停用使用者 {#activating-or-deactivating-users}
 
 已停用的使用者將不再擁有進入「選取要存取的帳戶」選單上方列出之帳戶的權限。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
+1. 轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
 1. 在用戶清單中，選擇或取消選擇用戶名旁的&#x200B;**[!UICONTROL 活動]**&#x200B;選項。
 
 ### 編輯使用者資訊 {#editing-user-information}
 
 您可以編輯的使用者資訊視您的管理員角色，以及您要編輯其資訊之使用者獲得指派的角色而定。顏色較暗 (不可用) 的選項無法編輯。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**」。
-1. 選取使用者，然後按一下「**[!UICONTROL 編輯]**」。
-1. 在表中選擇顯示您嘗試修改權限或訪問的公司的條目，然後按一下&#x200B;**[!UICONTROL 管理公司]**。
+1. 轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
+1. 從清單中選擇用戶，然後選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在表中選擇顯示您嘗試修改權限或訪問的公司的條目，然後選擇&#x200B;**[!UICONTROL 管理公司]**。
 1. 選取使用者角色。
-1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請按一下「**[!UICONTROL Next]**」並編輯群組成員資格。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 如果要更改用戶的組成員資格（如果正在編輯或添加Media Portal用戶或參與者），請選擇&#x200B;**[!UICONTROL Next]**&#x200B;並編輯組成員資格。
+1. 選擇&#x200B;**[!UICONTROL 保存]**。
 
 ### 篩選和排序使用者清單 {#filtering-and-sorting-the-user-list}
 
@@ -109,7 +109,7 @@ Dynamic Media Classic支援數個使用者角色。 這些角色可存取為Dyna
 
 * **篩除無效的使用者**  — 取消選取「 **[!UICONTROL 包含無效]**」。搜尋結果只會顯示系統中的使用者。已從系統和您所管理的帳戶中刪除無效的使用者。
 
-* **依欄標題排序**  — 按一下標題，依使用者的狀態、依名字、姓氏或電子郵件的字母順序、依使用者角色或依有效/無效狀態來排序所有使用者。
+* **依欄標題排序**  — 選取標題，依使用者的狀態、依名字、姓氏或電子郵件的字母順序、依使用者角色或依有效/無效狀態來排序所有使用者。
 
 如果您有多位使用者，則可以選取「清單大小上限」選單並選擇數量，來限制清單大小。
 
@@ -122,18 +122,18 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
    When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
-1. Click **Manage Organizations**.
-1. Click **Link Account** or **Get Access**.
+1. Select **Manage Organizations**.
+1. Select **Link Account** or **Get Access**.
 1. Select **Experience Manager**, and then type your credentials.
 
    Your credentials include your IPS company region, email address, and password.
 
-1. Click **Link**.
+1. Select **Link**.
 1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -141,11 +141,11 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
       Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## 頻寬與存放區 {#bandwidth-storage}
+## 頻寬和儲存 {#bandwidth-storage}
 
 Dynamic Media Classic管理員可為所管理的公司產生頻寬、儲存和其他類型的報表。 「頻寬和儲存」頁上提供了這些報告。
 
-要開啟此頁，請按一下「**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**」。 展開&#x200B;**[!UICONTROL 管理設定]**，然後按一下&#x200B;**[!UICONTROL 頻寬和儲存]**。
+要開啟此頁，請轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**。 展開&#x200B;**[!UICONTROL 管理設定]**，然後選擇&#x200B;**[!UICONTROL 頻寬和儲存]**。
 
 ### 報告類型 {#types-of-reports}
 
@@ -178,13 +178,13 @@ Dynamic Media Classic管理員可為所管理的公司產生頻寬、儲存和�
 >
 >「視訊串流」報告僅適用於串流視訊。它不會追蹤漸進式視訊的檢視。
 
-### 產生報告 {#generating-a-report}
+### 產生報表 {#generating-a-report}
 
 若要產生頻寬、存放區、影像內容、網域、視訊串流或視訊內容報告:
 
-1. 選擇&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**。
-1. 展開「管理設定」，然後按一下「**[!UICONTROL 頻寬和儲存]**」。
-1. 按一下索引標籤：**[!UICONTROL 頻寬]**、**[!UICONTROL 儲存]**、**[!UICONTROL 影像內容]**、**[!UICONTROL 域]**、**[!UICONTROL 視頻流]**&#x200B;或&#x200B;**[!UICONTROL 視頻內容]**。
+1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**。
+1. 展開「管理設定」，然後選擇「**[!UICONTROL 頻寬和儲存」]**。
+1. 選擇頁簽：**[!UICONTROL 頻寬]**、**[!UICONTROL 儲存]**、**[!UICONTROL 影像內容]**、**[!UICONTROL 域]**、**[!UICONTROL 視頻流]**&#x200B;或&#x200B;**[!UICONTROL 視頻內容]**。
 
    請參閱[「報告類型」](administration-setup.md#types_of_reports)。
 
@@ -192,41 +192,41 @@ Dynamic Media Classic管理員可為所管理的公司產生頻寬、儲存和�
 
 在「頻寬和存放區」頁面產生報告後，您可以選擇檢視資訊選項。您可以選擇資訊呈現方式、在圖表或資料格線中檢視資訊，以及指定擷取資訊的時段。在「資料」視圖中，您也可以排序資訊和重新排序欄。
 
-* **在圖表或資料網格中查看資料**  — 按一下 **[!UICONTROL 圖表]** 查看圖表中的資料；按一 **[!UICONTROL 下資]** 料格線中的資料檢視資料。
+* **在圖表或資料網格中查看資料**  — 選擇 **[!UICONTROL 圖表]** 查看圖表中的視圖資料；選 **[!UICONTROL 擇資]** 料網格中的「資料查看」視圖資料。
 
-* **選擇報表簡報類型**  — 在「報表類型」功能表中，按一下「摘 **[!UICONTROL 要]**」、「 **[!UICONTROL 每日]**」或「 **** 月」，以摘要形式、日或月來整理資料。並非所有報告都提供此選項。
+* **選擇報表呈現類型**  — 在「報表類型」功能表中，選取「摘 **[!UICONTROL 要]**」、「 **[!UICONTROL 每日]**」或「 **** 月」，以摘要形式、依日或依月組織資料。並非所有報告都提供此選項。
 
-* **指定時段**  — 選擇選項以定義報表的時段，然後在定 **** 義時段後按一下更新：
+* **指定時段**  — 選擇選項以定義報表的時段，然後在定 **** 義時段後選擇更新：
 
 * **預先定義時段**  — 在「預先定義報表」功能表中，選擇一個選項。例如，選擇「上月」可擷取前一個月的資料。
 
-* **自訂時段**  — 在預先定義的報表功能表上，按一下 **[!UICONTROL 自訂]**。然後在&#x200B;**[!UICONTROL 開始月]**（或&#x200B;**[!UICONTROL 開始日期]**）菜單上選擇日期，在月數（或天數）菜單上選擇日期。 對於「網域」和「視訊內容報告」，您可以選擇特定開始和結束日期，以擷取報告資訊。
+* **自訂時段**  — 在預先定義的報表功能表中，選取自 **[!UICONTROL 訂]**。然後在&#x200B;**[!UICONTROL 開始月]**（或&#x200B;**[!UICONTROL 開始日期]**）菜單上選擇日期，在月數（或天數）菜單上選擇日期。 對於「網域」和「視訊內容報告」，您可以選擇特定開始和結束日期，以擷取報告資訊。
 
-* **排序資料（僅限資料檢視）**  — 若要排序欄的資訊，請按一下欄的標題。再按一下就會以遞減的順序排序。
+* **排序資料（僅限資料檢視）**  — 若要排序欄的資訊，請選取欄的標題。再次選取，以降序排序。
 
-* **重新排列列（僅限資料視圖）**  — 若要將列移動到資料網格上的不同位置，請拖動其標題。
+* **重新排列列（僅限資料視圖）**  — 要將列移動到資料網格上的不同位置，請拖動其標題。
 
-### 匯出和列印報告 {#exporting-and-printing-reports}
+### 匯出和列印報表 {#exporting-and-printing-reports}
 
 產生報告後，您便可以匯出其資料，以用於試算表和其它應用程式。您也可以列印報告。
 
 * **匯出報表資料**  — 在「資料」檢視中，視需要排序和排列資料。然後開啟&#x200B;**[!UICONTROL Export]**&#x200B;菜單並選擇格式：**[!UICONTROL Tab分隔]**、**[!UICONTROL 逗號分隔]**&#x200B;或&#x200B;**[!UICONTROL 格式化的HTML]**。 資料會依您選擇的格式複製到剪貼簿。您現在可以將資料貼上試算表或應用程式。
 
-* **列印報表**  — 按一 **[!UICONTROL 下列印]**，在列印對話方塊中選擇您要的選項，然後按一下 **[!UICONTROL 確定]**。
+* **列印報表**  — 選取 **[!UICONTROL 列印]**，在列印對話方塊中選擇您要的選項，然後選取 **[!UICONTROL 確定]**。
 
 ## 影像錯誤 {#image-errors}
 
 Dynamic Media Classic管理員可產生影像錯誤報表。 「影像錯誤」報告會針對您目前登入的公司，提供過去 24 小時內 20 個最常見的影像錯誤清單。若要產生「影像錯誤」報表，請執行下列動作：
 
-1. 按一下「**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**」。
-1. 展開「管理設定」，然後按一下「**[!UICONTROL 影像錯誤]**」。
+1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**。
+1. 展開「管理設定」，然後選擇「**[!UICONTROL 影像錯誤]**」。
 1. (選擇性) 執行下列任一項作業:
 
-   * 要按標題資訊排序錯誤，請按一下標題。 根據預設，錯誤會按照出現次數由最高至最低排序。
+   * 要按標題資訊排序錯誤，請選擇標題。 根據預設，錯誤會按照出現次數由最高至最低排序。
    * 將游標移至錯誤的「回應」欄位，即可查看特定錯誤訊息。
    * 若要查看影像或反向連結網頁的連結，請將游標移至URL欄位或反向連結欄位上。
-   * 若要將連結複製到實際影像，請按一下「**[!UICONTROL URL複製URL]**」。 您可以在瀏覽器視窗中貼上此連結，以前往影像並調查錯誤。
-   * 若要將連結複製到反向連結網頁，請按一下「**[!UICONTROL 反向連結複製URL]**」。
+   * 若要將連結複製到實際影像，請選取「**[!UICONTROL URL複製URL]**」。 您可以在瀏覽器視窗中貼上此連結，以前往影像並調查錯誤。
+   * 若要將連結複製到反向連結網頁，請選取「**[!UICONTROL 反向連結複製URL]**」。
 
 顯示的錯誤都屬於您目前所登入的公司。每個錯誤都包含下列資訊:
 
