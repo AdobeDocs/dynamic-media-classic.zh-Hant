@@ -1,25 +1,25 @@
 ---
-title: 在「詳細資訊」檢視中進行作業
-description: 了解如何在「詳細資訊」檢視中運作。
+title: 在詳細資訊視圖中工作
+description: 了解如何在Dynamic Media Classic的「詳細檢視」中運作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 65%
+ht-degree: 24%
 
 ---
 
-# 在「詳細資訊」檢視中進行作業{#working-in-detail-view}
+# 在詳細資訊視圖中工作{#working-in-detail-view}
 
-只要在詳細檢視中開啟資產，即可處理並深入瞭解該資產。在詳細檢視中，您會看到資產大小、屬性、衍生物及中繼資料。您也會看到資產的發佈狀況與發佈時間，並取得已發佈資產的 URL。依據資產類型而定，您可以使用不同大小預覽資產、放大資產，以及執行銳利化、裁切及其它格式化作業。
+您可以在「詳細資訊檢視」中開啟資產，以使用資產並了解資產。 在「詳細資訊檢視」中，您會看到資產大小、屬性、衍生項目和中繼資料。 您也會看到資產的發佈狀況與發佈時間，並取得已發佈資產的 URL。依據資產類型而定，您可以使用不同大小預覽資產、放大資產，以及執行銳利化、裁切及其它格式化作業。
 
 <!-- 
 
@@ -31,53 +31,53 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![詳細](/help/assets/image_0.img.png)
-*資訊視圖詳細資訊視圖，左側的「資產庫」面板隱藏在視圖中。*
+![Detail ](/help/assets/image_0.img.png)
+*ViewDetail視圖，左側的「資產庫」面板隱藏在視圖中。*
 
 >[!NOTE]
 >
->若要開啟儲存資產的檔案夾，您可以按一下「資訊」面板上方的檔案夾路徑。
+>若要開啟儲存資產的資料夾，您可以在「資訊」面板頂端選取資料夾路徑。
 
-## 在「詳細資訊」檢視中開啟資產 {#open-an-asset-in-detail-view}
+## 在「詳細資訊檢視」中開啟資產 {#open-an-asset-in-detail-view}
 
-若要仔細檢查、預覽或處理資產，可在詳細檢視中顯示該資產。
+若要仔細檢查、預覽或處理資產，您可以在「詳細資訊檢視」中顯示資產。
 
 1. 在「瀏覽」面板中，執行下列任一操作：
 
-   * 選取資產。在Dynamic Media Classic的右上角附近，按一下&#x200B;**[!UICONTROL Detail View]**&#x200B;圖示。
+   * 選取資產。在Dynamic Media Classic的右上角附近，選取&#x200B;**[!UICONTROL Detail View]**&#x200B;圖示。
    * 在這個資產按兩下。
-   * 選取資產，然後按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]**」。
+   * 選取資產，然後前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]**。
 
 >[!NOTE]
 >
->在詳細檢視中，選取「前一個資產」或「下一個資產」按鈕，即可逐頁檢視同一檔案夾中的資產。這些按鈕位於「詳細資訊」視圖的右上角。
+>您可以在「詳細資料檢視」中選取&#x200B;**[!UICONTROL 上一個資產]**&#x200B;或&#x200B;**[!UICONTROL 下一個資產]**，從資產頁面到同一個資料夾中的資產。 這些按鈕位於「詳細資訊視圖」的右上角。
 
-## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
+## 在詳細資訊檢視中取得資訊 {#getting-information-in-detail-view}
 
-詳細檢視可提供資產或檔案的相關資訊。它會顯示項目的下列資訊：儲存該項目的資料夾、其檔案名稱、項目上傳至Dynamic Media Classic的日期，及其發佈記錄。 您也可以在詳細檢視中檢視和編輯中繼資料，以及針對資產增加關鍵字。
+詳細資訊檢視提供資產或檔案的相關資訊。 它會顯示項目的下列資訊：儲存該項目的資料夾、其檔案名稱、項目上傳至Dynamic Media Classic的日期，及其發佈記錄。 您也可以在「詳細資料檢視」中檢視及編輯中繼資料，以及新增資產的關鍵字。
 
-您可以在詳細檢視中取得資產 URL；不過，除非您發佈資產，否則 URL 無法發生作用。對於影像，詳細檢視也提供建置與衍生之資產及中繼資料的清單，例如縮放目標與影像集。
+您可以在「詳細資料檢視」中取得資產URL;不過，在您發佈資產之前，URL不會啟用。 對於影像，「詳細資訊檢視」也提供組建和衍生資產與中繼資料的清單，例如縮放目標與影像集。
 
-## 在「詳細資訊」檢視中使用資產 {#working-with-assets-in-detail-view}
+## 在「詳細資訊檢視」中使用資產 {#working-with-assets-in-detail-view}
 
-詳細檢視提供的工具，可用來處理您開啟的資產。可供使用的工具取決於您使用的資產類型，但是詳細檢視一定會提供下列功能:
+詳細資料檢視選件工具，可用於使用您開啟的資產。 可用的工具取決於您使用的資產類型，但「詳細資訊檢視」一律提供下列功能：
 
-* **要發佈的項目**  — 按一下名 **** 稱左側的「發佈」，或按一下「檔案>發 **[!UICONTROL 布]** 者檔案 **[!UICONTROL >取消發佈」]**。
+* **要發佈的項目**  — 選取名 **** 稱左側的「發佈」，或前往 **[!UICONTROL 「檔案]**  >  **** 發佈 **[!UICONTROL 者檔案]**  >  **[!UICONTROL 取消發佈」]**。
 
 * **重新命名資產**  — 選取名稱並輸入新名稱。
 
-* **編輯和新增中繼資料**  — 選取「中繼資料」面板，並視需要變更。請參閱[檢視、增加和匯出中繼資料](/help/viewing-adding-exporting-metadata.md)。
+* **編輯和新增中繼資料**  — 選取「中繼資料」面板，並視需要變更。請參閱[檢視、新增和匯出中繼資料](/help/viewing-adding-exporting-metadata.md)。
 
 * **編輯和新增關鍵字**  — 選取「關鍵字」，並視需要新增或移除關鍵字。請參閱[增加或編輯關鍵字](/help/viewing-adding-exporting-metadata.md)。
 
-* **刪除資產**  — 按一 **[!UICONTROL 下「檔案]**  >  **[!UICONTROL 刪除」]**。
+* **刪除資產**  — 前往 **[!UICONTROL 檔案]**  >  **[!UICONTROL 刪除]**。
 
-對於性質各異的檔案 (例如影像、影像集及字體)，您可以在詳細檢視中檢視發佈和編輯操作記錄，以及檢查工作詳細資訊。
+對於離散檔案（例如影像、影像集和字型），您可以在「詳細資訊視圖」中查看發佈和編輯歷史記錄，並檢查任務詳細資訊。
 
-此表格在「詳細資料」檢視中顯示哪些其他選項可搭配不同資產類型使用。
+此表格顯示「詳細資料檢視」中，不同資產類型可使用的其他選項。
 
 | 資產類型 | 編輯/調整 | 預覽 |
-|--- |--- |--- |
+| --- | --- | --- |
 | 影像 | 增加影像地圖<br>新增縮放目<br><br><br>標裁切銳利化建立調整後的檢視 | 是；縮放與影像影像預設集 |
 | 封包與視窗涵蓋範圍影像 | 否 | 縮圖 |
 | eCatalog | 編輯 | 是<br>資訊面板也可用 |
@@ -99,5 +99,5 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!MORELIKETHIS]
 >
->* [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 
