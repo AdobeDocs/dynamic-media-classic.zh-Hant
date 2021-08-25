@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic，資產管理
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 43%
 1. 要裁切影像，請選擇其滾動&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL Crop]**，或在「瀏覽面板」的「詳細資訊」視圖中顯示該影像，然後選擇&#x200B;**[!UICONTROL Crop]**&#x200B;按鈕。
 1. 在「裁切編輯器」頁面上，執行下列其中一項操作：
 
-   * 要修剪顏色像素，請轉至&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 此時會顯示「依照色彩自動裁切」對話框。選擇&#x200B;**[!UICONTROL Corner]**&#x200B;菜單，然後選擇背景顏色要裁切掉的角。 然後輸入從0到1的&#x200B;**[!UICONTROL 允差]**&#x200B;設定。 設定為 0 只會在完全符合您選取的影像邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。選擇&#x200B;**[!UICONTROL 裁切]**。
-   * 要修剪透明像素，請轉至&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Transparent]**。 此時會顯示「依照透明度自動裁切」對話框。輸入容許度設定 (從 0 到 1)。0設定只會在像素為透明時裁切像素。 數值越接近 1，允許的透明度就越高。選擇&#x200B;**[!UICONTROL 裁切]**。
+   * 要修剪顏色像素，請轉至&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 在&#x200B;**[!UICONTROL 自動按顏色裁切]**&#x200B;對話框中，選擇&#x200B;**[!UICONTROL 角]**&#x200B;菜單，然後選擇背景顏色要裁切掉的角。 然後輸入從0到1的&#x200B;**[!UICONTROL 允差]**&#x200B;設定。 設定為 0 只會在完全符合您選取的影像邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。選擇&#x200B;**[!UICONTROL 裁切]**。
+   * 要修剪透明像素，請轉至&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Transparent]**。 在&#x200B;**[!UICONTROL 透明度自動裁切]**&#x200B;對話框中，輸入從0到1的公差設定。 0設定只會在像素為透明時裁切像素。 數值越接近 1，允許的透明度就越高。選擇&#x200B;**[!UICONTROL 裁切]**。
 
 1. 選擇&#x200B;**[!UICONTROL 保存]**。
 
