@@ -1,16 +1,17 @@
 ---
+title: Dynamic Media電子報封存
 description: '依Experience League封存的Dynamic Media電子報是每月電子報。 它旨在協助您快速熟悉Dynamic Media和Dynamic Media Classic，以便立即實現價值。 封存的電子報包含寶貴的知識建設資源，此一站式電子報現已停用。 封存的電子報包含作法影片和解決方案概述。 也提供影像預設集、檢視器預設集和視訊設定檔等主要功能的簡介。 '
 keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影片；功能
-title: Dynamic Media電子報封存
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Dynamic Media電子報標誌](/help/assets/dynamic-media-newsletter-logo.png)
 
