@@ -1,6 +1,6 @@
 ---
-title: 建立 eCatalog 影像地圖
-description: 了解如何建立eCatalog影像地圖。
+title: 建立eCatalog影像映射
+description: 了解如何在Dynamic Media Classic中建立eCatalog影像地圖。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic，檢視器，eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
-# 建立 eCatalog 影像地圖{#creating-ecatalog-image-maps}
+# 建立eCatalog影像映射{#creating-ecatalog-image-maps}
 
 「影像地圖」是eCatalog頁面上的一個區域，可以用滑鼠滾動，或選取以觸發各種動作。 例如，當您將指標移至影像地圖上時，您會看到項目的變換文字說明。 選取「影像地圖」時，會起始另一個動作。 例如，您可以開啟一個網頁，以便檢視者瞭解更多關於某項目的資訊或購買項目，或者您可以啟動視訊查看使用中的項目。
 
-## 繪製 eCatalog 影像地圖 {#drawing-ecatalog-image-maps}
+## 繪製eCatalog影像映射 {#drawing-ecatalog-image-maps}
 
 如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。建立影像地圖時，其名稱會輸入影像地圖清單中。
 
@@ -41,19 +41,19 @@ ht-degree: 46%
 
    要使輸入URL（Href模板）更容易，請選擇&#x200B;**[!UICONTROL Edit]**&#x200B;並輸入模板。
 
-請參閱[使用範本來輸入 JavaScript 與 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
+請參閱[使用範本輸入JavaScript和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
 1. （可選）在「顯示」下拉清單中，選擇&#x200B;**[!UICONTROL 滾動文本]**，然後輸入您希望用戶在影像映射上移動指針時在螢幕上看到的文本。
 1. （可選）在「顯示」下拉清單中，選擇「**[!UICONTROL 其他操作]**」，並輸入屬性，以在用戶將指針移到影像映射上時觸發模糊或焦點操作。
 
-   請參閱[為影像地圖定義其它動作](creating-image-maps.md#defining_other_actions_for_image_maps)。
+   請參閱[定義影像映射的其他操作](creating-image-maps.md#defining_other_actions_for_image_maps)。
 
 1. 選擇&#x200B;**[!UICONTROL 保存]**。
 1. （可選）選擇&#x200B;**[!UICONTROL 預覽]**&#x200B;以使用預設的eCatalog查看器預設集查看eCatalog。
 
 若要刪除影像地圖，請在「影像地圖」清單中選取其名稱，然後選取&#x200B;**[!UICONTROL Delete]**。 若要從頁面暫時停用「影像地圖」而不刪除「影像地圖」，請在「影像地圖」清單面板中，取消選取該「影像地圖」的「開啟」選項。
 
-## 在 eCatalog 中內嵌豐富媒體 {#embedding-rich-media-in-an-ecatalog}
+## 將多媒體內嵌在eCatalog中 {#embedding-rich-media-in-an-ecatalog}
 
 您可以使用「eCatalog 豐富媒體」選項，將 MP4 格式的視訊或迴轉集增加到您已在 eCatalog 增加的「影像地圖」。當使用者選取eCatalog中的「影像對應」區域時，會顯示相關的回轉集或視訊。 如果您希望可讓客戶查看使用中的項目，或從不同角度和視角查看項目，此功能特別實用。
 
@@ -63,7 +63,7 @@ ht-degree: 46%
 
 1. 繪製 eCatalog 影像地圖
 
-   請參閱[繪製 eCatalog 影像地圖](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
+   請參閱[繪製eCatalog影像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
 
 1. 在「顯示」下拉清單中，選擇&#x200B;**[!UICONTROL 富媒體]**。
 1. 在左側的「增加資產」面板中，導覽至含有您要內嵌之迴轉集或視訊 (MP4 格式) 資產的資料夾。
@@ -77,11 +77,11 @@ ht-degree: 46%
 
 * **調整位置**  — 選取「平移」工具，並將指標移至地圖邊框附近，但不移至邊框上方。指標顯示為四向箭頭時，請拖曳整個影像地圖至新位置。
 
-   請參閱[調整影像地圖的位置、形狀及大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
+   請參閱[調整影像映射的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **更改形狀和大小**  — 要調整矩形「影像映射」的大小，請選擇「平移」工具。接著，將指標移動至邊框或角上，當您看到雙向箭頭圖示時，請加以拖曳。若要調整多邊形影像地圖的大小，請拖曳方形的選取範圍控制點。要建立選取控制滑塊，請選取「影像映射」的邊框並拖動。
+* **變更形狀和大小**  — 若要調整矩形「影像地圖」的大小，請選取「平移」工具。接著，將指標移動至邊框或角上，當您看到雙向箭頭圖示時，請加以拖曳。若要調整多邊形影像地圖的大小，請拖曳方形的選取範圍控制點。要建立選取控制滑塊，請選取「影像映射」的邊框並拖動。
 
-   請參閱[調整影像地圖的位置、形狀及大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
+   請參閱[調整影像映射的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
 * **刪除影像**  — 選取平移工具，選取影像地圖以選取，然後選取 **[!UICONTROL 刪除]**。
 
@@ -89,17 +89,17 @@ ht-degree: 46%
 
 * **處理重疊的影像地圖**  — 拖曳以變更「影像地圖」清單上的「影像地圖」順序。
 
-   請參閱[處理重疊影像地圖](creating-image-maps.md#handling_overlapping_image_maps)。
+   請參閱[處理重疊的影像映射](creating-image-maps.md#handling_overlapping_image_maps)。
 
 * **將影像映射複製到其他頁**  — 選 **[!UICONTROL 取「將映射複製到]** 」（請確定您位於「映射頁面」索引標籤）。在「選擇影像」螢幕上，選擇要複製影像映射的頁或頁，然後選擇&#x200B;**[!UICONTROL 選擇]**。
 
-   請參閱[將影像地圖複製到其它影像](creating-image-maps.md#copying_image_maps)。
+   請參閱[將影像映射複製到其他影像](creating-image-maps.md#copying_image_maps)。
 
 >[!NOTE]
 >
->除了將影像映射複製到eCatalog中的不同頁面之外，您還可以將eCatalog中的所有影像映射複製到不同的eCatalog。 請參閱[在 eCatalog 之間複製影像地圖](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
+>除了將影像映射複製到eCatalog中的不同頁面之外，您還可以將eCatalog中的所有影像映射複製到不同的eCatalog。 請參閱[在eCatalog之間複製影像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
 
-## 檢視及匯入影像地圖資料 {#reviewing-and-importing-image-map-data}
+## 檢閱和匯入影像圖資料 {#reviewing-and-importing-image-map-data}
 
 「地圖摘要」畫面提供有關 eCatalog 的中繼資料。在「地圖摘要」畫面上開始作業時，您也可以為 eCatalog 批次匯入影像地圖資料。使用這個方式匯入影像地圖資料，可讓您更輕鬆輸入影像地圖 URL 與滑鼠指向效果文字。
 
@@ -129,7 +129,7 @@ ht-degree: 46%
 1. 在「工作名稱」欄位中，鍵入檔案的名稱 (請注意保留其副檔名)。
 1. 選擇&#x200B;**[!UICONTROL Upload]**。
 
-## 在 eCatalog 之間複製影像地圖 {#copying-image-maps-between-ecatalogs}
+## 在eCatalog之間複製影像映射 {#copying-image-maps-between-ecatalogs}
 
 您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了複製成功，Dynamic Media Classic建議在具有相同頁數和相同影像的eCatalog之間複製。
 
