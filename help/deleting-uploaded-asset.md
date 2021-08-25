@@ -1,6 +1,6 @@
 ---
-title: 刪除上載的資產
-description: 了解如何刪除已上傳的資產。
+title: 刪除已上傳的資產
+description: 了解如何刪除Dynamic Media Classic中已上傳的資產。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 89%
+source-wordcount: '95'
+ht-degree: 80%
 
 ---
 
-# 刪除上載的資產{#deleting-an-uploaded-asset}
+# 刪除已上傳的資產{#deleting-an-uploaded-asset}
 
 您可使用此格式的 `delete` 參數刪除資產:
 
@@ -45,9 +45,9 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 您可以在 URL 查詢字串中使用以下欄位來刪除資產:
 
 | URL 參數 | 必需/可選 | 值 |
-|--- |--- |--- |
-| op | 必要 | 刪除 |
-| shared_secret | 必要 | 公司的共用密鑰。 |
+| --- | --- | --- |
+| `op` | 必要 | 刪除 |
+| `shared_secret` | 必要 | 公司的共用密鑰。 |
 | <ul><li>對於影像:image_name</li><li>適用於向量:fxg_name</li></ul> | 必要 | 要刪除的資產名稱。 |
 
 **範例影像 URL:**
