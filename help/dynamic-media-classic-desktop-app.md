@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 根據您下載的安裝程式執行下列其中一項操作。
 
-   * **針對macOS**  — 在拖放至 **[!UICONTROL 安裝對話方]** 塊中，拖曳 **[!UICONTROL AdobeDynamic Media]** Classic，並將其拖放至應用 **[!UICONTROL 程式]**。
+   * **macOS**  — 在拖放至 **[!UICONTROL 安裝對話方]** 塊中，拖曳AdobeDynamic Media **[!UICONTROL Classic,]** 並將其拖放至應用 **[!UICONTROL 程式]**。
 
       ![在macOS上拖放安裝](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
       ![開啟下載的應用程式](/help/assets/open-dmclassicapp1.png)
 
-   * **適用於Windows**  — 執行安裝程式二進位檔，並依照螢幕上指示安裝案頭應用程式。
+   * **Windows**  — 執行安裝程式二進位檔，並依照螢幕上指示安裝案頭應用程式。
 
 1. 開啟應用程式時，會顯示新的AdobeDynamic Media Classic登入頁面：
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
    | 瀏覽器URL | 案頭應用伺服器名稱 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生產 |
    | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
    | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
@@ -149,7 +149,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
    | 瀏覽器URL | 案頭應用伺服器名稱 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生產 |
    | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
    | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
@@ -194,7 +194,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
    | 瀏覽器URL | 案頭應用伺服器名稱 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生產 |
    | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
    | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
