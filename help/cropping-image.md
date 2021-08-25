@@ -1,19 +1,19 @@
 ---
 title: 裁切影像
-description: 了解如何裁切影像。
+description: 了解如何在Dynamic Media Classic中裁切影像。
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->裁切後，您可以選取「**[!UICONTROL 另存新檔」，並以不同名稱儲存裁切的影像版本。]**&#x200B;在「另存新檔」視窗中，選擇「另存為新的主檔案」，即可儲存影像的複本。選擇「另存為主版」的「添加視圖」]**，以便以不同名稱保存原始版本及其已裁切的版本。**[!UICONTROL &#x200B;選擇「**[!UICONTROL 替換原始檔案]**」以刪除您裁切影像的原始檔案。 然後輸入影像的名稱，然後選擇&#x200B;**[!UICONTROL Submit]**。
+>裁切後，您可以選取「**[!UICONTROL 另存新檔」，並以不同名稱儲存裁切的影像版本。]**&#x200B;在「另存為」窗口中，選擇「另存為新主版」]**以保存影像的第二個副本。**[!UICONTROL &#x200B;選擇「另存為主版」的「添加視圖」]**，以便以不同名稱保存原始版本及其已裁切的版本。**[!UICONTROL &#x200B;選擇「**[!UICONTROL 替換原始檔案]**」以刪除您裁切影像的原始檔案。 然後輸入影像的名稱，然後選擇&#x200B;**[!UICONTROL Submit]**。
 
 ## 裁切以移除影像周圍的空白區域 {#crop-to-remove-white-space-around-an-image}
 
 您可以從影像邊緣裁切透明或純色的像素。
 
-1. 要裁切影像，請選擇其滾動&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL Crop]**，或在「瀏覽面板」的「詳細資訊」視圖中顯示該影像，然後選擇&#x200B;**[!UICONTROL Crop]**&#x200B;按鈕。
+1. 要裁切影像，請選擇其滾動&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 裁切]**，或以「詳細資訊」視圖在「瀏覽面板」中顯示該影像，並選擇&#x200B;**[!UICONTROL 裁切]**&#x200B;按鈕。
 1. 在「裁切編輯器」頁面上，執行下列其中一項操作：
 
    * 要修剪顏色像素，請轉至&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 在&#x200B;**[!UICONTROL 自動按顏色裁切]**&#x200B;對話框中，選擇&#x200B;**[!UICONTROL 角]**&#x200B;菜單，然後選擇背景顏色要裁切掉的角。 然後輸入從0到1的&#x200B;**[!UICONTROL 允差]**&#x200B;設定。 設定為 0 只會在完全符合您選取的影像邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。選擇&#x200B;**[!UICONTROL 裁切]**。
@@ -63,6 +63,6 @@ ht-degree: 39%
 >[!MORELIKETHIS]
 >
 >* [上傳時影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)
-* [從PDF檔案裁切空白字元](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [從PDF頁面的側邊裁切](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [從PDF檔案裁切空白字元](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [從PDF頁面的側邊裁切](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
