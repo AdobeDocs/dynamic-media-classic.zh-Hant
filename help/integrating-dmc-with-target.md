@@ -10,10 +10,10 @@ discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ ht-degree: 1%
 
    例如，如果位址列中的&#x200B;*虛構* URL（URL路徑一律包含正斜線，而非如此範例中的反斜線）是`https:\\www.myfictionalsite.com/categories/admin/home.do`，請僅複製&#x200B;*虛構* URL的此部分：`https:\\www.myfictionalsite.com`。
 
-1. 在[!DNL Dynamic Media Classic]中，按一下&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**。
+1. 在[!DNL Dynamic Media Classic]中，轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**。
 1. 在「應用程式一般設定」頁面的「**[!UICONTROL Test&amp;Target伺服器名稱]**」欄位中，貼上您在步驟2複製的URL。
-1. 按一下 **[!UICONTROL 關閉]**。
+1. 選擇&#x200B;**[!UICONTROL 關閉]**。

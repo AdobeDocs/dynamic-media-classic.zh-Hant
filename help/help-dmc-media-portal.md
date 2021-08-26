@@ -10,9 +10,9 @@ discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
 feature: Dynamic Media Classic,Brand Portal
 role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dynamic Media Classic也提供下列說明檔案：
 
-**使用Dynamic Media Classic Media Portal**  -AdobeDynamic Media Classic Media Portal是以瀏覽器為基礎的環境，可讓入口網站使用者以公司核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。請參閱[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)。
+**使用Dynamic Media Classic Media Portal**  -AdobeDynamic Media Classic Media Portal是以瀏覽器為基礎的環境，可讓入口網站使用者以公司核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。請參閱[https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)。
 
 <!-- Is this topic still needed? -rb 04/22/21
- -->
+ used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

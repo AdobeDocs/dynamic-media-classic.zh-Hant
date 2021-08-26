@@ -1,19 +1,19 @@
 ---
 title: 管理 FTP 帳戶
-description: 了解如何管理FTP帳戶。
+description: 了解如何在Dynamic Media Classic中管理FTP帳戶。
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
-feature: Dynamic Media Classic，協作，資產管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 82%
+ht-degree: 63%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 82%
 
 請參閱[啟用或停用使用者](administration-setup.md#activating_or_deactivating_users)。
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP 帳戶]**」。
+1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP帳戶]**。
 1. 在「新增 FTP 帳戶」頁面的「FTP 帳戶使用者名稱」下拉式清單中，選取使用者。
 
    若未列出使用者，您必須透過「管理設定」，將使用者新增為Media Portal管理員、Media Portal貢獻者 — 使用者或Media Portal貢獻者。 增加含有適當角色的使用者之後，他們的使用者名稱便會出現在下拉式清單中。
 
-   請參閱[增加 Media Portal 使用者](adding-media-portal-users.md#adding_a_media_portal_user)。
+   請參閱[新增媒體入口網站使用者](adding-media-portal-users.md#adding_a_media_portal_user)。
 
 1. 在「密碼」和「確認」欄位中，輸入 FTP 帳戶的密碼。
-1. 按一下「**[!UICONTROL 儲存]**」即可將帳戶增加至「現有帳戶」表格中。
+1. 選擇&#x200B;**[!UICONTROL Save]**&#x200B;以將帳戶添加到「現有帳戶」表。
 
    若要上載媒體資產，您需要列於「現有帳戶」表格中的「FTP 帳戶使用者名稱」，以及指定給該帳戶的密碼。
 
-   請參閱[上載檔案](uploading-files.md#uploading_files)。
+   請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
-## 刪除現有的 FTP 帳戶 {#deleting-an-existing-ftp-account}
+## 刪除現有的FTP帳戶 {#deleting-an-existing-ftp-account}
 
-1. 按一下「**[!UICONTROL 設定]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP 帳戶]**」。
+1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP帳戶]**。
 1. 在「新增 FTP 帳戶」頁面的「現有帳戶」表格中，選取您要移除的 FTP 帳戶。
-1. 按一下「**[!UICONTROL 刪除]**」。
+1. 選擇&#x200B;**[!UICONTROL Delete]**。

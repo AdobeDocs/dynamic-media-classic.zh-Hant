@@ -1,6 +1,6 @@
 ---
-title: 啟用 Adobe Analytics 視訊報告
-description: 了解如何啟用Adobe Analytics視訊報表。
+title: 啟用Adobe Analytics視訊報表
+description: 了解如何在Dynamic Media Classic中啟用Adobe Analytics視訊報表。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
-# 啟用 Adobe Analytics 視訊報告{#enabling-adobe-analytics-video-reports}
+# 啟用Adobe Analytics視訊報表{#enabling-adobe-analytics-video-reports}
 
 使用Adobe Analytics心率型視訊報表，在Dynamic Media Classic中設定Adobe Analytics時，您不再必須啟用四個視訊檢視器事件（播放、暫停、停止、里程碑）。 視訊心率適用於現成可用的Dynamic Media Classic HTML5視訊和混合媒體檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 * 支援以1分鐘為增量的現成可用區段。 不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
 
-   如需串流媒體需求和設定的詳細資訊，請參閱在Adobe Analytics中測量串流媒體](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) 。[
+   如需串流媒體需求和設定的詳細資訊，請參閱[在Adobe Analytics中測量串流媒體](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 * 如需自訂和解決方案變數的相關資訊，請參閱啟用媒體報表](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports)。[
 

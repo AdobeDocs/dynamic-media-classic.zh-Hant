@@ -1,6 +1,6 @@
 ---
-title: ICC 設定檔
-description: 了解ICC配置檔案。
+title: ICC（國際色彩協會）設定檔
+description: 了解Dynamic Media Classic中的ICC設定檔。
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 71%
+source-wordcount: '446'
+ht-degree: 64%
 
 ---
 
@@ -23,24 +23,24 @@ ICC (國際色彩聯盟) 設定檔是描述如何正確地將影像檔案從一�
 
 在Dynamic Media Classic中，您可以選擇ICC配置檔案，在上載影像時將影像轉換為不同的顏色空間。 所有標準Photoshop ICC設定檔預設皆可在Dynamic Media Classic上使用。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂轉換」，再從「轉換自」和「轉換到」選單中選擇 ICC 設定檔的名稱。
 
-請參閱[上載時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload)。
+請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的「影像編輯選項」。[
 
 除了使用預設的ICC配置檔案外，您還可以將其他ICC配置檔案上載到Dynamic Media Classic，並使其可用於顏色空間轉換。 在瀏覽面板中切換到詳細檢視，以便調查 ICC 設定檔的設定檔類別、 色域類型和 PCS 類型。
 
-## 上載 ICC 設定檔 {#uploading-icc-profiles}
+## 上傳ICC設定檔 {#uploading-icc-profiles}
 
 透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC設定檔儲存在任何Dynamic Media Classic資料夾中。
 
-請參閱[上載檔案](uploading-files.md#uploading_your_files)。
+請參閱[上傳檔案](uploading-files.md#uploading_your_files)。
 
-## 檢查 ICC 設定檔 {#examining-an-icc-profile}
+## 檢查ICC配置檔案 {#examining-an-icc-profile}
 
-若要檢查 ICC 設定檔，請在瀏覽面板中選取該文件並在詳細檢視中進行顯示。詳細檢視提供有關 ICC 設定檔的以下資訊:
+若要檢查 ICC 設定檔，請在瀏覽面板中選取該文件並在詳細檢視中進行顯示。詳細資訊視圖提供有關ICC配置檔案的以下資訊：
 
-* **配置檔案類**  - ICC（國際顏色協會）定義每個類以涵蓋應用程式類型。例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
+* **[!UICONTROL 配置檔案類]**  - ICC（國際顏色協會）定義每個類以涵蓋應用程式類型。例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
 
-* **色域類型**  — 此數字是配置檔案的「輸入」色域，由ICC定義。色域類型可定義色域的組件數目和對這些組件的解釋。例如，RGB 是具有三個組件 (紅色、綠色和藍色) 的 色域。色域類型並不定義該色域的特定色彩特性 (例如，原色的色度)。
+* **[!UICONTROL 色域類型]**  — 此數字是配置檔案的「輸入」色域，由ICC定義。色域類型可定義色域的組件數目和對這些組件的解釋。例如，RGB 是具有三個組件 (紅色、綠色和藍色) 的 色域。色域類型並不定義該色域的特定色彩特性 (例如，原色的色度)。
 
-* **PCS類型**  — 此PCS類型是配置檔案的「輸出」顏色空間 — 其配置檔案連接空間。例如，色彩設定檔可以將 RGB 轉換成 PCS，然後轉換成 CMYK。
+* **[!UICONTROL PCS類型]**  — 此PCS類型是配置檔案的「輸出」顏色空間 — 其配置檔案連接空間。例如，色彩設定檔可以將 RGB 轉換成 PCS，然後轉換成 CMYK。
 
 對於有助於標記色彩或影像的輸入、顯示或輸出設定檔，PCS 類型是 XYZ 或 Lab。將該設定檔解釋成在 ICC 規格中定義的相應特定色域。

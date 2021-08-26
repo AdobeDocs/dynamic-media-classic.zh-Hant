@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic，檢視器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 51%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 您可以使用「eCatalog」畫面中的「資訊面板」設定，來設定和管理影像地圖文字。
 
-請參閱[管理資訊面板內容](info-panel-content.md#managing-info-panel-content)。
+請參閱eCatalog](/help/info-panel-content-ecatalog.md)中的「管理資訊面板」內容。[
 
 ## 4.設定eCatalog檢視器預設集
 

@@ -1,6 +1,6 @@
 ---
-title: 取得磁碟使用量資訊
-description: 了解如何取得磁碟使用情況資訊。
+title: 獲取磁碟使用資訊
+description: 了解如何在Dynamic Media Classic中取得磁碟使用資訊。
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 88%
+source-wordcount: '89'
+ht-degree: 78%
 
 ---
 
-# 取得磁碟使用量資訊 {#getting-disk-usage-information}
+# 獲取磁碟使用資訊 {#getting-disk-usage-information}
 
 您可使用 `disk_info` 參數擷取關於公司磁碟空間使用量的資訊，如以下範例中所示:
 
@@ -45,7 +45,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 您可以在 URL 查詢字串中使用以下欄位來取得磁碟使用量資訊:
 
 | URL 參數 | 必需/可選 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 必要 | disk_info |
 | shared_secret | 必要 | 公司的共用密鑰 |
 
