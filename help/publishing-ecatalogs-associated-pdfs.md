@@ -1,6 +1,6 @@
 ---
 title: 發佈eCatalog和相關PDF
-description: 了解如何發佈eCatalog和相關的PDF。
+description: 了解如何從AdobeDynamic Media Classic發佈eCatalog和相關的PDF。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '192'
+ht-degree: 21%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 26%
 
 **要發佈eCatalog和關聯的PDF:**
 
-1. 在「全域導覽」列上按一下「**[!UICONTROL 發佈]**」。
-1. 在「發佈」畫面上，按一下「**[!UICONTROL 一次性]**」或「**[!UICONTROL Recurring]**」。
+1. 在全局導航欄上，選擇&#x200B;**[!UICONTROL Publish]**。
+1. 在「發佈」螢幕上，選擇「**[!UICONTROL 一次性]**」或「**[!UICONTROL 重複]**」。
 1. （可選）在「作業名稱」欄位中，輸入發佈作業的名稱，但保留預定義的日期和時間文本。
 
-   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」對話框中，按一下「**[!UICONTROL 高級」]**。 從&#x200B;**[!UICONTROL Publish]**&#x200B;下拉式功能表中，按一下&#x200B;**[!UICONTROL 完整包含搜尋資料]**。 根據預設值，此選項為已選取。
+   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」對話框中，選擇&#x200B;**[!UICONTROL Advanced]**。 從&#x200B;**[!UICONTROL Publish]**&#x200B;下拉式選單中，選擇&#x200B;**[!UICONTROL Full w/ Search Data]**。 根據預設值，此選項為已選取。
 
-1. 按一下「****[!UICONTROL 送出發佈]****」。
+1. 按一下「**[!UICONTROL 送出發佈]**」。
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md)
+>* [發佈檔案](publishing-files.md)
 

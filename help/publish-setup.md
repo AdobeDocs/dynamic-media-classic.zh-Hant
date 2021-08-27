@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 管理員可以變更影像伺服器、影像轉譯器和暈映頁面上的預設設定，以建立從伺服器傳送資產的預設設定。
 
-若要開啟「發佈設定」頁面，請按一下「**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]**」。
+要開啟「發佈設定」頁，請轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**。
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ ht-degree: 46%
 
 請僅在AdobeDynamic Media Classic支援人員協助下變更這些設定。
 
-* **目錄管理**  — 這些設定可決定AdobeDynamic Media Classic和目錄的互動方式。與大多數Web伺服器不同，Dynamic Media影像伺服器URL呼叫會轉至資訊清單或目錄檔案，而非影像檔案適當。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+* **[!UICONTROL 目錄管理]**  — 這些設定可決定AdobeDynamic Media Classic和目錄的互動方式。與大多數Web伺服器不同，Dynamic Media影像伺服器URL呼叫會轉至資訊清單或目錄檔案，而非影像檔案適當。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
-* **請求屬性**  — 這些設定會限制可從伺服器傳送的影像。例如，*最大值* **[!UICONTROL 回覆影像大小限制]**&#x200B;為&#x200B;**[!UICONTROL 寬度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
+* **[!UICONTROL 請求屬性]**  — 這些設定會限制可從伺服器傳送的影像。例如，*最大值* **[!UICONTROL 回覆影像大小限制]**&#x200B;為&#x200B;**[!UICONTROL 寬度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
 
-* **預設請求屬性**  — 這些設定屬於影像的預設外觀。
+* **[!UICONTROL 預設請求屬性]**  — 這些設定屬於影像的預設外觀。
 
-* **常見縮圖屬性**  — 這些設定與縮圖影像的預設外觀和對齊方式相關。
+* **[!UICONTROL 常見縮圖屬性]**  — 這些設定與縮圖影像的預設外觀和對齊方式相關。
 
-* **目錄欄位的預設值**  — 這些設定與影像的解析度和預設縮圖類型相關。
+* **[!UICONTROL 目錄欄位的預設值]**  — 這些設定與影像的解析度和預設縮圖類型相關。
 
-* **顏色管理屬性**  — 這些設定將決定要使用的ICC顏色配置檔案。
+* **[!UICONTROL 顏色管理屬性]**  — 這些設定將決定要使用的ICC顏色配置檔案。
 
-* **相容性屬性**  — 此設定可讓文字層中的前導和尾隨段落，如同在3.6版中一樣處理，以提供回溯相容性。
+* **[!UICONTROL 相容性屬性]**  — 此設定可讓文字層中的前導和尾隨段落，如同在3.6版中一樣處理，以提供回溯相容性。
 
-* **本地化支援**  — 這些設定可讓您管理多個地區設定屬性。也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
+* **[!UICONTROL 本地化支援]*** — 這些設定可讓您管理多個地區設定屬性。也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
 
    例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後為您要的語言增加翻譯文字字串，以編輯「檢視器」預設集中的工具提示文字。
 
    >[!NOTE]
    > 要設定本地化支援選項，請[使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
-   如需關於設定「**本地化支援**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
+   如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
 ### 進行資產本地化設定時的注意事項 {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,10 +90,10 @@ IS支援任意可打印的ASCII字串。 `locale=`命令具有全局範圍，這
 #### 應用程式案例
 
 | 應用程式 | 案例 |
-|--- |--- |
+| --- | --- |
 | 檢視器本地化 | 在實作靜態內容目錄後，本地化會完全以 locale= 參數控制；此參數會附加至所有對 IS 提出的請求。設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
-| 影像與視訊 | 跨國公司常會混用通用內容與地區特定內容。在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
-| 影像集與媒體集 | 對於某些區域設定（例如當eCatalog不同時），整個影像集可能不同，從通用影像轉換為由查看器處理的特定於區域設定的影像集。 通常，一般集中的個別ID可以指當地語系化內容。 例如，設備的大多數照片可以用所有語言相同，但控制面板的照片除外。 IS 會自動翻譯 ID，因此無須產生地區特定影像集。 |
+| 影像與影片 | 跨國公司常會混用通用內容與地區特定內容。在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
+| 影像集和媒體集 | 對於某些區域設定（例如當eCatalog不同時），整個影像集可能不同，從通用影像轉換為由查看器處理的特定於區域設定的影像集。 通常，一般集中的個別ID可以指當地語系化內容。 例如，設備的大多數照片可以用所有語言相同，但控制面板的照片除外。 IS 會自動翻譯 ID，因此無須產生地區特定影像集。 |
 
 #### 實作資產本地化
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 
 `https://server/is/image/company/image?locale=de_DE`
 
-在接收到影像伺服器的http調用時，通過在&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**&#x200B;組中找到的localeMap欄位來分析`locale=`參數。
+在接收到影像伺服器的http調用時，通過&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**&#x200B;組中的`localeMap`欄位來分析`locale=`參數。
 
 「地區地圖」欄位會包含以管線符號 (|) 分隔的項目清單。
 
@@ -122,18 +122,18 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 **字尾範例:**
 
 | URL | localeMap ID | 結果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。地區參數 de_DE 會與 localeMap 中的第一個項目進行比對。第一個對應值 _DE 會增加為資產的字尾 (image_DE)，接著會嘗試在影像伺服器上尋找此項目。如果在伺服器上找到此項目，則會加以傳回。如果找不到，則會以第二個值“”作為字尾，而傳回影像本身。 |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。區域設定參數de_DE與`localeMap`中的第一個條目匹配。 第一個對應值 _DE 會增加為資產的字尾 (image_DE)，接著會嘗試在影像伺服器上尋找此項目。如果在伺服器上找到此項目，則會加以傳回。如果找不到，則會以第二個值“”作為字尾，而傳回影像本身。 |
 
 **取代範例:**
 
-| URL | GlobalLocale 與 localeMap ID | 結果 |
+| URL | `GlobalLocale` 和 `localeMap` ID | 結果 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述取代範例中，GlobalLocale 設為 main。地區參數 de_DE 會與 localeMap 中的第一個項目進行比對。找到GlobalLocale子字串，並用localeMap中的第一個對應值`de`替換：`image-de-01`。 如果在影像伺服器上找到此項目，則會加以傳回。如果找不到，則會取代第二個值，而產生 `image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述取代範例中，GlobalLocale 設為 main。區域設定參數de_DE與`localeMap`中的第一個條目匹配。 找到GlobalLocale子字串，並替換為`localeMap`中的第一個對應值`de`:`image-de-01`。 如果在影像伺服器上找到此項目，則會加以傳回。如果找不到，則會取代第二個值，而產生 `image-main-01`。 |
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 
-如果`locale=`中提供了未知或空的區域設定參數，則掃描localeMap以查找空值「starting with，」。 請務必為未知地區套用預設地區設定。
+如果`locale=`中提供了未知或空的區域設定參數，則掃描`localeMap`中是否有空值「starting with，」。 請務必為未知地區套用預設地區設定。
 
 #### 關於defaultImage
 
@@ -154,7 +154,7 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | 地區設定= | 要搜尋的輸出 ID |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,7 +167,7 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | 地區設定= | 要搜尋的輸出 ID |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
 | 所有其他 | myImg_E,myImg |
@@ -180,7 +180,7 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### 使用多層式查閱尋找 localeMap
+##### 使用多層查找查找查找localeMap
 
 我們常會需要將地區 (例如歐洲、中東與北美洲) 分組，以滿足地區性標準 (例如外觀)。您可以使用多層式查閱達到此效用。
 
@@ -189,14 +189,14 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | 地區設定= | 要搜尋的輸出 ID |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | 所有其他 | mylmg |
 
-##### 搜尋特定 ID 來尋找 localeMap
+##### 通過搜索特定ID查找localeMap
 
 有些影像命名慣例不支援一般影像ID。 請求中的通用 ID 必須對應至目錄中的特定 ID。不過，在某些情況下，系統不會知道確切的特定ID。
 
@@ -205,7 +205,7 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | 地區設定= | 要搜尋的輸出 ID |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 所有其他 | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態
 
 「影像轉譯器」頁面建立從影像轉譯伺服器傳送影像集的預設設定。 這五個類別中都有設定可用（如需設定的詳細說明，請參閱影像伺服器頁面本身）:
 
-* **目錄管理**  — 這些設定可決定AdobeDynamic Media Classic和目錄檔案的互動方式。AdobeDynamic Media Classic轉譯伺服器URL會呼叫目錄，而目錄又會呼叫從伺服器傳送影像。 請僅在AdobeDynamic Media Classic支援人員協助下變更這些設定。
+* **[!UICONTROL 目錄管理]**  — 這些設定可決定AdobeDynamic Media Classic和目錄檔案的互動方式。AdobeDynamic Media Classic轉譯伺服器URL會呼叫目錄，而目錄又會呼叫從伺服器傳送影像。 請僅在AdobeDynamic Media Classic支援人員協助下變更這些設定。
 
-* **工作階段屬性**  — 這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
+* **[!UICONTROL 工作階段屬性]**  — 這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
 
-* **預設材料屬性**  — 這些設定可建立影像的預設解析度和銳利化設定。
+* **[!UICONTROL 預設材料屬性]**  — 這些設定可建立影像的預設解析度和銳利化設定。
 
-* **回應影像屬性**  — 這些設定屬於影像的預設外觀。
+* **[!UICONTROL 回應影像屬性]**  — 這些設定屬於影像的預設外觀。
 
-* **色彩管理屬性**  — 這些設定屬於影像的預設色彩設定。
+* **[!UICONTROL 色彩管理屬性]**  — 這些設定屬於影像的預設色彩設定。
 
 ## 暈映 {#vignette}
 

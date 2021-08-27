@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '3863'
 ht-degree: 36%
@@ -89,7 +89,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 
 >[!NOTE]
 >
->當您上傳影像檔案和PDF以AdobeDynamic Media Classic時，系統會將這些來源檔案轉換為P-TIFF（金字塔TIFF）檔案。 這些P-TIFF是稍後發佈至Dynamic Media影像伺服器的檔案。 AdobeDynamic Media Classic使用金字塔Tiff檔案格式，因為它包含各種縮放比例，當使用AdobeDynamic Media Classic縮放檢視器檢視時，可快速縮放。
+>當您上傳影像檔案和PDF以AdobeDynamic Media Classic時，系統會將這些來源檔案轉換為P-TIFF（金字塔TIFF）檔案。 這些P-TIFF是稍後發佈至Dynamic Media影像伺服器的檔案。 AdobeDynamic Media Classic使用金字塔Tiff檔案格式，因為它包含各種縮放比例，在使用AdobeDynamic Media Classic縮放檢視器檢視時可快速縮放。
 
 ### 支援的靜態檔案格式 {#supported-static-file-formats}
 

@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 >
 >設定Adobe Analytics報表並比對Adobe Analytics報表變數以AdobeDynamic Media Classic事件之前，請確認您已新增為Adobe Analytics中網站服務存取群組的成員。 不論在介面中設定的權限為何，此群組的成員皆可經由 Marketing Cloud 的「網路服務 API」存取指定報告套件中的所有報告。若要在群組中增加成員，請在 Adobe Analytics 中按一下「**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**」。
 
-在確認您是Web服務訪問組的成員後，在AdobeDynamic Media Classic中，按一下&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**。 在「Adobe Analytics 配置」頁面中，按一下「**[!UICONTROL Adobe Analytics 登入]**」。
+確認您是Web服務訪問組的成員後，在AdobeDynamic Media Classic中，轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**。 在「Adobe Analytics 配置」頁面中，按一下「**[!UICONTROL Adobe Analytics 登入]**」。
 
 請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
