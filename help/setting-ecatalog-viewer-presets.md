@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ eCatalog 檢視器預設集提供許多設定，可用來在頁面之間移動�
    | --- | --- | --- |
    | `$1$` | rollover_key 值 | 來自地圖的`<area>`元素的項目識別碼。 |
    | `$2$` | frame | 目前在影像集中顯示之影格的序號。 |
-   | `$3$` | imageroot | 在影像命令中指定之第一個項目的第一個路徑元素 (通常為指定影像集之目錄項目的影像目錄 ID)。 |
+   | `$3$` | 影像根 | 在影像命令中指定之第一個項目的第一個路徑元素 (通常為指定影像集之目錄項目的影像目錄 ID)。 |
 
 1. （可選）在&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;中，在&#x200B;**[!UICONTROL 回應範本]**&#x200B;方塊中，輸入如果AdobeDynamic Media Classic在擷取影像地圖的資訊時遇到錯誤，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 
