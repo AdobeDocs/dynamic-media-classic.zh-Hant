@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1703'
 ht-degree: 34%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 34%
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
-如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非AdobeDynamic Media Classic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
+如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
 
 **部署使用第三方視訊播放器的視訊:**
 

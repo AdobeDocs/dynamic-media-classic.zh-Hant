@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 55%
 
 ---
@@ -120,6 +120,6 @@ AdobeDynamic Media Classic包含超過100個影像伺服命令，用於調整和
 
 在實驗中，下列一般建議有助於最佳化您的工作流程：
 
-* 直接在AdobeDynamic Media Classic URL或使用AdobeDynamic Media Classic的影像調整功能，即時試用並測試不同的參數。 後者提供調整操作的即時預覽。
+* 直接在URL上或使用AdobeDynamic Media Classic的影像調整功能，即時試用並測試不同的參數。 後者提供調整操作的即時預覽。
 * 最佳實務是，您可以將「Dynamic Media影像伺服」命令分組至影像預設集。 影像預設集基本上是具有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
 * AdobeDynamic Media Classic也提供更進階的影像品質調整方法，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化轉譯結果的進階使用案例，Adobe Professional Services可協助您運用自訂的深入分析和最佳實務。

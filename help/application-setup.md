@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '10951'
 ht-degree: 44%
@@ -35,7 +35,7 @@ ht-degree: 44%
 
 * **[!UICONTROL 已發佈伺服器名稱]**  — 此伺服器是即時內容傳送網路(CDN)伺服器，用於您帳戶專用的所有系統產生的URL呼叫。除非AdobeDynamic Media Classic支援技術人員指示您更改此伺服器名稱，否則請勿更改此伺服器名稱。
 
-* **[!UICONTROL 來源伺服器名稱]**  — 此伺服器僅用於品質保證測試。除非AdobeDynamicMedia Classic支援技術人員指示更改此伺服器名稱，否則請勿更改此名稱。
+* **[!UICONTROL 來源伺服器名稱]**  — 此伺服器僅用於品質保證測試。除非AdobeDynamic Media Classic支援技術人員指示更改此伺服器名稱，否則請勿更改此伺服器名稱。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -623,7 +623,7 @@ AdobeDynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 您可以匯出現有的HTML5檢視器預設集，以作為建立HTML5檢視器預設集的基礎。 匯出選項十分有用，因為您不需從頭建立檢視器， 但可以匯出與您要的外觀和行為接近的預設集，然後將其用作進行設計調整的起點。
 
-所有預設且現成的檢視器預設的CSS檔案都在AdobeAdobe中Dynamic Media Classic使用指向`Scene7SharedAssets`上資產的相對影像伺服路徑。 例如，以下是檢視器預設集CSS檔案中影像資產的相對路徑，位於
+在AdobeDynamic Media Classic中，所有預設的現成檢視器預設集CSS檔案都使用指向`Scene7SharedAssets`上資產的相對影像伺服路徑。 例如，以下是檢視器預設集CSS檔案中影像資產的相對路徑，位於
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 

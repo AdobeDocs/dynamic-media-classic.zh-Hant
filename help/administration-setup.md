@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1965'
 ht-degree: 36%
 
 ---
@@ -70,7 +70,7 @@ AdobeDynamic Media Classic支援數個使用者角色。 這些角色可存取�
 
 ### 刪除使用者 {#deleting-a-user}
 
-您可以將使用者設為無效，從AdobeAdobeDynamic Media Classic中刪除使用者。 無效的使用者會從系統和所有帳戶中移除。
+您可以將使用者設為無效，從Adobe的Dynamic Media Classic中刪除使用者。 無效的使用者會從系統和所有帳戶中移除。
 
 1. 轉至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
 1. 從清單中選擇用戶，然後選擇&#x200B;**[!UICONTROL Edit]**。
