@@ -1,6 +1,6 @@
 ---
-title: 準備影像集資產進行上載
-description: 了解如何準備影像集資產以供上傳。
+title: 準備影像集資產以供上傳
+description: 了解如何準備影像集資產以上傳至AdobeDynamic Media Classic。
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 66%
+source-wordcount: '160'
+ht-degree: 44%
 
 ---
 
-# 準備影像集資產進行上載{#preparing-image-set-assets-for-upload}
+# 準備影像集資產以供上傳{#preparing-image-set-assets-for-upload}
 
 上傳影像集以AdobeDynamic Media Classic所需的影像之前，請確定影像的大小和格式正確。
 
@@ -25,10 +25,10 @@ ht-degree: 66%
 
 因為使用者可以在影像集中縮放影像，所以請確保影像在最大維度至少有 2000 個像素。AdobeDynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
-如需上載資產的詳細說明，請參閱[上載檔案](uploading-files.md#uploading_files)。
+如需上傳資產的詳細指示，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [上載檔案](uploading-files.md#uploading_your_files)
->* [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [上傳您的檔案](uploading-files.md#uploading_your_files)
+>* [使用暈映、窗口覆蓋和機櫃檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

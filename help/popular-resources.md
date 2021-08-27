@@ -1,14 +1,14 @@
 ---
 title: Popular resources
-description: 網路研討會、訓練影片、最佳實務資訊和開發人員資源的連結。
+description: AdobeDynamic Media Classic的網路研討會、訓練影片、最佳實務資訊和開發人員資源的連結。
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 15%
 
 ---
 
@@ -25,8 +25,9 @@ ht-degree: 16%
 * [檢視器資產庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 * [影像提供與影像轉譯 API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
-## AdobeDynamic Media Classic網路研討會和Tutorials
+## AdobeDynamic Media Classic電子報、Tutorials和網路研討會
 
+* [封存AdobeDynamic Media Classic電子報](/help/dynamic-media-newsletter.md)
 * [銳利化影像的最佳作法](/help/assets/s7_sharpening_images.pdf)
 * [最大化資產投資報酬率](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在您的網站和行動應用程式中提供多媒體的業界最佳實務。在此網路研討會中，範例和示範示範示範如何跨裝置有效傳送視訊、在行銷活動中提供動態創意，以及透過讓任何影像、樣式指南或概覽可購買來增加轉換。
 * [加速您的內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 此網路研討會提供Adobe Experience Manager Assets的簡介和示範（隨選），此為新一代的多媒體管理與傳送計畫。了解如何在創意和行銷團隊之間共同作業和共用資產，以簡化資產審核流程。 了解有效管理資產中繼資料的最佳實務，以便輕鬆尋找、使用、重複使用和共用資產。 了解如何提供互動式跨頻道多媒體體驗。
