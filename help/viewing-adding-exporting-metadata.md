@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic，資產管理，元資料
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 48%
+source-wordcount: '2268'
+ht-degree: 47%
 
 ---
 
 # 檢視、增加和匯出中繼資料{#viewing-adding-and-exporting-metadata}
 
-您可以儲存在Dynamic Media Classic中處理之檔案的特定資訊；此資訊稱為&#x200B;*metadata*。 您可以使用Dynamic Media Classic中的中繼資料來組織、搜尋、篩選及排序資產。
+您可以在AdobeDynamic Media Classic中儲存您使用之檔案的特定資訊；此資訊稱為&#x200B;*metadata*。 您可以在AdobeDynamic Media Classic中使用中繼資料來組織、搜尋、篩選及排序資產。
 
-中繼資料會連同Dynamic Media Classic產生的資訊一起顯示在「詳細資料」檢視中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料」檢視中開啟資產，然後選取「中繼資料」面板。 您可以在詳細檢視中輸入和編輯中繼資料。
+中繼資料會連同AdobeDynamic Media Classic產生的資訊（例如檔案建立日期、發佈日期和關鍵字）一起顯示在「詳細資料檢視」中。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在詳細檢視中輸入和編輯 中繼資料。
 
-有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Dynamic Media Classic會自動與檔案一併上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Illustrator和其他應用程式的來源資產中；Dynamic Media Classic可辨識此中繼資料。 您也可以在詳細檢視的「中繼資料」面板中，將中繼資料增加到個別檔案。為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
+有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，AdobeDynamic Media Classic會自動連同檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Illustrator和其他應用程式的來源資產中；AdobeDynamic Media Classic可辨識此中繼資料。 您也可以在「詳細資訊檢視」的「中繼資料」面板中，將中繼資料新增至個別檔案。 為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
 如需內嵌中繼資料的詳細資訊，請參閱[www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en)。
 
 ## 檢視中繼資料 {#view-metadata}
 
-若要檢視資產的中繼資料，請在「詳細資料」檢視中開啟資產，然後點選「中繼資料」面板。 要選擇一組元資料欄位，請在「元資料視圖」菜單上選擇一個選項。 Dynamic Media Classic提供下列中繼資料檢視：
+若要檢視資產的中繼資料，請在「詳細資料檢視」中開啟資產，然後點選「中繼資料」面板。 要選擇一組元資料欄位，請在「元資料視圖」菜單上選擇一個選項。 AdobeDynamic Media Classic提供下列中繼資料檢視：
 
 * **緊密視圖**  — 基本值清單。
 
@@ -43,7 +43,7 @@ ht-degree: 48%
 
 ## 手動輸入資產的中繼資料 {#manually-enter-metadata-for-an-asset}
 
-1. 在詳細檢視中開啟資產。
+1. 在「詳細資訊檢視」中開啟資產。
 1. 開啟「中繼資料」面板，然後進行下列其中一項或兩項操作:
 
    * 選擇「中繼資料檢視」，即可決定面板要顯示那些中繼資料欄位。
@@ -81,7 +81,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->您可以建立輸入中繼資料的範本，以便正確匯入至Dynamic Media Classic。 建立範本後，您便可使用範本來輸入中繼資料。
+>您可以建立輸入中繼資料的範本，以便正確匯入至AdobeDynamic Media Classic。 建立範本後，您便可使用範本來輸入中繼資料。
 >請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 您可以在[AdobeXMP開發人員中心](https://www.adobe.com/devnet/xmp.html)找到有關標準化屬性的詳細資訊。
@@ -135,9 +135,9 @@ XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會
 
 ## 使用中繼資料批次重新命名 ID {#batch-rename-ids-using-metadata}
 
-您可以使用從以定位點分隔的檔案或XML檔案匯入的中繼資料，重新命名Dynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 是否在「瀏覽」面板上選取影像並不重要。
+使用從以定位點分隔的檔案或XML檔案匯入的中繼資料，您可以重新命名AdobeDynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 是否在「瀏覽」面板上選取影像並不重要。
 
-若要重新命名影像的Dynamic Media Classic ID，請將標示為&#x200B;*newipsid*&#x200B;的欄新增至以Tab分隔的檔案，或將名為`new_vc_objectname`的欄位新增至XML資料。
+若要重新命名影像的AdobeDynamic Media Classic ID，請將標示為&#x200B;*newipsid*&#x200B;的欄新增至以Tab分隔的檔案，或將名為`new_vc_objectname`的欄位新增至XML資料。
 
 例如：
 
@@ -150,7 +150,7 @@ XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會
 
 ## 建立範本以輸入要上載的中繼資料 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic提供建立範本以記錄中繼資料的命令。 使用範本可確保以正確的格式輸入中繼資料，以便正確上傳至Dynamic Media Classic。 若要建立範本以用於記錄中繼資料，並將中繼資料匯入Dynamic Media Classic，請依照下列步驟操作：
+AdobeDynamic Media Classic提供建立範本以記錄中繼資料的命令。 使用範本可確保以正確的格式輸入中繼資料，以便能夠正確上傳至AdobeDynamic Media Classic。 若要建立範本以用於記錄和匯入中繼資料以AdobeDynamic Media Classic，請遵循下列步驟：
 
 1. 選取具有範本所要用的中繼資料欄位的影像資產。
 1. 按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 匯入中繼資料]**」。
@@ -181,15 +181,15 @@ Dynamic Media Classic提供建立範本以記錄中繼資料的命令。 使用�
 
 >[!NOTE]
 >
->資料結構的變更絕不會變更資產中繼資料。不過，Dynamic Media Classic和中繼資料伺服器的所有功能都看不到這些變數，且在變更後無法存取。 同樣地，如果資產的中繼資料存在，則建立相符的結構可讓中繼資料在Dynamic Media Classic和中繼資料伺服器中使用。
+>資料結構的變更絕不會變更資產中繼資料。不過，這些變數不會顯示於所有AdobeDynamic Media Classic和中繼資料伺服器功能，且在變更後無法存取。 同樣地，如果資產的中繼資料存在，則建立相符的結構可讓中繼資料在Dynamic Media Classic和中繼資料伺服器中使用。
 
-中繼資料結構編輯器提供圖形式方式，可新增或編輯Dynamic Media Classic中的自訂公司結構。 資料結構是由一個字首、一個命名空間，以及一份屬性清單所定義。
+中繼資料結構編輯器提供圖形式方式，可在AdobeDynamic Media Classic中新增或編輯自訂公司結構。 資料結構是由一個字首、一個命名空間，以及一份屬性清單所定義。
 
 * **名稱**  — 結構的UI — 名稱。用來在「中繼資料檢視」和「進階搜尋」中識別屬性。類似於 XMP 區段，如「基本」、「IPTC」和「PDF」。
 
-* **前置詞**  — 結構的技術唯一識別碼。限於字母a-z和A-Z。前置詞不會顯示在Dynamic Media Classic UI中，但會在資產的中繼資料儲存在XMP區塊和資料庫時使用。 字首的用途為，在中繼資料伺服器上的中繼資料搜尋查詢中識別唯一的中繼資料欄位，或是進行匯入。
+* **前置詞**  — 結構的技術唯一識別碼。限於字母a-z和A-Z。前置詞不會顯示在AdobeDynamic Media Classic UI，但會在資產的中繼資料儲存在XMP區塊和資料庫時使用。 字首的用途為，在中繼資料伺服器上的中繼資料搜尋查詢中識別唯一的中繼資料欄位，或是進行匯入。
 
-* **命名空間**  — 結構的技術唯一識別碼，通常為表單中的 `https://your.company.com/name/version/`URL。如需範例，請參閱標準資料結構清單。命名空間在Dynamic Media Classic UI中不可見，但用於將中繼資料儲存在XMP區塊中。
+* **命名空間**  — 結構的技術唯一識別碼，通常為表單中的 `https://your.company.com/name/version/`URL。如需範例，請參閱標準資料結構清單。AdobeDynamic Media Classic UI中不會顯示命名空間，但用於將中繼資料儲存在XMP區塊中。
 
 * **說明**  — 結構的自由格式說明。
 
@@ -201,7 +201,7 @@ Dynamic Media Classic提供建立範本以記錄中繼資料的命令。 使用�
 
 | 屬性 | 說明 |
 |--- |--- |
-| ID | 此屬性的技術識別名稱。ID不會顯示在Dynamic Media Classic UI中，但會在資產的中繼資料儲存在XMP區塊和資料庫時使用。 ID 會用來在中繼資料伺服器上建立搜尋查詢。ID 有下列限制: <ul><li>不可包含空格</li><li>不可包含「.」、「:」、「$」</li><li>第一個字元不可為數字</li><li>最佳實務為使用 a-z 或 A-Z 作為第一個字元</li></ul> <br>建立之後，便無法再變更 ID。 |
+| ID | 此屬性的技術識別名稱。ID不會顯示在AdobeDynamic Media Classic UI，但會在資產的中繼資料儲存在XMP區塊和資料庫時使用。 ID 會用來在中繼資料伺服器上建立搜尋查詢。ID 有下列限制: <ul><li>不可包含空格</li><li>不可包含「.」、「:」、「$」</li><li>第一個字元不可為數字</li><li>最佳實務為使用 a-z 或 A-Z 作為第一個字元</li></ul> <br>建立之後，便無法再變更 ID。 |
 | 標籤 | 此特性的 UI 名稱。 |
 | 結構 | 決定特性類型和資料類型。結構可為下列項目:<ul><li>簡單類型: 單一資料類型值</li><li>順序: 相同資料類型值的清單</li><li>開放選擇: 從預先定義值清單選取項目，或輸入自由文字。資料類型僅可為「字串」或「整數」</li><li>限定選擇: 從預先定義值清單 (彈出式或組合式) 選取項目</li></ul> |
 | 資料類型 | 從下列可用類型中選取: <ul><li>字串</li><li>整數</li><li>浮點</li><li>是/否 (布林)</li><li>日期</li></ul> |
@@ -210,11 +210,11 @@ Dynamic Media Classic提供建立範本以記錄中繼資料的命令。 使用�
 
 | 屬性 | 說明 |
 |--- |--- |
-| ID | 此值的技術識別名稱。ID不會顯示在Dynamic Media Classic UI中，但當資產的中繼資料儲存在XMP區塊和資料庫時，就會使用。 ID 會用於中繼資料伺服器上的搜尋查詢。ID 不可包含任何空格。建立之後，便無法再變更 ID。 |
+| ID | 此值的技術識別名稱。ID不會顯示在AdobeDynamic Media Classic UI，但當資產的中繼資料儲存在XMP區塊和資料庫時，就會使用。 ID 會用於中繼資料伺服器上的搜尋查詢。ID 不可包含任何空格。建立之後，便無法再變更 ID。 |
 | 標籤 | 此值的 UI 名稱。 |
 
 >[!MORELIKETHIS]
 >
->* [檢視器預設集](application-setup.md#viewer_presets)
-* [中繼資料預設集](application-setup.md#metadata_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
+>* [Metadata Presets](application-setup.md#metadata_presets)
 

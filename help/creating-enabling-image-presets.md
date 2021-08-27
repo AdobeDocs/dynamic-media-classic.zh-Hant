@@ -1,19 +1,19 @@
 ---
 title: 建立和啟用影像預設集
-description: 了解如何在Dynamic Media Classic中建立和啟用影像預設集。
+description: 了解如何在Dynamic Media Classic中建立和啟用影像預設集Adobe。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic，協作，影像預設集，資產管理
+feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 76%
+source-wordcount: '258'
+ht-degree: 78%
 
 ---
 

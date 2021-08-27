@@ -1,18 +1,18 @@
 ---
 title: 新增章節標籤至視訊
-description: 了解如何在Dynamic Media Classic中將章節標籤新增至視訊。
+description: 了解如何在Adobe Dynamic Media Classic中將章節標籤新增至視訊。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic，檢視器，影片
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 40%
 
 ---
@@ -57,7 +57,7 @@ Cost-efficient access to rapidly evolving technology.
 
 **增加章節標記至視訊:**
 
-1. 使用Dynamic Media Classic以外的簡單文字編輯器，建立您的視訊章節檔案。
+1. 在Dynamic Media Classic以外使用簡單的文字編輯器，建立您的影片章節檔案。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Cost-efficient access to rapidly evolving technology.
 
    一般而言，我們建議您用和視訊檔案相同的名稱來命名章節 VTT 檔案，然後在名稱後附加「`chapters`」。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
 
-1. 在Dynamic Media Classic中，上傳您的WebVTT章節檔案。
+1. 在AdobeDynamic Media Classic中，上傳您的WebVTT章節檔案。
 
    請參閱[上傳檔案](uploading-files.md#uploading_files)。
 

@@ -1,6 +1,6 @@
 ---
 title: 建立影像集
-description: 了解如何在Dynamic Media Classic中建立影像集。
+description: 了解如何在Adobe Dynamic Media Classic中建立影像集。
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 63%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 63%
 
 **編輯影像集:**
 
-1. 在「網格」視圖中，瀏覽到ImageSet，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在「網格視圖」中，瀏覽到ImageSet，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
 1. 請執行下列任一動作:
 
    * 若要加入影像 (已發佈或未發佈)，請將它從「增加資產」中的檔案夾拖曳到影像集的「**[!UICONTROL 檢視]**」頁面上。

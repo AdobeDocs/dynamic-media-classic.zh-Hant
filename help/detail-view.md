@@ -1,6 +1,6 @@
 ---
 title: 在詳細資訊視圖中工作
-description: 了解如何在Dynamic Media Classic的「詳細檢視」中運作。
+description: 了解如何在Adobe Dynamic Media Classic的「詳細檢視」中運作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 在「瀏覽」面板中，執行下列任一操作：
 
-   * 選取資產。在Dynamic Media Classic的右上角附近，選取&#x200B;**[!UICONTROL Detail View]**&#x200B;圖示。
+   * 選取資產。在AdobeDynamic Media Classic的右上角附近，選取&#x200B;**[!UICONTROL Detail View]**&#x200B;圖示。
    * 在這個資產按兩下。
    * 選取資產，然後前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]**。
 
@@ -54,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在詳細資訊檢視中取得資訊 {#getting-information-in-detail-view}
 
-詳細資訊檢視提供資產或檔案的相關資訊。 它會顯示項目的下列資訊：儲存該項目的資料夾、其檔案名稱、項目上傳至Dynamic Media Classic的日期，及其發佈記錄。 您也可以在「詳細資料檢視」中檢視及編輯中繼資料，以及新增資產的關鍵字。
+詳細資訊檢視提供資產或檔案的相關資訊。 它會顯示項目的下列資訊：儲存資料夾、檔案名稱、項目上傳至AdobeDynamic Media Classic的日期，及其發佈記錄。 您也可以在「詳細資料檢視」中檢視及編輯中繼資料，以及新增資產的關鍵字。
 
 您可以在「詳細資料檢視」中取得資產URL;不過，在您發佈資產之前，URL不會啟用。 對於影像，「詳細資訊檢視」也提供組建和衍生資產與中繼資料的清單，例如縮放目標與影像集。
 

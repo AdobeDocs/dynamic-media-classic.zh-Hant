@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1495'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 使用Admin Console建立支援案例，透過[請求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
 
-在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Dynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
+在電子郵件中，請提供想要用於上載影像資產的公司名稱。從AdobeDynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
 
 ## 擷取上載標記 {#retrieving-the-upload-token}
 

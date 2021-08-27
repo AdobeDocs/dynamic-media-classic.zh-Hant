@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 42%
+source-wordcount: '210'
+ht-degree: 43%
 
 ---
 
 # 處理 PostScript 和 Illustrator 檔案{#working-with-postscript-and-illustrator-files}
 
-您可以在Dynamic Media Classic中使用Adobe PostScript®(EPS)和Adobe® Illustrator®(AI)檔案。 Dynamic Media Classic提供您在上傳這些檔案時用來設定這些檔案的命令。
+您可以在AdobeDynamic Media Classic中使用Adobe PostScript®(EPS)和Adobe® Illustrator®(AI)檔案。 AdobeDynamic Media Classic提供您在上傳這些檔案時用以設定這些檔案的命令。
 
 上載 PostScript (EPS) 或 Illustrator (AI) 影像檔案時，可以透過不同方式予以格式化。您可以點陣化檔案、將檔案轉換 FXG 進行範本發佈、保留透明背景、選擇解析度，以及選擇色域。您可以在「上載」畫面的「上載工作選項」方框中，找到「PostScript 選項」與「Illustrator 選項」，其中提供用來格式化 PostScript 與 Illustrator 檔案的選項。
 

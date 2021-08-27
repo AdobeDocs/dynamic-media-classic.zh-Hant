@@ -1,10 +1,10 @@
 ---
-title: Dynamic Media Classic訓練影片
-description: Dynamic Media Classic訓練影片，以了解快速入門、動態影像、視訊、媒體入口網站、範本，以及影像製作和轉譯。
+title: AdobeDynamic Media Classic訓練影片
+description: AdobeDynamic Media Classic快速入門訓練影片、動態影像、視訊、媒體入口網站、範本，以及影像製作和轉譯。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '6546'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # AdobeDynamic Media Classic訓練影片 {#training-videos}
 
-Dynamic Media Classic訓練影片，以了解快速入門、動態影像、視訊、媒體入口網站、範本，以及影像製作和轉譯。
+AdobeDynamic Media Classic快速入門訓練影片、動態影像、視訊、媒體入口網站、範本，以及影像製作和轉譯。
 
 ## 開始使用 {#get-started-training}
 

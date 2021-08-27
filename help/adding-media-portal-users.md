@@ -1,18 +1,18 @@
 ---
 title: 新增和管理Media Portal使用者
-description: 了解如何在Dynamic Media Classic中新增和管理Media Portal使用者。
+description: 了解如何在AdobeDynamic Media Classic中新增和管理Media Portal使用者。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic，協作，資產管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件，或通知Dynamic Media Classic不要傳送。
+新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件，或通知AdobeDynamic Media Classic不要傳送。
 
 1. 導航至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**。
 1. 在「用戶管理設定」螢幕中，選擇&#x200B;**[!UICONTROL 電子郵件設定]**。
@@ -115,9 +115,9 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
    * **[!UICONTROL 傳送電子郵件]**  — 如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
 
-   * **[!UICONTROL 預設密碼]**  — 為新使用者輸入暫時密碼，或將欄位留空，讓Dynamic Media Classic產生隨機密碼。系統會要求使用者在首次登入時變更密碼。
+   * **[!UICONTROL 預設密碼]**  — 為新使用者輸入暫時密碼，或將欄位留空，讓AdobeDynamic Media Classic產生隨機密碼。系統會要求使用者在首次登入時變更密碼。
 
-   * **[!UICONTROL 取代URL]**  — 如果您的使用者透過不同URL存取Dynamic Media Classic，請輸入與預設不同的URL。
+   * **[!UICONTROL 取代URL]**  — 如果您的使用者透過不同URL存取AdobeDynamic Media Classic，請輸入與預設值不同的URL。
 
 ## 其它使用者管理任務 {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 * **[!UICONTROL 編輯使用者資訊]**  — 輸入使用者的最新資訊。
 
-* **[!UICONTROL 建立使用者定義欄位]**  — 建立自訂、使用者定義的中繼資料欄位，協助您在Dynamic Media Classic中整理資產。這些欄位也可視需要啟用或停用。
+* **[!UICONTROL 建立使用者定義欄位]**  — 建立自訂、使用者定義的中繼資料欄位，協助您在Dynamic Media Classic中整理Adobe。這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。

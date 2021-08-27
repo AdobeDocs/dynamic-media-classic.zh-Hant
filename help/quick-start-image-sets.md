@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # 快速入門: 影像集{#quick-start-image-sets}
 
-Dynamic Media傳統影像集為使用者提供整合的檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。影像集可讓您呈現項目的替代高解析度檢視。
+AdobeDynamic Media Classic影像集為使用者提供整合的檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。影像集可讓您呈現項目的替代高解析度檢視。
 
 影像集檢視器提供了縮放工具，以便近距離檢查影像。如果您想要，也可以讓已導引縮放目標和影像地圖成為您影像集的一部分。影像集能創造更一致且緊密的檢視體驗。
 
-此影像集快速入門旨在透過Dynamic Media Classic中的影像集技術快速上手並執行。
+本「影像集快速入門」旨在透過Adobe Dynamic Media Classic中的「影像集」技術快速上手並執行。
 
 ## 1.上傳多個檢視和色票的主影像
 
-請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這項功能。 請確定影像大小最大時至少為2000像素。 Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這項功能。 請確定影像大小最大時至少為2000像素。 AdobeDynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
-在全域導覽列上，按一下&#x200B;**[!UICONTROL Upload]** ，將檔案從電腦上傳至Dynamic Media Classic上的資料夾。
+在全域導覽列上，按一下&#x200B;**[!UICONTROL Upload]** ，將檔案從電腦上傳至Dynamic Media ClassicAdobe上的資料夾。
 
 請參閱[準備影像集資產進行上載](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上載檔案](uploading-files.md#uploading-your-files)。
 
@@ -45,7 +45,7 @@ Dynamic Media傳統影像集為使用者提供整合的檢視體驗。 在動態
 
 ## 3.視需要設定影像集檢視器預設集
 
-管理員可以建立或修改影像集檢視器預設集。Dynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
+管理員可以建立或修改影像集檢視器預設集。AdobeDynamic Media Classic隨附每個多媒體類型的預設檢視器預設集。 使用「縮放檢視器:自訂 > 影像」或「影像集/多重視圖」預設集以檢視影像集。
 
 您可以從「應用程式設定」畫面增加或編輯檢視器預設集。
 
@@ -59,7 +59,7 @@ Dynamic Media傳統影像集為使用者提供整合的檢視體驗。 在動態
 
 ## 5.發佈影像集
 
-發佈影像集會將其置於Dynamic Media Classic伺服器上並啟用URL字串。
+發佈影像集會將其置於AdobeDynamic Media Classic伺服器上並啟用URL字串。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Dynamic Media傳統影像集為使用者提供整合的檢視體驗。 在動態
 
 ## 6.將影像集連結至您的網站
 
-Dynamic Media Classic會建立影像集的URL呼叫，並在您發佈後啟用這些URL呼叫。 您可以從「預覽」畫面複製這些 URL。
+AdobeDynamic Media Classic會建立影像集的URL呼叫，並在您發佈後啟用它們。 您可以從「預覽」畫面複製這些 URL。
 
 選擇「影像集」，然後按一下「**[!UICONTROL 預覽]**」。 現在，請選取「影像集檢視器預設集」，然後按一下「**[!UICONTROL 複製URL]**」。
 

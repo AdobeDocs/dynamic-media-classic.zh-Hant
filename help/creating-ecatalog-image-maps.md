@@ -1,18 +1,18 @@
 ---
 title: 建立eCatalog影像映射
-description: 了解如何在Dynamic Media Classic中建立eCatalog影像地圖。
+description: 了解如何在AdobeDynamic Media Classic中建立eCatalog影像地圖。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic，檢視器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 40%
 
    * **矩形地圖**  — 選取「矩形影像地圖」工具，並拖曳頁面以建立矩形。
 
-   * **多邊形圖**  — 選取「多邊形影像圖」工具，然後在影像周長附近選取必要的次數。在您選取時，Dynamic Media Classic會繪製影像地圖的邊框。
+   * **多邊形圖**  — 選取「多邊形影像圖」工具，然後在影像周長附近選取必要的次數。當您選取時，AdobeDynamic Media Classic會繪製影像地圖的邊框。
 
-      繪製影像地圖後，Dynamic Media Classic會在「影像地圖」清單中為其指派名稱。 若要形成名稱，Dynamic Media Classic會在您所使用的eCatalog頁面名稱中附加一個循序編號。
+      繪製影像地圖後，AdobeDynamic Media Classic會在「影像地圖」清單中為其指派名稱。 若要形成名稱，AdobeDynamic Media Classic會在您正在工作的eCatalog頁面名稱中附加一個循序編號。
 
 1. （可選）從「影像地圖」清單中，在[!UICONTROL 名稱]欄中，您可以為「影像地圖」輸入新名稱。 請勿在輸入的名稱中包含空格。
 1. 當檢視器選取「影像地圖」時，您可以讓其開啟新網頁。 在「影像地圖」清單面板中的「URL」欄中輸入網頁的 URL。
@@ -131,7 +131,7 @@ ht-degree: 40%
 
 ## 在eCatalog之間複製影像映射 {#copying-image-maps-between-ecatalogs}
 
-您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了複製成功，Dynamic Media Classic建議在具有相同頁數和相同影像的eCatalog之間複製。
+您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了複製成功，AdobeAdobeDynamic Media Classic建議在具有相同頁數和相同影像的eCatalog之間複製。
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ ht-degree: 40%
 1. 在「訂單頁」頁簽上，選擇&#x200B;**[!UICONTROL 複製映射]**。
 1. 在「選擇資產」對話框中，選擇要複製影像映射的eCatalog，然後選擇&#x200B;**[!UICONTROL Select]**。
 
-Dynamic Media Classic如果目標eCatalog（您複製影像地圖的eCatalog）具有不同大小的頁面或影像數量，則會顯示警告訊息。 選擇&#x200B;**[!UICONTROL 繼續]**&#x200B;以複製影像映射（儘管出現警告）。
+AdobeDynamic Media Classic如果目標eCatalog（您複製影像地圖的eCatalog）具有不同大小的不同頁數或影像，則會顯示警告訊息。 選擇&#x200B;**[!UICONTROL 繼續]**&#x200B;以複製影像映射（儘管出現警告）。

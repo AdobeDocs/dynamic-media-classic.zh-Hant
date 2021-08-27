@@ -1,6 +1,6 @@
 ---
 title: 建立範本
-description: 了解如何在Dynamic Media Classic中建立範本。
+description: 了解如何在AdobeDynamic Media Classic中建立範本。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->如果您編輯在舊版Dynamic Media Classic中建立的範本，儲存時會出現提示詢問您「是否要新增畫布層？」。 選擇&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基層。 如果您不小心選取了&#x200B;**[!UICONTROL Yes]**，請刪除URL中的`&allowCanvasPrompt`和`&layer=0`修飾符，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
+>如果您編輯在舊版AdobeDynamic Media Classic中建立的範本，儲存時會出現提示，詢問您「是否要新增畫布層？」。 選擇&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基層。 如果您不小心選取了&#x200B;**[!UICONTROL Yes]**，請刪除URL中的`&allowCanvasPrompt`和`&layer=0`修飾符，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
 
 ## 建立初始範本 {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ ht-degree: 45%
 1. 選擇&#x200B;**[!UICONTROL 保存]**。
 1. 選擇用於儲存模板的資料夾，輸入模板的名稱，然後選擇&#x200B;**[!UICONTROL Submit]**。
 
-   Dynamic Media Classic會視需要縮小影像，以便符合畫布上的影像，畫布是定義範本的「範本」畫面上的區域。
+   AdobeDynamic Media Classic會視需要縮小影像，以便符合畫布上的影像，畫布是定義範本的「範本」畫面上的區域。
 
 ## 編輯範本集 {#editing-a-template-set}
 
@@ -69,7 +69,7 @@ ht-degree: 45%
 
 **若要編輯範本集：**
 
-1. 在「網格」視圖中，瀏覽到模板集，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在「網格視圖」中，瀏覽到模板集，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
 1. 視需要變更範本。
 1. 完成編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選擇&#x200B;**[!UICONTROL 保存]**，選擇儲存資料夾，輸入該集的名稱，然後選擇&#x200B;**[!UICONTROL 保存]**。
@@ -103,7 +103,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >Dynamic Media Classic中的選項是移除文字編輯器v4.2，因此建議您盡可能使用文字編輯器4.3。 **[!UICONTROL 文字繞排]**&#x200B;選項將整合至未來的文字編輯器版本中。
+   >AdobeDynamic Media Classic中已計畫將文字編輯器v4.2移除，因此建議您盡可能使用文字編輯器4.3。 **[!UICONTROL 文字繞排]**&#x200B;選項將整合至未來的文字編輯器版本中。
 
 * **[!UICONTROL 設計人員和開發人員]**  — 選取最能說明您角色的選項。
 
@@ -121,7 +121,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如有必要，Dynamic Media Classic會縮小影像，以在您建立影像圖層時讓影像符合畫布。
+   >如有必要，AdobeDynamic Media Classic會縮小影像，以在您建立影像層時讓影像符合畫布。
 
 ## 建立文字圖層 {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ ht-degree: 45%
 1. 在文本編輯器的文本框中，選擇要格式化的文本。 您可以選取所有文字、文字的部分或個別字元。
 1. 指定以下任何格式選項，然後選擇&#x200B;**[!UICONTROL Apply]**。
 
-   * **[!UICONTROL 字型]**  — 在「字型」菜單上選擇字型。如果您要的字型未出現在功能表中，可將其上傳至Dynamic Media Classic。 請參閱字型。
+   * **[!UICONTROL 字型]**  — 在「字型」菜單上選擇字型。如果您要的字型未出現在功能表中，可將其上傳至AdobeDynamic Media Classic。 請參閱字型。
 
    * **[!UICONTROL 字型大]** 小 — 從菜單中選擇字型大小，在框中鍵入特定大小，或選擇向上或向 **** 下 **** 箭頭將大小增加或減小兩點。
 
@@ -244,7 +244,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->Dynamic Media Classic建議您建立與範本大小完全相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
+>AdobeDynamic Media Classic建議您建立與範本大小完全相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
 
 * **更改圖層的大小**  — 要更改圖層或畫布的大小，請在「圖層」清單中選擇圖層或畫布，然後使用以下技術之一：
 
@@ -288,7 +288,7 @@ ht-degree: 45%
 
 ## 對圖層使用陰影和發光效果 {#using-shadow-and-glow-effects-on-layers}
 
-您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的模板源自於具有陰影和發光效果的PSD檔案，則可以在Dynamic Media Classic中調整這些效果。
+您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的模板源自於具有陰影和發光效果的PSD檔案，則可以在AdobeDynamic Media Classic中調整這些效果。
 
 套用陰影或光暈效果之後，您可以在「範本」畫面的「圖層屬性」區域調整其大小、色彩、不透明度和位置。
 

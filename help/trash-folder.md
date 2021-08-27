@@ -7,39 +7,39 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 39%
 
 ---
 
 # 管理垃圾桶檔案夾{#managing-the-trash-folder}
 
-您從Dynamic Media Classic刪除的項目會移至垃圾桶資料夾。 已刪除的會保留在此資料夾中7天，直到被還原或永久刪除為止。 您可以按一下資產庫底部的&#x200B;**[!UICONTROL 清除]**&#x200B;圖示，並在清除資料夾頁面中檢視項目，以檢查已刪除的項目。
+您從AdobeDynamic Media Classic刪除的項目會移至垃圾桶資料夾。 已刪除的會保留在此資料夾中7天，直到被還原或永久刪除為止。 您可以按一下資產庫底部的&#x200B;**[!UICONTROL 清除]**&#x200B;圖示，並在清除資料夾頁面中檢視項目，以檢查已刪除的項目。
 
 所有使用者都可以將「垃圾桶」檔案夾中的項目還原到其刪除來源的檔案夾。所有使用者也都可以清空「垃圾桶」檔案夾中的所有內容。
 
-從「垃圾筒」資料夾刪除項目，會永久刪除Dynamic Media Classic中的項目；從垃圾桶資料夾刪除的項目無法再還原。 如需設定在資產即將從「垃圾桶」中自動刪除時通知公司管理員的資訊，請參閱[應用程式一般設定](application-setup.md#general_settings)。
+從「垃圾筒」資料夾刪除項目會從AdobeDynamic Media Classic中永久刪除項目；從垃圾桶資料夾刪除的項目無法再還原。 如需設定在資產即將從「垃圾桶」中自動刪除時通知公司管理員的資訊，請參閱[應用程式一般設定](application-setup.md#general_settings)。
 
 >[!NOTE]
 >
->已移至垃圾桶資料夾的資產仍會在Dynamic Media Classic上註冊。 如果您嘗試上傳的檔案名稱與「垃圾筒」資料夾中已刪除的檔案相同，Dynamic Media Classic會將您要上傳的資產視為重複資產。 因此，其名稱會附加數字。
+>已移至垃圾桶資料夾的資產仍會在AdobeDynamic Media Classic中註冊。 如果您嘗試上傳的檔案名稱與「垃圾筒」資料夾中已刪除的檔案相同，AdobeDynamic Media Classic會將您要上傳的資產視為重複資產。 因此，其名稱會附加數字。
 
 ## 關於垃圾桶檔案夾 {#about-the-trash-folder}
 
 刪除檔案夾中的項目會將該項目放入「垃圾桶」檔案夾。刪除項目並將它移動到「垃圾桶」檔案夾時，會發生下列狀況:
 
-* 雖然項目已從您的Dynamic Media Classic資料夾中移除，但其ID無法指派給其他資產，因為它仍保留在垃圾桶資料夾中。 如果您嘗試上傳與垃圾桶資料夾中的檔案同名的資產，Dynamic Media Classic會將數字附加至資產名稱。
+* 雖然項目已從您的AdobeDynamic Media Classic資料夾中移除，但其ID無法指派給其他資產，因為資產仍保留在垃圾桶資料夾中。 如果您嘗試上傳與垃圾桶資料夾中的檔案同名的資產，AdobeDynamic Media Classic會在資產名稱中附加數字。
 * 無法發佈項目。即使項目在您刪除時已標記為發佈，您也無法予以發佈。
 * 項目會保留在「垃圾筒」資料夾中，直到還原、七天過後，或有人選擇&#x200B;**[!UICONTROL 清除垃圾筒]**&#x200B;命令。 七天之後，自動清除作業就會永久刪除項目。
 
 ## 從垃圾桶檔案夾中復原資產 {#restoring-assets-from-the-trash-folder}
 
-並非刪除資產的人才能夠還原資產；任何人都可以從「垃圾桶」檔案夾中還原資產。還原的資產會放在其刪除來源的檔案夾中。如果這些資料夾已不存在，Dynamic Media Classic會重新建立這些資料夾，並將還原的資產放置在重新建立的資料夾中。
+並非刪除資產的人才能夠還原資產；任何人都可以從「垃圾桶」檔案夾中還原資產。還原的資產會放在其刪除來源的檔案夾中。如果這些資料夾已不存在，AdobeDynamic Media Classic會重新建立這些資料夾，並將還原的資產放置在重新建立的資料夾中。
 
 若要將資產從垃圾桶資料夾還原至從中刪除的資料夾，請執行下列動作：
 

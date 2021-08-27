@@ -1,6 +1,6 @@
 ---
 title: 建立引導式縮放的縮放目標
-description: 了解如何在Dynamic Media Classic中建立引導式縮放的縮放目標。
+description: 了解如何建立縮放目標，以引導式放大AdobeDynamic Media Classic。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 44%
 
 在「縮放目標編輯器」畫面上建立並編輯縮放目標。若要開啟該畫面，請選取一個影像並執行以下操作之一:
 
-* 選擇滾動&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後選擇縮放目標。
+* 選擇變換&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後選擇縮放目標。
 * 在「瀏覽」面板中，在&#x200B;**[!UICONTROL Detail View]**&#x200B;中顯示影像，然後選擇&#x200B;**[!UICONTROL Zoom Targets]**。
 
 在縮放目標編輯器螢幕上，選擇&#x200B;**[!UICONTROL 選擇目標]**&#x200B;按鈕（箭頭）以在更改目標大小或位置之前選擇目標。 要在影像上建立縮放目標，請選擇&#x200B;**[!UICONTROL 添加目標]**（矩形）。 「縮放目標編輯器」頁面也提供刪除、複製和命名縮放目標的工具。

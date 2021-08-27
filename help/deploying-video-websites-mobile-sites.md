@@ -1,6 +1,6 @@
 ---
 title: 將視訊部署到網站和行動裝置網站
-description: 了解如何從Dynamic Media Classic將視訊部署至您的網站和行動網站。
+description: 了解如何透過AdobeDynamic Media Classic將視訊部署至您的網站和行動網站。
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 35%
+source-wordcount: '1704'
+ht-degree: 34%
 
 ---
 
 # 將視訊部署到網站和行動裝置網站{#deploying-video-to-your-websites-and-mobile-sites}
 
-網站、行動網站和案頭應用程式可使用URL字串或內嵌程式碼來存取Dynamic Media Classic伺服器內容，包括視訊。 Dynamic Media Classic會在發佈程式期間啟用這些URL字串。 若要將視訊的URL字串或內嵌程式碼放置在網頁、行動頁面和案頭應用程式中，請從Dynamic Media Classic複製。
+網站、行動網站和案頭應用程式可透過使用URL字串或內嵌程式碼來存取AdobeDynamic Media Classic伺服器內容，包括視訊。 AdobeDynamic Media Classic會在發佈程式期間啟用這些URL字串。 若要將視訊的URL字串或內嵌程式碼放入網頁、行動頁面和案頭應用程式中，請從AdobeDynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ ht-degree: 35%
 
 ## 發佈視訊 {#publishing-video}
 
-發佈視訊可讓Dynamic Media Classic伺服器傳送視訊至您的網站、行動網站或應用程式。
+發佈視訊可讓AdobeDynamic Media Classic伺服器傳送視訊至您的網站、行動網站或應用程式。
 
 您可使用兩種不同的方法來發佈視訊: 
 
-* **在上載時立即自動發佈視訊**  — 在視訊上傳程式中，Dynamic Media Classic可在視訊上傳和編碼時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
+* **在上載時立即自動發佈視訊**  — 在視訊上傳程式中，AdobeDynamic Media Classic可在視訊上傳和編碼時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
 
 * **在上載後手動發佈視訊**  — 如果您不想立即發佈影片，可隨時手動發佈影片。
 
-發佈影片後，Dynamic Media Classic會為您的HTML頁面或應用程式程式碼啟用URL字串。
+發佈影片後，AdobeDynamic Media Classic會為您的HTML頁面或應用程式程式碼啟用URL字串。
 
 **發佈視訊:**
 
@@ -107,7 +107,7 @@ ht-degree: 35%
 
 ### 實作內嵌程式碼以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-如果您未使用Dynamic Media Classic HTML5視訊播放器，但想搭配MP4視訊資產使用原生HTML5 `<video>`標籤，則可使用下列內嵌程式碼範例：
+如果您未使用AdobeDynamic Media Classic HTML5視訊播放器，但想搭配MP4視訊資產使用原生HTML5 `<video>`標籤，則可使用下列內嵌程式碼範例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ ht-degree: 35%
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
-如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
+如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非AdobeDynamic Media Classic視訊檢視器，則可取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
 
 **部署使用第三方視訊播放器的視訊:**
 
-1. 在Dynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**。
+1. 在AdobeDynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**。
 1. 依據您要使用的 URL 類型，執行下列其中一項工作: 
 
 * 若要產生直接HLS串流視訊URL（多位元速率）
@@ -165,13 +165,13 @@ ht-degree: 35%
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 
-Dynamic Media Classic會為編碼的視訊產生縮圖，並預先編碼視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您還可以取得Dynamic Media Classic所產生影片縮圖的URL，並在Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
+AdobeDynamic Media Classic會為已編碼的視訊和預先編碼的視訊產生縮圖。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您還可以取得AdobeDynamic Media Classic所產生的視訊縮圖的URL，並在AdobeDynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
 
 縮圖的產生以視訊中的首個異質影格 (非全黑影格或全白影格等等) 為基礎。
 
 ### 取得視訊縮圖URL {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖在清單檢視和格點檢視的瀏覽面板中顯示。
+AdobeDynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖會出現在「清單視圖」和「網格視圖」的「瀏覽」面板中。
 
 若要產生視訊縮圖的 URL，請執行發佈作業。
 
@@ -181,7 +181,7 @@ Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖�
 
 ### 在視訊檢視器中修改海報影格 {#modifying-poster-frames-in-video-viewers}
 
-「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。Dynamic Media Classic使用視訊縮圖作為海報框架。
+「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。AdobeDynamic Media Classic將視訊縮圖用作海報框架。
 
 您可以將影像修飾元套用至海報影格。例如，您可以裁切海報影格或使其變得透明。若要修改海報影格，請開啟視訊檢視器配置畫面，並在「海報影像修飾元」區段輸入修飾元。
 

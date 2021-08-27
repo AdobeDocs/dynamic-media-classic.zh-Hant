@@ -1,6 +1,6 @@
 ---
 title: 個人設定
-description: 所有使用者都可以變更Dynamic Media Classic「個人設定」畫面上的設定。
+description: 所有使用者都可以變更AdobeDynamic Media Classic的「個人設定」畫面上的設定。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->「個人設定」畫面會列出您在Dynamic Media Classic中的使用者角色：公司管理員、管理員或使用者。
+>「個人設定」畫面會列出您在AdobeDynamic Media Classic中擁有的使用者角色：公司管理員、管理員或使用者。
 
 「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。變更這些設定後，請記得按一下「儲存」。
 
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 **若要安裝AdobeDynamic MediaCreative Suite擴充功能：**
 
-1. 在Dynamic Media Classic中，在工具列上，按一下&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**，在「Creative Suite副檔名」下，按一下&#x200B;**[!UICONTROL Download Now]**&#x200B;以下載`s7csxs.zxp`檔案。
+1. 在AdobeDynamic Media Classic中，在工具列上，按一下&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**，在Creative Suite副檔名下，按一下&#x200B;**[!UICONTROL Download Now]**&#x200B;以下載`s7csxs.zxp`檔案。
 1. 按一下&#x200B;**[!UICONTROL Installation]**&#x200B;和&#x200B;**[!UICONTROL System Requirements]**&#x200B;連結，以了解有關該擴展的其他資訊。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,11 +72,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 瀏覽器
 
-* **縮圖大小**  — 決定「瀏覽」面板中「網格」視圖中縮圖影像的預設大小。
+* **縮圖大小**  — 決定「瀏覽」面板中「網格視圖」中縮圖影像的預設大小。
 * **預設資產庫檢視**  — 決定組建集的資產庫中的資產是否顯示為縮圖或依名稱。如果您正在處理「資產庫」中的大量資產，則可依名稱來檢視資產。例如，如果您使用許多 PDF 檔案建置大型 eCatalog，便可以依照名稱來檢視資產，使清單較為簡短。
 * **預設的瀏覽排序順序**  — 決定資產在「瀏覽」面板中預設顯示的順序。在選單上選擇排序條件，以及是否採用遞增或遞減排序。
 * **預設瀏覽位置**  — 可讓您將瀏覽位置設定為預設、上次瀏覽的資料夾，或設定為您導覽至並識別的特定位置。您也可以設定瀏覽位置，將檔案和檔案夾按遞增或遞減排序。
-* **預設瀏覽視圖**  — 確定首次開啟「瀏覽」面板時看到的預設視圖是網格視圖還是清單視圖。
+* **預設瀏覽視圖**  — 確定首次開啟「瀏覽」面板時看到的預設視圖是「網格視圖」還是「清單視圖」。
 * **閃屏顯示**  — 確定您是否看到任何閃屏，包括歡迎閃屏。
 * **顯示工具提示**  — 確定將指針移到按鈕、菜單和導航連結上時是否顯示工具提示。工具提示說明螢幕上的使用者介面項目。
 * **棋盤背景**  — 在影像後面顯示棋盤圖層，讓您輕鬆查看具有Alpha通道的影像的透明區域。
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 電子郵件
 
-* **電子郵件選項**  — 選擇您希望Dynamic Media Classic在上傳和發佈作業完成時，透過電子郵件通知您的方式。只有在出現警告或錯誤時才會收到工作完成通知。
+* **電子郵件選項**  — 選擇您要如何AdobeDynamic Media Classic，以在上傳和發佈作業完成時透過電子郵件通知您。只有在出現警告或錯誤時才會收到工作完成通知。
 * **電子郵件範圍**  — 決定您是否收到公司的所有工作電子郵件，或是只收到您起始的上傳和發佈工作的電子郵件。
 * **電子郵件類型**  — 決定上傳作業和發佈作業完成時是否收到通知。
 

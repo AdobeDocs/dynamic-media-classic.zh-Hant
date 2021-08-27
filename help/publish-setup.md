@@ -1,22 +1,22 @@
 ---
 title: 發佈設定
-description: 發佈設定設定可讓您決定預設如何將資產從Dynamic Media Classic伺服器傳遞至網站或應用程式。
+description: 發佈設定設定可讓您決定預設如何將資產從AdobeDynamic Media Classic伺服器傳送至網站或應用程式。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 47%
+source-wordcount: '2416'
+ht-degree: 46%
 
 ---
 
 # 發佈設定 {#publish-setup}
 
-「發佈設定」頁面設定會決定預設情況下如何將資產從Dynamic Media Classic伺服器傳遞至網站或應用程式。 如果未指定任何設定，Dynamic Media Classic伺服器會根據「發佈設定」頁面上的預設設定來傳送資產。 例如，傳送不包含解析度屬性的影像的請求會產生影像，影像伺服器頁面上具有「預設物件解析度」設定。
+「發佈設定」頁面設定依預設會決定如何將資產從AdobeDynamic Media Classic伺服器傳送至網站或應用程式。 如果未指定任何設定，AdobeDynamic Media Classic伺服器會根據「發佈設定」頁面上的預設設定來傳送資產。 例如，傳送不包含解析度屬性的影像的請求會產生影像，影像伺服器頁面上具有「預設物件解析度」設定。
 
 管理員可以變更影像伺服器、影像轉譯器和暈映頁面上的預設設定，以建立從伺服器傳送資產的預設設定。
 
@@ -24,15 +24,15 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->「發佈設定」頁面可供經驗豐富的網站開發人員和程式設計人員使用。 Dynamic Media Classic假設在這些頁面上變更設定的使用者熟悉Dynamic Media Classic、HTTP通訊協定標準和慣例，以及基本影像技術。
+>「發佈設定」頁面可供經驗豐富的網站開發人員和程式設計人員使用。 AdobeDynamic Media Classic假設在這些頁面上變更設定的使用者熟悉AdobeDynamic Media Classic、HTTP通訊協定標準和慣例，以及基本影像處理技術。
 
 ## 影像伺服器 {#image-server}
 
 「影像伺服器」頁建立從影像伺服器傳送影像的預設設定。 這五個類別中都有設定可用（如需設定的詳細說明，請參閱影像伺服器頁面本身）。
 
-請僅在Dynamic Media Classic支援人員協助下變更這些設定。
+請僅在AdobeDynamic Media Classic支援人員協助下變更這些設定。
 
-* **目錄管理**  — 這些設定可決定Dynamic Media Classic和目錄的互動方式。與大多數Web伺服器不同，Dynamic Media影像伺服器URL呼叫會轉至資訊清單或目錄檔案，而非影像檔案適當。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+* **目錄管理**  — 這些設定可決定AdobeDynamic Media Classic和目錄的互動方式。與大多數Web伺服器不同，Dynamic Media影像伺服器URL呼叫會轉至資訊清單或目錄檔案，而非影像檔案適當。 目錄檔案 (請勿與 eCatalog 混淆) 包含了所有發佈至影像伺服器的內容清單，以及各個影像的路徑。如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
 * **請求屬性**  — 這些設定會限制可從伺服器傳送的影像。例如，*最大值* **[!UICONTROL 回覆影像大小限制]**&#x200B;為&#x200B;**[!UICONTROL 寬度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
 
@@ -59,9 +59,9 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->如果要在Dynamic Media Classic中設定本地化支援選項，如「地區對應」欄位，請[使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
+>如果要在AdobeDynamic Media Classic中設定本地化支援選項，如「區域設定映射」欄位，請[使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求設定說明。
 
-使用Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常，這些差異適用於整體介質的某些部分。 針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Dynamic Media Classic使用基本查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
+使用AdobeDynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常，這些差異適用於整體介質的某些部分。 針對每個國家來複製所有資產，然後僅就差異的部分進行覆寫來處理此類差異，不僅工程浩大，也與單一主資產的精神相違背。資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。AdobeDynamic Media Classic使用基本查閱機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
 #### 資產本地化的方式
 
@@ -97,7 +97,7 @@ IS支援任意可打印的ASCII字串。 `locale=`命令具有全局範圍，這
 
 #### 實作資產本地化
 
-Dynamic Media Classic和Image Serving有一個介面，可將影像和靜態內容本地化。
+AdobeDynamic Media Classic和影像伺服有一個介面，可將影像和靜態內容的地方化。
 
 若未本地化，影像伺服器的 URL 將看起來如下:
 
@@ -117,7 +117,7 @@ Dynamic Media Classic和Image Serving有一個介面，可將影像和靜態內�
 
 >[!NOTE]
 >
->只有透過API進行設定時，才能使用「全域地區設定」，而非在Dynamic Media Classic介面中。
+>只有透過API進行設定時，才能使用「全域地區設定」，而不是在AdobeDynamic Media Classic介面中。
 
 **字尾範例:**
 
@@ -137,7 +137,7 @@ Dynamic Media Classic和Image Serving有一個介面，可將影像和靜態內�
 
 #### 關於defaultImage
 
-影像伺服器會針對所請求的地區逐一嘗試各個選項。如果未找到匹配項，則語言環境選項將應用於defaultImage，並返回匹配版本。 因此，每個地區必須包含影像的選項（不本地化），或是Dynamic Media Classic提供本地化的defaultImage版本。
+影像伺服器會針對所請求的地區逐一嘗試各個選項。如果未找到匹配項，則語言環境選項將應用於defaultImage，並返回匹配版本。 因此，每個語言環境必須包含一個不本地化的影像選項，或者，在AdobeDynamic Media Classic中提供本地化的defaultImage版本。
 
 #### 尋找 localeMap 的案例 
 
@@ -220,7 +220,7 @@ Dynamic Media Classic和Image Serving有一個介面，可將影像和靜態內�
 
 「影像轉譯器」頁面建立從影像轉譯伺服器傳送影像集的預設設定。 這五個類別中都有設定可用（如需設定的詳細說明，請參閱影像伺服器頁面本身）:
 
-* **目錄管理**  — 這些設定可決定Dynamic Media Classic和目錄檔案的互動方式。Dynamic Media Classic轉譯伺服器URL會呼叫目錄，而目錄又會呼叫以從伺服器傳送影像。 請僅在Dynamic Media Classic支援人員協助下變更這些設定。
+* **目錄管理**  — 這些設定可決定AdobeDynamic Media Classic和目錄檔案的互動方式。AdobeDynamic Media Classic轉譯伺服器URL會呼叫目錄，而目錄又會呼叫從伺服器傳送影像。 請僅在AdobeDynamic Media Classic支援人員協助下變更這些設定。
 
 * **工作階段屬性**  — 這些設定會建立錯誤參數、相對影像URL的URL，以及是否允許物件重疊。
 

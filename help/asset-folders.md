@@ -1,27 +1,27 @@
 ---
 title: 使用資產資料夾
-description: 了解如何在Dynamic Media Classic中使用資產資料夾。
+description: 了解如何在Dynamic Media Classic中使用資產資料夾Adobe。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # 使用資產資料夾{#working-with-asset-folders}
 
-Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。在將檔案從電腦或網路上傳至Dynamic Media Classic之前，系統會要求您為要儲存檔案的資料夾命名。 上載任何檔案之前，請先建立這些檔案夾。
+AdobeDynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。在從電腦或網路上傳檔案以AdobeDynamic Media Classic之前，系統會要求您為儲存檔案的資料夾命名。 上載任何檔案之前，請先建立這些檔案夾。
 
-上傳檔案之前，請務必建立資料夾結構和組織，以在Dynamic Media Classic上儲存檔案。
+上傳檔案之前，請務必建立資料夾結構和組織，以在AdobeDynamic Media Classic上儲存檔案。
 
 ## 顯示、移動、隱藏和開啟資料夾 {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫�
 
    >[!NOTE]
    >
-   >透過FTP上傳檔案時，您也可以在Dynamic Media Classic中建立資料夾。 透過FTP上傳時，選取&#x200B;**[!UICONTROL 包含子資料夾]**&#x200B;選項會複製系統中電腦上的資料夾結構。 您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
+   >透過FTP上傳檔案時，您也可以在AdobeDynamic Media Classic中建立資料夾。 透過FTP上傳時，選取&#x200B;**[!UICONTROL 包含子資料夾]**&#x200B;選項會複製系統中電腦上的資料夾結構。 您電腦或網路上的檔案與子檔案夾會複製到資產庫，而您上載的資產則會放在這些檔案夾中。
 
 ## 刪除和更名資料夾 {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Dynamic Media Classic中的檔案資產會保留在資料夾中。 「資產庫�
 
 >[!NOTE]
 >
->您無法複製資料夾或資產，因為這麼做會在Dynamic Media Classic上建立重複資料夾和資產，且不允許重複。
+>您無法複製資料夾或資產，因為這麼做會在Dynamic Media ClassicAdobe上建立重複資料夾和資產，且不允許重複項目。

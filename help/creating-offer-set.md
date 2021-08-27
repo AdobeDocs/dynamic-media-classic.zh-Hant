@@ -1,6 +1,6 @@
 ---
 title: 建立優惠方案集
-description: 了解如何在Dynamic Media Classic中建立優惠方案集。
+description: 了解如何在AdobeDynamic Media Classic中建立優惠方案集。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1232'
 ht-degree: 38%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 38%
 
 對於模板，選擇&#x200B;**[!UICONTROL 添加並預覽]**，然後設定您選擇的參數。 其他選件集類型不包含參數，但您仍可以選取&#x200B;**[!UICONTROL 預覽]**&#x200B;並變更可用的預設集來自訂參數。
 
-Dynamic Media Classic提供編輯和建立優惠方案集的工具。
+AdobeDynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 >[!NOTE]
 >
->建立優惠方案集之前，請務必發佈您要用於該集的所有資產，並設為Dynamic Media Classic。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
+>建立優惠方案集之前，請務必發佈您要用於該集以AdobeDynamic Media Classic的所有資產。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
 ## 提案集的類型 {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 * **影像**  — 您可以組合選件集的影像。每個影像在集合中包含不同的選件。
 
-* **影像範本**  — 您可以使用「建置>範本基本概念」命令，以參數化Dynamic Media Classic中的影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像範本**  — 您可以使用「建置>範本基本概念」命令，在Adobe Dynamic Media Classic中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
 
 * **影片**  — 您可以為優惠方案集組合影片。每個視訊是提案集中的一個不同提案。
 
@@ -93,7 +93,7 @@ Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
    * **Test&amp;Target選件集畫面**  — 前往「 **[!UICONTROL 建置]**  >  **[!UICONTROL Test&amp;Target選件集」]**。將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   * **格線檢視或清單檢視**  — 選取影像或影片，然後前往 **[!UICONTROL 「建置]**  >  **[!UICONTROL Test&amp;Target選件集」]**。
+   * **格線檢視或清單檢視**  — 選取影像或影片，然後前往 **[!UICONTROL 建置]**  >  **[!UICONTROL Test&amp;Target選件集]**。
 
 1. 或者，選擇影像或視頻，然後選擇&#x200B;**[!UICONTROL 預覽]**。 在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或影片。
 
@@ -122,7 +122,7 @@ Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 **若要編輯優惠方案集：**
 
-1. 若要編輯選件集，請顯示「格線」檢視或「清單」檢視中的選件集，然後選取其&#x200B;**[!UICONTROL Edit]**&#x200B;變換按鈕。
+1. 若要編輯選件集，請在「格線檢視」或「清單檢視」中顯示選件集，然後選取其&#x200B;**[!UICONTROL Edit]**&#x200B;變換按鈕。
 1. 在「Test&amp;Target選件集」頁面中，執行下列任一操作：
 
    * **移除選件**  — 選取選件，然後選取「刪 **** 除」以從集中移除選件。
@@ -132,7 +132,7 @@ Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
    >[!NOTE]
    >
-   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動相關聯的選件集，請登入Adobe Target Standard/Premium，並先移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Dynamic Media Classic中刪除，需要登入Adobe Target Standard/Premium，而不能從Adobe Target Standard/Premium中刪除。
+   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動相關聯的選件集，請登入Adobe Target Standard/Premium，並先移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從AdobeDynamic Media Classic中刪除，需要登入Adobe Target Standard/Premium，而不能從Adobe Target Standard/Premium中刪除。
 
 1. 完成編輯時，在頁面右下角附近，確定已選取「儲存後發佈」 ****（預設）。
 1. 選擇&#x200B;**[!UICONTROL 保存]**，選擇儲存資料夾，輸入該集的名稱，然後選擇&#x200B;**[!UICONTROL 保存]**。

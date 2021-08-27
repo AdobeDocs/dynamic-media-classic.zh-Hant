@@ -1,6 +1,6 @@
 ---
 title: 管理影像集中的資訊面板內容
-description: 了解如何在Dynamic Media Classic中管理影像集中的資訊面板內容。
+description: 了解如何在Adobe Dynamic Media Classic中管理影像集中的資訊面板內容。
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 除了針對影像集中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
-您可以使用Dynamic Media Classic中的下列功能來管理InfoPanel設定和資料：
+您可以使用Dynamic Media Classic中的下列功能來管理您的InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈影像集。
 * 「資訊面板」資料摘要面板可讓您指定CSV檔案，其中包含您要顯示在資訊面板變換文字中的文字，以及排程更新資訊的時間。
@@ -40,7 +40,7 @@ ht-degree: 51%
    * 要使用預設響應，請選擇&#x200B;**[!UICONTROL Default]**。 用於範本設計的 XML 會以暗灰色顯示在「使用者範本」文字方框中。
    * 要建立自己的響應模板，請選擇&#x200B;**[!UICONTROL Custom]**。 在「使用者範本」文字方框中，輸入範本 XML 定義。您可以在文字方框中使用已經定義的預設範本為基礎，以作為自己的回應。
 
-1. （選用）在「預設回應」方塊中，輸入如果Dynamic Media Classic擷取影像地圖的資訊時發生錯誤，您想要顯示的文字。 例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （選用）在「預設回應」方塊中，輸入如果AdobeDynamic Media Classic在擷取影像地圖的資訊時發生錯誤，您要顯示的文字。 例如，如果系統收到公司名稱與影像集名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」文字欄位中輸入要在快取資料前等待的小時數。
 
    * 如果整天經常更新資料，請設定較低的數字。

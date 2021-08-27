@@ -1,15 +1,15 @@
 ---
 title: '向視頻添加字幕 '
-description: 了解如何在Dynamic Media Classic中為視訊新增字幕。
+description: 了解如何在AdobeDynamic Media Classic中為視訊新增字幕。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic，檢視器，影片
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '904'
 ht-degree: 32%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 32%
 
 另請參閱[新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
-Dynamic Media Classic可將註解檔案轉換為JSON（JavaScript物件標籤法）格式。 這項轉換意味著您可以在網頁中內嵌 JSON 文字，成為隱藏但完整的視訊文字。然後，搜尋引擎可對內容進行編目並建立索引，讓您更容易找到影片，並為客戶提供影片內容的詳細資訊。
+AdobeDynamic Media Classic可將註解檔案轉換為JSON（JavaScript物件標籤法）格式。 這項轉換意味著您可以在網頁中內嵌 JSON 文字，成為隱藏但完整的視訊文字。然後，搜尋引擎可對內容進行編目並建立索引，讓您更容易找到影片，並為客戶提供影片內容的詳細資訊。
 
 如需有關在URL中使用JSON函式的詳細資訊，請參閱&#x200B;*Adobe影像提供API說明*&#x200B;中的[提供靜態（非影像）內容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)。
 
@@ -44,9 +44,9 @@ Dynamic Media Classic可將註解檔案轉換為JSON（JavaScript物件標籤法
 
    | 檢視器類型 | 註解檔案 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://w3c.github.io/webvtt/):網路視訊文字追蹤格式。<br><br>您可使用免費和付費的工具和服務，在Dynamic Media Classic外製作註解檔案。例如，要建立不帶樣式的簡單視頻字幕檔案，可以使用以下免費線上字幕創作和編輯工具：<br><br>[WebVTT字幕製作器](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>為獲得最佳結果，請使用Internet Explorer 9或更高版本、Google Chrome或Safari中的工具。 <br><br>在工具的「輸入視 <b>訊檔案的URL」欄</b> 位中，貼上視訊檔案的URL，然後選取「載 <b>入」</b>。<br><br>例如，如果您的視訊檔案使用Dynamic Media Classic URL，請連按兩下個別視訊資產（非適用性視訊集或主視訊），以在「詳細資料檢視」中開啟它。在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。然後在「行動裝置」群組下方的「行動裝置」（漸進式）右側，選取「<b>複製URL</b>」。 此程式會提供視訊檔案本身的URL，然後您可將其貼入視訊檔案<b>的「輸入URL」欄位</b>。 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成後，複製字幕檔案內容並貼到純文字編輯器中，然後以VTT副檔名儲存。 <br><br><b>注意： </b> 若要以英文以外的語言支援視訊標題，WebVTT標準需要您針對您要支援的每種語言建立個別的.vtt檔案和呼叫。<br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
+   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。註解檔案的副檔名為 .vtt。您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://w3c.github.io/webvtt/):網路視訊文字追蹤格式。<br><br>您可以使用免費和付費的工具和服務，在Dynamic Media ClassicAdobe外製作註解檔案。例如，要建立不帶樣式的簡單視頻字幕檔案，可以使用以下免費線上字幕創作和編輯工具：<br><br>[WebVTT字幕製作器](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>為獲得最佳結果，請使用Internet Explorer 9或更高版本、Google Chrome或Safari中的工具。 <br><br>在工具的「輸入視 <b>訊檔案的URL」欄</b> 位中，貼上視訊檔案的URL，然後選取「載 <b>入」</b>。<br><br>例如，如果您的視訊檔案使用AdobeDynamic Media Classic URL，請連按兩下個別視訊資產（非適用性視訊集或主視訊），以在「詳細資料檢視」中開啟它。在「詳細檢視」的右側面板中，展開「URL 和內嵌程式碼」。然後在「行動裝置」群組下方的「行動裝置」（漸進式）右側，選取「<b>複製URL</b>」。 此程式會提供視訊檔案本身的URL，然後您可將其貼入視訊檔案<b>的「輸入URL」欄位</b>。 然後，Internet Explorer、Chrome或Safari就可以原生播放視訊。此時，請遵循網站畫面上的指示，撰寫並儲存您的 WebVTT 檔案。完成後，複製字幕檔案內容並貼到純文字編輯器中，然後以VTT副檔名儲存。 <br><br><b>注意： </b> 若要以英文以外的語言支援視訊標題，WebVTT標準需要您針對您要支援的每種語言建立個別的.vtt檔案和呼叫。<br><br>一般而言，我們建議您用和視訊檔案相同的名稱來命名 VTT 註解檔案，然後在名稱後附加 captions。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。 |
 
-1. 在Dynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML註解檔案。
+1. 在AdobeDynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML註解檔案。
 
    請參閱[上傳檔案](uploading-files.md#uploading_files)。
 

@@ -6,10 +6,10 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic，檢視器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 44%
@@ -22,13 +22,13 @@ ht-degree: 44%
 
 ## 準備 PDF 檔案 {#preparing-your-pdf-files}
 
-先準備PDF檔案，再將其上傳至Dynamic Media Classic:
+先準備PDF檔案，再將其上傳至AdobeDynamic Media Classic:
 
 * 為了更輕鬆地上傳檔案，請將所有檔案放置在電腦或網路上的相同資料夾中。
 * 以字母數字順序，依照頁面為檔案命名。排序頁面會讓您在檔案上載後，能夠更輕鬆地依照適當順序來放置頁面。
-* 要查看PDF頁面是否包含裁切標籤、註冊目標或顏色條，請檢查頁面。 這些標記會決定列印文件時，要在哪裡裁切紙張；將 eCatalog 放置在網路上之前，必須將這些標記移除。Dynamic Media Classic提供上傳PDF檔案時的裁切標籤選項。
+* 要查看PDF頁面是否包含裁切標籤、註冊目標或顏色條，請檢查頁面。 這些標記會決定列印文件時，要在哪裡裁切紙張；將 eCatalog 放置在網路上之前，必須將這些標記移除。AdobeDynamic Media Classic提供上傳PDF檔案時的裁切標籤選項。
 * 如果您要檢視器依關鍵字搜尋 eCatalog，請檢查您的 PDF 檔案是否已「平面化」。您無法從已平面化的 PDF 檔案中擷取搜尋字詞。若要檢查 PDF 檔案是否已平面化，請嘗試選取其中的文字。如果您無法選取文字，PDF會平面化，而檢視器無法依eCatalog中的關鍵字搜尋。
-* 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。預設情況下，Dynamic Media Classic可以智慧地檢測這些CMYK影像，並使用內部CMYK顏色配置檔案進行轉換。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
+* 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。預設情況下，AdobeDynamic Media Classic可以智慧地檢測這些CMYK影像，並使用內部CMYK顏色配置檔案進行轉換。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
 
    請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -46,7 +46,7 @@ ht-degree: 44%
 
 * **從多頁PDF自動產生eCatalog（可選）**  — 在「上傳工作選項」對話方塊上，按一下「 **[!UICONTROL PDF選項」]**。選擇&#x200B;**[!UICONTROL 從多頁自動生成eCatalog PDF]**&#x200B;以在您上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。eCatalog 是根據 PDF 檔案來命名。
 
-* **解決**  — 在「上傳工作選項」對話方塊中，按一 **[!UICONTROL 下PDF選項]**。在&#x200B;**[!UICONTROL Resolution]**&#x200B;文本欄位中，輸入一個值。 Dynamic Media Classic建議使用150像素/英吋。
+* **解決**  — 在「上傳工作選項」對話方塊中，按一 **[!UICONTROL 下PDF選項]**。在&#x200B;**[!UICONTROL Resolution]**&#x200B;文本欄位中，輸入一個值。 AdobeDynamic Media Classic建議每英吋150像素。
 
 * **Colorspace**  — 在「上傳工作選項」對話方塊上，按一 **[!UICONTROL 下PDF選項]**。在「Colorspace」下拉清單中，選擇「自動檢測」**[!UICONTROL 。]**&#x200B;通常針對列印輸出所建立的 PDF 是 CMYK 格式；針對線上檢視所建立的 PDF 則是 RGB。如果 PDF 同時使用兩個色域，則您可以選擇「強制為 RGB」或「強制為 CMYK」，來選取一個特定色域。例如，當頁面圖形使用 CMYK 色域，但圖片卻使用 RGB 時，PDF 會同時使用兩個色域。如果您上載了 ICC 設定檔，它的名稱便會顯示在「色域」選單上供您選擇。
 
@@ -56,7 +56,7 @@ ht-degree: 44%
 
    * **保留原始顏色空間**  — 保留原始顏色空間。
 
-   * **「自訂自」>「轉換為」**  — 開啟子功能表，以便選擇「轉 **[!UICONTROL 換]** 自」和「 **[!UICONTROL 轉換]** 為顏色空間。您可以選擇標準的Photoshop色彩空間或上傳至Dynamic Media Classic的色彩空間。
+   * **「自訂自」>「轉換為」**  — 開啟子功能表，以便選擇「轉 **[!UICONTROL 換]** 自」和「 **[!UICONTROL 轉換]** 為顏色空間。您可以選擇標準的Photoshop色域，或上傳至AdobeDynamic Media Classic的色域。
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 

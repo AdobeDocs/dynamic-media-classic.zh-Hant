@@ -10,20 +10,20 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
 
 # 檢視 Adobe Analytics 報告以測試整合{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-在Adobe Analytics中建立必要變數、將其連結至Dynamic Media Classic事件，以及完成必要的實作步驟後，您就可以測試設定。 您可以測試並確認 Adobe Analytics 本身正在擷取資料。如果設定在此有效，則不需再執行其他步驟。假設您依照上述步驟操作，並將Dynamic Media Classic事件資料連結至一或多個自訂流量變數，然後依照此工作流程在Adobe Analytics內測試您的資料。
+在Adobe Analytics中建立必要變數、將其連結至AdobeDynamic Media Classic事件，並完成必要的實作步驟後，您就可以測試設定。 您可以測試並確認 Adobe Analytics 本身正在擷取資料。如果設定在此有效，則不需再執行其他步驟。假設您依照上述步驟操作，並將Adobe的Dynamic Media Classic事件資料連結至一或多個自訂流量變數，然後依照此工作流程在Adobe Analytics內測試您的資料。
 
 **若要檢視Adobe Analytics報表以測試整合：**
 
-1. 從您的帳戶啟動Dynamic Media Classic檢視器，尤其是廣播您要取得的量度，並與其互動以建立一些事件資料的檢視器。
+1. 從您的帳戶啟動AdobeDynamic Media Classic檢視器，尤其是廣播您要取得的量度，並與其互動以建立某些事件資料的檢視器。
 
    例如，如果您想要測量影像集中的熱門替代檢視，然後預覽影像集並按一下不同的縮圖影像。
 
@@ -35,6 +35,6 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->所有Dynamic Media Classic檢視器資料都會顯示在Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中，並加以報告。
+>所有AdobeDynamic Media Classic檢視器資料都會在Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中顯示和報告。
 
 如需詳細資訊，請參閱[AnalyticsTutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。

@@ -1,19 +1,19 @@
 ---
 title: 自動產生影像集
-description: '了解如何在Dynamic Media Classic中自動產生影像集。 '
+description: '了解如何在Adobe Dynamic Media Classic中自動產生影像集。 '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
-feature: Dynamic Media Classic，檢視器，影像集
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 63%
+source-wordcount: '102'
+ht-degree: 66%
 
 ---
 

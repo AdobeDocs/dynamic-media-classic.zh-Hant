@@ -1,6 +1,6 @@
 ---
-title: 將 URL 連結至網路應用程式
-description: 了解如何將URL連結至您的Web應用程式。
+title: 將URL連結至您的Web應用程式
+description: 了解如何從AdobeDynamic Media Classic將URL連結至您的Web應用程式。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,20 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 53%
+source-wordcount: '843'
+ht-degree: 37%
 
 ---
 
-# 將 URL 連結至網路應用程式{#linking-urls-to-your-web-application}
+# 將URL連結至您的Web應用程式{#linking-urls-to-your-web-application}
 
-您的網站和應用程式可透過URL字串存取Dynamic Media Image Server內容。 發佈影像後，Dynamic Media Classic會啟用參考Dynamic Media影像伺服器上的影像預設集的URL字串。 您可以將這些 URL 貼至網路瀏覽器以進行測試。
+您的網站和應用程式可透過URL字串存取Dynamic Media Image Server內容。 發佈影像後，AdobeDynamic Media Classic會啟用參考Dynamic Media影像伺服器上的影像預設集的URL字串。 您可以將這些 URL 貼至網路瀏覽器以進行測試。
 
-若要將這些URL字串放入您的網頁和應用程式中，請從Dynamic Media Classic複製。 若要取得以影像預設集產生的 URL 字串，請前往「預覽」畫面或瀏覽面板 (在詳細檢視中)。
+若要將這些URL字串放入您的網頁和應用程式中，請從AdobeDynamic Media Classic複製。 若要取得影像預設集產生的URL字串，請前往「預覽」畫面或「瀏覽」面板（在「詳細資料檢視」中）。
 
-## 取得影像預設集 URL {#obtaining-an-image-preset-url}
+## 取得影像預設集URL {#obtaining-an-image-preset-url}
 
 您可以從「預覽」或詳細檢視取得由影像預設集產生的 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。
 
@@ -31,26 +31,26 @@ ht-degree: 53%
 >
 >在發佈資產之前，URL 不會產生作用。
 
-### 從預覽取得影像預設集 URL {#obtaining-an-image-preset-url-from-preview}
+### 從預覽中取得影像預設集URL {#obtaining-an-image-preset-url-from-preview}
 
 1. 在左側的「資產庫」面板中，導覽至含有您要預覽之影像資產的「資產」檔案夾。
 1. 執行下列任一項作業︰
 
-   * 在「資產」視窗上方的工具列右側，按一下「**[!UICONTROL 格點檢視]**」。在「資產」視窗中，選取單一影像資產，然後在縮圖影像下方按一下「預覽&#x200B;**** > **[!UICONTROL 影像預設集清單]**」。
-   * 在「資產」視窗上方的工具列右側，按一下「**[!UICONTROL 清單檢視]**」。在「資產」窗口中，選擇單個影像資產，然後按一下縮圖影像的右側，按一下「預覽&#x200B;**** > **[!UICONTROL 影像預設集清單]**」。
-   * 在「資產」視窗上方的工具列右側，按一下「**[!UICONTROL 詳細檢視]**」。在相同工具列上，按一下「**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**」。
+   * 在「資產」窗口的右側，選擇「**[!UICONTROL 網格視圖]**」。 在「資產」視窗中，選取單一影像資產，然後在縮圖影像下方，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**。
+   * 在「資產」窗口的右側，選擇「**[!UICONTROL 清單視圖]**」。 在「資產」窗口中，選擇單個影像資產，然後轉至縮圖影像的右側，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**。
+   * 在「資產」窗口的工具欄右側，選擇「**[!UICONTROL 詳細資訊視圖]**」。 在相同工具列上，前往「**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**」。
 
 1. （可選）在「影像預設集清單」的「複製URL產生的URL編碼」下拉式清單中，選取複製影像資產時要套用至其URL的URL編碼。
-1. 在「影像預設集清單」窗口的預覽窗格右上方區域，按一下所選預設集類型的「複製URL ]**」。**[!UICONTROL 
-1. 在「影像預設集清單」視窗的右下角，按一下「**[!UICONTROL 關閉]**」以返回「資產」畫面。
+1. 在「影像預設集清單」窗口的預覽窗格的右上方區域，為所選預設集類型選擇&#x200B;**[!UICONTROL 複製URL]**。
+1. 在「影像預設集清單」視窗的右下角，選取&#x200B;**[!UICONTROL Close]**&#x200B;以返回「資產」畫面。
 
-### 從瀏覽面板取得影像預設集 URL {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 從「瀏覽」面板取得影像預設集URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左側的「資產庫」面板中，導覽至含有您要預覽之影像資產的「資產」檔案夾。
-1. 在「資產」視窗上方的工具列右側，按一下「**[!UICONTROL 格點檢視]**」。從瀏覽面板取得影像預設集 URL
-1. 在「資產」視窗上方的工具列右側，按一下「**[!UICONTROL 詳細檢視]**」。
-1. 按一下畫面右側面板上的&#x200B;**[!UICONTROL URL]** ，展開影像預設集清單。
-1. 按一下影像預設集名稱旁的&#x200B;**[!UICONTROL 複製URL]**&#x200B;連結，其中包含您要複製到剪貼簿的URL。
+1. 在「資產」窗口的右側，選擇「**[!UICONTROL 網格視圖]**」。 從瀏覽面板取得影像預設集 URL
+1. 在「資產」窗口的工具欄右側，選擇「**[!UICONTROL 詳細資訊視圖]**」。
+1. 在螢幕右側的面板上選擇&#x200B;**[!UICONTROL URL]**，以便展開影像預設集清單。
+1. 選取影像預設集名稱旁的&#x200B;**[!UICONTROL 複製URL]**&#x200B;連結，並附上您要複製到剪貼簿的URL。
 
 ## 關於影像預設集 URL 字串 {#about-image-preset-url-strings}
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Media影像伺服器遇到URL的「影像預設集」部分（此例中為`Large`）時，使用「大」影像預設集定義的大小和格式指示。
 
-## 增加動態影像至網頁 {#adding-dynamic-images-to-your-web-page}
+## 將動態影像新增至網頁 {#adding-dynamic-images-to-your-web-page}
 
-若要將動態影像新增至網頁，HTML網頁程式碼中的`<IMG>`標籤通常會使用Dynamic Media Classic URL字串來修改，以向Dynamic Media影像伺服器提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
+若要將動態影像新增至網頁，HTML網頁程式碼中的`<IMG>`標籤通常會使用AdobeDynamic Media Classic URL字串來修改，以向Dynamic Media影像伺服器提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
 
 例如，您不需使用一般呼叫即可開啟靜態影像，如
 
@@ -88,7 +88,7 @@ URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Med
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-您現在可以使用`<IMG>`標籤，以對Dynamic Media Classic平台的「影像預設集」呼叫取代靜態影像的參考。 範例呼叫的外觀如下:
+您現在可以使用`<IMG>`標籤，以對AdobeDynamic Media Classic平台的「影像預設集」呼叫取代對靜態影像的參考。 範例呼叫的外觀如下:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

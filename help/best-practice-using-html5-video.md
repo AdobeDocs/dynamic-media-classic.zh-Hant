@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
-feature: Dynamic Media Classic，檢視器，影片
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 13%
 
 ---
 
 # 使用HTML5視訊檢視器的最佳作法{#best-practice-using-the-html-video-viewer}
 
-Dynamic Media Classic HTML5視訊檢視器預設集是強大的視訊播放器。 在播放器的設計端，您可以使用標準網頁開發工具來建立視訊播放器的完整功能。 例如，您可以使用 HTML5 和 CSS 來設計按鈕、控制項與自訂海報影像背景，並藉助自訂的外觀來吸引客戶。
+AdobeDynamic Media Classic HTML5視訊檢視器預設集是強大的視訊播放器。 在播放器的設計端，您可以使用標準網頁開發工具來建立視訊播放器的完整功能。 例如，您可以使用 HTML5 和 CSS 來設計按鈕、控制項與自訂海報影像背景，並藉助自訂的外觀來吸引客戶。
 
 在檢視器的播放方面，它會自動偵測瀏覽器的視訊功能，接著，它會使用HLS（HTTP即時串流）（也稱為最適化視訊串流）提供視訊。 或者，如果該傳送方法不存在，則會改用HTML5漸進式。
 
@@ -33,13 +33,13 @@ Dynamic Media Classic HTML5視訊檢視器預設集是強大的視訊播放器�
 
 另請參閱「Adobe檢視器參考指南」中的[關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
-## 使用Dynamic Media Classic視訊檢視器在桌上型電腦和行動裝置上播放視訊 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## 使用AdobeDynamic Media Classic視訊檢視器在桌上型電腦和行動裝置上播放視訊 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 針對案頭和行動最適化視訊串流，用於位元速率切換的視訊是以最適化視訊集中的所有MP4視訊為基礎。
 
 使用HLS或漸進式視訊時會發生視訊播放。 HLS（HTTP即時串流）是適用性視訊串流的Apple標準，可根據網路頻寬容量自動調整播放。 它也可讓客戶「搜尋」視訊中的任何點，而不需等待視訊的其餘部分下載。 另請參閱[HTTP Live Streaming](https://developer.apple.com/streaming/)。 通過將視頻下載並本地儲存到用戶的案頭螢幕或移動設備來提供漸進式視頻。
 
-下表說明使用Dynamic Media Classic視訊檢視器在桌上型電腦和行動裝置上播放視訊的裝置、瀏覽器和播放方法。
+下表說明使用Adobe Dynamic Media Classic視訊檢視器在桌上型電腦和行動裝置上播放視訊的裝置、瀏覽器和播放方法。
 
 | 裝置 | 瀏覽器 | 視訊播放模式 |
 |--- |--- |--- |

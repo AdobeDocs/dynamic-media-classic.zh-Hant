@@ -1,6 +1,6 @@
 ---
 title: 建立色票集
-description: 了解如何在Dynamic Media Classic中建立色票集。
+description: 了解如何在Adobe Classic中建立Adobe集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 61%
 
 **編輯色票集:**
 
-1. 在「網格」視圖中，瀏覽到SwatchSet，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在「網格視圖」中，瀏覽到SwatchSet，然後在影像下，選擇&#x200B;**[!UICONTROL Edit]**。
 1. 請執行下列任一動作:
 
    * 若要加入影像 (已發佈或未發佈)，請將它從「增加資產」中的檔案夾拖曳到色票集的「**[!UICONTROL 檢視]**」頁面上。

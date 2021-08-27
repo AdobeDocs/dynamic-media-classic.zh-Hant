@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 55%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 影像品質最佳化可能非常耗時，因為演算可接受的結果受許多因素影響。結果有點主觀，因為每個人對影像品質的認定不同。結構化實驗是關鍵。
 
-Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最佳化影像及轉譯結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
+AdobeDynamic Media Classic包含超過100個影像伺服命令，用於調整和最佳化影像及轉譯結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
 另請參閱[智慧影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
@@ -45,13 +45,13 @@ Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最�
 
 ## 影像銳利化的最佳實踐 {#best-practices-for-image-sharpening}
 
-影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以深入了解銳利化和遮色片銳利化在Dynamic Media Classic中的運作方式：
+影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，深入了解銳利化和遮色片銳利化在Dynamic Media ClassicAdobe中的運作方式：
 
 最佳作法白皮書[在AdobeDynamic Media Classic和影像伺服器上銳利化影像](/help/assets/s7_sharpening_images.pdf)。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-使用Dynamic Media Classic，您可以在擷取、傳送或兩者時銳利化影像。 但是，通常只使用一種或另一種方法來銳化影像，而不同時使用兩種方法。 傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
+透過AdobeDynamic Media Classic，您可以在擷取、傳送或兩者時銳利化影像。 但是，通常只使用一種或另一種方法來銳化影像，而不同時使用兩種方法。 傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
 
 您可使用兩種方法將影像銳利化: 
 
@@ -71,7 +71,7 @@ Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最�
 
          有關如何設定這三個參數的詳細資訊，包括如何與篩選器搭配使用的最佳實務，請參閱[在Dynamic Media ClassicAdobe和影像伺服器](/help/assets/s7_sharpening_images.pdf)上銳化影像。
 
-      * Dynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
+      * AdobeDynamic Media Classic也可讓您控制第四個參數：單色(`0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 
 最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
 
@@ -120,6 +120,6 @@ Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最�
 
 在實驗中，下列一般建議有助於最佳化您的工作流程：
 
-* 直接在Dynamic Media Classic URL或使用Dynamic Media Classic的影像調整功能，即時試用並測試不同的參數。 後者提供調整操作的即時預覽。
+* 直接在AdobeDynamic Media Classic URL或使用AdobeDynamic Media Classic的影像調整功能，即時試用並測試不同的參數。 後者提供調整操作的即時預覽。
 * 最佳實務是，您可以將「Dynamic Media影像伺服」命令分組至影像預設集。 影像預設集基本上是具有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
-* Dynamic Media Classic也提供更進階的影像品質調整方法，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化轉譯結果的進階使用案例，Adobe Professional Services可協助您運用自訂的深入分析和最佳實務。
+* AdobeDynamic Media Classic也提供更進階的影像品質調整方法，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化轉譯結果的進階使用案例，Adobe Professional Services可協助您運用自訂的深入分析和最佳實務。

@@ -1,13 +1,13 @@
 ---
 title: Dynamic Media電子報封存
-description: '依Experience League封存的Dynamic Media電子報是每月電子報。 它旨在協助您快速熟悉Dynamic Media和Dynamic Media Classic，以便立即實現價值。 封存的電子報包含寶貴的知識建設資源，此一站式電子報現已停用。 封存的電子報包含作法影片和解決方案概述。 也提供影像預設集、檢視器預設集和視訊設定檔等主要功能的簡介。 '
+description: '依Experience League封存的Dynamic Media電子報是每月電子報。 它旨在協助您快速熟悉Dynamic Media和AdobeDynamic Media Classic，以便立即實現價值。 封存的電子報包含寶貴的知識建設資源，此一站式電子報現已停用。 封存的電子報包含作法影片和解決方案概述。 也提供影像預設集、檢視器預設集和視訊設定檔等主要功能的簡介。 '
 keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；客戶成功；部落格；部落格；影像；影片；功能
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >每月電子報現已停止提供。 不過，您仍可存取下方的電子報封存檔。
 
-Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dynamic Media和Dynamic Media Classic，以便立即開始實現價值。
+Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dynamic Media和AdobeDynamic Media Classic，以便立即開始實現價值。
 
 在這份一站式商店封存電子報中，您可以找到寶貴的知識建立資源，例如作法影片和解決方案概覽。 也提供影像預設集、檢視器預設集和視訊設定檔等主要功能的簡介。
 
@@ -52,28 +52,28 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
 
    * 在這些充滿挑戰的時代，探索您的豐富媒體投資可提供協助的三種方式。
    * 報名參加網路研討會，了解如何使用智慧型影像處理來減輕頁面載入量。
-   * 觀看Dynamic Media Classic的隨需技能建立網路研討會。
+   * 觀看隨需技能建立網路研討會，了解Adobe Dynamic Media Classic。
    * 從2020線上Adobe Summit檢視Dynamic Media課程。
-   * 進一步了解Adobe的免費Dynamic Media Classic稽核。
+   * 進一步了解Adobe的免費AdobeDynamic Media Classic稽核。
    * 客戶成功服務高級計畫經理Meet `John Monroe`。
 
 * **[2020年2月第2期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
    此問題：
 
-   * 參加新的技能建立網路研討會，並轉型為Dynamic Media Classic專家。
+   * 參加新的技能建立網路研討會，並轉型為AdobeDynamic Media Classic專家。
    * 在2020年Adobe Summit，查看Dynamic Media的位置。
    * 探索如何運用Dynamic Media的裁剪魔力。
-   * 為協助您從Dynamic Media Classic中獲得更多價值，請善用免費Adobe稽核功能。
-   * 了解Dynamic Media Classic的全新使用者介面。
+   * 為協助您從AdobeDynamic Media Classic中獲得更多價值，請善用免費的Adobe稽核功能。
+   * 了解AdobeDynamic Media Classic的新使用者介面。
    * Meet `Georgia Myers`,Adobe Experience Cloud客戶成功經理。
 
 * **[2020年1月總第1期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
    此問題：
 
-   * 5個全新技能建立網路研討會，磨練您的Dynamic Media Classic技能。
-   * 免費稽核，可協助您從Dynamic Media Classic中獲得更多價值。
+   * 五個新的技能建立網路研討會，磨練您的AdobeDynamic Media Classic技能。
+   * 免費稽核，可協助您從AdobeDynamic Media Classic中獲得更多價值。
    * 為Adobe的多媒體客戶創下紀錄的節日購物季。
    * 您的DAM（數位資產管理器）選擇指南可滿足您目前的需求，並為您準備迎接未來多媒體的新功能。
    * Meet `Mark Dean`，數位媒體專家。
@@ -82,7 +82,7 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
 
    此問題：
 
-   * 重新整理Dynamic Media Classic使用者介面。
+   * 重新整理AdobeDynamic Media Classic使用者介面。
    * 強大的全新安全功能。
    * Adobe如何準備好，讓您擁有成功的假日季節。
    * 與您的同事分享電子報，以建立團隊專長。
@@ -97,7 +97,7 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
    * 一篇CMSwire文章，可幫助您了解如何更新您的富媒體策略，以滿足當今客戶的期望。
    * 從技能建立系列存取Dynamic Media的隨需網路研討會。
    * Meet `Nick Peters`,Adobe Experience Manager站點可靠性工程經理。
-   * 快速了解Dynamic Media和Dynamic Media Classic的Experience League。
+   * 快速上手Dynamic Media，並在Experience League中AdobeDynamic Media Classic。
 
 * **[2019年9月09期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
@@ -108,7 +108,7 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
    * 第二次觀看最近兩次技能培養網路研討會的機會。
    * 觀看保護數位資產免遭盜版的隨選網路研討會。
    * 會見`Bridget Roman`,Experience Manager資產高級產品行銷經理。
-   * 快速了解Dynamic Media和Dynamic Media Classic的Experience League。
+   * 快速上手Dynamic Media，並在Experience League中AdobeDynamic Media Classic。
 
 * **[2019年8月08期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
 
@@ -140,13 +140,13 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
    * 深入了解即將推出的Adobe內幕者導覽。
    * 閱讀如何保護您的數位資產免遭盜版的相關資訊。
    * 了解AI驅動的影像智慧裁切功能。
-   * 符合`Alex Thiers`，這是Dynamic Media和Dynamic Media Classic中許多卓越功能與創新背後的推動力之一。
+   * `Alex Thiers`,Dynamic Media和AdobeDynamic Media Classic中許多卓越功能與創新背後的推動力之一。
 
 * **[2019年5月05期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
    此問題：
 
-   * 在部落格文章中探索Dynamic Media Classic的前十大隱藏功能。
+   * 在部落格文章中探索AdobeDynamic Media Classic的前十大隱藏功能。
    * 觀看Experience League中的重要作法影片。
    * 了解即將推出的Adobe內幕者導覽。
    * 若要更新您的多媒體策略，請閱讀三個部分的部落格系列。

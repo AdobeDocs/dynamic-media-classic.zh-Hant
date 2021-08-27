@@ -1,6 +1,6 @@
 ---
 title: 管理eCatalog中的資訊面板內容
-description: 了解如何在Dynamic Media Classic中管理eCatalog中的「資訊面板」內容。
+description: 了解如何在Dynamic Media Classic中管理eCatalog中的資訊面板內容。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
-您可以使用Dynamic Media Classic中的下列功能來管理InfoPanel設定和資料：
+您可以使用Dynamic Media Classic中的下列功能來管理您的InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
 * 「資訊面板」資料源面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」變換文字中的文字，並排程更新資訊的時間。
@@ -45,7 +45,7 @@ ht-degree: 59%
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
    * 要建立自己的響應模板，請選擇&#x200B;**[!UICONTROL Custom]**。 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
-1. （選用）在「預設回應」方塊中，輸入如果Dynamic Media Classic擷取影像地圖的資訊時發生錯誤，您想要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設回應」方塊中，輸入如果AdobeDynamic Media Classic在擷取影像地圖的資訊時發生錯誤，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
@@ -89,7 +89,7 @@ Last Modified Date:
 1. 選擇&#x200B;**[!UICONTROL 瀏覽]**，選擇要使用的以制表符分隔的TXT檔案、CSV或SSV檔案，然後選擇&#x200B;**[!UICONTROL 開啟]**。
 1. 選擇&#x200B;**[!UICONTROL Upload]**。
 
-Dynamic Media Classic會傳送電子郵件給您，告知上傳是否成功。
+AdobeDynamic Media Classic會傳送電子郵件給您，通知上傳是否成功。
 
 ## 預覽影像地圖的滑鼠指向效果關鍵文字 {#preview-rollover-key-text-for-an-image-map}
 

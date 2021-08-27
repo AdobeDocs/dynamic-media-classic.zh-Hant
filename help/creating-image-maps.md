@@ -1,6 +1,6 @@
 ---
 title: 建立影像地圖
-description: 了解如何在Dynamic Media Classic中建立影像地圖。
+description: 了解如何在Adobe Dynamic Media Classic中建立影像地圖。
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2422'
 ht-degree: 48%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 48%
 
 影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個區域，可顯示內含滑鼠指向效果文字的面板。當使用者選取「影像地圖」時，會觸發某種動作。 例如，啟動網頁讓使用者進一步瞭解產品。當使用者將指標移至影像地圖上時，該圖表周圍會出現一個輪廓。
 
-除了在Dynamic Media Classic中建立影像地圖的功能之外，在Adobe Acrobat或Adobe InDesign中設計目錄時，您也可以建立影像地圖。
+除了可在Adobe Dynamic Media Classic中建立影像地圖之外，您也可以在Adobe Acrobat或Adobe InDesign中設計目錄時建立影像地圖。
 
 建立影像映射時，可以執行下列任一操作：
 
@@ -50,9 +50,9 @@ ht-degree: 48%
 
    * **多邊形映射**  — 選擇「多邊形影像映射」工具，並在要包圍的影像區域的周長上選擇點。使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
 
-1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。繪製影像地圖後，Dynamic Media Classic會為其指派名稱。
+1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。繪製影像地圖後，AdobeDynamic Media Classic會為其指派名稱。
 
-   若要建立名稱，Dynamic Media Classic會在您使用的影像或eCatalog頁面名稱中附加一個循序編號。 您也可以自行輸入名稱。
+   若要建立名稱，AdobeDynamic Media Classic會在您使用的影像或eCatalog頁面名稱中附加一個循序編號。 您也可以自行輸入名稱。
 
 1. 如果您希望使用者在選取「影像地圖」時開啟新網頁，請在「影像地圖」清單中輸入URL。
 
@@ -126,7 +126,7 @@ ht-degree: 48%
 
 ## 使用範本輸入JavaScript和URL {#using-a-template-to-enter-javascript-and-urls}
 
-您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。依預設，URL範本包含名為`loadProduct`的專屬Dynamic Media Classic JavaScript處理常式，可在新視窗中開啟影像。
+您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。依預設，URL範本包含專屬AdobeDynamic Media Classic JavaScript處理常式，稱為`loadProduct`，可在新視窗中開啟影像。
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Javascript:loadProduct(‘$$’);void(0);
 * URL值 — `product.htm`
 * 實際生成的URL - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-依預設，URL範本包含名為`loadProduct`的專屬Dynamic Media Classic JavaScript處理常式，可開啟具有URL目的地的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Dynamic Media Classic處理常式：
+依預設，URL範本包含專屬AdobeDynamic Media Classic JavaScript處理常式，稱為`loadProduct`，會開啟具有URL目的地的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個AdobeDynamic Media Classic處理常式：
 
 * `loadProductCW`  — 顯示當前窗口的URL列中指定的URL目標。這個處理程式主要用於已整合成網站某一頁面的 eCatalog。
 
@@ -192,7 +192,7 @@ Javascript:loadProduct(‘$$’);void(0);
 
 您可以在使用 Adobe Acrobat 或 Adobe InDesign 設計 eCatalog 時建立影像地圖。
 
-使用 Acrobat 或 InDesign 時，在您要顯示影像地圖的位置建立超連結參照，然後針對影像地圖指定 URL 位置。將PDF檔案上傳至Dynamic Media Classic時，選取「擷取連結」選項會自動將連結轉換為影像地圖。
+使用 Acrobat 或 InDesign 時，在您要顯示影像地圖的位置建立超連結參照，然後針對影像地圖指定 URL 位置。將PDF檔案上傳至Adobe時，選取「擷取連結」選項，Dynamic Media Classic會自動將連結轉換為影像地圖。
 
 如需詳細資訊，請參閱Adobe InDesign說明或Adobe Acrobat說明。
 
@@ -203,15 +203,15 @@ Javascript:loadProduct(‘$$’);void(0);
 1. 從面板菜單中選擇「**[!UICONTROL 新建超連結]**」。
 1. 在「新建超連結」對話框中，從&#x200B;**[!UICONTROL 連結到]**&#x200B;菜單中，選擇&#x200B;**[!UICONTROL URL]**。
 1. 在URL方塊中輸入或貼上產品ID。
-1. 選擇&#x200B;**[!UICONTROL OK]**。 (Dynamic Media Classic會使用影像對應URL範本完成URL。)
+1. 選擇&#x200B;**[!UICONTROL OK]**。 (AdobeDynamic Media Classic會使用影像對應URL範本完成URL。)
 
    >[!NOTE]
    >
-   >您不需要在Adobe InDesign中設定外觀選項。 您可以在Dynamic Media Classic中指定外觀。
+   >您不需要在Adobe InDesign中設定外觀選項。 您可以在AdobeDynamic Media Classic中指定外觀。
 
 1. 針對您要建立的所有影像地圖，重複步驟 2 到 6。
 1. 將檔案匯出成 PDF。
-1. 上傳PDF至Dynamic Media Classic。
+1. 上傳PDF以AdobeDynamic Media Classic。
 1. 在&#x200B;**[!UICONTROL PDF選項]**&#x200B;中，選擇&#x200B;**[!UICONTROL 提取連結]**。
 
 ### 在 Adobe Acrobat 中建立影像地圖 {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Javascript:loadProduct(‘$$’);void(0);
 
 >[!NOTE]
 >
->您不需要在Adobe Acrobat中設定外觀選項。 您可以在Dynamic Media Classic中指定外觀。
+>您不需要在Adobe Acrobat中設定外觀選項。 您可以在AdobeDynamic Media Classic中指定外觀。
 
 1. 在「連結屬性」框中，選擇&#x200B;**[!UICONTROL Actions]**。
 1. 從「選擇操作」菜單中選擇「**[!UICONTROL 開啟Web連結]**」，然後選擇「**[!UICONTROL 添加]**」。
-1. 在「編輯URL」方塊中輸入影像地圖的產品ID，然後選取&#x200B;**[!UICONTROL OK]**。 (Dynamic Media Classic會使用影像對應URL範本完成URL。)
+1. 在「編輯URL」方塊中輸入影像地圖的產品ID，然後選取&#x200B;**[!UICONTROL OK]**。 (AdobeDynamic Media Classic會使用影像對應URL範本完成URL。)
 1. 針對您要建立的所有影像地圖，重複步驟 1 到 7。
 1. 儲存檔案。
-1. 將PDF上傳至Dynamic Media Classic，然後選取「從PDF選項擷取連結」。
+1. 上傳PDF以AdobeDynamic Media Classic，並從PDF選項中選取「擷取連結」 。

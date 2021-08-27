@@ -9,33 +9,33 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 41%
+source-wordcount: '277'
+ht-degree: 40%
 
 ---
 
 # 開發人員資源 {#developer-resources}
 
-Dynamic Media Classic提供每個Dynamic Media Classic軟體模組最新主要版本的檔案。 模組文檔可用於影像創作、Dynamic Media Classic、影像伺服器和影像渲染以及查看器。
+AdobeDynamic Media Classic提供每個AdobeDynamic Media Classic軟體模組的最新主要版本說明檔案。 模組文檔可用於影像創作、AdobeDynamic Media Classic、影像伺服器和影像渲染以及查看器。
 
 您也可以取得部分模組的發行說明。發行說明提供發行的詳細資訊，包括功能增強、新功能、提示、疑難排解建議以及已知的重大問題。發行說明也提供多媒體功能的互動範例，以及啟用這些功能的方式。此外，發行說明還為使用授權軟體的客戶提供安裝與配置指示。
 
-影像提供和影像轉譯的參考指南，以及檢視器說明這些伺服器模組的http通訊協定。 若網站開發人員想進一步自訂和使用適用於網站或自訂應用程式的Dynamic Media Classic多媒體，可使用這些指南。 Dynamic Media Classic假設使用者熟悉案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像術語。
+影像提供和影像轉譯的參考指南，以及檢視器說明這些伺服器模組的http通訊協定。 網站開發人員若想進一步自訂和使用網站或自訂應用程式的AdobeDynamic Media Classic多媒體，可使用這些指南。 AdobeDynamic Media Classic假設使用者熟悉案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像術語。
 
-## Dynamic Media Classic API
+## AdobeDynamic Media Classic API
 
 | 文件 | 網址 |
 | --- | --- |
-| API 參考指南 | 如需相關檔案，請聯絡Dynamic Media Classic技術支援。 |
+| API 參考指南 | 如需相關檔案，請連絡AdobeDynamic Media Classic技術支援。 |
 
 ## 影像創作
 
 | 文件 | 網址 |
 | --- | --- |
-| 使用手冊 | 如需本檔案，請聯絡Dynamic Media Classic技術支援。 |
-| 發行說明 | 如需本檔案，請聯絡Dynamic Media Classic技術支援。 |
+| 使用手冊 | 如需本檔案，請聯絡AdobeDynamic Media Classic技術支援。 |
+| 發行說明 | 如需本檔案，請聯絡AdobeDynamic Media Classic技術支援。 |
 
 ## 影像提供與影像轉譯
 

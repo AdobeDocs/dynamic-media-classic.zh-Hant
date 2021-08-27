@@ -1,6 +1,6 @@
 ---
 title: ICC（國際色彩協會）設定檔
-description: 了解Dynamic Media Classic中的ICC設定檔。
+description: 了解AdobeDynamic Media Classic中的ICC設定檔。
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 64%
+source-wordcount: '451'
+ht-degree: 54%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 64%
 
 ICC (國際色彩聯盟) 設定檔是描述如何正確地將影像檔案從一個 色域轉換到另一個 色域的檔案。ICC 設定檔有助於為影像獲取正確的色彩。例如，要正確地顯示用於電腦顯示器上列印的影像，可以選擇 ICC 設定檔。該設定檔將影像轉換到不同的 色域並確保色彩正確地在線上顯示。
 
-在Dynamic Media Classic中，您可以選擇ICC配置檔案，在上載影像時將影像轉換為不同的顏色空間。 所有標準Photoshop ICC設定檔預設皆可在Dynamic Media Classic上使用。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂轉換」，再從「轉換自」和「轉換到」選單中選擇 ICC 設定檔的名稱。
+在AdobeDynamic Media Classic中，您可以選擇ICC配置檔案，在上載影像時將影像轉換為不同的顏色空間。 所有標準Photoshop ICC設定檔都預設可在AdobeDynamic Media Classic上使用。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂轉換」，再從「轉換自」和「轉換到」選單中選擇 ICC 設定檔的名稱。
 
 請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的「影像編輯選項」。[
 
-除了使用預設的ICC配置檔案外，您還可以將其他ICC配置檔案上載到Dynamic Media Classic，並使其可用於顏色空間轉換。 在瀏覽面板中切換到詳細檢視，以便調查 ICC 設定檔的設定檔類別、 色域類型和 PCS 類型。
+除了使用預設的ICC配置檔案外，您還可以上傳其他ICC配置檔案來AdobeDynamic Media Classic，並使其可用於顏色空間轉換。 切換到「瀏覽」面板中的「詳細視圖」，以調查ICC配置檔案的配置檔案類、顏色空間類型和PCS類型。
 
 ## 上傳ICC設定檔 {#uploading-icc-profiles}
 
-透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC設定檔儲存在任何Dynamic Media Classic資料夾中。
+透過與上載檔案時所使用的相同技術上載 ICC 設定檔。您可以將ICC設定檔儲存在任何Adobe的Dynamic Media Classic資料夾中。
 
 請參閱[上傳檔案](uploading-files.md#uploading_your_files)。
 
 ## 檢查ICC配置檔案 {#examining-an-icc-profile}
 
-若要檢查 ICC 設定檔，請在瀏覽面板中選取該文件並在詳細檢視中進行顯示。詳細資訊視圖提供有關ICC配置檔案的以下資訊：
+要檢查ICC配置檔案，請在「瀏覽」面板中選擇該配置檔案，並在「詳細資訊視圖」中顯示它。 詳細資訊視圖提供有關ICC配置檔案的以下資訊：
 
 * **[!UICONTROL 配置檔案類]**  - ICC（國際顏色協會）定義每個類以涵蓋應用程式類型。例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
 

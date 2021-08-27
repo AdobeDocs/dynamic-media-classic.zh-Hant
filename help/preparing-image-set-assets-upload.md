@@ -7,28 +7,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
-feature: Dynamic Media Classic，檢視器，影像集
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 64%
+source-wordcount: '155'
+ht-degree: 66%
 
 ---
 
 # 準備影像集資產進行上載{#preparing-image-set-assets-for-upload}
 
-在將影像集所需的影像上傳至Dynamic Media Classic之前，請確定影像的大小和格式正確。
+上傳影像集以AdobeDynamic Media Classic所需的影像之前，請確定影像的大小和格式正確。
 
 若要建立多重視圖影像集，您需要的影像必須能夠從不同視角顯示項目，或是能夠顯示相同項目的不同面相。目標是要強調項目的重要功能，讓檢視者能夠完整瞭解其外觀或功能。
 
-因為使用者可以在影像集中縮放影像，所以請確保影像在最大維度至少有 2000 個像素。Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+因為使用者可以在影像集中縮放影像，所以請確保影像在最大維度至少有 2000 個像素。AdobeDynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
 
 如需上載資產的詳細說明，請參閱[上載檔案](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
 >* [上載檔案](uploading-files.md#uploading_your_files)
-* [使用暈映、視窗涵蓋範圍和封包檔](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

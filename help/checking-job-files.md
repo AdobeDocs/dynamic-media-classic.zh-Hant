@@ -1,25 +1,25 @@
 ---
 title: 檢查作業檔案
-description: 了解如何在Dynamic Media Classic中檢查工作檔案。
+description: 了解如何在Adobe Dynamic Media Classic中檢查工作檔案。
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 39%
 
 ---
 
 # 檢查作業檔案{#checking-job-files}
 
-若要監視檔案上傳至Dynamic Media Classic和您發佈至Dynamic Media Classic伺服器的檔案，Dynamic Media Classic會提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
+若要監控檔案上傳至AdobeDynamic Media Classic和您發佈至AdobeDynamic Media Classic伺服器的檔案，請AdobeDynamic Media Classic提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
 
 在您上載資產時，「工作」選單旁會顯示一個旋轉圖示 (指示工作正在進行中) 以及進行中的檔案數目。您可以選取圖示，以查看有關使用中作業的詳細資訊。
 
@@ -41,7 +41,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 總計]**  — 傳輸的檔案數。
 
-* **[!UICONTROL W（警告）]**  — 作業中的警告數（如果有）。警告指出工作中不影響總體工作完成的問題。這些警告通常可以忽略，因為其報告隱藏檔案的情況。例如，`.DS_store`檔案(Macintosh)和Thumbs.db檔案(Windows®)包含有關如何向用戶顯示影像檔案的資訊。 但是，與這些檔案的使用方式無關的警告項目，可以忽略這些檔案的警告項目。 您可以按兩下工作名稱來取得有關警告的詳細資訊。
+* **[!UICONTROL W（警告）]**  — 作業中的警告數（如果有）。警告指出工作中不影響總體工作完成的問題。這些警告通常可以忽略，因為其報告隱藏檔案的情況。例如，`.DS_store`檔案(Macintosh)和Thumbs.db檔案(Windows®)包含有關如何向用戶顯示影像檔案的資訊。 但是，可以忽略與這些檔案有關的警告條目，因為這些條目與在AdobeDynamic Media Classic中使用這些檔案的方式無關。 您可以按兩下工作名稱來取得有關警告的詳細資訊。
 
 * **[!UICONTROL E（錯誤）]**  — 列出作業中的錯誤數（如果有）。您可以按兩下工作名稱來取得有關錯誤的詳細資訊。
 
@@ -71,7 +71,7 @@ ht-degree: 39%
 
 ## 查看、複製或打印「作業詳細資訊」報告 {#viewing-copying-or-printing-a-job-details-report}
 
-在「作業」頁上按兩下報表的名稱，以開啟「作業詳細資訊」頁。 該頁面提供了關於工作中檔案的摘要報告。選取&#x200B;**[!UICONTROL 檢視詳細資料]** ，以便查看項目的Dynamic Media Classic ID、目的地路徑和狀態資訊。 如果您上傳的PDF或PostScript檔案需要Dynamic Media Classic中無法使用的字型，報表會列出遺失的字型。
+在「作業」頁上按兩下報表的名稱，以開啟「作業詳細資訊」頁。 該頁面提供了關於工作中檔案的摘要報告。選取&#x200B;**[!UICONTROL 檢視詳細資料]** ，以便查看項目的AdobeDynamic Media Classic ID、目的地路徑和狀態資訊。 如果您上傳的PDF或PostScript檔案需要AdobeDynamic Media Classic中無法使用的字型，報表會列出遺失的字型。
 
 您可以將該資訊複製到剪貼簿。
 

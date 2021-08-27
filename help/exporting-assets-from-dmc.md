@@ -1,6 +1,6 @@
 ---
-title: 從Dynamic Media Classic匯出資產
-description: 了解如何從Dynamic Media Classic匯出資產。
+title: 從AdobeDynamic Media Classic匯出資產
+description: 了解如何從AdobeDynamic Media Classic匯出資產。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# 從Dynamic Media Classic匯出資產{#exporting-assets-from-dmc}
+# 從AdobeDynamic Media Classic匯出資產{#exporting-assets-from-dmc}
 
-您可以將在Dynamic Media Classic中編輯的資產儲存至本機網路磁碟。 匯出的資產會合併成 ZIP 檔案，適合下載或透過電子郵件傳送。
+您可以將在Adobe Dynamic Media Classic中編輯的資產儲存至本機網路磁碟。 匯出的資產會合併成 ZIP 檔案，適合下載或透過電子郵件傳送。
 
 適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。此外，每個匯出工作最多可允許500個資產。
 
-Dynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
+AdobeDynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
 
-**若要從Dynamic Media Classic匯出資產：**
+**若要從AdobeDynamic Media Classic匯出資產：**
 
 1. 選取您要匯出的資產，然後前往&#x200B;**[!UICONTROL File]** > **[!UICONTROL Export]**。
 1. 在「匯出選取的資產」視窗中，按一下「**[!UICONTROL 影像選項]**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):

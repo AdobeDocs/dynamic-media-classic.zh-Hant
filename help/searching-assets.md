@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # 搜尋資產{#searching-assets}
 
-若要在Dynamic Media Classic中找出檔案資產，您可以依類型檢視資產、在「瀏覽面板」中排序資產、執行簡單搜尋、執行進階搜尋，以及篩選資產。
+若要在AdobeDynamic Media Classic中尋找檔案資產，您可以依類型檢視資產、在「瀏覽面板」中排序資產、執行簡單搜尋、執行進階搜尋，以及篩選資產。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->如果左側沒有顯示「資產庫」面板，請按一下左側的右三角形箭頭，在Dynamic Media Classic視窗下半邊，以開啟「資產庫」。)
+>如果左側沒有顯示「資產庫」面板，請按一下左側的右三角箭頭，在AdobeDynamic Media Classic視窗下半邊，以開啟「資產庫」。)
 
 ## 在瀏覽面板中排序檔案 {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ ht-degree: 24%
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## 執行進階搜尋 {#conducting-an-advanced-search}
 
@@ -119,7 +119,7 @@ ht-degree: 24%
 
       請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
-   * **新增中繼資料欄位**  — 按一下 **[!UICONTROL 「新增面板」]**。在「篩選器」窗格上出現該面板後，按一下其&#x200B;**[!UICONTROL Field]**&#x200B;按鈕，然後在篩選菜單中選擇元資料欄位的名稱。
+   * **新增中繼資料欄位**  — 按一下 **[!UICONTROL 「新增面板」]**。在「篩選器」窗格上出現該面板後，按一下其&#x200B;**[!UICONTROL Field]**&#x200B;按鈕，然後在篩選菜單上選擇元資料欄位的名稱。
 
    * **移除中繼資料欄位**  — 按一下 **[!UICONTROL 在篩選]** 功能表中移除此面板。
 
@@ -171,5 +171,5 @@ ht-degree: 24%
 >[!MORELIKETHIS]
 >
 >* [導覽基本概念](navigation-basics.md#navigation_basics)
-* [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [檢視、增加和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

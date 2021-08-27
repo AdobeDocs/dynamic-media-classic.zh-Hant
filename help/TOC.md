@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 進一步了解使用 Dynamic Media Classic
+user-guide-description: 進一步了解使用AdobeDynamic Media Classic
 index: y
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 31%
+source-wordcount: '778'
+ht-degree: 28%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 31%
 # Adobe Dynamic Media Classic 指南 {#using}
 
 + [Adobe Dynamic Media Classic 指南](home.md)
-+ [最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [全新Dynamic Media Classic登入體驗現已推出](new-ui-2020.md)
-+ [Dynamic Media電子報封存(依Experience League)](dynamic-media-newsletter.md)
++ [AdobeDynamic Media Classic最佳作法教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [全新AdobeDynamic Media Classic登入體驗現已推出](new-ui-2020.md)
++ [AdobeDynamic Media電子報封存(依Experience League)](dynamic-media-newsletter.md)
 + AdobeDynamic Media Classic {#intro}簡介
    + [AdobeDynamic Media Classic案頭應用程式 — 現已推出](dynamic-media-classic-desktop-app.md)
-   + [關於Dynamic Media Classic說明](introduction.md)
+   + [關於AdobeDynamic Media Classic說明](introduction.md)
    + [開發人員資源](developer-resources.md)
    + [新增功能](whats-new.md)
-   + [系統需求](system-requirements.md)
+   + [AdobeDynamic Media Classic案頭應用程式的系統需求](system-requirements.md)
    + [支援](support.md)
-   + [Dynamic Media Classic Media Portal說明](help-dmc-media-portal.md)
+   + [AdobeDynamic Media Classic媒體入口網站說明](help-dmc-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [Popular resources](popular-resources.md)
    + [培訓視訊](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 31%
    + [視訊 SEO (搜尋引擎最佳化)](video-seo-search-engine-optimization.md)
    + [管理設定](administration-setup.md)
 + Media Portal {#media-portal}
-   + [系統需求](system-requirements-1.md)
+   + [AdobeDynamic Media Classic中的Media Portal系統需求](system-requirements-media-portal.md)
    + [快速入門：媒體入口網站](quick-start-media-portal-administration.md)
    + [Media Portal 使用者角色](media-portal-user-roles.md)
    + [建立和管理Media Portal群組](creating-media-portal-groups.md)
@@ -71,7 +71,7 @@ ht-degree: 31%
    + [移動、重新命名和刪除資產](moving-renaming-deleting-assets.md)
    + [在詳細資訊視圖中工作](detail-view.md)
    + [檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md)
-   + [從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md)
+   + [從AdobeDynamic Media Classic匯出資產](exporting-assets-from-dmc.md)
    + [即時與同行共用資產變更](sharing-asset-changes-peers-real.md)
    + [列印資產](printing-assets.md)
    + [管理垃圾桶資料夾](trash-folder.md)
@@ -147,7 +147,7 @@ ht-degree: 31%
    + [發佈混合媒體集](publishing-mixed-media-set.md)
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics檢測套件{#analytics-kit}
-   + [快速入門：整合Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [快速入門：整合AdobeDynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登入 Adobe Analytics](log-analytics.md)
    + [設定Adobe Analytics報表](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,7 +157,7 @@ ht-degree: 31%
    + [發佈Adobe Analytics設定資訊](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium整合{#target-classic}
    + [快速入門：Adobe Target Standard/Premium整合](quick-start-target-integration.md)
-   + [將Dynamic Media Classic與Adobe Target Standard/Premium整合](integrating-dmc-with-target.md)
+   + [整合AdobeDynamic Media Classic與Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [建立優惠方案集](creating-offer-set.md)
    + [推播選件集至Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + 使用者產生的內容 {#user-generated-content}

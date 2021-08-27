@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic，協作，資產管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 * 適用於匯出工作的壓縮 Zip 匯出檔案的檔案大小上限為 1 GB。
 * 每個匯出工作的總資產上限為 500 個。
 
-另請參閱[從Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
+另請參閱[從AdobeDynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)匯出資產。
 
 **指定 Media Portal 使用者可使用的匯出選項:**
 
@@ -42,6 +42,6 @@ ht-degree: 71%
 
 >[!MORELIKETHIS]
 >
->* [影像預設集](application-setup.md#image_presets)
-* [為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Image Presets](application-setup.md#image_presets)
+>* [為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

@@ -1,6 +1,6 @@
 ---
 title: 上傳時的影像微調選項
-description: 了解在Dynamic Media Classic上傳時可用的影像微調選項。
+description: 了解在AdobeDynamic Media Classic上傳時可用的影像微調選項。
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 51%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 51%
 
 * **[!UICONTROL 保留原始顏色空間]**  — 保留原始顏色空間。
 
-* **[!UICONTROL 自訂自]**  >  **[!UICONTROL 至]**  — 開啟功能表，供您選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色彩空間或上傳至Dynamic Media Classic的色彩空間。
+* **[!UICONTROL 自訂自]**  >  **[!UICONTROL 至]**  — 開啟功能表，供您選擇「轉換自」和「轉換至顏色空間」。您可以選擇標準的Photoshop色域，或上傳至AdobeDynamic Media Classic的色域。
 
 請參閱[ICC 設定檔](icc-profiles.md#icc_profiles)。
 
@@ -76,7 +76,7 @@ ht-degree: 51%
 
 | 遮色片銳利化調整選項 | 說明 |
 | --- | --- |
-| 數量 | 控制要套用到邊緣像素的對比量。<br><br>可以將它視為效果的強度。Dynamic Media Classic中「遮色片銳利化」的量值與Adobe Photoshop中的量值之間的主要差異，是Photoshop的量範圍介於1%到500%之間。 而在Dynamic Media Classic中，值範圍是0.0到5.0。在Dynamic Media Classic中，值5.0大致等於Photoshop中的500%;值0.9等於90%，以此類推。 |
+| 數量 | 控制要套用到邊緣像素的對比量。<br><br>可以將它視為效果的強度。在Adobe Dynamic Media Classic中，「遮色片銳利化」的量值與Adobe Photoshop中的量值之間的主要差異，是Photoshop的量範圍介於1%到500%之間。 而在AdobeDynamic Media Classic中，值範圍是0.0到5.0。在AdobeDynamic Media Classic中，值為5.0，大致等同於Photoshop中的500%;值0.9等於90%，以此類推。 |
 | 半徑 | 控制效果的半徑。<br><br>值範圍是 0-250。該效果會在影像的所有像素上執行，且擴及所有方向的所有像素。半徑是以像素為測量單位。例如，若要獲得類似於2000 x 2000像素影像和500 x 500像素影像的銳利化效果，您可以在2000 x 2000像素影像上設定兩個像素的半徑。 然後在500 x 500像素影像上設定一個像素的半徑值。 較多像素的影像要用較大的值。 |
 | 臨界值 | 臨界值是在套用遮色片銳利化調整時忽略的對比範圍。這種效果非常重要，這樣在使用此濾波器時，影像就不會引入「雜訊」。 值範圍是 0-255，表示灰階影像中亮度步階的數值。0=黑、128=50% 灰，而 255=白。<br><br>例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，但仍會增加反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。<br><br>例如，如果您有某人的臉部照片，「銳利化遮色片」會影響影像的對位部分。例如，睫毛和皮膚會聚形成明顯的對比區域，皮膚本身也是光滑的。 即使是最平滑的皮膚也會顯現亮度值的細微變化。如果您不使用臨界值，則濾鏡會在皮膚像素中強調這些細微的變化。因而產生雜訊和不想要的效果，同時提高睫毛的對比，增強銳利度。<br><br>為了避免這個問題，而引進臨界值來告知濾鏡忽略不要大幅更改對比的像素，例如平滑皮膚。<br><br>在稍早顯示的拉鍊圖中，請注意拉鍊旁的紋理。影像中呈現雜訊，這是因為臨界值太低而無法抑制雜訊。 |
 | 單色 | 選取以針對影像亮度 (飽和度) 進行遮色片銳利化調整。<br><br>取消選取以分別對每個色彩元件進行遮色片銳利化調整。 |

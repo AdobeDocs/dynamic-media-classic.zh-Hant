@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic，檢視器，縮放
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 20%
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
 # 發佈縮放影像{#publishing-zoom-images}
 
-發佈會將您的縮放影像放置在Dynamic Media影像伺服器上，以便供您的網站和應用程式使用。 Dynamic Media Classic會在發佈程式中啟用URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
+發佈會將您的縮放影像放置在Dynamic Media影像伺服器上，以便供您的網站和應用程式使用。 AdobeDynamic Media Classic會在發佈程式中啟用URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
 
 ## 將影像標記為發佈 {#marking-images-for-publish}
 
@@ -31,5 +31,5 @@ ht-degree: 20%
 
 >[!MORELIKETHIS]
 >
->* [發佈](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 

@@ -1,6 +1,6 @@
 ---
 title: 建立回轉集
-description: 了解如何在Dynamic Media Classic中建立回轉集。
+description: 了解如何在Adobe Dynamic Media Classic中建立回轉集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 56%
+source-wordcount: '910'
+ht-degree: 55%
 
 ---
 
 # 建立回轉集{#creating-a-spin-set}
 
-若要建立有效的迴轉集，請確定正確拍攝影像。您可以在Dynamic Media Classic中建立回轉集，方法是選取「建置」按鈕並選擇「回轉集」。 在「迴轉集」畫面中編輯迴轉集。
+若要建立有效的迴轉集，請確定正確拍攝影像。您可以在AdobeDynamic Media Classic中建立回轉集，方法是選取「建置」按鈕並選擇「回轉集」。 在「迴轉集」畫面中編輯迴轉集。
 
 >[!NOTE]
 >
->舊版Dynamic Media Classic未提供二維回轉集。 如果您在舊版Dynamic Media Classic中建立回轉集，必須先以不同名稱儲存一維回轉集，才能加以儲存。 在「回轉集」畫面中選取「**[!UICONTROL 另存新檔」，然後輸入新名稱，以便在Dynamic Media Classic中編輯它。]**
+>舊版AdobeDynamic Media Classic未提供二維回轉集。 如果您在舊版Dynamic Media Classic中建立了回轉集，則必須先以不同名稱儲存一維回轉集，才能儲存它。 在「回轉集」畫面中選取「**[!UICONTROL 另存新檔」，然後輸入新名稱，以便在AdobeDynamic Media Classic中編輯它。]**
 
 ## 迴轉集影像拍攝準則 {#guidelines-for-shooting-spin-set-images}
 
-通常，迴轉集中的影像越多，影像的旋轉效果越好。不過，在迴轉集中加入許多影像會增加影像的載入時間。Dynamic Media Classic建議拍攝影像以用於回轉集的准則：
+通常，迴轉集中的影像越多，影像的旋轉效果越好。不過，在迴轉集中加入許多影像會增加影像的載入時間。AdobeDynamic Media Classic建議拍攝影像以用於回轉集的以下准則：
 
 * 至少在一維回轉集中使用8-12個影像，在二維回轉集中使用16-24個影像。
 * 請使用不失真的格式；建議使用 TIFF 和 PNG。
@@ -37,7 +37,7 @@ ht-degree: 56%
 
 ## 建立回轉集 {#create}
 
-在Dynamic Media Classic中製作或建立回轉集的順序非常重要。 根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，在產生器中以視覺方式顯示資產的順序，是當使用者移動滑鼠指標或移動手指時，資產的旋轉方式。
+在AdobeDynamic Media Classic中製作或建立回轉集的順序非常重要。 根據您將影像拖放至「迴轉集」頁面中的格線時排列資產的順序，迴轉集會以特定的方向迴轉。因此，在產生器中以視覺方式顯示資產的順序，是當使用者移動滑鼠指標或移動手指時，資產的旋轉方式。
 
 建立集時，「**[!UICONTROL 儲存後發佈]**」選項會以下列方式影響集與集成員:
 

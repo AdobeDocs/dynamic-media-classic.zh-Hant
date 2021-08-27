@@ -1,31 +1,31 @@
 ---
 title: 調整影像
-description: 了解如何在Dynamic Media Classic中調整影像。
+description: 了解如何在AdobeDynamic Media Classic中調整影像。
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic，資產管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 58%
 
 ---
 
 # 調整影像{#adjusting-an-image}
 
-Dynamic Media Classic提供多種指令來調整影像外觀。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
+AdobeDynamic Media Classic提供多種調整影像外觀的命令。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
 
 另請參閱[為影像建立別名](adjusting-image.md#creating_an_alias_for_an_image)。
 
 **要調整影像，請執行以下操作：**
 
-1. 選擇影像的變換編輯按鈕，然後選擇調整，或在「瀏覽面板」中按兩下影像，以在「詳細資訊」視圖中開啟該影像。
+1. 選擇影像的變換編輯按鈕，然後選擇調整，或在「瀏覽」面板中，按兩下影像，以在「詳細資訊視圖」中開啟該影像。
 1. 選取大小與影像預設集 (在視窗下方)。
 1. 使用「調整編輯器」視窗右側的命令，即可調整影像:
 

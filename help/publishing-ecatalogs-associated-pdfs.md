@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic，檢視器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 26%
 
 ---
 
 # 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-發佈會將您的eCatalog和PDF放置在Dynamic Media影像伺服器上，以便供您的網站或應用程式使用。 Dynamic Media Classic會在發佈程式中啟用URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
+發佈會將您的eCatalog和PDF放置在Dynamic Media影像伺服器上，以便供您的網站或應用程式使用。 AdobeDynamic Media Classic會啟動URL字串，作為發佈程式的一部分。 您可以在 HTML 網頁代碼中放置此 URL 字串。
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ ht-degree: 26%
 
 >[!MORELIKETHIS]
 >
->* [發佈](publishing-files.md)
+>* [Publishing](publishing-files.md)
 
