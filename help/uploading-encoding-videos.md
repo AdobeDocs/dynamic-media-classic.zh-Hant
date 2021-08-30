@@ -11,10 +11,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
 
@@ -83,9 +83,9 @@ AdobeDynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 1. 按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 重新處理]**」。
 1. 在「重新處理資產」對話方塊中，展開&#x200B;**[!UICONTROL EVideo選項]**，然後執行下列其中一項操作：
    * 最佳做法是使用以下方法。選取「**最適化視訊**」。請參閱[最適化視訊 (預設)](application-setup.md#adaptive-video-default)。
-   * 選填。如果您想使用個別編碼設定，請展開&#x200B;****[!UICONTROL 單一編碼預設集]****，然後選取您要用於案頭、行動裝置和平板電腦的編碼選項。
+   * 選填。如果您想使用個別編碼設定，請展開&#x200B;**[!UICONTROL 單一編碼預設集]**，然後選取您要用於案頭、行動裝置和平板電腦的編碼選項。
 請參閱[桌上型電腦視訊編碼預設集](application-setup.md#desktop-video-encoding-presets)、[行動裝置視訊編碼預設集](application-setup.md#mobile-video-encoding-presets)、[平板電腦視訊編碼預設集](application-setup.md#tablet-video-encoding-presets)。
-1. 在「重新處理資產」對話框中，按一下「**[!UICONTROL 提交]**」。
+1. 在「重新處理資產」對話方塊中，選取&#x200B;**[!UICONTROL Submit]**。
 
 當您使用「最適化視訊編碼」預設集或使用多個單一編碼預設集時，結果是以多個視訊編碼自動建立而成的「最適化視訊集」。您也可以選取個別視訊，手動建立最適化視訊集。
 
@@ -139,7 +139,7 @@ For advice about video encoding, see the following:
 下表說明了在對源視頻檔案進行編碼時必須具有的建議大小、外觀比例和最小比特率：
 
 | 大小 | 外觀比例 | 最小位元速率 |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 4500 kbps (適用於大部分視訊) |
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps (依據視訊中的動作量而定) |
 | 1920 X 1080 | 16時9分 | 6000 - 8000 kbps (依據視訊中的動作量而定) |
@@ -148,7 +148,7 @@ For advice about video encoding, see the following:
 
 您可以在Dynamic Media Classic中檢視其中繼資料、使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，以取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
 
-1. 轉到此網頁：[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
+1. 轉到此網頁：[https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)。
 1. 選取和下載圖形介面版本的安裝程式，並按安裝指示操作。
 1. 安裝後，按一下右鍵視頻檔案(僅限Windows®)並選擇MediaInfo，或開啟MediaInfo並將視頻檔案拖入應用程式。 您會看到與視訊檔案相關的所有中繼資料，其中包括其寬度、高度和 fps。
 

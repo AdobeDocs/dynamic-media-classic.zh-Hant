@@ -10,7 +10,7 @@ discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin
 exl-id: aa268ff7-c474-409a-af3e-3fd8ae1e6241
-source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 25%
@@ -22,7 +22,7 @@ ht-degree: 25%
 為獲得使用AdobeDynamic Media Classic Media Portal的最佳體驗，請確定您的系統符合下列系統需求和建議：
 
 * 需要Microsoft® Windows® 7或更新版本，或macOS X 10.6或更高版本的Macintosh英特爾®處理器。
-* 需要3 GB或更高的RAM（建議4 GB或更高）。
+* 需要3-GB RAM或更高版本（建議使用4GB或更高版本）。
 * 彩色螢幕。
 * 支援全彩 1280x1024 或以上之解析度的視訊卡。
 * 啟用JAVA的瀏覽器。

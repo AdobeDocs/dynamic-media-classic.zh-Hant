@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '461'
+ht-degree: 47%
 
 ---
 
@@ -23,7 +23,7 @@ AdobeDynamic Media Classic提供許多建立多媒體的工具。 您可以建�
 
 * **e目錄**  — 呈現目錄或其他列印資料的互動式、可搜尋的網頁版本。建立能顯示滑鼠指向效果內容的可點選區域 (稱為「影像地圖」)，還可讓客戶換頁、縮放、平移和附加註解至頁面。請參閱[快速入門: eCatalog](/help/quick-start-ecatalog.md)。
 
-* **eVideo**  — 將高品質的視訊體驗傳遞至多個畫面，包括桌上型電腦、行動裝置和平板電腦。使用預先定義的AdobeDynamic Media Classic編碼預設集或自訂編碼來控制視訊的品質和大小。 以完整中繼資料支援來組織、瀏覽和搜尋視訊，以有效管理視訊資產。請參閱[快速入門: eVideo](/help/quick-start-video.md)。
+* **eVideo**  — 將高品質的視訊體驗傳遞至多個畫面，包括桌上型電腦、行動裝置和平板電腦。使用預先定義的AdobeDynamic Media Classic編碼預設集或自訂編碼來控制視訊的品質和大小。 以完整中繼資料支援來組織、瀏覽和搜尋視訊，以有效管理視訊資產。請參閱[快速入門：AdobeDynamic Media Classic](/help/quick-start-video.md)中的影片。
 
 * **影像地圖**  — 在整個網站中以任何大小和格式動態提供影像。您不必手動建立多個不同大小的影像，只要使用一個主影像即可。隨著AdobeDynamic Media Classic提供要求的影像，它會最佳化影像，以獲得最高品質的大小、格式、重量、品質和銳利化結果。
 請參閱[快速入門: 影像集](/help/quick-start-image-sizing.md)。

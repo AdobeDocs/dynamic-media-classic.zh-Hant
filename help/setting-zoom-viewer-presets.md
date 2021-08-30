@@ -1,6 +1,6 @@
 ---
 title: 設定縮放檢視器預設集
-description: 了解如何設定縮放檢視器預設集。
+description: 了解如何在AdobeDynamic Media Classic中設定縮放檢視器預設集。
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '613'
+ht-degree: 47%
 
 ---
 
@@ -45,25 +45,25 @@ AdobeDynamic Media Classic建議使用下列參數進行快速縮小檢視器預
 
 ## 建立和編輯縮放檢視器預設集 {#creating-and-editing-zoom-viewer-presets}
 
-1. 在全局導航欄上，按一下「**[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**」。
+1. 在全局導航欄上，轉到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**。
 1. 進行以下一項操作:
 
-   * **建立預設集**  — 按一下 **[!UICONTROL 「新增」]**。在「添加查看器預設集」對話框中，選擇平台，選擇縮放查看器，然後按一下&#x200B;**[!UICONTROL 添加]**。 在「預設集名稱」方塊中輸入預設集的名稱。
+   * **建立預設集**  — 選取 **[!UICONTROL 「新增」]**。在「添加查看器預設集」對話框中，選擇平台，選擇縮放查看器，然後選擇&#x200B;**[!UICONTROL 添加]**。 在「預設集名稱」方塊中輸入預設集的名稱。
 
-   * **編輯預設集**  — 選取縮放檢視器預設集，然後按一下「 **[!UICONTROL 編輯]**」。
+   * **編輯預設集**  — 選取「縮放檢視器預設集」，然後選取「 **[!UICONTROL 編輯]**」。
 
 1. 根據需要指定設定。
 
-   若要查看選項的說明，請按一下選項旁的&#x200B;**[!UICONTROL 資訊提示]**&#x200B;圖示。
+   若要查看選項的說明，請選取選項旁的&#x200B;**[!UICONTROL 資訊提示]**&#x200B;圖示。
 
    預覽頁面會在您更新和變更設定時顯示檢視器。
 
-1. 按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 另存新檔]**」。
-1. 在「查看器預設集」頁上，檢查您建立的「縮放查看器預設集」或「引導式縮放查看器預設集」。 如果需要調整，請按一下&#x200B;**[!UICONTROL Edit]**，更改「配置查看器」頁上的設定，然後按一下&#x200B;****[!UICONTROL Save]****。
+1. 選擇「**[!UICONTROL 保存]**」或「**[!UICONTROL 另存為]**」。
+1. 在「查看器預設集」頁上，檢查您建立的「縮放查看器預設集」或「引導式縮放查看器預設集」。 如果需要調整，請選擇&#x200B;**[!UICONTROL Edit]**，更改「配置查看器」頁上的設定，然後選擇&#x200B;**[!UICONTROL Save]**。
 
 有關在「檢視器預設集」畫面上管理檢視器預設集的資訊，請參閱[檢視器預設集](application-setup.md#viewer_presets)。
 
 >[!MORELIKETHIS]
 >
->* [Creating and editing Viewer Presets](application-setup.md#adding_and_editing_viewer_presets)
+>* [建立和編輯查看器預設集](application-setup.md#adding_and_editing_viewer_presets)
 

@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
@@ -35,16 +35,16 @@ ht-degree: 6%
 使用下列對應來選取您要使用的生產環境。
 
    | 瀏覽器URL | 案頭應用伺服器名稱 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生產 |
    | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
    | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
 
-1. 點選&#x200B;**[!UICONTROL 登入]**。
+1. 選擇&#x200B;**[!UICONTROL 登錄]**。
 
 ## 從AdobeDynamic Media Classic登出 {#dmc-sign-out}
 
-1. 在AdobeDynamic Media Classic案頭應用程式的右上角，點選&#x200B;**[!UICONTROL 登出]**，然後再次點選&#x200B;**[!UICONTROL 登出]**。
+1. 在AdobeDynamic Media Classic案頭應用程式的右上角，選擇&#x200B;**[!UICONTROL 登出]**，然後再次選擇&#x200B;**[!UICONTROL 登出]**。
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: 指定 Media Portal 使用者可使用的匯出選項
-description: 了解如何指定Media Portal使用者可用的匯出選項。
+title: 指定Media Portal使用者可用的匯出選項
+description: 了解如何指定AdobeDynamic Media Classic中Media Portal使用者可用的匯出選項。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '381'
+ht-degree: 66%
 
 ---
 
-# 指定 Media Portal 使用者可使用的匯出選項 {#specifying-export-options-available-to-media-portal-users}
+# 指定Media Portal使用者可用的匯出選項 {#specifying-export-options-available-to-media-portal-users}
 
 如果管理員將權限給予 Media Portal 使用者，這些使用者就可以在匯出影像時予以重新格式化。例如，可以變更大小、檔案格式及影像品質。在匯出影像時予以自動重新格式化可節省時間，原因是不需要分別重新格式化影像。此外，管理員還可以建立預設集，也就是預先建立的影像格式設定選項。在匯出影像時予以重新格式化以符合公司規格時，可以使用預設集。
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 **指定 Media Portal 使用者可使用的匯出選項:**
 
-1. 在全局導航欄上，按一下「**[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**」。
+1. 在全局導航欄上，轉到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**。
 1. 在「影像預設集」視窗中，選取下列任一選項:
 
    * **啟用使用者定義的轉換**  — 選取此選項後，使用者可從「匯出選取的 **** 資產」視窗的「已選取資產」下拉式清單中選擇其他項目。使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。

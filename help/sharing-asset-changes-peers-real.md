@@ -1,6 +1,6 @@
 ---
-title: 即時與同級共用資產變更
-description: 了解如何即時與同儕共用資產變更。
+title: 即時與同行共用資產變更
+description: 了解如何在Adobe Dynamic Media Classic中即時與同儕共用資產變更。
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 50%
+source-wordcount: '279'
+ht-degree: 44%
 
 ---
 
-# 即時與同級共用資產變更{#sharing-asset-changes-with-peers-in-real-time}
+# 即時與同行共用資產變更{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的一或多台電腦上執行多個AdobeDynamic Media Classic時，來自任何AdobeDynamic Media Classic用戶端的下列動作會與所有對等用戶端即時更新：
+在同一公司的多部電腦上執行多份AdobeDynamic Media Classic後，來自任何AdobeDynamic Media Classic用戶端的下列動作會與所有對等用戶端即時更新：
 
 * 編輯資產（產生器、影像編輯器等）
 * 重新命名資產

@@ -1,6 +1,6 @@
 ---
-title: 設定基礎
-description: 了解如何使用「設定」畫面輸入您的個人設定。 如果您是管理員，請為公司進行設定。
+title: '設定基礎 '
+description: 了解如何使用「設定」畫面，在AdobeDynamic Media Classic中輸入您的個人設定。 如果您是管理員，請為公司進行設定。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 23%
+source-wordcount: '196'
+ht-degree: 22%
 
 ---
 
 # 設定基礎{#setup-basics}
 
-使用「AdobeDynamic Media Classic設定」頁面輸入您的個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁，請在全局導航欄上按一下&#x200B;**[!UICONTROL Setup]**。
+使用「AdobeDynamic Media Classic設定」頁面輸入您的個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁，請在全局導航欄上，選擇&#x200B;**[!UICONTROL Setup]**。
 
 此頁面上可用的設定取決於您作為使用者或管理員的狀態：
 
