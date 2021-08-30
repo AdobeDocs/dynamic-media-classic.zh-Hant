@@ -5,9 +5,9 @@ keywords: 動態媒體；電子報；產品更新；提示與秘訣；事件；�
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Dynamic Media電子報(依Experience League區分)旨在協助您快速熟悉Dyn
    * 了解即將舉辦的數位資產保護網路研討會。
    * 下一站是資訊豐富的Adobe內幕者導覽。
    * 當您在Experience Manager資產(Experience Manager資產)中擁有Dynamic Media時，可提供令人興奮的功能。
-   * 新增360度影片和自訂影片縮圖至您的網站。
+   * 新增360°視訊和自訂視訊縮圖至您的網站。
    * 在Assets中與`Andrew Hathaway`Dynamic Media的主要解決方案顧問會面。
 
 * **[2019年6月，06期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

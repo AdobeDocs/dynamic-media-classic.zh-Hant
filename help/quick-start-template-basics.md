@@ -1,6 +1,6 @@
 ---
 title: '"快速入門: 基本範本"'
-description: 範本基本概念簡介和快速入門可協助您快速上手並執行。
+description: 簡介和範本基本概念快速入門，可協助您在AdobeDynamic Media Classic中快速上手並執行。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 34%
+source-wordcount: '789'
+ht-degree: 32%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 34%
 
 如果使用的是影像檔案，可以裁切影像，也可以上載時在影像中從剪裁路徑建立遮色片。
 
-在全域導覽列上，按一下&#x200B;**[!UICONTROL Upload]** ，從您的電腦將PSD檔案或其他影像檔案上傳至Dynamic Media ClassicAdobe上的資料夾。 請參閱[上載範本檔案](uploading-template-files.md#uploading_template_files)。
+在全局導航欄上，選擇&#x200B;**[!UICONTROL Upload]**&#x200B;以將PSD檔案或其他影像檔案從您的電腦上載到AdobeDynamic Media Classic上的資料夾。 請參閱[上傳範本檔案](uploading-template-files.md#uploading_template_files)。
 
 ## 2.建立範本
 
-要從PSD檔案建立模板，請在上載檔案時選擇&#x200B;**[!UICONTROL 建立模板]**。 若要從影像建立範本，請在全域導覽列上按一下「**[!UICONTROL Build]** > **[!UICONTROL Template Basics]**」，輸入畫布的寬度和高度測量。 在頁面的右上角附近，選擇&#x200B;**[!UICONTROL Designer]**&#x200B;或&#x200B;**[!UICONTROL Developer]**，然後將影像拖曳至「範本」頁面。 您也可以在&#x200B;*之前選取影像*，按一下&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Template Basics]**。 「模板」頁提供以下工具：
+要從PSD檔案建立模板，請在上載檔案時選擇&#x200B;**[!UICONTROL 建立模板]**。 若要從影像建立範本，請在全域導覽列上前往&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Template Basics]**，輸入畫布的寬度和高度測量。 在頁面的右上角附近，選擇&#x200B;**[!UICONTROL Designer]**&#x200B;或&#x200B;**[!UICONTROL Developer]**，然後將影像拖曳至「範本」頁面。 您也可以在&#x200B;*之前選取影像*，前往&#x200B;**[!UICONTROL Build]** > **[!UICONTROL 範本基礎]**。 「模板」頁提供以下工具：
 
 * 增加影像圖層。若要新增圖層，請將影像拖曳至「範本」頁面。
-* 增加文字圖層。按一下&#x200B;**[!UICONTROL 文字工具]**&#x200B;圖示。 拖曳指標以建立文字層的方塊；然後使用「文本」(Text)頁面上的工具設定文本格式。
+* 增加文字圖層。選取&#x200B;**[!UICONTROL 文字工具]**&#x200B;圖示。 拖曳指標以建立文字層的方塊；然後使用「文本」(Text)頁面上的工具設定文本格式。
 * 變更圖層大小和位置。
 * 變更圖層順序。
 * 將陰影和光暈效果套用於影像圖層和文字圖層。
@@ -53,7 +53,7 @@ ht-degree: 34%
 
 接下來是將圖層屬性參數化，從而確定 URL 字串中包含哪些圖層屬性。您可以透過這些參數盡可能靈活地使用範本。圖層屬性參數化之後，可以動態進行變更。
 
-要參數化圖層，請在「模板」頁中開啟模板，然後按一下圖層名稱旁的&#x200B;**[!UICONTROL 參數]**。 在「參數」頁面上，選取您要新增之每個參數旁的選項。 請參閱[建立範本參數](creating-template-parameters.md#creating_template_parameters)。
+要參數化圖層，請在「模板」頁中開啟模板，然後選擇圖層名稱旁的&#x200B;**[!UICONTROL 參數]**。 在「參數」頁面上，選取您要新增之每個參數旁的選項。 請參閱[建立範本參數](creating-template-parameters.md#creating_template_parameters)。
 
 ## 4.發佈範本
 
@@ -61,10 +61,10 @@ ht-degree: 34%
 
 請確保發佈與範本相關的所有影像。
 
-若要發佈範本，請將其標示為發佈，然後在全域導覽列上按一下&#x200B;**[!UICONTROL Publish]**。 然後按一下「**[!UICONTROL 提交發佈]**」。 請參閱[發佈範本](publishing-templates.md#publishing_templates)。
+若要發佈範本，請將其標示為發佈，然後在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**。 然後選擇&#x200B;**[!UICONTROL 提交發佈]**。 請參閱[發佈範本](publishing-templates.md#publishing_templates)。
 
 ## 5.將模板連結到網頁
 
 Dynamic Media Classic會為範本建立URL，並在您將範本發佈至Dynamic Media影像伺服器時啟用URL。 您可以從「範本預覽」頁面複製這些URL字串。
 
-在「瀏覽」面板中選擇模板，然後按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以開啟「模板預覽」頁。 選擇要傳送範本的影像預設集，然後按一下「**[!UICONTROL 複製URL]**」。 從「預覽」頁面複製URL後，即可在您的網站或應用程式中使用它。 請參閱[將範本連結至網頁](linking-template-web-page.md#linking_a_template_to_a_web_page)。
+在「瀏覽」面板中選擇模板，然後選擇&#x200B;**[!UICONTROL Preview]**&#x200B;以開啟「模板預覽」頁。 選擇用於傳遞模板的影像預設集，然後選擇&#x200B;**[!UICONTROL 複製URL]**。 從「預覽」頁面複製URL後，即可在您的網站或應用程式中使用它。 請參閱[將範本連結到網頁](linking-template-web-page.md#linking_a_template_to_a_web_page)。
