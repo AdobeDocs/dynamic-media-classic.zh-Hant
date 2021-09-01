@@ -1,6 +1,6 @@
 ---
 title: 上傳縮放影像
-description: 了解如何上傳縮放影像。
+description: 了解如何將縮放影像上傳至AdobeDynamic Media Classic。
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 28%
+source-wordcount: '220'
+ht-degree: 21%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 28%
 
 縮放影像必須具有高像素。需要大量像素，讓檢視者在縮放影像時，可以清楚看到影像詳細資訊。 請先確定您使用的影像大小適當，然後再將其上傳至AdobeDynamic Media Classic。
 
-在全域導覽列上，按一下&#x200B;**[!UICONTROL Upload]**&#x200B;以開始上傳影像。
+在全域導覽列上，選取&#x200B;**[!UICONTROL Upload]**&#x200B;以開始上傳影像。
 
-有關上載影像的詳細指示，請參閱[上載檔案](uploading-files.md#uploading_files)。
+有關上傳影像的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
-**準備用於縮放的影像:**
+**準備影像以便縮放：**
 
 若要最充分利用AdobeDynamic Media Classic縮放功能，請先準備您的縮放影像檔案，再上傳檔案：
 
@@ -37,5 +37,5 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->* [Uploading files](uploading-files.md#uploading_files)
+>* [上載檔案](uploading-files.md#uploading_files)
 

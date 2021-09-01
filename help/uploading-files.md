@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 34%
@@ -128,7 +128,7 @@ AdobeDynamic Media Classic不提供產生靜態內容預覽URL的選項。
 通常，資產檔案名稱可以與其項目編號、產品SKU或其他名稱相同，如下所示：
 
 | 項目 | 檔案名稱 | 資產 ID |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -229,24 +229,24 @@ AdobeDynamic Media Classic案頭應用程式可讓您透過拖曳上傳檔案和
    * **[!UICONTROL 處理中繼資料檔案]**  — 只有在您選取「透過FTP」索引標 **[!UICONTROL 簽時]** 才可用。如果要上載 Tab 字元分隔檔案或 XML 檔案以將中繼資料增加到多個資產中，可以選取該選項。請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
 
-* **裁切OPTIONS**  — 若要自動從影像裁切空白像素，請開啟「拖 **** 放」功能表、選 **[!UICONTROL 取「手動」]**，然後在「上」、「右」、「下」和「左」文字欄位中輸入像素測量，以便從側邊裁切。您也可以在「裁切」功能表中選取&#x200B;**[!UICONTROL Trim]**，然後選擇下列選項：
+* **裁切選項**  — 若要自動從影像裁切空白像素，請開啟「拖 **** 放」功能表、選 **[!UICONTROL 取「手動」]**，然後在「上」、「右」、「下」和「左」文字欄位中輸入像素測量，以便從側邊裁切。您也可以在「裁切」功能表中選取&#x200B;**[!UICONTROL Trim]**，然後選擇下列選項：
 
    * **[!UICONTROL 根據]** 修剪掉 — 選擇根據顏色或透明度裁切：
       * **[!UICONTROL 顏色]**  — 選擇顏色選項。接著選取「邊角」選單，然後選擇含有最能代表您要裁切之空白區域色彩的影像邊角。依據色彩修剪: 指定為 0 時，則僅當像素與您在影像邊角中所選取色彩完全相符時才會裁切像素。數值越接近 1，允許的色彩差異就越大。
       * **[!UICONTROL 透明度]**  — 選擇「透 **** 明度」選項。根據透明度進行修剪：指定0，只有在像素為透明時才裁切像素；接近1的數字使透明度更高。
       * **[!UICONTROL 公差]**  — 拖動滑塊以指定從0到1的公差。
 
-* **色彩描述檔OPTIONS**  — 當您建立用於AdobeDynamic Media Classic動態傳送的最佳化檔案時，請選擇色彩轉換：
+* **色彩設定檔選項**  — 當您建立用於AdobeDynamic Media Classic動態傳送的最佳化檔案時，請選擇色彩轉換：
 
    * **[!UICONTROL 預設顏色保留]**  — 每當影像包含顏色空間資訊時，都保持源影像的顏色；沒有顏色轉換。幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
    * **[!UICONTROL 保留原始色域]**  — 在擷取至AdobeDynamic Media Classic時，保留原始色域而不進行任何顏色轉換。對於沒有內嵌色彩描述檔的影像，處理影像要求所需的任何色彩轉換，都是使用「發佈」設定中設定的預設色彩描述檔來完成。 這些顏色配置檔案不一定與使用此選項建立的檔案中的顏色一致。 因此，最好使用「預設色彩保存」選項。
    * **[!UICONTROL 自訂自]**  >  **[!UICONTROL 至]**  — 開啟功能表，供您選擇「轉換自」 **[!UICONTROL 和「]**  **[!UICONTROL 轉換]** 為顏色」空間。這個進階選項會覆蓋來源檔案內嵌的任何色彩資訊。只有當您提交的所有影像包含不正確或缺少顏色配置檔案資料時，才選擇此選項。
 
-* **影像編輯選項**  — 可以保留影像 &lt;> 中的剪裁遮色片，並選擇顏色配置檔案。請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項。
+* **影像編輯選項**  — 您可以保留影像 &lt;> 中的剪裁遮色片，並選擇顏色描述檔。請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項。
 
 * **PostScript®選項**  — 您可以柵格化PostScript®檔案、裁切檔案、維護透明背景、選擇解析度，以及選擇顏色空間。請參閱[使用PostScript和Illustrator檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **Photoshop選項**  — 您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨記至範本的方式。請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
+* **Photoshop選項**  — 您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定如何將影像錨定至範本。請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
 * **PDF選項**  — 您可以柵格化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇顏色空間。請參閱[PDF 上載選項](pdfs.md#pdf_upload_options)。
 

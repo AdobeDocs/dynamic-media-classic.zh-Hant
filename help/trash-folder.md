@@ -1,5 +1,5 @@
 ---
-title: 管理垃圾桶檔案夾
+title: 管理垃圾桶資料夾
 description: 了解如何管理垃圾桶資料夾。
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
@@ -10,14 +10,14 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 39%
+source-wordcount: '551'
+ht-degree: 33%
 
 ---
 
-# 管理垃圾桶檔案夾{#managing-the-trash-folder}
+# 管理垃圾桶資料夾{#managing-the-trash-folder}
 
 您從AdobeDynamic Media Classic刪除的項目會移至垃圾桶資料夾。 已刪除的會保留在此資料夾中7天，直到被還原或永久刪除為止。 您可以按一下資產庫底部的&#x200B;**[!UICONTROL 清除]**&#x200B;圖示，並在清除資料夾頁面中檢視項目，以檢查已刪除的項目。
 
@@ -37,25 +37,25 @@ ht-degree: 39%
 * 無法發佈項目。即使項目在您刪除時已標記為發佈，您也無法予以發佈。
 * 項目會保留在「垃圾筒」資料夾中，直到還原、七天過後，或有人選擇&#x200B;**[!UICONTROL 清除垃圾筒]**&#x200B;命令。 七天之後，自動清除作業就會永久刪除項目。
 
-## 從垃圾桶檔案夾中復原資產 {#restoring-assets-from-the-trash-folder}
+## 從清除資料夾還原資產 {#restoring-assets-from-the-trash-folder}
 
-並非刪除資產的人才能夠還原資產；任何人都可以從「垃圾桶」檔案夾中還原資產。還原的資產會放在其刪除來源的檔案夾中。如果這些資料夾已不存在，AdobeDynamic Media Classic會重新建立這些資料夾，並將還原的資產放置在重新建立的資料夾中。
+刪除資產的人不需要還原資產；任何人都可以從垃圾桶資料夾還原資產。 還原的資產會放在其刪除來源的檔案夾中。如果這些資料夾已不存在，AdobeDynamic Media Classic會重新建立這些資料夾，並將還原的資產放置在重新建立的資料夾中。
 
 若要將資產從垃圾桶資料夾還原至從中刪除的資料夾，請執行下列動作：
 
-1. 在「資產庫」面板底部，按一下&#x200B;**[!UICONTROL Trash]**&#x200B;圖示以開啟「 Trash」資料夾。
+1. 在「資產庫」面板底部，選取&#x200B;**[!UICONTROL Trash]**&#x200B;圖示以開啟「 Trash」資料夾。
 1. 選取您要還原的資產。
-1. 按一下「**[!UICONTROL 檔案]** > **[!UICONTROL 從垃圾桶還原]**」。
+1. 前往「**[!UICONTROL 檔案]** > **[!UICONTROL 從垃圾桶還原]**」。
 
 ## 永久刪除垃圾桶檔案夾中的資產 {#permanently-deleting-assets-in-the-trash-folder}
 
 刪除「垃圾桶」檔案夾中的資產時，會永久刪除該資產。七天後就會從「垃圾桶」檔案夾中永久刪除資產。
 
-若要從「垃圾筒」資料夾中永久刪除資產，請按一下&#x200B;**[!UICONTROL 垃圾筒]**&#x200B;圖示。 在垃圾桶資料夾頁面上，執行下列任一操作：
+若要從「垃圾筒」資料夾中永久刪除資產，請選取&#x200B;**[!UICONTROL 垃圾筒]**&#x200B;圖示。 在垃圾桶資料夾頁面上，執行下列任一操作：
 
-* **刪除個別資產**  — 選取您要永久刪除的資產，然後按一下「 **[!UICONTROL 檔案]**  >從 **[!UICONTROL 垃圾筒清除空白」]**。
+* **刪除個別資產**  — 選取您要永久刪除的資產，然後前往「 **[!UICONTROL 檔案]**  >清 **[!UICONTROL 除中的空白」]**。
 
-* **刪除所有資產**  — 按一 **[!UICONTROL 下「檔案]**  >空 **[!UICONTROL 白垃圾桶」]**。
+* **刪除所有資產**  — 前往「 **[!UICONTROL 檔案]**  >空 **[!UICONTROL 白垃圾桶]**」。
 
 >[!MORELIKETHIS]
 >

@@ -1,30 +1,30 @@
 ---
-title: 上載影像資產或向量資產
-description: 了解如何上傳影像資產或向量資產。
+title: 上傳影像資產或向量資產
+description: 了解如何在Dynamic Media Classic中上傳影像資產或向量Adobe
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 71%
 
 ---
 
-# 上載影像資產或向量資產{#uploading-an-image-asset-or-a-vector-asset}
+# 上傳影像資產或向量資產{#uploading-an-image-asset-or-a-vector-asset}
 
 您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。然後使用上載標記來上載影像資產或向量資產。
 
-## 要求共用密鑰 {#requesting-a-shared-secret-key}
+## 請求共用機密金鑰 {#requesting-a-shared-secret-key}
 
 使用Admin Console建立支援案例，透過[請求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從AdobeDynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
 
-## 擷取上載標記 {#retrieving-the-upload-token}
+## 擷取上傳Token {#retrieving-the-upload-token}
 
 *上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。它確保上載合法且來自信任的來源。
 
@@ -68,7 +68,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 您可以在查詢 URL 字串中使用以下欄位來擷取上載標記:
 
 | URL 參數 | 必要或選擇性 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 必要 | get_uploadtoken |
 | shared_secret | 必要 | 正在進行上載的公司共用密鑰。 |
 | expires | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
@@ -86,9 +86,9 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 您現在可以上載影像資產。
 
-請參閱[上載影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
+請參閱[上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
-## 上載影像資產 {#uploading-an-image-asset}
+## 上傳影像資產 {#uploading-an-image-asset}
 
 您擷取在指定時間內有效的上載標記後，即可上載影像資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`和`company_name`欄位為必填欄位。
 
-請參閱[擷取上載標記](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+請參閱[擷取上傳代號](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
-請參閱[擷取共用密鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
+請參閱[擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
 您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
 
@@ -113,7 +113,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
 | 全域限制 | 值 |
-|--- |--- |
+| --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
 | 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD |
 
@@ -125,7 +125,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色設定檔和檔案名稱。
 * 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
-請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的「影像編輯選項」中的「挖空背景」。[
+請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項中的挖空背景。
 * 待上載檔案的名稱.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-您可以按一下[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)來檢視與上述表單相關聯的HTML原始碼
+您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)來檢視與上述表單相關聯的HTML原始碼
 
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後按一下&#x200B;**[!UICONTROL 檢視頁面來源]**。 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 檢視頁面來源]**。 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 原始檔]**」。若要在Firefox中檢視XML回應，請按一下「**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**」。 建議使用 Firefox 檢視 XML 回應。
+要在Internet Explorer中查看XML響應，請轉至&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請前往「**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**」。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。您可以在 URL 查詢字串中使用以下欄位來上載資產:
 
 | URL 參數 | 必要或選擇性 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必要 | 上載 |
 | `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
 | `company_name` | 必要 | 執行上載的公司名稱。 |
@@ -235,7 +235,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 您可以在 URL 查詢字串中使用以下欄位要求有關資產的資訊:
 
 | URL 參數 | 必要或選擇性 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必要 | image_info |
 | `shared_secret` | 必要 | 公司的共用密鑰。 |
 | `image_name` | 必要 | 影像的名稱。 |
@@ -248,7 +248,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 GET 和 POST
 
-## 上載向量資產 {#uploading-a-vector-asset}
+## 上傳向量資產 {#uploading-a-vector-asset}
 
 您擷取在指定時間內有效的上載標記後，即可上載向量資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`和`company_name`欄位為必填欄位。
 
-請參閱[擷取上載標記](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+請參閱[擷取上傳代號](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
-請參閱[擷取共用密鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
+請參閱[擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
 您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
 
@@ -273,7 +273,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
 | 全域限制 | 值 |
-|--- |--- |
+| --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
 | 用於上載的支援向量檔案格式 | AI、EPS、PDF (只有當 PDF 先前使用 Adobe Illustrator CS6 來開啟並儲存時) |
 
@@ -285,7 +285,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色設定檔和檔案名稱。
 * 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
-請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的「影像編輯選項」中的「挖空背景」。[
+請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項中的挖空背景。
 * 待上載檔案的名稱.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-在瀏覽器視窗中按一下滑鼠右鍵，然後按一下&#x200B;**[!UICONTROL View Source]**&#x200B;以取得範例中顯示的表單時，會顯示下列HTML程式碼。 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
+在瀏覽器窗口中按一下右鍵，然後為示例中顯示的表單選擇&#x200B;**[!UICONTROL View Source]**&#x200B;時，將顯示以下HTML代碼。 程式碼會顯示使用者選取&#x200B;**[!UICONTROL Submit]**&#x200B;時執行的對應URL查詢字串和POST方法。
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-若要在 Internet Explorer 中檢視 XML 回應，請按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 原始檔]**」。若要在Firefox中檢視XML回應，請按一下「**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 頁面來源]**」。 建議使用 Firefox 檢視 XML 回應。
+要在Internet Explorer中查看XML響應，請轉至&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請前往&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。您可以在 URL 查詢字串中使用以下欄位來上載資產:
 
 | URL 參數 | 必要或選擇性 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必要 | 上載 |
 | `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
 | `company_name` | 必要 | 執行上載的公司名稱。 |

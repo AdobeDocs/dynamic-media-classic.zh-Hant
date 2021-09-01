@@ -1,6 +1,6 @@
 ---
-title: 檢視 Adobe Analytics 報告以測試整合
-description: 了解如何檢視Adobe Analytics報表以測試整合。
+title: 檢視 報告以測試 Adobe Analytics 整合
+description: 了解如何檢視Adobe Analytics報表，以測試AdobeDynamic Media Classic中的整合。
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '339'
 ht-degree: 15%
 
 ---
 
-# 檢視 Adobe Analytics 報告以測試整合{#testing-the-integration-by-viewing-an-adobe-analytics-report}
+# 檢視 報告以測試 Adobe Analytics 整合{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
 在Adobe Analytics中建立必要變數、將其連結至AdobeDynamic Media Classic事件，並完成必要的實作步驟後，您就可以測試設定。 您可以測試並確認 Adobe Analytics 本身正在擷取資料。如果設定在此有效，則不需再執行其他步驟。假設您依照上述步驟操作，並將Adobe的Dynamic Media Classic事件資料連結至一或多個自訂流量變數，然後依照此工作流程在Adobe Analytics內測試您的資料。
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 1. 在Adobe Analytics內，前往「**[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > [Prop名稱]」，從功能表選項中選取您的流量prop名稱。
 
-   例如，若要存取範例帳戶中的&#x200B;**[!UICONTROL LoadAsset]** prop，正確的功能表選項會是&#x200B;**[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有10個以上的自訂Prop，您也會看到其他功能表選項。
+   例如，若要存取範例帳戶中的&#x200B;**[!UICONTROL LoadAsset]** prop，正確的功能表選項為&#x200B;**[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有10個以上的自訂Prop，您也會看到其他功能表選項。
 
 1. 檢視 Adobe Analytics 產生的圖表此圖表通常只是單一量度的資料。 如果您也想知道此資料與哪些資產相關聯，請取得此事件的資產資料。 例如，了解哪部影片的觀看率僅為50%，或某組影像的受歡迎度通常很實用。
 

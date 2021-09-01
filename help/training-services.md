@@ -1,6 +1,6 @@
 ---
 title: Adobe 訓練服務
-description: 進一步了解Adobe培訓服務。
+description: 進一步了解AdobeDynamic Media Classic的Adobe訓練服務。
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 53%
+source-wordcount: '167'
+ht-degree: 46%
 
 ---
 
@@ -37,4 +37,4 @@ Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓�
 
 說明系統的快速入門區段會為剛AdobeDynamic Media Classic的使用者提供指示。 它說明了方案、導覽、設定、資產管理和構建富媒體的基本知識。
 
-請參閱[快速入門](dmc-platform-overview.md)。
+請參閱[開始使用](dmc-platform-overview.md)。

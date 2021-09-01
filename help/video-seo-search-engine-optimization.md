@@ -1,6 +1,6 @@
 ---
 title: 視訊 SEO (搜尋引擎最佳化)
-description: 了解如何配置視訊SEO設定。
+description: 了解如何在Adobe Dynamic Media Classic中設定視訊SEO設定。
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 40%
+source-wordcount: '1037'
+ht-degree: 37%
 
 ---
 
@@ -45,13 +45,13 @@ AdobeDynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，�
 
 ## 選擇視訊SEO設定 {#choosing-video-seo-settings}
 
-在&#x200B;**[!UICONTROL 視訊搜尋引擎最佳化設定]**&#x200B;頁面上，按一下視訊網站地圖和mRSS饋送的視訊SEO設定。 若要開啟此頁面，請在全域導覽列上按一下「**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**」。
+在&#x200B;**[!UICONTROL 視訊搜尋引擎最佳化設定]**&#x200B;頁面上，選取視訊網站地圖和mRSS饋送的視訊SEO設定。 要開啟此頁面，請在全局導航欄上，轉到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**。
 
 在&#x200B;**[!UICONTROL 一般設定]**&#x200B;區域中，選擇是生成視訊網站地圖、mRSS饋送，還是兩者。 在&#x200B;**[!UICONTROL 層代設定]**&#x200B;區域中，將元資料欄位映射到輸入欄位。
 
-選擇設定後，按一下「**[!UICONTROL 儲存]**」（或「**[!UICONTROL 儲存並產生]**」）以建立視訊Sitemap、mRSS饋送或兩者。
+選擇設定後，選擇&#x200B;**[!UICONTROL Save]**（或&#x200B;**[!UICONTROL Save &amp; Generate]**）以建立視訊Sitemap、mRSS饋送或兩者。
 
-### 選擇一般設定 {#choosing-general-settings}
+### 設定一般設定 {#choosing-general-settings}
 
 在&#x200B;**[!UICONTROL 產生模式]**&#x200B;下拉式清單中，選擇報表模式：
 
@@ -65,17 +65,17 @@ AdobeDynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，�
 
 在&#x200B;**[!UICONTROL 自動/手動模式]**&#x200B;下拉清單中，選擇自動還是手動生成：
 
-* **自動模式**  -AdobeDynamic Media Classic每天會自動產生一個視訊Sitemap、媒體RSS(mRSS)饋送，或兩者。選擇「標示為發佈」選項，以自動標示為發佈AdobeDynamic Media Classic產生的XML檔案。
+* **自動模式**  -AdobeDynamic Media Classic每天會自動產生一個視訊Sitemap、媒體RSS(mRSS)饋送，或兩者。選擇&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;選項，以自動標籤為發佈AdobeDynamic Media Classic生成的XML檔案。
 
    * **標籤為** PublishMarks以發佈生成的XML檔案。
 
-* **手動模式**  — 在「視訊搜尋最佳化設定」畫面中按一下「產生」或「儲存並產生」時，AdobeDynamic Media Classic會產生視訊Sitemap、媒體RSS(mRSS)摘要，或兩者皆有。同時，也請選擇這些選項:
+* **手動模式**  — 當您在「視訊搜尋最佳化設定」畫面中選取「產生」或「儲存並產生」時，AdobeDynamic Media Classic會產生視訊Sitemap、媒體RSS(mRSS) **** 饋 **[!UICONTROL 送，或]** 兩者皆然。同時，也請選擇這些選項:
 
    * **沒有進一步設定**  — 不標籤為發佈生成的XML檔案。
 
    * **標籤為發佈**  — 標籤為發佈生成的XML檔案。
 
-   * **允許部分產生**  — 如果XML檔案不包含所有視訊的完整中繼資料資訊，則搜尋引擎可以拒絕該檔案。即使部分視訊沒有中繼資料，此選項也會產生 XML 檔案。警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
+   * **允許部分產生**  — 如果XML檔案不包含所有視訊的完整中繼資料資訊，則搜尋引擎可以拒絕該檔案。即使某些視訊無法使用中繼資料，此選項仍會產生XML檔案。 警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
 
 ### 選擇產生設定 {#choosing-generation-settings}
 
@@ -90,16 +90,16 @@ AdobeDynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，�
 
 1. 進行以下一項操作:
 
-   * 要保存設定而不生成XML檔案，請按一下「**[!UICONTROL 保存]**」。
-   * 若要儲存並產生檔案，請按一下「儲存並產生」]**。**[!UICONTROL 
+   * 要保存設定而不生成XML檔案，請選擇&#x200B;**[!UICONTROL 保存]**。
+   * 要保存並生成檔案，請選擇&#x200B;**[!UICONTROL 保存並生成]**。
 
       XML 檔案會產生並記錄在工作記錄檔中。視訊網站地圖 (video-sitemap) 和媒體 RSS (mRSS) 新聞頻道 (mrss-feed) 檔案會儲存在公司的根檔案夾中。
 
 >[!NOTE]
 >
->先發佈視訊Sitemap或mRSS摘要，您才能將其提交至搜尋引擎。 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。如有必要，將這些XML檔案標籤為要發佈，然後按一下&#x200B;**[!UICONTROL Publish]**。
+>先發佈視訊Sitemap或mRSS摘要，您才能將其提交至搜尋引擎。 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。如有必要，將這些XML檔案標籤為要發佈，然後選擇&#x200B;**[!UICONTROL Publish]**。
 
-## 將視訊網站地圖和 mRSS 新聞頻道檔案送出至搜尋引擎 {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## 將視訊Sitemap和mRSS饋送檔案提交至搜尋引擎 {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中:
 
@@ -108,8 +108,8 @@ AdobeDynamic Media Classic會在您產生視訊網站地圖和mRSS饋送後，�
 
 將上述其中一個 URL 複製到搜尋引擎的站長工具，即可將您的視訊網站地圖或媒體 RSS (mRSS) 新聞頻道檔案送出至搜尋引擎。
 
-## 檢視視訊 SEO 報告 {#viewing-video-seo-reports}
+## 檢視視訊SEO報表 {#viewing-video-seo-reports}
 
-在視訊搜尋引擎最佳化報表頁面上檢視視訊SEO報表。 若要開啟此頁面，請在全域導覽列上按一下「**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**」。
+在視訊搜尋引擎最佳化報表頁面上檢視視訊SEO報表。 若要開啟此頁面，請在全域導覽列上前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**。
 
 如果在產生報表時發生錯誤，則會列在「報表」頁面上。
