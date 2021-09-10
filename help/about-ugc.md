@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ UGC 支援以下檔案格式:
 
 * 點陣: JPG、PNG、TIFF
 * 向量圖：AI、EPS(不支援來自Adobe Illustrator 2018的EPS檔案)、PDF(僅當先前在Adobe Illustrator CS6中開啟並儲存PDF檔案時)
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
 
 上載資產之前，請取得共用密鑰。使用此密鑰來擷取上載標記。上載資產及執行其他 UGC 工作時，請送出上載標記。
 

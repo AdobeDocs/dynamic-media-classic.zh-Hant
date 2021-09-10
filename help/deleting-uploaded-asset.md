@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 79%
+source-wordcount: '114'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 | `op` | 必要 | 刪除 |
 | `shared_secret` | 必要 | 公司的共用密鑰。 |
 | <ul><li>對於影像:image_name</li><li>適用於向量:fxg_name</li></ul> | 必要 | 要刪除的資產名稱。 |
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
 
 **範例影像 URL:**
 

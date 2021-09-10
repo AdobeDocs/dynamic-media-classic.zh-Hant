@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 71%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # 上傳影像資產或向量資產{#uploading-an-image-asset-or-a-vector-asset}
 
 您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。然後使用上載標記來上載影像資產或向量資產。
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
 
 ## 請求共用機密金鑰 {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 GET 和 POST
 
 ## 上傳向量資產 {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
 
 您擷取在指定時間內有效的上載標記後，即可上載向量資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
