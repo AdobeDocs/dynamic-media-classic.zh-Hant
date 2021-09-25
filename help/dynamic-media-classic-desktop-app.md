@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 案頭應用伺服器名稱 | 瀏覽器URL |
+   | 瀏覽器URL | 案頭應用伺服器名稱 |
    | --- | --- |
-   | NA（北美）生產 | `https://s7sps1.scene7.com/` |
-   | 歐洲、中東和非洲(EMEA)生產 | `https://s7sps3.scene7.com/` |
-   | APAC（亞太）生產 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生產 |
+   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
+   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
 
 1. 登入後，請注意熟悉的瀏覽器使用者介面體驗。 您可以照常在案頭應用程式上AdobeDynamic Media Classic活動，繼續日復一日。
 
@@ -123,7 +123,7 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
 若要下載並&#x200B;*silent*&#x200B;在macOS上安裝最新版的AdobeDynamic Media Classic案頭應用程式：
 
-1. 將AdobeDynamic Media Classic.app移至清除，以解除安裝您系統上任何舊版的Dynamic Media Classic案頭應用程式版本。
+1. 在您的系統上解除安裝任何舊版AdobeDynamic Media Classic案頭應用程式版本。
 
 1. 下載AdobemacOS專用Dynamic Media Classic案頭應用程式的最新安裝程式。
 
@@ -148,11 +148,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 案頭應用伺服器名稱 | 瀏覽器URL |
+   | 瀏覽器URL | 案頭應用伺服器名稱 |
    | --- | --- |
-   | NA（北美）生產 | `https://s7sps1.scene7.com/` |
-   | 歐洲、中東和非洲(EMEA)生產 | `https://s7sps3.scene7.com/` |
-   | APAC（亞太）生產 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生產 |
+   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
+   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
 
 ## 下載並&#x200B;*silent*&#x200B;在Windows®上安裝最新的AdobeDynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 案頭應用伺服器名稱 | 瀏覽器URL |
+   | 瀏覽器URL | 案頭應用伺服器名稱 |
    | --- | --- |
-   | NA（北美）生產 | `https://s7sps1.scene7.com/` |
-   | 歐洲、中東和非洲(EMEA)生產 | `https://s7sps3.scene7.com/` |
-   | APAC（亞太）生產 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生產 |
+   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
+   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
+
 
 ## 使用AdobeDynamic Media Classic案頭應用程式的影片逐步說明 {#dmc-app-video-walk-through}
 
