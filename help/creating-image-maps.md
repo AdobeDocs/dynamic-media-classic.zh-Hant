@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 48%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 48%
    * 如果要在「網格視圖」或「清單視圖」中使用回轉集，請選擇&#x200B;**[!UICONTROL Edit]**。 或者，在「詳細資訊視圖」中開啟它，然後選擇&#x200B;**[!UICONTROL Edit]**。 選取影像資產，然後選取「**[!UICONTROL 影像對應]**」。
    * 如果您正在使用eCatalog，請在「網格視圖」、「清單視圖」、「詳細資訊視圖」中，選擇「**[!UICONTROL 編輯]**」。 選擇&#x200B;**[!UICONTROL 映射頁]**&#x200B;頁簽。
 
-   ![](assets/ma_image_map.png)
+   ![影像地圖影像](assets/ma_image_map.png)
 
 1. 繪製矩形或多邊形影像地圖:
 

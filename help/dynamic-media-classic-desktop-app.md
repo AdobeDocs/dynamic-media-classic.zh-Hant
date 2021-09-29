@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 >
 >未針對&#x200B;*次要*&#x200B;版本產生AdobeDynamic Media Classic案頭應用程式內的升級通知。 從次要版本的修正中受益的客戶可升級。
 
-## 次要版本中的修正(20.21.2) {#minor-release}
+## 最新版本的修正(20.21.3) {#release-sept2021}
 
-* 已知的20.21.1伺服器下拉式清單為空。
+* 案頭應用程式閒置一段時間後，所看到資產的縮圖損毀。
+* 案頭應用程式通常會在設定操作後停止回應。
+* 在&#x200B;**[!UICONTROL 測試影像服務]**&#x200B;底下自動啟用要求模糊化和鎖定模式。
+
+   請參閱[測試安全測試服務](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service)。
+
+* 更新Adobe Analytics的驗證機制。 與新整合相關，或某些Analytics變數必須從Dynamic Media Classic案頭應用程式內更新。
+
+   如需更新步驟，請參閱[登入Adobe Analytics](/help/log-analytics.md) 。
+
+## 20.21.2版中的修正 {#minor-release}
+
+* 20.21.1中的已知限制：登入畫面上的&#x200B;**[!UICONTROL 伺服器]**&#x200B;下拉式清單為空。
 * 在&#x200B;**[!UICONTROL 上傳工作選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下的層命名預設值現在為&#x200B;**[!UICONTROL Photoshop和層名稱]**。 PSD 檔案中的圖層以個別影像上載。
    * 先前預設的&#x200B;**[!UICONTROL 圖層名稱]**，在影像的圖層名稱或PSD檔案中的圖層編號後命名。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則使用圖層號。
    * 新的預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會在PSD檔案後面命名影像，後面跟圖層名稱或圖層編號。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。
    * 由於AdobeDynamic Media Classic中的圖層影像現在具有唯一名稱，因此不會更新現有PSD或範本（原始PSD檔案中的共用圖層名稱）。
 * 資產縮圖損毀。
 
-## 最新版本的修正(20.21.1) {#latest-fixes-desktop-app}
+## 20.21.1版中的修正 {#latest-fixes-desktop-app}
 
 * 因逾時而出現登入問題，導致下列訊息：*此用戶可被分配給組或組，但無權。 聯繫管理員。*
 * 檢視器預設集會與每次錯誤的密碼嘗試重複。
 * 案頭應用程式因根資料夾中的許多資產而停止回應。 (在Windows®上修正；在macOS上視需要運作。)
 
-## 舊版修正(20.20.2) {#previous-version-fixes-desktop-app}
+## 20.20.2版中的修正 {#previous-version-fixes-desktop-app}
 
 * 不限於您可透過macOS和Windows®案頭應用程式使用者介面上傳的檔案數。
 * 無需登出案頭應用程式，即可在公司之間切換。
@@ -71,14 +83,14 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載AdobeDynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * 最新版本(20.21.2)可於下列位置取得：
+   * 最新版本(20.21.3)可於下列位置取得：
+
+      * [macOS(.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows®(.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * 舊版(20.21.2)可在下列位置取得：
 
       * [macOS(.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows®(.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * 舊版(20.21.1)可在下列位置取得：
-
-      * [macOS(.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows®(.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 瀏覽器URL | 案頭應用伺服器名稱 |
+   | 伺服器 | 瀏覽器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生產 |
-   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
-   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
+   | NA生產（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生產（歐洲、中東和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生產（亞太地區） | https://s7sps5.scene7.com/ |
 
 1. 登入後，請注意熟悉的瀏覽器使用者介面體驗。 您可以照常在案頭應用程式上AdobeDynamic Media Classic活動，繼續日復一日。
 
@@ -127,11 +139,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載AdobemacOS專用Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS(.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS(.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. 使用以下命令將下載的磁碟映像(.DMG)裝載到安裝點位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令將.APP檔案複製到&#x200B;**[!UICONTROL Applications]**:
 
@@ -148,11 +160,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 瀏覽器URL | 案頭應用伺服器名稱 |
+   | 伺服器 | 瀏覽器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生產 |
-   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
-   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
+   | NA生產（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生產（歐洲、中東和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生產（亞太地區） | https://s7sps5.scene7.com/ |
 
 ## 下載並&#x200B;*silent*&#x200B;在Windows®上安裝最新的AdobeDynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 下載AdobeDynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [Windows®(.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows®(.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. 使用以下命令在記錄模式下運行安裝程式：
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安裝程式窗口中，按照步驟進行安裝，以便交互/輸入（如安裝位置）記錄在`Setup.iss`檔案中。
 
-1. 將建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.21.2.exe`複製到其他電腦。
+1. 將建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.21.3.exe`複製到其他電腦。
 
 1. 運行以下命令以進行靜默安裝：
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    有關命令行參數的詳細資訊，請訪問[Setup.exe和Update.exe命令行參數。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ AdobeDynamic Media Classic案頭應用程式與下列作業系統相容：
 
    若要使用&#x200B;**[!UICONTROL 伺服器]**，請參閱生產環境的下列對應：
 
-   | 瀏覽器URL | 案頭應用伺服器名稱 |
+   | 伺服器 | 瀏覽器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生產 |
-   | https://s7sps3.scene7.com/ | 歐洲、中東和非洲(EMEA)生產 |
-   | https://s7sps5.scene7.com/ | APAC（亞太）生產 |
-
+   | NA生產（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生產（歐洲、中東和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生產（亞太地區） | https://s7sps5.scene7.com/ |
 
 ## 使用AdobeDynamic Media Classic案頭應用程式的影片逐步說明 {#dmc-app-video-walk-through}
 

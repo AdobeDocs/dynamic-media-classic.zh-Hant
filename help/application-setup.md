@@ -1,6 +1,6 @@
 ---
 title: 應用程式設定
-description: 了解如何設定AdobeDynamic Media Classic的「應用程式」區域。
+description: 了解如何設定AdobeDynamic Media Classic的「應用程式」區域。 「應用程式」區域可讓您輸入一般設定、建立影像、檢視器和視訊編碼預設集、定義預設檢視器和中繼資料、發佈設定和視訊SEO設定。 您也可以使用區域來設定批次集預設集，以自動產生2D回轉集。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
+source-wordcount: '11003'
 ht-degree: 44%
 
 ---
@@ -957,7 +957,7 @@ spin-03-12
 
 使用此資訊，可以按如下方式建立批集類型處方：
 
-![](assets/se_batch_set_recipe.png)
+![批集方式影像](assets/se_batch_set_recipe.png)
 
 對回轉集的共用資產名稱部分進行分組會新增至「比對」欄位（如醒目提示）。 包含行和列的資產名稱的變數部分將分別添加到 行 和 列欄位中 。
 
