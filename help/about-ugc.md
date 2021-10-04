@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 48%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 47%
 
 使用UGC（使用者產生的內容）包括將資產上傳至專用的AdobeDynamic Media Classic儲存存放庫並執行相關操作。
 
-UGC 支援以下檔案格式:
-
-* 點陣: JPG、PNG、TIFF
-* 向量圖：AI、EPS(不支援來自Adobe Illustrator 2018的EPS檔案)、PDF(僅當先前在Adobe Illustrator CS6中開啟並儲存PDF檔案時)
+UGC支援點陣影像檔案格式BMP、GIF、JPG、PNG、PSD、TIFF。
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
+>Adobe Dynamic Media Classic中新增或現有UGC向量影像資產的支援已於2021年9月30日終止。
 
 上載資產之前，請取得共用密鑰。使用此密鑰來擷取上載標記。上載資產及執行其他 UGC 工作時，請送出上載標記。
 

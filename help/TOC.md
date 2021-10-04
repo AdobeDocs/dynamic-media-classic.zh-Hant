@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 進一步了解使用AdobeDynamic Media Classic
 index: y
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 28%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 28%
    + [關於使用者產生的內容](about-ugc.md)
    + [刪除已上傳的資產](deleting-uploaded-asset.md)
    + [獲取磁碟使用資訊](getting-disk-usage-information.md)
-   + [上傳影像資產或向量資產](uploading-image-asset-or-vector.md)
+   + [上傳點陣影像資產](uploading-image-asset-or-vector.md)
 + 主檔案 {#master-files}
    + [影像品質最佳化的最佳實踐](best-practices-optimizing-quality-images.md)
    + [編輯影像](editing-images.md)

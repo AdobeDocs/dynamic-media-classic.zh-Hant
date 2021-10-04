@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 31%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 目前不支援下列資產類型和功能:
 
-* RTMP 視訊串流
-* UGC（使用者產生的內容）服務
-* 網路印刷
 * AdobeDynamic Media傳統資訊或eCatalog搜尋
+* RTMP 視訊串流
+* 網路印刷
+* UGC（使用者產生的內容）服務
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
+>Adobe Dynamic Media Classic中新增或現有UGC向量影像資產的支援已於2021年9月30日終止。
 
 ## 測試安全測試服務 {#testing-the-secure-testing-service}
 

@@ -1,30 +1,30 @@
 ---
-title: 上傳影像資產或向量資產
-description: 了解如何在Dynamic Media Classic中上傳影像資產或向量Adobe
+title: 上傳點陣影像資產
+description: 了解如何將點陣影像資產上傳至AdobeDynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '994'
 ht-degree: 69%
 
 ---
 
-# 上傳影像資產或向量資產{#uploading-an-image-asset-or-a-vector-asset}
+# 上傳點陣影像資產 {#uploading-an-image-asset-or-a-vector-asset}
 
-您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。然後使用上載標記來上載影像資產或向量資產。
+您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。接著，您可使用上傳代號來上傳點陣影像資產。
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
+>Adobe Dynamic Media Classic中對新或現有UGC向量資產的支援已於2021年9月30日終止。
 
 ## 請求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-使用Admin Console建立支援案例，透過[請求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支援案例中，請求共用機密金鑰。
+使用Admin Console建立支援案例，透過[請求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，請求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從AdobeDynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
 
@@ -34,11 +34,11 @@ ht-degree: 69%
 
 上載標記是字母數字字串，只能在指定時間內使用。使用下列URL取代共用機密金鑰，以便您擷取上傳代號。
 
-* 影像
+* 光柵影像
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-* 向量
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`在此範例中，共用機密金鑰為  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+<!-- * Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
 根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若需要求更多時間，請在 URL 中加上 `expires`，以及您要求的時間量 (以秒鐘為單位)。例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
 
@@ -77,13 +77,13 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | shared_secret | 必要 | 正在進行上載的公司共用密鑰。 |
 | expires | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
 
-**範例影像 URL:**
+**點陣影像URL範例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-**範例向量 URL:**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **允許的HTTP方法：**
 `GET` 和  `POST`
@@ -92,7 +92,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 請參閱[上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
-## 上傳影像資產 {#uploading-an-image-asset}
+## 上傳點陣影像資產 {#uploading-an-image-asset}
 
 您擷取在指定時間內有效的上載標記後，即可上載影像資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
@@ -119,7 +119,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 | 全域限制 | 值 |
 | --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
-| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD |
+| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD, TIFF |
 
 使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
 
@@ -131,16 +131,6 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
 請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項中的挖空背景。
 * 待上載檔案的名稱.
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)來檢視與上述表單相關聯的HTML原始碼
 
@@ -252,61 +242,51 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 GET 和 POST
 
-## 上傳向量資產 {#uploading-a-vector-asset}
+<!-- ## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic中對新增或現有UGC向量影像資產的支援將於2021年9月30日終止。
+>Support for new or existing UGC vector image assets in Adobe Dynamic Media Classic end on September 30, 2021.
 
-您擷取在指定時間內有效的上載標記後，即可上載向量資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
+After you retrieve an upload token that is valid for a specific amount of time, you can upload a vector asset. You upload the asset as a multipart/form post while sending the rest of the values as a URL query string, as shown in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-`upload_token`和`company_name`欄位為必填欄位。
+The `upload_token` and `company_name` fields are required.
 
-請參閱[擷取上傳代號](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+See [Retrieve the upload token](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-請參閱[擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
+See [Retrieve a shared-secret key](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
-您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
+You can also send other optional values as URL query strings, as in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-`file_limit`參數以位元組為單位指定檔案大小限制。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+The `file_limit` parameter specifies the file-size limit in bytes. The `file_exts` parameter specifies the filename extensions that are allowed for upload. Both of these values are optional.
 
-對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
+A global limit is set in the application for the file size limit and the filename extensions allowed. If what you send in the request is a subset of the global limits, it is honored. The global limits are the following:
 
-| 全域限制 | 值 |
+| Global limit | Value |
 | --- | --- |
-| 所有用戶端的檔案大小 | 20 MB |
-| 用於上載的支援向量檔案格式 | AI、EPS、PDF (只有當 PDF 先前使用 Adobe Illustrator CS6 來開啟並儲存時) |
+| File size for all clients | 20 MB |
+| Supported vector file formats for upload | AI, EPS, PDF (only when the PDF is previously opened and saved in Adobe Illustrator CS6) |
 
-使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
+The following HTML form lets a user upload an asset. The form asks the user to enter the following information:
 
-* 公司名稱.
-* 上載標記.
-* 檔案大小限制.
-* 檔案副檔名的清單.
-* 是否保留與資產相關聯的顏色設定檔和檔案名稱。
-* 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
-請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項中的挖空背景。
-* 待上載檔案的名稱.
+* A company name.
+* An upload token.
+* A file size limit.
+* A list of filename extensions.
+* Whether to preserve the color profile and file name associated with the asset.
+* Whether to use Knockout Background. If you enable Knockout Background, set the Corner, Tolerance, and Fill Method.
+See Knockout Background in [Image fine-tuning options at upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* The name of the file to upload.
 
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
-
-在瀏覽器窗口中按一下右鍵，然後為示例中顯示的表單選擇&#x200B;**[!UICONTROL View Source]**&#x200B;時，將顯示以下HTML代碼。 程式碼會顯示使用者選取&#x200B;**[!UICONTROL Submit]**&#x200B;時執行的對應URL查詢字串和POST方法。
+The following HTML code is displayed when you right-click in the browser window, and then select **[!UICONTROL View Source]** for the form shown in the example. The code shows the corresponding URL query string and the POST method that are run when the user selects **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -340,9 +320,9 @@ return true;
 </body>
 ```
 
-要在Internet Explorer中查看XML響應，請轉至&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請前往&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**。 建議使用 Firefox 檢視 XML 回應。
+To view the XML response in Internet Explorer, go to **[!UICONTROL View]** > **[!UICONTROL Source]**. To view XML response in Firefox, go to **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox is recommended for viewing XML responses.
 
-下面是成功上載的範例回應:
+The following is a sample response from a successful upload:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -368,32 +348,33 @@ return true;
 
 >[!NOTE]
 >
->上載的資產 (AI、EPS、PDF 等) 轉換為 FXG 格式，回應會傳送該 FXG 資產的直接連結。
+>The uploaded asset (AI, EPS, PDF so on) is converted to the FXG format and the response sends a direct link to that FXG asset.
 
-資產與任何其他網路印刷資源相同；您應用處理查詢。 例如，下列 URL 會將 FXG 資源轉換為 500x500 png 影像。
+The asset is like any other Web-to-print resource; you apply processing queries to it. For example, the following URL converts an FXG resource into a 500x500 png image.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 ```
 
-以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。您可以在 URL 查詢字串中使用以下欄位來上載資產:
+Send the asset to upload as a multipart/form post while sending the rest of the values as a URL query string. You can use the following fields in the URL query string to upload an asset:
 
-| URL 參數 | 必要或選擇性 | 值 |
+| URL Parameter | Required or Optional | Value |
 | --- | --- | --- |
-| `op` | 必要 | 上載 |
-| `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
-| `company_name` | 必要 | 執行上載的公司名稱。 |
-| `file_limit` | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
-| `file_exts` | 選擇性 | 資產檔案允許的副檔名清單。 |
+| `op` | Required | upload |
+| `upload_token` | Required | Upload token for the shared-secret key associated with the company. |
+| `company_name` | Required | Name of the company performing the upload. |
+| `file_limit` | Optional | File size limit, in bytes, for the asset. |
+| `file_exts` | Optional | List of allowable extensions for the asset file. |
 
 >[!NOTE]
 >
->須將待上載資產作為 multipart POST 要求中的唯一欄位傳送。
+>You are required to send the asset to be uploaded as the only field in a multipart POST request.
 
-**範例 URL:**
+**Sample URL:**
 
 `https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_to ken=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company`
 
-**允許的 HTTP 方式:**
+**Allowed HTTP method:**
 
 POST
+ -->
