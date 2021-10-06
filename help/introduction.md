@@ -1,20 +1,20 @@
 ---
 title: Adobe Dynamic Media Classic說明
-description: 歡迎AdobeAdobe Dynamic Media Classic，這是領先業界的隨選跨媒體發佈系統，可上傳、管理、增強動態豐富內容並發佈至所有裝置和螢幕。
+description: 歡迎使用Adobe Dynamic Media Classic，這是領先業界的隨選跨媒體發佈系統，可上傳、管理、增強動態豐富內容並發佈至所有裝置和螢幕。
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Adobe Dynamic Media Classic說明 {#scene7-overview}
 
-歡迎AdobeAdobe Dynamic Media Classic，這是領先業界的隨選跨媒體發佈系統，可上傳、管理、增強動態豐富內容並發佈至所有裝置和螢幕。 Adobe Dynamic Media Classic解決方案包括下列項目：
+歡迎使用Adobe Dynamic Media Classic，這是領先業界的隨選跨媒體發佈系統，可上傳、管理、增強動態豐富內容並發佈至所有裝置和螢幕。 Adobe Dynamic Media Classic解決方案包括下列項目：
 
 * Dynamic Imaging:即時編輯、格式化和調整大小、互動式縮放和平移；顏色切換和紋理切換；旋轉360°;影像模板；多媒體檢視器。
 * eCatalog:製作、熱點連結、啟用搜尋、發佈，以及將動態提供的線上目錄傳送至可設定的檢視器。

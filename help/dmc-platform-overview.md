@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
 * **建立豐富型媒體**  — 建立不同的資產設定，例如eCatalog、影像集、回轉集、色票集、混合型媒體集、基本範本和FXG範本。
 
-* **發佈及管理**  — 將資產發佈至Adobe Dynamic Media Classic SaaS網路，以及在資產發佈時監控其狀態、管理使用者權限並維護安全性。
+* **發佈及管理**  — 將資產發佈至Adobe Dynamic Media Classic SaaS網路。在資產發佈時監控其狀態。 管理使用者權限並維護安全性。
 
 * **提供**  — 將媒體從Adobe Dynamic Media Classic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並會透過CDN快取傳送。Adobe Dynamic Media Classic提供每個資產的URL。 您發佈資產後，URL 便會生效。
 
