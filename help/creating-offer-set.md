@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 1. 完成後，在頁面右下角附近，確定已選取「儲存後發佈」*]**（預設）。**[!UICONTROL 
 1. 選擇&#x200B;**[!UICONTROL 關閉]**，輸入選件集的名稱，然後選擇&#x200B;**[!UICONTROL 保存]**。
 
-在關閉「Test&amp;Target選件集」頁面之前，請先將選件集推送至Adobe Target Standard/Premium。 請參閱[將提案集發送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在關閉「Test&amp;Target選件集」頁面之前，請先將選件集推送至Adobe Target Standard/Premium。 請參閱[推送選件集至Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 建立包含影像或影片的優惠方案集 {#creating-an-offer-set-with-images-or-videos}
 
