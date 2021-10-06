@@ -1,6 +1,6 @@
 ---
 title: '設定基礎 '
-description: 了解如何使用「設定」畫面，在AdobeDynamic Media Classic中輸入您的個人設定。 如果您是管理員，請為公司進行設定。
+description: 了解如何使用「設定」畫面，在Adobe Dynamic Media Classic中輸入您的個人設定。 如果您是管理員，請為公司進行設定。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '255'
+ht-degree: 17%
 
 ---
 
 # 設定基礎{#setup-basics}
 
-使用「AdobeDynamic Media Classic設定」頁面輸入您的個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁，請在全局導航欄上，選擇&#x200B;**[!UICONTROL Setup]**。
+使用「Adobe Dynamic Media Classic設定」頁面輸入您的個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁，請在全局導航欄上，選擇&#x200B;**[!UICONTROL Setup]**。
 
 此頁面上可用的設定取決於您作為使用者或管理員的狀態：
 
@@ -34,7 +34,8 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [AdobeDynamic Media Classic使用者角色和權限](administration-setup.md#user_administration)
+>* [設定基本訓練影片](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classic使用者角色和權限](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [Viewer Presets](application-setup.md#viewer_presets)
 

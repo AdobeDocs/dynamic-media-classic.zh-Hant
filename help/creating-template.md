@@ -1,6 +1,6 @@
 ---
 title: 建立範本
-description: 了解如何在AdobeDynamic Media Classic中建立範本。
+description: 了解如何在Adobe Dynamic Media Classic中建立範本。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 45%
 
 若要建立範本，請前往&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Template Basics]**。 選取「設計師」或「開發人員」。在此頁面上，可以增加影像圖層和文字圖層。還可以將圖層重新排序、變更圖層的大小和位置，並將陰影和光暈效果套用於影像和文字。
 
+另請參閱[範本基本知識](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
+
 >[!NOTE]
 >
->如果您編輯在舊版AdobeDynamic Media Classic中建立的範本，儲存時會出現提示，詢問您「是否要新增畫布層？」。 選擇&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基層。 如果您不小心選取了&#x200B;**[!UICONTROL Yes]**，請刪除URL中的`&allowCanvasPrompt`和`&layer=0`修飾符，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
+>如果您編輯在舊版Adobe Dynamic Media Classic中建立的範本，儲存時會出現提示詢問您「是否要新增畫布層？」。 選擇&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基層。 如果您不小心選取了&#x200B;**[!UICONTROL Yes]**，請刪除URL中的`&allowCanvasPrompt`和`&layer=0`修飾符，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
 
 ## 建立初始範本 {#creating-the-initial-template}
 
@@ -42,7 +44,7 @@ ht-degree: 45%
 
 1. 若要建立初始範本，請使用下列其中一種方法：
 
-   * **首先選擇PSD或影像**  — 在「瀏覽」面板中，為模板選擇所需的PSD檔案或影像，轉至「構 **[!UICONTROL 建]**  >模 **[!UICONTROL 板基礎」]**。
+   * **先選取PSD或影像**  — 在「瀏覽」面板中，選取您要用於範本的PSD檔案或影像，然後前往「建 **[!UICONTROL 置]**  >範本 **[!UICONTROL 基礎」]**。
 
    * **從「範本」畫面開始**  — 前往「 **[!UICONTROL 建置]**  >范 **[!UICONTROL 本基礎]**」。選取「設計師」或「開發人員」。
 
@@ -52,7 +54,7 @@ ht-degree: 45%
 1. 選擇&#x200B;**[!UICONTROL 保存]**。
 1. 選擇用於儲存模板的資料夾，輸入模板的名稱，然後選擇&#x200B;**[!UICONTROL Submit]**。
 
-   AdobeDynamic Media Classic會視需要縮小影像，以便符合畫布上的影像，畫布是定義範本的「範本」畫面上的區域。
+   Adobe Dynamic Media Classic會視需要縮小影像，以便適合畫布上的影像，也就是定義範本的「範本」畫面上的區域。
 
 ## 編輯範本集 {#editing-a-template-set}
 
@@ -103,7 +105,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >AdobeDynamic Media Classic中已計畫將文字編輯器v4.2移除，因此建議您盡可能使用文字編輯器4.3。 **[!UICONTROL 文字繞排]**&#x200B;選項將整合至未來的文字編輯器版本中。
+   >Adobe Dynamic Media Classic預計會將文字編輯器v4.2移除，因此建議您盡可能使用文字編輯器4.3。 **[!UICONTROL 文字繞排]**&#x200B;選項將整合至未來的文字編輯器版本中。
 
 * **[!UICONTROL 設計人員和開發人員]**  — 選取最能說明您角色的選項。
 
@@ -121,7 +123,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如有必要，AdobeDynamic Media Classic會縮小影像，以在您建立影像層時讓影像符合畫布。
+   >如有必要，Adobe Dynamic Media Classic會在您建立影像圖層時縮小影像，以使其符合畫布。
 
 ## 建立文字圖層 {#creating-a-text-layer}
 
@@ -142,7 +144,7 @@ ht-degree: 45%
 1. 在文本編輯器的文本框中，選擇要格式化的文本。 您可以選取所有文字、文字的部分或個別字元。
 1. 指定以下任何格式選項，然後選擇&#x200B;**[!UICONTROL Apply]**。
 
-   * **[!UICONTROL 字型]**  — 在「字型」菜單上選擇字型。如果您要的字型未出現在功能表中，可將其上傳至AdobeDynamic Media Classic。 請參閱字型。
+   * **[!UICONTROL 字型]**  — 在「字型」菜單上選擇字型。如果您想要的字型未出現在功能表中，您可將其上傳至Adobe Dynamic Media Classic。 請參閱字型。
 
    * **[!UICONTROL 字型大]** 小 — 從菜單中選擇字型大小，在框中鍵入特定大小，或選擇向上或向 **** 下 **** 箭頭將大小增加或減小兩點。
 
@@ -244,7 +246,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic建議您建立與範本大小完全相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
+>Adobe Dynamic Media Classic建議您建立與範本大小完全相同的影像預設集。 影像預設集大小與範本大小相符可確保範本的最終輸出大小及銳利化選項設定正確。建立此影像預設集之後，可以從「範本預覽」畫面上的「套用預設集」選單中進行選擇。此畫面將顯示影像從伺服器傳送後顯示的效果。請參閱[設定影像預設集](setting-image-presets.md#setting_up_image_presets)。
 
 * **更改圖層的大小**  — 要更改圖層或畫布的大小，請在「圖層」清單中選擇圖層或畫布，然後使用以下技術之一：
 
@@ -288,7 +290,7 @@ ht-degree: 45%
 
 ## 對圖層使用陰影和發光效果 {#using-shadow-and-glow-effects-on-layers}
 
-您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的模板源自於具有陰影和發光效果的PSD檔案，則可以在AdobeDynamic Media Classic中調整這些效果。
+您可以將陰影或光暈效果套用於圖層。將陰影或光暈套用於圖層的周邊並向內或向外延伸，取決於您選擇的陰影或光暈選項。如果您的模板源自於具有陰影和發光效果的PSD檔案，則可以在Adobe Dynamic Media Classic中調整這些效果。
 
 套用陰影或光暈效果之後，您可以在「範本」畫面的「圖層屬性」區域調整其大小、色彩、不透明度和位置。
 

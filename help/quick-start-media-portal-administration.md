@@ -1,6 +1,6 @@
 ---
 title: 「快速入門：媒體入口網站」
-description: 介質入口網站簡介和快速入門，可協助您快速上手並執行Dynamic Media Classic中的媒體入口技術和Adobe。
+description: 介質入口網站簡介和快速入門，可協助您使用Adobe Dynamic Media Classic中的媒體入口網站技術和管理，快速上手並執行。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 68%
+source-wordcount: '872'
+ht-degree: 52%
 
 ---
 
 # 快速入門：媒體入口網站{#quick-start-media-portal}
 
-Media Portal可讓公司輕鬆取得、控制並將已核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 此瀏覽器型「自助式」環境可讓Media Portal使用者以管理員控制的方式，「檢視」至AdobeDynamic Media Classic資產，以企業核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
+Media Portal可讓公司輕鬆取得、控制並將已核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 此瀏覽器型「自助式」環境可讓Media Portal使用者以管理員控制的「檢視」方式存取Adobe Dynamic Media Classic資產，以企業核准的格式輕鬆存取、瀏覽、搜尋、預覽和匯出資產。
 
 身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在Media Portal介面中指定字型、字型顏色、字型大小，並合併品牌元素，例如標誌。
 
-本快速入門的設計可讓您迅速熟練 Media Portal 管理。在每個步驟結束時，選取主題連結以深入了解。
+請觀看下列訓練影片：
+
+* [媒體入口網站概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [媒體入口網站導覽1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [媒體入口網站導覽2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+以下快速入門旨在通過媒體門戶管理幫助您快速啟動並運行。 在每個步驟結束時，選取主題連結以深入了解。
 
 ## 1. 瞭解 Media Portal 使用者角色
 
@@ -45,7 +53,7 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 ## 4. 管理 FTP 帳戶
 
-您可以有與Media Portal相關聯的個別FTP帳戶，並對應至您AdobeDynamic Media Classic帳戶中的特定資料夾。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
+您可以有與Media Portal相關聯且對應至Adobe Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
 請參閱[管理FTP帳戶](ftp-accounts.md#managing_ftp_accounts)。
 

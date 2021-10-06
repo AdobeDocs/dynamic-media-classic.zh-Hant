@@ -1,6 +1,6 @@
 ---
 title: 銳利化影像
-description: 了解如何在AdobeDynamic Media Classic中銳化影像。
+description: 了解如何在Adobe Dynamic Media Classic中銳化影像。
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 43%
+source-wordcount: '2276'
+ht-degree: 41%
 
 ---
 
@@ -21,25 +21,27 @@ ht-degree: 43%
 
 銳利化是一種影像操作技巧，使數位影像的外框看起來更為清晰。銳利化可增加邊緣像素之間的對比，並強調深色區域與淺色區域之間的切換。銳利化可提高局部對比，顯現精緻的細節。要讓所有影像正確銳利化，並沒有嚴格的公式可循。銳利化不足會造成影像輪廓不鮮明，而過度銳利化會增加光暈、不自然感和雜訊。
 
-AdobeDynamic Media Classic強烈建議您對所有影像使用影像預設集。 它們可確保大小一致，且銳利化會針對任何名為「影像預設集」的影像強制執行。 此外，您還可以輕鬆編輯和更改「影像預設集」的銳利化參數。 您下一次發佈時，呼叫含有該預設集的所有影像都會擁有該新值。
+Adobe Dynamic Media Classic強烈建議您對所有影像使用影像預設集。 它們可確保大小一致，且銳利化會針對任何名為「影像預設集」的影像強制執行。 此外，您還可以輕鬆編輯和更改「影像預設集」的銳利化參數。 您下一次發佈時，呼叫含有該預設集的所有影像都會擁有該新值。
 
-AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然後使用該預設集呼叫檢視器。 這麼做可確保檢視器中的影像清晰且吸引人。
+Adobe Dynamic Media Classic也建議將銳利化新增至檢視器預設集，然後使用該預設集呼叫檢視器。 這麼做可確保檢視器中的影像清晰且吸引人。
 
 不過，無論您是使用「影像預設集」和「檢視器預設集」，還是使用某些替代的銳利化方法，底線是您必須銳利化影像。 若未這麼做，您的影像（和網站）可能會看起來柔和模糊。
 
 >[!NOTE]
 >
->「銳利化」命令會覆蓋「影像預設集」設定，包括其中的銳利化效果。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 AdobeDynamic Media Classic強烈建議使用影像預設集來傳送所有影像，以確保以均勻的大小和銳利化傳送影像。 不過，變更個別影像的銳利化設定之後，「影像預設集」的銳利化設定就不再適用於該影像。它會在不含「影像預設集」銳利化設定的情況下傳送。
+>「銳利化」命令會覆蓋「影像預設集」設定，包括其中的銳利化效果。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 Adobe Dynamic Media Classic強烈建議使用「影像預設集」來傳送所有影像，以確保影像以均勻的大小和銳利化傳送。 不過，變更個別影像的銳利化設定之後，「影像預設集」的銳利化設定就不再適用於該影像。它會在不含「影像預設集」銳利化設定的情況下傳送。
 
-通常必須將影像銳利化。AdobeDynamic Media Classic和影像伺服器提供數種銳利化選項。 請務必瞭解銳利化對影像造成的變化，以及所需的銳利化程度為何。大部分的影像都需要進行一些銳利化，不過所需的銳利化程度則取決於影像。
+通常必須將影像銳利化。Adobe Dynamic Media Classic和影像伺服器提供數個銳利化選項。 請務必瞭解銳利化對影像造成的變化，以及所需的銳利化程度為何。大部分的影像都需要進行一些銳利化，不過所需的銳利化程度則取決於影像。
 
 影像銳利化會增加像素的對比，以產生強調邊緣的效果。人們將這種加強的邊緣對比視為銳利。雖然在影像上執行銳利化濾鏡即可輕鬆改善影像，不過這樣也很容易過度銳利化影像。
 
 過度銳利化影像會產生光暈效果，或使邊緣線條產生條紋。
 
-您可以遵循一些最佳實務，以最佳化AdobeDynamic Media Classic和Dynamic Media影像伺服器上影像的銳利化。
+您可以遵循一些最佳實務，最佳化Adobe Dynamic Media Classic和Dynamic Media影像伺服器上影像的銳利化。
 
-請參閱[在Adobe Dynamic Media Classic和Dynamic Media影像伺服器](/help/assets/s7_sharpening_images.pdf)上銳利化影像的最佳作法。
+請參閱[在Adobe Dynamic Media Classic和Dynamic Media影像伺服器上銳利化影像的最佳實務](/help/assets/s7_sharpening_images.pdf)。
+
+另請參閱[銳利化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)訓練影片。
 
 **銳利化影像:**
 
@@ -69,7 +71,7 @@ AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然
 
 選擇以下選項，以便使用「銳利化遮色片」來微調銳利化：
 
-* **量**  — 控制套用至邊緣像素的對比度量。預設是 0.0。對於高解析度的影像，您最多可以將它增加至 5.0。請將「數量」視為濾鏡飽和度的度量。AdobeDynamic Media Classic中的&#x200B;**[!UICONTROL Amount]**&#x200B;設定與Adobe Photoshop中的Amount設定不同。 Adobe Photoshop的使用量範圍為1%到500%，而AdobeDynamic Media Classic的範圍為0.0到5.0。 (5.0 約等於 Photoshop 中的 500%，0.9 類似於 90%，以此類推。)
+* **量**  — 控制套用至邊緣像素的對比度量。預設是 0.0。對於高解析度的影像，您最多可以將它增加至 5.0。請將「數量」視為濾鏡飽和度的度量。Adobe Dynamic Media Classic中的&#x200B;**[!UICONTROL Amount]**&#x200B;設定與Adobe Photoshop中的Amount設定不同。 Adobe Photoshop使用的量範圍為1%至500%，而Adobe Dynamic Media Classic則從0.0調整為5.0。 (5.0 約等於 Photoshop 中的 500%，0.9 類似於 90%，以此類推。)
 
 * **半徑**  — 決定影響銳利化的邊緣像素周圍的像素數。該效果會在影像的所有像素上執行，並以放射狀向所有方向輻射散開。
 
@@ -101,7 +103,7 @@ AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然
 
 **銳利化和影像預設集**
 
-您可以合併所有這三種銳利化效果，以取得最終結果。 不過，不建議使用此方法。 AdobeDynamic Media Classic建議您將銳利化效果儲存為影像預設集的一部分。 影像預設集可讓您封裝最常使用的影像修飾元，以在小文字字串中建立動態調整大小的影像。 「影像預設集」包含檔案格式（通常為網頁的JPEG）、像素計數和影像銳利化的值。 您不必使用每個影像修飾元來附加URL以建立特定類型的影像大小，而是建立命名的「影像預設集」，例如「縮圖」。 然後，使用適當的大小、檔案格式和銳利化選項來配置縮圖「影像預設集」。 使用「影像預設集」名稱呼叫影像。 影像預設集會縮短整體URL的長度。 這兩個URL會以銳利化產生相同的350x350 JPEG影像：
+您可以合併所有這三種銳利化效果，以取得最終結果。 不過，不建議使用此方法。 Adobe Dynamic Media Classic建議您將銳利化效果儲存為影像預設集的一部分。 影像預設集可讓您封裝最常使用的影像修飾元，以在小文字字串中建立動態調整大小的影像。 「影像預設集」包含檔案格式(通常是網頁JPEG)、像素計數和影像銳利化的值。 您不必使用每個影像修飾元來附加URL以建立特定類型的影像大小，而是建立命名的「影像預設集」，例如「縮圖」。 然後，使用適當的大小、檔案格式和銳利化選項來配置縮圖「影像預設集」。 使用「影像預設集」名稱呼叫影像。 影像預設集會縮短整體URL的長度。 這兩個URL會以銳利化方式產生相同的350x350JPEG影像：
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -116,9 +118,9 @@ AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然
 
 * **JPG品質**  — 如果您想要控制壓縮層級和色度縮減取樣，請選取此選項。
 
-* **滑桿**  — 決定JPG壓縮等級。這個設定會同時影響檔案大小與影像品質。JPG質量表為1-100。
+* **滑桿**  — 決定JPG壓縮層級。這個設定會同時影響檔案大小與影像品質。JPG質量等級為1-100。
 
-* **啟用JPG色度下採樣**  — 由於眼睛對高頻顏色資訊的敏感度比高頻亮度低，因此JPEG影像將影像資訊劃分為亮度和顏色分量。壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣可將資料量減少三分之一或二分之一，而且幾乎不會影響肉眼能感知的品質。縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
+* **啟用JPG色度下調採樣**  — 由於眼睛對高頻顏色資訊的敏感程度低於高頻亮度，因此JPEG影像將影像資訊劃分為亮度和顏色分量。壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣可將資料量減少三分之一或二分之一，而且幾乎不會影響肉眼能感知的品質。縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
 
 **設定公司範圍的銳利化選項**
 
@@ -132,6 +134,8 @@ AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然
 
 查看器預設集（如「影像預設集」）可讓您將許多選項集中到一個位置，包括選擇外觀和查看器選項（如包括「打印」按鈕或控制縮放動畫的速度）。 在與「影像預設集」相同的部分，位於「**[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**」下。
 
+請參閱[檢視器預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)訓練影片。
+
 「修飾元」選項則位於所有「eCatalog」、「迴轉」與「自訂縮放檢視器預設集」的「Core 設定」區段下。將 URL 銳利化命令增加至「修飾元」方框後，每次呼叫含有該檢視器預設集的檢視器時，您都可以增加銳利化。
 
 若要呼叫檢視器預設集，請使用檢視器URL上的`config=`命令。 以下是使用檢視器預設集(`FantasticoZoom2022`)呼叫影像集（鞋）的範例：
@@ -144,4 +148,4 @@ AdobeDynamic Media Classic也建議將銳利化新增至檢視器預設集，然
 
 最後一個 (最不建議的) 銳利化方法是以逐一影像為基礎來建立銳利化覆蓋。此方法會以自己的特定值覆寫影像預設集中的銳利化。 不過，此方法也會覆寫任何大小的所有其他銳利化方法。 如果某些影像的解析度不夠高，且影像預設集中的值對於這些小型影像而言太高時，最適合使用此方法。在此情況下，可能需要個別影像的銳利化。
 
-在「AdobeDynamic Media Classic」中，選擇任何影像，轉至「詳細資訊視圖」（按兩下或按&#x200B;**[!UICONTROL 詳細資訊視圖]**&#x200B;按鈕），然後選擇&#x200B;**[!UICONTROL 銳利化]**。 更改任何參數，然後選擇&#x200B;**[!UICONTROL Save]**。 此程式會告訴影像伺服器使用這些銳利化參數，而非您在URL中呼叫的任何命令，例如銳利化修飾元或影像預設集。 請務必發佈，以確認變更生效。
+在Adobe Dynamic Media Classic中，選擇任何影像，轉到「詳細視圖」（按兩下或按&#x200B;**[!UICONTROL 詳細視圖]**&#x200B;按鈕），然後選擇&#x200B;**[!UICONTROL 銳利化]**。 更改任何參數，然後選擇&#x200B;**[!UICONTROL Save]**。 此程式會告訴影像伺服器使用這些銳利化參數，而非您在URL中呼叫的任何命令，例如銳利化修飾元或影像預設集。 請務必發佈，以確認變更生效。

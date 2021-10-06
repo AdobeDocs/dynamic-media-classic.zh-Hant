@@ -1,6 +1,6 @@
 ---
 title: '"快速入門: 基本範本"'
-description: 簡介和範本基本概念快速入門，可協助您在AdobeDynamic Media Classic中快速上手並執行。
+description: 簡介和範本基礎快速入門可協助您在Adobe Dynamic Media Classic中快速上手並執行。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 32%
+source-wordcount: '851'
+ht-degree: 28%
 
 ---
 
@@ -21,21 +21,23 @@ ht-degree: 32%
 
 「範本基本須知」是動態建立和可定址的分層影像檔案，例如影像編輯應用程式(如Adobe Photoshop)中的分層檔案。 與包含圖層的靜態檔案 (如 PSD 檔案) 不同，範本可以包括參數。透過各種參數，影像的不同方面都可以定址及自訂。
 
-範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層（如分層PSD檔案）的靜態檔案轉換為範本，並在AdobeDynamic Media Classic中建立範本。 您可以使用上傳至AdobeDynamic Media Classic的字型，在範本中建立文字層。 將文字增加到範本中之後，可以透過變更其對齊方式、字型、字型大小以及色彩來設定字型格式。
+範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層的靜態檔案(如分層PSD檔案)轉換為範本，並在Adobe Dynamic Media Classic中建立範本。 您可以使用上傳至Adobe Dynamic Media Classic的字型，在範本中建立文字層。 將文字增加到範本中之後，可以透過變更其對齊方式、字型、字型大小以及色彩來設定字型格式。
 
 使用「參數」頁，您可以將範本的任何方面轉換為可定址的參數。 使用「參數」畫面時，可以變更要在範本中使用的分層影像或文字值。這些參數是透過 URL 字串傳遞的，因此可以透過變更任何參數，動態自訂從影像伺服器產生的回覆影像。
 
-本快速入門的設計理念是幫助您快速設定和使用基本範本。
+另請參閱[範本基本知識](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
+
+此快速入門旨在讓您透過範本基本知識快速上手並執行。
 
 ## 1.上傳檔案
 
-首先請為範本上載 PSD 檔案或影像檔案。AdobeDynamic Media Classic除了PSD外，還支援許多影像檔案格式，但建議模板使用無損TIFF和PNG影像，因為它們允許透明。
+首先請為範本上載 PSD 檔案或影像檔案。Adobe Dynamic Media Classic除了支援PSD外，還支援許多影像檔案格式，但建議範本使用無損TIFF和PNG影像，因為它們允許透明。
 
-如果使用PSD檔案來構建模板，請在上載PSD檔案時，在&#x200B;**[!UICONTROL 上載作業選項]**&#x200B;對話框中選擇&#x200B;**[!UICONTROL 建立模板]**。 也選擇&#x200B;**[!UICONTROL 圖層命名]**&#x200B;選項，這樣AdobeDynamic Media Classic就知道在PSD圖層上傳到AdobeDynamic Media Classic時如何為它們命名。
+如果您使用PSD檔案來建立模板，請在上傳PSD檔案時，在&#x200B;**[!UICONTROL 上傳作業選項]**&#x200B;對話方塊上選擇&#x200B;**[!UICONTROL 建立範本]**。 也選擇&#x200B;**[!UICONTROL 「圖層命名」]**&#x200B;選項，讓Adobe Dynamic Media Classic知道在PSD圖層上傳至Adobe Dynamic Media Classic時如何為其命名。
 
 如果使用的是影像檔案，可以裁切影像，也可以上載時在影像中從剪裁路徑建立遮色片。
 
-在全局導航欄上，選擇&#x200B;**[!UICONTROL Upload]**&#x200B;以將PSD檔案或其他影像檔案從您的電腦上載到AdobeDynamic Media Classic上的資料夾。 請參閱[上傳範本檔案](uploading-template-files.md#uploading_template_files)。
+在全局導航欄上，選擇&#x200B;**[!UICONTROL Upload]**&#x200B;以將PSD檔案或其他影像檔案從您的電腦上載到Adobe Dynamic Media Classic上的資料夾。 請參閱[上傳範本檔案](uploading-template-files.md#uploading_template_files)。
 
 ## 2.建立範本
 

@@ -1,6 +1,6 @@
 ---
 title: 建立優惠方案集
-description: 了解如何在AdobeDynamic Media Classic中建立優惠方案集。
+description: 了解如何在Adobe Dynamic Media Classic中建立優惠方案集。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 38%
+source-wordcount: '1293'
+ht-degree: 35%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 38%
 
 對於模板，選擇&#x200B;**[!UICONTROL 添加並預覽]**，然後設定您選擇的參數。 其他選件集類型不包含參數，但您仍可以選取&#x200B;**[!UICONTROL 預覽]**&#x200B;並變更可用的預設集來自訂參數。
 
-AdobeDynamic Media Classic提供編輯和建立優惠方案集的工具。
+Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 >[!NOTE]
 >
->建立優惠方案集之前，請務必發佈您要用於該集以AdobeDynamic Media Classic的所有資產。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
+>建立優惠方案集之前，請務必發佈您要用於該集的所有資產，並設為Adobe Dynamic Media Classic。 請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
 ## 提案集的類型 {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ AdobeDynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 * **影像**  — 您可以組合選件集的影像。每個影像在集合中包含不同的選件。
 
-* **影像範本**  — 您可以使用「建置>範本基本概念」命令，在Adobe Dynamic Media Classic中參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立及參數化影像範本的資訊，請參閱建立範本參數。
+* **影像範本**  — 您可以使用「建置」>「範本基本須知」命 **[!UICONTROL 令，在Adobe Dynamic Media Classic中]** 參數化影像範本。透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。有關建立和參數化影像模板的資訊，請參閱[建立模板參數](creating-template-parameters.md#creating_template_parameters)。
+
+另請參閱[範本基本知識](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
 
 * **影片**  — 您可以為優惠方案集組合影片。每個視訊是提案集中的一個不同提案。
 
@@ -132,7 +134,7 @@ AdobeDynamic Media Classic提供編輯和建立優惠方案集的工具。
 
    >[!NOTE]
    >
-   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動相關聯的選件集，請登入Adobe Target Standard/Premium，並先移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從AdobeDynamic Media Classic中刪除，需要登入Adobe Target Standard/Premium，而不能從Adobe Target Standard/Premium中刪除。
+   >您無法刪除與某個行銷活動相關的提案集。若要刪除與促銷活動相關聯的選件集，請登入Adobe Target Standard/Premium，並先移除促銷活動關聯。 即使從促銷活動取消關聯後，資產也只能從Adobe Dynamic Media Classic中刪除，需要登入Adobe Target Standard/Premium，而不能從Adobe Target Standard/Premium中。
 
 1. 完成編輯時，在頁面右下角附近，確定已選取「儲存後發佈」 ****（預設）。
 1. 選擇&#x200B;**[!UICONTROL 保存]**，選擇儲存資料夾，輸入該集的名稱，然後選擇&#x200B;**[!UICONTROL 保存]**。

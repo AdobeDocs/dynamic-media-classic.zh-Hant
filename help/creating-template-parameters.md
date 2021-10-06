@@ -1,6 +1,6 @@
 ---
 title: 建立範本參數
-description: 了解如何在AdobeDynamic Media Classic中建立範本參數。
+description: 了解如何在Adobe Dynamic Media Classic中建立範本參數。
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 64%
 在文字圖層參數中，還可以將文字字串設定為連結到資料庫值的動態欄位。將文字連結到資料庫的功能非常有用 (例如在促銷活動中)。您可以自訂範本影像，使其顯示用戶端或客戶姓名。您也可以將文字層參數連結至價格資料庫，以顯示範本影像中項目的價格。
 
 您可以多次參考一個參數。對參數對話框中的每個命令使用下拉式方框，以選取符合該特定命令的任何參數。例如，所有大小參數都可用於`size=`命令。 可以將參數參照再分配給已存在於下拉式方框中的任何參數，並重新命名為下拉式方框中不存在的名稱。在後一種情況下，名稱必須是唯一的。 否則，錯誤會指出參數存在。 刪除參數參照時，如果參照未在其他任何位置被引用，則參數將從URL中刪除。 當更改文本參數的預設值時，該參數的所有引用都會更新。 您可以在圖層表格、範本轉譯和URL中看到更新。 通過調整控制滑塊大小或在屬性面板中鍵入值來更改圖層屬性時，會更新參數值，並更新參數的所有引用。 例如，如果使用一個參數對兩個圖層的大小進行了參數化，則在變更其中一個圖層大小時，兩個圖層的大小均會更新。在您預覽範本並變更參數時，該參數的所有參照均會更新。
+
+另請參閱[範本基本知識](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
 
 ## 參數化圖層 {#parameterizing-a-layer}
 
