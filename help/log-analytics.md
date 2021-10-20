@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 876b4c61167b28f7d5e50a656564eafcbe5b9eab
+source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >如果您的Adobe Analytics帳戶已移轉至Adobe IMS型驗證(Identity Management系統)登入，則無法輸入直接憑證。
 
-**若要從Adobe Dynamic Media Classic登入Adobe Analytics:**
+## 從Adobe Dynamic Media Classic登入Adobe Analytics {#log-in-to-analytics-from-dmc}
 
 首先，整合Dynamic Media Classic與Adobe Analytics OAuth。 Adobe Analytics OAuth與Dynamic Media Classic的整合通常只對每位使用者執行一次。
 
@@ -64,7 +64,7 @@ ht-degree: 1%
    * 在 **[!UICONTROL 用戶端ID]**，選取 **[!UICONTROL 複製]** 來複製值。 您需要此值，才能在後續的Dynamic Media Classic案頭應用程式中進行後續的Analytics設定。
    * 在 **[!UICONTROL 用戶端密碼]**，選取 **[!UICONTROL 擷取用戶端密碼]** 以顯示相關值。 選擇 **[!UICONTROL 複製]** 來複製值。 您需要此值才能執行後續Dynamic Media Classic案頭應用程式中的Adobe Analytics設定。
 
-**在Dynamic Media Classic案頭應用程式中設定Adobe Analytics**
+## 在Adobe Dynamic Media Classic中設定Adobe Analytics {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
