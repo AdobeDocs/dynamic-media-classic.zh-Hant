@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
+source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ ht-degree: 1%
 1. 在左側面板中，位於 **[!UICONTROL 應用程式設定]**，選取 **[!UICONTROL Adobe Analytics]**.
 1. 在 **[!UICONTROL Adobe Analytics設定]** 頁面，選取 **[!UICONTROL Adobe Analytics登入]**.
 1. 在 **[!UICONTROL Adobe Analytics登入]** 對話框， **[!UICONTROL 用戶端ID]** 欄位和 **[!UICONTROL 用戶端密碼]** 欄位，貼上您先前複製的個別值。
-1. 在對話方塊的右下角，選取「登入」並執行您的Adobe IMS(Identity Management服務)登入。
+1. 在對話框的右下角，選擇 **[!UICONTROL 登入]** 並執行Identity Management服務登入。
 
-   成功登入時，Adobe Analytics登入對話方塊會再次顯示，同時顯示 **[!UICONTROL 公司]** 下拉式清單，由您可用的公司啟動。
+   成功登入時，Adobe Analytics登入對話方塊會與 **[!UICONTROL 公司]** 下拉式清單，由您可用的公司啟動。
 
 1. 從 **[!UICONTROL 公司]** 下拉式清單，選擇公司。
 
