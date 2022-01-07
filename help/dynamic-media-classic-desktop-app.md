@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 * 無法輸入 `d` 和 `e` in **[!UICONTROL 使用者名稱]** 和 **[!UICONTROL 密碼]** 運行macOS蒙特利時的欄位。
 * 將剩餘的Analytics API移至2.0版。
 
-## 版本修正(20.21.3) {#release-sept2021}
+## 20.21.3版中的修正 {#release-sept2021}
 
 * 案頭應用程式閒置一段時間後，所看到資產的縮圖損毀。
 * 案頭應用程式通常會在設定操作後停止回應。
