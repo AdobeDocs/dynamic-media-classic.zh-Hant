@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 >系統不會為產生Adobe Dynamic Media Classic案頭應用程式內的升級通知 *次要* 版本。 從次要版本的修正中受益的客戶可升級。
 
 ## 最新版本的修正(20.22.1) {#release-jan2022}
-
-影像編輯 **[!UICONTROL 儲存]** 按鈕無法正常工作。
 
 * 影像編輯 **[!UICONTROL 儲存]** 按鈕無法正常工作。
 * 在「設定」編輯器中， **[!UICONTROL 關閉]**, **[!UICONTROL 儲存]**，和 **[!UICONTROL 另存新檔]** 在中捲動資產後，按鈕會變為停用 **[!UICONTROL 新增資產]** 中。
