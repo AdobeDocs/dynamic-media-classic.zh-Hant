@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ Adobe Dynamic Media Classic案頭應用與以下作業系統相容：
 * macOS10.10或更高版本。
 * Windows® 7或更高版本。
 
+請參閱以下位置的完整系統要求 [Adobe Dynamic Media Classic案頭應用的系統要求](/help/system-requirements.md)。
+
 未在Adobe Dynamic Media Classic案頭應用程式內生成升級通知 *小* 版本。 從次發行版中的修復中獲益的客戶可以升級。
 
-## 在最新版本(20.22.2)中修復 — 僅macOS {#release-feb2022}
+## 僅在最新版本(20.22.2)中修復macOS {#release-feb2022}
 
 * macOS·蒙特利 — 檔案上載頁面在後續上載時凍結。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
