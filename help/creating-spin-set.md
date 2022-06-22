@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ ht-degree: 54%
 
 另請參閱[手動發佈資產](publishing-files.md#manually-publishing-assets)和[手動取消發佈資產](publishing-files.md#manually-unpublishing-assets)。
 
->[!NOTE]
->
->建立「旋轉集」時，Adobe建議使用以下最佳實踐准則和強制限制。
->
->* 每2D旋轉集的最大行/列數
-   > 
-   >   * 最佳做法：1000
-   >   * 強制限制：1000
+建立「旋轉集」時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
+| 旋轉集限制類型 | 最佳實務 | 已實現的限制 |
+| --- | --- | --- |
+| 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
 
 儲存迴轉集之後，可在「建置:迴轉集」頁面中使用「預覽」，以便在預設檢視器中查看迴轉集的顯示效果。
 

@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '637'
 ht-degree: 59%
 
 ---
@@ -32,17 +32,12 @@ ht-degree: 59%
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
->[!NOTE]
->
->建立映像集時，Adobe建議使用以下最佳實踐准則和強制限制。
->
->* 每個映像集的重複資產數
-   >   * 最佳做法：20
-   >   * 強制限制：20
-> * 每個映像集的最大頁數
-   >   * 最佳做法：1000
-   >   * 強制限制：1000
+建立映像集時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
+| 影像集限制類型 | 最佳實務 | 已實現限制 | 2022年12月31日限額變動 |
+| --- | --- | --- | --- |
+| 每集重複的資產數 | 無重複項 | 100 | 20 |
+| 每集的最大影像數 | 每組5-10頁影像 | 1000 |
 
 **建立影像集:**
 

@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Adobe Dynamic Media Classic影像集為用戶提供綜合的觀看體驗。 在�
 
 請參閱 [影像和旋轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 培訓視頻。
 
->[!NOTE]
->
->建立映像集時，Adobe建議使用以下最佳實踐准則和強制限制。
->
->* 每個映像集的重複資產數
-   >   * 最佳做法：20
-   >   * 強制限制：20
->* 每個映像集的最大頁數
-   >   * 最佳做法：1000
-   >   * 強制限制：1000
+建立映像集時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
+| 影像集限制類型 | 最佳實務 | 已實現限制 | 2022年12月31日限額變動 |
+| --- | --- | --- | --- |
+| 每集重複的資產數 | 無重複項 | 100 | 20 |
+| 每集的最大影像數 | 每組5-10頁影像 | 1000 |
 
 以下映像集快速啟動旨在利用Adobe Dynamic Media Classic的映像集技術快速啟動和運行。
 

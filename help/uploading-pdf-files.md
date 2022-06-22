@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 39%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 39%
 
 通常，Adobe PDF檔案是eCatalog的源。 這些檔案包含所有影像資訊、字型和向量圖形。 您也可以建置含有影像的 eCatalog。準備好要上載的PDF檔案後，在全局導航欄上，選擇 **[!UICONTROL 上載]** 開始上傳PDF。
 
+上載PDF以提取頁面時，Adobe強制實施以下限制：
+
+| PDF限制類型 | 已實現的限制 | 2022年12月31日限額變動 |
+| --- | --- | --- |
+| 要考慮提取的PDF的最大頁數 | 5000（用於新上載） | 100 |
+
+<!-- 
 >[!NOTE]
 >
->上載PDF以提取頁面時，Adobe會規定以下最佳做法准則和強制限制。
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* 每個PDF考慮提取的最大頁數
-   >   * 最佳做法：100
-   >   * 強制限制：1000（用於刷新上載）
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## 準備PDF檔案 {#preparing-your-pdf-files}
 

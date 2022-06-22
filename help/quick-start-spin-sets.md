@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -29,15 +29,11 @@ ht-degree: 22%
 
 請參閱 [影像和旋轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 培訓視頻。
 
->[!NOTE]
->
->建立「旋轉集」時，Adobe建議使用以下最佳實踐准則和強制限制。
->
->* 每2D旋轉集的最大行/列數
-   > 
-   >   * 最佳做法：1000
-   >   * 強制限制：1000
+建立「旋轉集」時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
+| 旋轉集限制類型 | 最佳實務 | 已實現的限制 |
+| --- | --- | --- |
+| 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
 
 本「旋轉集快速啟動」旨在通過Adobe Dynamic Media Classic的「旋轉集」技術幫助您快速啟動和運行。 依照步驟 1 至 7 執行。在每個步驟的末尾，您可以選擇主題連結以瞭解詳細資訊。
 

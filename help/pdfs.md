@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 36%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 36%
 
 PDF（可移植文檔格式）檔案在Adobe Dynamic Media Classic最常用於建立eCatalogs。 在上載PDF檔案、Adobe Dynamic Media Classic柵格化或刪除時，預設情況下這些頁，以便這些頁可用於生成富媒體。
 
->[!NOTE]
->
->上載PDF以提取頁面時，Adobe會規定以下最佳做法准則和強制限制。
->
->* 每個PDF考慮提取的最大頁數
-   >   * 最佳做法：100
-   >   * 強制限制：1000（用於刷新上載）
+上載PDF以提取頁面時，Adobe強制實施以下限制：
 
+| PDF限制類型 | 已實現的限制 | 2022年12月31日限額變動 |
+| --- | --- | --- |
+| 要考慮提取的PDF的最大頁數 | 5000（用於新上載） | 100 |
 
 ## PDF 上載選項 {#pdf-upload-options}
 
