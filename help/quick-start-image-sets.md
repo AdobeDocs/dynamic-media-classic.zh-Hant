@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 21%
 
 ---
@@ -31,6 +31,8 @@ Adobe Dynamic Media Classic影像集為用戶提供綜合的觀看體驗。 在�
 | --- | --- | --- | --- |
 | 每集重複的資產數 | 無重複項 | 100 | 20 |
 | 每集的最大影像數 | 每組5-10頁影像 | 1000 |
+
+另請參閱 [Dynamic Media限制](/help/limitations.md)。
 
 以下映像集快速啟動旨在利用Adobe Dynamic Media Classic的映像集技術快速啟動和運行。
 

@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,8 @@ ht-degree: 3%
 本主題包括以下部分：
 
 * Dynamic Media對資產類型的最佳做法和強制限制
-* 不支援的Web瀏覽器和Dynamic Media查看器的作業系統組合
+
+<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
 
 ## Dynamic Media對資產類型的最佳做法和強制限制
 
@@ -36,6 +37,8 @@ ht-degree: 3%
 | **影像集**  — 每個集的最大影像數 | 每組5-10頁影像 | 1000 |
 | **旋轉集**  — 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
 | **PDF**  — 要考慮提取的PDF的最大頁數 |  | 5000（用於新上載） | 100 |
+
+<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 

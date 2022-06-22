@@ -10,9 +10,9 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '952'
 ht-degree: 53%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 53%
 | 旋轉集限制類型 | 最佳實務 | 已實現的限制 |
 | --- | --- | --- |
 | 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
+
+另請參閱 [Dynamic Media限制](/help/limitations.md)。
 
 儲存迴轉集之後，可在「建置:迴轉集」頁面中使用「預覽」，以便在預設檢視器中查看迴轉集的顯示效果。
 

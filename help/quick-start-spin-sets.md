@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '838'
+ht-degree: 22%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 23%
 | 旋轉集限制類型 | 最佳實務 | 已實現的限制 |
 | --- | --- | --- |
 | 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
+
+另請參閱 [Dynamic Media限制](/help/limitations.md)。
 
 本「旋轉集快速啟動」旨在通過Adobe Dynamic Media Classic的「旋轉集」技術幫助您快速啟動和運行。 依照步驟 1 至 7 執行。在每個步驟的末尾，您可以選擇主題連結以瞭解詳細資訊。
 

@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '642'
 ht-degree: 59%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 59%
 | --- | --- | --- | --- |
 | 每集重複的資產數 | 無重複項 | 100 | 20 |
 | 每集的最大影像數 | 每組5-10頁影像 | 1000 |
+
+另請參閱 [Dynamic Media限制](/help/limitations.md)。
 
 **建立影像集:**
 
