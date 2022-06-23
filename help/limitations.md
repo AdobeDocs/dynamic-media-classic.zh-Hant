@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 4%
 
 <!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
 
-| 資產 — 限制類型 | 最佳實務 | 已實現的限制 | 2022年12月31日限額變動 |
+| 資產 — 限制類型 | 最佳實務 | 強加的限制 | 2022年12月31日變更上限 |
 | --- | --- | --- | --- |
-| **影像集**  — 每個集的重複資產數 | 無重複項 | 100 | 20 |
-| **影像集**  — 每個集的最大影像數 | 每組5-10頁影像 | 1000 |
+| **所有集**  — 每個集的重複資產數 | 無重複項 | 20 |  |
+| **所有集**  — 每組資產的最大數量 | 每組5-10頁影像 | 1000 |
 | **旋轉集**  — 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
-| **PDF**  — 要考慮提取的PDF的最大頁數 |  | 5000（用於新上載） | 100 |
+| **PDF**  — 要考慮提取的PDF的最大頁數 |  | 5000（用於新上載） | 100(所有PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 

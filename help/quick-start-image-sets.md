@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '673'
 ht-degree: 21%
 
 ---
@@ -27,9 +27,9 @@ Adobe Dynamic Media Classic影像集為用戶提供綜合的觀看體驗。 在�
 
 建立映像集時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
-| 影像集限制類型 | 最佳實務 | 已實現限制 | 2022年12月31日限額變動 |
-| --- | --- | --- | --- |
-| 每集重複的資產數 | 無重複項 | 100 | 20 |
+| 限制類型 | 最佳實務 | 強加的限制 |
+| --- | --- | --- |
+| 每集重複的資產數 | 無重複項 | 20 |
 | 每集的最大影像數 | 每組5-10頁影像 | 1000 |
 
 另請參閱 [Dynamic Media限制](/help/limitations.md)。

@@ -10,7 +10,7 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 22%
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 建立「旋轉集」時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
-| 旋轉集限制類型 | 最佳實務 | 已實現的限制 |
+| 旋轉集限制類型 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
 | 每2D集的最大行/列數 | 每組12-18頁圖片 | 1000 |
 

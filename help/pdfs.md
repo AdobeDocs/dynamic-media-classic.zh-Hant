@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 36%
 
 ---
@@ -23,9 +23,9 @@ PDF（可移植文檔格式）檔案在Adobe Dynamic Media Classic最常用於�
 
 上載PDF以提取頁面時，Adobe強制實施以下限制：
 
-| PDF限制類型 | 已實現的限制 | 2022年12月31日限額變動 |
+| 限制類型 | 強加的限制 | 2022年12月31日變更上限 |
 | --- | --- | --- |
-| 要考慮提取的PDF的最大頁數 | 5000（用於新上載） | 100 |
+| 要考慮提取的PDF的最大頁數 | 5000（用於新上載） | 100(所有PDF) |
 
 另請參閱 [Dynamic Media限制](/help/limitations.md)。
 

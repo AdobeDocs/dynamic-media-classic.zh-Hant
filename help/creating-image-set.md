@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 59%
 
 建立映像集時，Adobe建議採用以下最佳做法並強制實施以下限制：
 
-| 影像集限制類型 | 最佳實務 | 已實現限制 | 2022年12月31日限額變動 |
-| --- | --- | --- | --- |
-| 每集重複的資產數 | 無重複項 | 100 | 20 |
+| 限制類型 | 最佳實務 | 強加的限制 |
+| --- | --- | --- |
+| 每集重複的資產數 | 無重複項 | 20 |
 | 每集的最大影像數 | 每組5-10頁影像 | 1000 |
 
 另請參閱 [Dynamic Media限制](/help/limitations.md)。

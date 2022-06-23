@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 38%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 38%
 
 上載PDF以提取頁面時，Adobe強制實施以下限制：
 
-| PDF限制類型 | 已實現的限制 | 2022年12月31日限額變動 |
+| PDF限制類型 | 強加的限制 | 2022年12月31日變更上限 |
 | --- | --- | --- |
 | 要考慮提取的PDF的最大頁數 | 5000（用於新上載） | 100 |
 
