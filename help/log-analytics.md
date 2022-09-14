@@ -2,7 +2,7 @@
 title: 登入 Adobe Analytics
 description: 了解如何從Adobe Dynamic Media Classic登入Adobe Analytics。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 1%
 
 首先，整合Dynamic Media Classic與Adobe Analytics OAuth。 Adobe Analytics OAuth與Dynamic Media Classic的整合通常只對每位使用者執行一次。
 
-1. 存取 [Adobe開發人員控制台](https://developer.adobe.com/console). 確認您的帳戶擁有需要整合之組織的管理員權限。
-1. 在首頁的右上角附近，從下拉式清單中選取適當的公司。 (下方螢幕截圖僅供參考；您選擇的實際公司名稱可能有所不同)。
+1. 存取 [Adobe Developer Console](https://developer.adobe.com/console). 確認您的帳戶擁有需要整合之組織的管理員權限。
+1. 在首頁的右上角附近，從下拉式清單中選取適當的公司。 (下方螢幕截圖僅供參考；您選取的實際公司名稱可能有所不同)。
 
    ![建立新專案](assets/analytics-oauth1.png)
 
@@ -73,7 +73,6 @@ ht-degree: 1%
 >* Analytics中會新增一個報表，且使用者想要開始傳送資料至該新報表。
 >* 追蹤伺服器已在Adobe Analytics中更新。
 >* 報表中推出了新的追蹤變數，而您想要將Dynamic Media Classic使用者介面中的特定檢視器變數連結至該新的Analytics變數。
-
 >
 
 

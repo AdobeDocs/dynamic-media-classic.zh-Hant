@@ -1,8 +1,8 @@
 ---
 title: 發佈範本
-description: 了解如何從AdobeDynamic Media Classic發佈範本。
+description: 了解如何從Adobe Dynamic Media Classic發佈範本。
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 # 發佈範本{#publishing-templates}
 
-發佈範本後，範本會放置在Dynamic Media影像伺服器上，供您的網站和應用程式使用。 在發佈程式期間，AdobeDynamic Media Classic會啟用您網站和應用程式所需的URL。
+發佈範本時，範本會放置在Dynamic Media影像伺服器上，供您的網站和應用程式使用。 在發佈程式期間，Adobe Dynamic Media Classic會啟用您網站和應用程式所需的URL。
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ ht-degree: 13%
 
 ## 將 範本標記為發佈 {#marking-templates-for-publish}
 
-範本及其所有支援檔案都必須加上標籤，才能發佈，才能放置在Dynamic Media影像伺服器上。 您可以選取&#x200B;**[!UICONTROL 標示為發佈]**&#x200B;圖示，以在「瀏覽」面板中標示這些要發佈的項目。
+範本及其所有支援檔案都必須加上標籤，才能發佈，才能放置在Dynamic Media影像伺服器上。 您可以選取 **[!UICONTROL 標籤為發佈]** 表徵圖。
 
 ## 發佈範本 {#publishing-your-template}
 
-若要將範本發佈至Dynamic Media影像伺服器，請在全域導覽列上選取&#x200B;**[!UICONTROL Publish]**，然後選取&#x200B;**[!UICONTROL When]**&#x200B;選項。 您可以選擇輸入發佈作業的名稱。 選擇&#x200B;**[!UICONTROL 提交發佈]**。
+若要將範本發佈至Dynamic Media影像伺服器，請在全域導覽列上選取 **[!UICONTROL 發佈]**，然後選取 **[!UICONTROL 當]** 選項。 您可以選擇輸入發佈作業的名稱。 選擇 **[!UICONTROL 提交發佈]**.
 
 >[!MORELIKETHIS]
 >

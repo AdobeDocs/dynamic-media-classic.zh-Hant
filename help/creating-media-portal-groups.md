@@ -1,8 +1,8 @@
 ---
 title: 建立和管理Media Portal群組
-description: 了解如何在AdobeDynamic Media Classic中建立和管理Media Portal群組。
+description: 了解如何在Adobe Dynamic Media Classic中建立和管理Media Portal群組。
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -33,29 +33,29 @@ ht-degree: 56%
 
 ## 增加群組 {#adding-a-group}
 
-1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 媒體入口設定]** > **[!UICONTROL 群組]**。
-1. 選擇&#x200B;**[!UICONTROL 添加]**。
-1. 在「添加組」對話框中，在「組名」框中輸入組的名稱，然後選擇&#x200B;**[!UICONTROL 添加組]**。
+1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**.
+1. 選擇 **[!UICONTROL 新增]**.
+1. 在「添加組」對話框中，在「組名」框中輸入組的名稱，然後選擇 **[!UICONTROL 新增群組]**.
 1. 您也可以選取使用者名稱旁的方框，將該使用者增加到新群組。
-1. 如果現在要指定訪問權限，請選擇&#x200B;**[!UICONTROL 資產訪問權限]**&#x200B;頁簽，然後指定所需選項。
+1. 如果現在要指定存取權限，請選取 **[!UICONTROL 資產存取權限]** ，然後指定所需的選項。
 
    請參閱[為群組建立資產存取權限](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)。
 
-1. 如果要選擇組可用的影像預設集，請選擇&#x200B;**[!UICONTROL 影像預設集訪問權限]**&#x200B;頁簽，然後選擇組可以使用的影像預設集。
+1. 如果您想要選擇群組可用的影像預設集，請選取 **[!UICONTROL 影像預設集存取權限]** ，然後選擇組可使用的「影像預設集」。
 
    請參閱[為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)。
 
-1. 選擇&#x200B;**[!UICONTROL 關閉]**。
+1. 選擇 **[!UICONTROL 關閉]**.
 
 ## 為群組建立資產存取權限 {#establishing-asset-access-permissions-for-a-group}
 
-1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 媒體入口設定]** > **[!UICONTROL 群組]**。
+1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**.
 1. 在「群組清單」頁面上，執行下列其中一個動作:
 
-   * 若要新增群組並指定權限，請選取「**[!UICONTROL 新增]**」。 在「添加組」對話框中，輸入組的名稱，選擇「**[!UICONTROL 添加組]**」，然後向組添加用戶。
-   * 要編輯組的權限，請選擇組，然後選擇&#x200B;**[!UICONTROL 編輯]**。
+   * 若要新增群組並指定權限，請選取 **[!UICONTROL 新增]**. 在「添加組」對話框中，輸入組的名稱，然後選擇 **[!UICONTROL 新增群組]**，並新增使用者至群組。
+   * 若要編輯群組的權限，請選取群組，然後選取 **[!UICONTROL 編輯]**.
 
-1. 在「添加組」或「編輯組」對話框中，選擇「**[!UICONTROL 資產訪問權限]**」頁簽。 標籤右側提供的方框可用來建立檔案夾與資產的讀取、寫入及刪除權限。您可以在左窗格中，展開和收合檔案夾與子檔案夾。
+1. 在「新增群組」或「編輯群組」對話方塊中，選取 **[!UICONTROL 資產存取權限]** 標籤。 標籤右側提供的方框可用來建立檔案夾與資產的讀取、寫入及刪除權限。您可以在左窗格中，展開和收合檔案夾與子檔案夾。
 1. 若要為檔案夾或個別資產指定權限，請在左窗格中選取檔案夾。檔案夾內容會顯示在右窗格中。接著，在右窗格中選取相應檔案或檔案夾的方框，即可為群組指定權限。
 
    這個表格會將不同工作對映到讀取、寫入及刪除權限。
@@ -69,7 +69,7 @@ ht-degree: 56%
    | 重新命名檔案 |  | X |  |
    | 刪除檔案 |  |  | X |
 
-1. 選擇&#x200B;**[!UICONTROL 關閉]**。
+1. 選擇 **[!UICONTROL 關閉]**.
 
 >[!NOTE]
 >
@@ -79,25 +79,25 @@ ht-degree: 56%
 
 如果要指定群組成員在透過 Media Portal 匯出資產時，可以使用哪些影像預設集，請為群組選擇影像預設集存取權限。
 
-另請參閱[指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
+另請參閱 [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 **若要選擇群組的「影像預設集」存取權限：**
 
-1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 媒體入口設定]** > **[!UICONTROL 群組]**。
+1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**.
 1. 在「群組清單」頁面上，執行下列其中一個動作:
 
-   * 若要新增群組並指定可供其使用的影像預設集，請選取&#x200B;**[!UICONTROL Add]**。 在「添加組」對話框中，輸入組的名稱，選擇「**[!UICONTROL 添加組]**」，然後向組添加用戶。
-   * 要編輯組的「影像預設集」選項，請選擇該組，然後選擇&#x200B;**[!UICONTROL 編輯]**。
+   * 若要新增群組並指定可供其使用的影像預設集，請選取 **[!UICONTROL 新增]**. 在「添加組」對話框中，輸入組的名稱，然後選擇 **[!UICONTROL 新增群組]**，並新增使用者至群組。
+   * 若要編輯群組的「影像預設集」選項，請選取群組，然後選取 **[!UICONTROL 編輯]**.
 
-1. 在「添加組」或「編輯組」對話框中，選擇「**[!UICONTROL 影像預設集訪問權限]**」頁簽。
+1. 在「新增群組」或「編輯群組」對話方塊中，選取 **[!UICONTROL 影像預設集存取權限]** 標籤。
 1. 若要指定在Media Portal使用者匯出資產時，可使用哪些預設集，請選取或取消選取「影像預設集」。
-1. 選擇&#x200B;**[!UICONTROL 關閉]**。
+1. 選擇 **[!UICONTROL 關閉]**.
 
 ## 編輯和刪除群組 {#edit-and-delete-groups}
 
-1. 前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 媒體入口設定]** > **[!UICONTROL 群組]**。
+1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**.
 1. 在「群組清單」頁面上，選取某個群組，然後加以編輯或刪除。
 
-   **編輯群組**  — 選取「 **[!UICONTROL 編輯]**」，然後在「編輯群組」對話方塊中選擇選項。
+   **編輯群組**  — 選擇 **[!UICONTROL 編輯]**，然後在「編輯群組」對話方塊中選擇選項。
 
-   **刪除群組**  — 選取 **[!UICONTROL 刪除]**。
+   **刪除群組**  — 選擇 **[!UICONTROL 刪除]**.

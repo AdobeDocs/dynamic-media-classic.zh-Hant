@@ -2,25 +2,25 @@
 title: 上傳影片並加以編碼
 description: 了解如何在Adobe Dynamic Media Classic中上傳和編碼視訊。
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3966'
-ht-degree: 62%
+source-wordcount: '3967'
+ht-degree: 56%
 
 ---
 
 # 上傳影片並加以編碼{#uploading-and-encoding-videos}
 
-若要建立單一視訊或最適化視訊集以傳送至網頁或行動裝置，請先將主視訊檔案上傳至Adobe Dynamic Media Classic。 Adobe Dynamic Media Classic會將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
+若要建立單一視訊或最適化視訊集以傳送至網頁或行動裝置，請先將主要視訊檔案上傳至Adobe Dynamic Media Classic。 Adobe Dynamic Media Classic會將視訊編碼為MP4格式，並以下列檔案格式發佈視訊：
 
-* **MP4**  - Adobe Dynamic Media Classic建議MP4作為偏好的視訊檔案格式。使用 MP4 檔案可進行以下動作:
+* **MP4** - Adobe Dynamic Media Classic建議MP4格式為偏好的視訊檔案格式。 使用 MP4 檔案可進行以下動作:
 
    * 桌面的 HTTP 動態串流。
    * HTTP 即時串流(Apple 的串流通訊協定)。
@@ -28,11 +28,11 @@ ht-degree: 62%
 
    Adobe Dynamic Media Classic提供兩種上傳視訊檔案的工作流程：
 
-* **預先編碼的影片**  — 您直接將MP4檔案上傳至Adobe Dynamic Media Classic。在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
+* **預先編碼的影片**  — 您直接將MP4檔案上傳至Adobe Dynamic Media Classic。 在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
 
-* **主源視頻**  — 上載主源視頻檔案，並在上載時將這些檔案編碼為MP4檔案。在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Adobe Dynamic Media Classic支援以多種格式對視訊檔案進行編碼。
+* **主要來源影片**  — 上載主源視頻檔案，並在上載時將這些檔案編碼為MP4檔案。 在「瀏覽」面板中，編碼後的視訊會標記為「視訊」。Adobe Dynamic Media Classic支援以多種格式對視訊檔案進行編碼。
 
-   * 請確定您要編碼的主源視頻檔案受支援。
+   * 請確定您要編碼的主要來源視訊檔案受到支援。
 
       請參閱[編碼支援的視訊檔案類型](uploading-encoding-videos.md#supported-video-file-types-for-encoding)。
 
@@ -44,7 +44,7 @@ ht-degree: 62%
 
 Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮圖、如何取得其 URL，以及修改海報框架。
 
-請參閱[使用視訊縮圖](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)。
+請參閱 [使用視訊縮圖](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **上載和編碼視訊:**
 
@@ -52,38 +52,38 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 
 *如果您的視訊已編碼*
 
-1. 在全局導航欄上，選擇&#x200B;**[!UICONTROL Upload]**。
-1. 在「上載」頁中，選擇「從案頭&#x200B;]**」頁簽。**[!UICONTROL 
-1. 在「上載」頁面的&#x200B;**[!UICONTROL 選擇要上載的檔案]**&#x200B;面板中，選擇&#x200B;**[!UICONTROL 瀏覽]**，導航到MP4視頻檔案，然後選擇&#x200B;**[!UICONTROL 開啟]**。
-1. 在&#x200B;**[!UICONTROL 選擇資料夾目標]**&#x200B;面板中，為已上載檔案選擇資料夾。
-1. 在「上傳」頁面上，確定已勾選「上傳&#x200B;]**後發佈」 。**[!UICONTROL 
-1. 選擇&#x200B;**[!UICONTROL 提交上載]**。
+1. 在全局導航欄上，選擇 **[!UICONTROL 上傳]**.
+1. 在「上傳」頁面中，選取 **[!UICONTROL 從案頭]** 標籤。
+1. 在上傳頁面上， **[!UICONTROL 選擇要上載的檔案]** 面板，選擇 **[!UICONTROL 瀏覽]**，導覽至MP4視訊檔案，然後選取 **[!UICONTROL 開啟]**.
+1. 在 **[!UICONTROL 選擇資料夾目標]** 面板中，選擇已上載檔案的資料夾。
+1. 在「上傳」頁面上，確定 **[!UICONTROL 上傳後發佈]** 已勾選。
+1. 選擇 **[!UICONTROL 提交上傳]**.
 
 *如果您想要使用Adobe Dynamic Media Classic為視訊編碼*
 
-1. 在全局導航欄上，選擇&#x200B;**[!UICONTROL Upload]**。
-1. 在「上載」頁中，選擇「從案頭&#x200B;]**」頁簽。**[!UICONTROL 
-1. 在&#x200B;**[!UICONTROL 選擇要上載的檔案]**&#x200B;面板中，選擇&#x200B;**[!UICONTROL 瀏覽]**，導航到主源視頻檔案，然後選擇&#x200B;**[!UICONTROL 開啟]**。
-1. 在&#x200B;**[!UICONTROL 選擇資料夾目標]**&#x200B;面板中，為已上載檔案選擇資料夾。
-1. 在頁面的右下角，選擇&#x200B;**[!UICONTROL 作業選項]**,
-1. 在「上載作業選項」對話框中，展開&#x200B;**[!UICONTROL EVideo選項]**，然後執行以下操作之一：
+1. 在全局導航欄上，選擇 **[!UICONTROL 上傳]**.
+1. 在「上傳」頁面中，選取 **[!UICONTROL 從案頭]** 標籤。
+1. 在 **[!UICONTROL 選擇要上載的檔案]** 面板，選擇 **[!UICONTROL 瀏覽]**，導覽至主要來源視訊檔案，然後選取 **[!UICONTROL 開啟]**.
+1. 在 **[!UICONTROL 選擇資料夾目標]** 面板中，選擇已上載檔案的資料夾。
+1. 在頁面的右下角，選取 **[!UICONTROL 作業選項]**,
+1. 在「上載作業選項」對話框中，展開 **[!UICONTROL 視訊選項]**，然後執行下列其中一項操作：
 
-   * 最佳實務是選取&#x200B;**[!UICONTROL 最適化視訊編碼]**。 請參閱[最適化視訊 (預設)](application-setup.md#adaptive-video-default)。
-   * 選填。如果您想使用個別編碼設定，請展開&#x200B;**[!UICONTROL 單一編碼預設集]**，然後選取您要用於案頭、行動裝置和平板電腦的編碼選項。
+   * 最佳實務是選取 **[!UICONTROL 最適化視訊編碼]**. 請參閱[最適化視訊 (預設)](application-setup.md#adaptive-video-default)。
+   * 選填。如果您想使用個別編碼設定，請展開 **[!UICONTROL 單一編碼預設集]**，然後選取您要的案頭、行動裝置和平板電腦編碼選項。
 請參閱[桌上型電腦視訊編碼預設集](application-setup.md#desktop-video-encoding-presets)、[行動裝置視訊編碼預設集](application-setup.md#mobile-video-encoding-presets)、[平板電腦視訊編碼預設集](application-setup.md#tablet-video-encoding-presets)。
-1. 在「上載作業選項」對話框中，選擇&#x200B;**[!UICONTROL Save]**。
-1. 在「上傳」頁面上，確定已勾選「上傳&#x200B;]**後發佈」 。**[!UICONTROL 
-1. 在「上傳」頁面的右下角，選取「**[!UICONTROL 提交上傳]**」。
+1. 在「上載作業選項」對話框中，選擇 **[!UICONTROL 儲存]**.
+1. 在「上傳」頁面上，確定 **[!UICONTROL 上傳後發佈]** 已勾選。
+1. 在「上傳」頁面的右下角，選取 **[!UICONTROL 提交上傳]**.
 
 *如果您想要將先前上載的視訊檔案重新編碼*
 
 1. 在Adobe Dynamic Media Classic中，在「瀏覽」面板中，導覽至影片並選取它。
-1. 前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 重新處理]**。
-1. 在「重新處理資產」對話方塊中，展開&#x200B;**[!UICONTROL EVideo選項]**，然後執行下列其中一項操作：
+1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新處理]**.
+1. 在「重新處理資產」對話方塊中，展開 **[!UICONTROL 視訊選項]**，然後執行下列其中一項操作：
    * 最佳做法是使用以下方法。選取「**最適化視訊**」。請參閱[最適化視訊 (預設)](application-setup.md#adaptive-video-default)。
-   * 選填。如果您想使用個別編碼設定，請展開&#x200B;**[!UICONTROL 單一編碼預設集]**，然後選取您要用於案頭、行動裝置和平板電腦的編碼選項。
+   * 選填。如果您想使用個別編碼設定，請展開 **[!UICONTROL 單一編碼預設集]**，然後選取您要的案頭、行動裝置和平板電腦編碼選項。
 請參閱[桌上型電腦視訊編碼預設集](application-setup.md#desktop-video-encoding-presets)、[行動裝置視訊編碼預設集](application-setup.md#mobile-video-encoding-presets)、[平板電腦視訊編碼預設集](application-setup.md#tablet-video-encoding-presets)。
-1. 在「重新處理資產」對話方塊中，選取&#x200B;**[!UICONTROL Submit]**。
+1. 在「重新處理資產」對話方塊中，選取 **[!UICONTROL 提交]**.
 
 當您使用「最適化視訊編碼」預設集或使用多個單一編碼預設集時，結果是以多個視訊編碼自動建立而成的「最適化視訊集」。您也可以選取個別視訊，手動建立最適化視訊集。
 
@@ -93,9 +93,9 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 
 下表列出在上載檔案時可以編碼為 MP4 或 OGV 格式的視訊檔案類型 (具有允許的視訊編碼器)。此表格列出了檔案格式和轉碼器:
 
-* **視訊檔案格式**  — 與ZIP檔案類似，視訊檔案格式會決定視訊檔案中檔案的包含方式。視訊檔案通常包含多個軌道:一個視訊軌道 (沒有音訊) 和一或多個音訊軌道 (沒有視訊)。這些軌道相互關聯並且同步。視訊檔案格式決定了這些不同資料軌道和中繼資料的組織方式。
+* **視訊檔案格式**  — 與ZIP檔案類似，視訊檔案格式會決定視訊檔案中檔案的包含方式。 視訊檔案通常包含多個軌道:一個視訊軌道 (沒有音訊) 和一或多個音訊軌道 (沒有視訊)。這些軌道相互關聯並且同步。視訊檔案格式決定了這些不同資料軌道和中繼資料的組織方式。
 
-* **視訊轉碼器**  — 視訊轉碼器說明視訊編碼的演算法。視訊播放器根據其轉碼器對視訊進行解碼，然後在畫面顯示一系列影像或影格。轉碼器將視訊檔案儲存為播放視訊所需的資訊量降至最低。只會儲存一個影格和下一個影格之間差異的相關資訊，而不儲存每個單獨影格的相關資訊。由於大部分視訊在一個幀之間變化很小，因此編解碼器允許高壓縮率，這會導致檔案大小變小。
+* **視訊轉碼器**  — 視頻編解碼器描述視頻編碼的算法。 視訊播放器根據其轉碼器對視訊進行解碼，然後在畫面顯示一系列影像或影格。轉碼器將視訊檔案儲存為播放視訊所需的資訊量降至最低。只會儲存一個影格和下一個影格之間差異的相關資訊，而不儲存每個單獨影格的相關資訊。由於大部分視訊在一個幀之間變化很小，因此編解碼器允許高壓縮率，這會導致檔案大小變小。
 
    | 視訊檔案格式 | 視訊轉碼器 |
    | --- | --- |
@@ -118,7 +118,7 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 
    >[!NOTE]
    >
-   >如果您上載並嘗試編碼視訊檔案，但因檔案包含不相容的編碼器或檔案容器而被拒絕，「工作」畫面會發出警告。有關詳細資訊，請參閱[檢查作業檔案](checking-job-files.md)。
+   >如果您上載並嘗試編碼視訊檔案，但因檔案包含不相容的編碼器或檔案容器而被拒絕，「工作」畫面會發出警告。如需詳細資訊，請參閱 [檢查作業檔案](checking-job-files.md).
 
 ## 視訊編碼最佳實踐 {#best-practices-for-video-encoding}
 
@@ -146,15 +146,15 @@ For advice about video encoding, see the following:
 
 您可以在Adobe Dynamic Media Classic中檢視檔案的中繼資料、使用視訊編輯工具，或使用專為取得中繼資料而設計的應用程式，以取得檔案的中繼資料。 以下是使用協力廠商應用程式 MediaInfo 取得視訊檔案中繼資料的指示:
 
-1. 轉到此網頁：[https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)。
+1. 轉到此網頁： [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. 選取和下載圖形介面版本的安裝程式，並按安裝指示操作。
 1. 安裝後，按一下右鍵視頻檔案(僅限Windows®)並選擇MediaInfo，或開啟MediaInfo並將視頻檔案拖入應用程式。 您會看到與視訊檔案相關的所有中繼資料，其中包括其寬度、高度和 fps。
 
 ### 外觀比例 {#aspect-ratio}
 
-在為主視訊檔案選擇或建立視訊編碼預設集時，請確定該預設集具有與主視訊檔案相同的外觀比例。*外觀比例*&#x200B;是視訊寬度相對於視訊高度的比例。
+當您選擇或建立主要視訊檔案的視訊編碼預設集時，請確定預設集與主要視訊檔案的外觀比例相同。 *外觀比例*&#x200B;是視訊寬度相對於視訊高度的比例。
 
-要確定視頻檔案的長寬比，請獲取檔案的元資料，並注意檔案的寬度和高度（請參閱[獲取檔案的元資料](uploading-encoding-videos.md#obtaining_a_file_s_metadata)）。 然後，使用以下公式來確定外觀比例:
+若要判斷視訊檔案的外觀比例，請取得檔案的中繼資料，並記下檔案的寬度和高度(請參閱 [取得檔案的中繼資料](uploading-encoding-videos.md#obtaining_a_file_s_metadata))。 然後，使用以下公式來確定外觀比例:
 
 寬度/高度 = 外觀比例
 
@@ -210,7 +210,7 @@ For advice about video encoding, see the following:
 * 選擇資料速率，然後以最高解析度編碼，以您選擇的資料速率顯示得最好。
 * 選擇一個解析度，然後在您所選解析度下，以呈現高品質視訊所需的資料速率進行編碼。
 
-為主視訊檔案選擇 (或建立) 視訊編碼預設集時，使用下面表格來確定正確的解析度:
+當您選擇（或建立）主要視訊檔案的視訊編碼預設集時，請使用下表來鎖定正確的解析度：
 
 | 解析度 | 高度 (像素) | 畫面大小 |
 | --- | --- | --- |
@@ -225,7 +225,7 @@ For advice about video encoding, see the following:
 
 在美國和日本，大部分視訊以 29.97 影格/秒鐘 (fps) 拍攝；在歐洲，大部分視訊以 25 fps 拍攝。電影以 24 fps 拍攝。
 
-選擇與您的主視訊檔案的 fps 比率相符的視訊編碼預設集。例如，如果您的主視訊是 25 fps，選擇 25 fps 的編碼預設集。根據預設，所有自訂編碼都使用主視訊檔案的 fps。因此，在建立視訊編碼預設集時，您不需要明確指定 fps 設定。
+選擇符合主要視訊檔案的fps速率的視訊編碼預設集。 例如，如果您的主要視訊為25 fps，請選擇編碼預設集(25 fps)。 依預設，所有自訂編碼都使用主要視訊檔案的fps。 因此，在建立視訊編碼預設集時，您不需要明確指定 fps 設定。
 
 ### 視訊編碼尺寸 {#video-encoding-dimensions}
 
@@ -250,9 +250,9 @@ Adobe Dynamic Media Classic建議使用MP4 H.264視訊編碼預設集。 因為 
 
 ## 使用視訊編碼預設集 {#working-with-video-encoding-presets}
 
-透過視訊製作設備和視訊編輯軟體建立的主視訊檔案通常太大，並且格式不適用於傳送到線上目的地位置。若要將数位視訊轉換為適用於在不同畫面上播放的適當格式和規格，您可以將視訊檔案&#x200B;*轉碼* (此過程也稱為&#x200B;*編碼*)。在編碼過程中，會將視訊壓縮為小而有效的檔案大小，適合傳送到網路和行動裝置。
+使用視訊製作設備和視訊編輯軟體建立的主要視訊檔案通常太大，且格式不適宜傳送至線上目的地。 若要將数位視訊轉換為適用於在不同畫面上播放的適當格式和規格，您可以將視訊檔案&#x200B;*轉碼* (此過程也稱為&#x200B;*編碼*)。在編碼過程中，會將視訊壓縮為小而有效的檔案大小，適合傳送到網路和行動裝置。
 
-請參閱[上傳和編碼視訊](uploading-encoding-videos.md#uploading-and-encoding-videos)。
+請參閱 [上傳影片並加以編碼](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
 Adobe Dynamic Media Classic提供一個預先定義的視訊編碼預設集資料庫，可反映目前最常用的編碼設定。 這些編碼預設集已針對在目標畫面播放進行了最佳化。此外，管理員還可以建立自己的視訊編碼預設集，以便自訂視訊的大小和對終端使用者播放的品質。所有視訊編碼預設集(不論是來自Adobe Dynamic Media Classic的現成可用預設集，還是自訂)以MP4檔案格式輸出視訊。
 
@@ -265,21 +265,21 @@ Adobe Dynamic Media Classic提供一個預先定義的視訊編碼預設集資�
 
 您上傳至Adobe Dynamic Media Classic或在Adobe Dynamic Media Classic中編碼的任何視訊都會視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Adobe Dynamic Media Classic中預覽這些類型的影片。 您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
 
-請參閱[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
+請參閱 [在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
-請參閱[將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)。
+請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
 
-請參閱[將視訊檢視器內嵌在網頁上](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)。
+請參閱 [將視訊檢視器內嵌在網頁上](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
 對於您在Adobe Dynamic Media Classic中上傳和編碼的視訊資產，視訊會以下列檔案格式傳送：
 
-**MP4 H.264** 使用MP4檔案進行以下操作：
+**MP4 H.264** 將MP4檔案用於以下內容：
 
 * 桌面的 HTTP 動態串流。
 * HLS(HTTP即時串流，Apple的串流通訊協定)。
 * 漸進式視訊傳送至Android™、BlackBerry®和Windows®行動裝置。
 
-任何其他視訊格式和轉碼器視為「主視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Adobe Dynamic Media Classic中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
+任何其他視訊格式和轉碼器均視為「主要視訊」。 此資產類別表示視訊屬於來源視訊檔案，且無法用來傳送以供桌面或行動裝置播放。例如，您無法在Adobe Dynamic Media Classic中預覽這些類型的視訊。 您也無法產生「複製 URL」或「內嵌程式碼」，以便在視訊播放程式中Copy URL或在網站上使用等等。
 
 ### 篩選視訊編碼預設集清單 {#filtering-the-list-of-video-encoding-presets}
 
@@ -291,7 +291,7 @@ Adobe Dynamic Media Classic提供一個預先定義的視訊編碼預設集資�
 
 **篩選視訊編碼預設集的清單:**
 
-1. 在Adobe Dynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]**&#x200B;或&#x200B;**[!UICONTROL Single Encoding Presets]**。
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]** > **[!UICONTROL 最適化視訊預設集]** 或 **[!UICONTROL 單一編碼預設集]**.
 
    「適用性視訊預設集」和「單一編碼預設集」的頁面包含一個表格，列出每個視訊預設集的「作用中」狀態、「預設集名稱」、「預期播放裝置」、「視訊」維度和資料速率。
 
@@ -304,11 +304,11 @@ Adobe Dynamic Media Classic提供一個預先定義的視訊編碼預設集資�
 
 已啟用的視訊預設集會顯示在「上載工作選項」對話框中。當使用者在上傳程式期間上傳視訊檔案時，會顯示對話方塊。 他們可以從所有已啟用的編碼預設集中選擇。
 
-1. 在Adobe Dynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**。
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]**.
 1. 進行以下一項操作:
 
-   * 選取&#x200B;**[!UICONTROL 最適化視訊預設集]**。
-   * 選擇「**[!UICONTROL 單一編碼預設集]**」。
+   * 選擇 **[!UICONTROL 最適化視訊預設集]**.
+   * 選擇 **[!UICONTROL 單一編碼預設集]**.
 
 1. 進行以下一項操作:
 
@@ -319,28 +319,28 @@ Adobe Dynamic Media Classic提供一個預先定義的視訊編碼預設集資�
       >
       >非作用中視訊預設集不會出現在「上載工作選項」對話框中。
 
-1. 在頁面的右下角，選擇&#x200B;**[!UICONTROL Close]**。
+1. 在頁面的右下角，選取 **[!UICONTROL 關閉]**.
 
 ### 新增或編輯視訊編碼預設集 {#adding-or-editing-a-video-encoding-preset}
 
-您可以建立自己的自訂單一編碼視訊預設集，並將其增加到「視訊預設集」表格。如果您以新名稱儲存已編輯的預設集，也可以變更Adobe Dynamic Media Classic隨附的任何預先定義的單一編碼視訊預設集。
+您可以建立自己的自訂單一編碼視訊預設集，並將其新增至「視訊預設集」表格。 如果您以新名稱儲存已編輯的預設集，也可以變更Adobe Dynamic Media Classic隨附的任何預先定義的單一編碼視訊預設集。
 
 Adobe Dynamic Media Classic已設定目標資料速率、解析度高度和解析度寬度的上限，以確保適當的播放體驗。 如果您超過以下限制，就會出現警告訊息: 
 
-* 對於電腦播放，限制為: (寬度/16) * (高度/16) &lt; 8192。
-* 對於行動裝置播放，限制為: (寬度/16) * (高度/16) &lt; 660；目標資料速率 &lt; 4000。
-* 對於平板電腦播放，限制為: (寬度/16) * (高度/16) &lt; 3600。
+* 若為電腦播放，上限為：（寬/16） &#42; （高/16）&lt; 8192。
+* 若為行動播放，上限為：（寬/16） &#42; （高/16）&lt; 660;目標資料速率&lt; 4000。
+* 平板電腦播放的限制為：（寬/16） &#42; （高/16）&lt; 3600。
 
 **增加或編輯視訊編碼預設集:**
 
-1. 在Adobe Dynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**。
-1. 選擇「**[!UICONTROL 單一編碼預設集]**」。
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]**.
+1. 選擇 **[!UICONTROL 單一編碼預設集]**.
 1. 在「視訊預設集」頁面中，執行下列任一項作業: 
 
-   * 在「視頻預設集」工具欄上，選擇&#x200B;**[!UICONTROL 添加]**&#x200B;以便添加視頻預設集。
-   * 選取視訊預設集。在工具欄中，選擇&#x200B;**[!UICONTROL Edit]**。
+   * 在「視頻預設集」工具欄上，選擇 **[!UICONTROL 新增]** 以便您新增視訊預設集。
+   * 選取視訊預設集。在工具列中，選取 **[!UICONTROL 編輯]**.
 
-      您無法編輯Adobe Dynamic Media Classic預先定義的預設集；您只能選擇「另存新檔」，從現有預設集建立預設集。****
+      您無法編輯Adobe Dynamic Media Classic預先定義的預設集；您只能從現有預設集建立預設集，方法是 **[!UICONTROL 另存新檔]**.
 
 1. 在「增加視訊預設集」頁面或「編輯視訊預設集」頁面上，設定您想要的視訊預設集選項。
 
@@ -352,30 +352,30 @@ Adobe Dynamic Media Classic已設定目標資料速率、解析度高度和解�
    | 說明 | 描述視訊預設集。在「上傳作業選項」對話方塊中，當您將指標移至預設集的名稱上時，您輸入的內容會顯示為工具提示，使用者可在此選擇轉碼選項。 |
    | 播放裝置 | 選擇要用來播放視訊的裝置。選項包括電腦（案頭）、行動裝置(iPhone、iPad、Android™);或平板電腦(僅限iPad)。 此設定會自動確定在編碼期間使用的適當視訊和音訊轉碼器。 |
    | 目標資料速率 | 輸入目標終端使用者的網際網路平均連線速度 (kbps)。您可以輸入速率，或拖曳滑桿進行輸入。使用者連線速度光譜會列出寬頻、DSL、行動裝置和撥接上網的常見速度。此設定會自動確定合併的視訊和音訊資料速率。也就是構成一秒鐘視訊播放所編碼的資料量。資料速率越高，所得到視訊的品質就越高。但是，如果資料速率太高，會導致檔案非常大並造成低頻寬使用者的觀看體驗不佳。最好是在高資料速率和低資料速率之間找到一個平衡點。旨在建立優質播放體驗，頻寬較低的使用者也能享受該體驗。 |
-   | 外觀比例 | 外觀比例是視訊寬度相對於視訊高度的比例。以下所列的前兩個外觀比例經常用於水平顯示視訊:<ul><li> 4:3 - 幾乎適用於所有的標準畫質電視廣播內容。</li><li>16:9 — 用於高清電視(HDTV)上幾乎所有的寬屏內容和電影。</li><li>自動縮放 - (預設) 單一編碼預設集，可與任何外觀比例搭配使用，以為傳遞至行動裝置、平板電腦和桌上型電腦建立視訊。使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動縮放，以保留視訊的外觀比例 (寬高比)。</li><li>自訂 - 當您想要定義非標準的視訊大小時會使用。</li><li>您選擇的外觀比例決定了解析度大小的寬度和高度設定；寬度和高度值會自動縮放為適當的外觀比例。</li></ul> |
-   | 解析度大小 | 解析度大小由寬像素數和高像素數表示，決定大小。 以像素為單位輸入寬度和高度值，或拖曳滑桿來輸入這些值。解析度範圍列出了標準解析度大小。寬度和高度值將自動遵循所選的外觀比例。例如，如果您選取 4:3 作為外觀比例，並且為寬度輸入 400，則會自動為高度輸入 300。如果您對「外觀比例」設定選取「自動縮放」，「解析度大小」的「寬度」值會自動設為「自動」。選擇「**[!UICONTROL 預覽]**」，以便開啟瀏覽器窗口並查看您在該處的解決方案選擇。 |
+   | 外觀比例 | 外觀比例是視訊寬度相對於視訊高度的比例。以下所列的前兩個外觀比例經常用於水平顯示視訊:<ul><li> 4:3 - 幾乎適用於所有的標準畫質電視廣播內容。</li><li>16:9 — 用於高清電視(HDTV)上幾乎所有的寬屏內容和電影。</li><li>自動縮放 - (預設) 單一編碼預設集，可與任何外觀比例搭配使用，以為傳遞至行動裝置、平板電腦和桌上型電腦建立視訊。使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動縮放，以保留視訊的外觀比例 (寬高比)。</li><li>自訂 - 當您想要定義非標準的視訊大小時會使用。</li><li>您選擇的長寬比決定「解析度大小」的寬度和高度設定；寬度和高度值會自動縮放至適當的長寬比。</li></ul> |
+   | 解析度大小 | 解析度大小由寬像素數和高像素數表示，決定大小。 以像素為單位輸入寬度和高度值，或拖曳滑桿來輸入這些值。解析度範圍列出了標準解析度大小。寬度和高度值會自動粘附到您選取的長寬比。 例如，如果您選取 4:3 作為外觀比例，並且為寬度輸入 400，則會自動為高度輸入 300。如果您對「外觀比例」設定選取「自動縮放」，「解析度大小」的「寬度」值會自動設為「自動」。選擇 **[!UICONTROL 預覽]** 這樣，您就可以開啟瀏覽器窗口，在那裡查看您的解決方案選擇。 |
    | 編碼檔案字尾 | 輸入字尾。該字尾會附加到產生的編碼視訊檔案。您可以在名稱中輸入連字符號和底線；不允許使用空格和特殊字元。 |
    | 其他設定 | Adobe Dynamic Media Classic會根據最佳實務編碼准則自動決定所有其他編碼設定。 |
 
 1. 進行以下一項操作:
 
-   * 如果您新增或編輯視訊預設集，請選取「**[!UICONTROL 儲存]**」。
-   * 如果您從現有預設集開始新增視訊預設集，請選取「**[!UICONTROL 另存新檔」。]**
+   * 選擇 **[!UICONTROL 儲存]** 如果您新增或編輯了視訊預設集。
+   * 選擇 **[!UICONTROL 另存新檔]** 如果您是從現有的預設集開始新增「視訊預設集」。
 
 ### 刪除視訊編碼預設集 {#deleting-a-video-encoding-preset}
 
 管理員可以刪除自訂視訊預設集。無法刪除隨Adobe Dynamic Media Classic提供的視訊預設集。
 
-1. 在Adobe Dynamic Media Classic中，在全域導覽列上，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**。
-1. 選擇「**[!UICONTROL 單一編碼預設集]**」。
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]**.
+1. 選擇 **[!UICONTROL 單一編碼預設集]**.
 1. 在「視訊預設集」頁面中，選取表格中您不再想要或需要的視訊預設集。
-1. 在「視頻預設集」工具欄上，選擇&#x200B;**[!UICONTROL Delete]**。
-1. 在「刪除預設集」對話框中，選擇&#x200B;**[!UICONTROL Delete]**。
+1. 在「視頻預設集」工具欄上，選擇 **[!UICONTROL 刪除]**.
+1. 在「刪除預設集」對話方塊中，選取 **[!UICONTROL 刪除]**.
 
 >[!MORELIKETHIS]
 >
 >* [快速入門：Adobe Dynamic Media Classic中的影片](quick-start-video.md#quick-start-video)
 >* [上傳影片並加以編碼](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用視訊檢視器預設集](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [視訊預](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 設視訊
+>* [視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 訓練影片
 

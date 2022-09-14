@@ -5,10 +5,10 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 15%
 
 * [封存Adobe Dynamic Media Classic電子報](/help/dynamic-media-newsletter.md)
 * [銳利化影像的最佳作法](/help/assets/s7_sharpening_images.pdf)
-* [最大化資產投資報酬率](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在您的網站和行動應用程式中提供多媒體的業界最佳實務。在此網路研討會中，範例和示範示範示範如何跨裝置有效傳送視訊、在行銷活動中提供動態創意，以及透過讓任何影像、樣式指南或概覽可購買來增加轉換。
-* [加速您的內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 此網路研討會提供Adobe Experience Manager Assets的簡介和示範（隨選），此為新一代的多媒體管理與傳送計畫。了解如何在創意和行銷團隊之間共同作業和共用資產，以簡化資產審核流程。 了解有效管理資產中繼資料的最佳實務，以便輕鬆尋找、使用、重複使用和共用資產。 了解如何提供互動式跨頻道多媒體體驗。
-* [行動最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 使用Adobe Dynamic Media Classic，為所有裝置有效提供目標式多媒體。在此網路研討會中，您將學習如何設計和提供在行動應用程式和回應式網站間有效的影像和視訊檢視體驗。
-* [Adobe Dynamic Media Classic如何支援SEO](/help/assets/s7_seo.pdf)  — 現在的搜尋引擎如何啟用網站和影像的搜尋。Adobe Dynamic Media Classic支援讓影像更適合搜尋引擎的工作，以便讓更多流量驅動至Adobe Dynamic Media Classic使用者的網站。 本PDF會提供背景和實作指引，協助您達成此目標。
-* [使用Adobe Dynamic Media Classic來最大化節日轉換](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — 此網路研討會會說明如何設定自動化工作流程，從已觀看的資料夾取得內容，並自動建立回轉集和影片。您也將學到如何快速管理變更和更新影像。
-* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 此網路研討會會教您如何將內容匯入和匯出Adobe Dynamic Media Classic。了解如何設定影像預設集以獲得最佳效能和最佳體驗。 您也將學到檢視器預設集與快取配置。
-* [回應式設計的最佳實務](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)  — 此網路研討會會教您如何改善行動策略的實用秘訣。並觀看動作期間的回應式設計實際範例。建立一個可在多部裝置上使用的主資產，並透過動態變更影像解析度或是動態變更影像方向為縱向或橫向顯示，提高行動效能。另外也將學到如何動態裁切、縮放或調整影像大小。
+* [最大化資產ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在您的網站和行動應用程式中提供多媒體的業界最佳實務。 在此網路研討會中，範例和示範示範示範如何跨裝置有效傳送視訊、在行銷活動中提供動態創意，以及透過讓任何影像、樣式指南或概覽可購買來增加轉換。
+* [加速內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 此網路研討會提供Adobe Experience Manager Assets — 隨選、新一代多媒體管理與傳送計畫的簡介和示範。 了解如何在創意和行銷團隊之間共同作業和共用資產，以簡化資產審核流程。 了解有效管理資產中繼資料的最佳實務，以便輕鬆尋找、使用、重複使用和共用資產。 了解如何提供互動式跨頻道多媒體體驗。
+* [行動裝置最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 使用Adobe Dynamic Media Classic來有效率地為所有裝置提供目標式多媒體。 在此網路研討會中，您將學習如何設計和提供在行動應用程式和回應式網站間有效的影像和視訊檢視體驗。
+* [Adobe Dynamic Media Classic如何支援SEO](/help/assets/s7_seo.pdf)  — 現在，搜索引擎可搜索網站和影像。 Adobe Dynamic Media Classic支援讓影像更適合搜尋引擎的工作，以便讓更多流量驅動至Adobe Dynamic Media Classic使用者的網站。 本PDF會提供背景和實作指引，協助您達成此目標。
+* [使用Adobe Dynamic Media Classic將節日轉換最大化](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — 此網路研討會會教您如何設定自動化工作流程，從已觀看的資料夾取得內容，並自動建立回轉集和影片。 您也將學到如何快速管理變更和更新影像。
+* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 此網路研討會會教您如何將內容匯入和匯出Adobe Dynamic Media Classic。 了解如何設定影像預設集以獲得最佳效能和最佳體驗。 您也將學到檢視器預設集與快取配置。
+* [回應式設計的最佳實務](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)  — 此網路研討會教您如何改善行動策略的實用秘訣。 並觀看動作期間的回應式設計實際範例。建立可跨多部裝置運作的一項主要資產，並透過動態變更影像解析度或直向或橫向顯示影像方向來提升行動效能。 另外也將學到如何動態裁切、縮放或調整影像大小。
 
 ## Adobe Dynamic Media Classic培訓
 
-前往[此處](https://training.adobe.com/training/courses.html#product=adobe-scene7)查看當前可用的培訓課程。
-[Adobe Dynamic Media Classic訓練影片](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro)。
+開始 [此處](https://training.adobe.com/training/courses.html#product=adobe-scene7) 查看當前提供的培訓課程。
+[Adobe Dynamic Media Classic訓練影片](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro).
 
-查看[Adobe Dynamic Media Classic](home.md)可用的所有熱門資源。
+查看所有可用的熱門資源 [Adobe Dynamic Media Classic](home.md).

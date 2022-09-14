@@ -1,8 +1,8 @@
 ---
 title: 管理內容變化
-description: 了解如何管理AdobeDynamic Media Classic中的內容變異。
+description: 了解如何管理Adobe Dynamic Media Classic中的內容變異。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -27,10 +27,10 @@ ht-degree: 55%
 
 您可以使用清單中的任何影像預設集 URL。影像預設集 URL 有如通用 URL。可以有多於一個影像預設集 URL。
 
-1. 前往&#x200B;**[!UICONTROL Build]** > **[!UICONTROL 範本集]**。
-1. 在產生器中，選取範本，然後選取&#x200B;**[!UICONTROL 新增/預覽]**。
-1. 修改模板屬性，並選擇&#x200B;**[!UICONTROL 另存為]**&#x200B;以建立其他版本。
-1. 鍵入名稱，然後選擇&#x200B;**[!UICONTROL Save]**。
+1. 前往 **[!UICONTROL 建置]** > **[!UICONTROL 範本集]**.
+1. 在產生器中，選取範本，然後選取 **[!UICONTROL 新增/預覽]**.
+1. 修改範本屬性並選取 **[!UICONTROL 另存新檔]** 來建立其他版本。
+1. 輸入名稱，然後選取 **[!UICONTROL 儲存]**.
 
    必須同時發佈資產和範本。
 

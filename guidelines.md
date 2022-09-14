@@ -1,15 +1,15 @@
 ---
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 5%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
-# AdobeDynamic Media Classic檔案的協助指南
+# 協助撰寫Adobe Dynamic Media Classic檔案的指引
 
-## AdobeDynamic Media Classic檔案理念
+## Adobe Dynamic Media Classic檔案理念
 
-我們知道AdobeDynamic Media Classic使用者在競爭激烈的環境中工作，努力建立數位體驗，使其有別於其他競爭者。 因此，當Adobe提供進階的新工具時，必須以精確且清楚的說明檔案來補充這些工具，讓客戶立即運用其AdobeDynamic Media Classic投資並最大化投資報酬率。
+我們知道Adobe Dynamic Media Classic使用者在競爭激烈的環境中工作，努力建立讓他們有別於其競爭對手的數位體驗。 因此，當Adobe提供進階新工具時，必須以準確且清楚的檔案來補充這些工具。 這樣可讓客戶立即使用其Adobe Dynamic Media Classic投資並最大化ROI。
 
 說明檔案的目標是讓使用者盡快取得最新的說明檔案。 因此，我們會優先處理準確、可用的檔案，並努力持續更新和改進。
 
@@ -29,29 +29,29 @@ ht-degree: 5%
 
 ### 我們通常不會記錄錯誤或其因應措施。
 
-說明檔案涵蓋標準使用案例。 因此，一般不會記錄錯誤、錯誤所造成的影響，以及錯誤的因應措施。
+說明檔案涵蓋標準使用案例。 因此，系統不會記錄錯誤、錯誤所造成的影響，以及錯誤的因應措施。
 
 此規則的例外情況適用於發行說明，其中已知問題可與產品管理部門核准的可能解決方案一起列出。
 
 ### 協助撰寫說明檔案的目的不在於回答技術問題。
 
-歡迎您協助提出任何改善說明檔案的想法。 但是，評論、問題和提取請求僅針對&#x200B;*contributions*。 這些變數不是用來回答您有關如何使用AdobeDynamic Media Classic、實作專案或解決技術問題。
+歡迎您協助提出任何改善說明檔案的想法。 但是，注釋、問題和提取請求是針對 *貢獻* 只有。 它們並非用來回答您有關如何使用Adobe Dynamic Media Classic、實作您的專案或解決技術問題。
 
-有關使用AdobeDynamic Media Classic或技術錯誤的任何問題，應透過[Experience Cloud企業支援入口網站](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)回報，或在[Experience Cloud社群](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)中討論。
+如有任何關於使用Adobe Dynamic Media Classic或技術錯誤的問題，請透過 [Experience Cloud企業支援入口網站](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) 或 [Experience Cloud社群](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***說明檔案稿件不會取代Adobe客*** 戶服務，且這類稿件只要試圖解答支援相關問題，將會遭到拒絕。
+***協助撰寫說明檔案並非取代Adobe客戶服務*** 而任何尋求支援相關問題答案的此類貢獻都將被拒絕。
 
 ### 貢獻內容必須清楚參考受影響的檔案頁面。
 
-如果您建立問題以建議對檔案進行改進，則必須包含受影響頁面的連結。 如果您使用檔案頁面上的「編輯 **此頁面** 」連結來建立期刊，則會自動建立包含該頁面連結的期刊。
+如果您建立問題以建議對檔案進行改進，則必須包含受影響頁面的連結。 如果您使用 **編輯此頁面** 連結時，系統會自動建立包含頁面連結的期刊。
 
-這不適用於提取請求，因為提取請求本質上會參照受影響的頁面。
+這不適用於提取請求，因為提取請求會參考受影響的頁面。
 
 ## 檔案准則
 
 我們要求說明檔案的任何貢獻都遵循特定風格准則。
 
-遵循這些准則可讓您更輕鬆審核您的貢獻，因此可更快整合至檔案中。
+遵循這些准則可讓您更輕鬆審核貢獻，進而更快整合至檔案中。
 
 ### 語言和樣式
 
@@ -61,11 +61,11 @@ ht-degree: 5%
 * 盡可能簡單。
 * 保持清晰簡潔。
 
-請記住，說明檔案的讀者遍布全球，而且不一定是母語或流利的英語人士。 避免口語，盡量清楚簡單。
+請記住，檔案的讀者遍布全球。 他們不能是母語或流利的英語者。 避免口語，盡量清楚簡單。
 
-#### 遵循Microsoft風格手冊
+#### 遵循Microsoft®風格手冊
 
-[Microsoft Style手冊是免費](https://docs.microsoft.com/en-us/style-guide/welcome/) 提供的說明檔案風格指南，重點是軟體說明檔案，AdobeDynamic Media Classic說明檔案時，請盡可能遵守本指南。
+[《Microsoft®風格手冊》](https://docs.microsoft.com/en-us/style-guide/welcome/) 是免費提供的說明檔案風格指南，著重於軟體說明檔案，Adobe Dynamic Media Classic說明檔案會盡可能遵守本指南。
 
 ### 格式
 

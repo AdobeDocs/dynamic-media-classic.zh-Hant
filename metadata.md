@@ -4,24 +4,24 @@ solution: Dynamic Media Classic
 type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hant
-source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
 
-# 用於內部使用的元資料
+# 供內部使用的中繼資料
 
-metadata.md檔案包括傳遞到回購協定中的使用手冊TOC.md檔案的回購級元資料。 如果要更改任何使用手冊的metadata.md內容，請在任何TOC.md檔案中進行更改。
+metadata.md檔案包含存放庫層級中繼資料，這些中繼資料會傳遞至存放庫中的使用手冊TOC.md檔案。 如果您想要變更任何使用手冊的metadata.md內容，請在任何TOC.md檔案中變更。
 
-| metadata | 它做什麼 |
+| metadata | 它的作用 |
 |--- |--- |
-| 解決方案標題 | 在文章標題中用作連結 |
-| 解決方案集線 | 開啟幫助中心頁 |
-| 解決方案表徵圖 | 在解決方案標題旁邊顯示解決方案表徵圖。 尚未實施 |
-| 入門URL | 指向幫助入門頁的連結 |
-| 教程url | 指向視頻教程的連結 — 幫助教程或KT教程 |
-| 微TOC級 | 確定顯示在右滑軌中的標題級別數。 預設值為2 |
-| Git回購 | 指定內部使用的主回購庫的位置 |
+| solution-title | 在文章標題中作為連結使用 |
+| solution-hub-url | 開啟中樞頁面 |
+| solution-icon | 在解決方案標題旁顯示解決方案圖示。 尚未實作 |
+| getting-started-url | 連結至快速入門頁面 |
+| tutorials-url | 教學課程影片（教學課程或KT教學課程其中之一）的連結 |
+| mini-toc-levels | 決定右邊欄中顯示的標題層數。 預設為2 |
+| git-repo | 指定主要存放庫的位置，以供內部使用 |

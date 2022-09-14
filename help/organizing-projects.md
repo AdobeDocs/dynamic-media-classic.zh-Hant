@@ -1,8 +1,8 @@
 ---
 title: 使用專案組織您的工作
-description: 了解如何在Adobe Classic中使用專案Adobe工作。
+description: 了解如何使用Adobe Dynamic Media Classic中的專案組織您的工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 31%
@@ -27,7 +27,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic建議使用中繼資料而非專案來組織資產。 請參閱[檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md)。
+>Adobe Dynamic Media Classic建議使用中繼資料而非專案組織資產。 請參閱 [檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ ht-degree: 31%
 
 ## 建立專案資料夾 {#creating-a-project-folder}
 
-您可以從「資產資料庫」開始，或在上傳檔案至AdobeDynamic Media Classic時，建立專案資料夾：
+您可以從「資產資料庫」開始，或在將檔案上傳至Adobe Dynamic Media Classic時建立「專案」資料夾：
 
-* **在「資產庫** 」中 — 捲動至「資產庫」底部、「專案」區段，然後選取「新 **[!UICONTROL 增專案」]**。輸入專案的名稱。
+* **在資產庫中**  — 捲動至「資產庫」底部、「專案」區段，然後選取 **[!UICONTROL 新增專案]**. 輸入專案的名稱。
 
-* **上傳檔案**  — 在「上傳」畫面中，前往「新 **[!UICONTROL 增至專案]**  >建 **[!UICONTROL 立專案」]**。輸入專案的名稱。
+* **上傳檔案時**  — 在「上傳」畫面中，前往 **[!UICONTROL 新增至專案]** > **[!UICONTROL 建立專案]**. 輸入專案的名稱。
 
 >[!NOTE]
 >
@@ -49,16 +49,16 @@ ht-degree: 31%
 
 要顯示、刪除和更名「項目」資料夾，請執行以下操作之一：
 
-* **瀏覽內容**  — 選取「資產資料庫」中資料夾的名稱。其資產會顯示在瀏覽面板中。
+* **瀏覽內容**  — 在「資產庫」中選取資料夾的名稱。 其資產會顯示在瀏覽面板中。
 
-* **刪除項目資料夾**  — 選擇項目資料夾，然後選擇 **[!UICONTROL 刪除項目]**。從專案資料夾刪除資產並不會從AdobeDynamic Media Classic中刪除資產；資產會保留在儲存資產的原始資料夾中。
+* **刪除項目資料夾**  — 選取「專案」資料夾，然後選取 **[!UICONTROL 移除專案]**. 從專案資料夾刪除資產並不會從Adobe Dynamic Media Classic中刪除資產；資產會保留在儲存資產的原始資料夾中。
 
-* **重新命名專案資料夾**  — 在「資產面板」中按兩下資料夾名稱，然後輸入新名稱。
+* **重新命名專案資料夾**  — 在「資產面板」中按兩下資料夾的名稱，然後輸入新名稱。
 
 ## 新增資產至專案資料夾 {#adding-assets-to-a-project-folder}
 
-從「瀏覽」面板開始，或當您上傳檔案至AdobeDynamic Media Classic時，可以將影像新增至「專案」資料夾：
+您可以從「瀏覽」面板開始，或將檔案上傳至Adobe Dynamic Media Classic時，將影像新增至「專案」資料夾：
 
-* **從「瀏覽面板** 」 — 選取資產並將其拖曳至「專案」資料夾。您也可以前往「**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**」。 在「選擇項目」對話框中選擇項目資料夾名稱，然後選擇&#x200B;**[!UICONTROL Submit]**。
+* **從「瀏覽」面板**  — 選取資產並拖曳至專案資料夾。 您也可以前往 **[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**. 在「選擇項目」對話框中選擇項目資料夾名稱，然後選擇 **[!UICONTROL 提交]**.
 
-* **上傳檔案**  — 在「上傳」頁面中，選取「工 **[!UICONTROL 作選項」]**。在「上載作業選項」對話框中，選擇&#x200B;**[!UICONTROL 項目]**，然後選擇項目名稱。
+* **上傳檔案時**  — 在「上傳」頁面中，選取 **[!UICONTROL 作業選項]**. 在「上載作業選項」對話框中，選擇 **[!UICONTROL 專案]**，然後選取專案名稱。

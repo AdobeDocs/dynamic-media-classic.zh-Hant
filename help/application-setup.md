@@ -1,17 +1,17 @@
 ---
 title: 應用程式設定
 description: 了解如何設定和設定Adobe Dynamic Media Classic的「應用程式」區域。 「應用程式」區域可讓您輸入一般設定、建立影像、檢視器和視訊編碼預設集、定義預設檢視器和中繼資料、發佈設定和視訊SEO設定。 您也可以使用區域來設定批次集預設集，以自動產生2D回轉集。
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '11303'
-ht-degree: 42%
+source-wordcount: '11299'
+ht-degree: 41%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 42%
 
 另請參閱 [測試安全測試服務](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL 已發佈的伺服器名稱]**  — 此伺服器是即時內容傳送網路(CDN)伺服器，用於您帳戶專用的所有系統產生的URL呼叫。 除非Adobe Dynamic Media Classic支援技術人員指示您更改此伺服器名稱，否則請勿更改此伺服器名稱。
+* **[!UICONTROL 已發佈的伺服器名稱]**  — 此伺服器是即時CDN（內容傳遞網路）伺服器，用於您帳戶專用的所有系統產生的URL呼叫。 除非Adobe Dynamic Media Classic支援技術人員指示您更改此伺服器名稱，否則請勿更改此伺服器名稱。
 
 * **[!UICONTROL 源伺服器名稱]**  — 此伺服器僅用於質量保證測試。 除非Adobe Dynamic Media Classic支援技術人員指示，否則請勿更改此伺服器名稱。
 
@@ -85,11 +85,11 @@ ht-degree: 42%
 
 * **[!UICONTROL 顯示編碼的視訊]**  — 預設取消選取（關閉）。
 
-   若要在Adobe Dynamic Media Classic中快速搜尋和瀏覽視訊，而不需導覽相同視訊的許多已編碼衍生影片，請保留取消選取此選項（預設）。 只會顯示「主視訊」縮圖（您上傳並用來建立衍生影片的來源視訊），以及「上層」適用性視訊集縮圖（包含已編碼視訊集的「下層」衍生影片）。
+   若要在Adobe Dynamic Media Classic中快速搜尋和瀏覽視訊，而不需導覽相同視訊的許多已編碼衍生影片，請保留取消選取此選項（預設）。 只會顯示「主要視訊」縮圖（您上傳並用來建立衍生影片的來源視訊），以及「父項」適用性視訊集縮圖（包含編碼視訊集的「子項」衍生影片）。
 
-   不過，您仍然可以從主視訊或最適化視訊集存取個別編碼的視訊。若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。然後選取 **[!UICONTROL 編碼影片]** ，以便存取所有「子」影片。
+   不過，您仍可從「主要視訊」或「最適化視訊集」存取個別編碼視訊。 若要執行此項操作，請按兩下視訊縮圖影像，以開啟「詳細檢視」。然後選取 **[!UICONTROL 編碼影片]** ，以便存取所有「子」影片。
 
-   您也可以前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新處理]** 直接從最適化視訊集建立更編碼的「子」視訊。 Adobe Dynamic Media Classic會自動找到最適化視訊集的「父」主視訊，並以該視訊作為轉碼的來源視訊。 不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
+   您也可以前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新處理]** 直接從最適化視訊集建立更編碼的「子」視訊。 Adobe Dynamic Media Classic會自動找出最適化視訊集的「父」主要視訊，並以該視訊作為轉碼的來源視訊。 不過，在您儲存新的個別編碼的視訊後，搜尋或瀏覽時並不會看到這些視訊。然而這些視訊仍可從「詳細檢視」的「編碼的視訊」標籤予以存取。
 
    請參閱 [上傳和轉碼影片](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -145,7 +145,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項�
 
 如果您先前上傳的影像，然後變更原始檔案（或取代它們），選取的「覆寫」選項會指定Adobe Dynamic Media Classic取代影像的方式。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中還包含尚未在Adobe Dynamic Media Classic中的影像，則會新增這些影像。
 
-如果您上載的影像已經變更 (影像經過修改)，但影像的參照保持不變，則使用此選項。上載和擷取 Adobe® PDF 檔案時，覆寫功能也很有幫助。微調Adobe Dynamic Media Classic *rip* 在影像中，在「上載」(Upload)對話框中調整ICC顏色配置檔案選項，並使用「覆蓋」(Overwrite)功能重新上載。
+如果您上傳的影像在某些方面已變更（影像已變更），但影像的參考仍維持不變，請使用此選項。 上載和擷取 Adobe® PDF 檔案時，覆寫功能也很有幫助。微調Adobe Dynamic Media Classic *rip* 在影像中，在「上載」(Upload)對話框中調整ICC顏色配置檔案選項，並使用「覆蓋」(Overwrite)功能重新上載。
 
 從生產伺服器存取影像的Adobe Dynamic Media Classic ID衍生自影像檔案名稱。 檔案名稱中必須使用大寫和小寫字元，這在取代現有檔案和用於存取影像的Adobe Dynamic Media Classic ID時都很重要。 在上傳至Adobe Dynamic Media Classic之前，請確定檔案名稱中的大寫和小寫字元使用正確，以避免Adobe Dynamic Media Classic ID只會在相同影像的情況下有所不同。
 
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項�
 
 ## 影像預設集 {#image-presets}
 
-「影像預設集」畫面是用來建立和編輯影像預設集。影像預設集可讓Adobe Dynamic Media Classic以相同主影像的不同大小動態傳送影像。 每個影像預設集都代表了一個用來顯示影像之大小調整與格式命令的預先定義集合。建立影像預設集時，您會選取影像傳送的大小。 您也可以選擇格式化命令，以便在傳送影像以供查看時優化影像的外觀。
+「影像預設集」畫面是用來建立和編輯影像預設集。影像預設集可讓Adobe Dynamic Media Classic以相同主要影像的不同大小動態傳送影像。 每個影像預設集都代表了一個用來顯示影像之大小調整與格式命令的預先定義集合。建立影像預設集時，您會選取影像傳送的大小。 您也可以選擇格式化命令，以便在傳送影像以供查看時優化影像的外觀。
 
 管理員可以建立匯出資產用的預設集。用戶在導出映像時可以選擇預設集，該預設集還會按照管理員指定的規範重新格式化映像。
 
@@ -249,7 +249,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項�
 
 * **[!UICONTROL URL修飾元]**  — 如果您偏好指定定義影像預設集的URL修飾元，而非設定，請在此輸入修飾元。
 
-* **[!UICONTROL 影像URL範例]**  — 列出Dynamic Media影像伺服器在您新增或編輯的影像預設集中用於傳送影像的「原始」URL字串。 此 URL 字串會將您在「增加預設集」或「編輯預設集」畫面中選取的所有格式設定加以編碼。
+* **[!UICONTROL 影像URL範例]**  — 列出Dynamic Media影像伺服器在您新增或編輯的影像預設集中用於傳送影像的「原始」URL字串。 此URL字串會對您在「新增預設集」或「編輯預設集」畫面中選取的所有格式設定進行編碼。
 
 ### 編輯、移除或停用影像預設集 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -262,7 +262,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個項�
 
 ## 啟用或停用最適化視訊預設集 {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要預設集清單，其中將 16:9 最適化視訊預設集與 4:3 最適化視訊預設集合併到一個群組中。這些預先定義的預設集反映了最常見的編碼設定，並已針對目標行動裝置、平板電腦和桌上型電腦的播放進行最佳化。
+Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是預設集的主要清單，將16:9最適化視訊預設集和4:3最適化視訊預設集結合至一個群組。 這些預先定義的預設集反映了最常見的編碼設定，並已針對目標行動裝置、平板電腦和桌上型電腦的播放進行最佳化。
 
 預設只會啟動 (啟用或「開啟」)「最適化視訊」編碼預設集。您可以視需要加以停用。非作用中的最適化視訊預設集，並不會以可選取的選項顯示在「上載工作選項」對話框的「eVideo」區段中。
 
@@ -310,7 +310,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要�
       * 根據您計畫播放視訊的解析度大小和頻寬，選取編碼預設集。
       * 您可以選取「最適化視訊編碼」，以及一或多個每個視訊的編碼預設集。 例如，您可以在一個上載工作中針對桌面和行動裝置編碼檔案。
 
-選取 **[!UICONTROL 開始上傳]**，則上傳原始主視訊檔案，並從主檔案產生編碼檔案。
+選取 **[!UICONTROL 開始上傳]**，則會上傳原始主要視訊檔案，並從主要檔案產生編碼檔案。
 
 ### 關於編碼預設集選項 {#about-encoding-preset-options}
 
@@ -344,7 +344,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要�
 
 ### 最適化視訊編碼 (16:9 或 4:3) 視訊預設集 {#adaptive-video-encoding-or-video-presets}
 
-這些最適化視訊編碼預設集，結合了一系列會根據您所上載之視訊的外觀比例自動為您選取的個別編碼預設集。例如，如果您上載 4:3 視訊，則系統會自動使用在「**最適化視訊編碼 (16:9 或 4:3)**」選項的主預設集清單中找到的五個 4:3 預設集進行編碼。
+這些最適化視訊編碼預設集，結合了一系列會根據您所上載之視訊的外觀比例自動為您選取的個別編碼預設集。例如，如果您上傳4:3視訊，則會使用在以下主要預設集清單中找到的所有5個4:3預設集自動編碼： **最適化視訊編碼（16:9或4:3）** 選項。
 
 有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
@@ -444,7 +444,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要�
 
 另請參閱 [Adobe檢視器參考程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html).
 
-### 回應式網頁的檢視器支援 {#viewer-support-for-responsive-designed-web-pages}
+### 回應式設計網頁的檢視器支援 {#viewer-support-for-responsive-designed-web-pages}
 
 不同網頁有不同的需求。有時候，您會想要的網頁提供連結，可在個別瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，您必須直接將HTML5檢視器內嵌在托管頁面上。 在後一種情況下，網頁可能是靜態版面。 或者，它會「回應式」，且在不同裝置上或針對不同瀏覽器視窗大小顯示不同。 為符合這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器支援靜態網頁和回應式設計的網頁。
 
@@ -462,7 +462,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要�
 
 * **[!UICONTROL 回轉集檢視器]**  — 提供影像的多個視圖，以便用戶能夠旋轉對象來檢查不同的邊和角度。
 
-* **視訊檢視器**  — 使用源檔案的解析度維度或自定義大小顯示視頻。 Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，供您播放視訊，如果您是管理員，則可建立自訂視訊檢視器預設集。 有十幾種不同的設定可用於配置「視訊檢視器」。您可以設定其大小、前景和背景顏色、視訊和音訊控制項、進度列、使用者介面外觀、社交功能和「說明」。
+* **視訊檢視器**  — 使用源檔案的解析度維度或自定義大小顯示視頻。 Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，供您播放視訊，如果您是管理員，則可建立自訂視訊檢視器預設集。 配置視訊檢視器時有12種以上的不同設定。 您可以設定其大小、前景和背景顏色、視訊和音訊控制項、進度列、使用者介面外觀、社交功能和「說明」。
 
 * **[!UICONTROL 縮放檢視器]**  — 提供三種縮放檢視器類型的選擇：
 
@@ -525,7 +525,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 此為主要�
 
 Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
-* 您可以在以下位置找到支援此視頻格式的BlackBerry®設備： [BlackBerry®上支援的視頻格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 您可以在以下位置找到支援此視頻格式的BlackBerry®設備： [BlackBerry®上支援的視頻格式](https://developers.blackberry.com/us/en)
 * 您也可以在以下位置找到支援此視頻格式的Windows®設備： [Windows® Phone上支援的視頻格式](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | 檢視器技術 | 桌上型電腦 | AppleiPhone | AppleiPad | Android™智慧手機 | Android™平板電腦 | BlackBerry®智慧手機 | Windows® Phone |
@@ -760,7 +760,7 @@ Adobe Dynamic Media Classic提供預先定義的中繼資料檢視，管理員�
 1. 在「預設集名稱」文字欄位中，輸入檢視的名稱。
 1. （可選）檢查 **[!UICONTROL 設為預設]** 使此視圖成為用戶在「詳細資訊視圖」中開啟「元資料」面板時看到的視圖。
 1. （選用）選取 **[!UICONTROL 包含UDF]** 在檢視中包含使用者定義的欄位。 使用者定義的欄位會顯示在詳細檢視的「中繼資料」面板上方。
-1. 選取要用於檢視的欄位(選取 **[!UICONTROL 全選]** )。
+1. 選取您要用於檢視的欄位(選取 **[!UICONTROL 全選]** )。
 1. 選擇 **[!UICONTROL 儲存]**.
 
    選取的檢視類別和欄位會顯示在「預覽」面板中。
@@ -789,7 +789,7 @@ Adobe Dynamic Media Classic提供預先定義的中繼資料檢視，管理員�
    * 若要建立預設集，請選取 **[!UICONTROL 新增]**. 在「中繼資料範本名稱」文字欄位中，輸入預設集的名稱。 選擇 **[!UICONTROL 中繼資料檢視]**，然後從下拉式清單中選取檢視(請參閱 [中繼資料檢視](application-setup.md#metadata_views))。
    * 若要編輯現有的預設集，請從「中繼資料預設集」清單中選取預設集，然後選取 **[!UICONTROL 編輯]**.
 
-1. 展開您要加入預設集的標題，並在您要加入預設集的不同欄位中輸入值。
+1. 展開您要納入預設集的標題，並在您要納入預設集的不同欄位中輸入值。
 1. 選擇 **[!UICONTROL 儲存]**.
 
    選取的預設集類別和欄位會顯示在「預覽」面板中。
@@ -949,9 +949,9 @@ Adobe Dynamic Media Classic使用批次集預設集，將共用一些共同資�
 
 另請參閱 [建立批集預設集](application-setup.md#creating_a_batch_set_preset).
 
-多軸迴轉集的列數或欄數沒有上限或下限。
+在多軸回轉集中，沒有必須具有的最小或最大行數。
 
-例如，假設您想要建立名稱為 *spin-2dspin* 的多軸迴轉集。您有一組迴轉集影像，內有三列，每列有 12 個影像。影像的命名如下:
+例如，假設您要建立名為 *回轉–2dspin*. 您有一組迴轉集影像，內有三列，每列有 12 個影像。影像的命名如下:
 
 ```as3
 spin-01-01
@@ -1009,7 +1009,7 @@ spin-03-12
 
    >[!NOTE]
    >
-   >如果列和列規則運算式的組合無法判斷資產在多維度回轉集陣列內的位置，則不會將該資產新增至該集，且會記錄錯誤。
+   >如果列和欄中的規則運算式組合無法判斷資產在多維度回轉集陣列內的位置，則不會將該資產新增至該集，且會記錄錯誤。
 
 1. 針對「設定命名和建立慣例」，請為您在「資產命名慣例」中定義的基本名稱指定字尾或字首。同時定義在Adobe Dynamic Media Classic資料夾結構內建立影像集的位置。
 

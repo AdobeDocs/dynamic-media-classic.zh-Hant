@@ -1,8 +1,8 @@
 ---
 title: 將縮放目標和影像地圖納入影像集
-description: 了解如何在Dynamic Media Classic的Adobe中，將縮放目標和影像地圖納入影像集。
+description: 了解如何在Adobe Dynamic Media Classic的影像集中包含縮放目標和影像地圖。
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 38%

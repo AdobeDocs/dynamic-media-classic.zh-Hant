@@ -1,8 +1,8 @@
 ---
 title: 將混合媒體集連結至網頁
-description: 了解如何在Adobe Dynamic Media Classic中將混合媒體集連結至網頁。
+description: 了解如何將混合媒體集連結至Adobe Dynamic Media Classic的網頁。
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
@@ -10,7 +10,7 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 50%
@@ -23,22 +23,22 @@ ht-degree: 50%
 
 ## 取得混合媒體集 URL {#obtain-a-mixed-media-set-url}
 
-1. 在「資產瀏覽」面板中的「顯示」下拉清單中，選擇&#x200B;**[!UICONTROL 媒體集]**。
+1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 媒體集]**.
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「媒體集」的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL」和「內嵌程式碼」面板中，選取您要檢視器右側的「複製URL ]**」 。**[!UICONTROL 
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，前往&#x200B;**[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL」和「內嵌程式碼」面板中，選取 **[!UICONTROL 複製URL]** 右邊。
+   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL 複製URL]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 複製URL]**.
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像的右側，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像的右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL 複製URL]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 複製URL]**.
 
-   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL 複製URL]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 複製URL]**.
 
 ## 增加混合媒體集 URL 至網頁 {#add-mixed-media-set-urls-to-your-web-page}
 
@@ -50,24 +50,24 @@ ht-degree: 50%
 
 **複製「混合媒體集」檢視器的內嵌程式碼:**
 
-1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取「混合媒體集」**[!UICONTROL 。]**
+1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 混合媒體集]**.
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「混合媒體集」的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL」和「內嵌程式碼」面板中，選取您要檢視器右側的「**[!UICONTROL 內嵌程式碼]**」 。
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，前往&#x200B;**[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL」和「內嵌程式碼」面板中，選取 **[!UICONTROL 內嵌程式碼]** 右邊。
+   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL Embed Code]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 內嵌程式碼]**.
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像的右側，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像的右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL Embed Code]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 內嵌程式碼]**.
 
-   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「查看器清單」頁的表的「操作」列下，選擇&#x200B;**[!UICONTROL Embed Code]**。
+      在「查看器清單」頁的表的「操作」列下，選擇 **[!UICONTROL 內嵌程式碼]**.
 
-1. 在「內嵌代碼」對話方塊中，選取「**[!UICONTROL 複製到剪貼簿]**」。
+1. 在「內嵌程式碼」對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
    不可在「內嵌程式碼」對話框中編輯程式碼。
 

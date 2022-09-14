@@ -1,13 +1,13 @@
 ---
 title: 上傳點陣影像資產
-description: 了解如何將點陣影像資產上傳至AdobeDynamic Media Classic
-contentOwner: admin
+description: 了解如何將點陣影像資產上傳至Adobe Dynamic Media Classic
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 69%
@@ -20,13 +20,13 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic中對新或現有UGC向量資產的支援已於2021年9月30日終止。
+>2021年9月30日終止支援Adobe Dynamic Media Classic的新或現有UGC向量資產。
 
 ## 請求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-使用Admin Console建立支援案例，透過[請求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，請求共用機密金鑰。
+要求 *共用密鑰* by [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，請求共用機密金鑰。
 
-在電子郵件中，請提供想要用於上載影像資產的公司名稱。從AdobeDynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
+在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請將金鑰儲存在本機，以供日後使用。
 
 ## 擷取上傳Token {#retrieving-the-upload-token}
 
@@ -35,7 +35,7 @@ ht-degree: 69%
 上載標記是字母數字字串，只能在指定時間內使用。使用下列URL取代共用機密金鑰，以便您擷取上傳代號。
 
 * 光柵影像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,11 +86,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **允許的HTTP方法：**
-`GET` 和  `POST`
+`GET` 和 `POST`
 
 您現在可以上載影像資產。
 
-請參閱[上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
+請參閱 [上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## 上傳點陣影像資產 {#uploading-an-image-asset}
 
@@ -100,11 +100,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-`upload_token`和`company_name`欄位為必填欄位。
+此 `upload_token` 和 `company_name` 欄位為必填。
 
-請參閱[擷取上傳代號](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+請參閱 [擷取上傳Token](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-請參閱[擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
+請參閱 [擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
 
@@ -112,7 +112,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit`參數以位元組為單位指定檔案大小限制。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+此 `file_limit` 參數指定檔案大小限制（以位元組為單位）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
@@ -129,14 +129,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 檔案副檔名的清單.
 * 是否保留與資產相關聯的顏色設定檔和檔案名稱。
 * 是否使用挖空背景。 如果啟用「挖空背景」，請設定「拐角」(Corner)、「公差」(Tolerance)和「填充」(Fill)方法。
-請參閱上傳](image-editing-options-upload.md#image-editing-options-at-upload)時的[影像微調選項中的挖空背景。
+請參閱挖空背景(在 [上傳時的影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
 * 待上載檔案的名稱.
 
-您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)來檢視與上述表單相關聯的HTML原始碼
+您可以選取「 」，以檢視與上述表單相關聯的HTML原始碼 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 檢視頁面來源]**。 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取 **[!UICONTROL 檢視頁面來源]**. 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
 
-要在Internet Explorer中查看XML響應，請轉至&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請前往「**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**」。 建議使用 Firefox 檢視 XML 回應。
+要在Internet Explorer中查看XML響應，請轉至 **[!UICONTROL 檢視]** > **[!UICONTROL 來源]**. 若要在Firefox中檢視XML回應，請前往 **[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**. 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
