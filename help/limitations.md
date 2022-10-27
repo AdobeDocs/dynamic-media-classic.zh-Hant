@@ -1,16 +1,16 @@
 ---
 title: Dynamic Media限制
-description: 了解建立影像集、回轉集或上傳PDF時的最佳作法和強制限制。 另請了解Dynamic Media檢視器不支援的網頁瀏覽器和作業系統組合。
+description: 了解建立影像集、回轉集或上傳PDF時的最佳作法和強制限制。 另請了解Dynamic Media不支援的網頁瀏覽器和作業系統組合。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
+feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 本主題包含下列章節：
 
 * [Dynamic Media對資產類型的最佳實務和強制限制](#best-practice-enforced-limits)
-* [Dynamic Media檢視器不支援的Web瀏覽器和作業系統組合](#unsupported-browser-os)
+* [Dynamic Media不支援的Web瀏覽器和作業系統組合](#unsupported-browser-os)
 
 ## Dynamic Media對資產類型的最佳實務和強制限制 {#best-practice-enforced-limits}
 
@@ -38,11 +38,11 @@ ht-degree: 2%
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
-## Dynamic Media檢視器不支援的Web瀏覽器和作業系統組合 {#unsupported-browser-os}
+## Dynamic Media不支援的Web瀏覽器和作業系統組合 {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合。
+AdobeDynamic Media不支援下列網頁瀏覽器和作業系統組合。
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -58,7 +58,7 @@ AdobeDynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合�
 
 <!-- CQDOC-19433 -->
 
-自2022年9月30日起，AdobeDynamic Media檢視器將停止支援下列項目：
+自2022年9月30日起，Dynamic MediaAdobe將停止支援下列項目：
 
 * TLS（傳輸層安全性）1.0和1.1
 * TLS 1.2中的下列弱加密：
