@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 25%
 
 ---
@@ -34,12 +34,12 @@ PSD(Photoshop檔案)最常用於Adobe Dynamic Media Classic建立範本。 上�
 * **裁切選項**  — 位於 **[!UICONTROL 裁切選項]**. 選擇 **[!UICONTROL 修剪]** 自動從PSD檔案的邊緣裁切空白；選取 **[!UICONTROL 手動]** 裁切PSD檔案的側：
 
    * **[!UICONTROL 修剪]**  — 選取 **[!UICONTROL 根據]** ，然後選擇 **[!UICONTROL 顏色]** 或 **[!UICONTROL 透明度]**.
+   如果您選擇 **[!UICONTROL 顏色]** 選項，選擇「角」菜單，然後選擇PSD的角，該角的顏色最能代表要裁切的空白顏色。
 
-      如果您選擇 **[!UICONTROL 顏色]** 選項，選擇「角」菜單，然後選擇PSD的角，該角的顏色最能代表要裁切的空白顏色。
-
-      拖動滑塊以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。要根據透明度進行修剪，請指定0隻在像素為透明時裁剪像素；接近1的數字使透明度更高。
+   拖動滑塊以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。要根據透明度進行修剪，請指定0隻在像素為透明時裁剪像素；接近1的數字使透明度更高。
 
    * **[!UICONTROL 手動]**  — 輸入要從影像的任何一側或每一側裁切的像素數。 影像裁切的多寡取決於影像檔案的 ppi (每英吋像素) 設定。例如，如果影像顯示150 ppi，而您在「上」、「右」、「下」和「左」文本框中輸入75，則在中輸入0.5。 會從影像的每側裁切。
+
 
 * **色彩描述檔選項**  — 位於 **[!UICONTROL 色彩描述檔選項]**.
 
@@ -72,6 +72,10 @@ PSD(Photoshop檔案)最常用於Adobe Dynamic Media Classic建立範本。 上�
 ## 在PSD檔案中查看和編輯圖層 {#viewing-and-editing-layers-in-a-psd-file}
 
 如果您在上傳PSD時選取了「維護圖層」選項，Adobe Dynamic Media Classic會將個別圖層撕成資產。 您可以在「詳細資訊檢視」的「瀏覽面板」中開啟檔案，以檢視及編輯屬於PSD檔案的資產層。
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic在巢狀圖層群組中支援最多五個層級。
 
 1. 在「瀏覽」面板中按兩下完整的PSD檔案。 檔案在「詳細資訊視圖」中開啟。
 
