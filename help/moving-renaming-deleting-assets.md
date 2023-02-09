@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 33%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 33%
 
 您可以在瀏覽面板中，將資產移動到不同檔案夾。
 
+**若要移動資產：**
+
 1. 在瀏覽面板中選取資產，並執行下列任一項作業:
 
    * 在「資產資料庫」中顯示您要將資產移至的資料夾，並將資產拖曳至資料夾。
@@ -35,9 +37,7 @@ ht-degree: 33%
 1. 在瀏覽面板中選取資產，並執行下列任一項作業:
 
    * 選取名稱，輸入新名稱，然後按 **[!UICONTROL 輸入]** 或從名稱中選取「離開」。
-   * 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**. 資產名稱會以反白顯示。輸入新名稱，然後按 **[!UICONTROL 輸入]**.
-
-請確定您不要輸入現有Adobe Dynamic Media Classic資產的名稱。
+   * 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**. 資產名稱會以反白顯示。輸入新名稱，然後按 **[!UICONTROL 輸入]**. 請確定您未輸入現有Adobe Dynamic Media Classic資產的名稱。
 
 ## 刪除資產 {#delete-assets}
 
@@ -45,9 +45,13 @@ ht-degree: 33%
 
 刪除資產時，也會刪除衍生的所有資產。例如，刪除您建立其縮放目標的影像時，也會同時刪除縮放目標。
 
->[!NOTE]
+刪除資產時，也會永久刪除其中衍生的縮放影像、影像屬性及操作記錄項目。這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
+
+>[!IMPORTANT]
 >
->刪除資產時，也會永久刪除其中衍生的縮放影像、影像屬性及操作記錄項目。這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
+>大量刪除是一項密集操作。 請務必以循序方式執行大量刪除，而非以並行、大量刪除的方式執行。 Adobe建議您將刪除操作限制為每小時5000次或更少資產刪除。 大於每小時5000的數字可能導致速率限制。
+
+**若要刪除資產：**
 
 1. 請執行下列任一動作:
 
@@ -56,9 +60,7 @@ ht-degree: 33%
 
       刪除資料夾會刪除資料夾、資料夾中的所有資產及其子資料夾中的所有資產。
 
->[!NOTE]
->
->如果您刪除資產檔案的原因是要以相同名稱取代資產檔案，Adobe Dynamic Media Classic建議您覆寫資產檔案，而非將其刪除。
+如果您刪除資產檔案的原因是要以相同名稱取代資產檔案，Adobe Dynamic Media Classic建議您覆寫資產檔案，而非將其刪除。
 
 ## 利用文字檔案刪除多項資產 {#delete-multiple-assets-with-a-text-file}
 
