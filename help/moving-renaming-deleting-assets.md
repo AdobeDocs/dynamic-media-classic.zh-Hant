@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->大量刪除是一項密集操作。 請務必以循序方式執行大量刪除，而非以並行、大量刪除的方式執行。 Adobe建議您將刪除操作限制為每小時5000次或更少資產刪除。 大於每小時5000的數字可能導致速率限制。
+>大量刪除是一項密集操作。 請務必以循序方式執行大量刪除，而非以並行、大量刪除的方式執行。 Adobe建議您將刪除操作限制為每小時5000次或更少資產刪除。 超過每小時5000的任何數字都可能導致速率限制。
 
 **若要刪除資產：**
 
