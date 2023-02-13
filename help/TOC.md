@@ -2,22 +2,22 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media Classic 指南
-breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 進一步了解使用 Adobe Dynamic Media Classic
+user-guide-title: Adobe Dynamic Media Classic指南
+breadcrumb-title: Dynamic Media Classic指南
+user-guide-description: 進一步了解使用Adobe Dynamic Media Classic
 index: y
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
 
-# Adobe Dynamic Media Classic 指南 {#using}
+# Adobe Dynamic Media Classic指南 {#using}
 
-+ [Adobe Dynamic Media Classic 指南](home.md)
-+ [AdobeDynamic Media類別最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Adobe Dynamic Media Classic指南](home.md)
++ [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [全新Adobe Dynamic Media Classic登入體驗現已推出](new-ui-2020.md)
 + [AdobeDynamic Media電子報封存(依Experience League)](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
