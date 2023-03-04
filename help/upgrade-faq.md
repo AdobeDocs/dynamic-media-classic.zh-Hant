@@ -3,9 +3,9 @@ title: 升級常見問題集
 description: 從升級時的常見問題集(FAQ) [!DNL Adobe Dynamic Media Classic] 案頭應用程式 [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] 資產。
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Adobe將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**如何開始升級過程？**
-請聯絡您的AdobeCSM（客戶服務管理）代表，或 [電子郵件s7support@adobe.com](mailto:s7support@adobe.com) 主題行 `[!DNL Dynamic Media] Upgrade Program`.
+請連絡您的Adobe客戶團隊代表，或 [電子郵件s7support@adobe.com](mailto:s7support@adobe.com) 主題行 `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -90,7 +90,7 @@ Adobe將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**許可成本有不同嗎？**
-請洽詢您的AdobeCSM代表，以取得定價的詳細資訊。
+請與您的Adobe客戶團隊代表合作，取得有關定價的詳細資訊。
 
 +++
 
@@ -191,7 +191,7 @@ Adobe會對移至的所有資產執行自動驗證 [!DNL Dynamic Media]. 主要�
 
 +++
 
-+++**是否有 [!DNL Dynamic Media]?**&#x200B;是的。如需詳細資訊，請連絡您的AdobeCSM代表。
++++**是否有 [!DNL Dynamic Media]?**&#x200B;是的。如需詳細資訊，請連絡您的Adobe帳戶團隊代表。
 
 +++
 
@@ -246,7 +246,7 @@ Adobe會與您合作來規劃專案。 Adobe負責布建和設定帳戶、複製
 +++**我可以在何處進一步了解付費培訓選項？**
 請參閱 [Adobe數位學習服務](https://learning.adobe.com).
 
-如需自訂或個別培訓，請連絡您的AdobeCSM代表。
+如需自訂或個別培訓，請聯絡您的Adobe客戶團隊代表。
 
 +++
 

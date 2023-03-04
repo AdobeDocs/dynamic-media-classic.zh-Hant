@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe致力於確保其產品符合其客戶的安全要求。 新的Adobe Dynam
 +++
 
 +++**_如何啟用升級至Adobe Dynamic Media Classic案頭應用程式？_**
-2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，若Adobe發行新版本，客戶必須下載新版本並照常安裝(取代 **[!UICONTROL 應用程式]**)。 CSM(Customer Success Manager)和應用程式內升級通知機制會通知您新版本，通知使用者進行升級。
+2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，若Adobe發行新版本，客戶必須下載新版本並照常安裝(取代 **[!UICONTROL 應用程式]**)。 您會透過Adobe帳戶團隊和應用程式內升級通知機制，通知使用者有升級的通知，以取得新版本的通知。
 +++
 
 +++**_如何取得Adobe Dynamic Media Classic案頭應用程式相關問題的協助？_**
