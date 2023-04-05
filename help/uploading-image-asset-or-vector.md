@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '1023'
+ht-degree: 67%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。接著，您可使用上傳代號來上傳點陣影像資產。
 
 >[!IMPORTANT]
+>
+>自2023年5月1日起，Dynamic Media Classic中的UGC點陣資產可供上傳日期起最多60天使用。 60天後，資產將會移除。
+
+>[!NOTE]
 >
 >2021年9月30日終止支援Adobe Dynamic Media Classic的新或現有UGC向量資產。
 
@@ -119,7 +123,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 | 全域限制 | 值 |
 | --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
-| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD, TIFF |
+| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD,TIFF |
 
 使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
 

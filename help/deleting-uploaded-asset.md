@@ -1,5 +1,5 @@
 ---
-title: 刪除已上傳的資產
+title: 刪除上傳的點陣影像資產
 description: 了解如何刪除Adobe Dynamic Media Classic中已上傳的資產。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 63%
+source-wordcount: '133'
+ht-degree: 48%
 
 ---
 
@@ -53,6 +53,10 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>自2023年5月1日起，Dynamic Media Classic中的UGC點陣資產可供上傳日期起最多60天使用。 60天後，資產將會移除。
+
+>[!NOTE]
 >
 >2021年9月30日終止支援Adobe Dynamic Media Classic中新的或現有UGC向量影像資產。
 
