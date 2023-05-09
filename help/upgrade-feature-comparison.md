@@ -3,13 +3,13 @@ title: 功能比較
 description: 功能比較表 [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] 資產和 [!DNL Adobe Dynamic Media Classic] 案頭應用程式。
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
-
 
 # 功能比較
 
@@ -38,8 +38,8 @@ ht-degree: 3%
 | 視訊編碼 | ✓ | ✓ |
 | 檢視器協助工具 | ✓ | ✓ |
 | 檢視器與Analytics的整合 | ✓ | ✓ |
-| 1:1範本 | - | ✓ |
-| Visual Configurator<br>（產品個人化） | - | ✓ |
+| 1:1範本 | ✓<br>*個人化媒體套件* | ✓ |
+| Visual Configurator<br>（產品個人化） | ✓<br>*個人化媒體套件* | ✓ |
 | 3D -Experience Manager Sites<br>WCM元件 | ✓ | - |
 | 3D — 互動式Experience Viewer | ✓ | - |
 | 3D — 發佈AR/VR和核心3D檔案 | ✓ | - |
