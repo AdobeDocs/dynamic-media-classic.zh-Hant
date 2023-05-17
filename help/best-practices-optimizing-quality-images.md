@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 54%
+source-wordcount: '1569'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,18 @@ ht-degree: 54%
 Adobe Dynamic Media Classic包含超過100個影像伺服命令，用於調整和最佳化影像及轉譯結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
 另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>請試用並探索Dynamic Media影像修飾元和智慧影像處理的優點，使用Dynamic Media [_快照_](https://snapshot.scene7.com/).
+>
+> Snapshot是視覺化的示範工具，旨在說明Dynamic Media在最佳化和動態影像傳送方面的強大功能。 試用測試影像或Dynamic Media URL，以視覺化方式觀察各種Dynamic Media影像修飾元的輸出，並針對下列項目最佳化智慧型影像：
+>* 檔案大小（使用WebP和AVIF傳送）
+>* 網路頻寬
+>* DPR（裝置像素比率）
+>
+>要了解使用快照有多簡單，請播放 [快照培訓視頻](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Adobe Dynamic Media Classic包含超過100個影像伺服命令，用於調整�
 
       * `threshold` （0-255，效應的敏感性。）
 
-         此參數可決定銳化像素與周圍區域的差異程度，之後才會被視為邊緣像素，濾鏡會銳化這些像素。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
+         這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，同時會增加高反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。
 
          如需如何設定這三個參數的詳細資訊，包括搭配篩選器使用的最佳實務，請參閱 [在Adobe Dynamic Media Classic和影像伺服器上銳化影像](/help/assets/s7_sharpening_images.pdf).
 
