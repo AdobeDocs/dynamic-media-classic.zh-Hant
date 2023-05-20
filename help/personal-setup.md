@@ -1,6 +1,6 @@
 ---
 title: 個人設定
-description: 所有使用者都可以變更Adobe Dynamic Media Classic「個人設定」畫面上的設定。
+description: 所有用戶都可以在Adobe Dynamic Media Classic的「個人設定」螢幕上更改設定。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
@@ -19,13 +19,13 @@ ht-degree: 25%
 
 # 個人設定 {#personal-setup}
 
-所有使用者皆可在「個人設定」畫面上變更設定。要開啟「個人設定」螢幕，請轉至 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**.
+所有使用者皆可在「個人設定」畫面上變更設定。要開啟「個人設定」螢幕，請轉到 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
 
 >[!NOTE]
 >
->「個人設定」畫面會列出您在Adobe Dynamic Media Classic中的使用者角色：公司管理員、管理員或使用者。
+>「個人設定」螢幕列出您在Adobe Dynamic Media Classic的用戶角色：公司管理員、管理員或用戶。
 
-「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。記住要選取 **[!UICONTROL 儲存]** 變更這些設定後。
+「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。記住要選擇 **[!UICONTROL 保存]** 更改這些設定後。
 
 ## 我的帳戶資訊
 
@@ -33,20 +33,20 @@ ht-degree: 25%
 
 ## 桌上型電腦
 
-* **清除影像快取**  — 從您的電腦中刪除所有AdobeDynamic Media快取影像檔案。
-* **清除資產快取**  — 移除電腦中快取資產檔案的所有AdobeDynamic Media。
+* **清除映像快取**  — 從電腦中刪除所有AdobeDynamic Media快取的映像檔案。
+* **清除資產快取**  — 刪除電腦中快取資產檔案的所有AdobeDynamic Media。
 
-除了使用案頭應用程式清除影像和資產快取外，您也可以直接從檔案系統手動清除快取。 根據您的作業系統，導覽至下列項目：
+除了使用案頭應用清除映像和資產快取外，您還可以直接從檔案系統手動清除快取。 根據您的作業系統，導航至以下內容：
 
 * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Creative Suite Extension
 
-**若要安裝AdobeDynamic MediaCreative Suite擴充功能：**
+**安裝AdobeDynamic MediaCreative Suite擴展：**
 
-1. 在Adobe Dynamic Media Classic的工具列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，在「Creative Suite擴充功能」下方選取 **[!UICONTROL 立即下載]** 下載 `s7csxs.zxp` 檔案。
-1. 選取 **[!UICONTROL 安裝]** 和 **[!UICONTROL 系統需求]** 連結，以取得擴充功能的其他資訊。
+1. 在Adobe Dynamic Media Classic，在工具欄上，轉到 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，在Creative Suite擴展下，選擇 **[!UICONTROL 立即下載]** 下載 `s7csxs.zxp` 的子菜單。
+1. 選擇 **[!UICONTROL 安裝]** 和 **[!UICONTROL 系統要求]** 連結，以獲取有關擴展的其他資訊。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 瀏覽器
 
-* **[!UICONTROL 縮圖大小]**  — 確定「瀏覽」面板中「網格視圖」中的縮略圖影像的預設大小。
-* **[!UICONTROL 預設資產庫檢視]**  — 判斷組建集的「資產資料庫」中的資產是否顯示為縮圖或依名稱。 如果您正在處理「資產庫」中的大量資產，則可依名稱來檢視資產。例如，如果您使用許多 PDF 檔案建置大型 eCatalog，便可以依照名稱來檢視資產，使清單較為簡短。
-* **[!UICONTROL 預設瀏覽排序順序]**  — 決定預設在「瀏覽」面板中資產的顯示順序。 在選單上選擇排序條件，以及是否採用遞增或遞減排序。
-* **[!UICONTROL 預設瀏覽位置]**  — 可讓您將瀏覽位置設定為預設值、上次瀏覽的資料夾，或設定為您導覽至並識別的特定位置。 您也可以設定瀏覽位置，將檔案和檔案夾按遞增或遞減排序。
-* **[!UICONTROL 預設瀏覽視圖]**  — 確定首次開啟「瀏覽」面板時看到的預設視圖是「網格視圖」還是「清單視圖」。
+* **[!UICONTROL 縮略圖大小]**  — 確定「瀏覽面板」的「網格視圖」中縮略圖的預設大小。
+* **[!UICONTROL 預設資產庫視圖]**  — 確定生成集的資產庫中的資產是以縮略圖顯示還是按名稱顯示。 如果您正在處理「資產庫」中的大量資產，則可依名稱來檢視資產。例如，如果您使用許多 PDF 檔案建置大型 eCatalog，便可以依照名稱來檢視資產，使清單較為簡短。
+* **[!UICONTROL 預設瀏覽排序順序]**  — 確定預設情況下在「瀏覽面板」中顯示資產的順序。 在選單上選擇排序條件，以及是否採用遞增或遞減排序。
+* **[!UICONTROL 預設瀏覽位置]**  — 允許您將瀏覽位置設定為預設位置、上次瀏覽的資料夾或您導航到並標識的特定位置。 您也可以設定瀏覽位置，將檔案和檔案夾按遞增或遞減排序。
+* **[!UICONTROL 預設瀏覽視圖]**  — 確定在首次開啟「瀏覽」面板時，「網格視圖」或「清單視圖」是預設視圖。
 * **[!UICONTROL 閃屏顯示]**  — 確定是否看到任何閃屏，包括歡迎閃屏。
-* **[!UICONTROL 顯示工具提示]**  — 確定將指針移到按鈕、菜單和導航連結上時是否顯示工具提示。 工具提示說明螢幕上的使用者介面項目。
-* **[!UICONTROL 棋盤背景]**  — 在影像後面顯示棋盤圖層，讓您輕鬆查看具有Alpha通道的影像的透明區域。
+* **[!UICONTROL 顯示工具提示]**  — 確定將指針移到按鈕、菜單和導航連結上時是否顯示工具提示。 工具提示描述螢幕上的用戶介面項。
+* **[!UICONTROL 棋盤背景]**  — 在影像後面顯示棋盤圖層，讓您輕鬆看到具有Alpha通道的影像的透明區域。
 * **[!UICONTROL 顯示檔案大小]**  — 在瀏覽時顯示資產的檔案大小。
-* **[!UICONTROL 在搜索中包括UDF]**  — 要提高您運行的大多數元資料搜索的系統效能，請取消選中（預設）。
+* **[!UICONTROL 在搜索中包括UDF]**  — 要提高您運行的大多數元資料搜索的系統效能，請取消選擇（預設）。
 
    如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。或者，您可以使用「進階搜尋」來進行比納入使用者定義的欄位更為直接而快速的搜尋。
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    另請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
 
-* **[!UICONTROL 基本搜索類型]**  — 您可以選取兩個選項： **[!UICONTROL 包含]** 搜索指定值的完整字串； **[!UICONTROL 開頭為]** 從字串開頭搜尋，並傳回結果的速度比 **[!UICONTROL 包含]**. 任一選項都會覆寫中設定的預設值 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 應用程式一般設定]** 由管理員負責。
+* **[!UICONTROL 基本搜索類型]**  — 可以從以下兩個選項中進行選擇： **[!UICONTROL 包含]** 搜索指定值的完整字串； **[!UICONTROL 開頭]** 從字串的開頭搜索並返回結果的速度比 **[!UICONTROL 包含]**。 任一選項將覆蓋中設定的預設值 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 應用程式常規設定]** 。
 * **[!UICONTROL 顯示命令反饋]**  — 選擇以開啟向伺服器顯示命令請求；取消選擇以關閉。
-* **[!UICONTROL 導出時顯示對話框]**  — 選擇以在導出期間顯示彈出對話框。 如果取消選擇（關閉）此選項，您仍可以轉至「作業」頁以檢索導出結果。
+* **[!UICONTROL 導出期間顯示對話框]**  — 選擇以在導出期間顯示彈出對話框。 如果取消選擇（關閉）此選項，則仍可轉到「作業」頁以檢索導出結果。
 
 ## 電子郵件
 
-* **[!UICONTROL 電子郵件選項]**  — 選擇您希望Adobe Dynamic Media Classic在上傳和發佈作業完成時通過電子郵件通知您的方式。 只有在出現警告或錯誤時才會收到工作完成通知。
-* **[!UICONTROL 電子郵件範圍]**  — 確定您是否收到公司的所有工作電子郵件，還是僅收到您啟動的上載和發佈工作的電子郵件。
-* **[!UICONTROL 電子郵件類型]**  — 決定上傳作業和發佈作業完成時是否會收到通知。
+* **[!UICONTROL 電子郵件選項]**  — 選擇在完成上載和發佈作業時，您希望Adobe Dynamic Media Classic通過電子郵件通知您的方式。 只有在出現警告或錯誤時才會收到工作完成通知。
+* **[!UICONTROL 電子郵件範圍]**  — 確定您是否收到公司的所有工作電子郵件，還是僅收到有關上載和發佈您啟動的工作的電子郵件。
+* **[!UICONTROL 電子郵件類型]**  — 確定上載作業和發佈作業完成時是否已通知您。
 
 ## 語言
 
-* **[!UICONTROL 首選語言]**  — 決定您要用於介面的語言。
+* **[!UICONTROL 首選語言]**  — 確定要用於介面的語言。
 
 ## 密碼
 
-* **[!UICONTROL 當前密碼]**  — 輸入您當前密碼。
-* **[!UICONTROL 新密碼]**  — 輸入新的有效密碼。 您的密碼必須符合下列要求：
-   * 長度介於8到25個字元之間。
+* **[!UICONTROL 當前密碼]**  — 輸入您當前密碼的密碼。
+* **[!UICONTROL 新密碼]**  — 輸入新的有效密碼。 密碼必須滿足以下要求：
+   * 長度在8到25個字元之間。
    * 至少包含一個小寫字母。
    * 至少包含一個大寫字母。
    * 至少包含一個數字。
-   * 至少包含下列其中一個特殊字元： `# $ & - _ : { }`
-* **[!UICONTROL 重新鍵入密碼]**  — 重新輸入新密碼以確認輸入正確。
-* **[!UICONTROL 密碼過期]**  — 確定密碼在72天後是否過期作為安全措施。 如果您選取「是」，則系統會要求您在 72 天後建立密碼。
+   * 至少包含以下特殊字元之一： `# $ & - _ : { }`
+* **[!UICONTROL 重新鍵入密碼]**  — 重新輸入新密碼，以確認您正確輸入了該密碼。
+* **[!UICONTROL 密碼到期]**  — 確定密碼在72天後是否過期作為安全措施。 如果您選取「是」，則系統會要求您在 72 天後建立密碼。

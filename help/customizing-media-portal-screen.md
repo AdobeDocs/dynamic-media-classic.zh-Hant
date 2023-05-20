@@ -1,6 +1,6 @@
 ---
 title: 自訂 Media Portal 畫面
-description: 了解如何在Adobe Dynamic Media Classic中自訂Media Portal畫面。
+description: 瞭解如何在Adobe Dynamic Media Classic自定義媒體門戶螢幕。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: Rick Brough
 content-type: reference
@@ -19,31 +19,31 @@ ht-degree: 32%
 
 # 自訂 Media Portal 畫面{#customizing-the-media-portal-screen}
 
-Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與色彩。使用樣式設定將公司品牌推廣到媒體入口網站。
+Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與色彩。使用樣式設定將公司品牌推廣放在媒體門戶上。
 
-若要存取樣式設定，請前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**. 請務必選取 **[!UICONTROL 儲存]** 來儲存設定。 您可以選取 **[!UICONTROL 還原]** 返回預設設定。 在您進行選擇時，「預覽」面板會顯示其顯示方式。
+要訪問樣式設定，請轉到 **[!UICONTROL 設定]** > **[!UICONTROL 媒體門戶設定]** > **[!UICONTROL 樣式設定]**。 確保選擇 **[!UICONTROL 保存]** 來保存設定。 可以選擇 **[!UICONTROL 還原]** 來恢復預設設定。 在您進行選擇時，「預覽」面板將顯示它們的顯示方式。
 
-* **[!UICONTROL 標誌]**  — 選擇 **[!UICONTROL 瀏覽]**，然後在「選擇徽標影像」窗口中選擇圖形。
+* **[!UICONTROL 標識]**  — 選擇 **[!UICONTROL 瀏覽]**，然後在「選擇徽標影像」窗口中選擇圖形。
 
-* **[!UICONTROL 應用程式]**  — 通過在「背景漸變顏色」菜單上進行選擇，建立漸變顏色混合。
+* **[!UICONTROL 應用程式]**  — 通過在「背景漸變顏色」菜單上進行選擇來建立漸變顏色混合。
 
-* **[!UICONTROL 樹]**  — 選擇變換顏色（將指針移動到項目上時顯示的顏色）和選擇顏色（選擇項目時顯示的顏色）。
+* **[!UICONTROL 樹]**  — 選擇滾動顏色（將指針移到項目上時顯示的顏色）和選擇顏色（選擇項目時顯示的顏色）。
 
-* **[!UICONTROL 折疊式功能表]**  — 為顯示在「詳細資訊」視圖螢幕右側的折疊式功能表選擇背景顏色、邊框樣式、變換和選定顏色。
+* **[!UICONTROL 手風琴]**  — 為「詳細資訊」視圖中螢幕右側顯示的折疊面板選擇背景顏色、邊框樣式、滾動和選定顏色。
 
-* **[!UICONTROL 折疊式功能表標題]**  — 選擇是否在折疊式功能表標題粗體中建立文字。
+* **[!UICONTROL 折疊式標題]**  — 選擇是否在折疊面板標題粗體中生成文本。
 
-* **[!UICONTROL Datagrid]**  — 為資料網格中的標題行選擇顏色。
+* **[!UICONTROL 達塔格里德]**  — 為資料網格中的標題行選擇顏色。
 
 * **[!UICONTROL 警報]**  — 為警報消息框選擇背景顏色。
 
-* **[!UICONTROL 進度列]**  — 為指示上載和下載進度的條選擇一種顏色。
+* **[!UICONTROL 進度欄]**  — 為指示上載和下載進度的欄選擇顏色。
 
-Media Portal使用者若要查看您選取的樣式設定，必須附加 `?company=(company name)` 至其存取Media Portal的URL。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
+要讓媒體門戶用戶查看您選擇的樣式設定，他們必須追加 `?company=(company name)` 訪問媒體門戶的URL。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
-請改用下列URL:
+請改用以下URL:
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 

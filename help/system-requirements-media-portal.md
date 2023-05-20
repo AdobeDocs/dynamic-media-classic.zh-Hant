@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic中的Media Portal系統需求
-description: 了解在Adobe Dynamic Media Classic中使用Media Portal的最佳體驗所需的系統需求。
+title: Adobe Dynamic Media Classic媒體門戶系統要求
+description: 瞭解使用Adobe Dynamic Media Classic媒體門戶的最佳體驗的系統要求。
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: Rick Brough
 content-type: reference
@@ -17,12 +17,12 @@ ht-degree: 25%
 
 ---
 
-# Adobe Dynamic Media Classic中的Media Portal系統需求 {#system-requirements}
+# Adobe Dynamic Media Classic媒體門戶系統要求 {#system-requirements}
 
-為獲得使用Adobe Dynamic Media Classic Media Portal的最佳體驗，請確定您的系統符合下列系統需求和建議：
+要獲得使用Adobe Dynamic Media Classic媒體門戶的最佳體驗，請確保您的系統滿足以下系統要求和建議：
 
-* 需要Microsoft® Windows® 7或更新版本，或macOS X 10.6或更新版本的Macintosh Intel®處理器。
-* 需要3-GB RAM或更高版本（建議使用4GB或更高版本）。
+* 需要Microsoft® Windows® 7或更高版本或macOSX 10.6或更高版本的Macintosh英特爾®處理器。
+* 需要3 GB或更高的RAM（建議4 GB或更高）。
 * 彩色螢幕。
 * 支援全彩 1280x1024 或以上之解析度的視訊卡。
 * 啟用JAVA的瀏覽器。

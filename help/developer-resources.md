@@ -1,6 +1,6 @@
 ---
 title: 開發人員資源
-description: 了解哪些開發人員資源可供Dynamic Media使用。
+description: 瞭解哪些開發人員資源可用於Dynamic Media。
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: Rick Brough
 content-type: reference
@@ -12,30 +12,30 @@ exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
 # 開發人員資源 {#developer-resources}
 
-檢視器、影像提供與影像轉譯以及影像生產系統參考指南會說明這些伺服器模組的http通訊協定。 如果網站開發人員想要進一步自訂及使用適用於網站或自訂應用程式的Adobe Dynamic Media Classic多媒體，可使用這些指南。 假設使用者熟悉Dynamic Media Classic案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像術語。
+查看器、影像服務和影像呈現以及影像製作系統的參考指南描述了這些伺服器模組的http協定。 網站開發人員如果希望進一步自定義和使用Adobe Dynamic Media Classic富媒體作為網站或自定義應用程式，可以使用這些指南。 假定用戶熟悉Dynamic Media Classic案頭應用、一般的http協定標準和慣例以及基本的映像術語。
 
-另請參閱 [Dynamic Media開發人員資源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+另請參閱 [Dynamic Media開發商資源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)。
 
 ## 檢視器 {#viewers-guide}
 
 | 文件 | 網址 |
 | --- | --- |
 | 檢視器參考指南與發行說明 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
-| 檢視器資產庫範例 | [https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html) |
+| 檢視器資產庫範例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
-## 影像提供/影像轉譯(IS/IR)API {#is-ir-api-guide}
+## 影像服務/影像呈現(IS/IR)API {#is-ir-api-guide}
 
 | 文件 | 網址 |
 | --- | --- |
 | API 參考指南 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) |
 
-## 影像生產系統(IPS)API {#ips-api-guide}
+## 映像生產系統(IPS)API {#ips-api-guide}
 
 | 文件 | 網址 |
 | --- | --- |

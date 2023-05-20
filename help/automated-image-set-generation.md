@@ -1,6 +1,6 @@
 ---
 title: 自動產生影像集
-description: 了解如何在Adobe Dynamic Media Classic中自動產生影像集。
+description: 瞭解如何在Adobe Dynamic Media Classic自動生成映像集。
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: Rick Brough
 content-type: reference
@@ -33,11 +33,11 @@ Last Modified Date:
 
 **自動產生影像集:**
 
-1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 生成集]**.
+1. 轉到 **[!UICONTROL 檔案]** > **[!UICONTROL 生成集]**。
 1. 在「產生集」對話框中，指定工作名稱。
 
    根據預設，系統會為工作命名，指出該工作屬於產生的工作以及該工作產生的時間。
 
 1. 選取要套用的預設集。
-1. 選擇 **[!UICONTROL 目標資料夾]**，然後指定您要使用的資料夾。
-1. 選擇 **[!UICONTROL 提交]**.
+1. 選擇 **[!UICONTROL 目標資料夾]**，然後指定要使用的資料夾。
+1. 選擇 **[!UICONTROL 提交]**。

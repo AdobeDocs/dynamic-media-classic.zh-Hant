@@ -1,6 +1,6 @@
 ---
 title: Adobe 訓練服務
-description: 深入了解Adobe Dynamic Media Classic的Adobe訓練服務。
+description: 瞭解有關Adobe Dynamic Media ClassicAdobe培訓服務的更多資訊。
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: Rick Brough
 content-type: reference
@@ -13,13 +13,13 @@ exl-id: e2840200-246e-4c68-b10f-a66461f2a118
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
 # Adobe 訓練服務{#adobe-training-services}
 
-Dynamic Media Classic提供影片培訓、講師指導研討會和網路講座，以及示範等形式的培訓。
+Dynamic Media Classic提供視頻培訓、講師指導研討會和Web會議以及演示等形式的培訓。
 
 ## Adobe 訓練服務
 
@@ -29,12 +29,12 @@ Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓�
 
 ## 演示
 
-觀看Adobe Dynamic Media Classic檢視器功能的示範。
+觀看Adobe Dynamic Media Classic觀眾功能演示。
 
-請參閱 [演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html).
+請參閱 [演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
-## 說明的「快速入門」章節
+## 「幫助」的「入門」一章
 
-說明系統的快速入門區段提供初次使用Adobe Dynamic Media Classic的使用者指示。 它說明了方案、導覽、設定、資產管理和構建富媒體的基本知識。
+幫助系統的「入門」部分為剛進入Adobe Dynamic Media Classic的用戶提供說明。 它解釋了程式、導航、設定、資產管理和構建富媒體的基礎知識。
 
-請參閱 [開始使用](dmc-platform-overview.md).
+請參閱 [開始](dmc-platform-overview.md)。

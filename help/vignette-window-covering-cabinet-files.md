@@ -1,6 +1,6 @@
 ---
-title: 使用暈映、窗口覆蓋和機櫃檔案
-description: 了解如何在Adobe Dynamic Media Classic中使用暈映、視窗覆蓋和檔案櫃檔案。
+title: 處理卷、窗口覆蓋和檔案櫃檔案
+description: 瞭解如何在Adobe Dynamic Media Classic處理vignette 、 window covering和cabinet檔案。
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 15%
 
 ---
 
-# 使用暈映、窗口覆蓋和機櫃檔案{#working-with-vignette-window-covering-and-cabinet-files}
+# 處理卷、窗口覆蓋和檔案櫃檔案{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic影像製作工具的使用者可以 *use* 暈映（VNT檔案）、窗口覆蓋（VNW檔案）和機櫃（VNC檔案）。 無法在Adobe Dynamic Media Classic中建立或編輯這些檔案。
+Adobe Dynamic Media Classic影像創作工具的用戶可以 *使用* vignettes（VNT檔案）、窗口覆蓋（VNW檔案）和檔案櫃（VNC檔案）。 無法在Adobe Dynamic Media Classic建立或編輯這些檔案。
 
-暈映、視窗涵蓋範圍及封包都是創作的影像。使用名為「影像製作」的不同Adobe Dynamic Media Classic程式，可以遮色影像中的物件，讓使用者能夠以各種紋理或顏色看到相同的影像。 例如，用戶看到的沙發上裝有各種織物，窗戶上裝有各種窗戶處理，或櫥櫃里裝有不同種類的木材。
+暈映、視窗涵蓋範圍及封包都是創作的影像。使用另一個名為「影像創作」的Adobe Dynamic Media Classic程式，可以遮罩影像中的對象，以便用戶能夠在各種紋理或顏色中看到相同的影像。 例如，用戶看到的沙發是軟墊上各種織物的，窗戶上裝飾著各種窗戶護理，櫥櫃里裝著各種木材。
 
 上載暈映、視窗涵蓋範圍及封包的方式，就如同上載任何其它檔案一樣。
 

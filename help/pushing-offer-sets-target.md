@@ -1,6 +1,6 @@
 ---
-title: 推播選件集至Adobe Target Standard/Premium
-description: 了解如何從Adobe Dynamic Media Classic將選件集推送至Adobe Target Standard/Premium。
+title: 向Adobe Target標準/高級版推送優惠
+description: 瞭解如何向Adobe Target標準/高級版推出優惠套件。
 uuid: 8c895a7c-21b4-4d85-8b0b-a3d2a420bf2e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ---
 
-# 推播選件集至Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
+# 向Adobe Target標準/高級版推送優惠 {#pushing-offer-sets-to-target}
 
-建立或編輯優惠方案集後，請依照下列步驟將其推送至Adobe Target Standard/Premium:
+建立或編輯聘用集後，按以下步驟將其推送至Adobe Target標準/高級版：
 
-1. 在Test&amp;Target選件集畫面中，選取 **[!UICONTROL 推送選件]**.
-1. 輸入您的用戶端代碼和登入憑證。
-1. 選擇 **[!UICONTROL 登入]**.
+1. 在「Test和目標優惠集」螢幕中，選擇 **[!UICONTROL 推送服務]**。
+1. 輸入您的客戶端代碼和登錄憑據。
+1. 選擇 **[!UICONTROL 登錄]**。
 
-在傳輸至Adobe Target Standard/Premium期間，首碼 `S7_` 會自動附加至選件名稱的開頭。 此首碼的附加目的，是確保您可以輕鬆在Test&amp;Target選件清單中找到Adobe Dynamic Media Classic選件。 例如，選件會顯示為 `S7_<name of offer set>_<offer name>`.
+在傳輸到Adobe Target標準/高級版時，前置詞 `S7_` 自動附加到優惠名稱的開始。 附加此前置詞是為了確保您可以在「Test和目標」優惠清單中輕鬆找到Adobe Dynamic Media Classic優惠。 例如，此優惠顯示為 `S7_<name of offer set>_<offer name>`。
 
-Adobe Dynamic Media Classic推播至Adobe Target Standard/Premium Widget選件。 您可以使用介面工具集選件，在Adobe Target Standard/Premium以外托管您自己的選件內容。 介面工具集選件類似於在Adobe Target Standard/Premium以外托管的標準選件。 它們可讓Adobe Target Standard/Premium部署儲存在伺服器上的選件內容，以使用更複雜且動態的功能。 介面工具集選件可從URL擷取內容、快取及提供該內容約兩小時。 介面工具集選件提供一些動態內容產生功能，但Adobe Target Standard/Premium以外的其他選件則不提供。 如果提供選件的mbox包含mbox參數，例如 `mboxProductID` 和 `mbox.offerId`, `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` URL參數會附加至請求的URL。 這些參數可供介面工具集選件URL上可用的服務使用，以在Adobe Target Standard/Premium以外傳回內容，這些內容會使用mbox的產品或訂單資訊。 您也可透過API存取介面工具集選件，以程式設計方式在Adobe Target Standard/Premium以外建立選件。
+Adobe Dynamic Media Classic推出Adobe Target標準/高級小部件產品。 您可以使用Widget產品在Adobe Target標準/高級版之外托管您自己的產品內容。 Widget產品與托管在Adobe Target標準/優先版之外的標準產品類似。 它們允許Adobe Target標準/高級版部署儲存在您伺服器上的內容，從而實現更複雜和動態的使用。 Widget提供的內容可以從URL中檢索內容，快取並服務該內容大約兩個小時。 Widget提供的功能提供了一些動態內容生成功能，而Adobe Target標準版/Preimium之外的其他功能則不提供。 如果提供服務的mbox包含mbox參數，如 `mboxProductID` 和 `mbox.offerId`，也請參見Wiki頁。 `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` URL參數將附加到請求的URL。 這些參數可由小部件提供URL上的可用服務使用，以返回使用您框中的產品或訂單資訊的Adobe Target標準/高級版以外的內容。 Widget產品還可通過API以寫程式方式在Adobe Target標準/高級版之外建立產品。

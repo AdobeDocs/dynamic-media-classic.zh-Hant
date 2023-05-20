@@ -1,6 +1,6 @@
 ---
 title: 獲取磁碟使用資訊
-description: 了解如何在Adobe Dynamic Media Classic中取得磁碟使用資訊。
+description: 瞭解如何在Adobe Dynamic Media Classic獲取磁碟使用資訊。
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference

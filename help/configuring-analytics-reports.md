@@ -1,6 +1,6 @@
 ---
-title: 設定Adobe Analytics報表
-description: 了解如何在Adobe Dynamic Media Classic中設定Adobe Analytics報表。
+title: 配置Adobe Analytics報告
+description: 瞭解如何在Adobe Dynamic Media Classic配置Adobe Analytics報告。
 uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
 contentOwner: Rick Brough
 content-type: reference
@@ -17,79 +17,79 @@ ht-degree: 27%
 
 ---
 
-# 設定Adobe Analytics報表{#configuring-adobe-analytics-reports}
+# 配置Adobe Analytics報告{#configuring-adobe-analytics-reports}
 
-若要告訴Adobe Analytics您要在Adobe Analytics報表中取得哪些資訊，請前往Adobe Analytics設定畫面。 設定報表後，此畫面會針對您想要了解的每個檢視器事件，列出對應的Adobe Analytics變數和Adobe Dynamic Media Classic變數。 這些檢視器事件 — Adobe Analytics變數 — Adobe Dynamic Media Classic變陣列合決定要報告的資訊。
+要在Adobe Analytics報告中告訴Adobe Analytics您想要哪些資訊，請轉到Adobe Analytics配置螢幕。 配置報告後，此螢幕將列出您需要有關每個查看器事件的相應Adobe Analytics變數和Adobe Dynamic Media Classic變數的資訊。 這些查看器事件 — Adobe Analytics變數 — Adobe Dynamic Media Classic變數組合確定報告的資訊。
 
-除了將檢視器事件與變數建立關聯外，Adobe Analytics設定畫面也提供工具來啟用、編輯和刪除檢視器事件。
+除了將查看器事件與變數關聯外，「Adobe Analytics配置」螢幕還提供用於激活、編輯和刪除查看器事件的工具。
 
 >[!NOTE]
 >
->每當您在Adobe Analytics中變更Adobe Analytics報表設定時，請務必從Adobe Dynamic Media Classic中重新登入Adobe Analytics、重新儲存Adobe Analytics組態設定，然後重新發佈。
+>無論何時更改Adobe Analytics內的Adobe Analytics報告設定，請確保從Adobe Dynamic Media Classic內重新登錄到Adobe Analytics，重新保存Adobe Analytics配置設定，然後重新發佈。
 
 請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-請參閱 [發佈配置資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+請參閱 [發佈配置資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
 
-## 將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
+## 將Adobe Analytics變數分配給Adobe Dynamic Media Classic查看器事件和變數 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-使用Adobe Analytics設定畫面，將檢視器事件與Adobe Analytics變數和Adobe Dynamic Media Classic變數建立關聯。 對於每個檢視器事件，選擇一個Adobe Analytics變數和一個Adobe Dynamic Media Classic變數。 如需如何開啟「Adobe Analytics 配置」畫面的詳細資訊，請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
+使用「Adobe Analytics配置」螢幕將查看器事件與Adobe Analytics變數和Adobe Dynamic Media Classic變數關聯。 對於每個查看器事件，選擇一個Adobe Analytics變數和一個Adobe Dynamic Media Classic變數。 如需如何開啟「Adobe Analytics 配置」畫面的詳細資訊，請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-**若要將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數：**
+**要將Adobe Analytics變數分配給Adobe Dynamic Media Classic查看器事件和變數：**
 
-1. 在您從Adobe Dynamic Media Classic登入Adobe Analytics，並選取報表套裝後，在Adobe Analytics設定頁面的右側表格欄中，選取以下項目來啟動檢視器事件： **[!UICONTROL 啟用]**.
-1. 在「變數」欄下方，為所需的「檢視器事件」選取箭頭按鈕，以顯示變數配對選擇器。
+1. 從Adobe Dynamic Media Classic內登錄到Adobe Analytics並在「Adobe Analytics配置」頁面的右表列中選擇報告套件後，通過選擇 **[!UICONTROL 啟用]**。
+1. 在「變數」列下，通過為所需的查看器事件選擇箭頭按鈕來顯示變數對選擇器。
 
    請參閱[檢視器事件](configuring-analytics-reports.md#viewer_events)。
 
-1. 新增Adobe Dynamic Media Classic變數。
+1. 添加Adobe Dynamic Media Classic變數。
 
-   請參閱 [Adobe Dynamic Media Classic變數](configuring-analytics-reports.md#scene7_variables).
+   請參閱 [Adobe Dynamic Media Classic變數](configuring-analytics-reports.md#scene7_variables)。
 
 1. 增加 Adobe Analytics 變數。
-1. （選用）若要新增其他變陣列，請選取 **[!UICONTROL 新增]**.
-1. 選擇 **[!UICONTROL 儲存]**.
+1. （可選）要添加另一個變數對，請選擇 **[!UICONTROL 添加]**。
+1. 選擇 **[!UICONTROL 保存]**。
 
-   選取 **[!UICONTROL 儲存]**，則檢視器事件、其Adobe Analytics變數及其Adobe Dynamic Media Classic變數會列在Adobe Analytics設定畫面中。
+   選擇後 **[!UICONTROL 保存]**，查看器事件、其Adobe Analytics變數及其Adobe Dynamic Media Classic變數將列在「Adobe Analytics配置」螢幕中。
 
-1. 在右下角，選取 **[!UICONTROL 關閉]**.
-1. 前往 **[!UICONTROL 發佈]** > **[!UICONTROL 提交發佈]** 執行影像伺服發佈。
+1. 在右下角，選擇 **[!UICONTROL 關閉]**。
+1. 轉到 **[!UICONTROL 發佈]** > **[!UICONTROL 提交發佈]** 運行Image Serving發佈。
 
-   必須發佈，以便檢視器中包含的資訊可在Adobe Dynamic Media Classic伺服器上使用。
+   發佈是必要的，以便查看器中包含的資訊可在Adobe Dynamic Media Classic伺服器上找到。
 
 ### 檢視器事件 {#viewer-events}
 
-檢視器事件說明使用者透過Adobe Dynamic Media Classic檢視器執行的動作。 當使用者起始特定動作時，例如選取縮圖或啟動或停止視訊時，檢視器會將事件「廣播」至網頁，以及與該事件相關聯的資料。
+查看器事件描述用戶對Adobe Dynamic Media Classic查看器執行的操作。 當用戶啟動某種動作時，例如選擇縮略圖或啟動或停止視頻，觀看者將事件「廣播」到網頁，以及與該事件相關聯的資料。
 
-下表說明可新增至Adobe Analytics設定畫面的檢視器事件。
+下表介紹了可添加到「Adobe Analytics配置」螢幕的查看器事件。
 
 | 檢視器事件 | HTML5 檢視器平台支援和檢視器 | 說明 |
 | --- | --- | --- |
-| LOAD | **X** (eCatalog、彈出、迴轉集、視訊、縮放) | 使用者啟動檢視器時 |
-| PAGE | **X** (eCatalog) | 在eCatalog中，當使用者翻頁時；在目標縮放檢視器中，當使用者選取不同的目標或色票時。 |
-| SWAP | **X** (eCatalog、彈出、迴轉集、視訊、縮放) | 當使用者選取不同的縮圖來檢視不同的影像時。 |
+| LOAD | **X** (eCatalog、彈出、迴轉集、視訊、縮放) | 用戶啟動查看器時 |
+| PAGE | **X** (eCatalog) | 在eCatalogs中，當用戶翻頁時；在目標縮放查看器中，當用戶選擇不同的目標或顏色樣本時。 |
+| SWAP | **X** (eCatalog、彈出、迴轉集、視訊、縮放) | 當用戶選擇不同的縮略圖以查看不同的影像時。 |
 | ITEM | **X** (eCatalog) | 當使用者在支援已定義滑鼠指向效果的影像地圖的檢視器中，將指標暫留在影像地圖上以讀取滑鼠指向效果文字時。 |
-| HREF | **X** (eCatalog) | 在支援影像地圖的檢視器中，當使用者在影像地圖中選取URL時。 |
-| TARGET |  | 在目標縮放檢視器中，當使用者選取縮放目標以縮放至影像的一部分時。 |
+| HREF | **X** (eCatalog) | 在支援影像映射的查看器中，當用戶在影像映射中選擇URL時。 |
+| TARGET |  | 在目標縮放查看器中，當用戶選擇縮放目標以縮放到影像的一部分時。 |
 | SEARCH |  | 當使用者在 eCatalog 中，執行關鍵字搜尋時。 |
-| PLAY | **X** (視訊) | 在視訊檢視器中，當使用者選取「播放」以開始播放視訊時。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media ClassicHTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
-| PAUSE | **X** (視訊) | 在視訊檢視器中，當使用者選取 **[!UICONTROL 暫停]** 來凍結視頻。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media ClassicHTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
-| STOP | **X** (視訊) | 在視訊檢視器中，當使用者選取 **[!UICONTROL 停止]** 停止播放視訊。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media ClassicHTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
-| MILESTONE | **X**  (視訊) | 在視訊檢視器中，使用者在觀看到視訊的 0%、25%、50%、75% 或 100% 時產生里程碑事件時。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media ClassicHTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
-| SWATCH | **X** (彈出、縮放) | 此檢視器事件會對應至Adobe Dynamic Media Classic中的PAGE檢視器事件。 |
+| PLAY | **X** (視訊) | 在視頻查看器中，當用戶選擇「播放」開始播放視頻時。<br><br>**注：** 如果您使用基於Adobe Analytics心跳的視頻報告，則在Adobe Dynamic Media Classic配置Adobe Analytics時，無需將任何變數映射到此查看器事件。 Video Heartbat可與開箱即用的Adobe Dynamic Media ClassicHTML5視頻和MixedMedia觀看器配合使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視頻報告](enabling-analytics-video-reports.md)。 |
+| PAUSE | **X** (視訊) | 在視頻查看器中，當用戶選擇 **[!UICONTROL 暫停]** 凍結視頻。<br><br>**注：** 如果您使用基於Adobe Analytics心跳的視頻報告，則在Adobe Dynamic Media Classic配置Adobe Analytics時，無需將任何變數映射到此查看器事件。 Video Heartbat可與開箱即用的Adobe Dynamic Media ClassicHTML5視頻和MixedMedia觀看器配合使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視頻報告](enabling-analytics-video-reports.md)。 |
+| STOP | **X** (視訊) | 在視頻查看器中，當用戶選擇 **[!UICONTROL 停止]** 停止播放視頻。<br><br>**注：** 如果您使用基於Adobe Analytics心跳的視頻報告，則在Adobe Dynamic Media Classic配置Adobe Analytics時，無需將任何變數映射到此查看器事件。 Video Heartbat可與開箱即用的Adobe Dynamic Media ClassicHTML5視頻和MixedMedia觀看器配合使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視頻報告](enabling-analytics-video-reports.md)。 |
+| MILESTONE | **X**  (視訊) | 在視訊檢視器中，使用者在觀看到視訊的 0%、25%、50%、75% 或 100% 時產生里程碑事件時。<br><br>**注：** 如果您使用基於Adobe Analytics心跳的視頻報告，則在Adobe Dynamic Media Classic配置Adobe Analytics時，無需將任何變數映射到此查看器事件。 Video Heartbat可與開箱即用的Adobe Dynamic Media ClassicHTML5視頻和MixedMedia觀看器配合使用。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。請參閱 [啟用Adobe Analytics視頻報告](enabling-analytics-video-reports.md)。 |
+| SWATCH | **X** (彈出、縮放) | 此查看器事件映射到Adobe Dynamic Media Classic的PAGE查看器事件。 |
 | ZOOM | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。 |
 | PAN | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。 |
 | SPIN | **X** (迴轉集) | Adobe Analytics 不會加以追蹤。 |
 
 ### Adobe Dynamic Media Classic變數 {#scene-variables}
 
-針對Adobe Analytics設定畫面上的每個檢視器事件，選擇Adobe Analytics變數和 *Adobe Dynamic Media Classic變數*. Adobe Dynamic Media Classic變數代表您可為報表取得的資料。 例如，`searchTerm` 變數會列出在 eCatalog 搜尋中使用的關鍵字。
+對於「Adobe Analytics配置」螢幕上的每個查看器事件，選擇一個Adobe Analytics變數和 *Adobe Dynamic Media Classic變數*。 Adobe Dynamic Media Classic變數表示可為報表獲取的資料。 例如，`searchTerm` 變數會列出在 eCatalog 搜尋中使用的關鍵字。
 
-下表說明Adobe Dynamic Media Classic變數：
+下表介紹了Adobe Dynamic Media Classic變數：
 
 | Adobe Dynamic Media Classic變數 | 說明 |
 | --- | --- |
-| asset | Adobe Dynamic Media Classic資產ID或視訊路徑檔案。 |
+| asset | Adobe Dynamic Media Classic資產ID或視頻路徑檔案。 |
 | viewerId | 指定給各個不同檢視器類型的任一編號。 |
 | pageLabel | 在 eCatalog 中，檢視器顯示的頁面。 |
 | label | 標籤值 (字串)。 |
@@ -101,12 +101,12 @@ ht-degree: 27%
 | progress | 完成的里程碑事件的百分比。 |
 | targetId | ID 值 (數值)。 |
 
-## 啟動、編輯和刪除檢視器事件 {#activating-editing-and-deleting-viewer-events}
+## 激活、編輯和刪除查看器事件 {#activating-editing-and-deleting-viewer-events}
 
 可以在「Adobe Analytics 配置」畫面上啟用、編輯和刪除檢視器事件: 
 
-* **啟動**  — 選擇 **[!UICONTROL 啟用]** 啟用或 **[!UICONTROL 停用]** 停用選取的檢視器事件。
+* **激活**  — 選擇 **[!UICONTROL 啟用]** 激活或 **[!UICONTROL 禁用]** 停用選定的查看器事件。
 
-* **編輯**  — 選取檢視器事件並選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 在「Adobe Dynamic Media Classic變數」和「Adobe Analytics變數」下拉式清單中，從各個清單中選擇不同的變數。 如需詳細資訊，請參閱 [將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **編輯**  — 選擇查看器事件並選擇 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 在「Adobe Dynamic Media Classic變數」和「Adobe Analytics變數」下拉清單中，從每個相應的清單中選擇不同的變數。 有關詳細資訊，請參見 [將Adobe Analytics變數分配給Adobe Dynamic Media Classic查看器事件和變數](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables)。
 
-* **刪除**  — 選取檢視器事件，然後選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 選擇 **[!UICONTROL 刪除]**.
+* **刪除**  — 選擇查看器事件，然後選擇 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 選擇 **[!UICONTROL 刪除]**。

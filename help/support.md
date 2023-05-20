@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic支援選項
-description: 了解Adobe Dynamic Media Classic的技術支援選項。
+title: 支援Adobe Dynamic Media Classic
+description: 瞭解Adobe Dynamic Media Classic的技術支援選項。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,18 +17,18 @@ ht-degree: 23%
 
 # 支援 {#support}
 
-技術支援提供的內容設計能夠符合所有規模大小之公司的需求。下表說明Adobe Dynamic Media Classic客戶服務項目：
+技術支援提供的內容設計能夠符合所有規模大小之公司的需求。下表介紹了Adobe Dynamic Media Classic客戶服務：
 
 | 支援 | 訂閱 |
 | --- | --- |
 | 個案限制 | 無限制. |
-| 檢查Adobe系統狀態 | [Adobe Dynamic Media Classic系統狀態](https://status.adobe.com/products/1175). |
-| 找不到答案？ | [要獲得支援的幫助，請開啟票證](https://experienceleague.adobe.com/?support-solution=General#support). |
-| 社群論壇 | [Experience Manager社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA（服務級別協定） | [支援服務/條款與條件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
-| 支援的使用者 | 每個組織最多可指定10位使用者為「受支援使用者」，他們可向客戶服務開啟案例。 |
-| 免費的即時網路培訓和指導視頻 | 包括在內. |
-| 電話支援 | <ul><li>美國和加拿大：1-800-497-0335 </li><li>[其他地區的電話號碼](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| 檢查Adobe系統狀態 | [Adobe Dynamic Media Classic系統狀態](https://status.adobe.com/products/1175)。 |
+| 找不到答案？ | [要獲得支援的幫助，請開啟票證](https://experienceleague.adobe.com/?support-solution=General#support)。 |
+| 社區論壇 | [Experience Manager社區論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
+| SLA（服務級別協定） | [支援服務/條款和條件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
+| 支援的用戶 | 每個組織最多可指定10個用戶為受支援用戶，他們可以通過客戶服務開啟案例。 |
+| 免費即時網路培訓和指導視頻 | 包括在內. |
+| 電話支援 | <ul><li>美國和加拿大：1-800-497-0335 </li><li>[其他區域的電話號碼](https://experienceleague.adobe.com/?support-tab=home#support)。 </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
@@ -38,5 +38,5 @@ ht-degree: 23%
 * 您的姓名、電話號碼與電子郵件地址.
 * Adobe Dynamic Media Classic應用程式、平台和版本。
 * 問題說明與重現問題所需步驟.
-* 錯誤訊息（如果有）。
+* 錯誤消息（如果有）。
 * 瀏覽器類型和版本（如果適用）。

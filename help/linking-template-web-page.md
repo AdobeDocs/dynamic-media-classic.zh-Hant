@@ -1,6 +1,6 @@
 ---
 title: 將範本連結至網頁
-description: 了解如何將範本連結至Adobe Dynamic Media Classic的網頁。
+description: 瞭解如何將模板連結到Adobe Dynamic Media Classic的網頁。
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: Rick Brough
 content-type: reference
@@ -19,27 +19,27 @@ ht-degree: 37%
 
 # 將範本連結至網頁{#linking-a-template-to-a-web-page}
 
-您的網站和應用程式會透過URL字串存取Dynamic Media Image Server內容。 發佈範本後，Adobe Dynamic Media Classic會啟用URL字串，在Dynamic Media影像伺服器上參照範本。 您可以將這個 URL 貼至 Web 瀏覽器以進行測試。
+您的網站和應用程式通過URL字串訪問Dynamic Media映像伺服器內容。 發佈模板後，Adobe Dynamic Media Classic將激活一個URL字串，該字串引用Dynamic Media影像伺服器上的模板。 您可以將這個 URL 貼至 Web 瀏覽器以進行測試。
 
-若要將URL字串放入您的網頁和應用程式中，請從Adobe Dynamic Media Classic複製。 若要取得影像預設集產生的範本URL字串，請前往「預覽」畫面或「瀏覽面板」（在「詳細資料檢視」中）。 然後選取「影像預設集」並選取「複製 URL」按鈕。
+要將URL字串置於網頁和應用程式中，請從Adobe Dynamic Media Classic複製。 要獲取使用影像預設生成的模板URL字串，請轉到「預覽」螢幕或「瀏覽面板」（在「詳細資訊視圖」中）。 然後選取「影像預設集」並選取「複製 URL」按鈕。
 
 >[!NOTE]
 >
 >在發佈資產之前，URL 不會產生作用。
 
-## 取得範本URL {#obtaining-a-template-url}
+## 獲取模板URL {#obtaining-a-template-url}
 
-您可以在「範本預覽」畫面上取得使用影像預設集產生的範本 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。要從「模板預覽」頁獲取隨影像預設集生成的模板URL字串，請執行以下操作：
+您可以在「範本預覽」畫面上取得使用影像預設集產生的範本 URL 字串。複製 URL 之後，該 URL 就會進入剪貼簿，讓您視需要貼上。要從「模板預覽」頁獲取使用「影像預設」生成的模板URL字串，請執行以下操作：
 
-1. 選取範本的變換 **[!UICONTROL 預覽]** 按鈕或轉到 **[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**.
-1. 使用預設選單，選擇要用於傳送範本影像的影像預設集。「預覽」頁面會顯示從伺服器傳送範本時的外觀。
+1. 選擇模板的滾動更新 **[!UICONTROL 預覽]** 按鈕 **[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**。
+1. 使用預設選單，選擇要用於傳送範本影像的影像預設集。「預覽」(Preview)頁面顯示從伺服器傳送模板時的樣式。
 1. 選擇 **[!UICONTROL 複製URL]** 以便將URL複製到剪貼簿。
 
-## 將範本URL新增至您的網頁 {#adding-template-urls-to-your-web-page}
+## 將模板URL添加到網頁 {#adding-template-urls-to-your-web-page}
 
-若要將範本新增至您的網頁，請洽詢您的網頁開發團隊，以修改 `<IMG>` 標籤。 使用Adobe Dynamic Media Classic URL字串來向Dynamic Media影像伺服器提出要求。 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
+要向網頁添加模板，請咨詢網頁開發團隊以修改 `<IMG>` HTML網頁代碼中的標籤。 使用Adobe Dynamic Media ClassicURL字串向Dynamic Media映像伺服器發出請求。 商務引擎或動態網頁代碼插入的範本影像符合為範本選擇的影像預設集所定義的大小及格式規格。
 
 >[!MORELIKETHIS]
 >
->* [將動態影像新增至網頁](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
+>* [向網頁添加動態影像](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
 

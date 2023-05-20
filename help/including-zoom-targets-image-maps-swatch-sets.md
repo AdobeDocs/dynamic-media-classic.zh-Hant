@@ -1,6 +1,6 @@
 ---
-title: 在色票集中包含縮放目標和影像映射
-description: 了解如何在Adobe Dynamic Media Classic的色票集中加入縮放目標和影像地圖。
+title: 在色板集中包括縮放目標和影像映射
+description: 瞭解如何在Adobe Dynamic Media Classic的色板集中包括縮放目標和影像映射。
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 32%
 
 ---
 
-# 在色票集中包含縮放目標和影像映射{#including-zoom-targets-and-image-maps-in-swatch-sets}
+# 在色板集中包括縮放目標和影像映射{#including-zoom-targets-and-image-maps-in-swatch-sets}
 
-如果在色票集中為影像定義縮放目標和影像地圖，這些目標和地圖會顯示在色票集檢視器中。例如，使用者可以在色票集檢視器中選取「影像地圖」，並在您的網站上開啟含有項目相關資訊的新頁面。 使用者可以在色票集檢視器中選取目標縮圖影像，並自動縮放至影像的一部分。
+如果在色票集中為影像定義縮放目標和影像地圖，這些目標和地圖會顯示在色票集檢視器中。例如，用戶可以在「色板集查看器」中選擇「影像映射」，並在您的網站上開啟一個包含項目資訊的新頁面。 用戶可以在「色板集查看器」中選擇目標縮略圖，並自動縮放到影像的一部分。
 
-如果要讓使用者可以使用縮放目標和影像地圖功能，請在色票集中為影像建立縮放目標和影像地圖。您可以在「色票集」螢幕或「瀏覽面板」（在「詳細資訊視圖」中）中使用「影像映射」或「縮放目標」工具執行此操作。
+如果要讓使用者可以使用縮放目標和影像地圖功能，請在色票集中為影像建立縮放目標和影像地圖。可以使用「色板集」螢幕或「瀏覽面板」（在「詳細資訊視圖」中）中的「影像映射」或「縮放目標」工具來執行此操作。
 
 >[!MORELIKETHIS]
 >
->* [建立引導式縮放的縮放目標](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [為引導縮放建立縮放目標](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [建立影像地圖](creating-image-maps.md#creating_image_maps)
 

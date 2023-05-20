@@ -1,6 +1,6 @@
 ---
-title: 停用Adobe Analytics追蹤
-description: 了解如何在Adobe Dynamic Media Classic中停用Adobe Analytics追蹤。
+title: 禁用Adobe Analytics跟蹤
+description: 瞭解如何禁用Adobe Dynamic Media Classic的Adobe Analytics跟蹤。
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 9%
 
 ---
 
-# 停用Adobe Analytics追蹤{#disabling-adobe-analytics-tracking}
+# 禁用Adobe Analytics跟蹤{#disabling-adobe-analytics-tracking}
 
 **停用 Adobe Analytics 追蹤:**
 
-1. 關閉Adobe Dynamic Media Classic中「Adobe Analytics設定」頁面中的所有事件。
+1. 在Adobe Dynamic Media Classic的「Adobe Analytics配置」頁中關閉所有事件。
 1. 儲存並發佈。
 
-這些步驟會關閉透過Adobe Dynamic Media Classic和透過從 **[!UICONTROL CopyURL]** 功能。 如果您實作自訂追蹤，請在「設定」頁面中停用Adobe Analytics追蹤，以防止與自訂實作衝突。
+這些步驟將通過Adobe Dynamic Media Classic和從 **[!UICONTROL 複製URL]** 的子菜單。 如果實現自定義跟蹤，請在「配置」頁中將Adobe Analytics跟蹤禁用為設定，以防止與自定義實現衝突。

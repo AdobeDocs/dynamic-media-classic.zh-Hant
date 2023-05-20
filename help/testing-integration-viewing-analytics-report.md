@@ -1,6 +1,6 @@
 ---
 title: 檢視 報告以測試 Adobe Analytics 整合
-description: 了解如何檢視Adobe Dynamic Media Classic報表，以測試Adobe Analytics中的整合。
+description: 通過查看Adobe Analytics報告，瞭解如何testAdobe Dynamic Media Classic的一體化。
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: Rick Brough
 content-type: reference
@@ -19,22 +19,22 @@ ht-degree: 15%
 
 # 檢視 報告以測試 Adobe Analytics 整合{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-在Adobe Analytics中建立必要變數、將其連結至Adobe Dynamic Media Classic事件並完成必要的實作步驟後，您就可以測試設定。 您可以測試並確認 Adobe Analytics 本身正在擷取資料。如果設定在此有效，則不需再執行其他步驟。假設您依照上述步驟操作，並將Adobe Dynamic Media Classic事件資料連結至一或多個自訂流量變數，然後依照此工作流程測試Adobe Analytics內的資料。
+在Adobe Analytics中建立必要的變數，將它們連結到Adobe Dynamic Media Classic事件，並完成必要的實施步驟後，您可以test設定。 您可以測試並確認 Adobe Analytics 本身正在擷取資料。如果設定在此有效，則不需再執行其他步驟。假設您遵循上述步驟並將Adobe Dynamic Media Classic事件資料連結到一個或多個自定義流量變數，則按照此工作流在Adobe Analytics內test資料。
 
-**若要檢視Adobe Analytics報表以測試整合：**
+**要test整合，請查看Adobe Analytics報告：**
 
-1. 從您的帳戶啟動Adobe Dynamic Media Classic檢視器，尤其是廣播您要取得的量度，並與其互動以建立一些事件資料的檢視器。
+1. 從您的帳戶啟動Adobe Dynamic Media Classic查看器，尤其是廣播您要獲取的度量並與其交互以建立某些事件資料的查看器。
 
-   例如，如果您想要測量影像集中的熱門替代檢視，然後預覽影像集並按一下不同的縮圖影像。
+   例如，如果要測量「影像集」中的常用替代視圖，則預覽「影像集」並按一下不同的縮略圖影像。
 
-1. 在Adobe Analytics內，前往 **[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > [Prop名稱]，從功能表選項中選取您的流量prop名稱。
+1. 在Adobe Analytics內，轉到 **[!UICONTROL 自定義通信]** > **[!UICONTROL 自定義流量1-10]** > [prop的名稱]，從菜單選項中選擇您的通信流量名稱。
 
-   例如，若要存取 **[!UICONTROL LoadAsset]** prop在範例帳戶中，正確的功能表選項為 **[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > **[!UICONTROL LoadAsset]**. 如果您有10個以上的自訂Prop，您也會看到其他功能表選項。
+   例如，訪問 **[!UICONTROL 載入資產]** prop在示例帳戶中，正確的菜單選項是 **[!UICONTROL 自定義通信]** > **[!UICONTROL 自定義流量1-10]** > **[!UICONTROL 載入資產]**。 如果您有10個以上的自定義道具，您還會看到其他菜單選項。
 
-1. 檢視 Adobe Analytics 產生的圖表此圖表通常只是單一量度的資料。 如果您也想知道此資料與哪些資產相關聯，請取得此事件的資產資料。 例如，了解哪部影片的觀看率僅為50%，或某組影像的受歡迎度通常很實用。
+1. 檢視 Adobe Analytics 產生的圖表此圖表通常只是單個度量的資料。 如果您還想知道此資料與哪些資產關聯，請獲取此事件的資產資料。 例如，瞭解哪個視頻只被50%觀看，或某個集合中哪個影像比較流行，這通常非常有用。
 
 >[!NOTE]
 >
->所有Adobe Dynamic Media Classic檢視器資料都會在Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中顯示及報告。
+>所有Adobe Dynamic Media Classic查看器資料都顯示並報告在Adobe Analytics的自定義流量報告或自定義轉換報告中。
 
-如需詳細資訊，請參閱 [AnalyticsTutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+有關詳細資訊，請參見 [分析Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。

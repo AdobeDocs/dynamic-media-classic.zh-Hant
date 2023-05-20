@@ -1,6 +1,6 @@
 ---
-title: 準備色票集資產以供上傳
-description: 了解如何準備色票集資產以上傳至Adobe Dynamic Media Classic。
+title: 為上傳準備樣本集資產
+description: 瞭解如何準備資產以將上傳轉換為 Adobe Systems 動態媒體經典。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 ---
 
-# 準備色票集資產以供上傳{#preparing-swatch-set-assets-for-upload}
+# 為上傳準備樣本集資產{#preparing-swatch-set-assets-for-upload}
 
 上載所需的影像之前，請確定影像的尺寸和格式正確。同時組合所需的色票檔案。
 
@@ -26,11 +26,11 @@ ht-degree: 61%
 * 同一外套的黑色、棕色和綠色快照。
 * 黑色、棕色及綠色色票。
 
-由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用無損TIFF、PNG和EPS影像。
+由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Adobe Systems 動態媒體經典支援許多影像檔案格式，但建議使用不失真的 TIFF、PNG 和 EPS 影像。
 
-如需上傳資產的詳細指示，請參閱 [上傳檔案](uploading-files.md#uploading_files).
+有關上載資產的詳細說明，請參閱 [ 上載 ](uploading-files.md#uploading_files) 檔案。
 
 >[!MORELIKETHIS]
 >
->* [使用暈映、窗口覆蓋和機櫃檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [使用暈映、視窗覆蓋圖和 cabinet 檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

@@ -1,6 +1,6 @@
 ---
-title: 管理eCatalog中的資訊面板內容
-description: 了解如何在Adobe Dynamic Media Classic中管理eCatalog中的「資訊面板」內容。
+title: 管理電子目錄中的資訊面板內容
+description: 瞭解如何管理Adobe Dynamic Media ClassiceCatalogs中的「資訊面板」內容。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
@@ -17,43 +17,43 @@ ht-degree: 59%
 
 ---
 
-# 管理eCatalog中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
+# 管理電子目錄中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
 
-您可以使用Adobe Dynamic Media Classic中的下列功能管理您的InfoPanel設定和資料：
+可以使用Adobe Dynamic Media Classic的以下功能管理InfoPanel設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
-* 「資訊面板」資料源面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」變換文字中的文字，並排程更新資訊的時間。
+* 「資訊面板」資料源面板允許您指定包含要顯示在「資訊面板」滾動更新文本中的文本的CSV檔案，以及更新資訊的計畫時間。
 * 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
-## 設定eCatalog的回應範本 {#set-up-a-response-template-for-ecatalogs}
+## 為eCatalog設定響應模板 {#set-up-a-response-template-for-ecatalogs}
 
 您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取一個預設回應範本，也可以自行建立一個。
 
 >[!NOTE]
 >
->您也可以在檢視器預設集中設定回應範本。若要改用檢視器預設集中的「回應範本」，請新增 `fmt=1` 到查看器預設集中的資訊伺服器URL的結尾。
+>您也可以在檢視器預設集中設定回應範本。要改用「查看器預設」中的「響應模板」，請添加 `fmt=1` 到「查看器預設」中「資訊伺服器URL」的末尾。
 >
->請參閱 [設定eCatalog檢視器預設集](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
+>請參閱 [設定eCatalog Viewer預設](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
-1. 按兩下您的eCatalog，以在「詳細資訊檢視」中開啟。
-1. 選取 **[!UICONTROL 資訊面板設定]** 中。
+1. 按兩下eCatalog，使其在「詳細資訊視圖」中開啟。
+1. 選擇 **[!UICONTROL InfoPanel安裝]** 的子菜單。
 1. 選取回應範本:
 
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
-   * 若要建立您自己的回應範本，請選取 **[!UICONTROL 自訂]**. 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
+   * 要建立您自己的響應模板，請選擇 **[!UICONTROL 自定義]**。 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
-1. （可選）在「預設回應」方塊中，輸入如果Adobe Dynamic Media Classic在擷取影像地圖的資訊時遇到錯誤，您要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （可選）在「預設響應」框中，鍵入在Adobe Dynamic Media Classic檢索影像映射資訊時遇到錯誤時要顯示的文本。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
    * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
 
-1. 選擇 **[!UICONTROL 發佈]**.
+1. 選擇 **[!UICONTROL 發佈]**。
 
-## 導入eCatalog中「資訊面板」的源內容 {#import-source-content-for-the-info-panel-in-ecatalogs}
+## 導入eCatalogs中「資訊」面板的源內容 {#import-source-content-for-the-info-panel-in-ecatalogs}
 
 對於 eCatalog 之資訊面板的來源文字，您可以使用逗號分隔值檔案 (CSV) 或 Tab 字元分隔檔案 (TXT)。Tab 字元分隔檔案必須使用 UTF16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
 
@@ -61,15 +61,15 @@ ht-degree: 59%
 
 * 確定 Tab 字元分隔與逗號分隔的資料所包含的欄數目，與滑鼠指向範本所需的欄數相等。
 * 確定第一個項目或資料欄為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
-* 請確定識別碼後面的每個定位點或逗號分隔項目，都是您要取代回應範本的項目。因此，第一欄會取代為$1$，第二欄會取代為$2$，以此類推。
+* 確保標識符後的每個制表符或逗號分隔項是要替換到響應模板中的項。因此，第一列被替換為$1$ ，第二列被替換為$2$，依此類推。
 
-### 從外部托管位置將CSV內容匯入eCatalog {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### 從外部托管位置將CSV內容導入eCatalogs {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
-1. 按兩下eCatalog，以在「詳細資訊檢視」中開啟。
-1. 選取 **[!UICONTROL 資訊面板資料摘要]** 中。
+1. 按兩下eCatalog，使其在「詳細資訊視圖」中開啟。
+1. 選擇 **[!UICONTROL InfoPanel資料源]** 的子菜單。
 1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。您可以在此欄位中貼上 URL，也可以直接鍵入。
-1. （可選）使用「排程更新」功能表指定更新內容的時間，然後選取 **[!UICONTROL 新增]**. 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取時間並選取 **[!UICONTROL 刪除]**.)
-1. （選用）選取 **[!UICONTROL 立即運行更新]** 來立即更新內容。
+1. （可選）使用「計畫更新」菜單指定更新內容的時間，然後選擇 **[!UICONTROL 添加]**。 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(要刪除時間，請選擇它並選擇 **[!UICONTROL 刪除]**。)
+1. （可選）選擇 **[!UICONTROL 立即運行更新]** 以立即更新內容。
 
 ### 匯入 Tab 字元分隔檔案或 CSV 檔案 {#import-a-tab-delimited-or-csv-file}
 
@@ -83,20 +83,20 @@ Last Modified Date:
 
  -->
 
-1. 連按兩下eCatalog，以在「詳細資訊檢視」中開啟它。
-1. 選取 **[!UICONTROL 資訊面板設定]** 中。
-1. 選擇 **[!UICONTROL 上傳S7資訊內容]**.
-1. 選擇 **[!UICONTROL 瀏覽]**，選取您要使用的以定位點分隔的TXT檔案、CSV或SSV檔案，然後選取 **[!UICONTROL 開啟]**.
-1. 選擇 **[!UICONTROL 上傳]**.
+1. 按兩下eCatalog，以在「詳細資訊視圖」中開啟它。
+1. 選擇 **[!UICONTROL InfoPanel安裝]** 的子菜單。
+1. 選擇 **[!UICONTROL 上載S7Info內容]**。
+1. 選擇 **[!UICONTROL 瀏覽]**，選擇要使用的制表符分隔的TXT檔案、CSV或SSV檔案，然後選擇 **[!UICONTROL 開啟]**。
+1. 選擇 **[!UICONTROL 上載]**。
 
-Adobe Dynamic Media Classic會傳送電子郵件給您，通知您上傳是否成功。
+Adobe Dynamic Media Classic給你發一封電子郵件，告訴你上載是否成功。
 
 ## 預覽影像地圖的滑鼠指向效果關鍵文字 {#preview-rollover-key-text-for-an-image-map}
 
 使用「地圖頁面」畫面，您可以輕鬆且快速地檢視 eCatalog 特定頁面之影像地圖的「資訊面板」文字。
 
-1. 選取目錄的變換 **[!UICONTROL 編輯]** 按鈕。
-1. 選擇 **[!UICONTROL 對應頁面]**.
-1. 在螢幕右側的表格頂端，選取 **[!UICONTROL 資訊面板]** 的URL。
+1. 選擇目錄的滾動更新 **[!UICONTROL 編輯]** 按鈕
+1. 選擇 **[!UICONTROL 映射頁]**。
+1. 在螢幕右側的表格頂部，選擇 **[!UICONTROL 資訊面板]** 按鈕。
 
-   出現在每個包含「資訊面板」文字的影像對應旁邊的變換金鑰文字。
+   滑鼠指項效果關鍵文字會顯示在每個包含「資訊面板」文字的影像地圖旁邊。
