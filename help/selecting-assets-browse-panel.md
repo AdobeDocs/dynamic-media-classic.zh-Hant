@@ -1,6 +1,6 @@
 ---
-title: 在「瀏覽」面板中選擇資產
-description: 瞭解如何在Adobe Dynamic Media Classic的「瀏覽」面板中選擇資產。
+title: 在「瀏覽」面板中選取資產
+description: 瞭解如何在Adobe Dynamic Media Classic的「瀏覽」面板中選取資產。
 uuid: 0790e6d0-b898-42b1-977f-8316e6b19573
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 18%
 
 ---
 
-# 在「瀏覽」面板中選擇資產{#selecting-assets-in-the-browse-panel}
+# 在「瀏覽」面板中選取資產{#selecting-assets-in-the-browse-panel}
 
-在「瀏覽面板」中選擇一個資產，以便您可以使用它。 使用這些技巧來選取資產:
+在「瀏覽」面板中選取資產，以便使用它。 使用這些技巧來選取資產:
 
-* **單個資產**  — 選擇資產（按兩下可在「詳細資訊視圖」中開啟資產）。
+* **單一資產**  — 選取資產（按兩下以在「詳細資料檢視」中開啟資產）。
 
-* **多個資產**  — 按住Ctrl鍵並按一下(Windows®)或Command鍵並按一下(Macintosh)資產，以在「瀏覽」面板的不同位置選擇資產。 按住 Shift 並按一下 (按一下某項資產，然後按住 Shift 並按一下另一項資產)，即可選取相鄰的資產。
+* **數個資產**  — 按住Ctrl鍵並按一下(Windows®)或按住Command鍵並按一下(Macintosh)資產，即可在「瀏覽」面板的不同位置選取資產。 按住 Shift 並按一下 (按一下某項資產，然後按住 Shift 並按一下另一項資產)，即可選取相鄰的資產。
 
-* **「瀏覽」面板中的所有資產**  — 轉到 **[!UICONTROL 選擇]** > **[!UICONTROL 全部]**。
+* **瀏覽面板中的所有資產**  — 前往 **[!UICONTROL 選取]** > **[!UICONTROL 全部]**.
 
-* **無資產**  — 轉到 **[!UICONTROL 選擇]** > **[!UICONTROL 無]**。
+* **無資產**  — 前往 **[!UICONTROL 選取]** > **[!UICONTROL 無]**.

@@ -1,6 +1,6 @@
 ---
-title: 設定旋轉集查看器預設
-description: 瞭解如何在Adobe Dynamic Media Classic設定旋轉集查看器預設。
+title: 設定迴轉集檢視器預設集
+description: 瞭解如何在Adobe Dynamic Media Classic中設定迴轉集檢視器預設集。
 uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: Rick Brough
 content-type: reference
@@ -17,30 +17,30 @@ ht-degree: 23%
 
 ---
 
-# 設定旋轉集查看器預設{#setting-up-spin-set-viewer-presets}
+# 設定迴轉集檢視器預設集{#setting-up-spin-set-viewer-presets}
 
-迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Adobe Dynamic Media Classic帶有預設的「旋轉集查看器預設」。 如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
+迴轉集檢視器預設集確定檢視器的樣式、行為和外觀。Adobe Dynamic Media Classic隨附預設迴轉集檢視器預設集。 如果您是管理員，也可以建立您自己的迴轉集檢視器預設集。您可以使用不同色彩、邊界、字型和影像設定來設定迴轉集檢視器預設集。
 
-**要建立旋轉集查看器預設：**
+**若要建立迴轉集檢視器預設集：**
 
-1. 在全局導航欄上，轉到 **[!UICONTROL 設定]** > **[!UICONTROL 查看器預設]**。
+1. 在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 1. 進行以下一項操作:
 
-   * 要建立預設，請選擇 **[!UICONTROL 添加]**，然後在「添加查看器預設」對話框中，選擇一個平台，然後選擇 **[!UICONTROL 旋轉集查看器]**。
-   * 要編輯現有的「旋轉集查看器」預設，請選擇預設，然後選擇 **[!UICONTROL 編輯]**。
+   * 若要建立預設集，請選取 **[!UICONTROL 新增]**，然後在「新增檢視器預設集」對話方塊中，選擇平台，然後選取 **[!UICONTROL 迴轉集檢視器]**.
+   * 若要編輯現有的「迴轉集檢視器」預設集，請選取該預設集，然後選取 **[!UICONTROL 編輯]**.
 
-1. 在「配置查看器」頁上，在「預設名稱」框中為「旋轉集查看器」預設鍵入名稱。
-1. 視需要指定其他選項。要查看選項的說明，請選擇 **[!UICONTROL 資訊提示]** 表徵圖。
+1. 在「設定檢視器」頁面上，在「迴轉集檢視器預設集」的「預設集名稱」方塊中輸入名稱。
+1. 視需要指定其他選項。若要檢視選項的說明，請選取 **[!UICONTROL 資訊提示]** 圖示加以存取。
 
-   在更新和更改設定時，「預覽」(Preview)頁面將顯示查看器。
+   當您更新和變更設定時，「預覽」頁面會顯示檢視器。
 
-1. 選擇 **[!UICONTROL 保存]**。
+1. 選取 **[!UICONTROL 儲存]**.
 
-選擇 **[!UICONTROL 設為預設值]** 要使「旋轉集查看器預設」為預設值，您建立了顯示「旋轉集」的公司。
+選取 **[!UICONTROL 設為預設]** 若要使「迴轉集檢視器預設集」成為您建立的公司顯示「迴轉集」的預設值。
 
-請參閱 [配置預設查看器](application-setup.md#configuring_default_viewers)。
+另請參閱 [設定預設檢視器](application-setup.md#configuring_default_viewers).
 
-要刪除「旋轉集查看器預設」，請在「查看器預設」頁面上將其選中，然後選擇 **[!UICONTROL 刪除]**。
+若要刪除「迴轉集檢視器預設集」，請在「檢視器預設集」頁面上選取它，然後選取 **[!UICONTROL 刪除]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
 title: 建立影像地圖
-description: 瞭解如何在Adobe Dynamic Media Classic建立影像地圖。
+description: 瞭解如何在Adobe Dynamic Media Classic中建立影像地圖。
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
@@ -19,76 +19,76 @@ ht-degree: 46%
 
 # 建立影像地圖 {#creating-image-maps}
 
-影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個區域，可顯示內含滑鼠指向效果文字的面板。當用戶選擇影像映射時，觸發某種動作。 例如，啟動網頁讓使用者進一步瞭解產品。當用戶將指針移到影像映射周圍時，將出現輪廓。
+影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個區域，可顯示內含滑鼠指向效果文字的面板。當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁讓使用者進一步瞭解產品。當使用者將指標移到「影像地圖」上時，其周圍會出現一個外框。
 
-除了在Adobe Dynamic Media Classic建立影像地圖的功能外，在Adobe Acrobat或Adobe InDesign設計目錄時還可以建立影像地圖。
+除了在Adobe Dynamic Media Classic中建立影像地圖功能外，您也可以在Adobe Acrobat或Adobe InDesign中設計目錄時建立影像地圖。
 
-建立「影像映射」時，可以執行下列任一操作：
+當您建立「影像地圖」時，可以執行下列任一項作業：
 
 * 輸入滑鼠指向效果文字。
 * 輸入用來啟動網頁的 JavaScript 與 URL。
 * 為影像地圖建立 URL 範本。
 * 將影像地圖複製到其它影像、eCatalog 頁面或迴轉集中。
 * 將影像地圖匯出至 CSV 或 XML。
-* 從制表符分隔的檔案或XML檔案導入影像元資料。
+* 從定位字元分隔檔案或XML檔案匯入影像中繼資料。
 * 定義其它由全球資訊網協會決定的動作。
 * 預覽影像地圖。
 
-## 繪製和調整影像映射 {#drawing-and-adjusting-an-image-map}
+## 繪製和調整影像地圖 {#drawing-and-adjusting-an-image-map}
 
 1. 進行以下一項操作:
 
-   * 如果在「網格視圖」或「清單視圖」中處理影像，請在「編輯」下拉清單中選擇 **[!UICONTROL 影像映射]**。 或者，在「詳細資訊視圖」中開啟它，然後選擇 **[!UICONTROL 影像映射]** 影像上方。
-   * 如果要在「網格視圖」或「清單視圖」中使用SpinSet，請選擇 **[!UICONTROL 編輯]**。 或者，在「詳細資訊視圖」中開啟它，然後選擇 **[!UICONTROL 編輯]**。 選擇影像資產，然後選擇 **[!UICONTROL 影像映射]**。
-   * 如果正在使用eCatalog，請在「網格視圖」、「清單視圖」、「詳細資訊視圖」中，選擇 **[!UICONTROL 編輯]**。 選擇 **[!UICONTROL 映射頁]** 頁籤。
+   * 如果您在「格點檢視」或「清單檢視」中處理影像，請在「編輯」下拉式清單中選取 **[!UICONTROL 影像地圖]**. 或者，在「詳細資料檢視」中開啟它，然後選取 **[!UICONTROL 影像地圖]** 影像上方。
+   * 如果您在「格點檢視」或「清單檢視」中使用迴轉集，請選取 **[!UICONTROL 編輯]**. 或者，在「詳細資料檢視」中開啟它，然後選取 **[!UICONTROL 編輯]**. 選取影像資產，然後選取 **[!UICONTROL 影像地圖]**.
+   * 如果您正在使用eCatalog，請在「格點檢視」、「清單檢視」、「詳細資料檢視」中選取 **[!UICONTROL 編輯]**. 選取 **[!UICONTROL 對應頁面]** 標籤。
 
-   ![影像映射影像](assets/ma_image_map.png)
+   ![影像地圖影像](assets/ma_image_map.png)
 
 1. 繪製矩形或多邊形影像地圖:
 
-   * **矩形地圖**  — 選擇「矩形影像映射」工具，然後拖動到頁面上建立矩形。 要將點添加到矩形映射（從而將其更改為多邊形映射），請按Ctrl，然後將插入工具放在所需位置並選取。
+   * **矩形地圖**  — 選取「矩形影像地圖」工具並在頁面上拖曳以建立矩形。 若要將點新增至矩形對映（因此將其變更為多邊形對映），請按下Ctrl，然後將插入工具置於所需位置並選取。
 
-   * **多邊形地圖**  — 選擇「多邊形影像映射」工具，並在要包圍的影像區域的周邊上選取點。 使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
+   * **多邊形地圖**  — 選取「多邊形影像地圖」工具，並選取要包圍的影像區域周邊上的點。 使用多邊形密度滑桿，讓多邊形的點密度產生差異。如果選取其它地圖，則會記憶原始密度。如果在多邊形中增加、刪除或移動任一點，則會遺失原始密度，並將滑桿重設回最大值。
 
-1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。繪製影像圖後，Adobe Dynamic Media Classic會為其指定名稱。
+1. 如有需要，可在「影像地圖」清單中輸入影像地圖的名稱。繪製影像地圖後，Adobe Dynamic Media Classic會為其指定一個名稱。
 
-   要建立名稱，Adobe Dynamic Media Classic會將一個順序編號附加到您正在使用的映像或eCatalog頁的名稱中。 您也可以自行輸入名稱。
+   若要建立名稱，Adobe Dynamic Media Classic會在您使用的影像或eCatalog頁面名稱后面附加一個序號。 您也可以自行輸入名稱。
 
-1. 如果希望用戶在選擇「影像映射」時開啟新網頁，請在「影像映射」清單中輸入URL。
+1. 如果您希望使用者在選取「影像地圖」時開啟新網頁，請在「影像地圖」清單中輸入URL。
 
    請參閱[以輸入 JavaScript 與 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
-1. 若要在使用者將指標移動到影像地圖上方時顯示滑鼠指向效果文字，請在「影像地圖」清單中輸入文字。在「影像映射」清單中，選擇 **[!UICONTROL 顯示]** 的 **[!UICONTROL 滾動文本]**。 然後輸入希望用戶在螢幕上看到的文本。 您可以在文字處理器中撰寫該文字，並將其複製到「滑鼠指向效果文字」欄位。
+1. 若要在使用者將指標移動到影像地圖上方時顯示滑鼠指向效果文字，請在「影像地圖」清單中輸入文字。在「影像地圖」清單中，選取 **[!UICONTROL 顯示]** 功能表並選取 **[!UICONTROL 變換文字]**. 然後輸入您希望使用者在熒幕上看到的文字。 您可以在文字處理器中撰寫該文字，並將其複製到「滑鼠指向效果文字」欄位。
 
-1. 如果要在使用者將滑鼠移動到影像地圖上方時發生其它動作效果，請定義動作。在 **[!UICONTROL 顯示]** 下拉清單，選擇 **[!UICONTROL 其他操作]**。 輸入動作的屬性(轉到 **[!UICONTROL 顯示]** > **[!UICONTROL 兩者]** 建立滑鼠經過文本和影像映射的操作。)
+1. 如果要在使用者將滑鼠移動到影像地圖上方時發生其它動作效果，請定義動作。在 **[!UICONTROL 顯示]** 下拉式清單，選取 **[!UICONTROL 其他動作]**. 輸入動作的屬性(前往 **[!UICONTROL 顯示]** > **[!UICONTROL 兩者]** 為「影像地圖」建立滑鼠指向效果文字和動作)。
 
-   請參閱 [定義影像映射的其他操作](creating-image-maps.md#defining_other_actions_for_image_maps)。
+   另請參閱 [定義影像地圖的其他動作](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. (選擇性) 執行下列任一項作業:
 
-   * 要預覽影像映射，請選擇 **[!UICONTROL 預覽]**。
-   * 要刪除「影像映射」或多邊形頂點，請在影像上選擇一個形狀，然後選擇 **[!UICONTROL 刪除]**。 或者，對於eCatalog，在「訂單頁」頁籤上，選擇 **[!UICONTROL 清除地圖]** 從所有頁面中刪除映像映射。
+   * 若要預覽影像地圖，請選取 **[!UICONTROL 預覽]**.
+   * 若要刪除「影像地圖」或多邊形頂點，請選取影像上的形狀，然後選取 **[!UICONTROL 刪除]**. 或者，針對eCatalog，在「訂單頁面」標籤上選取 **[!UICONTROL 清除地圖]** 以從所有頁面中移除影像地圖。
    * 若要暫時移除影像中的影像地圖、迴轉集中的影像或 eCatalog 頁面而不予以刪除，請取消選取「影像地圖」清單中適當的「開啟」選項。
 
-1. 選擇 **[!UICONTROL 保存]**。
+1. 選取 **[!UICONTROL 儲存]**.
 
-### 調整影像映射的位置、形狀和大小 {#adjusting-the-position-shape-and-size-of-image-maps}
+### 調整影像地圖的位置、形狀和大小 {#adjusting-the-position-shape-and-size-of-image-maps}
 
-若要變更影像地圖的位置、形狀及大小，請選取「影像地圖」按鈕 。然後，選擇 **[!UICONTROL 盤]** 工具，請遵循以下說明：
+若要變更影像地圖的位置、形狀及大小，請選取「影像地圖」按鈕 。然後，選取 **[!UICONTROL 平移]** 工具並遵循下列指示：
 
-* **更改職位**  — 將指針移到「影像映射」的邊框附近，但不移到邊框上。 當您看到四向箭頭圖示時，請將地圖拖曳到新位置。
+* **變更位置**  — 將指標移到「影像地圖」邊框附近，但不移到「影像地圖」邊框上方。 當您看到四向箭頭圖示時，請將地圖拖曳到新位置。
 
-* **更改大小和形狀**  — 更改影像映射的形狀和大小取決於您是使用矩形還是多邊形影像映射：
+* **變更大小與形狀**  — 如何變更「影像地圖」的形狀和大小，取決於您是使用矩形或多邊形的「影像地圖」：
 
 >[!TIP]
 >
 >您可以拖曳畫面下方的「大小」滑桿來變更視圖，以更清楚查看影像地圖。
 
-* **矩形影像映射**  — 將指針移到「影像映射」的一側或一角上。 當您看到雙向箭頭圖示時，請開始拖曳。拖曳時按住 Shift 鍵即可變更大小，但會維持外觀比例 (形狀)。
+* **矩形影像地圖**  — 將指標移到「影像地圖」的側邊或角落上方。 當您看到雙向箭頭圖示時，請開始拖曳。拖曳時按住 Shift 鍵即可變更大小，但會維持外觀比例 (形狀)。
 
-* **多邊形影像映射**  — 拖動方形選取手柄。 要建立選擇句柄，請選擇「影像映射」的邊框並開始拖動。
+* **多邊形影像地圖**  — 拖曳方形選取範圍控點。 若要建立選取範圍控點，請選取「影像地圖」的框線並開始拖曳。
 
-### 處理重疊影像映射 {#handling-overlapping-image-maps}
+### 處理重疊的影像地圖 {#handling-overlapping-image-maps}
 
 如果影像或 eCatalog 頁面包含多個影像地圖，而地圖有重疊，則您可以決定地圖重疊的方式。若要這樣做，請變更「影像地圖」清單上的地圖順序。在清單上，將地圖名稱拖曳至較高處或較低處。影像地圖名稱在清單上的高度，可決定該影像地圖否覆蓋其它影像地圖。
 
@@ -99,38 +99,38 @@ ht-degree: 46%
 **匯入影像地圖資料:**
 
 1. 前往「影像地圖」編輯器頁面 (針對影像或迴轉集中的影像) 或是 eCatalog 編輯畫面的「地圖頁面」標籤。
-1. 選擇 **[!UICONTROL 導入元資料]**。
-1. 在「上載元資料」對話框中，選擇「影像」或「影像映射」，以從所需的資產屬性類型上載元資料。
+1. 選取 **[!UICONTROL 匯入中繼資料]**.
+1. 在「上傳中繼資料」對話方塊中，選取「影像」或「影像地圖」，從所需的資產屬性型別上傳中繼資料。
 1. 在「產生檔案」下拉式清單中，選取您想要建立的檔案類型。
-1. （可選）選擇 **[!UICONTROL 生成]** 根據要建立的檔案類型預覽生成的資料。 選擇 **[!UICONTROL 關閉]** 返回「上載元資料」對話框。
+1. （選用）選取 **[!UICONTROL 產生]** 以根據您要建立的檔案型別預覽產生的資料。 選取 **[!UICONTROL 關閉]** 返回「上傳中繼資料」對話方塊。
 1. 瀏覽至您要上載的檔案。在「檔案名稱」文字欄位中，為產生檔案指定名稱。
 1. (選擇性) 在「工作名稱」欄位中，為中繼資料上載工作指定名稱。
-1. 選擇 **[!UICONTROL 上載]**。
+1. 選取 **[!UICONTROL 上傳]**.
 
-### 複製映像映射 {#copying-image-maps}
+### 複製影像地圖 {#copying-image-maps}
 
-您可以將影像地圖從某個影像或 eCatalog 頁面複製到另一個影像或 eCatalog 頁面。使用 **[!UICONTROL 複製映像映射]** 先去創造它們。 您還可以複製「影像映射」，以在共用佈局或映射結構的影像或頁面中重新建立它們。
+您可以將影像地圖從某個影像或 eCatalog 頁面複製到另一個影像或 eCatalog 頁面。使用 **[!UICONTROL 複製影像地圖]** 以搶先一步建立它們。 您也可以複製「影像地圖」，以在共用版面或對應結構的影像或頁面中重新建立它們。
 
-例如，如果要在相同的 eCatalog 之各國語言版本之間複製所有影像地圖，直接在 eCatalog 中複製影像地圖就很方便。為獲得最佳效果，在頁數與及影像皆相同的 eCatalog 之間進行複製時，效果最為成功。如果複製到的eCatalog已包含映像映射，則在複製時將刪除這些映像映射。
+例如，如果要在相同的 eCatalog 之各國語言版本之間複製所有影像地圖，直接在 eCatalog 中複製影像地圖就很方便。為獲得最佳效果，在頁數與及影像皆相同的 eCatalog 之間進行複製時，效果最為成功。如果您複製的eCatalog已經包含「影像地圖」，則製作複製時會刪除這些「影像地圖」。
 
 **複製影像地圖:**
 
 1. 前往「影像地圖」編輯器頁面 (針對影像或迴轉集中的影像) 或是 eCatalog 編輯畫面的「地圖頁面」標籤。
-1. 選擇 **[!UICONTROL 將映射複製到]**。
+1. 選取 **[!UICONTROL 將地圖複製到]**.
 1. 如果您打算從影像或是 eCatalog 複製影像地圖，則請依據個別情況執行以下一項操作:
 
    * (影像) 在「選取影像」畫面中，選取您要複製影像地圖的目的影像。
    * (eCatalog) 在「選取資產」畫面中，選取您要複製影像地圖的目的影像或 eCatalog 頁面。
 
-1. 選擇 **[!UICONTROL 選擇]**。
+1. 選擇 **[!UICONTROL 選取]**.
 
-## 使用模板輸入JavaScript和URL {#using-a-template-to-enter-javascript-and-urls}
+## 使用範本輸入JavaScript和URL {#using-a-template-to-enter-javascript-and-urls}
 
-您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。預設情況下，URL模板包含名為的專有Adobe Dynamic Media ClassicJavaScript處理程式 `loadProduct` 在新窗口中開啟影像。
+您可以定義 URL 範本 (亦稱為 Href 範本)，利用更方便有效的方式輸入影像地圖 URL。如果大多數的影像地圖 URL 共用一個通用的固定格式，則可定義 URL 範本。將固定的 URL 部分輸入 URL 範本之後，每次建立影像地圖時，就不需要輸入這個部分的 URL。URL 範本也可以包含 JavaScript 命令、路徑名稱及參數。根據預設，URL範本包含專有的Adobe Dynamic Media Classic JavaScript處理常式，稱為 `loadProduct` 會在新視窗中開啟影像。
 
 >[!NOTE]
 >
->將JavaScript代碼添加到映像映射的HREF屬性中時，該代碼將在客戶端的電腦上運行。 因此，請確保JavaScript代碼安全。
+>將JavaScript程式碼新增至影像地圖的HREF屬性時，該程式碼會在使用者端的電腦上執行。 因此，請確定JavaScript程式碼是安全的。
 
 ### 關於 URL 範本 {#about-url-templates}
 
@@ -140,93 +140,93 @@ URL 範本的運作方式，是以範本中的雙貨幣符號 (「$$」) 取代�
 Javascript:loadProduct(‘$$’);void(0);
 ```
 
-將所有在URL模板中的「影像映射」之間不更改的值都放置。 只將會變更的值增加到「影像地圖」清單的「URL」欄中。例如: 
+您可以在URL範本的影像地圖之間放置所有不會變更的值。 只將會變更的值增加到「影像地圖」清單的「URL」欄中。例如: 
 
-* URL模板 —  `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL範本 —  `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL值 —  `product.htm`
-* 實際生成的URL - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* 實際產生的URL - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-預設情況下，URL模板包含名為的專有Adobe Dynamic Media ClassicJavaScript處理程式 `loadProduct` 開啟一個帶有URL目標的新窗口。 但是，可以使用任何JavaScript代碼來替換此JavaScript處理程式，或者使用下列Adobe Dynamic Media Classic處理程式之一：
+依預設，URL範本包含專有的Adobe Dynamic Media Classic JavaScript處理常式，稱為 `loadProduct` 會開啟含有URL目的地的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列Adobe Dynamic Media Classic處理常式之一：
 
-* `loadProductCW`  — 顯示在當前窗口的URL列中指定的URL目標。 這個處理程式主要用於已整合成網站某一頁面的 eCatalog。
+* `loadProductCW`  — 顯示在目前視窗的URL欄中指定的URL目標。 這個處理程式主要用於已整合成網站某一頁面的 eCatalog。
 
-* `loadProductPW`  — 顯示在父窗口（開啟當前窗口的頁面）的URL列中指定的URL目標。 目前視窗會維持開啟，但父級視窗會變更以顯示 URL 目標。
+* `loadProductPW`  — 在父視窗（開啟目前視窗的頁面）的URL欄中顯示指定的URL目標。 目前視窗會維持開啟，但父級視窗會變更以顯示 URL 目標。
 
    >[!NOTE]
    >
    >處理程式 `loadProductPW` 不支援 DHTML 和 HTML5 檢視器。
 
-### 建立URL模板 {#creating-a-url-template}
+### 建立URL範本 {#creating-a-url-template}
 
 1. 在「地圖編輯器」畫面 (影像或迴轉集) 或 eCatalog 畫面 (eCatalog) 的「地圖頁面」標籤上，選取「URL 範本」選項旁的「編輯」。「編輯地圖範本」對話框開啟。
-1. 輸入JavaScript代碼和完整URL（變數部分替換為美元符號） [$])。 通過按一下右鍵並選擇 **[!UICONTROL 貼上]**。
-1. 選擇 **[!UICONTROL 保存]**。
+1. 輸入JavaScript程式碼和完整URL （以美元符號取代變數部分） [$$])。 您可以按一下滑鼠右鍵並選擇 **[!UICONTROL 貼上]**.
+1. 選取 **[!UICONTROL 儲存]**.
 
-### 處理URL模板 {#handling-url-templates}
+### 處理URL範本 {#handling-url-templates}
 
 「地圖編輯器」頁面 (影像與迴轉集) 與 eCatalog 畫面 (eCatalog) 的「地圖頁面」標籤都提供下列命令，以處理 URL 範本:
 
-* **URL模板選項**  — 選擇「URL模板」選項，將URL模板應用於影像或電子目錄頁上的所有影像映射。
+* **URL範本選項**  — 選取「URL範本」選項，將您的URL範本套用至影像或eCatalog頁面上的所有影像地圖。
 
-* **模板選項**  — 如果不希望單個影像映射使用URL模板，請取消選擇「URL影像映射」清單中的「模板」選項。
+* **範本選項**  — 如果您不希望個別影像對映使用URL範本，請取消選取「URL影像對映」清單中的「範本」選項。
 
-## 定義影像映射的其他操作 {#defining-other-actions-for-image-maps}
+## 定義影像地圖的其他動作 {#defining-other-actions-for-image-maps}
 
-可以選擇 **[!UICONTROL 顯示]** 選項 **[!UICONTROL 其他操作]** 以觸發除滾動文本和網頁啟動之外的操作。 當使用者將指標移動到影像地圖上方，您就可以啟動動作。這些動作是全球資訊網協會 HTML 規格針對用戶端影像地圖所定義的屬性， 包括︰
+您可以選取 **[!UICONTROL 顯示]** 功能表並選擇 **[!UICONTROL 其他動作]** 以觸發滑鼠指向效果文字和網頁啟動以外的動作。 當使用者將指標移動到影像地圖上方，您就可以啟動動作。這些動作是全球資訊網協會 HTML 規格針對用戶端影像地圖所定義的屬性， 包括︰
 
-* **`accesskey`**  — 當用戶按鍵盤上的指定鍵時觸發操作。
+* **`accesskey`**  — 當使用者按下鍵盤上的指定按鍵時觸發動作。
 
-* **`onfocus`**  — 當「影像映射」接收焦點時觸發事件 — 通過游標、按鍵或按訪問鍵。 例如，您可以在影像地圖成為焦點時啟動網頁，並在影像地圖不再成為焦點時關閉該網頁。
+* **`onfocus`**  — 當影像地圖收到焦點時觸發事件 — 透過游標、Tab鍵或按存取鍵。 例如，您可以在影像地圖成為焦點時啟動網頁，並在影像地圖不再成為焦點時關閉該網頁。
 
-* **`onblur`**  — 當影像映射失去焦點時觸發事件，可通過游標或Tabbing。
+* **`onblur`**  — 當影像地圖失去焦點時觸發事件（游標或Tab鍵瀏覽皆然）。
 
 **定義影像地圖的其它動作:**
 
-1. 在「eCatalog」螢幕(eCatalog)的「映射編輯器」螢幕（影像和旋轉集）或「映射頁」頁籤上，選擇 **[!UICONTROL 顯示]** 的 **[!UICONTROL 其他操作]**。
+1. 在「地圖編輯器」畫面（影像和迴轉集）或eCatalog畫面(eCatalog)的「地圖頁面」標籤上，選取 **[!UICONTROL 顯示]** 功能表並選取 **[!UICONTROL 其他動作]**.
 1. 使用全球資訊網協會 HTML 規格所指定的語法，在「影像地圖」清單的「其他動作」欄中增加支援的屬性。
-1. 選擇 **[!UICONTROL 保存]**。
+1. 選取 **[!UICONTROL 儲存]**.
 
-選擇 **[!UICONTROL 顯示]** 的 **[!UICONTROL 兩者]** 的子菜單。
+選取 **[!UICONTROL 顯示]** 功能表並選取 **[!UICONTROL 兩者]** 如果您希望「影像地圖」有滑鼠指向效果文字和動作。
 
-## 在Adobe Acrobat或Adobe InDesign建立影像地圖 {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
+## 在Adobe Acrobat或Adobe InDesign中建立影像地圖 {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
 您可以在使用 Adobe Acrobat 或 Adobe InDesign 設計 eCatalog 時建立影像地圖。
 
-在Adobe Acrobat或Adobe InDesign，建立希望影像映射顯示的超連結引用，並指定影像映射的URL位置。 將PDF檔案上載到Adobe Dynamic Media Classic時，選擇「提取連結」選項會自動將連結轉換為「影像映射」。
+在Adobe Acrobat或Adobe InDesign中，建立您想要「影像地圖」出現的超連結參考，並指定影像地圖的URL位置。 選取「擷取連結」選項，將PDF檔案上傳至Adobe Dynamic Media Classic時，會自動將連結轉換為影像地圖。
 
-有關詳細資訊，請參閱Adobe InDesign幫助或Adobe Acrobat幫助。
+如需詳細資訊，請參閱Adobe InDesign說明或Adobe Acrobat說明。
 
 ### 在 Adobe InDesign 中建立影像地圖 {#to-create-image-maps-in-adobe-indesign}
 
-1. 在Adobe InDesign，轉到 **[!UICONTROL Windows®]** > **[!UICONTROL 互動]** > **[!UICONTROL 超連結]**。
-1. 在「超連結」面板中，選擇要製作為影像映射的文本、框架或圖形。
-1. 選擇 **[!UICONTROL 新建超連結]** 的子菜單。
-1. 在「新建超連結」對話框中， **[!UICONTROL 連結至]** 菜單，選擇 **[!UICONTROL URL]**。
-1. 在URL框中鍵入或貼上產品ID。
-1. 選擇 **[!UICONTROL 確定]**。 (Adobe Dynamic Media Classic使用「影像映射URL」模板完成URL。)
+1. 在Adobe InDesign中，前往 **[!UICONTROL Windows®]** > **[!UICONTROL 互動式]** > **[!UICONTROL 超連結]**.
+1. 在「超連結」面板中，選取您要製作成「影像地圖」的文字、框架或圖形。
+1. 選取 **[!UICONTROL 新增超連結]** 從面板選單中。
+1. 在新增超連結對話方塊中，從 **[!UICONTROL 連結至]** 功能表，選擇 **[!UICONTROL URL]**.
+1. 在URL方塊中鍵入或貼上產品ID。
+1. 選取 **[!UICONTROL 確定]**. (Adobe Dynamic Media Classic會使用影像地圖URL範本完成URL。)
 
    >[!NOTE]
    >
-   >您不需要在Adobe InDesign設定外觀選項。 可以指定在Adobe Dynamic Media Classic的外觀。
+   >您不需要在Adobe InDesign中設定外觀選項。 您可以在Adobe Dynamic Media Classic中指定外觀。
 
 1. 針對您要建立的所有影像地圖，重複步驟 2 到 6。
 1. 將檔案匯出成 PDF。
-1. 將PDF上傳到Adobe Dynamic Media Classic。
-1. 在 **[!UICONTROL PDF選項]**&#x200B;選中 **[!UICONTROL 提取連結]**。
+1. 將PDF上傳至Adobe Dynamic Media Classic。
+1. 在 **[!UICONTROL PDF選項]**，選取 **[!UICONTROL 擷取連結]**.
 
 ### 在 Adobe Acrobat 中建立影像地圖 {#to-create-image-maps-in-adobe-acrobat}
 
-1. 在Adobe Acrobat，轉到 **[!UICONTROL 工具]** > **[!UICONTROL 高級編輯]** > **[!UICONTROL 連結工具]**。
+1. 在Adobe Acrobat中，前往 **[!UICONTROL 工具]** > **[!UICONTROL 進階編輯]** > **[!UICONTROL 連結工具]**.
 1. 拖曳即可建立影像地圖。
-1. 在「建立連結」框中，選擇 **[!UICONTROL 自定義連結]**，然後選擇 **[!UICONTROL 下一個]**。
+1. 在建立連結方塊中，選取 **[!UICONTROL 自訂連結]**，並選取 **[!UICONTROL 下一個]**.
 
 >[!NOTE]
 >
->您不需要在Adobe Acrobat設定外觀選項。 可以指定在Adobe Dynamic Media Classic的外觀。
+>您不需要在Adobe Acrobat中設定外觀選項。 您可以在Adobe Dynamic Media Classic中指定外觀。
 
-1. 在「連結屬性」框中，選擇 **[!UICONTROL 操作]**。
-1. 選擇 **[!UICONTROL 開啟Web連結]** 從「選擇操作」菜單中，然後選擇 **[!UICONTROL 添加]**。
-1. 在「編輯URL」框中鍵入「影像映射」的產品ID，然後選擇 **[!UICONTROL 確定]**。 (Adobe Dynamic Media Classic使用影像映射URL模板完成URL。)
+1. 在「連結屬性」方塊中，選取 **[!UICONTROL 動作]**.
+1. 選取 **[!UICONTROL 開啟網頁連結]** 從「選取動作」功能表，然後選取 **[!UICONTROL 新增]**.
+1. 在「編輯URL」方塊中輸入「影像地圖」的產品ID，然後選取 **[!UICONTROL 確定]**. (Adobe Dynamic Media Classic會使用影像地圖URL範本完成URL。)
 1. 針對您要建立的所有影像地圖，重複步驟 1 到 7。
 1. 儲存檔案。
-1. 將PDF上載到Adobe Dynamic Media Classic，然後從「PDF選項」中選擇「提取連結」。
+1. 將PDF上傳至Adobe Dynamic Media Classic，然後從「PDF選項」中選取「擷取連結」 。

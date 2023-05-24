@@ -1,6 +1,6 @@
 ---
 title: 登入 Adobe Analytics
-description: 瞭解如何從Adobe Dynamic Media Classic登錄Adobe Analytics。
+description: 瞭解如何從Adobe Dynamic Media Classic登入Adobe Analytics。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: Rick Brough
 content-type: reference
@@ -19,90 +19,90 @@ ht-degree: 1%
 
 # 登入 Adobe Analytics{#log-in-to-adobe-analytics}
 
-在登錄以配置Adobe Analytics報告並將Adobe Analytics報告變數與Adobe Dynamic Media Classic事件匹配之前，請驗證您是Adobe Analytics的Web服務訪問組的成員。 此組中的成員可以通過Experience Cloud的Web服務API訪問指定報告套件中的所有報告，而不管在介面中設定了何種權限。 要向組添加成員，請在Adobe Analytics，轉到 **[!UICONTROL 管理工具]** > **[!UICONTROL 用戶管理]** > **[!UICONTROL 編輯組]**。
+在您登入設定Adobe Analytics報表並將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件相符之前，請先確認您是Adobe Analytics中「Web服務存取」群組的成員。 無論介面中設定的許可權為何，此群組中的成員皆可透過Experience Cloud的Web Services API存取指定報表套裝中的所有報表。 若要新增成員至群組，請在Adobe Analytics中前往 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 編輯群組]**.
 
-登錄時，您可以選擇輸入Experience Cloud組織ID以使用最新的視頻分析實現。 如果選擇不輸入ID，視頻報告仍然有效。 但是，它可能導致資料無法與來自Adobe Dynamic Media Classic以外的客戶端的其他資料正確整合。
+登入時，您可以選擇輸入Experience Cloud組織ID，以使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍可運作。 但是，這可能會導致資料無法正確與Adobe Dynamic Media Classic外部該使用者端的其他資料整合。
 
 >[!NOTE]
 >
->如果您的Adobe Analytics帳戶已遷移到基於Adobe IMS的身份驗證(Identity Management系統)進行登錄，則輸入直接憑據將不起作用。
+>如果您的Adobe Analytics帳戶已移轉至Adobe IMS驗證(Identity Management系統)以進行登入，則無法輸入直接憑證。
 
-## 從Adobe Dynamic Media Classic登錄Adobe Analytics {#log-in-to-analytics-from-dmc}
+## 從Adobe Dynamic Media Classic登入Adobe Analytics {#log-in-to-analytics-from-dmc}
 
-首先將Dynamic Media Classic與Adobe AnalyticsOAuth整合。 Adobe AnalyticsOAuth與Dynamic Media Classic的整合通常僅為每個用戶完成一次。
+首先，請整合Dynamic Media Classic與Adobe Analytics OAuth。 Adobe Analytics OAuth與Dynamic Media Classic的整合通常每個使用者只需完成一次。
 
-1. 訪問 [Adobe Developer控制台](https://developer.adobe.com/console)。 確保您的帳戶對需要整合的組織具有管理員權限。
-1. 在首頁右上角的下拉清單中，選擇相應的公司。 (下面的螢幕截圖僅供參考；您選擇的實際公司名稱可能會有所不同。)
+1. 存取 [Adobe Developer主控台](https://developer.adobe.com/console). 確保您的帳戶擁有需要整合之組織的管理員許可權。
+1. 在「首頁」右上角附近，從下拉式清單中選取適當的公司。 （下面的熒幕擷圖僅供參考；您選取的實際公司名稱可能會有所不同。）
 
-   ![建立新項目](assets/analytics-oauth1.png)
+   ![建立新專案](assets/analytics-oauth1.png)
 
-1. 執行下列任一操作：
+1. 執行下列任一項作業：
 
-   * 在頁面頂部，從 **[!UICONTROL 首頁]** 頁籤 **[!UICONTROL 建立新項目]**。
-   * 在頁面頂部，從 **[!UICONTROL 項目]** 頁籤。 在頁面右角附近，選擇 **[!UICONTROL 建立新項目]**。
+   * 頁面頂端的 **[!UICONTROL 首頁]** 索引標籤，選取 **[!UICONTROL 建立新專案]**.
+   * 頁面頂端的 **[!UICONTROL 專案]** 標籤。 在頁面的右角附近，選取 **[!UICONTROL 建立新專案]**.
 
-1. 在項目頁面上，選擇 **[!UICONTROL 添加API]**。
-1. 在 **[!UICONTROL 添加API]** ，選擇 **[!UICONTROL Adobe Analytics]**。
-1. 在頁面右下角附近，選擇 **[!UICONTROL 下一個]**。
+1. 在專案的頁面上，選取 **[!UICONTROL 新增API]**.
+1. 於 **[!UICONTROL 新增API]** 頁面，選取 **[!UICONTROL Adobe Analytics]**.
+1. 在頁面的右下角附近，選取 **[!UICONTROL 下一個]**.
 
-   ![添加API](assets/analytics-oauth2.png)
+   ![新增API](assets/analytics-oauth2.png)
 
-1. 在 **[!UICONTROL 配置API]** ，選擇 **[!UICONTROL 用戶身份驗證OAuth]**。
-1. 在頁面右下角附近，選擇 **[!UICONTROL 下一個]**。
-1. 在 **[!UICONTROL 配置API]** ，選擇 **[!UICONTROL OAUTH 2.0 Web]**。
-1. 在 **[!UICONTROL 預設重定向URI]** 文本欄位中，按如所示完全輸入以下路徑：
+1. 於 **[!UICONTROL 設定API]** 頁面，選取 **[!UICONTROL 使用者驗證OAuth]**.
+1. 在頁面的右下角附近，選取 **[!UICONTROL 下一個]**.
+1. 於 **[!UICONTROL 設定API]** 頁面，選取 **[!UICONTROL OAUTH 2.0 Web]**.
+1. 在 **[!UICONTROL 預設重新導向URI]** 文字欄位，請完全按照所示輸入以下路徑：
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
 
-1. 在 **[!UICONTROL 重定向URI模式]** 文本欄位中，按如所示完全輸入以下路徑：
+1. 在 **[!UICONTROL 重新導向URI模式]** 文字欄位，請完全按照所示輸入以下路徑：
 
    `https://exploreadobe\.com/dynamic-media-upgrade/`
 
-1. 在頁面的右下角，選擇 **[!UICONTROL 保存已配置的API]**。
-1. 在導航面板中，在Adobe Analytics頁的左側，在 **[!UICONTROL 憑據]**&#x200B;選中 **[!UICONTROL OAuth Web]**。
-1. 下 **[!UICONTROL 憑據詳細資訊]**，執行以下操作：
-   * 下 **[!UICONTROL 客戶端ID]**&#x200B;選中 **[!UICONTROL 複製]** 的子菜單。 您需要此值才能在Dynamic Media Classic案頭應用程式中進行後續的分析配置。
-   * 下 **[!UICONTROL 客戶端密碼]**&#x200B;選中 **[!UICONTROL 檢索客戶端密鑰]** 顯示關聯值。 選擇 **[!UICONTROL 複製]** 的子菜單。 您需要此值才能在Dynamic Media Classic案頭應用程式中進行後續的Adobe Analytics配置。
+1. 在頁面的右下角，選取 **[!UICONTROL 儲存已設定的API]**.
+1. 在導覽面板中，於Adobe Analytics頁面左側的下方 **[!UICONTROL 認證]**，選取 **[!UICONTROL OAuth Web]**.
+1. 下 **[!UICONTROL 認證詳細資料]**，請執行下列動作：
+   * 下 **[!UICONTROL 使用者端ID]**，選取 **[!UICONTROL 複製]** 以複製值。 您需要此值才能在後續的Dynamic Media Classic案頭應用程式中進行Analytics設定。
+   * 下 **[!UICONTROL 使用者端密碼]**，選取 **[!UICONTROL 擷取使用者端密碼]** 以顯示相關值。 選取 **[!UICONTROL 複製]** 以複製值。 您需要此值才能在Dynamic Media Classic案頭應用程式中進行後續的Adobe Analytics設定。
 
-## 在Adobe Dynamic Media Classic配置Adobe Analytics {#configure-analytics-in-dmc}
+## 在Adobe Dynamic Media Classic中設定Adobe Analytics {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
->在Dynamic Media Classic對Adobe Analytics進行初始配置後，您唯一必須重做配置的時間是：
+>在Dynamic Media Classic中進行Adobe Analytics的初始設定後，只有在下列情況下才必須重做設定：
 >
->* 分析中添加了新報告，用戶希望開始向該新報告發送資料。
->* 跟蹤伺服器在Adobe Analytics更新。
->* 報告中引入了新的跟蹤變數，您希望將Dynamic Media Classic用戶介面中的特定查看器變數連結到該新的分析變數。
+>* Analytics中新增了新報表，使用者想要開始傳送資料至該新報表。
+>* Adobe Analytics中的追蹤伺服器已更新。
+>* 報表中引進了新的追蹤變數，您希望將Dynamic Media Classic使用者介面中的特定檢視器變數連結到該新Analytics變數。
 >
 
 
-1. 在Adobe Dynamic Media Classic案頭應用程式的右上角，轉到 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]**。
-1. 在左面板中，在 **[!UICONTROL 應用程式設定]**&#x200B;選中 **[!UICONTROL Adobe Analytics]**。
-1. 在 **[!UICONTROL Adobe Analytics配置]** ，選擇 **[!UICONTROL Adobe Analytics登錄]**。
-1. 在 **[!UICONTROL Adobe Analytics登錄]** 對話框 **[!UICONTROL 客戶端ID]** 的 **[!UICONTROL 客戶端密碼]** 欄位，貼上您以前複製的各個值。
-1. 在對話框的右下角，選擇 **[!UICONTROL 登錄]** 並執行Adobe IMS(Identity Management服務)登錄。
+1. 在Adobe Dynamic Media Classic案頭應用程式的右上角附近，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]**.
+1. 在左側面板中的 **[!UICONTROL 應用程式設定]**，選取 **[!UICONTROL Adobe Analytics]**.
+1. 於 **[!UICONTROL Adobe Analytics設定]** 頁面，選取 **[!UICONTROL Adobe Analytics登入]**.
+1. 在 **[!UICONTROL Adobe Analytics登入]** 對話方塊，在 **[!UICONTROL 使用者端ID]** 欄位和 **[!UICONTROL 使用者端密碼]** 欄位中，貼上您先前複製的個別值。
+1. 在對話方塊的右下角，選取 **[!UICONTROL 登入]** 並執行您的Adobe IMS (Identity Management服務)登入。
 
-   成功登錄後，將再次出現「Adobe Analytics登錄」對話框，並 **[!UICONTROL 公司]** 下拉清單，由您可用的公司啟動。
+   當您成功登入時，「Adobe Analytics登入」對話方塊會再次出現，同時顯示 **[!UICONTROL 公司]** 下拉式清單，由您可用的公司啟動。
 
-1. 從 **[!UICONTROL 公司]** 下拉清單，選擇一個公司。
+1. 從 **[!UICONTROL 公司]** 從下拉式清單中選擇公司。
 
-   選擇公司後， **[!UICONTROL 套房]** 由報表套件啟動的下拉清單（可供選定公司使用）將變為可見。
+   選取公司後， **[!UICONTROL 套裝]** 由所選公司可用的報表套裝啟動的下拉式清單會變成可見。
 
-1. 從 **[!UICONTROL 套房]** 下拉清單，選擇報表套件。
+1. 從 **[!UICONTROL 套裝]** 從下拉式清單中選擇報表套裝。
 
    >[!NOTE]
    >
-   >預設情況下，用戶必須知道 **[!UICONTROL 公司]** 和 **[!UICONTROL 套房]** 下拉清單為空。 因此，用戶必須從每個清單中選擇一個值。
+   >依預設，使用者必須瞭解以下事實 **[!UICONTROL 公司]** 和 **[!UICONTROL 套裝]** 下拉式清單是空的。 因此，使用者必須從每個清單中選取一個值。
 
-1. 選擇 **[!UICONTROL 確定]** 以便保存配置。
+1. 選取 **[!UICONTROL 確定]** 以便儲存設定。
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Adobe Analytics伺服器]** 欄位將填充建議的第三方跟蹤伺服器，當您選擇 **[!UICONTROL 確定]**。 如果使用其他跟蹤伺服器，請在此欄位中更新它以避免資料丟失。
+   >此 **[!UICONTROL Adobe Analytics伺服器]** 欄位會填入在您選取時符合分析名稱空間的建議協力廠商追蹤伺服器 **[!UICONTROL 確定]**. 如果您使用不同的追蹤伺服器，請在此欄位中更新該伺服器，以避免資料遺失。
 
-1. 在「Adobe Analytics配置」頁的左下角，選擇 **[!UICONTROL 保存]** 以確保更新您的Adobe Analytics帳戶配置。
+1. 在「Adobe Analytics設定」頁面的左下角，選取「 」 **[!UICONTROL 儲存]** 以確保更新您的Adobe Analytics帳戶設定。
 
 >[!MORELIKETHIS]
 >
->* [配置Adobe Analytics報告](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
+>* [設定Adobe Analytics報表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
 

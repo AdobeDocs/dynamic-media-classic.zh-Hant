@@ -1,6 +1,6 @@
 ---
-title: 發佈旋轉集
-description: 瞭解如何從Adobe Dynamic Media Classic發佈旋轉集。
+title: 發佈迴轉集
+description: 瞭解如何從Adobe Dynamic Media Classic發佈迴轉集。
 uuid: 3b21ee5c-e494-48d0-8ccf-cb7670d11f5b
 contentOwner: Rick Brough
 content-type: reference
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 ---
 
-# 發佈旋轉集{#publishing-a-spin-set}
+# 發佈迴轉集{#publishing-a-spin-set}
 
-發佈旋轉集會將映像放在Dynamic Media映像伺服器上，這些映像可用於您的網站或應用程式。 此外，在發佈過程中，Adobe Dynamic Media Classic會激活網站或應用程式所需的「旋轉集URL」字串。
+發佈迴轉集會將影像放在Dynamic Media影像伺服器上的迴轉集中，以供您的網站或應用程式使用。 此外，在發佈程式中，Adobe Dynamic Media Classic會啟動您網站或應用程式所需的迴轉集URL字串。
 
-## 標籤要發佈的旋轉集 {#marking-a-spin-set-for-publish}
+## 標籤迴轉集以供發佈 {#marking-a-spin-set-for-publish}
 
-將自旋集標籤為發佈，以便將其複製到Adobe Dynamic Media Classic映像伺服器。 通過按一下 **[!UICONTROL 標籤為發佈]** 表徵圖。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
+標籤迴轉集以發佈，並複製到Adobe Dynamic Media Classic影像伺服器。 您可以在「瀏覽」面板中按一下 **[!UICONTROL 標籤為發佈]** 圖示加以識別。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
 
-## 發佈旋轉集 {#publishing-the-spin-set}
+## 發佈迴轉集 {#publishing-the-spin-set}
 
-要將旋轉集發佈到Dynamic Media映像伺服器，請在全局導航欄上，選擇 **[!UICONTROL 發佈]**。 然後選擇 **[!UICONTROL 當]** 的雙曲餘切值。 您可以（可選）輸入發佈作業的名稱。 選擇 **[!UICONTROL 提交發佈]**。
+若要將迴轉集發佈至Dynamic Media影像伺服器，請在全域導覽列上，選取 **[!UICONTROL 發佈]**. 然後選取 **[!UICONTROL 時間]** 選項。 您可以選擇輸入發佈工作的名稱。 選取 **[!UICONTROL 提交發佈]**.
 
 >[!MORELIKETHIS]
 >

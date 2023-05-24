@@ -1,6 +1,6 @@
 ---
-title: 發佈電子目錄和關聯PDF
-description: 瞭解如何從Adobe Dynamic Media Classic發佈eCatalogs和關聯PDF。
+title: 發佈eCatalog和相關PDF
+description: 瞭解如何從Adobe Dynamic Media Classic發佈eCatalog和相關PDF。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: Rick Brough
 content-type: reference
@@ -17,21 +17,21 @@ ht-degree: 21%
 
 ---
 
-# 發佈電子目錄和關聯PDF{#publishing-ecatalogs-and-associated-pdfs}
+# 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-發佈將您的eCatalog和PDF放在Dynamic Media映像伺服器上，以便您的網站或應用程式可以使用它。 作為發佈過程的一部分，Adobe Dynamic Media Classic激活URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
+發佈會將您的eCatalog和PDF置於Dynamic Media影像伺服器上，以便您的網站或應用程式可以使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
 
 >[!NOTE]
 >
->確保您的電子目錄和PDF位於同一資料夾中，並且在您發佈它們之前，它們被標籤為要在「瀏覽面板」或「資產詳細資訊」頁面中發佈。
+>請確定您的eCatalog和PDF位於相同的資料夾中，並在您發佈之前，在「瀏覽面板」或「資產詳細資訊」頁面中將它們標籤為要發佈。
 
-**要發佈電子目錄和關聯PDF:**
+**若要發佈eCatalog和相關聯的PDF：**
 
-1. 在全局導航欄上，選擇 **[!UICONTROL 發佈]**。
-1. 在「發佈」螢幕上，選擇 **[!UICONTROL 一次性]** 或 **[!UICONTROL 循環]**。
-1. （可選）在「作業名稱」欄位中，輸入發佈作業的名稱，但保留預定義的日期和時間文本。
+1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**.
+1. 在「發佈」畫面上，選取「 」 **[!UICONTROL 一次性]** 或 **[!UICONTROL 週期性]**.
+1. （選擇性）在「工作名稱」欄位中，輸入發佈工作的名稱，但保留預先定義的日期和時間文字。
 
-   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」(Publish)對話框中，選擇 **[!UICONTROL 高級]**。 從 **[!UICONTROL 發佈]** 下拉菜單，選擇 **[!UICONTROL 包含搜索資料的完整]**。 根據預設值，此選項為已選取。
+   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」對話方塊中，選取 **[!UICONTROL 進階]**. 從 **[!UICONTROL 發佈]** 下拉式功能表，選取 **[!UICONTROL 包含搜尋資料的完整]**. 根據預設值，此選項為已選取。
 
 1. 按一下「**[!UICONTROL 送出發佈]**」。
 

@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic案頭應用的系統要求
-description: 瞭解系統要求以獲得最佳使用體驗的Adobe Dynamic Media Classic。
+title: Adobe Dynamic Media Classic案頭應用程式的系統需求
+description: 瞭解系統需求，以使用Adobe Dynamic Media Classic獲得最佳體驗。
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: Rick Brough
 content-type: reference
@@ -17,12 +17,12 @@ ht-degree: 26%
 
 ---
 
-# Adobe Dynamic Media Classic案頭應用的系統要求 {#system-requirements}
+# Adobe Dynamic Media Classic案頭應用程式的系統需求 {#system-requirements}
 
-要獲得使用Adobe Dynamic Media Classic案頭應用的最佳體驗，請確保您的系統滿足以下系統要求和建議：
+為獲得使用Adobe Dynamic Media Classic案頭應用程式的最佳體驗，請確認您的系統符合下列系統需求與建議：
 
-* 需要Microsoft® Windows® 7或更高版本或macOSX 10.10或更新的Macintosh英特爾®處理器。
-* 需要3 GB或更高的RAM（建議4 GB或更高）。
+* 需要Microsoft® Windows® 7或更新版本，或macOS X 10.10或更新版本的Macintosh Intel®處理器。
+* 需要3 GB以上的RAM （建議為4 GB以上）。
 * 彩色螢幕。
 * 支援全彩 1280x1024 或以上之解析度的視訊卡。
 * 啟用JAVA的瀏覽器。

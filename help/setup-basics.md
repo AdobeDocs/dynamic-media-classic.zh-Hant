@@ -1,6 +1,6 @@
 ---
 title: 設定基礎
-description: 瞭解如何使用「設定」螢幕在Adobe Dynamic Media Classic輸入您的個人設定。 如果您是管理員，請為公司進行設定。
+description: 瞭解如何使用設定畫面在Adobe Dynamic Media Classic中輸入個人設定。 如果您是管理員，請為公司進行設定。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: Rick Brough
 content-type: reference
@@ -19,23 +19,23 @@ ht-degree: 16%
 
 # 設定基礎{#setup-basics}
 
-使用「Adobe Dynamic Media Classic設定」頁面輸入個人設定。 如果您是管理員，請為公司進行設定。要開啟「設定」頁面，請在「全局導航」欄上選擇 **[!UICONTROL 設定]**。
+使用Adobe Dynamic Media Classic設定頁面來輸入您的個人設定。 如果您是管理員，請為公司進行設定。若要開啟「設定」頁面，請在「全域導覽」列上選取 **[!UICONTROL 設定]**.
 
-此頁上可供您使用的設定取決於您作為用戶或管理員的狀態：
+您可以在此頁面上使用的設定取決於您作為使用者或管理員的狀態：
 
-* 用戶只能訪問 **[!UICONTROL 個人設定]** （二）所在公司的賬戶；不能執行任何管理任務。
-* 管理員可以訪問 **[!UICONTROL 個人設定]**，並查看和管理自己的公司帳戶。 同時，他們也可以執行所有應用程式設定功能和所有管理功能，包含增加管理員和使用者。
+* 使用者只能存取 **[!UICONTROL 個人設定]** 及其所屬公司的帳戶；他們無法執行任何管理工作。
+* 管理員可以存取 **[!UICONTROL 個人設定]**，並檢視及管理自己的公司帳戶。 同時，他們也可以執行所有應用程式設定功能和所有管理功能，包含增加管理員和使用者。
 
-管理員還可以在 **[!UICONTROL 設定]** 頁：
+管理員也可以在以下位置設定影像預設集和檢視器預設集： **[!UICONTROL 設定]** 頁面：
 
-* **影像預設**  — 影像預設是保存的格式，用於以不同大小和格式顯示主影像。
+* **影像預設集**  — 影像預設集是儲存的格式，用於以不同大小和格式顯示主要影像。
 
-* **查看器預設**  — 查看器預設決定了在查看器中查看富媒體時如何查看它。
+* **檢視器預設集**  — 檢視器預設集會決定您在檢視器中看到多媒體時的顯示方式。
 
 >[!MORELIKETHIS]
 >
->* [設定基礎培訓視頻](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
->* [Adobe Dynamic Media Classic用戶角色和權限](administration-setup.md#user_administration)
->* [影像預設](application-setup.md#image_presets)
->* [查看器預設](application-setup.md#viewer_presets)
+>* [設定基礎訓練影片](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classic使用者角色和許可權](administration-setup.md#user_administration)
+>* [影像預設集](application-setup.md#image_presets)
+>* [檢視器預設集](application-setup.md#viewer_presets)
 
