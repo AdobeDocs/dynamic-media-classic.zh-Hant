@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 最新版本(20.22.1)中的修正 {#release-jan2022}
 
-* 影像編輯 **[!UICONTROL 儲存]** 按鈕無法運作。
+* 編輯影像 **[!UICONTROL 儲存]** 按鈕無法運作。
 * 在「集合」編輯器中， **[!UICONTROL 關閉]**， **[!UICONTROL 儲存]**、和 **[!UICONTROL 另存為]** 在中捲動資產後，按鈕會變成停用 **[!UICONTROL 新增資產]** 面板。
 * **[!UICONTROL 播放]** 「視訊詳細資料」檢視中的按鈕無法運作。
 * 無法輸入 `d` 和 `e` 在 **[!UICONTROL 使用者名稱]** 和 **[!UICONTROL 密碼]** 執行macOS Monterey時的欄位。
@@ -89,7 +89,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 另請參閱:
 
 * [在Mac上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
-* [在Windows®上下載並靜默安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
 1. 在您的系統上解除安裝任何舊版Adobe Dynamic Media Classic案頭應用程式。
 
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 另請參閱:
 
-* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式®](#installation-dmc-app)
-* [在Windows®上下載並靜默安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
+* [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
 若要下載和 *靜音* 在macOS上安裝最新版Adobe Dynamic Media Classic案頭應用程式：
 
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 另請參閱:
 
-* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式®](#installation-dmc-app)
+* [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
 
 * [在macOS上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
 

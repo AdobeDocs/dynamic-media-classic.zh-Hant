@@ -5,9 +5,9 @@ keywords: Dynamic Media；電子報；產品更新；秘訣與技巧；活動；
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
    在本期中：
 
-   * 在這段充滿挑戰的時期，探索豐富媒體投資的三種方式。
+   * 在這段困難時期，探索您的豐富媒體投資可以提供的三種方式。
    * 報名參加網路研討會，瞭解如何使用智慧型影像減輕頁面負載。
    * 觀看Adobe Dynamic Media Classic的隨選技能建立網路研討會。
    * 從線上Adobe Summit2020檢視Dynamic Media工作階段。

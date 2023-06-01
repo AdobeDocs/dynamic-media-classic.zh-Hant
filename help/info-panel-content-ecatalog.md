@@ -10,10 +10,10 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '868'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
 * 「資訊」「面板資料摘要」面板可讓您指定CSV檔案，其中包含您要顯示在「資訊」「面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
-* 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
+* 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。您可以針對滑鼠指向效果文字使用此TXT選項或具有CSV檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
 ## 設定eCatalog的回應範本 {#set-up-a-response-template-for-ecatalogs}
@@ -49,7 +49,7 @@ ht-degree: 59%
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
-   * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
+   * 如果資料相對穩定且不需要一整天頻繁更新，請設定較高的數字。 預設為十小時。
 
 1. 選取 **[!UICONTROL 發佈]**.
 

@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 12%
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 * Adobe Analytics影片報表與Adobe Dynamic Media Classic的整合可支援解決方案變數，但無法支援自訂變數。
 
-   另請參閱 [音訊和視訊引數](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 以取得解決方案變數和自訂變數的詳細資訊。
+   另請參閱 [音訊和視訊引數](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/audio-video-parameters.html) 以取得解決方案變數和自訂變數的詳細資訊。
 
 * 一分鐘遞增的現成可用區段受到支援。 不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
 

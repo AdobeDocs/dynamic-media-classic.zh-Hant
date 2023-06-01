@@ -4,9 +4,9 @@ description: 從升級時的常見問題集(FAQ) [!DNL Adobe Dynamic Media Class
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 * 企業級數位資產管理，提供健全的中繼資料支援、智慧搜尋、燈箱和集合、版本控制及安全資產共用，以供廠商、合作夥伴及加盟商使用在製品資產檢閱和核准工作流程。
 * 可輕鬆採用和使用新的UI。
 * 使用可促進轉換並豐富使用者參與度和滿意度的影像和視訊，建立可購物/互動媒體體驗。
-* 結合行銷活動資產與產品資訊，以簡化點按至購物車的程式。
+* 結合行銷活動資產與產品資訊，簡化點按至購物車的程式。
 * 使用WYSIWYG檢視器設計工具輕鬆建立、調整、品牌化和部署互動式檢視器。
 * 將最佳化的多媒體傳送至 [!DNL Experience Cloud] 解決方案。
 * 與整合 [!DNL Experience Cloud] 適用於各種行銷接觸點的進階資產分析、目標定位和資產重複使用。 這些接觸點包括 [!DNL Adobe Campaign] 對於電子郵件， [!DNL Adobe Social] 適用於社交管道，以及 [!DNL Experience Manager] 回應式網頁和行動應用程式的網站。
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援，99.95% SLA。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務、每月3.5 PB的流量，以及超過5億個資產的管理能力，流量逐年成長達60%。
+* 備受肯定的基礎建設，為全球800多家客戶提供服務，每月3.5PB的流量，以及超過5億個資產的管理能力，流量逐年成長達60%。
 
 +++
 
@@ -172,7 +172,7 @@ Adobe持續提供完整支援和維護 [!DNL Dynamic Media Classic] （客戶要
 +++
 
 +++**隨附多少儲存空間 [!DNL Dynamic Media]？**
-包含60GB的儲存空間。 您可以以250GB的區塊購買額外的儲存空間。 檢查合約詳細資料以取得目前的儲存分配。
+包含60GB的儲存空間。 您可以以250GB的區塊購買額外的儲存空間。 若要取得您目前的儲存配額，請檢查您的合約詳細資料。
 
 +++
 
@@ -199,8 +199,8 @@ Adobe會對所有移至的資產執行自動驗證 [!DNL Dynamic Media]. 由支�
 
 +++
 
-+++**會 [!DNL Dynamic Media] 有需要升級的功能嗎？ 有哪些功能可用 [!DNL Dynamic Media] 於 [!DNL Experience Manager] 資產？**
-請參閱 [功能比較](/help/upgrade-feature-comparison.md) 頁面以深入瞭解。
++++**會 [!DNL Dynamic Media] 是否有必須升級的功能？ 有哪些功能可用 [!DNL Dynamic Media] 於 [!DNL Experience Manager] 資產？**
+請參閱 [功能比較](/help/upgrade-feature-comparison.md) 頁面。
 
 +++
 
@@ -211,7 +211,7 @@ Adobe會對所有移至的資產執行自動驗證 [!DNL Dynamic Media]. 由支�
 * 影像範本。
 * eCatalog.
 
-另請參閱 [功能比較](/help/upgrade-feature-comparison.md) 頁面以深入瞭解。
+另請參閱 [功能比較](/help/upgrade-feature-comparison.md) 頁面。
 
 +++
 
@@ -246,7 +246,7 @@ Adobe會與您合作來計畫專案。 Adobe負責布建和設定帳戶、複製
 +++**我可以在何處進一步瞭解付費培訓選項？**
 另請參閱 [Adobe數位學習服務](https://learning.adobe.com).
 
-若要進行自訂或個人培訓，請聯絡您的Adobe客戶團隊代表。
+如需自訂或個人訓練，請聯絡您的Adobe客戶團隊代表。
 
 +++
 
