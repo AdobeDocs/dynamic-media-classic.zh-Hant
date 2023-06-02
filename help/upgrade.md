@@ -4,9 +4,9 @@ description: 升級自 [!DNL Adobe Dynamic Media Classic] 至 [!DNL Dynamic Medi
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 | 輕鬆製作 | 無需技術協助，即可快速建置、自訂和啟動豐富的體驗。 |
 | 直覺式介面 | 使用簡單易用的WYSIWYG （所見即所得）介面編輯影像檢視器和視訊播放器。 |
 | Shoppable Media | 使用影像熱點及可點按連結建立可購物影像、影片和輪播。 |
-| 可擴充的CDN （內容傳遞網路） | 使用同級最佳的CDN，提供經驗證的擴充能力和效能，滿足任何需求。 |
+| 可擴充的CDN | 使用同級最佳的內容傳遞網路(CDN)，以經驗證的規模和效能滿足任何需求。 |
 | Dynamic Imaging | 使用一個主要檔案，自動產生和發佈不限數量的版本，並變更大小、格式、解析度、裁切或效果。 |
 | Dynamic Video | 全尺寸視訊會針對所有熒幕自動調整大小，並自適應的串流，以確保一致且高品質的使用者體驗。 |
 | 個人化 | 輕鬆建置和發佈 [!DNL Dynamic Media] 互動式體驗，例如產品設定器、個人化橫幅和電子郵件。 |
@@ -54,4 +54,4 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 * 在2016年線上視訊平台報告中表現卓越。
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援、99.95% SLA、Adobe Professional Services。
-* 為全球800多家客戶提供深獲肯定的基礎建設、每月3.5 PB的流量，以及超過5億個資產的管理能力，流量與上年同期相比成長了60%。
+* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務、每月3.5 PB的流量，以及超過5億個資產的管理能力，流量與上年同期相比成長了60%。

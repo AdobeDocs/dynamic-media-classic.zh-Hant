@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic提供許多建立多媒體特效的工具。 按一下滑鼠指向效果即可使用這些工具 **[!UICONTROL 編輯]** 按鈕和（在「詳細資訊」檢視的「瀏覽」面板中）。 您可以在Adobe Dynamic Media Classic中執行下列影像編輯工作：
 
-* **建立影像地圖**  — 若要建立「影像地圖」，請選取「影像」指令或 **[!UICONTROL 影像地圖]** 按鈕。 「影像地圖」是影像、eCatalog頁面或SpinSet中顯示具有滑鼠指向效果文字之面板的影像上的熱點。 例如，使用者可以選取「影像地圖」來啟動新網頁。 另請參閱 [建立影像地圖](/help/creating-image-maps.md).
+* **建立影像地圖**  — 若要建立「影像地圖」，請選取「影像」指令或 **[!UICONTROL 影像地圖]** 按鈕。 影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個連結區，可顯示內含滑鼠指向效果文字的面板。例如，使用者可以選取「影像地圖」來啟動新網頁。 另請參閱 [建立影像地圖](/help/creating-image-maps.md).
 
 * **建立縮放目標**  — 若要建立縮圖目標，請選取「縮放目標」命令或 **[!UICONTROL 縮放目標]** 按鈕。 使用者可以在縮放檢視器中選取縮圖目標，以直接縮放至影像的特定部分。 另請參閱 [建立引導式縮放的縮放目標](/help/creating-zoom-targets-guided-zoom.md).
 
@@ -33,4 +33,4 @@ Adobe Dynamic Media Classic提供許多建立多媒體特效的工具。 按一�
 
 * **編輯圖層**  — 若要在PSD檔案中顯示個別的可編輯圖層，請選取 **[!UICONTROL 圖層]** 標籤。 上傳PSD檔案時，所有圖層都會個別上傳為個別檔案，以便您可以在Adobe Dynamic Media Classic中編輯它們。
 
-除了使用這些工具編輯影像外，您也可以在將影像上傳至Adobe Dynamic Media Classic時編輯影像。 例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
+除了使用這些工具來編輯影像外，您也可以在將影像上傳至Adobe Dynamic Media Classic時編輯影像。 例如，您可以在上載影像時裁切影像、從剪裁路徑建立遮色片，以及選取色彩設定檔。
