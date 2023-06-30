@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2405'
 ht-degree: 42%
@@ -48,12 +50,12 @@ ht-degree: 42%
 
 * **[!UICONTROL 本地化支援]*** — 這些設定可讓您管理多個地區設定屬性。 也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
 
-   例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後，您新增所需語言的翻譯文字字串，以在檢視器的預設集中編輯工具提示文字。
+  例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後，您新增所需語言的翻譯文字字串，以在檢視器的預設集中編輯工具提示文字。
 
-   >[!NOTE]
-   > 若要設定本地化支援選項， [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求設定說明。
+  >[!NOTE]
+  > 若要設定本地化支援選項， [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求設定說明。
 
-   如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
+  如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
 ### 進行資產本地化設定時的注意事項 {#considerations-when-setting-up-localization-of-assets}
 

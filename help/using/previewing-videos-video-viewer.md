@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 28%
@@ -72,14 +74,14 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 1. 增加或編輯用於顯示視訊的「檢視器預設集」:
 
    * **新增**  — 選取 **[!UICONTROL 新增]** （在工具列中）。 在「新增檢視器預設集」對話方塊中，從各自的下拉式清單中選擇平台和檢視器，然後選取 **[!UICONTROL 新增]**.
+
    另請參閱 [新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets).
 
    * **從現有的檢視器預設集開始新增**  — 在表格中，選取「視訊檢視器預設集」，然後選取 **[!UICONTROL 編輯]** （在工具列中）。
+
    重新設定Video Viewer後，選取 **[!UICONTROL 另存為]** 以使用「預設集名稱」文字欄位中的不同名稱儲存預設集。
 
    * **編輯**  — 選取視訊檢視器預設集，然後選取 **[!UICONTROL 編輯]**.
-
-
 
 1. 在「設定檢視器」頁面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
 1. 設定其它想要的選項。
@@ -95,4 +97,3 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 >
 >* [視訊編碼最佳實踐](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

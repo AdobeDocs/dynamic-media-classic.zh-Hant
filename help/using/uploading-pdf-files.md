@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ ht-degree: 36%
 * 如果您要檢視器依關鍵字搜尋 eCatalog，請檢查您的 PDF 檔案是否已「平面化」。您無法從已平面化的 PDF 檔案中擷取搜尋字詞。若要檢查 PDF 檔案是否已平面化，請嘗試選取其中的文字。如果您無法選取文字，PDF會平面化，且檢視器無法依您在eCatalog中的關鍵字進行搜尋。
 * 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。依預設，Adobe Dynamic Media Classic可以聰明地偵測這些CMYK影像，並使用內部CMYK色彩設定檔來轉換它們。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
 
-   另請參閱 [ICC （國際色彩聯盟）設定檔](icc-profiles.md#icc_profiles).
+  另請參閱 [ICC （國際色彩聯盟）設定檔](icc-profiles.md#icc_profiles).
 
 ## 最佳實務 PDF 上載選項 {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ ht-degree: 36%
 
 * **色域**  — 在上傳工作選項對話方塊中，選取 **[!UICONTROL PDF選項]**. 在「色域」下拉式清單中，選擇 **[!UICONTROL 自動偵測]**. 通常針對列印輸出所建立的 PDF 是 CMYK 格式；針對線上檢視所建立的 PDF 則是 RGB。如果 PDF 同時使用兩個色域，則您可以選擇「強制為 RGB」或「強制為 CMYK」，來選取一個特定色域。例如，當頁面圖形使用 CMYK 色域，但圖片卻使用 RGB 時，PDF 會同時使用兩個色域。如果您上載了 ICC 設定檔，它的名稱便會顯示在「色域」選單上供您選擇。
 
-   另請參閱 [ICC （國際色彩聯盟）設定檔](/help/using/icc-profiles.md).
+  另請參閱 [ICC （國際色彩聯盟）設定檔](/help/using/icc-profiles.md).
 
 * **色彩設定檔選項**  — 在上傳工作選項對話方塊中，選取 **[!UICONTROL 色彩設定檔選項]**，然後選擇「色彩設定檔」選項：
 

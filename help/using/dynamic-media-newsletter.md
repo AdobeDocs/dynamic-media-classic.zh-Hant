@@ -1,11 +1,13 @@
 ---
 title: Dynamic Media電子報封存
-description: 封存的Dynamic Media電子報是Experience League的每月電子報。 其設計可協助您快速熟悉Dynamic Media和Adobe Dynamic Media Classic，並立即實現價值。 封存的電子報包含寶貴知識建構資源，這些資源可在此一站式商店電子報中取得，現已停用。 封存的電子報包括操作說明影片和解決方案概述。 此外也介紹影像預設集、檢視器預設集和視訊設定檔等主要功能。
+description: 「Experience League的封存Dynamic Media電子報是每月電子報。 其設計可協助您快速熟悉Dynamic Media和Adobe Dynamic Media Classic，並立即實現價值。 封存的電子報包含寶貴知識建構資源，這些資源可在此一站式商店電子報中取得，現已停用。 封存的電子報包括操作說明影片和解決方案概述。 此外也介紹影像預設集、檢視器預設集和視訊設定檔等主要功能。」
 keywords: Dynamic Media；電子報；產品更新；秘訣與技巧；活動；客戶成功；部落格；部落格；影像；影片；功能
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -48,7 +50,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2020年4月第3期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2020_April.html)**
 
-   在本期中：
+  在本期中：
 
    * 在這段充滿挑戰的時期，探索豐富媒體投資的三種方式。
    * 報名參加網路研討會，瞭解如何使用智慧型影像減輕頁面負載。
@@ -59,7 +61,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2020年2月第2期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
-   在本期中：
+  在本期中：
 
    * 參加新的Skill Builder網路研討會，並轉化為Adobe Dynamic Media Classic專家。
    * 檢視Adobe Summit2020處的Dynamic Media。
@@ -70,7 +72,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2020年1月第1期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
-   在本期中：
+  在本期中：
 
    * 五場全新的技能建立網路研討會，可磨練您的Adobe Dynamic Media Classic技能。
    * 免費稽核可協助您從Adobe Dynamic Media Classic中獲得更多價值。
@@ -80,7 +82,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年11月第11期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_11_2019_Nov.html)**
 
-   在本期中：
+  在本期中：
 
    * 重新整理Adobe Dynamic Media Classic使用者介面。
    * 強大的全新安全性功能。
@@ -90,7 +92,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年10月第10期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
-   在本期中：
+  在本期中：
 
    * 如何取得訪客在Dynamic Media檢視器中所採取動作的進階分析。
    * 提供提供高品質影像和視訊的資訊圖表，其中包含令人驚歎的秘訣。
@@ -101,7 +103,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年9月第09期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
-   在本期中：
+  在本期中：
 
    * 透過消除這9個「疑問」來強化客戶體驗。
    * 瞭解Dynamic Media團隊如何協助您做好準備，以迎接高於正常訪客流量的一天。
@@ -112,7 +114,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年8月第08期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
 
-   在本期中：
+  在本期中：
 
    * 探索僅當您升級至Dynamic Media時才能使用的寶貴功能。
    * 瞭解專為讓您快速掌握Experience Manager Assets和Dynamic Media而設計的網路研討會系列。
@@ -122,7 +124,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年7月第07期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
-   在本期中：
+  在本期中：
 
    * 可讓您妥善管理高價值資產的資源和資訊，以放心地提供體驗，讓訪客隨時回訪。
    * 瞭解即將舉辦的保護數位資產網路研討會。
@@ -133,7 +135,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年6月第06期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**
 
-   在本期中：
+  在本期中：
 
    * 觀賞影片，瞭解在Experience Manager Assets內升級至Dynamic Media的絕妙之處。
    * 觀看Experience League的重要作法影片。
@@ -144,7 +146,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年5月第05期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
-   在本期中：
+  在本期中：
 
    * 在部落格中探索Adobe Dynamic Media Classic的前十大隱藏功能。
    * 觀看Experience League的重要作法影片。
@@ -154,9 +156,9 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
 * **[2019年4月第04期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2019_April.html)**
 
-   歡迎收看Dynamic Media電子報的就職發行。 Adobe每月的新電子報充滿了新聞、事件和資源。 內容適用於Experience Manager Assets和Adobe Dynamic Media Classic內的Dynamic Media使用者。
+  歡迎收看Dynamic Media電子報的就職發行。 Adobe每月的新電子報充滿了新聞、事件和資源。 內容適用於Experience Manager Assets和Adobe Dynamic Media Classic內的Dynamic Media使用者。
 
-   在本期中：
+  在本期中：
 
    * 報名Adobe的Dynamic Media Classic隱藏功能網路研討會。
    * 為協助您開發多媒體策略，請瞭解Adobe的隨選網路研討會系列。

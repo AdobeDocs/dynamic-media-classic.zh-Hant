@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: 瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制限制。 也瞭解Dynamic Media不支援的網頁瀏覽器和作業系統組合。
+description: 「瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制執行限制。 也瞭解Dynamic Media不支援的網頁瀏覽器和作業系統組合。」
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%

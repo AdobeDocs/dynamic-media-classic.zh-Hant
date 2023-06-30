@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
       * **[!UICONTROL 顏色]**  — 選擇「顏色」選項。 然後選取 **[!UICONTROL 轉角]** 功能表，然後以最能代表您要裁切之空白顏色的顏色，選擇PDF的轉角。
 
       * **[!UICONTROL 透明度]**  — 選擇「透明度」選項。
+
    * **[!UICONTROL 容許度]**  — 拖曳滑桿以指定從0到1的公差。
 
    * **[!UICONTROL 根據顏色修剪]**  — 指定0以裁切畫素，前提是這些畫素完全符合您在PDF角落選取的顏色。 數值越接近 1，允許的色彩差異就越大。
 
    * **[!UICONTROL 根據透明度修剪]**  — 指定0可裁切透明畫素；數字越接近1則透明度越高。
-
 
 ## 從PDF頁面側面裁切 {#cropping-from-the-sides-of-pdf-pages}
 

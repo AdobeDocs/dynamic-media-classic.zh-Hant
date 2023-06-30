@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,16 +43,16 @@ Adobe Dynamic Media Classic提供多種調整影像外觀的指令。 您可以�
 
    * 若要取代影像的原始影像，請選取 **[!UICONTROL 另存為]**.
 
-      在下拉式清單中，選取 **[!UICONTROL 取代原始檔案]**，然後選取 **[!UICONTROL 儲存]**.
+     在下拉式清單中，選取 **[!UICONTROL 取代原始檔案]**，然後選取 **[!UICONTROL 儲存]**.
 
    * 若要將影像儲存為新的主影像，請選取 **[!UICONTROL 另存為]**.
 
-      在下拉式清單中，選取「**[!UICONTROL 另存為新的主檔案]**」。在 **[!UICONTROL 資料夾名稱]** 清單方塊中，選取您要儲存新主要影像的資料夾。
+     在下拉式清單中，選取「**[!UICONTROL 另存為新的主檔案]**」。在 **[!UICONTROL 資料夾名稱]** 清單方塊中，選取您要儲存新主要影像的資料夾。
 選取 **[!UICONTROL 儲存]**.
 
    * 將影像儲存為主要影像的另一個檢視。 您可以建立它的別名。選取 **[!UICONTROL 另存為]**.
 
-      在 **[!UICONTROL 另存為]** 對話方塊中，在下拉式清單中選取 **[!UICONTROL 另存為主影像的另一個檢視]**.
+     在 **[!UICONTROL 另存為]** 對話方塊中，在下拉式清單中選取 **[!UICONTROL 另存為主影像的另一個檢視]**.
 在 **[!UICONTROL 資料夾名稱]** 清單方塊中，選取您要儲存新主要影像的資料夾。
 選取 **[!UICONTROL 儲存]**.
 

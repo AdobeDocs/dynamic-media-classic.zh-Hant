@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ ht-degree: 56%
 
    | 工作 | 已讀 | 寫入 | 刪除 |
    | --- | --- | --- | --- |
-   | 瀏覽檔案夾與檔案 | X |  |  |
-   | 編輯檔案 (裁切、銳利化、調整) |  | X |  |
-   | 變更檔案名稱 |  | X |  |
-   | 將檔案移至其他檔案夾 |  | X |  |
-   | 重新命名檔案 |  | X |  |
-   | 刪除檔案 |  |  | X |
+   | 瀏覽檔案夾與檔案 | X | | |
+   | 編輯檔案 (裁切、銳利化、調整) | | X | |
+   | 變更檔案名稱 | | X | |
+   | 將檔案移至其他檔案夾 | | X | |
+   | 重新命名檔案 | | X | |
+   | 刪除檔案 | | | X |
 
 1. 選取 **[!UICONTROL 關閉]**.
 

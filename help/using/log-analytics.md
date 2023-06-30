@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -75,7 +77,6 @@ ht-degree: 1%
 >* 報表中引進了新的追蹤變數，您希望將Dynamic Media Classic使用者介面中的特定檢視器變數連結到該新Analytics變數。
 >
 
-
 1. 在Adobe Dynamic Media Classic案頭應用程式的右上角附近，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]**.
 1. 在左側面板中的 **[!UICONTROL 應用程式設定]**，選取 **[!UICONTROL Adobe Analytics]**.
 1. 於 **[!UICONTROL Adobe Analytics設定]** 頁面，選取 **[!UICONTROL Adobe Analytics登入]**.
@@ -105,4 +106,3 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [設定Adobe Analytics報表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

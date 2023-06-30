@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Adobe Dynamic Media Classic可以將註解檔案轉換為JSON （JavaScript物�
 
    * 若要取得快顯視訊檢視器體驗，請選取「 」 **[!UICONTROL 複製URL]** 名稱的最右側。
 
-      將複製的影片URL附加至下列語法，這樣您就可以將它與複製的URL與註解檔案建立關聯：
+     將複製的影片URL附加至下列語法，這樣您就可以將它與複製的URL與註解檔案建立關聯：
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      請注意 `,1` 在註解URL路徑結尾。 路徑中的VTT副檔名後面緊接著可以設定為，選擇性地啟用或停用視訊播放器列上的隱藏式字幕按鈕 `1` 或 `0`（分別）。
+     請注意 `,1` 在註解URL路徑結尾。 路徑中的VTT副檔名後面緊接著可以設定為，選擇性地啟用或停用視訊播放器列上的隱藏式字幕按鈕 `1` 或 `0`（分別）。
 
    * 若要內嵌視訊檢視器體驗，請選取「 」 **[!UICONTROL 內嵌程式碼]** 名稱的最右側。
 
-      在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
+     在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
-      針對HTML5 `Universal_HTML5_Video`， `Universal_HTML5_MixedMedia_dark`，或 `Universal_HTML5_MixedMedia_light` 檢視器，請在複製的內嵌程式碼後附加下列內容：
+     針對HTML5 `Universal_HTML5_Video`， `Universal_HTML5_MixedMedia_dark`，或 `Universal_HTML5_MixedMedia_light` 檢視器，請在複製的內嵌程式碼後附加下列內容：
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      請注意 `,1` 在URL路徑結尾。 在URL路徑中的VTT副檔名後面，您可以視需要選擇將設定為，啟用或停用視訊播放器列上的註解按鈕 `1` 或 `0`（分別）。
+     請注意 `,1` 在URL路徑結尾。 在URL路徑中的VTT副檔名後面，您可以視需要選擇將設定為，啟用或停用視訊播放器列上的註解按鈕 `1` 或 `0`（分別）。

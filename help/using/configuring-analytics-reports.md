@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 27%
@@ -70,8 +72,8 @@ ht-degree: 27%
 | SWAP | **X** (eCatalog、彈出、迴轉集、視訊、縮放) | 當使用者選擇不同的縮圖來檢視不同的影像時。 |
 | ITEM | **X** (eCatalog) | 當使用者在支援已定義滑鼠指向效果的影像地圖的檢視器中，將指標暫留在影像地圖上以讀取滑鼠指向效果文字時。 |
 | HREF | **X** (eCatalog) | 在支援「影像地圖」的檢視器中，當使用者在「影像地圖」中選取URL時。 |
-| TARGET |  | 在目標縮放檢視器中，使用者選取縮放目標以縮放至影像的一部分時。 |
-| SEARCH |  | 當使用者在 eCatalog 中，執行關鍵字搜尋時。 |
+| TARGET | | 在目標縮放檢視器中，使用者選取縮放目標以縮放至影像的一部分時。 |
+| SEARCH | | 當使用者在 eCatalog 中，執行關鍵字搜尋時。 |
 | PLAY | **X** (視訊) | 在視訊檢視器中，當使用者選取「播放」開始播放視訊時。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。另請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
 | PAUSE | **X** (視訊) | 在視訊檢視器中，當使用者選取 **[!UICONTROL 暫停]** 以凍結視訊。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。另請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |
 | STOP | **X** (視訊) | 在視訊檢視器中，當使用者選取 **[!UICONTROL 停止]** 以停止播放視訊。<br><br>**注意：** 如果您使用Adobe Analytics心率型視訊報表，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。另請參閱 [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md). |

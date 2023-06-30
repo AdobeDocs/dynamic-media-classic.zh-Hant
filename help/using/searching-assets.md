@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ ht-degree: 19%
 
    * **選擇中繼資料欄位**  — 在篩選功能表上選取欄位名稱。
 
-      >[!NOTE]
-      >
-      >只有預設「中繼資料檢視」的中繼資料欄位名稱，才會顯示在篩選選單上。
+     >[!NOTE]
+     >
+     >只有預設「中繼資料檢視」的中繼資料欄位名稱，才會顯示在篩選選單上。
 
-      請參閱[中繼資料檢視](application-setup.md#metadata_views)。
+     請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
    * **新增中繼資料欄位**  — 選取 **[!UICONTROL 新增面板]**. 面板出現在「篩選器」窗格後，選取其 **[!UICONTROL 欄位]** 按鈕，並在篩選功能表上選擇中繼資料欄位的名稱。
 
@@ -127,7 +129,6 @@ ht-degree: 19%
 
    * 曾在該欄位中輸入過的所有中繼資料值。
    * 針對每個中繼資料值，曾使用過該值的資產數目。
-
 
 1. 視需要多次重複步驟 2，即可在面板上列出適合執行篩選作業的所有中繼資料欄位。
 1. 在每個面板中，選取要篩選的中繼資料值。您無法在每個面板中選取多個中繼資料值。
@@ -172,4 +173,3 @@ ht-degree: 19%
 >
 >* [導覽基本概念](navigation-basics.md#navigation_basics)
 >* [檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

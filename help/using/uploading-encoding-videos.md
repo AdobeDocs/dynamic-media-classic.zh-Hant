@@ -9,7 +9,9 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3967'
 ht-degree: 56%
@@ -26,7 +28,7 @@ ht-degree: 56%
    * HTTP 即時串流(Apple 的串流通訊協定)。
    * 漸進式視訊傳送至Android™、BlackBerry®和Windows®行動裝置
 
-   Adobe Dynamic Media Classic提供上傳視訊檔案的兩個工作流程：
+  Adobe Dynamic Media Classic提供上傳視訊檔案的兩個工作流程：
 
 * **預先編碼的視訊**  — 您直接將MP4檔案上傳至Adobe Dynamic Media Classic。 在此工作流程中，上載時不會將檔案編碼。檔案在準備傳送到桌面和行動裝置時會進行預先編碼。
 
@@ -34,13 +36,13 @@ ht-degree: 56%
 
    * 請確定您想要編碼的主要來源視訊檔案受到支援。
 
-      請參閱[編碼支援的視訊檔案類型](uploading-encoding-videos.md#supported-video-file-types-for-encoding)。
+     請參閱[編碼支援的視訊檔案類型](uploading-encoding-videos.md#supported-video-file-types-for-encoding)。
 
    * 選擇視訊編碼預設集。
 
-      請參閱[編碼視訊檔案的視訊預設集](application-setup.md#video-presets-for-encoding-video-files)。
+     請參閱[編碼視訊檔案的視訊預設集](application-setup.md#video-presets-for-encoding-video-files)。
 
-      請參閱[視訊編碼的最佳實踐](uploading-encoding-videos.md#best-practices-for-video-encoding)。
+     請參閱[視訊編碼的最佳實踐](uploading-encoding-videos.md#best-practices-for-video-encoding)。
 
 Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視訊縮圖、如何取得其 URL，以及修改海報框架。
 
@@ -97,28 +99,28 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 
 * **視訊轉碼器**  — 視訊轉碼器說明視訊的編碼演演算法。 視訊播放器根據其轉碼器對視訊進行解碼，然後在畫面顯示一系列影像或影格。轉碼器將視訊檔案儲存為播放視訊所需的資訊量降至最低。只會儲存一個影格和下一個影格之間差異的相關資訊，而不儲存每個單獨影格的相關資訊。由於大部分的視訊在不同影格之間幾乎不會變化，轉碼器可提供高壓縮率，進而縮小檔案大小。
 
-   | 視訊檔案格式 | 視訊轉碼器 |
-   | --- | --- |
-   | 3GP | H.263、H.264 |
-   | AVI | DivX、DV |
-   | M2P | MPEG-2 PS |
-   | M2T | MPEG-2 TS |
-   | M2TS | MPEG-2 TS |
-   | M2V | MPEG-2 ES |
-   | M4V | H.264 |
-   | MOV | DV、DVCPro 50、H.261、H.263、H.264、Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
-   | MPEG | MPEG-2 SS |
-   | MPG | MPEG-2 SS |
-   | MTS | MPEG-2 |
-   | ProRes | APCN、APCS、APCO、APCH、AP4H |
-   | TS | DVCPro 50 |
-   | VOB | MPEG-2 |
-   | WMV/ASF | VC-1、Windows® Media Video 7、Windows® Media Video 8 |
+  | 視訊檔案格式 | 視訊轉碼器 |
+  | --- | --- |
+  | 3GP | H.263、H.264 |
+  | AVI | DivX、DV |
+  | M2P | MPEG-2 PS |
+  | M2T | MPEG-2 TS |
+  | M2TS | MPEG-2 TS |
+  | M2V | MPEG-2 ES |
+  | M4V | H.264 |
+  | MOV | DV、DVCPro 50、H.261、H.263、H.264、Sorenson Video 1 |
+  | MP4 | H.264/MPEG-4 AVC |
+  | MPEG | MPEG-2 SS |
+  | MPG | MPEG-2 SS |
+  | MTS | MPEG-2 |
+  | ProRes | APCN、APCS、APCO、APCH、AP4H |
+  | TS | DVCPro 50 |
+  | VOB | MPEG-2 |
+  | WMV/ASF | VC-1、Windows® Media Video 7、Windows® Media Video 8 |
 
-   >[!NOTE]
-   >
-   >如果您上載並嘗試編碼視訊檔案，但因檔案包含不相容的編碼器或檔案容器而被拒絕，「工作」畫面會發出警告。如需詳細資訊，請參閱 [檢查工作檔案](checking-job-files.md).
+  >[!NOTE]
+  >
+  >如果您上載並嘗試編碼視訊檔案，但因檔案包含不相容的編碼器或檔案容器而被拒絕，「工作」畫面會發出警告。如需詳細資訊，請參閱 [檢查工作檔案](checking-job-files.md).
 
 ## 視訊編碼最佳實踐 {#best-practices-for-video-encoding}
 
@@ -315,9 +317,9 @@ Adobe Dynamic Media Classic提供您預先定義的視訊編碼預設集資料�
    * 若要啟用視訊預設集，請在預設集頁面的「作用中」欄底下，選取預設集名稱旁的方框。
    * 若要停用視訊預設集，請取消選取要停用之視訊預設集旁的方框。
 
-      >[!NOTE]
-      >
-      >非作用中視訊預設集不會出現在「上載工作選項」對話框中。
+     >[!NOTE]
+     >
+     >非作用中視訊預設集不會出現在「上載工作選項」對話框中。
 
 1. 在頁面的右下角，選取 **[!UICONTROL 關閉]**.
 
@@ -340,7 +342,7 @@ Adobe Dynamic Media Classic已設定目標資料速率、解析度高度和解�
    * 在「視訊預設集」工具列上，選取 **[!UICONTROL 新增]** 以便新增視訊預設集。
    * 選取視訊預設集。在工具列中，選取 **[!UICONTROL 編輯]**.
 
-      您無法編輯Adobe Dynamic Media Classic預先定義的預設集；您只能通過選擇從現有預設集建立預設集 **[!UICONTROL 另存為]**.
+     您無法編輯Adobe Dynamic Media Classic預先定義的預設集；您只能通過選擇從現有預設集建立預設集 **[!UICONTROL 另存為]**.
 
 1. 在「增加視訊預設集」頁面或「編輯視訊預設集」頁面上，設定您想要的視訊預設集選項。
 
@@ -378,4 +380,3 @@ Adobe Dynamic Media Classic已設定目標資料速率、解析度高度和解�
 >* [上傳並編碼視訊](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用視訊檢視器預設集](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 訓練影片
-

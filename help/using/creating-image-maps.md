@@ -10,7 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 46%
@@ -152,9 +154,9 @@ Javascript:loadProduct(‘$$’);void(0);
 
 * `loadProductPW`  — 在父視窗（開啟目前視窗的頁面）的URL欄中顯示指定的URL目標。 目前視窗會維持開啟，但父級視窗會變更以顯示 URL 目標。
 
-   >[!NOTE]
-   >
-   >處理程式 `loadProductPW` 不支援 DHTML 和 HTML5 檢視器。
+  >[!NOTE]
+  >
+  >處理程式 `loadProductPW` 不支援 DHTML 和 HTML5 檢視器。
 
 ### 建立URL範本 {#creating-a-url-template}
 

@@ -10,7 +10,9 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 50%
@@ -30,15 +32,15 @@ ht-degree: 50%
    * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。
    * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
    * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
    * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
 ## 增加混合媒體集 URL 至網頁 {#add-mixed-media-set-urls-to-your-web-page}
 
@@ -57,15 +59,15 @@ ht-degree: 50%
    * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。
    * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
    * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
    * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
 1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
@@ -76,4 +78,3 @@ ht-degree: 50%
 >[!MORELIKETHIS]
 >
 >* [發佈](publishing-files.md#publishing_files)
-

@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 50%
@@ -75,13 +77,13 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
       * `amount` (0-5，效果的強度。)
       * `radius` (0-250，在銳利化之物件周圍繪製的「銳利化線條」寬度，其單位為像素。)
 
-         請記住，`radius` 和 `amount` 參數互相消長。減少 `radius` 可以通過增加來補償 `amount`. `Radius` 可以進行更精細的控制，因為較低的數值只會銳利化在邊緣的像素，而以較高的數值銳利化的像素範圍會比較寬。
+        請記住，`radius` 和 `amount` 參數互相消長。減少 `radius` 可以通過增加來補償 `amount`. `Radius` 可以進行更精細的控制，因為較低的數值只會銳利化在邊緣的像素，而以較高的數值銳利化的像素範圍會比較寬。
 
       * `threshold` （0-255，效果敏感度。）
 
-         這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，同時會增加高反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。
+        這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，臨界值 12 會忽略皮膚色調亮度的輕微變化，因此不會增加雜訊，同時會增加高反差區域的邊緣對比，例如睫毛和皮膚鄰接之處。
 
-         如需如何設定這三個引數的詳細資訊，包括篩選使用的最佳實務，請參閱 [在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf).
+        如需如何設定這三個引數的詳細資訊，包括篩選使用的最佳實務，請參閱 [在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic也可讓您控制第四個引數：單色( `0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
 

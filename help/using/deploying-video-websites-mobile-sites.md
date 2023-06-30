@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 33%
@@ -61,15 +63,15 @@ ht-degree: 33%
    * 選取 **[!UICONTROL 格點檢視]** 或 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方選取「 」 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
    * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
 
    * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
 
    * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
 
 1. 將 HTML5 視訊 URL 連結貼到您的網站和行動網站上。
 
@@ -88,15 +90,15 @@ ht-degree: 33%
    * 選取 **[!UICONTROL 格點檢視]** 或 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方選取「 」 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
    * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在視訊縮圖影像下方選取 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
 
    * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
 
    * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
 
 1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
@@ -119,15 +121,15 @@ ht-degree: 33%
 
 * Replace `"S7 video thumbnail URL"` 搭配視訊的縮圖URL，也就是使用者在播放視訊前所看到的視訊縮圖影像。
 
-   另請參閱 [取得視訊縮圖URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  另請參閱 [取得視訊縮圖URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Replace `"S7 OGG video asset URL (no player)"` 以OGG視訊的漸進式URL顯示。
 
-   另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Replace `"S7 MP4 mobile progressive video asset URL (no player)"` 搭配視訊的行動漸進式URL。
 
-   另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ ht-degree: 33%
 
 * 產生直接HLS串流視訊URL （多位元速率）的方式
 
-   於 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL 已發佈的伺服器名稱]** 文字欄位，建構直接URL。 使用下列語法： `server/is/content/company/folder/filename.m3u8`
+  於 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL 已發佈的伺服器名稱]** 文字欄位，建構直接URL。 使用下列語法： `server/is/content/company/folder/filename.m3u8`
 
-   例如，假設已發佈的伺服器名稱為 `https://s7d9.scene7.com/.` 使用步驟2中的語法，直接URL可能如下所示：
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  例如，假設已發佈的伺服器名稱為 `https://s7d9.scene7.com/.` 使用步驟2中的語法，直接URL可能如下所示：
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 產生直接HLS串流視訊URL （單位元速率）的方式
 
-   於 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL HLS資料流伺服器名稱]** 文字欄位，使用下列語法建構直接URL：
+  於 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL HLS資料流伺服器名稱]** 文字欄位，使用下列語法建構直接URL：
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   例如，假設HLS串流伺服器名稱為 `https://s7mbrstream.scene7.com/hls-vod/`. 使用步驟2中的語法，直接URL可能如下所示：
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  例如，假設HLS串流伺服器名稱為 `https://s7mbrstream.scene7.com/hls-vod/`. 使用步驟2中的語法，直接URL可能如下所示：
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 產生直接漸進式視訊 URL
 
-   在「**[!UICONTROL 應用程式一般設定]**」頁面之「**[!UICONTROL 伺服器]**」群組的「**[!UICONTROL 漸進式視訊伺服器名稱]**」文字欄位上，使用下列語法建構直接 eVideo URL:
+  在「**[!UICONTROL 應用程式一般設定]**」頁面之「**[!UICONTROL 伺服器]**」群組的「**[!UICONTROL 漸進式視訊伺服器名稱]**」文字欄位上，使用下列語法建構直接 eVideo URL:
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   例如，假設漸進式視訊伺服器名稱為 `https://s7d9.scene7.com/is/content/`. 使用步驟2中的語法，直接URL可能如下所示：
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  例如，假設漸進式視訊伺服器名稱為 `https://s7d9.scene7.com/is/content/`. 使用步驟2中的語法，直接URL可能如下所示：
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 

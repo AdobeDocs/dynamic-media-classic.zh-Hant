@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ ht-degree: 56%
 
    * **從eCatalog畫面開始**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
 
-      >[!NOTE]
-      >
-      >若要依名稱 (而非縮圖) 來檢視資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選取「名稱」選項。
+     >[!NOTE]
+     >
+     >若要依名稱 (而非縮圖) 來檢視資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選取「名稱」選項。
 
 1. 為 eCatalog 選取整體版面。選取 **[!UICONTROL 1欄式]** 若為單一頁面， **[!UICONTROL 2欄式]** 適用於雙頁跨頁，或 **[!UICONTROL 自訂]** 適用於超過兩頁的頁面跨頁。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 所有跨頁]** 選項並選取 **[!UICONTROL 確定]**.
 1. 或者，您可以選取個別頁面或頁面跨頁，然後選擇 **[!UICONTROL 1欄式]**， **[!UICONTROL 2欄式]**，或 **[!UICONTROL 自訂]** 按鈕。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 選取的跨頁]** 選項並選取 **[!UICONTROL 確定]**.

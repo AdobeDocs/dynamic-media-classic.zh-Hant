@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ ht-degree: 31%
    * 若要刪除一個或多個資產，請在「瀏覽」面板中選取資產，然後按下 **[!UICONTROL 刪除]** 或前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]**.
    * 若要刪除資料夾，請選取資產資料庫中的資料夾，然後選取 **[!UICONTROL 移除資料夾]**.
 
-      刪除資料夾會刪除該資料夾、該資料夾中的所有資產及其子資料夾中的所有資產。
+     刪除資料夾會刪除該資料夾、該資料夾中的所有資產及其子資料夾中的所有資產。
 
 如果您刪除資產檔案的原因是要以相同名稱取代另一個資產檔案，Adobe Dynamic Media Classic建議覆寫資產檔案，而非刪除資產檔案。
 
@@ -81,4 +83,3 @@ ht-degree: 31%
 >* [在瀏覽面板中選取資產](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [準備資產和資料夾以進行上傳](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [從垃圾桶資料夾還原資產](trash-folder.md#restoring_assets_from_the_trash_folder)
-

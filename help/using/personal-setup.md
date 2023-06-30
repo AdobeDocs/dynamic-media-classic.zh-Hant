@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL 顯示檔案大小]**  — 瀏覽時顯示資產的檔案大小。
 * **[!UICONTROL 在搜尋中包含UDF]**  — 若要改善您執行的大多數中繼資料搜尋的系統效能，請取消選取（預設）。
 
-   如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。或者，您可以使用「進階搜尋」來進行比納入使用者定義的欄位更為直接而快速的搜尋。
+  如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。或者，您可以使用「進階搜尋」來進行比納入使用者定義的欄位更為直接而快速的搜尋。
 
-   請參閱[實施進階搜尋](searching-assets.md#conducting_an_advanced_search)。
+  請參閱[實施進階搜尋](searching-assets.md#conducting_an_advanced_search)。
 
-   另請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
+  另請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
 
 * **[!UICONTROL 基本搜尋型別]**  — 您可從兩個選項中選取： **[!UICONTROL 包含]** 搜尋指定值的完整字串； **[!UICONTROL 開頭為]** 會從字串的開頭開始搜尋，並且傳回結果的速度會比 **[!UICONTROL 包含]**. 任一選項都會覆寫在中設定的預設值 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 應用程式一般設定]** 由管理員執行。
 * **[!UICONTROL 顯示命令回饋]**  — 選取此選項可開啟對伺服器的命令要求顯示；取消選取此選項可關閉。

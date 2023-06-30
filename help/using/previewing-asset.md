@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ ht-degree: 36%
 
    * 在「檢視器清單」視窗中，在表格的「動作」欄下選取 **[!UICONTROL 複製URL]** 適用於選取的檢視器和平台型別。
 
-      當您選取 **[!UICONTROL 複製URL]**，其相關URL會自動複製到剪貼簿。
+     當您選取 **[!UICONTROL 複製URL]**，其相關URL會自動複製到剪貼簿。
 
    * 在「檢視器清單」視窗中，在表格的「動作」欄下選取 **[!UICONTROL 內嵌程式碼]**.
 
-      當您選取 **[!UICONTROL 內嵌程式碼]**，內嵌程式碼視窗隨即開啟，供您檢閱檢視器程式碼。 您無法在此視窗中編輯程式碼。您也可以將該程式碼複製到剪貼簿上，以便貼到網頁中。
+     當您選取 **[!UICONTROL 內嵌程式碼]**，內嵌程式碼視窗隨即開啟，供您檢閱檢視器程式碼。 您無法在此視窗中編輯程式碼。您也可以將該程式碼複製到剪貼簿上，以便貼到網頁中。
 
-      關閉顯示的預覽。
+     關閉顯示的預覽。
 
 1. 在「檢視器清單」視窗的右下角，選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
 

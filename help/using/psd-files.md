@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 25%
@@ -34,12 +36,12 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 * **裁切選項**  — 位於 **[!UICONTROL 裁切選項]**. 選取 **[!UICONTROL Trim]** 自動裁切PSD檔案邊緣的空白字元；選取 **[!UICONTROL 手動]** 裁切PSD檔案的側邊：
 
    * **[!UICONTROL Trim]**  — 選取 **[!UICONTROL 修剪依據]** 功能表，然後選擇 **[!UICONTROL 顏色]** 或 **[!UICONTROL 透明度]**.
-   如果您選擇 **[!UICONTROL 顏色]** 選項，選取「轉角」選單，然後選擇最能代表您要裁切之空白區域顏色的PSD轉角。
 
-   拖曳滑桿以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。若要根據透明度進行裁剪，請指定0來裁切透明畫素；數字越接近1則透明度越高。
+  如果您選擇 **[!UICONTROL 顏色]** 選項，選取「轉角」選單，然後選擇最能代表您要裁切之空白區域顏色的PSD轉角。
+
+  拖曳滑桿以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。若要根據透明度進行裁剪，請指定0來裁切透明畫素；數字越接近1則透明度越高。
 
    * **[!UICONTROL 手動]**  — 輸入影像任何一面或兩面裁切的畫素數。 影像裁切的多寡取決於影像檔案的 ppi (每英吋像素) 設定。例如，如果影像顯示150 ppi，而您在「上」、「右」、「下」和「左」文字方塊中輸入75，則以0.5英吋。 會從影像的每一側裁切。
-
 
 * **色彩設定檔選項**  — 位於 **[!UICONTROL 色彩設定檔選項]**.
 
@@ -66,8 +68,8 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
       * **[!UICONTROL Photoshop和圖層編號]**  — 將影像命名為PSD檔案中的圖層編號後方，略過原始圖層名稱。 影像會以 Photoshop 檔案名稱並附加圖層編號命名。例如，檔案的第二層，稱為 `Spring Ad.psd` 已命名 `Spring Ad_2` 即使它在Photoshop中有非預設名稱。
 
       * **[!UICONTROL Photoshop和圖層名稱]**  — 在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。例如，名為 `Price Tag` 在名為的PSD檔案中 `SpringAd` 已命名 `Spring Ad_Price Tag`. 系統會呼叫預設名稱為「圖層2」的圖層 `Spring Ad_2`.
-   * **[!UICONTROL 錨點]**  — 指定影像在範本中的錨定方式，範本是從PSD檔案產生的分層構成產生的。 預設的錨點為中心。無論替代影像的外觀比例為何，中心錨點允許替代影像以最佳方式填滿相同的空間。當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
 
+   * **[!UICONTROL 錨點]**  — 指定影像在範本中的錨定方式，範本是從PSD檔案產生的分層構成產生的。 預設的錨點為中心。無論替代影像的外觀比例為何，中心錨點允許替代影像以最佳方式填滿相同的空間。當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
 
 ## 在PSD檔案中檢視和編輯圖層 {#viewing-and-editing-layers-in-a-psd-file}
 

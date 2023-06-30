@@ -10,7 +10,9 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 40%
@@ -77,14 +79,14 @@ Cost-efficient access to rapidly evolving technology.
 
    * 若要取得快顯視訊檢視器體驗，請選取「 」 **[!UICONTROL 複製URL]** 名稱的最右側。
 
-      將複製的影片URL附加至下列語法，這樣您就可以將它與複製的URL與註解檔案建立關聯：
+     將複製的影片URL附加至下列語法，這樣您就可以將它與複製的URL與註解檔案建立關聯：
 
-      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
+     `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
    * 若要內嵌視訊檢視器體驗，請選取「 」 **[!UICONTROL 內嵌程式碼]** 名稱的最右側。
 
-      在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
+     在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
-      針對HTML5 `Universal_HTML5_Video` 檢視器，請在複製的內嵌程式碼後附加下列內容：
+     針對HTML5 `Universal_HTML5_Video` 檢視器，請在複製的內嵌程式碼後附加下列內容：
 
-      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

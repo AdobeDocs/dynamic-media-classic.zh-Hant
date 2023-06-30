@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 37%
@@ -93,7 +95,7 @@ Adobe Dynamic Media Classic會在您產生視訊網站地圖和mRSS摘要後，�
    * 若要儲存設定而不產生XML檔案，請選取 **[!UICONTROL 儲存]**.
    * 若要儲存並產生檔案，請選取 **[!UICONTROL 儲存並產生]**.
 
-      XML 檔案會產生並記錄在工作記錄檔中。視訊網站地圖 (video-sitemap) 和媒體 RSS (mRSS) 新聞頻道 (mrss-feed) 檔案會儲存在公司的根檔案夾中。
+     XML 檔案會產生並記錄在工作記錄檔中。視訊網站地圖 (video-sitemap) 和媒體 RSS (mRSS) 新聞頻道 (mrss-feed) 檔案會儲存在公司的根檔案夾中。
 
 >[!NOTE]
 >

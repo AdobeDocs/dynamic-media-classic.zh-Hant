@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Media Portal 提供下列角色，每個角色都有不同的存取權與權限�
 | 瀏覽中繼資料 | X | X | X |
 | 預覽檔案 | X | X | X |
 | 搜尋檔案 | X | X | X |
-| 將檔案上傳至Adobe Dynamic Media Classic |  | X | X |
-| 編輯和匯入資產中繼資料 |  | X | X |
-| 建立、重新命名和刪除檔案夾 |  | X | X |
-| 匯出資產中繼資料 | X |  | X |
-| 變更檔案名稱 |  | X | X |
-| 將檔案移至其他檔案夾 |  | X | X |
-| 重新命名檔案 |  | X | X |
-| 刪除檔案 |  | X | X |
-| 從Adobe Dynamic Media Classic匯出（下載）檔案 | X |  | X |
+| 將檔案上傳至Adobe Dynamic Media Classic | | X | X |
+| 編輯和匯入資產中繼資料 | | X | X |
+| 建立、重新命名和刪除檔案夾 | | X | X |
+| 匯出資產中繼資料 | X | | X |
+| 變更檔案名稱 | | X | X |
+| 將檔案移至其他檔案夾 | | X | X |
+| 重新命名檔案 | | X | X |
+| 刪除檔案 | | X | X |
+| 從Adobe Dynamic Media Classic匯出（下載）檔案 | X | | X |

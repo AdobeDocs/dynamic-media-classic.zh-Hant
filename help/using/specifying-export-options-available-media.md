@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 57%
@@ -34,9 +36,9 @@ ht-degree: 57%
 
    * **啟用使用者定義的轉換**  — 選取後，此選項可讓使用者從 **[!UICONTROL 大小]** 「匯出選取的資產」視窗中的下拉式清單。 使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
 
-      從「**[!UICONTROL 大小]**」下拉式清單中選取「**[!UICONTROL 像素]**」時，生成的影像寬度 x 高度不得超過 1 億像素。此大小相當于方形影像的 10,000 x 10,000 像素，或者大約為 2x3 外觀比例影像的 8,000 x 12,000 像素。如果您匯出原始主要影像，則大小限制不適用。
+     從「**[!UICONTROL 大小]**」下拉式清單中選取「**[!UICONTROL 像素]**」時，生成的影像寬度 x 高度不得超過 1 億像素。此大小相當于方形影像的 10,000 x 10,000 像素，或者大約為 2x3 外觀比例影像的 8,000 x 12,000 像素。如果您匯出原始主要影像，則大小限制不適用。
 
-      如果要讓使用者下載檔案，但不要在下載時重新格式化，請取消選取此選項。
+     如果要讓使用者下載檔案，但不要在下載時重新格式化，請取消選取此選項。
 
    * **啟用匯出原始檔案**  — 可讓您匯出原始主要影像。 在 **[!UICONTROL 匯出選取的資產]** 面板，使用者可開啟 **[!UICONTROL 轉換]** 下拉式功能表，然後選擇 **[!UICONTROL 匯出原始檔案]** 以匯出原始檔案。 如果您要強制使用者選擇影像預設集，或在匯出影像時選擇轉換選項，請取消選取此選項。
 
@@ -44,4 +46,3 @@ ht-degree: 57%
 >
 >* [Image Presets](application-setup.md#image_presets)
 >* [為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

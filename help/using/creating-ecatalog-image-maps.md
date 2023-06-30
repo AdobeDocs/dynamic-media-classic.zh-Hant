@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 40%
@@ -34,7 +36,7 @@ ht-degree: 40%
 
    * **多邊形地圖**  — 選取「多邊形影像地圖」工具，然後視需要多次選取影像周邊。 當您選取時，Adobe Dynamic Media Classic會繪製影像地圖的邊界。
 
-      繪製「影像地圖」後，Adobe Dynamic Media Classic會在「影像地圖」清單中為其指定一個名稱。 若要形成名稱，Adobe Dynamic Media Classic會在您正在使用的eCatalog頁面名稱后面附加一個序號。
+     繪製「影像地圖」後，Adobe Dynamic Media Classic會在「影像地圖」清單中為其指定一個名稱。 若要形成名稱，Adobe Dynamic Media Classic會在您正在使用的eCatalog頁面名稱后面附加一個序號。
 
 1. （選用）從「影像地圖」清單的 [!UICONTROL 名稱] 欄中，您可以為「影像地圖」輸入新名稱。 請勿在輸入的名稱中包含空格。
 1. 您可以讓檢視者在選取「影像地圖」時開啟新的網頁。 在「影像地圖」清單面板中的「URL」欄中輸入網頁的 URL。
@@ -77,23 +79,23 @@ ht-degree: 40%
 
 * **調整位置**  — 選取「平移」工具，並將指標移到地圖邊框附近，但不會移到邊框上。 指標顯示為四向箭頭時，請拖曳整個影像地圖至新位置。
 
-   另請參閱 [調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  另請參閱 [調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **變更形狀和大小**  — 若要調整矩形影像地圖的大小，請選取平移工具。 接著，將指標移動至邊框或角上，當您看到雙向箭頭圖示時，請加以拖曳。若要調整多邊形影像地圖的大小，請拖曳方形的選取範圍控制點。若要建立選取範圍控點，請選取「影像地圖」的邊框並拖曳。
 
-   另請參閱 [調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  另請參閱 [調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **刪除影像地圖**  — 選取「平移」工具，選取「影像地圖」以選取它，然後選取 **[!UICONTROL 刪除]**.
 
-   若要從eCatalog中移除所有影像地圖，請選取 **[!UICONTROL 排序頁面]** 標籤，然後選取 **[!UICONTROL 清除地圖]**.
+  若要從eCatalog中移除所有影像地圖，請選取 **[!UICONTROL 排序頁面]** 標籤，然後選取 **[!UICONTROL 清除地圖]**.
 
 * **處理重疊的影像地圖**  — 拖曳以變更「影像地圖」清單上的「影像地圖」順序。
 
-   另請參閱 [處理重疊的影像地圖](creating-image-maps.md#handling_overlapping_image_maps).
+  另請參閱 [處理重疊的影像地圖](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **複製影像地圖至其他頁面**  — 選取 **[!UICONTROL 將地圖複製到]** （請確定您位於「地圖頁面」索引標籤上）。 在「選取影像」畫面上，選取您要複製「影像地圖」的一個或多個頁面，然後選取 **[!UICONTROL 選取]**.
 
-   另請參閱 [將影像地圖複製至其他影像](creating-image-maps.md#copying_image_maps).
+  另請參閱 [將影像地圖複製至其他影像](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

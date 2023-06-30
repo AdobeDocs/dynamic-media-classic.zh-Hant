@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，用標準檔案選取方法來選取一或多個未發佈的資產。
 
-      在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**.
+     在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**.
 
    * 在「格點檢視」、「清單檢視」或「詳細資料檢視」中，選取資產名稱左邊具有斜線的灰色圓形圖示。
 
@@ -138,7 +140,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
    * 在「網格檢視」、「清單檢視」或「詳細資料檢視」中，選取一或多個已發佈的資產。
 
-      在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
+     在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
 
    * 在「格點檢視」、「清單檢視」或「詳細資訊檢視」中，選取資產名稱左側的圓形綠色勾號圖示。
 
@@ -162,4 +164,3 @@ Adobe Dynamic Media Classic資產會在內容傳遞網路(CDN)上發佈。 CDN �
 >
 >* [檢查工作檔案](checking-job-files.md)
 >* [編輯、刪除、暫停和恢復週期性工作](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-
