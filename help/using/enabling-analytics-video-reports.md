@@ -10,24 +10,24 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 12%
+source-wordcount: '249'
+ht-degree: 5%
 
 ---
 
 # 啟用Adobe Analytics視訊報表{#enabling-adobe-analytics-video-reports}
 
-當您使用Adobe Analytics心率型視訊報表來設定Adobe Dynamic Media Classic中的Adobe Analytics時，不再需要啟用四個視訊檢視器事件（播放、暫停、停止、里程碑）。 影片心率適用於現成可用的Adobe Dynamic Media Classic HTML5影片和混合媒體檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
+使用Adobe Analytics心率型視訊報告時，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不再需要啟用四個視訊檢視器事件（播放、暫停、停止、里程碑）。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和混合媒體檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。
 
-* 如需串流媒體和「心率測量」的簡介，請參閱 [關於適用於流媒體的 Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
+* 如需串流媒體和「心率測量」的簡介，請參閱 [關於適用於串流媒體的Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-* Adobe Analytics影片報表與Adobe Dynamic Media Classic的整合可支援解決方案變數，但無法支援自訂變數。
+* Adobe Analytics視訊報表與Adobe Dynamic Media Classic的整合可支援解決方案變數，但不支援自訂變數。
 
-  另請參閱 [音訊和視訊引數](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 以取得解決方案變數和自訂變數的詳細資訊。
+  另請參閱 [音訊和視訊引數](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/audio-video-parameters.html) 以取得解決方案變數和自訂變數的詳細資訊。
 
-* 一分鐘遞增的現成可用區段受到支援。 不過，不支援自訂區段，例如客戶根據時間增量、% 里程碑、偏移里程碑定義的里程碑。
+* 支援一分鐘遞增的現成區段。 但是，不支援自訂區段報告，例如根據時間增量、百分比里程碑或位移里程碑的客戶定義里程碑。
 
   如需串流媒體需求和設定的詳細資訊，請參閱 [在Adobe Analytics中測量串流媒體](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
@@ -35,4 +35,4 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您授權的Adobe Analytics解決方案不包含視訊心率，您必須繼續使用本章所述的步驟，將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數。
+>如果您的Adobe Analytics授權解決方案不包含視訊心率，您必須繼續使用本章所述的步驟，將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數。
