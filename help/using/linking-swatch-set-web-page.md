@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # 將色票集連結至網頁{#linking-a-swatch-set-to-a-web-page}
 
-發佈色票集後，可以在網站或應用程式中使用其 URL 或內嵌程式碼。然後，您可以視需要部署 URL 或內嵌程式碼，以便使用者在您的網站或應用程式中檢視「色票集」。
+發佈色票集後，您可以在網站或應用程式中使用其相關聯的URL或內嵌程式碼。 然後，您可以視需要部署 URL 或內嵌程式碼，以便使用者在您的網站或應用程式中檢視「色票集」。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 42%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
@@ -48,7 +48,7 @@ ht-degree: 42%
 
 部署色票集的最常用方式是將一個連結 (透過瀏覽圖示) 放在網頁中。按一下後，連結會啟動可在快顯縮放視窗中顯示色票集的動態頁面 (ASP 或 JSP)。縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱 [內嵌HTML檢視器參考指南中的Adobe5縮放檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+如需詳細資訊和程式碼範例，請參閱 [Adobe檢視器參考指南中的Embedding HTML5縮放檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 複製色票集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -65,7 +65,7 @@ ht-degree: 42%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 

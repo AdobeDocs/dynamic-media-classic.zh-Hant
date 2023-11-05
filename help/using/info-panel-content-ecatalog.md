@@ -1,21 +1,19 @@
 ---
 title: 管理eCatalogs中的資訊面板內容
 description: 瞭解如何在Adobe Dynamic Media Classic中管理eCatalogs中的資訊面板內容。
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -26,11 +24,11 @@ ht-degree: 59%
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
-* 「資訊」「面板資料摘要」面板可讓您指定CSV檔案，其中包含您要顯示在「資訊」「面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
+* 「資訊面板資料摘要」面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
 * 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
-## 設定eCatalog的回應範本 {#set-up-a-response-template-for-ecatalogs}
+## 設定eCatalogs的回應範本 {#set-up-a-response-template-for-ecatalogs}
 
 您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取一個預設回應範本，也可以自行建立一個。
 
@@ -47,11 +45,11 @@ ht-degree: 59%
    * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
    * 若要建立您自己的回應範本，請選取 **[!UICONTROL 自訂]**. 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
 
-1. （可選）在「預設回應」方塊中，輸入您要在Adobe Dynamic Media Classic擷取影像地圖資訊時發生錯誤，顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （選擇性）在「預設回應」方塊中，輸入您要在Adobe Dynamic Media Classic擷取影像地圖資訊時發生錯誤，顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
 
    * 如果整天經常更新資料，請設定較低的數字。
-   * 如果資料相對穩定且不需要整天經常更新，請設定較高的數字。預設為十小時。
+   * 如果資料相對穩定且不需要一整天頻繁更新，請設定較高的數字。 預設為十小時。
 
 1. 選取 **[!UICONTROL 發佈]**.
 
@@ -63,15 +61,15 @@ ht-degree: 59%
 
 * 確定 Tab 字元分隔與逗號分隔的資料所包含的欄數目，與滑鼠指向範本所需的欄數相等。
 * 確定第一個項目或資料欄為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
-* 確認識別碼之後的每個定位字元或逗號分隔專案都是您要取代至回應範本的專案。因此，第一欄會取代為$1$，第二欄會取代為$2$，依此類推。
+* 請確定識別碼之後的每個定位字元或逗號分隔專案都是您要取代至回應範本的專案。因此，第一欄會替換為$1$，第二欄會替換為$2$，以此類推。
 
-### 從外部託管位置將CSV內容匯入eCatalog {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### 從外部託管位置將CSV內容匯入eCatalogs {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. 連按兩下eCatalog，使其在「詳細資料檢視」中開啟。
 1. 選取 **[!UICONTROL 資訊面板資料摘要]** 面板。
 1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。您可以在此欄位中貼上 URL，也可以直接鍵入。
-1. （可選）使用「排程更新」功能表指定更新內容的時間，然後選取 **[!UICONTROL 新增]**. 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取該時間，然後選取 **[!UICONTROL 刪除]**.)
-1. （選用）選取 **[!UICONTROL 立即執行更新]** 立即更新內容。
+1. （選擇性）使用「排程更新」功能表指定更新內容的時間，然後選取 **[!UICONTROL 新增]**. 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取該時間，然後選取 **[!UICONTROL 刪除]**.)
+1. （選用）選取 **[!UICONTROL 立即執行更新]** 以立即更新內容。
 
 ### 匯入 Tab 字元分隔檔案或 CSV 檔案 {#import-a-tab-delimited-or-csv-file}
 
@@ -88,7 +86,7 @@ Last Modified Date:
 1. 連按兩下eCatalog，使其在「詳細資料檢視」中開啟。
 1. 選取 **[!UICONTROL 資訊面板設定]** 面板。
 1. 選取 **[!UICONTROL 上傳S7Info內容]**.
-1. 選取 **[!UICONTROL 瀏覽]**，選取您要使用的Tab字元分隔的TXT檔案、CSV或SSV檔案，然後選取 **[!UICONTROL 開啟]**.
+1. 選取 **[!UICONTROL 瀏覽]**，選取要使用的Tab字元分隔的TXT檔案、CSV或SSV檔案，然後選取 **[!UICONTROL 開啟]**.
 1. 選取 **[!UICONTROL 上傳]**.
 
 Adobe Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上傳是否成功。

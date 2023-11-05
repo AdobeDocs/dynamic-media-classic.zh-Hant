@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->只有Adobe Dynamic Media Classic管理員可以在應用程式設定中變更頁面上的設定。
+>只有Adobe Dynamic Media Classic管理員可以在應用程式設定中變更設定。
 
 ## 一般設定 {#general-settings}
 
@@ -131,13 +131,13 @@ ht-degree: 38%
 
 * **[!UICONTROL 預設上傳選項]**  — 開啟「上載工作選項」對話方塊，您可以在其中指定預設上載選項。 如需有關這些選項的詳細資訊，請參閱[上載選項](/help/using/uploading-files.md#upload_options)。
 
-### 應用程式的影像地圖編輯器
+### 影像地圖編輯器（至應用程式）
 
 * **[!UICONTROL 預設影像對應HREF]**  — 定義影像對應中HREF欄使用的預設URL。 此URL是您在建立影像地圖時看到的預設URL。
 
 * **[!UICONTROL 預設影像對應範本]**  — 定義影像對應中HREF範本的預設JavaScript。 您可以在此處設定自訂程式碼，以便在您選取影像地圖時執行。
 
-### 應用程式的其他設定
+### 其他設定（至應用程式）
 
 * **[!UICONTROL 垃圾桶清理警告]**  — 垃圾桶中的資產會在七天內自動移除。 如果您希望在垃圾桶中的資產距離永久刪除還有四天的時間時，將通知傳送給公司管理員，請選取「在垃圾桶專案自動刪除前傳送電子郵件」。 另請參閱 [管理垃圾桶資料夾](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 * **[!UICONTROL 雙立方式]**  — 增加影像伺服器上的CPU使用量，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。
 
-* **[!UICONTROL Sharp2]**  — 產生的結果可能會比「雙立方式」選項稍微銳利，但耗用的影像伺服器CPU成本更高。
+* **[!UICONTROL `Sharp 2`]**  — 產生的結果可能會比「雙立方式」選項稍微銳利，但耗用的影像伺服器CPU成本更高。
 
 * **[!UICONTROL 三線性式]**  — 同時使用較高和較低的解析度（如果有的話）；只有在別名是問題的情況下才建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
@@ -308,7 +308,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
      >
      >若要將視訊傳送至iPad，您可以選取行動編碼預設集或平板電腦編碼預設集。 平板電腦預設集專為 iPad 而設計，通常具有更高的解析度和品質，以充分利用更大的畫面和頻寬連線。傳送使用平板電腦預設集編碼的視訊檔案時，必須在您的行動裝置網站或應用程式上加入裝置偵測程式碼。此程式碼會根據播放裝置的不同，在 iPhone 或 iPad 視訊體驗間切換。更簡單的工作流程是選擇行動裝置預設集將視訊檔案傳送到 iPad。原因在於您可以將同一視訊檔案用於 iPhone 和 iPad。但是，將品質標準化為解析度更低的 iPhone 體驗。
 
-      * 在「編碼預設集」群組下方的「排序編碼預設集」下拉式清單中，選取要依據名稱或解析度大小來排序預設集時的「名稱」或「大小」。
+      * 在「編碼預設集」群組的「排序編碼預設集」下拉式清單中，選取「名稱」或「大小」，依名稱或解析度大小排序預設集。
       * 根據您計畫播放視訊的解析度大小和頻寬，選取編碼預設集。
       * 您可以選取「自我調整視訊編碼」，以及每個視訊的一或多個編碼預設集。 例如，您可以在一個上載工作中針對桌面和行動裝置編碼檔案。
 
@@ -340,9 +340,9 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 |  | 編碼預設集名稱/工具提示文字 | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 自動 x 360，800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | 與來源同 | 64 | 適用行動裝置 (iPhone、iPad、Android™) |
-| 2 | 自動 x 480，1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | 與來源同 | 96 | 適用於平板電腦(iPad、Android™) |
-| 3 | 自動 x 720，2600 Kbps | _案頭_Autox720p_2600K | 2600 | Autox720 | 與來源同 | 128 | 適用於案頭 |
+| 1 | 自動× 360， 800 Kbps | _行動_自動×360p_800K | 800 | Auto×360 | 與來源同 | 64 | 適用行動裝置 (iPhone、iPad、Android™) |
+| 2 | 自動× 480， 1400 Kbps | _平板電腦_自動×480p_1400K | 1400 | Auto×480 | 與來源同 | 96 | 適用於平板電腦(iPad、Android™) |
+| 3 | 自動× 720， 2600 Kbps | _案頭_自動×720p_2600K | 2600 | Auto×720 | 與來源同 | 128 | 適用於案頭 |
 
 ### 最適化視訊編碼 (16:9 或 4:3) 視訊預設集 {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Adobe Dynamic Media Classic中所有預設、現成可用的檢視器預設集CS
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-不過，如果您將Viewer CSS檔案託管在您自己的網站上，則必須在您自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 例如，如果您要將上方的相對路徑更新為明確路徑，則可能會如下所示，其中 `https://s7d1.scene7.com` 是影像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+不過，如果您將Viewer CSS檔案託管在您自己的網站上，則必須在您自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 例如，如果您將上方的相對路徑更新為明確路徑，則可能會如下所示，其中 `https://s7d1.scene7.com` 是影像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **若要匯出HTML5檢視器預設集：**
 

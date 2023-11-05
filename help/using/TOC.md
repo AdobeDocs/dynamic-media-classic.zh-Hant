@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 24%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 24%
 # Adobe Dynamic Media Classic指南 {#using}
 
 + 從Dynamic Media Classic升級至Dynamic Media {#upgrade}
-   + [為何升級至Dynamic Media？](upgrade.md)
-   + [升級常見問題集](upgrade-faq.md)
+   + [為何要升級至Dynamic Media？](upgrade.md)
+   + [升級常見問答集](upgrade-faq.md)
    + [功能清單比較](upgrade-feature-comparison.md)
    + [升級整備檢查清單](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
 + [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [全新Adobe Dynamic Media Classic登入體驗現已推出](new-ui-2020.md)
++ [全新Adobe Dynamic Media Classic登入功能現已推出](new-ui-2020.md)
 + [依Experience LeagueAdobeDynamic Media電子報封存](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
    + [Adobe Dynamic Media Classic案頭應用程式 — 現已推出](dynamic-media-classic-desktop-app.md)
@@ -32,7 +32,7 @@ ht-degree: 24%
    + [新增功能](whats-new.md)
    + [Adobe Dynamic Media Classic案頭應用程式的系統需求](system-requirements.md)
    + [支援](support.md)
-   + [Adobe Dynamic Media Classic媒體入口網站說明](help-dmc-media-portal.md)
+   + [Adobe Dynamic Media Classic Media Portal說明](help-dmc-media-portal.md)
    + [Adobe 訓練服務](training-services.md)
    + [熱門學習資源](popular-resources.md)
    + [培訓視訊](training-videos.md)
@@ -57,11 +57,11 @@ ht-degree: 24%
    + [新增和管理Media Portal使用者](adding-media-portal-users.md)
    + [管理 FTP 帳戶](ftp-accounts.md)
    + [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md)
-   + [建立和啟用影像預設集](creating-enabling-image-presets.md)
+   + [建立及啟用影像預設集](creating-enabling-image-presets.md)
    + [更有效地使用中繼資料](making-efficient-metadata.md)
    + [自訂 Media Portal 畫面](customizing-media-portal-screen.md)
 + 上載和發佈資產 {#upload-publish}
-   + [關於資產上傳和發佈](about-asset-upload-publish.md)
+   + [關於資產的上傳和發佈](about-asset-upload-publish.md)
    + [上載檔案](uploading-files.md)
    + [發佈檔案](publishing-files.md)
    + [Dynamic Media限制](limitations.md)
@@ -70,8 +70,8 @@ ht-degree: 24%
 + 管理資產 {#managing-assets}
    + [關於管理資產](about-managing-assets.md)
    + [使用資產資料夾](asset-folders.md)
-   + [在「瀏覽」面板中檢視資產](viewing-assets-browse-panel.md)
-   + [在「瀏覽」面板中選取資產](selecting-assets-browse-panel.md)
+   + [在瀏覽面板中檢視資產](viewing-assets-browse-panel.md)
+   + [在瀏覽面板中選取資產](selecting-assets-browse-panel.md)
    + [搜尋資產](searching-assets.md)
    + [預覽資產](previewing-asset.md)
    + [移動、重新命名和刪除資產](moving-renaming-deleting-assets.md)
@@ -129,14 +129,14 @@ ht-degree: 24%
    + [發佈迴轉集](publishing-spin-set.md)
    + [設定迴轉集檢視器預設集](setting-spin-set-viewer-presets.md)
    + [將迴轉集連結至網頁](linking-spin-set-web-page.md)
-+ 範本基本知識 {#template-basics}
++ 範本基本需知 {#template-basics}
    + [快速入門: 基本範本](quick-start-template-basics.md)
    + [上傳範本檔案](uploading-template-files.md)
    + [建立範本](creating-template.md)
    + [建立範本參數](creating-template-parameters.md)
    + [發佈範本](publishing-templates.md)
    + [將範本連結至網頁](linking-template-web-page.md)
-   + [管理內容變化](content-variations.md)
+   + [管理內容變數](content-variations.md)
 + 視訊 {#video}
    + [快速入門: 視訊](quick-start-video.md)
    + [最佳做法: 使用 HTML5 視訊檢視器](best-practice-using-html5-video.md)
@@ -162,13 +162,13 @@ ht-degree: 24%
    + [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)
    + [發佈Adobe Analytics設定資訊](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium整合 {#target-classic}
-   + [快速入門： Adobe Target Standard/Premium整合](quick-start-target-integration.md)
+   + [快速入門：Adobe Target Standard/Premium整合](quick-start-target-integration.md)
    + [將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合](integrating-dmc-with-target.md)
    + [建立優惠方案集](creating-offer-set.md)
    + [將優惠方案集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + 使用者產生的內容 {#user-generated-content}
    + [關於使用者產生的內容](about-ugc.md)
-   + [刪除上傳的資產](deleting-uploaded-asset.md)
+   + [刪除已上傳的資產](deleting-uploaded-asset.md)
    + [取得磁碟使用資訊](getting-disk-usage-information.md)
    + [上傳點陣化影像資產](uploading-image-asset-or-vector.md)
 + 主要檔案 {#master-files}
@@ -182,7 +182,7 @@ ht-degree: 24%
    + [使用PDF](pdfs.md)
    + [使用PSD檔案](psd-files.md)
    + [使用PostScript和Illustrator檔案](postscript-illustrator-files.md)
-   + [使用暈映、視窗遮蓋和封包檔案](vignette-window-covering-cabinet-files.md)
+   + [處理暈映、視窗涵蓋範圍及封包檔案](vignette-window-covering-cabinet-files.md)
 + 支援檔案 {#support-files}
    + [字型](fonts.md)
    + [XML 檔案](xml-files.md)

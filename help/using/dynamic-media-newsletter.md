@@ -1,15 +1,15 @@
 ---
 title: Dynamic Media電子報封存
-description: 「Experience League封存的Dynamic Media電子報是每月一次的電子報。 其設計可協助您快速熟悉Dynamic Media和Adobe Dynamic Media Classic，並立即實現價值。 封存的電子報包含寶貴的知識建構資源，這些資源可在此一站式服務電子報中取得，現已停止提供。 封存的電子報包括操作說明影片和解決方案概述。 此外也介紹了影像預設集、檢視器預設集和視訊設定檔等主要功能。」
+description: Experience League封存的Dynamic Media電子報是每月一次的電子報，旨在協助您在AEM和Dynamic Media Classic中快速熟悉Dynamic Media。
 keywords: Dynamic Media；電子報；產品更新；提示和訣竅；事件；客戶成功；部落格；部落格；影像；影片；功能
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
    * 瞭解即將舉辦的保護數位資產網路研討會。
    * 資訊密集AdobeInsider之旅的下一站。
    * Experience Manager Assets (Experience Manager Assets)內有Dynamic Media時，可享受令人興奮的功能。
-   * 新增360°視訊和自訂視訊縮圖至您的網站。
+   * 新增360度影片和自訂影片縮圖至您的網站。
    * 會議 `Andrew Hathaway`，Experience Manager Assets中Dynamic Media的主要解決方案顧問。
 
 * **[2019年6月第06期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

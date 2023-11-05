@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 56%
+source-wordcount: '969'
+ht-degree: 51%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 56%
 
 建立 eCatalog 時，「**[!UICONTROL 儲存後發佈]**」選項會以下列方式影響集與集成員:
 
-| 是否在儲存之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 儲存前是否已選取「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- |
 | 是 | 已發佈 | 已發佈 |
 | 否 | 未發佈 | 集成員會保持已發佈或未發佈的狀態。 |
@@ -40,7 +40,7 @@ ht-degree: 56%
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
-   * **先選取檔案**  — 在「瀏覽」面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
+   * **請先選取檔案**  — 在「瀏覽」面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
 
    * **從eCatalog畫面開始**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
 
@@ -48,28 +48,28 @@ ht-degree: 56%
      >
      >若要依名稱 (而非縮圖) 來檢視資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選取「名稱」選項。
 
-1. 為 eCatalog 選取整體版面。選取 **[!UICONTROL 1欄式]** 若為單一頁面， **[!UICONTROL 2欄式]** 適用於雙頁跨頁，或 **[!UICONTROL 自訂]** 適用於超過兩頁的頁面跨頁。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 所有跨頁]** 選項並選取 **[!UICONTROL 確定]**.
-1. 或者，您可以選取個別頁面或頁面跨頁，然後選擇 **[!UICONTROL 1欄式]**， **[!UICONTROL 2欄式]**，或 **[!UICONTROL 自訂]** 按鈕。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 選取的跨頁]** 選項並選取 **[!UICONTROL 確定]**.
+1. 為 eCatalog 選取整體版面。選取 **[!UICONTROL 1欄式]** 若為單一頁面， **[!UICONTROL 2欄式]** 適用於雙頁跨頁，或 **[!UICONTROL 自訂]** 適用於超過兩頁的頁面跨頁。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 全部展開]** 選項並選取 **[!UICONTROL 確定]**.
+1. 或者，您可以選取個別頁面或跨頁頁面，然後選擇 **[!UICONTROL 1欄式]**， **[!UICONTROL 2欄式]**，或 **[!UICONTROL 自訂]** 按鈕。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 展開選取專案]** 選項並選取 **[!UICONTROL 確定]**.
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
    * **拖曳**  — 將頁面或跨頁拖曳到新位置。 垂直列會顯示移動頁面的位置。
 
-   * **移動至按鈕**  — 選取頁面或跨頁，選取 **[!UICONTROL 移至]**，然後在功能表中選擇您想要頁面顯示在其前面的頁面。
+   * **移至按鈕**  — 選取頁面或跨頁，選取 **[!UICONTROL 移至]**，然後在功能表中選擇您想讓頁面在之前顯示的頁面。
 
-   * **序號**  — 在「清單檢視」的「序號」欄位中輸入頁碼。
+   * **序號**  — 在清單檢視中，在「序號」欄位中輸入頁碼。
 
 1. 完成時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**.
 1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。在「檔案名稱」欄位中，輸入迴轉集名稱。
 1. 選取 **[!UICONTROL 儲存]**.
 
-   儲存eCatalog後，您可以選取 **[!UICONTROL 預覽]**.
+   在儲存eCatalog後，您可以選取 **[!UICONTROL 預覽]**.
 
 ## 編輯eCatalog {#editing-an-ecatalog}
 
-無論您是編輯已發佈集還是未發佈集， **[!UICONTROL 儲存後發佈]** 選項會以下列方式影響設定和設定成員：
+無論您是編輯已發佈集合還是未發佈集合， **[!UICONTROL 儲存後發佈]** 選項會以下列方式影響集合與設定成員：
 
-| 已發佈集? | 是否在儲存編輯之前選取了「儲存後發佈」選項? | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | 儲存編輯內容前，是否已選取「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
 | 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
@@ -87,7 +87,7 @@ ht-degree: 56%
 
 ## 刪除eCatalog {#deleting-an-ecatalog}
 
-刪除集時，便會將集本身移到垃圾桶。不過，該集中的成員 (或「子項」) 不會受到影響；而是會保持現有的已發佈或未發佈狀態。
+刪除集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
@@ -108,13 +108,13 @@ Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，
 
 ### 手動輸入頁面名稱 {#manually-entering-page-names}
 
-若要逐次手動輸入頁面名稱，請前往「eCatalog」畫面的「排序頁面」標籤。然後，在頁碼欄位中，為每一個要命名的頁面輸入名稱。
+若要逐次手動輸入頁面名稱，請前往「eCatalog」畫面的「排序頁面」標籤。然後，在頁碼欄位中，輸入您要命名之各頁面的名稱。
 
 ### 匯入頁面名稱 {#importing-page-names}
 
 如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
-TOC標籤儲存在影像的「使用者資料」欄位中；將此資料格式化為 `name=<value>` ` pairs separated by two question marks “??” `. 例如，若要為名為 `tocEN` 的 TOC 欄位設定一個標籤，請將影像的「使用者資料」設定為:
+TOC標籤儲存在影像的「使用者資料」欄位中；將此資料格式化為 `name=<value>` ` pairs separated by two question marks "??" `. 例如，為名為的目錄欄位設定一個標籤 `tocEN`，將影像的使用者資料設為：
 
 `tocEN=&lt;EN_page_label>`
 
@@ -122,7 +122,7 @@ TOC標籤儲存在影像的「使用者資料」欄位中；將此資料格式�
 
 `tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
-若要匯入Tab字元分隔檔案中的「使用者資料」欄位，請包含該欄位使用者資料：
+若要以定位字元分隔的檔案匯入「使用者資料」欄位，請包含該欄位使用者資料：
 
 | IPSID | 使用者資料 |
 | --- | --- |
@@ -136,4 +136,4 @@ TOC標籤儲存在影像的「使用者資料」欄位中；將此資料格式�
 </ips>
 ```
 
-若要從定位字元分隔或XML檔案匯入頁面名稱，請選取 **[!UICONTROL TOC標籤]** 按鈕並選取 **[!UICONTROL 匯入]**. 在「上傳中繼資料」對話方塊中，選取 **[!UICONTROL 瀏覽]**，然後匯入CSV檔案(僅限Mac)或將每個頁面與頁面名稱建立關聯的XML檔案。
+若要從定位字元分隔或XML檔案匯入頁面名稱，請選取 **[!UICONTROL TOC標籤]** 按鈕並選取 **[!UICONTROL 匯入]**. 在「上載中繼資料」對話方塊中，選取 **[!UICONTROL 瀏覽]**，然後匯入CSV檔案(僅限Mac)或將每個頁面與頁面名稱建立關聯的XML檔案。

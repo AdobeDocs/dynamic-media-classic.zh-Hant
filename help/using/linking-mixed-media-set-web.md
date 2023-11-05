@@ -1,27 +1,25 @@
 ---
 title: 將混合媒體集連結至網頁
 description: 瞭解如何將混合媒體集連結至Adobe Dynamic Media Classic中的網頁。
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # 將混合媒體集連結至網頁{#linking-a-mixed-media-set-to-a-web-page}
 
-發佈混合媒體集後，您便可以取得其 URL，以在您的網站或應用程式中使用。然後，您便可以視需要部署 URL，以便使用者在您的網站或應用程式中檢視混合媒體集。
+發佈混合媒體集後，您可以取得其相關聯的URL，以用於您的網站或應用程式。 然後，您便可以視需要部署 URL，以便使用者在您的網站或應用程式中檢視混合媒體集。
 
 ## 取得混合媒體集 URL {#obtain-a-mixed-media-set-url}
 
@@ -34,7 +32,7 @@ ht-degree: 50%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
@@ -61,7 +59,7 @@ ht-degree: 50%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 

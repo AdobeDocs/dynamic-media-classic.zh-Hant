@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援，99.95% SLA。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5PB的流量，以及超過5億項資產的管理服務，全年流量成長達60%。
+* 備受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理服務，流量逐年增加60%。
 
 +++
 
