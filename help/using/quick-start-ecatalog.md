@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 35%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 * 在目錄中搜尋一或多個關鍵字。 搜尋結果會以縮圖清單的形式顯示在目錄左側的搜尋面板中。 每個可點選的縮圖代表一個目錄跨頁，其中會找到反白顯示的搜尋字詞。
 
 * 透過社群媒體分享目錄；下載目錄以離線檢視；啟用「我的最愛」以標籤您要快速返回的專案，或列印目錄。
-* 使用目錄或頁面格線檢視來瀏覽目錄；按一下頁面中邊緣可向前或向後瀏覽頁面。
+* 使用目錄或頁面格線檢視來瀏覽目錄；選取頁面中邊緣來向前或向後瀏覽頁面。
 * 放大、縮小與平移即可檢查頁面上的項目。
 * 將指標移到頁面區域（稱為影像地圖）上，您就可以看到包含專案相關資訊的快顯視窗。
 * 選取頁面區域，以開啟包含專案詳細資訊的新網頁。
@@ -62,7 +62,7 @@ eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣
 
 Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所以通常包含 CMYK 影像。Adobe Dynamic Media Classic會偵測這些影像，並使用標準CMYK色彩設定檔將其轉換。 不過，您必須上傳並使用自訂色彩設定檔。
 
-在全域導覽列上，選取 **[!UICONTROL 上傳]** 以開始上傳eCatalog的PDF檔案或影像。 您可以從桌面或透過 FTP 上載檔案；如果您上載多個檔案或檔案大小超過 100 MB，則建議使用 FTP。
+在全域導覽列上，選取 **[!UICONTROL 上傳]** 以開始上傳eCatalog的PDF檔案或影像。 您可以從您的案頭或透過FTP上傳檔案；如果您要上傳許多檔案或大於100 MB的檔案，建議使用FTP。
 
 在 PDF 選項之下，「上載」畫面提供以適當解析度與正確色域上載 PDF 檔案的選項。建議使用每英吋 150 像素的解析度。上載 PDF 檔案時，您可以選取「自動產生 eCatalog」選項來建立 eCatalog。
 
@@ -76,7 +76,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 若要新增頁面，請在資產庫中選取檔案夾，然後將 PDF 或影像檔案從檔案夾拖曳至「排序頁面」畫面。您可以提供自訂頁面名稱或匯入許多頁面名稱，而不是預設頁碼。
 
-選取 **[!UICONTROL 儲存]**，輸入eCatalog的名稱，選擇用來儲存的Adobe Dynamic Media Classic資料夾，然後選取 **[!UICONTROL 儲存]**. 每次變更頁面順序或編輯eCatalog時，請按一下儲存變更 **[!UICONTROL 儲存]**.
+選取 **[!UICONTROL 儲存]**，輸入eCatalog的名稱，選擇用來儲存的Adobe Dynamic Media Classic資料夾，然後選取 **[!UICONTROL 儲存]**. 每次變更頁面順序或編輯eCatalog時，請選取「 」，儲存變更 **[!UICONTROL 儲存]**.
 
 另請參閱 [建立eCatalog](creating-ecatalog.md).
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 23%
 
 ![迴轉集的影像。](/help/using/assets/spin_set.png)
 
-迴轉集也接受影像地圖。影像地圖就是迴轉集內顯示含文字之滑鼠指向面板的影像區域。使用者按一下「影像地圖」時，就會觸發某種動作。例如，啟動網頁讓使用者進一步瞭解產品。若要指出「迴轉集」中的影像對映，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍顯示輪廓。
+迴轉集也接受影像地圖。影像地圖就是迴轉集內顯示含文字之滑鼠指向面板的影像區域。當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁讓使用者進一步瞭解產品。若要指出「迴轉集」中的影像對映，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍顯示輪廓。
 
 另請參閱 [建立影像地圖](creating-image-maps.md).
 

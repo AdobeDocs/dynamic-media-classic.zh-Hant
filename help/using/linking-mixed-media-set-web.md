@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 47%
 
 ## 增加混合媒體集 URL 至網頁 {#add-mixed-media-set-urls-to-your-web-page}
 
-部署混合媒體集的最常見方式是在網頁上放置連結（透過導覽圖示）。 按一下後，連結便會啟動動態頁面 (ASP 或 JSP)，在混合媒體集檢視器中顯示混合媒體集。
+部署混合媒體集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取後，連結會啟動動態頁面（ASP或JSP），在混合媒體集檢視器中顯示混合媒體集。
 
 ## 複製混合媒體集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

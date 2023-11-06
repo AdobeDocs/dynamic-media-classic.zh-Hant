@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1602'
 ht-degree: 26%
 
 ---
@@ -156,6 +156,6 @@ ht-degree: 26%
 
 ## 使用上載或發佈工作作為觸發器 {#using-an-upload-or-publish-job-as-a-trigger}
 
-當您透過FTP上傳資產或執行發佈工作時，您可以排程後續工作以在上傳完成時開始。 （如果排程開始其他工作，則您在此排程的工作會排入佇列。） 新工作會傳送通知至您指定的地址，以便觸發該位置的程式碼。 為此後續上載工作所指定的名稱與目前上載工作的名稱相同，但帶有字首 _Pub。
+當您透過FTP上傳資產或執行發佈工作時，可以排程後續工作以在上傳完成時開始。 （如果排程開始其他工作，則您在此排程的工作會排入佇列。） 新工作會傳送通知至您指定的地址，以便觸發該位置的程式碼。 為此後續上載工作所指定的名稱與目前上載工作的名稱相同，但帶有字首 _Pub。
 
 若要讓一個上載或發佈工作觸發另一個工作，請選取 **[!UICONTROL 進階]** 在上傳或發佈頁面上。 然後在「HTTP 通知」文字欄位中輸入 URL。

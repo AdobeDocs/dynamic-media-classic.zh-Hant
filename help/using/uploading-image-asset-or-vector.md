@@ -1,6 +1,6 @@
 ---
 title: 上傳點陣化影像資產
-description: 瞭解如何將點陣影像資產上傳至Adobe Dynamic Media Classic
+description: 瞭解如何將點陣化影像資產上傳至Adobe Dynamic Media Classic
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,28 +9,28 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
 # 上傳點陣化影像資產 {#uploading-an-image-asset-or-a-vector-asset}
 
-您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。然後使用上傳Token來上傳點陣影像資產。
+您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。您接著可使用上傳權杖來上傳點陣影像資產。
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期後60天內使用。 60天後，資產將會移除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產將會移除。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic已於2021年9月30日終止支援新的或現有的UGC向量資產。
+>Adobe Dynamic Media Classic對全新或現有UGC向量資產的支援已於2021年9月30日終止。
 
-## 要求共用秘密金鑰 {#requesting-a-shared-secret-key}
+## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-請求 *共用秘密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求共用秘密金鑰。
+請求 *共用機密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
@@ -38,10 +38,10 @@ ht-degree: 67%
 
 *上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。它確保上載合法且來自信任的來源。
 
-上載標記是字母數字字串，只能在指定時間內使用。使用下列URL取代您的共用秘密金鑰，以便擷取上傳權杖。
+上載標記是字母數字字串，只能在指定時間內使用。使用下列URL，以您的共用機密金鑰替代，以便擷取上傳權杖。
 
-* 點陣影像
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用秘密金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+* 點陣化影像
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -83,7 +83,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | shared_secret | 必要 | 正在進行上載的公司共用密鑰。 |
 | expires | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
 
-**點陣影像URL範例：**
+**點陣化影像URL範例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -110,7 +110,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 另請參閱 [擷取上傳權杖](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-另請參閱 [擷取共用秘密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+另請參閱 [擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
 
@@ -118,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-此 `file_limit` parameter指定檔案大小限制（位元組）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+此 `file_limit` 引數指定檔案大小限制（位元組）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
@@ -133,14 +133,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 上載標記.
 * 檔案大小限制.
 * 檔案副檔名的清單.
-* 是否要保留與資產相關聯的色彩設定檔和檔案名稱。
-* 是否要使用去底色背景。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色」方法。
+* 是否要保留與資產關聯的色彩設定檔和檔案名稱。
+* 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
 請參閱中的去底色背景 [上傳時影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
 * 待上載檔案的名稱.
 
 您可以選取「 」，檢視與上述表單相關聯的HTML原始碼 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取 **[!UICONTROL 檢視頁面來源]**. 代碼顯示當使用者按一下「**[!UICONTROL 送出]**」時執行的對應 URL 查詢字串和 POST 方式。
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取 **[!UICONTROL 檢視頁面來源]**. 程式碼會顯示對應的URL查詢字串以及使用者選取時執行的POST方法 **[!UICONTROL 提交]**.
 
 若要在Internet Explorer中檢視XML回應，請前往 **[!UICONTROL 檢視]** > **[!UICONTROL 來源]**. 若要在Firefox中檢視XML回應，請前往 **[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL Web開發人員工具]**. 建議使用 Firefox 檢視 XML 回應。
 

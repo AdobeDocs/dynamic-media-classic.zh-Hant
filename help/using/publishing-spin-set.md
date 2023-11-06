@@ -12,7 +12,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -21,11 +21,11 @@ ht-degree: 10%
 
 # 發佈迴轉集{#publishing-a-spin-set}
 
-發佈迴轉集會將影像放在Dynamic Media影像伺服器上的迴轉集中，以供您的網站或應用程式使用。 此外，在發佈程式中，Adobe Dynamic Media Classic會啟動您網站或應用程式所需的迴轉集URL字串。
+發佈迴轉集會將影像置於Dynamic Media影像伺服器上的迴轉集中，以供您的網站或應用程式使用。 此外，在發佈程式中，Adobe Dynamic Media Classic會啟用您網站或應用程式所需的迴轉集URL字串。
 
-## 標籤迴轉集以供發佈 {#marking-a-spin-set-for-publish}
+## 標籤要發佈的迴轉集 {#marking-a-spin-set-for-publish}
 
-標籤迴轉集以發佈，並複製到Adobe Dynamic Media Classic影像伺服器。 您可以在「瀏覽」面板中按一下 **[!UICONTROL 標籤為發佈]** 圖示加以識別。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
+標示您的迴轉集以供發佈，以複製到Adobe Dynamic Media Classic影像伺服器。 您可以選取「 」，在瀏覽面板中將迴轉集標籤為發佈。 **[!UICONTROL 標籤為發佈]** 圖示於名稱的左側。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
 
 ## 發佈迴轉集 {#publishing-the-spin-set}
 

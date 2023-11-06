@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '3934'
 ht-degree: 31%
 
 ---
@@ -138,7 +138,7 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 上傳內容至系統之前，先在Adobe Dynamic Media Classic中組織和建構內容的資料夾和子資料夾。 採用這種方式提前進行規劃主要有兩個好處:
 
-* 當您透過FTP將內容上傳到Adobe Dynamic Media Classic時，可以指示系統在上傳期間復寫您的資料夾結構。 如此一來，您的內容就會在Adobe Dynamic Media Classic中與在電腦或網路上相同的資料夾和子資料夾中進行組織。 (若要在Adobe Dynamic Media Classic中復寫資料夾結構，請在透過FTP上傳資產時選取「包含子資料夾」選項。)
+* 當您透過FTP將內容上傳到Adobe Dynamic Media Classic時，可以指示系統在上傳期間複製您的資料夾結構。 如此一來，您的內容就會在Adobe Dynamic Media Classic中與在電腦或網路上相同的資料夾和子資料夾中進行組織。 (若要在Adobe Dynamic Media Classic中復寫資料夾結構，請在透過FTP上傳資產時選取「包含子資料夾」選項。)
 * 與在開始就使用經過仔細計畫的檔案夾結構相比，在檔案上載之後重新對系統內的檔案夾進行組織要困難得多。
 
 您選擇在Adobe Dynamic Media Classic上儲存內容的資料夾命名方法和結構取決於貴組織的需求。 以下是一些檔案夾結構範例:
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 ## 關於上傳檔案 {#uploading-your-files}
 
-您可以從桌面上載個別檔案，或是透過 FTP 上載檔案夾。如果您要上傳超過100 MB的檔案或上傳整個資料夾和子資料夾，請選取 **透過FTP** 標籤。
+您可以從案頭上傳個別檔案，或透過FTP上傳資料夾。 如果您要上傳超過100 MB的檔案或上傳整個資料夾和子資料夾，請選取 **透過FTP** 標籤。
 
 Adobe Dynamic Media Classic會傳送電子郵件給您，以確認上傳工作何時開始和結束，並通知您發生任何問題。
 
@@ -192,7 +192,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]** 如果您希望上傳的檔案以相同名稱取代現有的檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
-1. 選擇性；只有當您按一下 **[!UICONTROL 透過FTP]** 標籤。 在上傳頁面底部附近，選取 **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]** 如果您想從上傳的ZIP或TAR檔案中自動擷取所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
+1. 選擇性；只有當您選取 **[!UICONTROL 透過FTP]** 標籤。 在上傳頁面底部附近，選取 **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]** 如果您想從上傳的ZIP或TAR檔案中自動擷取所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 1. 在上傳頁面的右下角附近，選取「 」 **[!UICONTROL 工作選項]**，然後指定您想要的選項。
 
    參閱[上載選項](uploading-files.md#upload_options)。

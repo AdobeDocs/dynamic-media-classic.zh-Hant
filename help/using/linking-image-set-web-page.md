@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 38%
+source-wordcount: '694'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 38%
 
 ## 增加影像集 URL 至網頁 {#adding-image-set-urls-to-your-web-page}
 
-部署影像集最普遍的方式是在網頁上放置連結 (透過導覽圖示)。按一下連結時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
+部署影像集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
 如需詳細資訊和程式碼範例，請參閱 [Adobe檢視器參考指南中的內嵌HTML5縮放檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

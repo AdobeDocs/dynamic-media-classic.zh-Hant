@@ -12,45 +12,45 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
 # 快速入門: 影像集{#quick-start-image-sets}
 
-Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 在動態影像集檢視器中，使用者按一下縮圖影像，就可以查看項目的不同檢視。「影像集」可讓您呈現專案的替代高解析度檢視。
+Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 在動態影像集檢視器中，使用者可以透過選取縮圖影像來檢視專案的不同檢視。 「影像集」可讓您呈現專案的替代高解析度檢視。
 
 影像集檢視器提供了縮放工具，以便近距離檢查影像。如果您想要，也可以讓已導引縮放目標和影像地圖成為您影像集的一部分。影像集能創造更一致且緊密的檢視體驗。
 
 另請參閱 [影像和迴轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 訓練影片。
 
-建立影像集時，Adobe會建議下列最佳作法並強制實行下列限制：
+建立影像集時，Adobe會建議下列最佳作法並強制進行下列限制：
 
-| 限制型別 | 最佳實務 | 強制限制 |
+| 限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
-| 每個集的重複資產數量 | 無重複專案 | 20 |
+| 每個集的重複資產數 | 無重複專案 | 20 |
 | 每組影像的最大數量 | 每組5至10個影像 | 1000 |
 
 另請參閱 [Dynamic Media限制](/help/using/limitations.md).
 
-下列影像集快速入門旨在讓您快速上手，並運用Adobe Dynamic Media Classic中的影像集技術。
+下列影像集快速入門的設計目的，是要讓您快速上手並執行Adobe Dynamic Media Classic中的影像集技術。
 
-## 1.上傳您的主要影像以供多個檢視和色票使用
+## 1.上傳多個檢視和色票的主要影像
 
-請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明此功能的重要性。 請確定影像的大小至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
+請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這個功能。 請確定影像的大小至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
 
 在全域導覽列上，選取 **[!UICONTROL 上傳]** 將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。
 
-另請參閱 [準備影像集資產以供上傳](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 和 [上傳您的檔案](uploading-files.md#uploading-your-files).
+另請參閱 [準備影像集資產以供上傳](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 和 [上傳檔案](uploading-files.md#uploading-your-files).
 
 ## 2.建立影像集
 
 在「影像集」中，使用者可在「影像集檢視器」中選取縮圖影像，以從不同側面或角度檢視影像。
 
-若要建立影像集，請在全域導覽列上選取 **[!UICONTROL 建置]**，然後選擇 **[!UICONTROL 影像集]**. 在「影像集」視窗上，將影像拖曳至頁面以構成影像集。 視需求組織、新增和刪除影像。
+若要建立影像集，請在「全域導覽」列上選取 **[!UICONTROL 建置]**，然後選擇 **[!UICONTROL 影像集]**. 在「影像集」視窗上，將影像拖曳至頁面以構成影像集。 視需求組織、新增和刪除影像。
 
 另請參閱 [建立影像集](creating-image-set.md#creating-an-image-set).
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 ## 3.視需要準備影像集檢視器預設集
 
-管理員可以建立或修改影像集檢視器預設集。Adobe Dynamic Media Classic隨附每個多媒體型別的預設檢視器預設集。 使用縮放檢視器： **[!UICONTROL 自訂]** > **[!UICONTROL 影像]** 或 **[!UICONTROL 影像集]**/**[!UICONTROL 多個檢視]** 用來檢視影像集的預設集。
+管理員可以建立或修改影像集檢視器預設集。Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用縮放檢視器： **[!UICONTROL 自訂]** > **[!UICONTROL 影像]** 或 **[!UICONTROL 影像集]**/**[!UICONTROL 多重檢視]** 用來檢視影像集的預設集。
 
 您可以從「應用程式設定」畫面增加或編輯檢視器預設集。
 
@@ -66,26 +66,26 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 ## 4.預覽影像集
 
-在「瀏覽」面板中選取「影像集」，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面中，選取縮圖圖示以在選取的檢視器中檢查影像集。 您可以從「預設集」選單選擇不同的檢視器。
+在「瀏覽」面板中選取「影像集」，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面中，選取縮圖圖示，以在選取的檢視器中檢查您的「影像集」。 您可以從「預設集」選單選擇不同的檢視器。
 
 另請參閱 [預覽資產](previewing-asset.md#previewing-an-asset).
 
 ## 5.發佈影像集
 
-發佈影像集時會將其置於Adobe Dynamic Media Classic伺服器上並啟動URL字串。
+發佈影像集時會將其置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
 >[!NOTE]
 >
 >如果在您建立和儲存影像集時選取了「**[!UICONTROL 儲存後發佈]**」(預設)，則此步驟並非必要。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以識別，並加以識別。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈檔案](publishing-files.md#publishing-files).
 
 ## 6.將影像集連結至您的網站
 
-Adobe Dynamic Media Classic會為影像集建立URL呼叫，並在您發佈後啟用。 您可以從「預覽」畫面複製這些 URL。
+Adobe Dynamic Media Classic會為影像集建立URL呼叫，並在您發佈後加以啟用。 您可以從「預覽」畫面複製這些 URL。
 
-選取「影像集」，然後選取 **[!UICONTROL 預覽]**. 現在選取「影像集檢視器預設集」，然後選取 **[!UICONTROL 複製URL]**.
+選取影像集，然後選取 **[!UICONTROL 預覽]**. 現在選取影像集檢視器預設集，然後選取 **[!UICONTROL 複製URL]**.
 
 另請參閱 [將影像集連結至網頁](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
