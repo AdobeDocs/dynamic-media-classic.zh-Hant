@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 26%
+source-wordcount: '1439'
+ht-degree: 33%
 
 ---
 
@@ -62,13 +62,13 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
   請參閱以下連結的最新支援： [Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-  Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。 您可以在下列網站找到支援此視訊格式的BlackBerry®裝置：
+  Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。 <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
-  另請參閱 [BlackBerry®支援的視訊格式](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  <!-- See [Supported video formats on BlackBerry&reg;](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482). -->
 
   您可以在下列位置找到支援此視訊格式的Windows®裝置：
 
-  另請參閱 [Windows® Phone支援的視訊格式](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
+  [Windows® Phone支援的視訊格式](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * 使用Adobe Dynamic Media Classic檢視器預設集播放視訊，包括下列專案：
 
@@ -100,7 +100,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
   此優先選項可讓您建立會自動套用正確編碼預設集至視訊的最適化視訊集 (無論是 16:9 還是 4:3)，以符合您所上載之視訊的尺寸。當您提交上載工作時，系統會自動為您建立最適化視訊集，其中包含三個以正確外觀比例編碼的視訊設定。
 
-  或者，在同一個 **[!UICONTROL 工作選項]** 對話方塊，在 **[!UICONTROL EVideo選項]**，展開 **[!UICONTROL 單一編碼預設集]**.選取您想要的個別視訊編碼預設集 **案頭**， **行動(iPhone、iPad、Android™)**、和 **平板電腦(iPad、Android™)** 以便您建立MP4檔案。
+  或者，在同一個 **[!UICONTROL 工作選項]** 對話方塊，在 **[!UICONTROL EVideo選項]**，展開 **[!UICONTROL 單一編碼預設集]**. 選取您想要的個別視訊編碼預設集 **案頭**， **行動(iPhone、iPad、Android™)**、和 **平板電腦(iPad、Android™)** 以便您建立MP4檔案。
 
 * 或者，您可以使用重新處理主要視訊 **[!UICONTROL 重新處理]** 功能。 新編碼的視訊會增加到現有的最適化視訊集。
 
