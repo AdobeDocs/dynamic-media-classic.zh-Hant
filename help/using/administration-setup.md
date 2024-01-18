@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 33%
 
 「管理設定」畫面可用來管理Adobe Dynamic Media Classic使用者。 使用這些畫面可讓使用者在Adobe Dynamic Media Classic中工作，並透過電子郵件與使用者通訊。
 
-1. 若要存取管理設定選項，請前往 **設定** > **個人設定** > **管理設定**.
+1. 若要存取管理設定選項，請移至 **設定** > **個人設定** > **管理設定**.
 
 ## 使用者管理 {#user-administration}
 
-所有Adobe Dynamic Media Classic使用者都會獲得一個角色，該角色會決定他們對Adobe Dynamic Media Classic中功能的許可權和存取許可權。 管理員會決定不同角色和其對於所指派公司的責任。
+所有Adobe Dynamic Media Classic使用者都會獲得一個角色，該角色會決定其在Adobe Dynamic Media Classic中功能的許可權和存取權。 管理員會決定不同角色和其對於所指派公司的責任。
 
 通常Adobe Dynamic Media Classic會設定第一組公司並指派公司管理員。 然後，公司管理員會設定和管理Adobe Dynamic Media Classic使用者。
 
@@ -46,17 +46,17 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
 1. 選取 **[!UICONTROL 新增]**.
-1. 輸入您要新增的使用者或管理員的名稱和電子郵件地址，然後選取 **[!UICONTROL 下一個]**.
+1. 輸入要新增的使用者或管理員的名稱和電子郵件地址，然後選取 **[!UICONTROL 下一個]**.
 
    >[!NOTE]
    >
-   >單引號字元(`‘`)不允許出現在電子郵件地址中。
+   >單引號字元(`'`)不允許在電子郵件地址中使用。
 
 1. 若要將角色指派給使用者，請選擇角色選項。
 
    另請參閱 [Adobe Dynamic Media Classic使用者角色和許可權](administration-setup.md#user_administration).
 
-1. 若要將使用者新增至公司，請選取公司名稱。
+1. 若要新增使用者至公司，請選取公司名稱。
 1. 如果您想要將使用者新增至群組（如果您新增Media Portal使用者或貢獻者），請選取「 」 **[!UICONTROL 下一個]** 並新增使用者。
 1. 選取 **[!UICONTROL 儲存]** 以完成使用者設定。
 
@@ -92,7 +92,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
 1. 從清單中選取使用者，然後選取 **[!UICONTROL 編輯]**.
-1. 在表格中選取專案，以顯示您嘗試修改許可權或存取權的公司，然後選取 **[!UICONTROL 管理公司]**.
+1. 在表格中選取專案，以顯示您嘗試修改許可權或存取許可權的公司，然後選取「 」 **[!UICONTROL 管理公司]**.
 1. 選取使用者角色。
 1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請選取「 」 **[!UICONTROL 下一個]** 並編輯群組成員資格。
 1. 選取 **[!UICONTROL 儲存]**.
@@ -105,7 +105,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 
 * **依群組篩選**  — 選取 **[!UICONTROL 依群組]** 選單並選擇選項以將清單縮小至群組中的使用者。
 
-* **依使用者角色篩選**  — 選取 **[!UICONTROL 依使用者角色]** 選單並選擇選項以將清單縮小至不同型別的使用者或管理員。
+* **依使用者角色篩選**  — 選取 **[!UICONTROL 依使用者角色]** 功能表並選擇選項以將清單縮小至不同型別的使用者或管理員。
 
 * **依欄位名稱篩選**  — 選取 **[!UICONTROL 啟用依欄位篩選]**. 然後選取 **[!UICONTROL 依欄位名稱]** 選單，選擇欄以篩選清單，然後選取「篩選字元」選單並選擇字母。 清單會依您選取的字母在其中一個欄上篩選。 若要檢視完整清單，請取消選取 **[!UICONTROL 啟用依欄位篩選]** 選項。
 
@@ -140,12 +140,12 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## 頻寬與儲存空間 {#bandwidth-storage}
+## 頻寬和儲存空間 {#bandwidth-storage}
 
-Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬、儲存空間和其他型別的報表。 這些報告可在頻寬與儲存頁面取得。
+Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬、儲存空間和其他型別的報表。 這些報告可在「頻寬與儲存」頁面上取得。
 
 若要開啟此頁面，請前往 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**. 展開 **[!UICONTROL 管理設定]**，然後選取 **[!UICONTROL 頻寬與儲存]**.
 
@@ -168,17 +168,17 @@ Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬�
 
 * **縮圖要求**  — 在檢視器中要求色票或替代影像。
 
-* **遮罩要求**  — 要求影像傳回灰階遮色片。
+* **遮罩要求**  — 要求影像傳回灰階遮罩。
 
 * **檢視器圖磚請求**  — 檢視器載入的影像要求。
 
-* **Vnt物件要求**  — 影像演算要求，傳回要求暈映中具有指定物件的影像。
+* **Vnt物件要求**  — 傳回影像的影像演算要求，其中包含要求的暈映中指定的物件。
 
 * **Vnt資訊要求**  — 傳回請求暈映相關資訊的影像演算請求。
 
 >[!NOTE]
 >
->「視訊串流」報告僅適用於串流視訊。它不會追蹤漸進式視訊的檢視。
+>「視訊串流」報告僅適用於串流視訊。它不會追蹤漸進式影片的觀看情形。
 
 ### 產生報表 {#generating-a-report}
 
@@ -194,13 +194,13 @@ Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬�
 
 在「頻寬和存放區」頁面產生報告後，您可以選擇檢視資訊選項。您可以選擇資訊呈現方式、在圖表或資料格線中檢視資訊，以及指定擷取資訊的時段。在「資料」視圖中，您也可以排序資訊和重新排序欄。
 
-* **在圖表或資料網格中檢視資料**  — 選取 **[!UICONTROL 圖表檢視]** 若要在圖表中檢視資料；請選取「 」 **[!UICONTROL 資料檢視]** 以檢視資料網格中的資料。
+* **在圖表或資料網格中檢視資料**  — 選取 **[!UICONTROL 圖表檢視]** 若要檢視圖表中的資料；請選取 **[!UICONTROL 資料檢視]** 以檢視資料網格中的資料。
 
 * **選擇報表簡報型別**  — 在「報表型別」功能表上，選取 **[!UICONTROL 摘要]**， **[!UICONTROL 每日]**，或 **[!UICONTROL 每月]** 以摘要形式、按日期或按月組織資料。 並非所有報告都提供此選項。
 
 * **指定時段**  — 選擇選項以定義報表的時間期間，然後選取 **[!UICONTROL 更新]** 定義時段後：
 
-* **預先定義的時間段**  — 在「預先定義報表」功能表中選擇選項。 例如，選擇「上月」可擷取前一個月的資料。
+* **預先定義的時段**  — 在「預先定義報表」功能表上，選擇一個選項。 例如，選擇「上月」可擷取前一個月的資料。
 
 * **自訂時段**  — 在預先定義報表功能表中，選取 **[!UICONTROL 自訂]**. 然後選擇日期 **[!UICONTROL 開始月份]** (或 **[!UICONTROL 開始日期]**)功能表，以及「月數」 （或「天數」）功能表上的日期。 對於「網域」和「視訊內容報告」，您可以選擇特定開始和結束日期，以擷取報告資訊。
 
@@ -234,14 +234,14 @@ Adobe Dynamic Media Classic管理員可以產生影像錯誤報告。 「影像�
 
 * **影像識別碼**  — 違規影像的ID。
 
-* **時間**  — 首次回報錯誤到上次回報錯誤的時間範圍（在過去24小時內）。
+* **時間**  — 首次回報錯誤的時間範圍，在過去24小時內，為最後回報錯誤的時間。
 
 * **計數**  — 影像上報告的錯誤數。
 
 * **回應**  — 特定錯誤訊息。 錯誤為 4xx 或 5xx。
 
-* **URL**  — 列出Adobe Dynamic Media Classic上影像的URL。
+* **URL**  — 列出Adobe Dynamic Media Classic上的影像URL。
 
-* **反向連結**  — 指定初始請求來自的網站URL。 參照者可能是任何連結至該影像的網站。
+* **反向連結**  — 指定初始請求來源網站的URL。 參照者可能是任何連結至該影像的網站。
 
 顯示的錯誤都屬於您目前所登入的公司。

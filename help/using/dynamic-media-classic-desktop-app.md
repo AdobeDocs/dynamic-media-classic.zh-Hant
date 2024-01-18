@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 ## 20.21.2版中的修正 {#minor-release}
 
 * 20.21.1中的已知限制： **[!UICONTROL 伺服器]** 登入畫面上的下拉式清單為空白。
-* 在 **[!UICONTROL 上載工作選項]**，下的圖層命名預設值 **[!UICONTROL Photoshop選項]**，現在為 **[!UICONTROL Photoshop和圖層名稱]**. PSD 檔案中的圖層以個別影像上載。
+* 在 **[!UICONTROL 上載工作選項]**，下的圖層命名預設值 **[!UICONTROL Photoshop選項]**，現在為 **[!UICONTROL Photoshop和圖層名稱]**. PSD檔案中的圖層會以個別影像的方式上傳。
    * 較早的預設值 **[!UICONTROL 圖層名稱]**，以影像在PSD檔案中的圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
-   * 的新預設值 **[!UICONTROL Photoshop和圖層名稱]**，會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。
+   * 的新預設值 **[!UICONTROL Photoshop和圖層名稱]**，會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
    * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，因此不會更新現有PSD或範本(會在原始PSD檔案中共用哪些圖層名稱)。
 * 資產的縮圖損毀。
 
@@ -88,7 +88,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 在macOS或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式® {#installation-dmc-app}
 
-另請參閱:
+另請參閱：
 
 * [在Mac上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
 * [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 下載和 *靜音* 在macOS上安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
 
-另請參閱:
+另請參閱：
 
 * [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
 * [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 您使用的指令用於基本的MSI無訊息安裝。 不過，Adobe Dynamic Media Classic案頭應用程式安裝程式是使用InstallShield建立的InstallScript MSI安裝程式。 當您以記錄模式執行安裝程式時，任何使用者互動都會記錄在回應檔案中。 然後，此回應檔案會用於無訊息安裝，如所述 [以無訊息模式執行安裝](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-另請參閱:
+另請參閱：
 
 * [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
 
@@ -250,7 +250,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 1. 根據您的作業系統，瀏覽至下列專案：
 
    * macOS： `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®： `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Adobe Dynamic Media Classic 20.21.1中的已知限制
 

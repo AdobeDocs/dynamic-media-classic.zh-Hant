@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 如果您先前已上傳影像，然後變更原始檔案（或取代原始檔案），則所選的「覆寫」選項會指定Adobe Dynamic Media Classic取代影像的方式。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中同時包含Adobe Dynamic Media Classic中尚未包含的影像，則會新增這些影像。
 
-如果您已上傳的影像以某種方式變更（影像已變更），但影像的參照保持不變，請使用此選項。 上載和擷取 Adobe® PDF 檔案時，覆寫功能也很有幫助。微調Adobe Dynamic Media Classic的方式 *裂縫* 請調整「上傳」對話方塊中的ICC色彩設定檔選項，並使用「覆寫」功能重新上傳。
+如果您已上傳的影像以某種方式變更（影像已變更），但影像的參照保持不變，請使用此選項。 上傳和擷取Adobe®PDF時，覆寫也相當實用。 微調Adobe Dynamic Media Classic的方式 *裂縫* 請調整「上傳」對話方塊中的ICC色彩設定檔選項，並使用「覆寫」功能重新上傳。
 
 用來從生產伺服器存取影像的Adobe Dynamic Media Classic ID衍生自影像檔案名稱。 在檔案名稱中使用大寫和小寫字元是很重要的，這無論是在取代現有檔案還是用於存取影像的Adobe Dynamic Media Classic ID中。 上傳至Adobe Dynamic Media Classic之前，請務必正確使用檔案名稱中的大寫和小寫字元，以避免Adobe Dynamic Media Classic ID僅因相同影像而有所不同。
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 若要開啟「影像預設集」畫面，請前往「全域導覽」列上的 **[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**.
 
-另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### 建立和編輯影像預設集 {#creating-and-editing-image-presets}
 
@@ -193,17 +193,17 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
    * GIF 色彩量化選項
 
-      * **[!UICONTROL 型別]**  — 選取「最適化」（預設）、「Web」或「Macintosh」。 如果您選取 **[!UICONTROL 使用AlphaGIF]**，無法使用Macintosh選項。
+      * **[!UICONTROL 型別]**  — 選取「最適化」（預設）、「Web」或「Mac」。 如果您選取 **[!UICONTROL 使用AlphaGIF]**，無法使用Mac選項。
 
       * **[!UICONTROL 遞色]**  — 選取「擴散」或「關閉」。
 
       * **[!UICONTROL 色彩數目]**  — 拖曳滑桿以輸入2-255。
 
-      * **[!UICONTROL 色彩清單]**  — 輸入逗號分隔清單。 例如，對於白、灰和黑，請輸入 `000000,888888,ffffff`.
+      * **[!UICONTROL 色彩清單]**  — 輸入逗號分隔清單。 例如，對於白色、灰色和黑色，請輸入 `000000,888888,ffffff`.
 
    * JPEG 選項
 
-      * **[!UICONTROL 品質]**  — 控制JPEG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPEG品質比例為1-100。
+      * **[!UICONTROL 品質]**  — 控制JPEG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPEG 品質範圍為 1 – 100。
 
       * **[!UICONTROL 啟用JPG色度縮減取樣]**  — 由於眼睛對高頻色彩資訊的敏感性低於高頻明度，JPEG影像會將影像資訊分成明度和色彩元件。 壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣將資料量減少一半或三分之一，幾乎不影響感知品質。 縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
 
@@ -272,7 +272,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 另請參閱 [視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 訓練影片。
 
-**啟用或停用最適化視訊預設集:**
+**若要啟用或停用自我調整視訊預設集：**
 
 1. 前往Adobe Dynamic Media Classic右上角附近 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]** > **[!UICONTROL 最適化視訊預設集]**.
 1. 在「最適化視訊預設集」頁面上，取消選取預設集名稱旁邊的核取方框，以從「上載工作選項」對話框的「eVideo 選項」清單中移除預設集。
@@ -336,11 +336,11 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 編碼預設集，可與任何外觀比例搭配使用，以讓您為傳遞至行動裝置、平板電腦和桌上型電腦建立視訊。使用此預設集編碼的上傳來源視訊（預設和最佳實務）會設為固定高度，而寬度會自動調整以保留視訊的外觀比例。
 
-**最適化視訊 (預設)**
+**最適化視訊（預設）**
 
 |  | 編碼預設集名稱/工具提示文字 | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 自動× 360， 800 Kbps | _行動_自動×360p_800K | 800 | Auto×360 | 與來源同 | 64 | 適用行動裝置 (iPhone、iPad、Android™) |
+| 1 | 自動× 360， 800 Kbps | _行動_自動×360p_800K | 800 | Auto×360 | 與來源同 | 64 | 適用於行動裝置(iPhone、iPad、Android™) |
 | 2 | 自動× 480， 1400 Kbps | _平板電腦_自動×480p_1400K | 1400 | Auto×480 | 與來源同 | 96 | 適用於平板電腦(iPad、Android™) |
 | 3 | 自動× 720， 2600 Kbps | _案頭_自動×720p_2600K | 2600 | Auto×720 | 與來源同 | 128 | 適用於案頭 |
 
@@ -350,16 +350,16 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
-**最適化視訊編碼 (16:9 或 4:3) 預設集**
+**自我調整視訊編碼（16:9或4:3）預設集**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等解析度、WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | 與來源同 | 80 | 中等解析度、WiFi |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度，3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | 與來源同 | 64 | 中等解析度，3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等解析度，WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | 與來源同 | 80 | 中等解析度，WiFi |
 | 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | 與來源同 | 96 | 高解析度、WiFi |
 | 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1.5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | 與來源同 | 96 | 高解析度、WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
@@ -371,7 +371,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
-**H264 主影像 3.2 - 音訊 AAC、MP4 副檔名**
+**H264主要3.2 — 音訊AAC、MP4副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,18 +384,18 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 | 7 | 4:3、640x480 (1200 Kbps) | 1.5 Mbps | _640x480_1200K | 1200 | 640x480 | 與來源同 | 96 | 中高解析度 |
 | 8 | 4:3、1280x960 (2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 | 1280x960 | 與來源同 | 128 | 高畫質 |
 
-**OGG Theora Vorbis - OGV 副檔名**
+**OGG Theora Vorbis - OGV副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 與來源同 | 64 | 低階寬螢幕解析度 |
-| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
-| 3 | 16:9、800x450 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 與來源同 | 96 | 中高解析度 |
-| 4 | 16:9、1280x720 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
-| 5 | 4:3、320x240 (400 Kbps)、OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 與來源同 | 64 | 低解析度 |
-| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 與來源同 | 80 | 中等解析度 |
-| 7 | 4:3、640x480 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 與來源同 | 96 | 中高解析度 |
-| 8 | 4:3、1280x960 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | 與來源同 | 128 | 高畫質 |
+| 2 | 16:9， 640x360 (800 Kbps)，OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 與來源同 | 80 | 中等寬螢幕解析度 |
+| 3 | 16:9， 800x450 (1200 Kbps)，OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 與來源同 | 96 | 中高解析度 |
+| 4 | 16:9， 1280x720 (2000 Kbps)，OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | 與來源同 | 128 | 高畫質、寬螢幕 |
+| 5 | 4：3,320x240 (400 Kbps)，OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 與來源同 | 64 | 低解析度 |
+| 6 | 4：3,480x360 (800 Kbps)，OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 與來源同 | 80 | 中等解析度 |
+| 7 | 4：3,640x480 (1200 Kbps)，OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 與來源同 | 96 | 中高解析度 |
+| 8 | 4：3,1280x960 (2000 Kbps)，OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | 與來源同 | 128 | 高畫質 |
 
 ### 行動裝置視訊編碼預設集 {#mobile-video-encoding-presets}
 
@@ -403,17 +403,17 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
-**H264 基線 2.1 - 音訊 AAC、MP4 副檔名**
+**H264基準2.1 — 音訊AAC，MP4副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊位元速率 (Kbps) | 像素寬度/高度 | Fps | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、512x288、行動裝置 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 與來源同 | 64 | 低解析度、3G |
-| 2 | 16:9、512x288、行動裝置 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度、3G |
+| 2 | 16:9、512x288、行動裝置 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 與來源同 | 64 | 中等解析度，3G |
 | 3 | 16:9、512x288、行動裝置 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 與來源同 | 80 | 中等解析度、Wi-Fi |
 | 4 | 16:9、512x288、行動裝置 (1000 Kbps) | 1.2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 與來源同 | 80 | 高解析度、Wi-Fi |
 | 5 | 16:9、512x288、行動裝置 (1200 Kbps) | 1.5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | 與來源同 | 96 | 高解析度、Wi-Fi |
 | 6 | 4:3、384x288、行動裝置 (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 與來源同 | 64 | 低解析度、3G |
-| 7 | 4:3、384x288、行動裝置 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 與來源同 | 64 | 中等解析度、3G |
+| 7 | 4:3、384x288、行動裝置 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 與來源同 | 64 | 中等解析度，3G |
 | 8 | 4:3、448x336、行動裝置 (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | 與來源同 | 80 | 中等解析度、Wi-Fi |
 | 9 | 4:3、448x336、行動裝置 (1000 Kbps) | 1.2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | 與來源同 | 80 | 高解析度、Wi-Fi |
 | 10 | 4:3、448x336、行動裝置 (1200 Kbps) | 1.5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | 與來源同 | 96 | 高解析度、Wi-Fi |
@@ -426,7 +426,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
-最佳實務是使用Adobe Dynamic Media Classic HTML5視訊檢視器。 HTML5 視訊檢視器使用的預設集是健全的視訊播放器。
+最佳實務是使用Adobe Dynamic Media Classic HTML5視訊檢視器。 HTML5視訊檢視器中使用的預設集是強大的視訊播放器。
 
 將下列專案結合至單一播放器：
 
@@ -513,7 +513,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android™智慧型手機 | Android™平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |
-| eCatalog 檢視器 |  |  |  |  |  |  |
+| eCatalog檢視器 |  |  |  |  |  |  |
 | Universal_Catalog5_eCatalog_Adv(包含對社交HTML和目錄搜尋的支援)。 | HTML5 | X | X | X | X | X |
 | Universal_HTML5_eCatalog （包含對社群媒體和目錄搜尋的支援。） | HTML5 | X | X | X | X | X |
 
@@ -595,7 +595,7 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 另請參閱 [檢視器預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 訓練影片。
 
-**增加和編輯檢視器預設集:**
+**若要新增及編輯檢視器預設集：**
 
 1. 前往Adobe Dynamic Media Classic右上角附近 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 
@@ -633,7 +633,7 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 Adobe Dynamic Media Classic中所有預設、現成可用的檢視器預設集CSS檔案，都會使用指向上資產的相對影像伺服路徑 `Scene7SharedAssets`. 例如，以下為上檢視器預設集CSS檔案中影像資產的相對路徑
 
-`Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
+`Scene7SharedAsset`： `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
 不過，如果您將Viewer CSS檔案託管在您自己的網站上，則必須在您自己的環境中使用影像伺服器的明確路徑來解析這些相對影像路徑。 例如，如果您將上方的相對路徑更新為明確路徑，則可能會如下所示，其中 `https://s7d1.scene7.com` 是影像伺服器的直接路徑： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
@@ -676,7 +676,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 除非您在「檢視器預設集」畫面上停用檢視器預設集，否則「預覽」對話框中的「預設集」下拉式清單可能會過於擁擠。
 
-**若要啟用或停用檢視器預設集，請執行下列動作：**
+**若要啟用或停用檢視器預設集：**
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 1. 在「檢視器預設集」頁面上，選取或取消選取 **[!UICONTROL 作用中]** 啟用或停用檢視器預設集的選項。
@@ -687,7 +687,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應用程式的 HTML 代碼中加以使用。
 
-**複製「檢視器預設集」的 URL:**
+**若要複製檢視器預設集的URL：**
 
 1. 在「瀏覽面板」中選取資產。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
@@ -711,7 +711,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
 不可在「內嵌程式碼」對話框中編輯程式碼。
 
-**複製檢視器預設集的內嵌程式碼:**
+**若要複製檢視器預設集的內嵌程式碼：**
 
 1. 在「資產瀏覽」面板中選取資產。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
@@ -744,7 +744,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 * 色票集
 * 媒體集
 
-**設定預設檢視器:**
+**若要設定預設檢視器：**
 
 1. 在「設定」下拉式清單中，選取 **[!UICONTROL 應用程式設定]**.
 1. 在「設定」視窗的左窗格中，移至 **[!UICONTROL 應用程式設定]** > **[!UICONTROL 檢視者]**
@@ -928,7 +928,7 @@ Adobe Dynamic Media Classic使用批次集預設集來組織共用一些常見�
 
 另請參閱 [2D迴轉集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) 訓練影片。
 
-**建立批次集預設集:**
+**若要建立批次集預設集：**
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**. 「**[!UICONTROL 檢視表單]**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中，選取 **[!UICONTROL 新增]** 以啟動頁面右側「詳細資訊」面板中的定義欄位。
@@ -973,11 +973,11 @@ spin-03-12
 
 ![批次集配方影像](assets/se_batch_set_recipe.png)
 
-迴轉集之共用資產名稱部分的分組會新增至「比對」欄位（如反白顯示）。 含列與欄的資產名稱的變數部分會分別增加到「列」和「欄」欄位。
+迴轉集之共用資產名稱部分的分組會新增至「比對」欄位（如反白顯示）。 包含行和列的資產名稱的變數部分將分別新增到行和列欄位中。
 
-上載並發佈「迴轉集」後，您就可以在「上載工作選項」對話框中啟用「**[!UICONTROL 批次集預設集]**」之下 2D 迴轉集配置的名稱。
+上傳和發佈迴轉集時，您會啟用2D迴轉集方式名稱，該方式列於下方 **[!UICONTROL 批次集預設集]** 上傳工作選項對話方塊中。
 
-**建立批次集預設集以自動產生 2D 迴轉集:**
+**若要為自動產生2D迴轉集建立批次集預設集：**
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**. 「**[!UICONTROL 檢視表單]**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中，選取 **[!UICONTROL 新增]** 以啟動頁面右側「詳細資訊」面板中的定義欄位。

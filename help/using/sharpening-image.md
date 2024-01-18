@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 
 另請參閱 [銳利化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 訓練影片。
 
-**銳利化影像:**
+**若要銳利化影像：**
 
 若要銳利化影像，請選取其滑鼠指向效果 **[!UICONTROL 編輯]** 按鈕並選擇 **[!UICONTROL 銳利化]**，或在「瀏覽」面板的「詳細資訊」檢視中開啟它，然後選取「 」 **[!UICONTROL 銳利化]**. 「銳利化編輯器」頁面隨即開啟，其中包含銳利化指令。 選擇命令，然後選取 **[!UICONTROL 儲存]**.
 
@@ -60,16 +60,16 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 | 名稱 | URL 通訊協定 | 值 | 範例 |
 | --- | --- | --- | --- |
 | 簡單銳利化 | `op_sharpen` | `0` 或 `1` | `op_sharpen=1` |
-| 重新取樣模式 | `resMode` | `bilin`， `bicub`， `sharp2`， `trilin`<br><br>`bilin`：選取標準的雙線性內插。 最快速的重新取樣方法；通常會出現一些鋸齒狀不自然感。<br>`bicub`：選取雙三次插值法。 比 `bilin` 需要更大量的 CPU，但是會產生較銳利的影像，且鋸齒狀不自然感較不明顯。<br><br>`sharp2`：選取修改過的Lanczos Windows®函式作為內插演演算法。 可以產生比雙立方體稍微銳利的結果，但CPU成本較高。<br><br>`trilin`: 選取已修改的三線性式內插補點，它會同時使用較高與較低解析度 (如果有的話)。建議只在必須要解決鋸齒問題時才使用，因為減少了高頻率資料，所以會降低 JPEG 大小。 | `resMode=sharp2` |
+| 重新取樣模式 | `resMode` | `bilin`， `bicub`， `sharp2`， `trilin`<br><br>`bilin`：選取標準的雙線性內插。 最快速的重新取樣方法；通常會出現一些鋸齒狀不自然感。<br>`bicub`：選取雙三次插值法。 CPU使用量超過 `bilin`，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。<br><br>`sharp2`：選取修改過的Lanczos Windows®函式作為內插演演算法。 可以產生比雙立方體稍微銳利的結果，但CPU成本較高。<br><br>`trilin`：選取修改後的三線性內插補點，使用較高和較低解析度（如果有的話）。 建議只在必須要解決鋸齒問題時才使用，因為減少了高頻率資料，所以會降低 JPEG 大小。 | `resMode=sharp2` |
 | 遮色片銳利化調整 | `op_usm` | `amount`， `radius`， `threshold`， `monochrome`<br><br>`amount`：濾鏡強度係數（實數0...5）<br><br>`radius`：濾鏡核心半徑，以畫素為單位（實數0...250） <br><br>`threshold`：濾鏡臨界值層級(int 0...255)<br><br>`monochrome`：設為 `0` 若要分別取消銳利化遮色片每個顏色元件，請將設為 `1` 以銳利化遮色片影像亮度（強度） | `op_usm=1,1,10,0` |
 
 選取 **[!UICONTROL 銳利化]** 功能表並選擇一個選項：
 
 * **無**  — 停用銳利化。
 
-* **銳利化**  — 在調整檔案大小後，對檔案執行簡單的銳利化傳遞。 它類似於Adobe Photoshop中的「銳利化」濾鏡，不支援任何使用者引數。 通常您會使用此篩選器或 **[!UICONTROL 不銳利化遮色片]**，但不能同時使用兩者。 以最佳做法而言，不建議使用此方法，不過這個方法有助於補償模糊效果。(URL: `op_sharpen`)
+* **銳利化**  — 在調整檔案大小後，對檔案執行簡單的銳利化傳遞。 它類似於Adobe Photoshop中的「銳利化」濾鏡，不支援任何使用者引數。 通常您會使用此篩選器或 **[!UICONTROL 不銳利化遮色片]**，但不能同時使用兩者。 以最佳做法而言，不建議使用此方法，不過這個方法有助於補償模糊效果。(URL： `op_sharpen`)
 
-* **不銳利化遮色片**  — 可讓您微調最終縮減取樣影像的銳利化濾鏡效果。 您可以控制效果的強度、效果的半徑（以畫素測量），以及被忽略的對比度臨界值。 此效果使用與Photoshop的「遮色片銳利化」濾鏡相同的選項。 (URL: `op_usm`)
+* **不銳利化遮色片**  — 可讓您微調最終縮減取樣影像的銳利化濾鏡效果。 您可以控制效果的強度、效果的半徑（以畫素測量），以及被忽略的對比度臨界值。 此效果使用與Photoshop的「遮色片銳利化」濾鏡相同的選項。 (URL： `op_usm`)
 
 選擇下列選項，以使用「不銳利化遮色片」微調銳利化：
 
@@ -114,13 +114,13 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 
 如果您針對大小類別中的每個影像都使用一個預設集，則任何公司管理員都可以更新該影像預設集的定義、重新發佈，並影響每個使用該格式的影像，而不需要更改任何網頁程式碼。最佳實踐就是在網站上根據每一種大小使用一個影像預設集。若要新增影像預設集，請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 影像預設集]**. 然後選取 **[!UICONTROL 新增]** 或選取 **[!UICONTROL 編輯]** 以變更現有的預設集。 唯一的必填欄位為預設集本身的名稱。不過，最好在每個預設集中加入某種程度的銳利化。
 
-**JPG 品質**
+**JPG品質**
 
 「JPG 品質」選項可控制 JPG 壓縮層級:
 
 * **JPG品質**  — 如果要控制壓縮等級和色度縮減取樣，請選取此選項。
 
-* **滑桿**  — 決定JPG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPG品質比例為1-100。
+* **滑桿**  — 決定JPG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPG 品質比例是 1-100。
 
 * **啟用JPG色度縮減取樣**  — 由於眼睛對高頻色彩資訊的敏感性低於高頻明度，JPEG影像會將影像資訊分成明度和色彩元件。 壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣將資料量減少一半或三分之一，幾乎不影響感知品質。 縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
 
@@ -128,7 +128,7 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 
 如果未使用影像預設集或要使用 URL 字串通過特定的影像伺服器銳利化通訊協定，則縮減取樣時，影像不會銳利化。不過，如果發生這種缺乏銳利化的情況，您可以設定預設銳利化值，然後任何影像就會一律有一些銳利化。
 
-若要設定貴公司的預設銳利化選項，請前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**. 如果您將「預設重新取樣模式」設定為 **[!UICONTROL `Sharp2`]**&#x200B;時，縮減取樣一律會銳利化影像。
+若要設定貴公司的預設銳利化選項，請前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**. 如果您將「預設重新取樣模式」設定為 **`Sharp2`**&#x200B;時，縮減取樣一律會銳利化影像。
 
 **新增銳利化至檢視器預設集**
 

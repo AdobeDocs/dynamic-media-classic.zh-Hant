@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 37%
+source-wordcount: '1726'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產隨後會透過HTTP/2通訊協定傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 另請參閱 [HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產隨後會透過HTTP/2通訊協定傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 另請參閱 [HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
 
 ## 上載後發佈 {#publish-after-uploading}
 
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 | 影像集 | 集內的影像。 |
 | 色票集 | 集內的色票。 |
 | 迴轉集 | 集內的影像。 |
-| 範本 | 範本檔案、頁面和影像. |
+| 範本 | 範本檔案、頁面和影像。 |
 
 發佈衍生影像的父項影像時，衍生影像也會自動標示為發佈。衍生影像包括您使用影像編輯選項調整的影像。您可以在「建置和衍生物」下的「詳細檢視」中看到這些衍生影像。
 
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
 建立發佈工作以發佈您已上傳至Adobe Dynamic Media Classic伺服器但尚未想要自動發佈的資產。 您可以執行一次性發佈工作或排程定期重複的工作。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
-**建立發佈工作:**
+**若要建立發佈工作：**
 
 1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**.
 1. 在「發佈」對話框中，選擇一次性或週期性發佈工作。
@@ -118,7 +118,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 未發佈的資產會在使用者介面中以灰色圓形圖示表示，在資產名稱的左側會有斜線（未發佈狀態）。 發佈資產之後，圖示會變成綠色，並且在中心會有白色的勾選記號 (發佈的狀態)。
 
-**手動發佈資產:**
+**若要手動發佈資產：**
 
 1. 進行以下一項操作:
 
@@ -134,7 +134,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 已發佈的資產會在使用者介面中以綠色圓形圖示表示，中央會有白色勾號（已發佈狀態），位於資產名稱左側。 取消發佈資產後，圖示會變成灰色，並加上斜線（取消發佈狀態）。
 
-**手動取消發佈資產:**
+**若要手動取消發佈資產：**
 
 1. 進行以下一項操作:
 

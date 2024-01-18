@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 23%
 
 ---
 
@@ -45,15 +45,15 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
 * **色彩設定檔選項**  — 位於 **[!UICONTROL 色彩設定檔選項]**.
 
-   * **[!UICONTROL 預設色彩保存]**
+   * **[!UICONTROL 預設色彩儲存]**
 
    * **[!UICONTROL 保留原始色域]**  — 保留影像的原始色域。
 
    * **[!UICONTROL 自訂來源]** > **[!UICONTROL 至]**  — 開啟選單，讓您能夠選擇「轉換自」和「轉換至」色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。 請參閱[ICC 設定檔](/help/using/icc-profiles.md)。
 
-* **Photoshop 選項**
+* **Photoshop選項**
 
-   * **[!UICONTROL 保留圖層]**  — 將PSD中的圖層（如果有的話）擷取至個別資產。 資產圖層會維持與 PSD 相關聯。您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 參閱檢視和編輯 PSD 檔案中的圖層。
+   * **[!UICONTROL 保留圖層]**  — 將PSD中的圖層（如果有的話）擷取至個別資產。 資產圖層會維持與 PSD 相關聯。您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 請參閱在PSD檔案中檢視和編輯圖層。
 
    * **[!UICONTROL 建立範本]**  — 從PSD檔案中的圖層建立範本。
 

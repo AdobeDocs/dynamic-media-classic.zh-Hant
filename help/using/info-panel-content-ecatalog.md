@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 57%
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
 * 「資訊面板設定」面板可讓您指定範本，用來顯示資訊面板文字、預設的錯誤回應以及資訊快取的時數。此外，您還可以指定是否要自動發佈 eCatalog。
-* 「資訊面板資料摘要」面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
-* 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。針對滑鼠指向效果文字，您可以使用此 TXT 選項或含有 CSV 檔案選項的「資料摘要」面板。
+* 「資訊面板」資料摘要面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
+* 「匯入中繼資料」對話框 (可從「地圖頁面」檢視中存取) 可讓您匯入包含滑鼠指向效果文字資訊之 Tab 字元分隔的 TXT 檔案。您可以針對滑鼠指向效果文字，使用此TXT選項或具有CSV檔案選項的「資料摘要」面板。
 * 「地圖頁面」檢視提供一個選項，可用來預覽針對特定影像地圖所顯示的 xml。
 
 ## 設定eCatalogs的回應範本 {#set-up-a-response-template-for-ecatalogs}
@@ -61,7 +61,7 @@ ht-degree: 57%
 
 * 確定 Tab 字元分隔與逗號分隔的資料所包含的欄數目，與滑鼠指向範本所需的欄數相等。
 * 確定第一個項目或資料欄為滑鼠指向效果識別名稱 (與影像地圖 URL 的 rollover_key 值相關聯)。
-* 請確定識別碼之後的每個定位字元或逗號分隔專案都是您要取代至回應範本的專案。因此，第一欄會替換為$1$，第二欄會替換為$2$，以此類推。
+* 請確定識別碼之後的每個定位字元或逗號分隔專案都是您要取代至回應範本的專案。 因此，第一欄會替換為$1$，第二欄會替換為$2$，以此類推。
 
 ### 從外部託管位置將CSV內容匯入eCatalogs {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 

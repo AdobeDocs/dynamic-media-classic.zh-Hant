@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 47%
+source-wordcount: '385'
+ht-degree: 37%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 47%
 
 另請參閱 [從Adobe Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**指定 Media Portal 使用者可使用的匯出選項:**
+**若要指定Media Portal使用者可用的匯出選項：**
 
 1. 在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**.
 1. 在「影像預設集」視窗中，選取下列任一選項:
 
-   * **啟用使用者定義的轉換**  — 選取後，此選項可讓使用者從 **[!UICONTROL 大小]** 匯出選取的資產視窗中的下拉式清單。 使用者接著可選擇度量單位，例如像素或公分，然後指定所需的寬度和高度。當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
+   * **啟用使用者定義的轉換**  — 選取後，此選項可讓使用者從 **[!UICONTROL 大小]** 匯出選取的資產視窗中的下拉式清單。 接著，使用者可選擇畫素或公分等度量單位，並指定所需的寬度和高度。 當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
 
      時間 **[!UICONTROL 畫素]** 是從 **[!UICONTROL 大小]** 下拉式清單，產生的影像寬度×高度不可超過1億畫素。 這個大小相當於方形影像的10,000×10,000畫素，或是2x3外觀比例影像的大約8,000×12,000畫素。 如果您匯出原始主要影像，則不會套用此大小限制。
 
@@ -45,4 +45,4 @@ ht-degree: 47%
 >[!MORELIKETHIS]
 >
 >* [Image Presets](application-setup.md#image_presets)
->* [為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [選擇群組的影像預設集存取許可權](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

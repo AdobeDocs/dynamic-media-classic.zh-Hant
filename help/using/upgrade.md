@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 * 2016年線上視訊平台報表表現優異。
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援、99.95% SLA、Adobe Professional Services。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理服務，流量較上年同期增長60%。
+* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理服務，流量逐年增加60%。

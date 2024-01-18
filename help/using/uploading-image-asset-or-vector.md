@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 66%
+source-wordcount: '1008'
+ht-degree: 57%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 66%
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若需要求更多時間，請在 URL 中加上 `expires`，以及您要求的時間量 (以秒鐘為單位)。例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
+根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若要要求更多時間，請包含 `expires` 以及您所需的時間（以秒為單位）。 例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -80,8 +80,8 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | URL 參數 | 必要或選擇性 | 值 |
 | --- | --- | --- |
 | op | 必要 | get_uploadtoken |
-| shared_secret | 必要 | 正在進行上載的公司共用密鑰。 |
-| expires | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
+| sharedsecret | 必要 | 正在進行上載的公司共用密鑰。 |
+| 過期 | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
 
 **點陣化影像URL範例：**
 
@@ -118,25 +118,25 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-此 `file_limit` 引數指定檔案大小限制（位元組）。 `file_exts` 參數指定允許上載的文件副檔名。這兩個值都是可選的。
+此 `file_limit` 引數指定檔案大小限制（位元組）。 此 `file_exts` 引數指定允許上傳的副檔名。 這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
 
 | 全域限制 | 值 |
 | --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
-| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD，TIFF |
+| 用於上載的支援影像檔案格式 | BMP，GIF，JPG， PNG，PSD，TIFF |
 
 使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
 
-* 公司名稱.
-* 上載標記.
-* 檔案大小限制.
-* 檔案副檔名的清單.
+* 公司名稱。
+* 上傳權杖。
+* 檔案大小限制。
+* 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
 請參閱中的去底色背景 [上傳時影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
-* 待上載檔案的名稱.
+* 要上傳的檔案名稱。
 
 您可以選取「 」，檢視與上述表單相關聯的HTML原始碼 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 >
 >上載的資產 (JPG、GIF 等) 轉換為 PTIFF 格式，回應會傳送該 PTIFF 資產的直接連結。
 
-該資產類似於任何其他的影像伺服資源；您可以對其套用處理查詢。例如，以下 URL 要求延伸到指定寬度和高度的資產。
+該資產類似於任何其他的影像伺服資源；您可以對其套用處理查詢。例如，下列URL會要求將資產延伸至指定寬度和高度的許可權。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -202,7 +202,7 @@ POST
 
 ### 取得影像的資產中繼資料 {#getting-asset-metadata-for-images}
 
-您可以使用 `image_info`   擷取所上載資產的中繼資料，如以下範例中所示:
+您可以使用 `image_info` 擷取您上傳之資產的中繼資料，如下列範例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

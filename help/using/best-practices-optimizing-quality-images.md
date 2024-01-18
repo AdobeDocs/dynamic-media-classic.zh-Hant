@@ -10,20 +10,20 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 50%
+source-wordcount: '1601'
+ht-degree: 45%
 
 ---
 
 # 影像品質最佳化的最佳實踐{#best-practices-for-optimizing-the-quality-of-your-images}
 
-影像品質最佳化可能非常耗時，因為演算可接受的結果受許多因素影響。結果有點主觀，因為每個人對影像品質的認定不同。結構化實驗是關鍵。
+最佳化影像品質可能會耗費大量時間。 呈現可接受結果的因素有很多。 結果有點主觀，因為每個人對影像品質的認定不同。結構化實驗是關鍵。
 
-Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整和最佳化影像及演算結果。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
+Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果的100多個影像伺服命令。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
@@ -34,13 +34,13 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡單程度，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+>若要瞭解使用Snapshot的簡易性，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
-* 如果URL中未提供任何格式命令，Dynamic Media Image Serving會預設為傳送JPG。
+* 如果URL中未提供任何格式命令，Dynamic Media影像伺服預設為JPG進行傳送。
 * JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。PNG會以大約2:1的比率壓縮，除非有時影像包含空白背景。 大致上 PNG 檔案的大小比 JPG 檔案更大。
 * JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
@@ -52,32 +52,32 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
 
 動態縮減影像大小是Dynamic Media Image Serving最常執行的工作之一。 它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
 
-* 調整影像大小時，最好且最直接的方法是使用 `&wid=<value>` 和 `&hei=<value>` 或只是 `&hei=<value>`. 這些參數會根據外觀比例自動設定影像寬度。
-* `&resMode=<value>` 控制縮減取樣所使用的演演算法。 開始於 `&resMode=sharp2`. 此值可提供最好的影像品質。使用縮減取樣值時 `=bilin` 速度較快，通常會導致鋸齒狀不自然感。
+* 調整影像大小的最佳且最直接的方法是使用 `&wid=<value>` 和 `&hei=<value>` 或只是 `&hei=<value>`. 這些參數會根據外觀比例自動設定影像寬度。
+* `&resMode=<value>` 控制縮減取樣所使用的演演算法。 開始於 `&resMode=sharp2`. 此值可提供最好的影像品質。使用縮減取樣值時 `=bilin` 速度更快，通常會導致鋸齒狀不自然感。
 
 如需調整影像大小的最佳作法，請使用 `&wid=<value>&hei=<value>&resMode=sharp2` 或 `&hei=<value>&resMode=sharp2`
 
 ## 影像銳利化的最佳實踐 {#best-practices-for-image-sharpening}
 
-影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以進一步瞭解銳利化和非銳利化遮色片在Adobe Dynamic Media Classic中的運作方式：
+影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以花時間進一步瞭解銳利化和遮色片銳利化在Adobe Dynamic Media Classic中的運作方式：
 
 最佳實務白皮書 [在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-透過Adobe Dynamic Media Classic，您可以在內嵌和/或傳送時銳利化影像。 不過，通常您只會使用其中一種方法來銳利化影像，但不會同時使用這兩種方法來銳利化。 傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
+有了Adobe Dynamic Media Classic，您可以在內嵌和/或傳送時銳利化影像。 不過，通常您只會使用一種方法或另一種方法來銳利化影像，但不會同時使用兩者。 傳送影像時在 URL 上銳利化影像，通常可以獲得最好的結果。
 
-有兩種影像銳利化方法可供您使用：
+您可以使用兩種影像銳利化方法：
 
-* 簡單銳利化( `&op_sharpen`) — 類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。最佳實務是不使用 `&op_sharpen` 除非有需要。
+* 簡單銳利化( `&op_sharpen`) — 類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。最佳實務是不使用 `&op_sharpen` 除非必要。
 * 不銳利化遮色片( `&op_USM`) — 不銳利化遮色片是業界標準的銳利化濾鏡。 最佳實踐就是遵守以下準則並利用遮色片銳利化調整將影像銳利化。遮色片銳利化調整可讓您控制以下三個參數: 
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (0-5，效果的強度。)
-      * `radius` (0-250，在銳利化之物件周圍繪製的「銳利化線條」寬度，其單位為像素。)
+      * `amount` （0-5，效果強度。）
+      * `radius` (0-250，在銳利化物件周圍繪製的「銳利化線條」寬度（以畫素為測量單位）。
 
-        請記住，`radius` 和 `amount` 參數互相消長。減少 `radius` 可以通過增加來補償 `amount`. `Radius` 可以進行更精細的控制，因為較低的數值只會銳利化在邊緣的像素，而以較高的數值銳利化的像素範圍會比較寬。
+        請記住，引數 `radius` 和 `amount` 互相抵抗。 減少 `radius` 可以通過增加 `amount`. `Radius` 當值越低，只會銳利化邊緣畫素，而值越高會銳利化較寬的畫素範圍，因此可讓您使用更精細的控制項。
 
       * `threshold` （0-255，效果敏感度。）
 
@@ -85,7 +85,7 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
 
         如需如何設定這三個引數的詳細資訊，包括篩選使用的最佳實務，請參閱 [在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic也可讓您控制第四個引數：單色( `0,1`)。 這個參數決定要將遮色片銳利化調整分別套用至每個色彩元件 (使用值 `0`) 或套用至影像亮度/飽和度 (使用值 `1`)。
+      * Adobe Dynamic Media Classic也可讓您控制第四個引數：單色( `0,1`)。 此引數會決定是否使用值將遮色片銳利化調整分別套用至每個色彩元件 `0` 或使用值調整至影像亮度/強度 `1`.
 
 最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
 
@@ -101,24 +101,24 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
 ## JPEG 壓縮的最佳實踐 (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
 * 這個參數控制 JPG 編碼品質。值愈大表示影像品質愈好，但檔案較大；相反地，值愈小表示影像品質愈差，但檔案較小。此參數的範圍是 0-100。
-* 若要將品質最佳化，請勿將此參數值設為 100。設為 90、95 或 100 的差異微乎其微，但 100 會不必要的增加影像檔案的大小。因此，若要最佳化影像品質，但避免影像檔案過大，請設定 `qlt=` 值為90或95。
+* 若要將品質最佳化，請勿將此參數值設為 100。設為 90、95 或 100 的差異微乎其微，但 100 會不必要的增加影像檔案的大小。因此，若要最佳化品質但避免影像檔案變得太大，請設定 `qlt=` 值為90或95。
 * 若要針對較小的影像檔案大小進行最佳化，但將影像品質維持在可接受的等級，請設定 `qlt=` 值為80。 低於 70 至 75 的值會導致影像品質大幅下滑。
-* 最佳做法是居於中間，將 `qlt=` 值設為85，則維持在中間位置。
-* 在 `qlt=` = 中使用色度旗幟
+* 作為最佳實務，若要保持在中間，請將 `qlt=` 值設為85，則維持在中間。
+* 在中使用色度旗標 `qlt=`
 
    * 此 `qlt=` 引數有第二個設定，可讓您使用一般值開啟RGB色度縮減取樣 `,0` （預設），或使用值將其關閉 `,1`.
-   * 若要保持簡單，請從RGB色度縮減取樣關閉( `,1`)。 此設定通常會得到較好的影像品質，特別是包含許多銳利邊緣和對比的合成影像。
+   * 為了保持簡單，請從RGB色度縮減取樣關閉( `,1`)。 此設定通常會得到較好的影像品質，特別是包含許多銳利邊緣和對比的合成影像。
 
-使用JPG壓縮當作最佳實務 `&qlt=85,0`.
+使用JPG壓縮作為最佳實務 `&qlt=85,0`.
 
 ## JPEG 大小調整的最佳實踐 (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 引數 `jpegSize` 如果您想要保證影像不會超過傳送至記憶體有限之裝置的特定大小，這個選項就十分實用。
 
-* 此引數是以千位元組( `jpegSize=<size_in_kilobytes>`)。 它可定義影像傳送所允許的大小上限。
-* `&jpegSize=` 與JPG壓縮引數互動 `&qlt=`. 如果JPG回應具有指定的JPG壓縮引數( `&qlt=`)不可超過 `jpegSize` 值，則影像會以 `&qlt=` 依定義。 否則， `&qlt=` 會逐漸減少，直到影像符合允許的大小上限，或直到系統判斷它無法符合併傳回錯誤為止。
+* 此引數是以KB為單位( `jpegSize=<size_in_kilobytes>`)。 它可定義影像傳送所允許的大小上限。
+* `&jpegSize=` 會與JPG壓縮引數互動 `&qlt=`. 如果JPG回應具有指定的JPG壓縮引數( `&qlt=`)不可超過 `jpegSize` 值，則影像會以 `&qlt=` 依定義。 否則， `&qlt=` 會逐漸減少，直到影像符合最大允許大小，或直到系統判斷它無法符合併傳回錯誤為止。
 
-最佳實務是 `&jpegSize=` 並新增引數 `&qlt=` 如果您要將JPG影像傳送至記憶體有限的裝置。
+最佳實務是，設定 `&jpegSize=` 並新增引數 `&qlt=` 如果您要將JPG影像傳送至記憶體有限的裝置。
 
 ## 最佳實踐摘要 {#best-practices-summary}
 
@@ -134,6 +134,6 @@ Adobe Dynamic Media Classic包含100多個影像伺服命令，可用於調整�
 
 實驗時，以下一般建議有助於最佳化您的工作流程：
 
-* 請直接在URL上或使用Adobe Dynamic Media Classic的影像調整功能，即時嘗試並測試不同的引數。 後者提供調整作業的即時預覽。
-* 如需參考最佳做法，請記住，您可以將「Dynamic Media影像伺服」命令群組至影像預設集。 影像預設集基本上是含有自訂預設集名稱的URL命令巨集，例如 `$thumb_low$` 和 `&product_high$`. URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
-* Adobe Dynamic Media Classic也提供更進階的影像品質調整方式，例如在擷取時套用影像銳利化。 針對可選擇進一步調整及最佳化呈現結果的進階使用案例，Adobe Professional Services可協助您提供自訂的深入分析和最佳作法。
+* 請直接在URL上或使用Adobe Dynamic Media Classic的影像調整功能，即時試用並測試不同的引數。 後者提供調整作業的即時預覽。
+* 如需參考最佳做法，請記得您可以將「Dynamic Media影像伺服」命令群組至影像預設集。 影像預設集基本上是URL指令巨集，其中包含自訂預設集名稱，例如 `$thumb_low$` 和 `&product_high$`. URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
+* Adobe Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化演算結果的進階使用案例，Adobe Professional Services可協助您提供自訂分析和最佳實務。

@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 確認您為Web Service Access群組成員後，在Adobe Dynamic Media Classic中，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL Adobe Analytics]**. 在Adobe Analytics設定頁面上，選取 **[!UICONTROL Adobe Analytics登入]**.
 
-請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
+另請參閱 [登入Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
 在「Adobe Analytics登入」對話方塊中，輸入您的Experience Cloud組織ID （選用）和完整憑證，然後選取「 」 **[!UICONTROL 登入]**. 在「報告套件」下拉式選單中，選取您要使用的報告套件名稱。
 

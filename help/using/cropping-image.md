@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->裁切之後，您可以選取 **[!UICONTROL 另存為]** 並使用不同的名稱儲存影像的裁切版本。 在「另存新檔」視窗中，選取 **[!UICONTROL 另存為新主版]** 儲存影像的第二個復本。 選取 **[!UICONTROL 另存為主版的新增檢視]** 因此您可以使用不同的名稱來儲存原始版本及其裁切版本。 選取 **[!UICONTROL 取代原始檔案]** 刪除您從中裁切影像的原始檔案。 然後輸入影像的名稱，並選取 **[!UICONTROL 提交]**.
+>裁切之後，您可以選取 **[!UICONTROL 另存為]** 並使用不同的名稱儲存影像的裁切版本。 在「另存新檔」視窗中，選取 **[!UICONTROL 另存為新主要播放器]** 儲存影像的第二個復本。 選取 **[!UICONTROL 另存為主要播放器的新增檢視]** 因此您可以使用不同的名稱來儲存原始版本及其裁切版本。 選取 **[!UICONTROL 取代原始檔案]** 刪除您從中裁切影像的原始檔案。 然後輸入影像的名稱，並選取 **[!UICONTROL 提交]**.
 
 ## 裁切以移除影像周圍的空白區域 {#crop-to-remove-white-space-around-an-image}
 

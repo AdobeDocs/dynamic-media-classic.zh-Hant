@@ -6,10 +6,10 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 1%
+source-wordcount: '1563'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援，99.95% SLA。
-* 備受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理服務，流量逐年增加60%。
+* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理作業，流量逐年增加60%。
 
 +++
 
@@ -97,28 +97,28 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**升級程式是否有任何停機時間？**
-否. [!DNL Dynamic Media Classic] 在升級過程中持續不間斷地工作。 升級完成且內容通過驗證後，所有使用者僅在 [!DNL Dynamic Media] 元件 [!DNL Experience Manager] 資產。
+不適用。 [!DNL Dynamic Media Classic] 在升級過程中持續不間斷地工作。 升級完成且內容通過驗證後，所有使用者僅在 [!DNL Dynamic Media] 元件 [!DNL Experience Manager] 資產。
 
 +++
 
 +++**是否需要升級整備檢查清單中的所有步驟？**
-否. 此 [整備檢查清單](/help/using/upgrade-readiness.md) 包含必要和選用的最佳實務步驟。
+不適用。 此 [整備檢查清單](/help/using/upgrade-readiness.md) 包含必要和選用的最佳實務步驟。
 
 +++
 
 +++**是否需要升級？**
-否. Adobe持續提供完整支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
+不適用。 Adobe持續提供完整支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
 
 當您準備好要利用提供的新功能時，可以升級 [!DNL Dynamic Media].
 
 +++
 
-+++**我可以繼續使用 [!DNL Dynamic Media Classic] (前身為Adobe Scene7)升級至 [!DNL Dynamic Media]？**
++++**我還可以使用 [!DNL Dynamic Media Classic] (前身為Adobe Scene7)升級至 [!DNL Dynamic Media]？**
 在您升級至 [!DNL Dynamic Media]，您應該只將Dynamic Media用於影像和視訊。 您可以繼續使用 [!DNL Dynamic Media Classic] 僅適用於尚未在中提供的功能 [!DNL Dynamic Media] 包含下列專案：
 
 * 視覺化設定器（影像作者、影像演算）。
 * 影像範本。
-* eCatalog.
+* eCatalogs。
 
 +++
 
@@ -127,22 +127,23 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**執行現有 [!DNL Dynamic Media Classic] URL、API整合和檢視器會在我升級期間和之後繼續運作？**&#x200B;是的。您可繼續使用 [!DNL Dynamic Media Classic] (前身為Adobe Scene7)依照的現狀發佈和傳送基礎結構： [!DNL Dynamic Media] 解決方案。
++++**執行現有 [!DNL Dynamic Media Classic] URL、API整合和檢視器會在我升級期間和之後繼續運作？**
+是。 您可繼續使用 [!DNL Dynamic Media Classic] (前身為Adobe Scene7)依照的現狀發佈和傳送基礎結構： [!DNL Dynamic Media] 解決方案。
 
 +++
 
 +++**我是否必須更新生產URL？**
-否. Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的好處是，您不必變更網頁上的任何生產URL，因此將移轉至 [!DNL Dynamic Media].
+不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的好處是，您不必變更網頁上的任何生產URL，因此將移轉至 [!DNL Dynamic Media].
 
 +++
 
 +++**我是否必須重寫API整合和其他自動化指令碼？**
-否. Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此外，所有資產都會複製到 [!DNL Dynamic Media Classic]. 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此將移轉至 [!DNL Dynamic Media].
+不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此外，所有資產都會複製到 [!DNL Dynamic Media Classic]. 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此將移轉至 [!DNL Dynamic Media].
 
 +++
 
 +++**我是否需要變更或重新開發自訂檢視器？**
-否. Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的優點在於，您可以繼續使用自訂的檢視器，將移轉至 [!DNL Dynamic Media].
+不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的優點在於，您可以繼續使用自訂的檢視器，將移轉至 [!DNL Dynamic Media].
 +++
 
 +++**如何將我的設定（例如影像預設集、視訊編碼）移轉至 [!DNL Dynamic Media]？**
@@ -155,7 +156,8 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**我仍然可以使用FTP來批次/大量上傳資產嗎？**&#x200B;是的。您不需要修改現有的擷取工作流程，可以繼續排程FTP式上傳。
++++**我仍然可以使用FTP來批次/大量上傳資產嗎？**
+是。 您不需要修改現有的擷取工作流程，可以繼續排程FTP式上傳。
 
 +++
 
@@ -164,7 +166,8 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**是 [!DNL Dynamic Media] 是否適用於所有地理位置？**&#x200B;是的。Adobe在北美、歐洲和亞太地區都有資料中心。
++++**是 [!DNL Dynamic Media] 是否適用於所有地理位置？**
+是。 Adobe在北美、歐洲和亞太地區都有資料中心。
 
 +++
 
@@ -193,11 +196,13 @@ Adobe會對所有移至的資產執行自動驗證 [!DNL Dynamic Media]. 由支�
 
 +++
 
-+++**是否有SLA [!DNL Dynamic Media]？**&#x200B;是的。如需詳細資訊，請聯絡您的Adobe客戶團隊代表。
++++**是否有SLA [!DNL Dynamic Media]？**
+是。 如需詳細資訊，請聯絡您的Adobe客戶團隊代表。
 
 +++
 
-+++**我可以搭配使用自己的CDN （內容傳遞網路）嗎 [!DNL Dynamic Media]？**&#x200B;是的。您可以使用自己的CDN搭配 [!DNL Dynamic Media].
++++**我可以搭配使用自己的CDN （內容傳遞網路）嗎 [!DNL Dynamic Media]？**
+是。 您可以使用自己的CDN搭配 [!DNL Dynamic Media].
 
 +++
 
@@ -211,7 +216,7 @@ Adobe會對所有移至的資產執行自動驗證 [!DNL Dynamic Media]. 由支�
 
 * 視覺化設定器（影像作者、影像演算）。
 * 影像範本。
-* eCatalog.
+* eCatalogs。
 
 另請參閱 [功能比較](/help/using/upgrade-feature-comparison.md) 您可以在此頁面瞭解更多資訊。
 
@@ -225,7 +230,7 @@ Adobe會對所有移至的資產執行自動驗證 [!DNL Dynamic Media]. 由支�
 ## 諮詢服務
 
 +++**我可以自行完成升級程式嗎？**
-否. 與您的Adobe代表和AGS合作，將您的升級範圍限定在內。
+不適用。 與您的Adobe代表和AGS合作，將您的升級範圍限定在內。
 
 +++
 

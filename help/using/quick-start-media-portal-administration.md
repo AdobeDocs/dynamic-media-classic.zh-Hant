@@ -12,16 +12,16 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
 # 快速入門： Media Portal{#quick-start-media-portal}
 
-Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產分發給外部合作夥伴和管道，以及公司的內部使用者。 這個以瀏覽器為基礎的「自助式」環境為Media Portal使用者提供管理員控制的Adobe Dynamic Media Classic資產「檢視」，可輕鬆存取、瀏覽、搜尋、預覽和匯出企業核准格式的資產。
+Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 這個以瀏覽器為基礎的「自助式」環境為Media Portal使用者提供由管理員控制的Adobe Dynamic Media Classic資產「檢視」，方便他們以公司核准的格式存取、瀏覽、搜尋、預覽和匯出資產。
 
 身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在Media Portal介面中指定字型、字型顏色、字型大小，以及合併商標元素（例如標誌）。
 
@@ -33,7 +33,7 @@ Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產分�
 
 * [Media Portal導覽2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-以下快速入門旨在讓您快速上手並執行Media Portal管理。 在每個步驟結束時，選取主題連結以瞭解更多資訊。
+下列快速入門旨在協助您快速上手並執行Media Portal管理。 在每個步驟結束時，選取主題連結以瞭解更多資訊。
 
 ## 1. 瞭解 Media Portal 使用者角色
 
@@ -57,11 +57,11 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 您可以有與Media Portal相關聯並對應至Adobe Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
-另請參閱 [管理FTP](ftp-accounts.md#managing_ftp_accounts).
+另請參閱 [管理FTP帳戶](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->只有 Media Portal 管理員才能夠管理這些 FTP 帳戶。此外，只有具有「Media Portal 參與者 - 使用者」或「Media Portal 參與者」角色的使用者，才能夠上載檔案。
+>只有Media Portal管理員可以管理這些FTP帳戶。 此外，只有具有「Media Portal 參與者 - 使用者」或「Media Portal 參與者」角色的使用者，才能夠上載檔案。
 
 請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -73,9 +73,9 @@ Media Portal使用者匯出檔案時，可以重新格式化檔案並匯出原�
 
 ## 6. 建立影像預設集
 
-「影像預設集」是預先定義之設定的集合，而這些設定可在匯出影像時，變更影像外觀的大小、影像品質、格式、解析度及其他各方面。您可以建立影像預設集，來控制使用者匯出影像時，對影像重新格式化的方式。
+「影像預設集」是預先定義的設定集合，在匯出影像時，會變更影像的大小、影像品質、格式、解析度及其他外觀方面。 您可以建立影像預設集，來控制使用者匯出影像時，對影像重新格式化的方式。
 
-另請參閱 [建立和啟用影像預設集](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+另請參閱 [建立及啟用影像預設集](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. 建立中繼資料預設集與使用者定義的中繼資料欄位
 
@@ -83,8 +83,8 @@ Media Portal使用者匯出檔案時，可以重新格式化檔案並匯出原�
 
 請參閱[更有效地使用中繼資料](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 
-## 8.自訂媒體入口網站頁面
+## 8.自訂Media Portal
 
-Media Portal樣式設定可讓您使用公司標誌和顏色來為Media Portal頁面命名。 使用樣式設定將您的公司品牌放在Media Portal上。
+Media Portal樣式設定可讓您使用公司的標誌和顏色來包裝Media Portal頁面。 使用樣式設定將您的公司品牌置於Media Portal上。
 
 另請參閱 [自訂Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

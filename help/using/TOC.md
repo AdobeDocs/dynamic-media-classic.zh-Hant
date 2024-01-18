@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 24%
+source-wordcount: '795'
+ht-degree: 19%
 
 ---
 
@@ -49,18 +49,18 @@ ht-degree: 24%
    + [發佈設定](publish-setup.md)
    + [視訊 SEO (搜尋引擎最佳化)](video-seo-search-engine-optimization.md)
    + [管理設定](administration-setup.md)
-+ Media Portal {#media-portal}
++ 媒體入口網站 {#media-portal}
    + [Adobe Dynamic Media Classic中Media Portal的系統需求](system-requirements-media-portal.md)
    + [快速入門： Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 使用者角色](media-portal-user-roles.md)
    + [建立和管理Media Portal群組](creating-media-portal-groups.md)
    + [新增和管理Media Portal使用者](adding-media-portal-users.md)
-   + [管理 FTP 帳戶](ftp-accounts.md)
+   + [管理FTP帳戶](ftp-accounts.md)
    + [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md)
    + [建立及啟用影像預設集](creating-enabling-image-presets.md)
    + [更有效地使用中繼資料](making-efficient-metadata.md)
-   + [自訂 Media Portal 畫面](customizing-media-portal-screen.md)
-+ 上載和發佈資產 {#upload-publish}
+   + [自訂Media Portal畫面](customizing-media-portal-screen.md)
++ 上傳和發佈資產 {#upload-publish}
    + [關於資產的上傳和發佈](about-asset-upload-publish.md)
    + [上載檔案](uploading-files.md)
    + [發佈檔案](publishing-files.md)
@@ -96,7 +96,7 @@ ht-degree: 24%
    + [使用不同的縮放檢視器預覽影像資產](previewing-image-assets-different-zoom.md)
    + [發佈縮放影像](publishing-zoom-images.md)
    + [將縮放檢視器連結至您的網頁](linking-zoom-viewers-web-pages.md)
-+ eCatalog {#ecatalogs}
++ eCatalogs {#ecatalogs}
    + [快速入門：eCatalogs](quick-start-ecatalog.md)
    + [上傳PDF檔案](uploading-pdf-files.md)
    + [建立eCatalog](creating-ecatalog.md)
@@ -154,11 +154,11 @@ ht-degree: 24%
    + [將混合媒體集連結至網頁](linking-mixed-media-set-web.md)
 + Adobe Analytics檢測套件 {#analytics-kit}
    + [快速入門：整合Adobe Dynamic Media Classic與Adobe Analytics](quick-start-integrating-dmc-analytics.md)
-   + [登入 Adobe Analytics](log-analytics.md)
+   + [登入Adobe Analytics](log-analytics.md)
    + [設定Adobe Analytics報表](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 檢測套件來檢測檢視器](instrumenting-viewer-using-analytics-instrumentation.md)
    + [停用Adobe Analytics追蹤](disabling-analytics-tracking.md)
-   + [檢視 報告以測試 Adobe Analytics 整合](testing-integration-viewing-analytics-report.md)
+   + [檢視Adobe Analytics報表以測試整合](testing-integration-viewing-analytics-report.md)
    + [啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)
    + [發佈Adobe Analytics設定資訊](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium整合 {#target-classic}

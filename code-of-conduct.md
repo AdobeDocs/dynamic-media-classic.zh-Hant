@@ -1,7 +1,7 @@
 ---
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 強制執行
 
-如有辱罵、騷擾或其他不可接受的行為，請聯絡專案團隊：Grp-opensourceoffice@adobe.com。 我們會檢視及調查所有投訴。 我們會提供必要且適當的回應。 專案團隊有義務對事件檢舉人的相關資料保密。 具體執行政策的詳細資訊可能另行公佈。
+如有辱罵、騷擾或其他不可接受的行為，請聯絡專案團隊：Grp-opensourceoffice@adobe.com。 我們會檢視及調查所有投訴。 會提供必要且適當的回應。 專案團隊有義務對事件檢舉人的相關資料保密。 具體執行政策的詳細資訊可能另行公佈。
 
 未真誠遵守或執行本行為準則的專案維護人員可能會面臨暫時或永久的處置，此由專案領導權之其他成員所決定。
 
