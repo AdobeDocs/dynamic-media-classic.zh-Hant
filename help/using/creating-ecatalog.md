@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 51%
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
-**建立 eCatalog:**
+**若要建立eCatalog：**
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
@@ -72,13 +72,13 @@ ht-degree: 51%
 | 已發佈集? | 儲存編輯內容前，是否已選取「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
-**編輯 eCatalog:**
+**若要編輯eCatalog：**
 
 1. 選取eCatalog的變換 **[!UICONTROL 編輯]** 按鈕。
 1. 視需要進行變更。
@@ -91,7 +91,7 @@ ht-degree: 51%
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
-**建立 eCatalog:**
+**若要刪除eCatalog：**
 
 1. 在格點檢視、清單檢視或詳細資訊檢視中，選取一或多個 eCatalog。
 1. 在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]** > **[!UICONTROL 刪除]**.
@@ -100,7 +100,7 @@ ht-degree: 51%
 
 Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，封面可以閱讀「封面」而非「第0-1頁」。
 
-您可以手動為 eCatalog 建立自訂的目錄 (TOC)，或從 CSV (僅限 Mac) 或 XML 檔案匯入頁面名稱。
+您可以手動建立eCatalog的自訂目錄(TOC)，或是從CSV (僅限Mac)或XML檔案匯入頁面名稱。
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ TOC標籤儲存在影像的「使用者資料」欄位中；將此資料格式�
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-若要在 XML 檔案中匯入「使用者資料」欄位，請包括屬性 `vc_userdata`:
+若要在XML檔案中匯入「使用者資料」欄位，請包含屬性 `vc_userdata`：
 
 ```as3
 <ips> 

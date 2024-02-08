@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++
 
 +++**_新案頭應用程式的多個執行個體可以同時開啟嗎？_**
-否，建置新Adobe Dynamic Media Classic案頭應用程式的AIR技術會限制使用者在指定時間開啟多個應用程式例項。
+不適用。 使用建置新Adobe Dynamic Media Classic案頭應用程式的AIR技術，使用者無法在指定時間開啟多個應用程式例項。
 +++
 
 +++**_對於可透過本機電腦上傳至Adobe Dynamic Media Classic的檔案數量是否有任何限制？_**
@@ -80,7 +80,7 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++
 
 +++**_新的Adobe Dynamic Media Classic案頭應用程式是否需要新的SKU？ 涉及授權成本嗎？_**
-不需變更SKU或授權即可使用新的Adobe Dynamic Media Classic案頭應用程式。
+兩個問題皆否。 不需變更SKU或授權即可使用新的Adobe Dynamic Media Classic案頭應用程式。
 +++
 
 +++**_如何啟用Adobe Dynamic Media Classic案頭應用程式的升級？_**

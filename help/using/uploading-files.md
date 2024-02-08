@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 28%
 
 ---
@@ -123,7 +123,7 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 * 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。Adobe Dynamic Media Classic使用資產名稱來建構URL字串時，會對資產名稱中的空白進行ASCII編碼。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
 * 檔名中允許使用特定語言的字元，但不允許使用下列字元:
 
-  \ ； / ？： @ &amp; = + $ ， &#42; 「 &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   如果檔名中包含一或多個上述字元，上載時會將其從檔案名稱移除。
 

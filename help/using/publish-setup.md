@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 41%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 41%
 
 使用Adobe Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常差異在於整體媒體的某些部分。 複製每個國家/地區的所有資產，並僅覆寫差異，以解決這些差異是巨大的努力，並且與單一主要資產的比喻相抵觸。 資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Adobe Dynamic Media Classic使用基本查詢機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
-#### 資產本地化的方式
+#### 資產本地化方式
 
 IS (影像伺服) 請求的地區可透過下列 IS/IR (影像演算) 命令來識別:
 
@@ -93,7 +93,7 @@ IS支援任意可列印的ASCII字串。 此 `locale=` command具有全域範圍
 
 | 應用程式 | 案例 |
 | --- | --- |
-| 檢視器本地化 | 在實作靜態內容目錄後，本地化會完全以 locale= 參數控制；此參數會附加至所有對 IS 提出的請求。設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
+| 檢視器本地化 | 實作靜態內容目錄後，本地化完全以locale=引數控制，附加至向IS提出的所有要求。 設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
 | 影像和視訊 | 跨國公司常會混用通用內容與地區特定內容。在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
 | 影像集和媒體集 | 對於某些區域設定，例如當eCatalog不同時，整個影像集可能會不同，因為檢視器會處理從一般到區域設定特定影像集的轉譯。 更常見的情況是，一般集中的個別ID可以參照本地化的內容。 例如，除控制面板的像片外，裝置的大部分像片在所有語言中都可能相同。 IS 會自動翻譯 ID，因此無須產生地區特定影像集。 |
 
@@ -121,17 +121,17 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 >
 >全域地區設定只有在您透過API設定，而不是在Adobe Dynamic Media Classic介面中設定時才可行。
 
-**字尾範例:**
+**尾碼範例：**
 
 | URL | localeMap ID | 結果 |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。語言環境引數de_DE與 `localeMap`. 第一個對應值 _DE 會增加為資產的字尾 (image_DE)，接著會嘗試在影像伺服器上尋找此項目。如果在伺服器上找到此項目，則會加以傳回。否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。語言環境引數de_DE與 `localeMap`. 第一個對應值_DE會新增為資產image_DE的尾碼，並嘗試在影像伺服器上尋找該資產。 如果在伺服器上找到此項目，則會加以傳回。否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
 
-**取代範例:**
+**取代範例：**
 
 | URL | `GlobalLocale` 和 `localeMap` ID | 結果 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述取代範例中，GlobalLocale 設為 main。語言環境引數de_DE與 `localeMap`. 找到GlobalLocale子字串並取代為第一個對應值 `de` 在 `localeMap`： `image-de-01`. 如果在影像伺服器上找到此項目，則會加以傳回。如果找不到，則會取代第二個值，而產生 `image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 語言環境引數de_DE與 `localeMap`. 找到GlobalLocale子字串並取代為第一個對應值 `de` 在 `localeMap`： `image-de-01`. 如果在影像伺服器上找到此項目，則會加以傳回。如果不適用，則會取代第二個值，而導致 `image-main-01`. |
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 
@@ -141,15 +141,15 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 影像伺服器會針對所請求的地區逐一嘗試各個選項。若找不到相符專案，區域設定選項會套用至defaultImage，並傳回相符版本。 因此，每個地區設定都必須包含影像的選項，但不進行本地化，或是在Adobe Dynamic Media Classic中提供本地化的defaultImage版本。
 
-#### 尋找 localeMap 的案例 
+#### 尋找localeMap的案例
 
 假設您要支援下列地區:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-將這些地區設定對應到尾碼 `_E`， `_G`、和 `_F`，分別代表英文、德文和法文。 在所有範例中，通用輸入影像 ID 皆為 `myImg`。
+將這些地區設定對應到尾碼 `_E`， `_G`、和 `_F`，分別代表英文、德文和法文。 在所有範例中，一般輸入影像ID為 `myImg`.
 
-##### 尋找 localeMap 的標準行為
+##### 尋找localeMap的標準行為
 
 地區 ID 會對應至其對應的字尾。如果在目錄中找不到地區特定 ID，則會以通用 ID 嘗試。記下對應至通用 ID 的空 locSuffix 值。
 
@@ -157,12 +157,12 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 | 地區設定= | 要搜尋的輸出 ID |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en， en_us， en_uk | 我的影像(_E)，我的影像 |
+| de， de_de， de_at | myImg_D， myImg |
+| fr | myImg_F， myImg |
 | 所有其他 | - |
 
-##### 在地區不明時尋找 localeMap
+##### 地區設定不明時尋找localeMap
 
 您可以將不明的地區對應至特定 ID 或通用 ID。例如，您可以將未知的地區設定對應至英文ID，如果沒有的話，則對應至一般ID。
 
@@ -170,9 +170,9 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 | 地區設定= | 要搜尋的輸出 ID |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| 所有其他 | myImg_E,myImg |
+| de， de_de， de_at | myImg_D， myImg |
+| fr | myImg_F， myImg |
+| 所有其他 | 我的影像(_E)，我的影像 |
 
 您也可以具有專用的locSuffix （例如U），僅適用於未知的區域設定，如果沒有，則強制預設影像 `_U` 存在，如下所示：
 
@@ -192,10 +192,10 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 | 地區設定= | 要搜尋的輸出 ID |
 | --- | --- |
-| w1, w3 | myImg-W, myImg |
-| w2 | myImg-W2, myImg-W, myImg |
-| m1 | myImg-M1, myImg-M, myImg |
-| m2 | myImg-M2, myImg-M, myImg |
+| w1， w3 | 我的影像 — W、我的影像 |
+| w2 | myImg-W2、myImg-W、myImg |
+| m1 | myImg-M1、myImg-M、myImg |
+| m2 | myImg-M2、myImg-M、myImg |
 | 所有其他 | mylmg |
 
 ##### 透過搜尋特定ID來尋找localeMap
@@ -209,10 +209,10 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 | 地區設定= | 要搜尋的輸出 ID |
 | --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
-| de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
+| de， de_at， de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 所有其他 | myImg_1, myImg_2, myImg_3 |
 
-##### 實作本地化支援時的重要注意事項
+##### 實作本地化支援時的重要考量
 
 * 本地化限用於以 ID 為基礎的資產呼叫，而無法用於以路徑為基礎的資產呼叫。因此，在呼叫具有地區設定的視訊時，必須以 company/assetID 的形式呼叫，而不是以視訊的完整路徑。您無法將rtmp用於本地化，因為此方法僅適用於以路徑為基礎的視訊呼叫。
 * 如果 localeMap 作用中，您就無法使用包含單一視訊的混合媒體集，否則對該媒體集之內容的呼叫將會失敗。若要解決此問題，您可以將單一視訊新增到最適化視訊集。 接著，將最適化視訊集增加至混合媒體集。
