@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -33,10 +33,12 @@ ht-degree: 2%
 | 資產 — 限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
 | **影像**  — 每個影像的智慧型裁切數目 | 5 | 100 |
-| **所有集合**  — 每組重複資產數 | 無重複專案 | 20 |
+| **所有集合**  — 每組重複資產數 | 無重複專案 | 20‡ |
 | **所有集合**  — 每組資產數量上限 | 每組5至10個影像 | 1000 |
 | **迴轉集**  — 每個2D集的最大列/欄數 | 每組12至18個影像 | 1000 |
 | **PDF**  — 要考慮進行擷取的PDF最大頁數 |  | 100 (適用於所有PDF) |
+
+‡最佳實務是集合中不要有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

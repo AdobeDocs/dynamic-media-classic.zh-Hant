@@ -1,21 +1,19 @@
 ---
-title: "快速入門: 影像集"
+title: 「快速入門：影像集」
 description: 影像集簡介和快速入門，可幫助您快速上手並執行Adobe Dynamic Media Classic中的影像集技術。
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +29,10 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 | 限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
-| 每個集的重複資產數 | 無重複專案 | 20 |
+| 每個集的重複資產數 | 無重複專案 | 20‡ |
 | 每組影像的最大數量 | 每組5至10個影像 | 1000 |
+
+‡最佳實務是集合中不要有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
 
 另請參閱 [Dynamic Media限制](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 >[!NOTE]
 >
->如果在您建立和儲存影像集時選取了「**[!UICONTROL 儲存後發佈]**」(預設)，則此步驟並非必要。
+>如果您選取「 」，則不需要執行此步驟 **[!UICONTROL 儲存後發佈]** （預設）建立並儲存「影像集」時。
 
 選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
