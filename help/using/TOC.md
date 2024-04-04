@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 19%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 19%
    + [功能清單比較](upgrade-feature-comparison.md)
    + [升級整備檢查清單](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
-+ [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [全新Adobe Dynamic Media Classic登入功能現已推出](new-ui-2020.md)
 + [依Experience LeagueAdobeDynamic Media電子報封存](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
@@ -182,7 +182,7 @@ ht-degree: 19%
    + [使用PDF](pdfs.md)
    + [使用PSD檔案](psd-files.md)
    + [使用PostScript和Illustrator檔案](postscript-illustrator-files.md)
-   + [處理暈映、視窗涵蓋範圍及封包檔案](vignette-window-covering-cabinet-files.md)
+   + [使用暈映、視窗覆蓋和封包檔案](vignette-window-covering-cabinet-files.md)
 + 支援檔案 {#support-files}
    + [字型](fonts.md)
    + [XML 檔案](xml-files.md)

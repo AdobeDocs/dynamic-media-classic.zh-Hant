@@ -1,6 +1,6 @@
 ---
 title: 新增功能
-description: 透過目前的版本注意事項瞭解新的Adobe Dynamic Media Classic。
+description: 透過目前的發行說明了解Adobe Dynamic Media Classic的新功能。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,13 +10,13 @@ role: Admin,User
 exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 # 新增功能 {#what-s-new}
 
-若要檢閱最新Adobe Dynamic Media Classic發行資訊，包括新功能、增強功能和修正，請參閱 [Adobe Dynamic Media Classic發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+若要檢閱最新Adobe Dynamic Media Classic發行資訊，包括新功能、增強功能和修正，請參閱 [Adobe Dynamic Media Classic發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

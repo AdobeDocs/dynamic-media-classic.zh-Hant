@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 最新版本(20.22.1)中的修正 {#release-jan2022}
 
-* 影像編輯 **[!UICONTROL 儲存]** 按鈕無法運作。
+* 編輯影像時， **[!UICONTROL 儲存]** 按鈕無法運作。
 * 在集合編輯器中， **[!UICONTROL 關閉]**， **[!UICONTROL 儲存]**、和 **[!UICONTROL 另存為]** 在中捲動資產後，按鈕會停用 **[!UICONTROL 新增資產]** 面板。
 * **[!UICONTROL 播放]** 「視訊詳細資料」檢視中的按鈕無法運作。
 * 無法輸入 `d` 和 `e` 在 **[!UICONTROL 使用者名稱]** 和 **[!UICONTROL 密碼]** 執行macOS Monterey時的欄位。
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說 {#dmc-app-video-walk-through}
 
-觀看 [使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) （長度： 2分36秒）。
+觀看 [使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
 
 ## 使用案頭應用程式清除電腦上的影像快取和資產快取 {#clear-cache}
 
@@ -252,7 +252,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
    * macOS： `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®： `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Adobe Dynamic Media Classic 20.21.1中的已知限制
+## Adobe Dynamic Media Classic 20.21.1的已知限制
 
 * 此 **[!UICONTROL 伺服器]** 更新至Adobe Dynamic Media Classic案頭應用程式20.21.1後，下拉式清單為空白 — 案例：您安裝並登入Adobe Dynamic Media Classic 20.20.1或20.20.2，然後關閉應用程式。 接著您更新至Adobe Dynamic Media Classic 20.21.1。當您嘗試登入時， **[!UICONTROL 伺服器]** 中的下拉式清單 **[!UICONTROL 登入您的帳戶]** 對話方塊是空的。 若要解決此問題，您必須 [手動清除快取](#clear-cache) （請參閱上述步驟）。
 

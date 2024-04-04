@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic案頭應用程式
-description: Adobe Dynamic Media Classic使用者現在可以體驗使用者介面的完整重新整理。 此體驗會提供更新的登入功能，內含寶貴資源的連結，而且此更新不再依賴瀏覽器中的AdobeFlash技術。
+description: Adobe Dynamic Media Classic使用者現在可以體驗使用者介面的完整重新整理。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ AdobeFlash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用在
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_新的案頭應用程式如何運作？_**
-下載、安裝及啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 透過輸入您現有的使用者名稱和密碼，並根據您的地區選取適當的伺服器，您可以登入Adobe Dynamic Media Classic。 整體體驗與您慣用的熟悉網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。
+下載、安裝和啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 透過輸入您現有的使用者名稱和密碼，並根據您的地區選取適當的伺服器，您可以登入Adobe Dynamic Media Classic。 整體體驗與您慣用的熟悉網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。
 
 >[!IMPORTANT]
 >
@@ -94,9 +94,9 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++**_我想要確認我正在最佳化我的多媒體策略。 如何進一步瞭解Adobe Dynamic Media Classic？_**
 Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強您的多媒體策略而設計。 為確保您能充分運用所有功能，請務必探索以下實用資源：
 
-* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe部落格](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [AdobeDynamic Media電子報封存](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [AdobeDynamic Media電子報封存](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

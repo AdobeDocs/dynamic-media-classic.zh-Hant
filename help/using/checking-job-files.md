@@ -1,20 +1,18 @@
 ---
 title: 檢查工作檔案
 description: 瞭解如何在Adobe Dynamic Media Classic中檢查工作檔案。
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->您可在 **[!UICONTROL 已排程]** 以Tab鍵定位 **[!UICONTROL 工作型別]** 和 **[!UICONTROL 顯示]** 功能表。 選取工作型別，讓您可以縮小清單範圍以發佈特定型別的工作。 選取 **[!UICONTROL 顯示]** 選項，以顯示您建立的工作或公司中所有人員建立的工作。
+>您可在 **[!UICONTROL 已排程]** 以Tab鍵定位 **[!UICONTROL 工作型別]** 和 **[!UICONTROL 顯示]** 功能表。 選取工作型別，讓您可以縮小清單範圍以發佈特定型別的工作。 選取 **[!UICONTROL 顯示]** 選項，以便顯示您建立的工作或公司中每個人建立的工作。
 
 ### 編輯、刪除、暫停並繼續週期性工作 {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

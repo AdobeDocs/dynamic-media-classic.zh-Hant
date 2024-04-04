@@ -1,21 +1,19 @@
 ---
 title: 檢視、新增和匯出中繼資料
 description: 瞭解如何在Adobe Dynamic Media Classic中檢視、新增和匯出中繼資料。
-uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 45%
+source-wordcount: '2226'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 45%
 
 您可以在Adobe Dynamic Media Classic中儲存您使用之檔案的特定資訊；此資訊稱為 *中繼資料*. 您可以在Adobe Dynamic Media Classic中使用中繼資料，以組織、搜尋、篩選和排序您的資產。
 
-中繼資料會與Adobe Dynamic Media Classic產生的資訊一起顯示在「詳細資料檢視」中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在詳細檢視中輸入和編輯 中繼資料。
+中繼資料會與Adobe Dynamic Media Classic產生的資訊一起顯示在「詳細資料檢視」中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在「詳細資料檢視」中輸入及編輯中繼資料。
 
 有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Adobe Dynamic Media Classic會自動將其與檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Illustrator和其他應用程式的來源資產中；Adobe Dynamic Media Classic可辨識此中繼資料。 您也可以在「詳細資料檢視」的「中繼資料」面板中，將中繼資料新增至個別檔案。 為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
@@ -39,7 +37,7 @@ ht-degree: 45%
 
 * **XMP**  — 可延伸中繼資料程式所定義的值。
 
-管理員可以建立中繼資料檢視。這些檢視也會顯示在「中繼資料檢視」選單上。
+管理員可以建立中繼資料檢視。這些檢視也會出現在中繼資料檢視功能表中。
 
 另請參閱 [中繼資料檢視](application-setup.md#metadata_views) 以取得有關建立中繼資料檢視的資訊。
 
@@ -55,13 +53,13 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->若要一次編輯多個資產的中繼資料，請選取資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**. 您在「編輯資訊」視窗針對中繼資料進行的編輯，會套用至您選取的所有資產。
+>若要一次編輯多個資產的中繼資料，請選取資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**. 您在「編輯資訊」視窗中對中繼資料所做的編輯會套用至您選取的所有資產。
 
 ## 增加或編輯關鍵字 {#add-or-edit-keywords}
 
 除了中繼資料之外，您還可以使用關鍵字來協助搜尋和管理您的資產。
 
-如果您在此工作階段期間將關鍵字新增至其他檔案，或者如果您已將關鍵字從清單中移除，它們就會顯示在「關鍵字建議」表格中。
+如果您在此工作階段期間將關鍵字新增至其他檔案，或者如果您已從清單中移除關鍵字，這些關鍵字會顯示在「關鍵字建議」表格中。
 
 1. 在詳細檢視中開啟檔案。
 1. 選取 **[!UICONTROL 關鍵字]**.
@@ -74,7 +72,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在「上載工作選項」對話方塊中，選擇 **[!UICONTROL 其他中繼資料]** 並輸入關鍵字。
+>您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在「上載工作選項」對話方塊中，選擇 **[!UICONTROL 更多中繼資料]** 並輸入關鍵字。
 >參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}
@@ -83,7 +81,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->您可以建立用於輸入中繼資料的範本，以便正確地將其匯入至Adobe Dynamic Media Classic。 建立範本後，您便可使用範本來輸入中繼資料。
+>您可以建立用於輸入中繼資料的範本，以便正確地將其匯入至Adobe Dynamic Media Classic。 建立範本後，您可以用它來輸入中繼資料。
 >請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 如需標準化屬性的詳細資訊，請參閱 [Adobe XMP開發人員中心](https://www.adobe.com/devnet/xmp.html).
@@ -99,9 +97,9 @@ ht-degree: 45%
 
 識別要匯入的不同中繼資料類型時，請記住下列事項:
 
-* 使用者定義的欄位是以在中建立的名稱來識別 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義的欄位]**. 使用「產生」檔案功能，以正確的匯入格式取得所有已定義 UDF 的清單。
-* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。XMP首碼可在下列位置找到： **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構]** 編輯者。 您可以在相關的 XMP 資料結構文件中找到技術名稱。XMP屬性名稱不會出現在「產生檔案」功能中。
-* 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。字首和屬性名稱皆是在「中繼資料結構編輯器」中定義。中繼資料結構描述屬性名稱未出現在「產生檔案」功能中。
+* 使用者定義的欄位是以在中建立的名稱來識別 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義的欄位]**. 使用 `Generate file` 功能以取得正確匯入格式之所有已定義UDF的清單。
+* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。XMP首碼可在下列位置找到： **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構]** 編輯者。 您可以在相關的 XMP 資料結構文件中找到技術名稱。XMP屬性名稱未出現在 `Generate file` 功能。
+* 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。字首和屬性名稱皆是在「中繼資料結構編輯器」中定義。中繼資料結構描述屬性名稱不會出現在 `Generate file` 功能。
 
 例如：關鍵字的XMP屬性是首碼為XMP結構描述「Dublin Core」 `dc` 和 `subject` 是技術XMP名稱。 前置詞和技術XMP名稱會合併至 `dc:subject` 完整屬性名稱。 在XML中繼資料匯入格式中， `dc.subject` 必須為屬性名稱。 在以Tab字元分隔的匯入格式中，它必須是欄標題。
 
@@ -157,7 +155,7 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 1. 選取包含您要用於範本的中繼資料欄位的影像資產。
 1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 匯入中繼資料]**.
 1. 對於 **[!UICONTROL 資產屬性型別]**，選取 **[!UICONTROL 影像]**.
-1. 從 **[!UICONTROL 產生檔案]** 下拉式清單，選擇 **[!UICONTROL Tab字元分隔範本]**， **[!UICONTROL 資產的XML中繼資料]**，或 **[!UICONTROL XML DTD]**.
+1. 從 **[!UICONTROL `Generate File`]** 下拉式清單，選擇 **[!UICONTROL Tab字元分隔範本]**， **[!UICONTROL 資產的XML中繼資料]**，或 **[!UICONTROL XML DTD]**.
 1. 選取 **[!UICONTROL 產生]**.
 1. 在顯示的對話框中複製資料。使用此資料來建構範本。
 
@@ -176,10 +174,10 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 | 新增 | 將屬性新增至結構描述。 強制回應對話方塊會收集資訊：ID、標籤、結構和資料型別。 |
 | 新增選擇值 | 新增選擇至屬性，其結構為「開放選擇」或「限定選擇」。所有選擇值皆擁有相同的類型。選取屬性本身以啟用按鈕。 |
 | 編輯 | 編輯屬性或選擇值的標籤。您只能更改標籤、ID，但類型資訊不可變。 |
-| 往上移/往下移 | 資料結構中的順序會反映在 UI 中。若要變更順序，請選取屬性或選擇值，並以按鈕加以移動。目前不支援拖放。 |
+| 上移/下移 | 資料結構中的順序會反映在 UI 中。若要變更順序，請選取屬性或選擇值，並以按鈕加以移動。目前不支援拖放。 |
 | 刪除 | 從資料結構刪除屬性或選擇值。它不會刪除XMP區塊或資料庫中的值。 屬性不再適用於中繼資料檢視，且已從資產詳細資料檢視中移除。 如果屬性已發佈至中繼資料伺服器，請執行強制發佈，從公開的中繼資料伺服器移除資料。 |
 
-系統會自動為具有前置詞的使用者定義欄位產生自訂結構 `s7udf`. 這是現有的使用者定義欄位，並在其自己的設定區段中加以編輯。
+系統會自動為具有前置詞的使用者定義欄位產生自訂結構 `s7udf`. 此結構描述由在設定區段中編輯的現有使用者定義欄位組成。
 
 >[!NOTE]
 >
@@ -189,7 +187,7 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 
 * **[!UICONTROL 名稱]**  — 結構的UI-Name。 用來在「中繼資料檢視」和「進階搜尋」中識別屬性。類似於 XMP 區段，如「基本」、「IPTC」和「PDF」。
 
-* **[!UICONTROL 前置詞]**  — 結構描述的技術唯一識別碼。 限定於字母a-z和A-Z。前置詞不會顯示在Adobe Dynamic Media Classic UI中，但用於當資產的中繼資料儲存在XMP區塊和資料庫中時。 字首的用途為，在中繼資料伺服器上的中繼資料搜尋查詢中識別唯一的中繼資料欄位，或是進行匯入。
+* **[!UICONTROL 前置詞]**  — 結構描述的技術唯一識別碼。 限定於字母a-z和A-Z。前置詞在Adobe Dynamic Media Classic UI中不可見，但用於資產的中繼資料儲存在XMP區塊和資料庫時。 前置詞用於唯一識別中繼資料伺服器或匯入之中繼資料搜尋查詢中的中繼資料欄位。
 
 * **[!UICONTROL 名稱空間]**  — 結構描述的技術唯一識別碼，通常為表單中的URL `https://your.company.com/name/version/`. 如需範例，請參閱標準資料結構清單。名稱空間不會顯示在Adobe Dynamic Media Classic UI中，但會用來將中繼資料儲存在XMP區塊中。
 
@@ -203,7 +201,7 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 
 | 屬性 | 說明 |
 | --- | --- |
-| ID | 此屬性的技術識別名稱。ID不會顯示在Adobe Dynamic Media Classic UI中，但會在資產的中繼資料儲存在XMP區塊和資料庫中時使用。 ID 會用來在中繼資料伺服器上建立搜尋查詢。ID 有下列限制: <ul><li>不可包含空格</li><li>不可包含「.」、「:」、「$」</li><li>第一個字元不可為數字</li><li>最佳實務為使用 a-z 或 A-Z 作為第一個字元</li></ul> <br>建立之後，便無法再變更 ID。 |
+| ID | 此屬性的技術識別名稱。ID不會顯示在Adobe Dynamic Media Classic UI中，但用於資產的中繼資料儲存在XMP區塊和資料庫時。 ID可用來在中繼資料伺服器上建立搜尋查詢。 ID有一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>ID一旦建立便無法變更。 |
 | 標籤 | 此特性的 UI 名稱。 |
 | 結構 | 決定特性類型和資料類型。結構可為下列項目:<ul><li>簡單類型: 單一資料類型值</li><li>順序: 相同資料類型值的清單</li><li>開放選擇: 從預先定義值清單選取項目，或輸入自由文字。資料類型僅可為「字串」或「整數」</li><li>限定選擇: 從預先定義值清單 (彈出式或組合式) 選取項目</li></ul> |
 | 資料類型 | 從下列可用類型中選取: <ul><li>字串</li><li>整數</li><li>浮點</li><li>是/否 (布林)</li><li>日期</li></ul> |

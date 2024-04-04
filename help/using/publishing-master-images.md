@@ -1,18 +1,16 @@
 ---
 title: 發佈主要影像
 description: 瞭解如何從Adobe Dynamic Media Classic發佈主要影像。
-uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -25,7 +23,7 @@ ht-degree: 6%
 
 ## 標籤要發佈的主要影像 {#marking-master-images-for-publish}
 
-主要影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以選取「 」，在「瀏覽」面板中將主要影像標示為發佈 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在將影像上傳至Adobe Dynamic Media Classic時，將影像標示為發佈。
+主要影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以選取「 」，在「瀏覽」面板中標示要發佈的主要影像 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在將影像上傳至Adobe Dynamic Media Classic時，將影像標示為發佈。
 
 ## 發佈您的主要影像 {#publishing-your-master-images}
 

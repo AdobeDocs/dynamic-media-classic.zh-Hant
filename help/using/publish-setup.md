@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 **尾碼範例：**
 
-| URL | localeMap ID | 結果 |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。語言環境引數de_DE與 `localeMap`. 第一個對應值_DE會新增為資產image_DE的尾碼，並嘗試在影像伺服器上尋找該資產。 如果在伺服器上找到此項目，則會加以傳回。否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
+| URL | localeMap ID | 結果 | 附註 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。語言環境引數de_DE與 `localeMap`. 第一個對應值_DE會新增為資產image_DE的尾碼，並嘗試在影像伺服器上尋找該資產。 若在伺服器上找到，則會傳回。 否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
 
 **取代範例：**
 
-| URL | `GlobalLocale` 和 `localeMap` ID | 結果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 語言環境引數de_DE與 `localeMap`. 找到GlobalLocale子字串並取代為第一個對應值 `de` 在 `localeMap`： `image-de-01`. 如果在影像伺服器上找到此項目，則會加以傳回。如果不適用，則會取代第二個值，而導致 `image-main-01`. |
+| URL | `GlobalLocale` 和 `localeMap` ID | 結果 | 附註 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 語言環境引數de_DE與 `localeMap`. 找到GlobalLocale子字串並取代為第一個對應值 `de` 在 `localeMap`： `image-de-01`. 若在影像伺服器上找到，則會傳回。 如果不適用，則會取代第二個值，而導致 `image-main-01`. |
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 

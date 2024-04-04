@@ -1,6 +1,6 @@
 ---
 title: 應用程式設定
-description: 瞭解如何設定Adobe Dynamic Media Classic的應用程式區域。 「應用程式」區域可讓您輸入一般設定、建立影像、檢視器和視訊編碼預設集、定義預設檢視器和中繼資料、發佈設定以及視訊SEO設定。 您也可以使用區域來設定批次集預設集，以自動產生2D迴轉集。
+description: 瞭解如何設定Adobe Dynamic Media Classic的應用程式區域。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
+source-wordcount: '10947'
 ht-degree: 37%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 37%
 
 * **[!UICONTROL 漸進式視訊伺服器名稱]**  — 您的URL [!DNL Adobe Dynamic Media Classic] 漸進式視訊伺服器。 此伺服器會透過 HTTP 通訊協定來傳送漸進式視訊。
 
-* **[!UICONTROL 顯示未發佈資產的URL]**  — 如果您需要，請選取此選項 [!DNL Adobe Dynamic Media Classic] 可在預覽任何資產時顯示URL，無論是否發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
+* **[!UICONTROL 顯示未發佈資產的URL]**  — 如有需要，請選取此選項 [!DNL Adobe Dynamic Media Classic] 可在預覽任何資產時顯示URL，無論是否發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 如果您先前已上傳影像，然後變更原始檔案（或取代原始檔案），則所選的「覆寫」選項會指定Adobe Dynamic Media Classic取代影像的方式。 影像的任何相關資訊都不會變更，但新的影像會取代舊影像。如果資料夾中同時包含Adobe Dynamic Media Classic中尚未包含的影像，則會新增這些影像。
 
-如果您已上傳的影像以某種方式變更（影像已變更），但影像的參照保持不變，請使用此選項。 上傳和擷取Adobe®PDF時，覆寫也相當實用。 微調Adobe Dynamic Media Classic的方式 *裂縫* 請調整「上傳」對話方塊中的ICC色彩設定檔選項，並使用「覆寫」功能重新上傳。
+如果您已上傳的影像以某種方式變更（影像已變更），但影像的參照保持不變，請使用此選項。 上傳和擷取Adobe®PDF時，覆寫也相當實用。 微調Adobe Dynamic Media Classic的方式 *裂縫* 請調整「上傳」對話方塊中的ICC色彩設定檔選項，並使用覆寫功能重新上傳。
 
 用來從生產伺服器存取影像的Adobe Dynamic Media Classic ID衍生自影像檔案名稱。 在檔案名稱中使用大寫和小寫字元是很重要的，這無論是在取代現有檔案還是用於存取影像的Adobe Dynamic Media Classic ID中。 上傳至Adobe Dynamic Media Classic之前，請務必正確使用檔案名稱中的大寫和小寫字元，以避免Adobe Dynamic Media Classic ID僅因相同影像而有所不同。
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 若要開啟「影像預設集」畫面，請前往「全域導覽」列上的 **[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**.
 
-另請參閱 [智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+另請參閱 [智慧型影像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### 建立和編輯影像預設集 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 您可以將多媒體內容的觸角伸展至桌上型電腦、平板電腦和行動使用者，並確保提供簡化的視訊體驗。
 
-另請參閱 [關於HTML5檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) 在Adobe檢視器參考指南中。
+另請參閱 [關於HTML5檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) 在Adobe檢視器參考指南中。
 
 另請參閱 [Adobe Dynamic Media Classic檢視器預設集相容性矩陣](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 不同網頁有不同的需求。有時候，您會想要網頁提供連結，在個別瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，必須直接將HTML5檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能會有靜態配置。 或是「回應式」功能，且在不同裝置或不同瀏覽器視窗大小中顯示的方式有所不同。 為因應這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器同時支援靜態網頁和回應式設計的網頁。
 
-如需如何將回應式檢視器內嵌至網頁的詳細資訊，請參閱 [關於Responsive影像庫](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api)， [使用回應式影像資料庫](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)、和 [命令參考 — 命令屬性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+如需如何將回應式檢視器內嵌至網頁的詳細資訊，請參閱 [關於Responsive影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)， [使用回應式影像資料庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、和 [命令參考 — 命令屬性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### 檢視器預設集類型 {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
-另請參閱 [Adobe檢視器參考發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+另請參閱 [Adobe檢視器參考發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android™智慧型手機 | Android™平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
      
    * **編輯**  — 選取現有的檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**.
 
-1. 在「設定檢視器」頁面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
+1. 在「配置檢視器」頁面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
 1. 設定其它想要的選項。
 
    >[!NOTE]
@@ -732,7 +732,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 1. 選取 **[!UICONTROL 關閉]**.
 
-## 設定預設檢視器 {#configuring-default-viewers}
+## 設定預設檢視器 {#configure-default-viewers}
 
 在Adobe Dynamic Media Classic中使用預覽時，您可以使用預設檢視器來設定與資產相關聯的預設檢視器。 您可以針對下列資產類型設定預設的預覽體驗:
 
@@ -812,7 +812,7 @@ Adobe Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員�
 
 媒體入口網站管理員或公司管理員可建立自訂、使用者定義的中繼資料欄位。自訂欄位可協助您在Adobe Dynamic Media Classic中組織資產。 您可以視需要將欄位標示為「使用中」。 啟動後，這些自訂中繼資料欄位的名稱會出現在詳細檢視的中繼資料面板中。 使用者可以在使用者自訂的中繼資料欄位中輸入資訊，以描述資產。使用者也可以將使用者定義的中繼資料欄位設定作為搜尋條件。
 
-使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您可以根據型別定義「啟動」欄位 *日期*. 然後，使用 **[!UICONTROL 中繼資料]** 「詳細資料檢視」中的面板或 **[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**，您可以指定資產啟動的時間。 Adobe Dynamic Media Classic會檢查資產的發佈狀態和發佈歷史記錄。 如果不在啟動時間內，發佈狀態會顯示為「未發佈」。
+使用者定義的中繼資料欄位的有效用途之一，就是針對特定的上市發表會或銷售會，延遲資產的啟用時間。您可以根據型別定義「啟動」欄位 *日期*. 然後，使用 **[!UICONTROL 中繼資料]** 「詳細資料檢視」中的面板或 **[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**，您可以指定資產啟動的時間。 Adobe Dynamic Media Classic會檢查資產的已發佈狀態和發佈歷史記錄。 如果不在啟動時間內，發佈狀態會顯示為「未發佈」。
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Adobe Dynamic Media Classic會搜尋您的檔案，並只最佳化之前未完�
 
 您也可以使用不含任何可用表單欄位的「檢視器碼」。在此檢視中，您會完全使用規則運算式來建立命名慣例定義。
 
-有兩個元素可供定義，分別為「符合」和「基本名稱」。這些欄位可讓您定義所有命名慣例元素，並識別慣例中用來命名其中所含之集的部分。公司的個別命名慣例可能會對其中每個元素使用一或多行定義。 您可以針對唯一定義使用同等數量的行，並將其分組至不同的元素，例如「主影像」、「色彩元素」、「替代檢視」元素和「色票」元素。
+有兩個元素可供定義，分別為「符合」和「基本名稱」。這些欄位是您為命名慣例定義的所有元素，並會識別用來命名包含這些欄位的集合的慣例部分。 公司的個別命名慣例可能會對其中每個元素使用一或多行定義。 您可以針對唯一定義使用同等數量的行，並將其分組至不同的元素，例如「主影像」、「色彩元素」、「替代檢視」元素和「色票」元素。
 
 ### 建立批次集預設集 {#creating-a-batch-set-preset}
 

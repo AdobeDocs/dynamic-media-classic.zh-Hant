@@ -1,6 +1,6 @@
 ---
 title: 「快速入門：整合Adobe Dynamic Media Classic和Adobe Analytics」
-description: 簡介和快速入門，瞭解如何整合Adobe Dynamic Media Classic和Adobe Analytics，協助您快速上手並執行。
+description: 如何整合Adobe Dynamic Media Classic和Adobe Analytics的簡介和快速入門。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 透過 Adobe Analytics 報告，可以非常清楚地瞭解客戶在網站上的活動。您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
 
-另請參閱 [Adobe Analytics中的測量視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+另請參閱 [Adobe Analytics中的測量視訊](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 ## 3.發佈您的Adobe Dynamic Media Classic檢視器
 
-發佈您的Adobe Dynamic Media Classic檢視器，以便將檢視器(包含追蹤Adobe Analytics報表中使用者活動的程式碼)載入Adobe Dynamic Media Classic伺服器。 發佈之後，檢視器中即包含該資訊，可供 Adobe Analytics 用於分析。
+發佈您的Adobe Dynamic Media Classic檢視器，以便將檢視器(包含追蹤Adobe Analytics報表中使用者活動的程式碼)載入Adobe Dynamic Media Classic伺服器。 發佈後，這些資訊會包含在檢視器中，並可供Adobe Analytics進行分析。
 
 另請參閱 [發佈設定資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

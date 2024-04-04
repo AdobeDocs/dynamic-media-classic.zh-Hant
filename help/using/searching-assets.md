@@ -1,21 +1,19 @@
 ---
 title: 搜尋Dynamic Media Classic資產
 description: 瞭解如何在Adobe Dynamic Media Classic中搜尋資產。
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -69,7 +67,7 @@ ht-degree: 17%
 
 * **檔案和資料夾**  — 選擇您要搜尋的位置： **[!UICONTROL 在所有檔案與資料夾內]**， **[!UICONTROL 在選取的資料夾內]**，或 **[!UICONTROL 在選取的資料夾和子資料夾內]**.
 
-* **所有發佈狀態**  — 搜尋標籤為準備發佈、未標籤為準備發佈或所有檔案的檔案。
+* **所有發佈狀態**  — 搜尋標籤為可發佈、未標籤為可發佈或所有檔案的檔案。
 
 * **條件**  — 如果您指定搜尋的中繼資料條件，請選取搜尋必須符合所有條件（ALL搜尋）或任何條件（OR搜尋）。
 
@@ -79,7 +77,7 @@ ht-degree: 17%
    1. 選取 **[!UICONTROL 新增欄位]** 下拉式功能表，然後選擇欄位名稱。
    1. 選擇 **[!UICONTROL 包含]** 選項： **[!UICONTROL 包含]**， **[!UICONTROL 不包含]**， **[!UICONTROL 開頭為]**， **[!UICONTROL 結尾為]**，或 **[!UICONTROL 等於]**.
    1. 針對數值欄位，請選擇值或輸入自訂日期範圍。
-   1. （可選）重複步驟1至4以建立更多搜尋欄位。
+   1. (選擇性) 重複步驟 1-4，以建立更多搜尋欄位。
 
 選取 **[!UICONTROL 移除搜尋欄位]** 圖示（內有「X」的圓形），因此會刪除搜尋欄位。
 
@@ -171,5 +169,5 @@ ht-degree: 17%
 
 >[!MORELIKETHIS]
 >
->* [導覽基本概念](navigation-basics.md#navigation_basics)
+>* [導覽基本需知](navigation-basics.md#navigation_basics)
 >* [檢視、新增和匯出中繼資料](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

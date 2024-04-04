@@ -1,26 +1,24 @@
 ---
 title: 取得磁碟使用資訊
 description: 瞭解如何在Adobe Dynamic Media Classic中取得磁碟使用資訊。
-uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 77%
+source-wordcount: '91'
+ht-degree: 42%
 
 ---
 
-# 取得磁碟使用資訊 {#getting-disk-usage-information}
+# 取得磁碟使用資訊 {#get-disk-usage-information}
 
-您可使用 `disk_info` 參數擷取關於公司磁碟空間使用量的資訊，如以下範例中所示:
+您可以使用 `disk_info` 引數來擷取有關公司磁碟空間使用情況的資訊，如下列範例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -49,7 +47,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 | URL 參數 | 必需/可選 | 值 |
 | --- | --- | --- |
 | op | 必要 | disk_info |
-| shared_secret | 必要 | 公司的共用密鑰 |
+| sharedsecret | 必要 | 公司的共用機密金鑰 |
 
 下面的範例代碼可取得 000Company 的磁碟資訊:
 

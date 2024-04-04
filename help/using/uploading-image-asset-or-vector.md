@@ -1,6 +1,6 @@
 ---
 title: 上傳點陣化影像資產
-description: 瞭解如何將點陣化影像資產上傳至Adobe Dynamic Media Classic
+description: 瞭解如何將點陣化影像資產上傳至Adobe Dynamic Media Classic。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 57%
+source-wordcount: '1010'
+ht-degree: 55%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 此 `file_limit` 引數指定檔案大小限制（位元組）。 此 `file_exts` 引數指定允許上傳的副檔名。 這兩個值都是可選的。
 
-對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果要求中所傳送的內容是全域限制的子集，則允許這一傳送。全域限制如下所示:
+對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果您在要求中傳送的內容是全域限制的子集，即表示接受。 全域限制如下所示:
 
 | 全域限制 | 值 |
 | --- | --- |
@@ -237,7 +237,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 | URL 參數 | 必要或選擇性 | 值 |
 | --- | --- | --- |
 | `op` | 必要 | image_info |
-| `shared_secret` | 必要 | 公司的共用密鑰。 |
+| `shared_secret` | 必要 | 公司的共用機密金鑰。 |
 | `image_name` | 必要 | 影像的名稱。 |
 
 **範例 URL:**
