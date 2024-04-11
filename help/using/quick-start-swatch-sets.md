@@ -1,21 +1,19 @@
 ---
-title: "快速入門: 色票集"
+title: 「快速入門：色票集」
 description: 色票集簡介和快速入門可幫助您在Adobe Dynamic Media Classic中快速上手並執行。
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 發佈色票集會將它置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈檔案](publishing-files.md#publishing-files).
 

@@ -1,31 +1,29 @@
 ---
 title: 在公開資產之前先測試資產
 description: 瞭解如何先在Adobe Dynamic Media Classic中測試資產，然後再將資產公開。
-uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 31%
+source-wordcount: '1060'
+ht-degree: 23%
 
 ---
 
 # 在公開資產之前先測試資產 {#testing-assets-before-making-them-public}
 
-Secure Testing可協助您定義安全的測試環境，並根據一組可設定的IP位址和範圍來建立強大的B2B解決方案。 此功能可讓您將Adobe Dynamic Media Classic部署與內容管理和業務系統的架構配對。
+安全測試可協助您定義安全的測試環境，並根據一組可設定的IP位址和範圍來建立強大的B2B解決方案。 此功能可讓您將Adobe Dynamic Media Classic部署與內容管理和業務系統的架構搭配起來。
 
 進行安全測試之後，您便能預覽內容未發佈的網站測試版本。
 
-如有需要，請建立中繼環境，而非讓資產公開可用，理由如下：
+如有需要，請建立測試環境，而非讓資產公開可用，理由如下：
 
 * 公開推出前的預覽網站 (測試網站)
 * 供應必須限制存取的資產，如在 B2B 網路應用程式中顯示價格的 eCatalog。
@@ -33,23 +31,23 @@ Secure Testing可協助您定義安全的測試環境，並根據一組可設定
 
 >[!NOTE]
 >
->安全測試不會影響對Adobe Dynamic Media Classic的存取。 Adobe Dynamic Media Classic安全性會維持一致，且需要一般憑證才能存取Adobe Dynamic Media Classic及相關網路服務。
+>安全測試不會影響對Adobe Dynamic Media Classic的存取。 Adobe Dynamic Media Classic安全性會保持一致，且需要一般憑證才能存取Adobe Dynamic Media Classic及相關網路服務。
 
 ## 安全測試的運作方式 {#how-secure-testing-works}
 
 大多數企業都是在防火牆後方執行網際網路。可以通過特定路由，一般而言也可以透過限制範圍的公開 IP 位址存取網際網路。
 
-透過公司網路，您可以使用以下網站找出您的公用IP位址： [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的企業IT組織索取此資訊。
+透過公司網路，您可以使用以下網站找出您的公用IP位址： [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的公司IT組織索取此資訊。
 
-透過安全測試，Adobe Dynamic Media Classic建立了專用的影像伺服器，用於中繼環境或內部應用程式。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果要求不在已核准 IP 位址清單中，則會傳回失敗回應。Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定經過核准的IP位址清單。
+透過安全測試，Adobe Dynamic Media Classic可為中繼環境或內部應用程式建立專用的影像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。 Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定已核准的IP位址清單。
 
-由於原始請求的位置必須確認，因此Secure Testing服務的流量不會透過內容發佈網路(例如公用Dynamic Media Image Server流量)進行路由。 向安全測試服務提出的請求與公開Dynamic Media影像伺服器的延遲相比，稍微高一些。
+由於原始請求的位置必須確認，因此Secure Testing Service的流量不會透過內容發佈網路(例如公用Dynamic Media影像伺服器流量)進行路由。 向安全測試服務提出的請求與公開Dynamic Media影像伺服器的請求相比，延遲時間稍微長一些。
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。透過這種方式，您可以在資產發佈到公開顯示的影像伺服器之前執行預覽。
 
 >[!NOTE]
 >
->Secure Testing服務會使用已設定內部發佈內容的目錄伺服器。 因此，如果您的公司設定為發佈至Secure Testing，Adobe Dynamic Media Classic中任何上傳的資產都可立即透過Secure Testing服務使用。 不論資產是否標示為上傳時發佈，此功能皆為true。
+>Secure Testing Services會使用已設定內部發佈內容的目錄伺服器。 因此，如果您的公司設定為發佈至Secure Testing，Adobe Dynamic Media Classic中任何上傳的資產都可立即在Secure Testing服務上使用。 不論資產是否標示為上傳時發佈，此功能皆為true。
 
 Secure Testing服務目前支援下列資產型別和功能：
 
@@ -59,13 +57,13 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>Added videos to list below 9/11/2012. Moved “Render Server requests” from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
+<p>Added videos to list below 9/11/2012. Moved "Render Server requests" from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
 
  -->
 
-* 影像.
+* 影像。
 * 暈映 (演算伺服器要求)。
-* 轉譯器伺服器請求（受支援，但必須由客戶明確請求）。
+* 轉譯器伺服器請求（支援，但必須由客戶明確請求）。
 * 集，包含影像集、eCatalog、演算集和媒體集。
 * 標準Adobe Dynamic Media Classic多媒體檢視器。
 * Adobe Dynamic Media Classic OnDemand JSP頁面。
@@ -100,29 +98,29 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>RB: Rewrote entire steps under “Prepare your account” 9/10/2012</p>
+<p>RB: Rewrote entire steps under "Prepare your account" 9/10/2012</p>
 
  -->
 
-1. 請聯絡Adobe客戶服務，要求他們在您的帳戶上啟用安全測試。
+1. 請聯絡Adobe客戶服務，要求他們啟用您帳戶的安全測試。
 1. 在Adobe Dynamic Media Classic中的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**.
-1. 在「影像伺服器發佈」頁面的 **[!UICONTROL 發佈內容]** 下拉式清單，選取 **[!UICONTROL 測試影像伺服]**.
+1. 在「影像伺服器發佈」頁面的 **[!UICONTROL `Publish Context`]** 下拉式清單，選取 **[!UICONTROL 測試影像服務]**.
 1. 對於使用者端位址篩選器，請選取 **[!UICONTROL 新增]**.
-1. 選取核取方塊以啟用位址（開啟），然後在各自的文字欄位中輸入IP位址和網路遮罩。
+1. 選取核取方塊以啟用（開啟）地址，然後在各自的文字欄位中輸入IP位址和網路遮罩。
 
    >[!NOTE]
    >
-   >如果您新增單一IP位址和網路遮罩，該位址可能會進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮罩都不得進行資產呼叫。 因此，請考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮罩的功能。 這麼做實際上允許 *全部* 進行資產呼叫的IP位址，這些位址都會顯示。
+   >如果您新增單一IP位址和網路遮罩，該位址可能會進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮罩都不能進行資產呼叫。 因此，請考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮罩的功能。 這麼做實際上允許 *全部* 進行資產呼叫的IP位址，這些位址都會顯示。
 
 1. 進行以下一項操作:
    * 如果您必須新增更多IP位址，請重複前兩個步驟。
-   * 繼續下一步驟。
+   * 繼續下一個步驟。
 1. 在「影像伺服器發佈」頁面的左下方，選取「 」 **[!UICONTROL 儲存]**
 1. 將所需的影像上傳至您的Adobe Dynamic Media Classic帳戶。
 
    另請參閱 [上傳檔案](uploading-files.md#uploading_files).
 
-1. 請務必標記某些影像用於發佈，其他則取消標記，然後送出發佈工作。
+1. 請確定某些影像已標示為發佈，而其他影像已取消標籤，然後提交發佈工作。
 
    另請參閱 [發佈檔案](publishing-files.md#publishing_files).
 
@@ -144,12 +142,12 @@ Last Modified Date:
 
 1. 檢查資產在您的企業網路中是否可見。
 
-   從先前定義的IP位址範圍所識別的公司網路中，網站的測試版本會顯示所有影像，無論是否標籤為發佈。 因此，您可以在測試時避免在預覽核准或產品上市之前意外提供影像。
+   從先前定義的IP位址範圍所識別的公司網路中，網站的測試版本會顯示所有影像，無論是否標示為發佈。 因此，在預覽核准或產品上市之前，您可以進行測試而不會意外讓影像可供使用。
 
-   確認您的網站公開版本是否顯示已發佈的資產，如同先前使用Adobe Dynamic Media Classic時的情形。
+   確認您的網站公開版本會顯示已發佈的資產，例如先前使用Adobe Dynamic Media Classic的體驗。
 
-1. 從企業網路外部確認未發佈 (也就是未標記為發佈) 的資產皆受到保護，不受第三方存取。
+1. 在公司網路外部，確認未發佈的資產（亦即未標示為發佈）受到保護，不會受到第三方存取。
 
-   從外部 (例如家中電腦或 3G 連線) 存取網路，然後確認網站公開版本顯示了所有已發佈的資產，而並未顯示任何未發佈內容。
+   從外部存取您的網路（例如從您的家用電腦或透過3G連線），然後確認網站的公開版本顯示所有已發佈的資產，但不顯示任何未發佈的內容。
 
    確認測試版本並未顯示任何資產，因為您是透過未經核准的 IP 位置存取安全測試服務。

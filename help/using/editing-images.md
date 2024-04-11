@@ -1,21 +1,19 @@
 ---
 title: 編輯影像
 description: 瞭解如何在Adobe Dynamic Media Classic中編輯影像。
-uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 15%
+source-wordcount: '318'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic提供許多建立多媒體特效的工具。 選取滑鼠指向效果即可使用這些工具 **[!UICONTROL 編輯]** 按鈕和「瀏覽」面板中的「詳細資訊」檢視。 您可以在Adobe Dynamic Media Classic中執行下列影像編輯工作：
 
-* **建立影像地圖**  — 若要建立「影像地圖」，請選取「影像」指令或 **[!UICONTROL 影像地圖]** 按鈕。 影像地圖是影像、eCatalog 頁面，或迴轉集之影像中的某個連結區，可顯示內含滑鼠指向效果文字的面板。例如，使用者可以選取「影像地圖」來啟動新網頁。 另請參閱 [建立影像地圖](/help/using/creating-image-maps.md).
+* **建立影像地圖**  — 若要建立「影像地圖」，請選取「影像」指令或 **[!UICONTROL 影像地圖]** 按鈕。 「影像地圖」是影像或eCatalog頁面上的熱點，或是顯示具有滑鼠指向效果文字之面板的SpinSet中的影像。 例如，使用者可以選取「影像地圖」來啟動新網頁。 另請參閱 [建立影像地圖](/help/using/creating-image-maps.md).
 
 * **建立縮放目標**  — 若要建立縮圖目標，請選取「縮放目標」命令或 **[!UICONTROL 縮放目標]** 按鈕。 使用者可以在縮放檢視器中選取縮圖目標，以直接縮放至影像的特定部分。 另請參閱 [建立引導式縮放的縮放目標](/help/using/creating-zoom-targets-guided-zoom.md).
 
@@ -31,7 +29,7 @@ Adobe Dynamic Media Classic提供許多建立多媒體特效的工具。 選取�
 
 * **銳利化影像**  — 若要銳利化影像並使其外框較不模糊，且更清晰，請選取「銳利化」指令或 **[!UICONTROL 銳利化]** 按鈕。 另請參閱 [銳利化影像](/help/using/sharpening-image.md).
 
-* **調整影像**  — 選取「調整」指令或 **[!UICONTROL 調整]** 按鈕來翻轉、旋轉、模糊、彩色化或更改影像的色彩平衡。 另請參閱 [調整影像](/help/using/adjusting-image.md).
+* **調整影像**  — 選取 `Adjust` 命令或 **[!UICONTROL 調整]** 按鈕來翻轉、旋轉、模糊、彩色化或更改影像的色彩平衡。 另請參閱 [調整影像](/help/using/adjusting-image.md).
 
 * **編輯圖層**  — 若要在PSD檔案中顯示個別的可編輯圖層，請選取 **[!UICONTROL 圖層]** 標籤。 上傳PSD檔案時，所有圖層都會個別上傳為個別檔案，以便您可以在Adobe Dynamic Media Classic中加以編輯。
 

@@ -1,27 +1,25 @@
 ---
 title: 使用資產資料夾
 description: 瞭解如何在Adobe Dynamic Media Classic中使用資產資料夾。
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
 
 # 使用資產資料夾{#working-with-asset-folders}
 
-Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。將檔案從電腦或網路上傳到Adobe Dynamic Media Classic之前，系統會要求您命名儲存檔案的資料夾。 上載任何檔案之前，請先建立這些檔案夾。
+Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。將檔案從您的電腦或網路上傳到Adobe Dynamic Media Classic之前，系統會要求您命名儲存檔案的資料夾。 上載任何檔案之前，請先建立這些檔案夾。
 
 在上傳檔案之前，請務必建立檔案夾結構和組織以將檔案儲存在Adobe Dynamic Media Classic上。
 
@@ -41,10 +39,10 @@ Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資�
 >
 >您可以選取「 」，隱藏或顯示「資產庫」 **[!UICONTROL 展開]** 或 **[!UICONTROL 摺疊]** 左側的控制項。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。
 
-## 建立資料夾 {#creating-folders}
+## 建立資料夾
 
 1. 在資產庫中，選取您要在其中建立檔案夾的檔案夾。
-1. 選取 **[!UICONTROL 新增資料夾]** 按鈕。 此圖示位於資料夾清單的頂端。
+1. 選取 **[!UICONTROL `Add Folder`]** 按鈕。 此圖示位於資料夾清單的頂端。
 1. 在檔案夾圖示旁的欄位中，為新檔案夾或子檔案夾輸入說明性名稱。
 
    >[!NOTE]
@@ -55,7 +53,7 @@ Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資�
 
 選取檔案夾，並使用這些技巧予以刪除或重新命名:
 
-* **刪除**  — 選取 **[!UICONTROL 移除資料夾]** 按鈕。 已刪除之檔案夾中的資產會放在「垃圾桶」檔案夾。您可以從該處予以復原。
+* **刪除**  — 選取 **[!UICONTROL `Remove Folder`]** 按鈕。 已刪除之檔案夾中的資產會放在「垃圾桶」檔案夾。您可以從該處予以復原。
 
 * **重新命名**  — 按兩下名稱並輸入新名稱。
 

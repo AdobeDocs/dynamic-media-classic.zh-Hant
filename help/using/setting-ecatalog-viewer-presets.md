@@ -1,19 +1,17 @@
 ---
 title: 設定eCatalog檢視器預設集
 description: 瞭解如何在Adobe Dynamic Media Classic中設定eCatalog檢視器預設集。
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
 
    * **編輯eCatalog檢視器預設集**  — 選取eCatalog檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**. 選取 **[!UICONTROL 另存為]** 完成預設集建立之後。
 
-1. 在「設定檢視器」頁面上，輸入eCatalog檢視器預設集的名稱。
-1. 在「設定檢視器」頁面上，設定您想要的選項。
+1. 在 `Configure Viewer` 頁面，輸入eCatalog檢視器預設集的名稱。
+1. 在 `Configure Viewer` 頁面，設定您想要的選項。
 
    選取 **[!UICONTROL 資訊提示]** 圖示加以存取（如果您想要讀取其說明）。
 
@@ -57,7 +55,7 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
 >若要使用此回應範本，而非eCatalog本身所定義的範本，請新增 `fmt=1` 到資訊伺服器URL的結尾。 例如： `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. 選取 **[!UICONTROL 儲存]**.
-1. 選取 **[!UICONTROL 預設]** 如果您希望所建立的eCatalog檢視器預設集是在網頁上顯示eCatalog時所使用的預設集。
+1. 選取 **[!UICONTROL 預設]** 因此您建立的eCatalog檢視器預設集就是用來在網頁上顯示eCatalog的預設集。
 
 若要刪除eCatalog檢視器預設集，請在「檢視器預設集」畫面中選取該預設集，然後選取「 」 **[!UICONTROL 刪除]**.
 

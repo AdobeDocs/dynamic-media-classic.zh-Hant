@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # 管理影像集中的資訊面板內容{#managing-info-panel-content-in-image-sets}
 
-除了針對影像集中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
+除了針對影像集中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用時間快取及排程內容更新來管理「資訊面板」。
 
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
@@ -55,7 +55,7 @@ ht-degree: 51%
 
 ## 匯入影像集中資訊面板的來源內容 {#import-source-content-for-the-info-panel-in-image-sets}
 
-您可以針對影像集之資訊面板的來源文字，使用以 ASCII 編碼 (非 ASCII 字元必須以 HTML 編碼) 的 CSV (逗號分隔值) 檔案，或是 Tab 字元分隔檔案。Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
+您可以將CSV （逗號分隔值）檔案與ASCII編碼(非ASCII字元必須以HTML編碼)或以Tab分隔的檔案用於「影像集」的資訊面板的來源文字。 Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法來匯入不同的檔案類型。
 
 格式化來源內容時，請記住下列準則:
 

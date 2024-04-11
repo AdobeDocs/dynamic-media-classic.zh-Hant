@@ -1,20 +1,18 @@
 ---
 title: 在「詳細資訊」檢視中進行工作
 description: 瞭解如何在Adobe Dynamic Media Classic的「詳細資料檢視」中運作。
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
-「詳細資料檢視」可提供資產或檔案的相關資訊。 它會顯示專案的相關資訊：儲存專案的資料夾、檔案名稱、專案上傳至Adobe Dynamic Media Classic的日期及其發佈歷史記錄。 您也可以在「詳細資料檢視」中檢視和編輯中繼資料，以及新增資產的關鍵字。
+「詳細資料檢視」可提供資產或檔案的相關資訊。 系統會顯示專案的相關資訊：專案儲存所在的資料夾、檔案名稱、專案上傳至Adobe Dynamic Media Classic的日期及其發佈歷史記錄。 您也可以在「詳細資料檢視」中檢視和編輯中繼資料，以及新增資產的關鍵字。
 
-您可以在「詳細資料檢視」中取得資產URL，但該URL必須等到您發佈資產後才會啟用。 對於影像，「詳細資料檢視」也提供建置和衍生的資產和中繼資料清單，例如縮放目標和影像集。
+您可以在「詳細資料檢視」中取得資產URL，但該URL必須等到您發佈資產後才會啟用。 對於影像，「詳細資料檢視」也會提供內建和衍生的資產和中繼資料清單，例如縮放目標和影像集。
 
 ## 在「詳細資訊」檢視中使用資產 {#working-with-assets-in-detail-view}
 
 「詳細資料檢視」提供處理您所開啟之資產的工具。 可用的工具取決於您使用的資產型別，但「詳細資料檢視」一律會提供下列功能：
 
-* **要發佈的專案**  — 選取 **[!UICONTROL 發佈]** 圖示或前往「 」 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]** 或 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
+* **要發佈的專案**  — 選取 **[!UICONTROL `Publish`]** 圖示或前往「 」 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]** 或 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
 
 * **重新命名資產**  — 選取名稱並輸入新名稱。
 
