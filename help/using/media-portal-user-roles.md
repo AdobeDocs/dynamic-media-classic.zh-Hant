@@ -1,18 +1,16 @@
 ---
 title: Media Portal 使用者角色
-description: 瞭解Adobe Dynamic Media Classic的Media Portal中可用的各種使用者角色。
-uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
+description: 瞭解在Adobe Dynamic Media Classic的Media Portal中可用的各種使用者角色。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -25,11 +23,11 @@ Media Portal 提供下列角色，每個角色都有不同的存取權與權限�
 
 * **[!UICONTROL Media Portal管理員]**  — 可以新增及移除管理員、貢獻者和使用者。 管理員也可以設定群組存取權、管理 FTP 帳戶、指定公司批准的轉換格式 (預設集)、傳送電子郵件給 Media Portal 使用者，以及檢視 Portal 使用狀況與存放區報告。
 
-* **[!UICONTROL Media Portal使用者]**  — 擁有資料夾和檔案的存取權。 使用者只能瀏覽、預覽和下載檔案。這個角色適合需要存取您公司批准之資產的渠道或服務合作夥伴。
+* **[!UICONTROL Media Portal使用者]**  — 可存取資料夾和檔案。 使用者只能瀏覽、預覽和下載檔案。這個角色適合需要存取您公司批准之資產的渠道或服務合作夥伴。
 
-* **[!UICONTROL Media Portal參與者]**  — 可以上傳、預覽和瀏覽管理員已授予許可權的區域中的檔案和中繼資料。 參與者無法下載檔案。參與者可以編輯中繼資料、變更檔案名稱、將檔案移動到不同檔案夾，以及刪除檔案。
+* **[!UICONTROL Media Portal參與者]**  — 可以在管理員已授予許可權的區域中上傳、預覽和瀏覽檔案和中繼資料。 參與者無法下載檔案。參與者可以編輯中繼資料、變更檔案名稱、將檔案移動到不同檔案夾，以及刪除檔案。
 
-* **[!UICONTROL Media Portal參與者 — 使用者]**  — 擁有資料夾和檔案的存取權。 投稿人使用者可以瀏覽、預覽、下載和上傳影像和中繼資料。 投稿人使用者可以變更檔案名稱、將檔案移動到不同的資料夾以及刪除檔案。
+* **[!UICONTROL Media Portal參與者 — 使用者]**  — 可存取資料夾和檔案。 投稿人使用者可以瀏覽、預覽、下載和上傳影像和中繼資料。 投稿人使用者可以變更檔案名稱、將檔案移至不同資料夾及刪除檔案。
 
 這個表格說明具備不同角色的使用者可以執行的工作。管理員與參與者 - 使用者可以執行此表格列出的所有工作:
 

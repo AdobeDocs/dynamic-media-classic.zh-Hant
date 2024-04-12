@@ -1,29 +1,27 @@
 ---
 title: Media Portal
 description: 瞭解Adobe Dynamic Media Classic中的Media Portal。
-uuid: df34c360-c91a-48d4-886b-2f9178d220fb
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 feature: Dynamic Media Classic,Asset Management
 role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '119'
+ht-degree: 13%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Medium入口網站讓公司能夠輕鬆取得、控制核准資產，並將其分發給外部合作夥伴和管道以及內部使用者。 以瀏覽器為基礎的「自助式」環境為入口網站使用者提供管理員控制的Adobe Dynamic Media Classic資產「檢視」，可輕鬆存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。
+Adobe Medium入口網站讓企業能夠輕鬆取得、控制核准資產，並將這些資產分發給外部合作夥伴和管道，以及內部使用者。 瀏覽器式「自助式」環境為入口網站使用者提供由Adobe Dynamic Media Classic資產管理員控制的「檢視」，可輕鬆存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。
 
-如需Media Portal的詳細資訊，包括系統需求，請參閱 [使用Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+如需Media Portal的詳細資訊，包括系統需求，請參閱 [使用Adobe Dynamic Media Classic媒體入口網站](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 
 如需更多關於管理 Media Portal 的詳細資訊，請參閱[快速入門: Media Portal 管理](quick-start-media-portal-administration.md#quick_start_media_portal_administration)。
 

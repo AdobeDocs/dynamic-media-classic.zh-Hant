@@ -1,27 +1,25 @@
 ---
 title: 設定混合媒體集檢視器預設集
 description: 瞭解如何在Adobe Dynamic Media Classic中設定混合媒體集檢視器預設集。
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # 設定混合媒體集檢視器預設集{#setting-up-a-mixed-media-set-viewer-preset}
 
-混合媒體集檢視器預設集會決定主檢視器的樣式、行為和外觀。設定預設集時，必須指定您還要在混合媒體集檢視器中顯示哪些檢視器。例如，如果您在混合媒體集中包含了影像集，請為混合媒體集檢視器指定影像集檢視器預設集。
+混合媒體集檢視器預設集會決定主檢視器的樣式、行為和外觀。設定預設集時，必須指定您還要在混合媒體集檢視器中顯示哪些檢視器。例如，如果您已在混合媒體集中加入影像集，請為混合媒體集檢視器指定影像集檢視器預設集。
 
 您可以選擇在混合媒體集檢視器中包含所有或部分社群功能。「內嵌」功能會增加一個連結至檢視器，可讓使用者複製在外部頁面 (如部落格、網站或社交網站) 中顯示檢視器所需的代碼。「連結」功能會提供檢視器的 URL，以便使用者可以重新連結到此檢視器。「造訪」功能會提供指定網站的連結。
 
