@@ -1,27 +1,25 @@
 ---
 title: 建立及啟用影像預設集
 description: 瞭解如何在Adobe Dynamic Media Classic中建立和啟用影像預設集。
-uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 60%
+source-wordcount: '256'
+ht-degree: 49%
 
 ---
 
 # 建立及啟用影像預設集{#creating-and-enabling-image-presets}
 
-使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。「影像預設集」是預先定義之設定的集合，而這些設定可在匯出影像時，變更影像外觀的大小、影像品質、格式、解析度及其他各方面。
+使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。「影像預設集」是預先定義的設定集合，在匯出影像時，會變更影像的大小、影像品質、格式、解析度及其他外觀方面。
 
 Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。使用者從Adobe Dynamic Media Classic匯出影像時，影像預設集會依貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
 

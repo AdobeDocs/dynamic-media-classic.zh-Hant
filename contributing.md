@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe想要讓您能夠儘可能輕鬆地提交貢獻內容。 您可以透過�
 
 如果您發現問題，並清楚知道該如何修正，請考慮建立提取請求。 提取請求可讓您自行編輯說明檔案，然後交由說明檔案團隊成員稽核並納入。 若要進行您建議的變更並建立提取請求，請選取 **[!UICONTROL 編輯此頁面]** ，位於任何頁面的「導覽」面板右上方。
 
-所有提取請求都必須附有已簽署的 [貢獻者授權合約(CLA)](https://opensource.adobe.com/cla.html). 此工作流程會授予Adobe在專案中重新使用您稿件的許可權。 您只會提交AdobeCLA一次，因此如果您先前已送出CLA，即表示已設定完成。
+所有提取請求都必須附有已簽署的 [貢獻者授權合約(CLA)](https://opensource.adobe.com/cla.html). 此工作流程會授予Adobe在專案中重新使用您稿件的許可權。 您只會提交AdobeCLA一次，因此如果您之前已送出CLA，系統就會設定您。
 
 ### 快速簡介影片
 
@@ -58,4 +58,4 @@ Adobe歡迎任何貢獻。 貢獻內容如果是放在公共存放庫中，則�
 
 ## 進一步資訊
 
-請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以進一步瞭解如何使用GitHub編寫平台。
+請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) 以進一步瞭解如何使用GitHub編寫平台。

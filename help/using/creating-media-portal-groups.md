@@ -1,21 +1,19 @@
 ---
 title: 建立和管理Media Portal群組
 description: 瞭解如何在Adobe Dynamic Media Classic中建立和管理Media Portal群組。
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -75,9 +73,9 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->選取方框後便會建立存取權。將權限指定給檔案夾時，也會將該檔案夾的權限指定給其子檔案夾與其中的所有檔案。不過，您可以針對個別子檔案夾與資產檔案指定不同權限。
+>選取方框後便會建立存取權。當您為資料夾指派許可權時，其子資料夾及其中的所有檔案都會獲得與父資料夾相同的許可權。 不過，您可以針對個別子檔案夾與資產檔案指定不同權限。
 
-## 為群組選擇影像預設集存取權限 {#choosing-image-preset-access-permissions-for-a-group}
+## 為群組選擇影像預設集存取權限
 
 如果要指定群組成員在透過 Media Portal 匯出資產時，可以使用哪些影像預設集，請為群組選擇影像預設集存取權限。
 

@@ -1,27 +1,25 @@
 ---
 title: 管理垃圾桶資料夾
 description: 瞭解如何管理垃圾桶資料夾。
-uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 管理垃圾桶資料夾{#managing-the-trash-folder}
 
-您從Adobe Dynamic Media Classic刪除的專案會移至垃圾桶資料夾。 已刪除的專案會在此資料夾中保留七天，直到還原或永久刪除為止。 您可以選取 **[!UICONTROL 垃圾桶]** 圖示並檢視「垃圾筒」資料夾頁面中的專案。
+您從Adobe Dynamic Media Classic刪除的專案會移至垃圾桶資料夾。 這些已刪除的專案會在此資料夾中保留七天，直到還原或永久刪除為止。 您可以選取 **[!UICONTROL 垃圾桶]** 圖示並檢視「垃圾筒」資料夾頁面中的專案。
 
 所有使用者都可以將「垃圾桶」檔案夾中的項目還原到其刪除來源的檔案夾。所有使用者也都可以清空「垃圾桶」檔案夾中的所有內容。
 

@@ -1,24 +1,22 @@
 ---
-title: 關於Adobe Dynamic Media Classic中的使用者產生的內容
+title: 關於Adobe Dynamic Media Classic中使用者產生的內容
 description: 介紹使用者產生的內容。
-uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
-discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 
-# 關於Adobe Dynamic Media Classic中的使用者產生的內容 {#about-user-generated-content}
+# 關於Adobe Dynamic Media Classic中使用者產生的內容 {#about-user-generated-content}
 
 使用UGC （使用者產生的內容）包括將資產上傳到專用的Adobe Dynamic Media Classic儲存庫並執行相關操作。
 
@@ -26,7 +24,7 @@ UGC支援點陣影像檔案格式BMP、GIF、JPG、PNG、PSD、TIFF。
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期後60天內使用。 60天後，資產將會移除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產將會移除。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

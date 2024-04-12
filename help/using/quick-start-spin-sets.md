@@ -1,21 +1,19 @@
 ---
-title: "快速入門:迴轉集"
+title: 「快速入門：迴轉集」
 description: 迴轉集簡介和快速入門可幫助您在Adobe Dynamic Media Classic中快速上手並執行。
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -43,7 +41,7 @@ ht-degree: 22%
 
 ## 1.建立及上傳影像
 
-一維「迴轉集」至少需要8-12次專案快照，二維「迴轉集」至少需要16-24次專案快照。 拍攝照片時必須間隔一定的角度，以便讓人感覺該項目正在旋轉和翻轉。例如，如果一維「迴轉集」包含12個鏡頭，則每個鏡頭應將專案旋轉30° (360/12)。
+對於一維迴轉集，一個項目最少需要拍攝 8 到 12 張照片，對於二維迴轉集，最少需要 16 到 24 張照片。拍攝照片時必須間隔一定的角度，以便讓人感覺該項目正在旋轉和翻轉。例如，如果一維「迴轉集」包含12個鏡頭，則每個鏡頭應將專案旋轉30° (360/12)。
 
 在全域導覽列上，選取 **[!UICONTROL 上傳]** 若要將迴轉影像從電腦或網路上傳至Adobe Dynamic Media Classic。
 
@@ -65,7 +63,7 @@ ht-degree: 22%
 
 管理員可以建立迴轉集檢視器預設集。這些預設集決定了迴轉集檢視器的外觀。若要設定新的「迴轉集檢視器預設集」，請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 
-在「檢視器預設集」頁面上，選取 **[!UICONTROL 新增]**，然後選取 **[!UICONTROL 迴轉集檢視器]** 從下拉式清單中，然後選取 **[!UICONTROL 新增]**. 在「設定檢視器」頁面中選擇選項，然後選取 **[!UICONTROL 儲存]**.
+在「檢視器預設集」頁面上，選取 **[!UICONTROL 新增]**，然後選取 **[!UICONTROL 迴轉集檢視器]** 從下拉式清單中，然後選取 **[!UICONTROL 新增]**. 選擇中的選項 `Configure Viewer` 頁面，然後選取 **[!UICONTROL 儲存]**.
 
 另請參閱 [設定迴轉集檢視器預設集](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ ht-degree: 22%
 
 發佈迴轉集會將它置於Adobe Dynamic Media Classic伺服器上，以便動態傳遞至您的網站或應用程式。 這也會啟用URL字串，將迴轉集從Dynamic Media影像伺服器呼叫至您的網站或應用程式。
 
-若要發佈迴轉集，請選取 **[!UICONTROL 標籤為發佈]** 圖示位於其名稱旁的「瀏覽」面板。 在全域導覽列上，選取 **[!UICONTROL 發佈]** 以啟動發佈。 在「發佈」畫面上，選取「 」 **[!UICONTROL 提交發佈]**.
+若要發佈迴轉集，請選取 **[!UICONTROL 標籤為發佈]** 圖示位於其名稱旁的「瀏覽」面板。 在全域導覽列上，選取 **[!UICONTROL 發佈]** 以啟動發佈。 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈迴轉集](publishing-spin-set.md#publishing-a-spin-set).
 

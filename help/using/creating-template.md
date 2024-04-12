@@ -1,25 +1,23 @@
 ---
 title: 建立範本
 description: 瞭解如何在Adobe Dynamic Media Classic中建立範本。
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 41%
+source-wordcount: '3418'
+ht-degree: 40%
 
 ---
 
-# 建立範本 {#creating-a-template}
+# 建立範本
 
 若要建立範本，請前往 **[!UICONTROL 建置]** > **[!UICONTROL 範本基本需知]**. 選取「設計師」或「開發人員」。在此頁面上，可以增加影像圖層和文字圖層。還可以將圖層重新排序、變更圖層的大小和位置，並將陰影和光暈效果套用於影像和文字。
 
@@ -78,7 +76,7 @@ ht-degree: 41%
 1. 完成編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**，選取儲存資料夾，輸入集名稱，然後選取 **[!UICONTROL 儲存]**.
 
-## 刪除範本 {#deleting-a-template}
+## 刪除範本
 
 刪除範本集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
@@ -278,7 +276,7 @@ ht-degree: 41%
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### 決定背景顏色、不透明度和混合模式 {#determining-the-background-color-opacity-and-blend-mode}
+### 決定背景顏色、不透明度和混合模式
 
 若要為圖層或畫布選擇背景色彩、不透明度和混合模式，請選取圖層或畫布並使用以下技術:
 
@@ -299,7 +297,7 @@ ht-degree: 41%
 ### 將陰影或光暈效果套用至圖層 {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. 在「圖層」清單中選取圖層。
-1. 選取「增加效果」選單並選擇以下選項:
+1. 選取 **[!UICONTROL `Add Effect`]** 功能表並選擇一個選項：
 
    * **[!UICONTROL 陰影]**  — 在圖層的底部和右側套用陰影。
 

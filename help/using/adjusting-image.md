@@ -1,18 +1,16 @@
 ---
 title: 調整影像
 description: 瞭解如何在Adobe Dynamic Media Classic中調整影像。
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Adobe Dynamic Media Classic提供多種調整影像外觀的指令。 您可以�
 
 ## 建立影像的別名 {#creating-an-alias-for-an-image}
 
-調整影像後，您可以將其儲存為主要影像的另一個檢視。 若要這麼做，您可以使用建立影像的別名 **[!UICONTROL 另存為主要播放器的其他檢視]** 功能。
+調整影像後，您可以將其儲存為主要影像的另一個檢視。 若要這麼做，您可以使用建立影像的別名 **[!UICONTROL 另存為主要播放器的另一個檢視]** 功能。
 
 **若要建立影像的別名：**
 
 1. 在「格點檢視」或「清單檢視」中，於 **[!UICONTROL 編輯]** 要建立別名的影像旁的下拉式清單，選取 **[!UICONTROL 調整]**.
 1. 在頁面的右下角，選取 **[!UICONTROL 另存為]**.
-1. 從「 」中的下拉式清單 **[!UICONTROL 另存為]** 對話方塊，選取 **[!UICONTROL 另存為主要播放器的其他檢視]**.
+1. 從「 」中的下拉式清單 **[!UICONTROL 另存為]** 對話方塊，選取 **[!UICONTROL 另存為主要播放器的另一個檢視]**.
 1. 在「**[!UICONTROL 檔案夾名稱]**」清單框中，選取檔案夾以儲存取了別名的影像。
 1. 在「**[!UICONTROL 檔案名稱]**」欄位中，輸入要做為別名的名稱。
 1. 選取 **[!UICONTROL 儲存]**.

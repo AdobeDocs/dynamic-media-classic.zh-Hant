@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1470'
 ht-degree: 33%
 
 ---
 
 # 快速入門：eCatalogs{#quick-start-ecatalogs}
 
-eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器會模擬閱讀列印材料的體驗。
+eCatalog 為列印材料的數位網頁版本 — 例如目錄、傳單、文宣、產品手冊或廣告傳單。eCatalog 顯示於網站上的 eCatalog 檢視器中。此檢視器可模擬閱讀印刷材料的體驗。
 
 另請觀看下列訓練影片：
 
@@ -64,7 +64,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 在全域導覽列上，選取 **[!UICONTROL 上傳]** 以開始上傳eCatalog的PDF檔案或影像。 您可以從您的案頭或透過FTP上傳檔案；如果您要上傳許多檔案或大於100 MB的檔案，建議使用FTP。
 
-在 PDF 選項之下，「上載」畫面提供以適當解析度與正確色域上載 PDF 檔案的選項。建議使用每英吋 150 像素的解析度。上載 PDF 檔案時，您可以選取「自動產生 eCatalog」選項來建立 eCatalog。
+在 PDF 選項之下，「上載」畫面提供以適當解析度與正確色域上載 PDF 檔案的選項。建議使用每英吋 150 像素的解析度。您可以選取選項 **[!UICONTROL 自動產生eCatalog]** 以上傳PDF檔案時建立eCatalog。
 
 另請參閱 [上傳PDF檔案](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 影像地圖為eCatalog頁面新增了另一個層面。 影像地圖是頁面的某個區域，提供更多有關項目的資訊。檢視者捲動指標至影像地圖上時，就會看到項目的描述。按一下影像地圖會啟動外部參照，它會開啟一個新網頁，您可以在其中瞭解更多有關項目的資訊。
 
-若要建立影像地圖，請開啟「eCatalog」畫面。然後前往 **[!UICONTROL 對應頁面]** 標籤，並使用「矩形影像對映」工具或「多邊形影像對映」工具將地圖框架化。 您可以使用平移工具  來拖曳地圖邊框，以調整影像地圖的位置與大小。
+若要建立影像地圖，請開啟「eCatalog」畫面。然後前往 **[!UICONTROL 對應頁面]** 標籤，並使用「矩形影像對映」工具或「多邊形影像對映」工具將地圖框架化。 您可以使用「平移」工具拖曳地圖框線，調整「影像地圖」的位置和大小。
 
 在設定「影像地圖」的框架後，輸入當您選取「影像地圖」時要前往的URL位址。 您也可以輸入將指標移動到影像地圖上時會顯示的滑鼠指向效果文字。
 
@@ -118,7 +118,7 @@ eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
 發佈eCatalog和相關的PDF時，會將它置於Dynamic Media影像伺服器上，以便傳送給您的網站和應用程式。 在發佈程式中，Adobe Dynamic Media Classic會啟用eCatalog的URL字串。 使用此URL從Dynamic Media影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在瀏覽面板中將eCatalog和PDF標籤為發佈後，選取全域導覽列上的「發佈」按鈕以啟動發佈。 在「發佈」畫面上，選取「 」 **[!UICONTROL 提交發佈]**.
+在瀏覽面板中將eCatalog和PDF標籤為發佈後，選取全域導覽列上的「發佈」按鈕以啟動發佈。 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈eCatalog和相關PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

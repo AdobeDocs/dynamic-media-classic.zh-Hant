@@ -1,20 +1,18 @@
 ---
 title: 指定Media Portal使用者可用的匯出選項
 description: 瞭解如何在Adobe Dynamic Media Classic中指定Media Portal使用者可用的匯出選項。
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 37%
+source-wordcount: '383'
+ht-degree: 32%
 
 ---
 
@@ -38,7 +36,7 @@ ht-degree: 37%
 
      時間 **[!UICONTROL 畫素]** 是從 **[!UICONTROL 大小]** 下拉式清單，產生的影像寬度×高度不可超過1億畫素。 這個大小相當於方形影像的10,000×10,000畫素，或是2x3外觀比例影像的大約8,000×12,000畫素。 如果您匯出原始主要影像，則不會套用此大小限制。
 
-     如果要讓使用者下載檔案，但不要在下載時重新格式化，請取消選取此選項。
+     取消選取此選項，讓使用者下載檔案時不必在下載時重新格式化檔案。
 
    * **啟用匯出原始檔案**  — 可讓您匯出原始主要影像。 在 **[!UICONTROL 匯出選取的資產]** 面板，使用者可開啟 **[!UICONTROL 轉換]** 下拉式功能表並選擇 **[!UICONTROL 匯出原始檔案]** 以匯出原始檔案。 如果您要強制使用者選擇影像預設集，或在匯出影像時選擇轉換選項，請取消選取此選項。
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
    如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在「發佈」對話方塊中，選取 **[!UICONTROL 進階]**. 從 **[!UICONTROL 發佈]** 下拉式功能表，選取 **[!UICONTROL 包含搜尋資料的完整]**. 根據預設值，此選項為已選取。
 
-1. 按一下「**[!UICONTROL 送出發佈]**」。
+1. 選取 **[!UICONTROL 提交發佈]**.
 
 >[!MORELIKETHIS]
 >

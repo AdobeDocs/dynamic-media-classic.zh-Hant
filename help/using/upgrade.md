@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 | Dynamic Imaging | 使用一個主要檔案，自動產生和發佈不限數量的版本，並變更大小、格式、解析度、裁切或效果。 |
 | 動態視訊 | 全尺寸視訊會針對所有熒幕自動調整大小，並自適應的串流處理，以確保一致且高品質的使用者體驗。 |
 | 個人化 | 輕鬆建置和發佈 [!DNL Dynamic Media] 互動式體驗，例如產品設定器、個人化橫幅和電子郵件。 |
-| 互動式體驗 | 新增互動式熱點，並將產品詳細資訊連結到行銷活動、影片、回顧和其他媒體。 |
+| 互動式體驗 | 新增互動式熱點，並將產品詳細資料連結至行銷活動、影片、回顧和其他媒體。 |
 
 ## 的主要優點與功能 [!DNL Dynamic Media]
 

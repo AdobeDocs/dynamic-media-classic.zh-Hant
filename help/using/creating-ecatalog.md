@@ -1,20 +1,18 @@
 ---
 title: 建立eCatalog
 description: 瞭解如何在Adobe Dynamic Media Classic中建立eCatalog。
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 44%
 
 ---
@@ -85,7 +83,7 @@ ht-degree: 44%
 1. 完成編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**，選取儲存資料夾，輸入集名稱，然後選取 **[!UICONTROL 儲存]**.
 
-## 刪除eCatalog {#deleting-an-ecatalog}
+## 刪除eCatalog
 
 刪除集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 

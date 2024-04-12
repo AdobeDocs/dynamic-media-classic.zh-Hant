@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 37%
+source-wordcount: '623'
+ht-degree: 28%
 
 ---
 
@@ -55,7 +55,7 @@ Cost-efficient access to rapidly evolving technology.
 
 另請參閱 [WebVTT：網頁視訊文字追蹤格式](https://w3c.github.io/webvtt/).
 
-**增加章節標記至視訊:**
+**若要將章節標籤新增至視訊：**
 
 1. 使用Adobe Dynamic Media Classic外部的簡單文字編輯器，建立您的視訊章節檔案。
 
@@ -65,13 +65,13 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 請以UTF8編碼儲存VTT檔案，這樣就能避免在章節標題文字中出現字元轉譯問題。
 
-   一般而言，我們建議您用和視訊檔案相同的名稱來命名章節 VTT 檔案，然後在名稱後附加「`chapters`」。如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
+   一般來說，您會想要將章節VTT檔案命名為與視訊檔案相同的名稱，並附加上 `chapters`. 如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
 
 1. 在Adobe Dynamic Media Classic中，上傳您的WebVTT章節檔案。
 
    另請參閱 [上傳檔案](uploading-files.md#uploading_files).
 
-1. 在左側的「資產庫」面板中，導覽至要與已上載的章節檔案相關聯的視訊檔案所在的資產資料夾。
+1. 在左側的「資產庫」面板中，導覽至包含要與您上傳的章節檔案建立關聯的視訊檔案的資產資料夾。
 1. 在「資產瀏覽」面板中，選取單一視訊資產，然後在資產的縮圖影像下方選取「 」 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 1. 在「檢視器清單」表格中，找到命名為「**Univeral_HTML5_Video**」的 HTML5 檢視器，然後執行下列任一操作:
 

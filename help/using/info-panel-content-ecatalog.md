@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
-除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用定時快取與排程內容更新來管理資訊面板。
+除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用計時的快取及排程內容更新來管理資訊面板。
 
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
@@ -68,7 +68,7 @@ ht-degree: 55%
 1. 連按兩下eCatalog，使其在「詳細資料檢視」中開啟。
 1. 選取 **[!UICONTROL 資訊面板資料摘要]** 面板。
 1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。您可以在此欄位中貼上 URL，也可以直接鍵入。
-1. （選擇性）使用「排程更新」功能表指定更新內容的時間，然後選取 **[!UICONTROL 新增]**. 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取該時間，然後選取 **[!UICONTROL 刪除]**.)
+1. （選用）使用「排程更新」功能表指定更新內容的時間，然後選取 **[!UICONTROL 新增]**. 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。(若要移除時間，請選取該時間，然後選取 **[!UICONTROL 刪除]**.)
 1. （選用）選取 **[!UICONTROL 立即執行更新]** 以立即更新內容。
 
 ### 匯入 Tab 字元分隔檔案或 CSV 檔案 {#import-a-tab-delimited-or-csv-file}

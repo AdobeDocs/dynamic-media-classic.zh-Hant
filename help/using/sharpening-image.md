@@ -1,21 +1,19 @@
 ---
 title: 銳利化影像
 description: 瞭解如何在Adobe Dynamic Media Classic中銳利化影像。
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 38%
+source-wordcount: '2199'
+ht-degree: 35%
 
 ---
 
@@ -99,7 +97,7 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 
 * **[!UICONTROL 雙立方式]**  — 增加影像伺服器上的CPU使用量，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。
 
-* **[!UICONTROL `Sharpen2`]**  — 產生的結果會比 **[!UICONTROL 雙立方式]**，但影像伺服器的CPU成本更高。
+* **[!UICONTROL `Sharpen 2`]**  — 產生的結果會比 **[!UICONTROL 雙立方式]**，但影像伺服器的CPU成本更高。
 
 * **[!UICONTROL 三線性]**  — 同時使用較高和較低解析度（如果有的話）；只有在別名是問題的情況下才建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
@@ -126,13 +124,13 @@ Adobe Dynamic Media Classic也建議為檢視器預設集新增銳利化，然�
 
 **設定全公司的銳利化選項**
 
-如果未使用影像預設集或要使用 URL 字串通過特定的影像伺服器銳利化通訊協定，則縮減取樣時，影像不會銳利化。不過，如果發生這種缺乏銳利化的情況，您可以設定預設銳利化值，然後任何影像就會一律有一些銳利化。
+如果您未使用「影像預設集」，也未沿URL字串傳遞特定的「影像伺服器」銳利化通訊協定，則縮減取樣影像時不會銳利化。 不過，如果發生這種缺乏銳利化的情況，您可以設定預設銳利化值，以確保任何影像一律會有某些銳利化。
 
 若要設定貴公司的預設銳利化選項，請前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**. 如果您將「預設重新取樣模式」設定為 **`Sharp2`**&#x200B;時，縮減取樣一律會銳利化影像。
 
 **新增銳利化至檢視器預設集**
 
-除非您將銳利化影像修飾元增加至預設集，否則小型的初始載入影像可能會看起來柔化，因為該影像是經過縮減取樣以符合檢視器視窗，而未進行銳利化。
+除非您將銳利化影像修飾元新增至預設集，否則小的初始載入影像可能會看起來很柔和，因為它會縮減取樣以符合檢視器視窗而不進行銳利化。
 
 檢視器預設集（如影像預設集）可讓您將許多選項集中到一個位置，包括外觀和檢視器選項（例如包括「列印」按鈕或控制縮放動畫的速度）。 檢視器預設集位於與影像預設集相同的區段中，位於 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 檢視器預設集]**.
 

@@ -1,21 +1,19 @@
 ---
 title: 自動產生影像集
 description: 瞭解如何在Adobe Dynamic Media Classic中自動產生影像集。
-uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 66%
+ht-degree: 61%
 
 ---
 
@@ -33,7 +31,7 @@ Last Modified Date:
 
 您可以單獨執行自動產生集的工作，而不需要仰賴上載。
 
-**自動產生影像集:**
+**若要自動產生影像集：**
 
 1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 產生集合]**.
 1. 在「產生集」對話框中，指定工作名稱。

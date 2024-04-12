@@ -1,27 +1,25 @@
 ---
 title: 設定影像預設集
 description: 瞭解如何在Adobe Dynamic Media Classic中設定影像預設集。
-uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 44%
+source-wordcount: '673'
+ht-degree: 37%
 
 ---
 
 # 設定影像預設集{#setting-up-image-presets}
 
-如同巨集，影像預設集是儲存於同一個名稱下的大小調整和格式指令的預先定義集合。若要瞭解影像預設集的運作方式，假設您的網站要求每個產品影像以兩種不同的大小顯示：500 × 500畫素和150 × 150畫素。 您可以建立兩個影像預設集，一個稱為「放大」，以500x500畫素顯示影像，另一個稱為「縮圖」，以150×150畫素顯示影像。 為了以「放大」和「縮圖」大小傳送影像，Dynamic Media影像伺服器會尋找放大影像預設集和縮圖影像預設集的定義。 接著，伺服器便會動態地按照每個影像預設集的大小和格式規格產生影像。
+如同巨集，影像預設集是儲存於同一個名稱下的大小調整和格式指令的預先定義集合。若要瞭解影像預設集的運作方式，假設您的網站要求每個產品影像以兩種不同的大小顯示：500 × 500畫素和150 × 150畫素。 您可以建立兩個影像預設集，一個稱為「放大」，以500x500畫素顯示影像，另一個稱為「縮圖」，以150×150畫素顯示影像。 為了以「放大」和「縮圖」大小傳送影像，Dynamic Media影像伺服器會查詢「放大影像預設集」和「縮圖影像預設集」的定義。 接著，伺服器便會動態地按照每個影像預設集的大小和格式規格產生影像。
 
 Adobe Dynamic Media Classic隨附數個「最佳實務」影像預設集，這些預設集已設定好供您使用。 管理員也可以建立影像預設集。 若要建立影像預設集，您可以從頭開始建立，也可以從現有預設集開始建立，並另存為新名稱。
 
@@ -31,7 +29,7 @@ Adobe Dynamic Media Classic隨附數個「最佳實務」影像預設集，這�
 
 如果您是公司管理員，則可以建立自己的影像預設集。您可以建立影像預設集，或從Adobe Dynamic Media Classic提供的預設影像預設集開始、編輯預設集，然後以新名稱儲存。
 
-**建立影像預設集:**
+**若要建立影像預設集：**
 
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**.
 
@@ -48,7 +46,7 @@ Adobe Dynamic Media Classic隨附數個「最佳實務」影像預設集，這�
 
    Adobe Dynamic Media Classic建議從下列「最佳實務」選項開始：
 
-   * **[!UICONTROL 格式]**  — 選擇JPEG或其他符合您需求的格式。 所有網路瀏覽器皆支援 JPEG 影像格式；它在小型檔案和影像品質之間取得了良好的平衡。不過，JPEG影像使用有失真壓縮配置，如果壓縮設定太低，則會引入不想要的影像偽影。 因此，Adobe Dynamic Media Classic建議將壓縮品質（在滑杆上）設為75。 此設定提供了影像品質和小型檔案之間的良好平衡。
+   * **[!UICONTROL 格式]**  — 選擇JPEG或其他符合您需求的格式。 所有網頁瀏覽器都支援JPEG影像格式；它在小檔案大小和影像品質之間提供良好的平衡。 不過，JPEG影像使用有失真壓縮配置，如果壓縮設定太低，則會引入不想要的影像偽影。 因此，Adobe Dynamic Media Classic建議將壓縮品質（在滑杆上）設為75。 此設定提供了影像品質和小型檔案之間的良好平衡。
 
    * **[!UICONTROL 銳利化]**  — 請勿選取「銳利化」 (此銳利化濾鏡提供的控制力比 **[!UICONTROL 遮色片銳利化調整]** 設定)。
 

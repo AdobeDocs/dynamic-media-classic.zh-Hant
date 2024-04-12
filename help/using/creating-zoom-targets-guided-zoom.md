@@ -1,21 +1,19 @@
 ---
 title: 建立引導式縮放的縮放目標
-description: 瞭解如何為Adobe Dynamic Media Classic中的引導式縮放建立縮放目標。
-uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
+description: 瞭解如何在Adobe Dynamic Media Classic中建立引導式縮放的縮放目標。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 41%
+source-wordcount: '730'
+ht-degree: 42%
 
 ---
 
@@ -40,10 +38,10 @@ ht-degree: 41%
 
 在「縮放目標編輯器」畫面上建立並編輯縮放目標。若要開啟該畫面，請選取一個影像並執行以下操作之一:
 
-* 選取滑鼠指向效果 **[!UICONTROL 編輯]** 按鈕，然後選擇「縮放目標」。
-* 在「瀏覽」面板中，將影像顯示於 **[!UICONTROL 詳細資料檢視]**，然後選取 **[!UICONTROL 縮放目標]**.
+* 選取變換影像 **[!UICONTROL 編輯]** 按鈕，然後選擇「縮放目標」。
+* 在瀏覽面板中，將影像顯示於 **[!UICONTROL 詳細資料檢視]**，然後選取 **[!UICONTROL 縮放目標]**.
 
-在「縮放目標編輯器」畫面上，選取 **[!UICONTROL 選取目標]** 按鈕（箭頭），在變更目標大小或位置之前選取目標。 若要在影像上建立縮放目標，請選取 **[!UICONTROL 新增目標]** （矩形）。 「縮放目標編輯器」頁面也提供刪除、複製和命名縮放目標的工具。
+在「縮放目標編輯器」畫面上，選取 **[!UICONTROL 選取目標]** 按鈕（箭頭）以在變更目標大小或位置之前選取目標。 若要在影像上建立縮放目標，請選取 **[!UICONTROL 新增目標]** （矩形）。 「縮放目標編輯器」頁面也提供刪除、複製和命名縮放目標的工具。
 
 ### 建立縮放目標 {#creating-a-zoom-target}
 
@@ -55,9 +53,9 @@ ht-degree: 41%
 
 1. 選取 **[!UICONTROL 選取目標]** （箭頭），然後選取您建立的縮放目標，並調整目標的大小和位置。
 
-   * **調整大小**  — 將指標移到縮放目標的一個角落上，然後拖曳以放大或縮小目標。
+   * **調整大小**  — 將指標移到縮放目標的角落上，然後拖曳以放大或縮小目標。
 
-   * **位置**  — 將指標移到縮放目標上方，並將其拖曳至其他位置。
+   * **位置**  — 將指標移到縮放目標上，並將其拖曳到其他位置。
 
 1. 在「名稱」方框中輸入縮放目標名稱。
 
@@ -72,7 +70,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->若要在縮放檢視器中檢視您的縮放目標外觀，請選取 **[!UICONTROL 預覽]** 「縮放目標編輯器」畫面中的按鈕，並在「預覽」畫面中選擇「縮放檢視器」。 如需有關此熒幕的資訊，請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>若要在縮放檢視器中檢視縮放目標的外觀，請選取 **[!UICONTROL 預覽]** 「縮放目標編輯器」畫面中的按鈕，並在「預覽」畫面中選擇「縮放檢視器」。 如需有關此熒幕的資訊，請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### 編輯縮放目標 {#editing-zoom-targets}
 
@@ -80,7 +78,7 @@ ht-degree: 41%
 
 * **重新定位**  — 使用「選取目標」按鈕（箭頭），選取目標。 然後，將目標拖曳到其他位置。
 
-* **調整大小**  — 使用「選取目標」按鈕（箭頭），選取目標。 若要放大或縮小目標，請將指標移至縮放目標的一個角落並拖曳。
+* **調整大小**  — 使用「選取目標」按鈕（箭頭），選取目標。 若要放大或縮小目標，請將指標移至縮放目標的角落並拖曳。
 
 * **刪除**  — 選取畫面右側的目標縮圖影像。 然後選取 **[!UICONTROL 刪除目標]**.
 
@@ -90,6 +88,6 @@ ht-degree: 41%
 
 可以將縮放目標從一個影像複製到另一個影像。如果兩個影像的內容相似且縮放目標位於同一位置，則可複製目標。若要將縮放目標複製到另一個影像，請執行下列動作：
 
-1. 在「縮放目標編輯器」畫面中，開啟含有您要複製的縮放目標的影像。
+1. 在「縮放目標編輯器」畫面中，開啟含有您要複製之縮放目標的影像。
 1. 選取 **[!UICONTROL 將目標複製到]**.
-1. 在「選取影像」對話方塊中，選取影像並擇取 **[!UICONTROL 選取]**.
+1. 在「選取影像」對話方塊中，選取影像並選取 **[!UICONTROL 選取]**.

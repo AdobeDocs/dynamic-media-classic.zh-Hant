@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 46%
@@ -81,7 +81,7 @@ ht-degree: 46%
 1. 完成集的編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**，為您的集合選取儲存資料夾，輸入集合名稱，然後選取 **[!UICONTROL 儲存]**.
 
-## 刪除影像集 {#deleting-an-image-set}
+## 刪除影像集
 
 刪除集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 

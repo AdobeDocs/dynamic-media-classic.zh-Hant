@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 >
 >如果您選取「 」，則不需要執行此步驟 **[!UICONTROL 儲存後發佈]** （預設）建立並儲存「影像集」時。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈檔案](publishing-files.md#publishing-files).
 

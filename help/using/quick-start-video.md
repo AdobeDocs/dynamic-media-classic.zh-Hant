@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
   各種iOS平台均支援最適化視訊串流。
 
-  請參閱以下連結的最新支援： [Adobe檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  請參閱以下連結的最新支援： [Adobe檢視器參考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。 <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,7 +98,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 * **上傳預先編碼的視訊**  — 如果您的視訊已在Adobe Dynamic Media Classic之外編碼，請在全域導覽列上，選取 **[!UICONTROL 上傳]** 瀏覽並直接將MP4視訊檔案上傳至Adobe Dynamic Media Classic。 接著，前往 **[!UICONTROL 建置]** > **[!UICONTROL 最適化視訊集]**. 瀏覽至視訊檔案。將您想要的視訊檔案拖放至「自我調整視訊集」表格中，然後儲存該集合。
 * **上傳主要來源影片**  — 如果您的視訊未編碼，請在全域導覽列上選取 **[!UICONTROL 上傳]** 上傳主要視訊來源檔案（非MP4）。 Adobe Dynamic Media Classic會為您將其編碼為MP4檔案。 在 **[!UICONTROL 上載工作選項]** 對話方塊，在 **[!UICONTROL EVideo選項]**，選取 **[!UICONTROL 自我調整視訊]**.
 
-  此優先選項可讓您建立會自動套用正確編碼預設集至視訊的最適化視訊集 (無論是 16:9 還是 4:3)，以符合您所上載之視訊的尺寸。當您提交上載工作時，系統會自動為您建立最適化視訊集，其中包含三個以正確外觀比例編碼的視訊設定。
+  透過此偏好選項，您可以建立「自我調整視訊集」，自動將正確的編碼預設集套用至視訊（無論是16:9或4:3），以符合您上傳的視訊尺寸。 當您提交上載工作時，系統會自動為您建立最適化視訊集，其中包含三個以正確外觀比例編碼的視訊設定。
 
   或者，在同一個 **[!UICONTROL 工作選項]** 對話方塊，在 **[!UICONTROL EVideo選項]**，展開 **[!UICONTROL 單一編碼預設集]**. 選取您想要的個別視訊編碼預設集 **案頭**， **行動(iPhone、iPad、Android™)**、和 **平板電腦(iPad、Android™)** 以便您建立MP4檔案。
 

@@ -1,20 +1,18 @@
 ---
 title: 在視訊檢視器中預覽視訊
 description: 瞭解如何在視訊檢視器中預覽視訊。
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '773'
 ht-degree: 21%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 21%
 
 另請參閱 [新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets).
 
-**在視訊檢視器中預覽視訊:**
+**若要在視訊檢視器中預覽視訊：**
 
 1. 在左側的「資產庫」面板中，於「顯示」下拉式清單中，選取 **[!UICONTROL 視訊]** （單一編碼的視訊）或 **[!UICONTROL 最適化視訊集]**. 使用最適化視訊編碼預設集時，會產生一組多位元速率編碼的視訊。
 1. 在左側的「資產庫」面板中，瀏覽資產檔案夾，以選取您要預覽的視訊。
@@ -36,7 +34,7 @@ ht-degree: 21%
    * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，選取 **[!UICONTROL 預覽]**.
    * 在「資產」視窗中選取資產。在工具列中，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**.
 
-1. （可選）在預覽視窗底部的下拉式清單中，選取您要在複製資產的URL時套用的URL編碼。
+1. （可選）在預覽視窗底部的下拉式清單中，選取複製資產時套用至資產URL的URL編碼。
 1. 選取 **[!UICONTROL 預覽]** 連結，讓您在選取的檢視器中檢閱資產。
 1. 關閉顯示的檢視器。
 1. 選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
@@ -47,7 +45,7 @@ ht-degree: 21%
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
-使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集後，您可以使用所選的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
+使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集後，您可使用您選擇的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
 
 Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可供您播放視訊，如果您是管理員，可以建立自訂檢視器預設集。 設定Video Viewer有12種以上的不同設定。 您可以設定其大小、色彩、視訊和音訊控制項、進度列、使用者介面外觀和社交功能。
 
@@ -65,7 +63,7 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 
 另請參閱 [視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 訓練影片。
 
-**增加或編輯視訊檢視器預設集:**
+**若要新增或編輯視訊檢視器預設集：**
 
 1. 前往Adobe Dynamic Media Classic右上角附近 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 
@@ -83,7 +81,7 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 
    * **編輯**  — 選取視訊檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**.
 
-1. 在「設定檢視器」頁面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
+1. 在 `Configure Viewer` 頁面，在「預設集名稱」欄位中，輸入或編輯預設集名稱。
 1. 設定其它想要的選項。
 
    若要檢視選項的說明，請選取其資訊提示圖示。
