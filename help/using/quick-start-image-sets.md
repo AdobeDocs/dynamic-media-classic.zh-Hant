@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 | 每個集的重複資產數 | 無重複專案 | 20‡ |
 | 每組影像的最大數量 | 每組5至10個影像 | 1000 |
 
-‡最佳實務是集合中不要有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
+‡最佳實務是不要在一個集中有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
 
 另請參閱 [Dynamic Media限制](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 管理員可以建立或修改影像集檢視器預設集。Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用縮放檢視器： **[!UICONTROL 自訂]** > **[!UICONTROL 影像]** 或 **[!UICONTROL 影像集]**/**[!UICONTROL 多重檢視]** 用來檢視影像集的預設集。
 
-您可以從「應用程式設定」畫面增加或編輯檢視器預設集。
+您可以從「應用程式設定」畫面新增或編輯檢視器預設集。
 
 另請參閱 [建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 Adobe Dynamic Media Classic會為影像集建立URL呼叫，並在您發佈後加以啟用。 您可以從「預覽」畫面複製這些 URL。
 
-選取影像集，然後選取 **[!UICONTROL 預覽]**. 現在選取影像集檢視器預設集，然後選取 **[!UICONTROL 複製URL]**.
+選取影像集，然後選取 **[!UICONTROL 預覽]**. 現在請選取「影像集檢視器預設集」，然後按一下 **[!UICONTROL 複製URL]** 按鈕。
 
 另請參閱 [將影像集連結至網頁](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

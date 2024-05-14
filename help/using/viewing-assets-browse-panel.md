@@ -10,10 +10,10 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: c7e500d8112779147e9dfcdd46ad335b1a997fe8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 26%
+source-wordcount: '253'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 26%
 
 * **清單檢視**  — 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 清單檢視]** 圖示以檢視清單中的資產。 清單會顯示每項資產的名稱、類型、建立日期及上次修改日期。根據您使用的資產型別，您也會取得其他資訊。 例如，您可以看到影像的尺寸與檔案大小。
 
-* **詳細資料檢視**  — 選取資產。 在Adobe Dynamic Media Classic畫面的右上角附近，選取「 」 **[!UICONTROL 詳細資料檢視]** 圖示以在「詳細資料檢視」中檢查資產。 您也可以連按兩下資產，或選取該資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]** 以在「詳細資料檢視」中檢視。 如果管理員已指定「顯示URL」偏好設定，則「詳細資料檢視」中會顯示所有資產的URL；不過，URL僅在資產發佈後有效。
+* **詳細資料檢視**  — 選取資產。 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 詳細資料檢視]** 圖示以在「詳細資料檢視」中檢查資產。 您也可以連按兩下資產，或選取該資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]** 以在「詳細資料檢視」中檢視。 如果管理員已指定「顯示URL」偏好設定，則「詳細資料檢視」中會顯示所有資產的URL；不過，URL僅在資產發佈後有效。
 
 >[!TIP]
 >
->您可以為瀏覽面板選取預設檢視，並讓面板符合您的規格。請參閱[個人設定](personal-setup.md#personal_setup)。*
+>您可以為「瀏覽」面板選取預設檢視，並讓該面板符合您的規格。 另請參閱 [個人設定](personal-setup.md#personal_setup).*

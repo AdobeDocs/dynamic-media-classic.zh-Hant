@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
 
-# 現已推出：Adobe Dynamic Media Classic案頭應用程式 {#dynamic-media-classic-desktop-app}
+# 現已推出： Adobe Dynamic Media Classic案頭應用程式 {#dynamic-media-classic-desktop-app}
 
 Adobe Dynamic Media Classic使用者現在可以使用全新的案頭應用程式體驗，不必再仰賴瀏覽器的AdobeFlash技術。
 
@@ -48,26 +48,26 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 * 編輯影像時， **[!UICONTROL 儲存]** 按鈕無法運作。
 * 在集合編輯器中， **[!UICONTROL 關閉]**， **[!UICONTROL 儲存]**、和 **[!UICONTROL 另存為]** 在中捲動資產後，按鈕會停用 **[!UICONTROL 新增資產]** 面板。
-* **[!UICONTROL 播放]** 「視訊詳細資料」檢視中的按鈕無法運作。
+* 此 **[!UICONTROL 播放]** 「視訊詳細資料」檢視中的按鈕無法運作。
 * 無法輸入 `d` 和 `e` 在 **[!UICONTROL 使用者名稱]** 和 **[!UICONTROL 密碼]** 執行macOS Monterey時的欄位。
 * 將其餘的Analytics API移至2.0版。
 
 ## 20.21.3版中的修正 {#release-sept2021}
 
 * 在案頭應用程式上閒置一段時間後，資產的縮圖遭到破壞。
-* 案頭應用程式停止回應，通常在設定作業之後。
+* 案頭應用程式通常會在「設定」作業後停止回應。
 * 要求模糊化與鎖定模式在下自動啟用 **[!UICONTROL 測試影像服務]**.
 
-  另請參閱 [測試Secure Testing service](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  另請參閱 [Secure Testing服務](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
-* 更新Adobe Analytics的驗證機制。 與新的整合相關，或如果某些Analytics變數必須從Dynamic Media Classic案頭應用程式中更新。
+* 更新Adobe Analytics的驗證機制。 與新的整合或是必須從Dynamic Media Classic案頭應用程式中更新某些Analytics變數相關。
 
   另請參閱 [登入Adobe Analytics](/help/using/log-analytics.md) 以取得更新步驟。
 
 ## 20.21.2版中的修正 {#minor-release}
 
 * 20.21.1中的已知限制： **[!UICONTROL 伺服器]** 登入畫面上的下拉式清單為空白。
-* 在 **[!UICONTROL 上載工作選項]**，下的圖層命名預設值 **[!UICONTROL Photoshop選項]**，現在為 **[!UICONTROL Photoshop和圖層名稱]**. PSD檔案中的圖層會以個別影像的方式上傳。
+* 在 **[!UICONTROL 上載工作選項]**，下的預設圖層名稱值 **[!UICONTROL Photoshop選項]**，現在為 **[!UICONTROL Photoshop和圖層名稱]**. PSD檔案中的圖層會以個別影像的方式上傳。
    * 較早的預設值 **[!UICONTROL 圖層名稱]**，以影像在PSD檔案中的圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
    * 的新預設值 **[!UICONTROL Photoshop和圖層名稱]**，會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
    * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，因此不會更新現有PSD或範本(會在原始PSD檔案中共用哪些圖層名稱)。
@@ -90,8 +90,8 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 另請參閱：
 
-* [在Mac上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
-* [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Mac上下載並以無訊息方式安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
+* [在Windows上下載並自動安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
 1. 在您的系統上解除安裝任何較舊的Adobe Dynamic Media Classic案頭應用程式版本。
 
@@ -145,14 +145,14 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 1. 登入後，請注意熟悉的瀏覽器使用者介面體驗。 您可以照常在案頭應用程式上繼續進行日常Adobe Dynamic Media Classic活動。
 
-## 下載和 *靜音* 在macOS上安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
+## 下載和 *無訊息* 在macOS上安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
 
 另請參閱：
 
 * [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
-* [在Windows上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
+* [在Windows上下載並自動安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-windows-dmc-app)
 
-若要下載和 *靜音* 在macOS上安裝最新版的Adobe Dynamic Media Classic案頭應用程式：
+若要下載和 *無訊息* 在macOS上安裝最新版的Adobe Dynamic Media Classic案頭應用程式：
 
 1. 在您的系統上解除安裝任何較舊的Adobe Dynamic Media Classic案頭應用程式版本。
 
@@ -185,7 +185,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
    | EMEA生產（歐洲、中東和非洲） | https://s7sps3.scene7.com/ |
    | APAC生產（亞太） | https://s7sps5.scene7.com/ |
 
-## 下載和 *靜音* 在Windows®上安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
+## 下載和 *無訊息* 在Windows®上安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-windows-dmc-app}
 
 您使用的指令用於基本的MSI無訊息安裝。 不過，Adobe Dynamic Media Classic案頭應用程式安裝程式是使用InstallShield建立的InstallScript MSI安裝程式。 當您以記錄模式執行安裝程式時，任何使用者互動都會記錄在回應檔案中。 然後，此回應檔案會用於無訊息安裝，如所述 [以無訊息模式執行安裝](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -193,9 +193,9 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 * [在Mac或Windows上下載並安裝最新的Adobe Dynamic Media Classic案頭應用程式](#installation-dmc-app)
 
-* [在macOS上下載及無訊息安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
+* [在macOS上下載並以無訊息方式安裝最新的Adobe Dynamic Media Classic案頭應用程式](#install-silent-mac-dmc-app)
 
-若要下載和 *靜音* 在Windows®上安裝最新版的Adobe Dynamic Media Classic案頭應用程式：
+若要下載和 *無訊息* 在Windows®上安裝最新版的Adobe Dynamic Media Classic案頭應用程式：
 
 1. 在您的系統上解除安裝任何較舊的Adobe Dynamic Media Classic案頭應用程式版本。
 
@@ -258,7 +258,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## Adobe Dynamic Media Classic 20.20.1的已知限制（已在20.20.2中修正）
 
-**_僅適用於Windows® — 透過案頭應用程式UI上傳的檔案數量是否有限制？_**<br>可以，透過案頭應用程式UI一次最多可上傳150個檔案。
+**_僅適用於Windows® — 透過案頭應用程式UI上傳的檔案數量是否有限制？_**<br>可以，使用案頭應用程式UI一次最多可上傳150個檔案。
 
 **_套用至Windows®和macOS — 如何在公司之間切換？_**<br>若要在公司之間切換，請執行下列動作：
 

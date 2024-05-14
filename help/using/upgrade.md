@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 
 ## 的主要優點與功能 [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] 是以下專案的自然演化： [!DNL Dynamic Media Classic] 並提供豐富的媒體製作、發佈和傳送工具集，包括同級最佳傳送作業，搭配創新的使用者導向介面，促進現代真實世界工作流程。
+[!DNL Dynamic Media] 是以下專案的自然演化： [!DNL Dynamic Media Classic]. 它提供多媒體製作、發佈和傳送工具集。 此外，透過以使用者為中心的創新介面，提供同級最佳的傳遞方式，加速處理現代真實世界的工作流程。
 
 * 順暢、統一的體驗，以及與 [!DNL Adobe Experience Manager]：從單一商店、單一來源設定並動態傳遞豐富的內容
 * 全新的以行銷人員為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
@@ -52,7 +52,7 @@ Adobe已建立 [!DNL Dynamic Media] 以您為中心。
 
 ## 為何選擇Adobe？
 
-* 數位資產Forrester WAVE報表中最大的正向移動者。
+* Forrester WAVE數位資產中最大的正面行動者。
 * 2016年線上視訊平台報表表現優異。
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
 * 24/7/265支援、99.95% SLA、Adobe Professional Services。

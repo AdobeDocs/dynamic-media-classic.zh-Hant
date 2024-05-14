@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 778fd54b-a9e5-40c5-aff1-a156a5c15923
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 在傳輸至Adobe Target Standard/Premium期間，前置詞 `S7_` 會自動附加至選件名稱的開頭。 前置詞是附加的，以確保您可以在Test&amp;Target選件清單中輕鬆找到Adobe Dynamic Media Classic選件。 例如，選件會顯示為 `S7_<name of offer set>_<offer name>`.
 
-Adobe Dynamic Media Classic深入探討Adobe Target Standard/Premium Widget選件。 您可以使用Widget選件，在Adobe Target Standard/Premium以外自行託管您提供的內容。 Widget選件類似於Adobe Target Standard/Premium以外託管的標準選件。 它們可讓Adobe Target Standard/Premium部署儲存在伺服器上的選件內容，允許更精細的動態使用。 Widget選件可從URL擷取內容、快取該內容，並提供約兩個小時的服務。 Widget提供一些動態內容產生功能，這是Adobe Target Standard/Preimium以外其他提供所沒有的功能。 如果提供選件的mbox包含mbox引數，例如 `mboxProductID` 和 `mbox.offerId`，則 `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` URL引數會附加至請求的URL。 這些引數可供Widget選件URL提供的服務使用，傳回Adobe Target Standard/Premium以外使用您mbox之產品或訂單資訊的內容。 您也可以透過API存取Widget選件，以程式設計方式在Adobe Target Standard/Premium以外建立選件。
+Adobe Dynamic Media Classic深入探討Adobe Target Standard/Premium Widget選件。 您可以使用Widget選件在Adobe Target Standard/Premium上託管您自己的選件內容。 Widget選件類似於Adobe Target Standard/Premium託管的標準選件。 它們可讓Adobe Target Standard/Premium部署儲存在伺服器上的選件內容，允許更精細的動態使用。 Widget選件可從URL擷取內容、快取該內容，並提供約兩個小時的服務。 Widget提供一些動態內容產生功能，這是Adobe Target Standard/Preimium以外其他提供所沒有的功能。 如果提供選件的mbox包含mbox引數，例如 `mboxProductID` 和 `mbox.offerId`，則 `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` URL引數會附加至請求的URL。 這些引數是由Widget選件URL提供的服務所使用，用來傳回Adobe Target Standard/Premium以外使用您mbox中的產品或訂單資訊的內容。 您也可以透過API存取Widget選件，以便以程式設計方式在Adobe Target Standard/Premium以外建立選件。

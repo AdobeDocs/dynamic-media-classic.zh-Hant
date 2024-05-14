@@ -5,9 +5,9 @@ type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hant
 recommendations: noDisplay
-source-git-commit: 4e5487742ac1dcbf7db5ba3568fdf7784664e25b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ metadata.md檔案包含存放庫層級中繼資料，這些中繼資料會傳遞
 | solution-icon | 在解決方案標題旁邊顯示解決方案圖示。 尚未實作 |
 | getting-started-url | 快速入門頁面連結 |
 | tutorials-url | 教學課程影片（教學課程或KT教學課程）的連結 |
-| mini-toc-levels | 決定顯示在右側欄中的標題層數。 預設為2 |
+| mini-toc-levels | 決定顯示在右側邊欄的標題層級數目。 預設為2 |
 | git-repo | 指定內部使用的主要存放庫位置 |

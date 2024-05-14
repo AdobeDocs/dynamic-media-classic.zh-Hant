@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 40%
+source-wordcount: '2225'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 您可以在Adobe Dynamic Media Classic中儲存您使用之檔案的特定資訊；此資訊稱為 *中繼資料*. 您可以在Adobe Dynamic Media Classic中使用中繼資料，以組織、搜尋、篩選和排序您的資產。
 
-中繼資料會與Adobe Dynamic Media Classic產生的資訊一起顯示在「詳細資料檢視」中，例如檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在「詳細資料檢視」中輸入及編輯中繼資料。
+中繼資料會顯示在「詳細資料檢視」中。 它與Adobe Dynamic Media Classic產生的資訊一起出現。 例如，檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在「詳細資料檢視」中輸入及編輯中繼資料。
 
 有些中繼資料會直接內嵌在檔案中。如果檔案包含此中繼資料，Adobe Dynamic Media Classic會自動將其與檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Illustrator和其他應用程式的來源資產中；Adobe Dynamic Media Classic可辨識此中繼資料。 您也可以在「詳細資料檢視」的「中繼資料」面板中，將中繼資料新增至個別檔案。 為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
 
@@ -97,15 +97,15 @@ ht-degree: 40%
 
 識別要匯入的不同中繼資料類型時，請記住下列事項:
 
-* 使用者定義的欄位是以在中建立的名稱來識別 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義的欄位]**. 使用 `Generate file` 功能以取得正確匯入格式之所有已定義UDF的清單。
+* 將使用者定義欄位的名稱識別為建立於 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義的欄位]**. 使用 `Generate file` 功能以取得正確匯入格式之所有已定義UDF的清單。
 * XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。XMP首碼可在下列位置找到： **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構]** 編輯者。 您可以在相關的 XMP 資料結構文件中找到技術名稱。XMP屬性名稱未出現在 `Generate file` 功能。
-* 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。字首和屬性名稱皆是在「中繼資料結構編輯器」中定義。中繼資料結構描述屬性名稱不會出現在 `Generate file` 功能。
+* 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。前置詞和屬性名稱是在中繼資料結構編輯器中定義。 中繼資料結構描述屬性名稱不會出現在 `Generate file` 功能。
 
 例如：關鍵字的XMP屬性是首碼為XMP結構描述「Dublin Core」 `dc` 和 `subject` 是技術XMP名稱。 前置詞和技術XMP名稱會合併至 `dc:subject` 完整屬性名稱。 在XML中繼資料匯入格式中， `dc.subject` 必須為屬性名稱。 在以Tab字元分隔的匯入格式中，它必須是欄標題。
 
 ### 匯入關鍵字
 
-關鍵字可以匯入為逗號分隔清單。 如果任何個別值中出現逗號，則必須使用反斜線(\)逸出逗號。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。
+關鍵字可以匯入為逗號分隔清單。 如果逗號出現在任何個別值中，請使用反斜線(\)將其逸出。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。
 
 例如，包含值的中繼資料匯入檔案 `Hello\, World!,back\\slash,foo` 的 `dc:subject` 在資產上設定三個XMP關鍵字： `Hello, World!,` `back\slash,` 和 `foo`.
 
@@ -127,7 +127,7 @@ XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會
 
 ## 匯入中繼資料 (透過 FTP) {#import-metadata-via-ftp}
 
-您可以在以Tab字元分隔的或XML檔案中輸入中繼資料，然後選取 **[!UICONTROL 處理中繼資料檔案]** 上傳工作選項（透過FTP標籤）頁面。
+您可以匯入多個檔案的中繼資料。 您可以在以Tab字元分隔的或XML檔案中輸入中繼資料。 然後，選取 **[!UICONTROL 處理中繼資料檔案]** 上傳工作選項（透過FTP標籤）頁面。
 
 確定 Tab 字元分隔或 XML 檔案中的資料格式正確無誤。在第一列中輸入 ID 欄位，後面跟著要修改的中繼資料欄位名稱。在每個後續的列中，輸入隨後附有中繼資料值的資產 ID 名稱。系統不會修改 Tab 字元分隔或 XML 檔案中未包含的欄位。
 
@@ -183,15 +183,15 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 >
 >資料結構的變更絕不會變更資產中繼資料。不過，並非所有Adobe Dynamic Media Classic和中繼資料伺服器功能都能看見這些專案，且無法在變更後加以存取。 同樣地，如果資產的中繼資料存在，建立相符的結構描述會使中繼資料可用於Adobe Dynamic Media Classic和中繼資料伺服器。
 
-中繼資料結構編輯器提供在Adobe Dynamic Media Classic中新增或編輯自訂公司結構的圖形方式。 資料結構是由一個字首、一個命名空間，以及一份屬性清單所定義。
+中繼資料結構編輯器提供在Adobe Dynamic Media Classic中新增或編輯自訂公司結構的圖形方式。 前置詞、名稱空間和屬性清單會定義結構。
 
 * **[!UICONTROL 名稱]**  — 結構的UI-Name。 用來在「中繼資料檢視」和「進階搜尋」中識別屬性。類似於 XMP 區段，如「基本」、「IPTC」和「PDF」。
 
-* **[!UICONTROL 前置詞]**  — 結構描述的技術唯一識別碼。 限定於字母a-z和A-Z。前置詞在Adobe Dynamic Media Classic UI中不可見，但用於資產的中繼資料儲存在XMP區塊和資料庫時。 前置詞用於唯一識別中繼資料伺服器或匯入之中繼資料搜尋查詢中的中繼資料欄位。
+* **[!UICONTROL 前置詞]**  — 結構描述的技術唯一識別碼。 限定於字母a-z和A-Z。前置詞在Adobe Dynamic Media Classic UI中不可見，但用於資產的中繼資料儲存在XMP區塊和資料庫時。 前置詞可唯一識別中繼資料伺服器或匯入之中繼資料搜尋查詢中的中繼資料欄位。
 
 * **[!UICONTROL 名稱空間]**  — 結構描述的技術唯一識別碼，通常為表單中的URL `https://your.company.com/name/version/`. 如需範例，請參閱標準資料結構清單。名稱空間不會顯示在Adobe Dynamic Media Classic UI中，但會用來將中繼資料儲存在XMP區塊中。
 
-* **[!UICONTROL 說明]**  — 結構的自由形式說明。
+* **[!UICONTROL 說明]**  — 結構的自由格式說明。
 
 >[!NOTE]
 >
@@ -203,10 +203,10 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 | --- | --- |
 | ID | 此屬性的技術識別名稱。ID不會顯示在Adobe Dynamic Media Classic UI中，但用於資產的中繼資料儲存在XMP區塊和資料庫時。 ID可用來在中繼資料伺服器上建立搜尋查詢。 ID有一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>ID一旦建立便無法變更。 |
 | 標籤 | 此特性的 UI 名稱。 |
-| 結構 | 決定特性類型和資料類型。結構可為下列項目:<ul><li>簡單類型: 單一資料類型值</li><li>順序: 相同資料類型值的清單</li><li>開放選擇: 從預先定義值清單選取項目，或輸入自由文字。資料類型僅可為「字串」或「整數」</li><li>限定選擇: 從預先定義值清單 (彈出式或組合式) 選取項目</li></ul> |
+| 結構 | 決定特性類型和資料類型。結構可為下列項目:<ul><li>簡單類型: 單一資料類型值</li><li>順序: 相同資料類型值的清單</li><li>開啟選項：從預先定義的值清單中選取一個專案，或輸入文字。 只能是String或Integer資料型別</li><li>限定選擇: 從預先定義值清單 (彈出式或組合式) 選取項目</li></ul> |
 | 資料類型 | 從下列可用類型中選取: <ul><li>字串</li><li>整數</li><li>浮點</li><li>是/否 (布林)</li><li>日期</li></ul> |
 
-特性結構為「開放選擇」或「限定選擇」時，您必須提供至少一個選擇值。開放選擇可以變更。限定選擇無法變更。所有選擇值都擁有該特性的資料類型。
+當屬性具有「開放選擇」或「封閉選擇」結構時，您必須至少提供一個選擇值。 開放選擇可以變更。限定選擇無法變更。所有選擇值都有屬性的「資料型別」。
 
 | 屬性 | 說明 |
 | --- | --- |

@@ -10,18 +10,18 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # 登入Adobe Analytics{#log-in-to-adobe-analytics}
 
-在您登入設定Adobe Analytics報表並將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件相符之前，請先確認您是Adobe Analytics中「Web服務存取」群組的成員。 無論介面中設定的許可權為何，此群組中的成員都可以透過Experience Cloud的Web Services API存取指定報表套裝中的所有報表。 若要新增成員至群組，請在Adobe Analytics中前往 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 編輯群組]**.
+確認您是Adobe Analytics中「Web服務存取」群組的成員。 請在登入前完成設定Adobe Analytics報表，並將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件比對。 此群組中的成員可以存取指定報表套裝中的所有報表。 無論介面中設定的許可權為何，都使用Experience Cloud的網站服務API來執行此操作。 若要新增成員至群組，請在Adobe Analytics中前往 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 編輯群組]**.
 
-登入時，您可以選擇輸入Experience Cloud組織ID，以使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍可運作。 但是，這可能會導致資料無法正確與Adobe Dynamic Media Classic外部該使用者端的其他資料整合。
+登入時，您可以選擇輸入Experience Cloud組織ID，以使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍可運作。 但是，它可能會導致資料無法正確與Adobe Dynamic Media Classic外部該使用者端的其他資料整合。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 0%
 1. 在導覽面板中，於Adobe Analytics頁面左側的下方 **[!UICONTROL 認證]**，選取 **[!UICONTROL OAuth Web]**.
 1. 在 **[!UICONTROL 認證詳細資料]**，請執行下列動作：
    * 在 **[!UICONTROL 使用者端ID]**，選取 **[!UICONTROL 複製]** 以複製值。 您需要此值才能在後續的Dynamic Media Classic案頭應用程式中進行後續Analytics設定。
-   * 在 **[!UICONTROL 使用者端密碼]**，選取 **[!UICONTROL 擷取使用者端密碼]** 以顯示相關值。 選取 **[!UICONTROL 複製]** 以複製值。 您需要此值才能在Dynamic Media Classic案頭應用程式中進行後續的Adobe Analytics設定。
+   * 在 **[!UICONTROL 使用者端密碼]**，選取 **[!UICONTROL 擷取使用者端密碼]** 以顯示相關值。 選取 **[!UICONTROL 複製]** 以複製值。 您需要此值才能在後續的Dynamic Media Classic案頭應用程式中進行後續的Adobe Analytics設定。
 
 ## 在Adobe Dynamic Media Classic中設定Adobe Analytics {#configure-analytics-in-dmc}
 

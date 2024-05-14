@@ -10,9 +10,9 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 20%
 
 ---
@@ -40,7 +40,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在「詳細資料檢視」中開啟資產 {#open-an-asset-in-detail-view}
 
-若要更詳細地檢查、預覽或處理資產，您可以在「詳細資料檢視」中顯示資產。
+您可以在「詳細資料檢視」中顯示資產，以便更密切地檢查、預覽或處理資產。
 
 1. 在「瀏覽」面板中，執行下列任一項作業：
 
@@ -50,7 +50,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->在「詳細資料檢視」中，您可以在相同資料夾中選取不同資產 **[!UICONTROL 前一個資產]** 或 **[!UICONTROL 下一個資產]**. 這些按鈕位於「詳細資料檢視」的右上角。
+>您可以在「詳細資料檢視」的相同資料夾中，將資產從一個頁面移至另一個資產。 只需按一下 **[!UICONTROL 前一個資產]** 或 **[!UICONTROL 下一個資產]**. 這些按鈕位於「詳細資料檢視」的右上角。
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 「詳細資料檢視」提供處理您所開啟之資產的工具。 可用的工具取決於您使用的資產型別，但「詳細資料檢視」一律會提供下列功能：
 
-* **要發佈的專案**  — 選取 **[!UICONTROL `Publish`]** 圖示或前往「 」 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]** 或 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
+* **要發佈的專案**：選取 **[!UICONTROL `Publish`]** 圖示或前往「 」 **[!UICONTROL 檔案]** > **[!UICONTROL 發佈]** 或 **[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**.
 
-* **重新命名資產**  — 選取名稱並輸入新名稱。
+* **重新命名資產**：選取名稱並輸入新名稱。
 
-* **編輯和新增中繼資料**  — 選取「中繼資料」面板，並視需要變更。 另請參閱 [檢視、新增和匯出中繼資料](/help/using/viewing-adding-exporting-metadata.md).
+* **編輯和新增中繼資料**：選取「中繼資料」面板，並視需要變更。 另請參閱 [檢視、新增和匯出中繼資料](/help/using/viewing-adding-exporting-metadata.md).
 
-* **編輯和新增關鍵字**  — 選取關鍵字，並視需要新增或移除關鍵字。 請參閱[增加或編輯關鍵字](/help/using/viewing-adding-exporting-metadata.md)。
+* **編輯和新增關鍵字**：選取關鍵字，並視需要新增或移除關鍵字。 請參閱[增加或編輯關鍵字](/help/using/viewing-adding-exporting-metadata.md)。
 
-* **刪除資產**  — 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]**.
+* **刪除資產**：前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]**.
 
 對於離散檔案（例如影像、影像集和字型），您可以在「詳細資料檢視」中檢視發佈和編輯歷史記錄，以及檢查工作詳細資訊。
 
