@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**升級至的主要優點為何 [!DNL Dynamic Media]？**
 
 * 協同合作及共用檔案同步 [!DNL Adobe Creative Cloud] 應用程式。
-* 企業級數位資產管理，包含健全的中繼資料支援、智慧型搜尋、Lightbox和集合、版本控制，以及安全資產共用，以供廠商、合作夥伴及加盟商使用在製品資產的稽核及核准工作流程。
+* 企業級數位資產管理，具備：
+   * 強大的中繼資料支援
+   * 智慧型搜尋
+   * Lightbox和集合
+   * 版本控制
+   * 供應商、合作夥伴和加盟商使用的安全資產共用
+* 稽核和核准在製品資產的工作流程。
 * 透過新的UI輕鬆採用和使用。
 * 使用可促進轉換並豐富使用者參與度和滿意度的影像和視訊，建立可購物/互動媒體體驗。
-* 結合行銷活動資產與產品資訊，以便簡化點按至購物車的程式。
+* 結合行銷活動資產與產品資訊，以便簡化購物車的點按。
 * 使用WYSIWYG檢視器設計工具輕鬆建立、調整、品牌和部署互動式檢視器。
 * 將最佳化的多媒體傳送至 [!DNL Experience Cloud] 解決方案。
 * 與整合 [!DNL Experience Cloud] 用於行銷接觸點的進階資產分析、目標定位和資產重複使用。 這些接觸點包括 [!DNL Adobe Campaign] 對於電子郵件， [!DNL Adobe Social] 適用於社交管道，以及 [!DNL Experience Manager] 回應式網頁和行動應用程式的網站。
@@ -57,7 +63,7 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 ## 升級程式與工具
 
 +++**誰符合升級計畫的資格？**
-目前 [!DNL Dynamic Media Classic] (前身為Scene7)客戶也有 [!DNL Experience Manager].
+目前擁有以下專案的客戶： [!DNL Dynamic Media Classic] (前身為Scene7)並擁有 [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**如何處理升級程式？**
-升級由AGS (Adobe全域服務)處理，並視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 在彙總層次，升級計畫包含下列專案：
+AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 在彙總層次，升級計畫包含下列專案：
 
 * 布建公司/使用者帳戶。
 * 從複製資產 [!DNL Dynamic Media Classic] (前身為Scene7)重新命名為 [!DNL Dynamic Media] 元件 [!DNL Experience Manager] 資產(由Adobe透過自動升級工具提供)。
@@ -107,7 +113,7 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**是否需要升級？**
-不適用。 Adobe持續提供完整支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
+不適用。 Adobe可完全支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
 
 當您準備好要利用提供的新功能時，可以升級 [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**Adobe提供哪些工具來自動化升級流程？**
-對於升級計畫的初始啟動，Adobe提供了自動移動資產的工具 [!DNL Dynamic Media Classic] 至 [!DNL Dynamic Media] 在 [!DNL Experience Manager] 資產。
+對於升級計畫的初始啟動，Adobe提供了可自動移動資產的工具 [!DNL Dynamic Media Classic] 至 [!DNL Dynamic Media] 在 [!DNL Experience Manager] 資產。
 
 +++
 
@@ -133,12 +139,12 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**我是否必須更新生產URL？**
-不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的好處是，您不必變更網頁上的任何生產URL，因此將移轉至 [!DNL Dynamic Media].
+不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此方法的好處是，您不必變更網頁上的任何生產URL，因此將移轉至「 」的風險和工作量減至最低 [!DNL Dynamic Media].
 
 +++
 
 +++**我是否必須重寫API整合和其他自動化指令碼？**
-不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此外，所有資產都會複製到 [!DNL Dynamic Media Classic]. 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此將移轉至 [!DNL Dynamic Media].
+不適用。 Adobe會繼續使用 [!DNL Dynamic Media Classic] 發佈與傳遞基礎結構（依現狀） [!DNL Dynamic Media] 解決方案。 此外，所有資產都會複製到 [!DNL Dynamic Media Classic]. 此方法的優點在於，您不需要重寫任何以API為基礎的整合或自動化指令碼，因此將移轉至 [!DNL Dynamic Media].
 
 +++
 
@@ -172,7 +178,7 @@ Adobe已將Adobe Scene7的名稱變更為 [!DNL Dynamic Media Classic].
 +++
 
 +++**多長時間 [!DNL Dynamic Media Classic] 要以獨立產品的形式存在嗎？**
-Adobe持續提供完整支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
+Adobe可完全支援和維護 [!DNL Dynamic Media Classic] （客戶要求的錯誤修正、安全性修正、平台擴充性和可靠性）現在與未來。
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media隨附60 GB的儲存空間。 您可以以250GB的區塊購買額�
 +++
 
 +++**使用哪個量度來測量 [!DNL Dynamic Media] 使用狀況？**
-每月頁面檢視次數(PVM)。 「頁面檢視」是指對網際網路網站之電子郵件或網頁的單一檢視。 此外也包含應用程式畫面檢視、應用程式畫面狀態、行動網頁和社交網路頁面。 每次載入或重新整理網頁、載入應用程式，或內容轉譯或透過已開啟或已檢視的電子郵件顯示時，就會發生頁面檢視。
+每月頁面檢視次數(PVM)。 「頁面檢視」是指對網際網路網站之電子郵件或網頁的單一檢視。 此外也包含應用程式畫面檢視、應用程式畫面狀態、行動網頁和社交網路頁面。 發生頁面檢視：
+
+* 每次載入或重新整理網頁時
+* 載入應用程式時
+* 內容轉譯時
+* 透過已開啟或已檢視的電子郵件顯示
 
 +++
 

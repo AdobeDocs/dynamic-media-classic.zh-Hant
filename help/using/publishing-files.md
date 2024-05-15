@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 30%
+source-wordcount: '1674'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 30%
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產隨後會透過HTTP/2通訊協定傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 另請參閱 [HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 另請參閱 [HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## 上載後發佈 {#publish-after-uploading}
 
@@ -31,9 +31,9 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
 使用這些技巧來標籤要發佈的資產：
 
-* **[!UICONTROL 上傳後發佈]**  — 在上傳頁面底部附近，選取 **[!UICONTROL 上傳後發佈]**. 預設狀態是已選取。
+* **[!UICONTROL 上傳後發佈]**：在上傳頁面底部附近，選取 **[!UICONTROL 上傳後發佈]**. 預設狀態是已選取。
 
-* **[!UICONTROL 上傳後發佈]**  — 在「工作選項」對話方塊中，選取 **[!UICONTROL 上傳後發佈]**. 預設狀態是已選取。
+* **[!UICONTROL 上傳後發佈]**：在「工作選項」對話方塊中，選取 **[!UICONTROL 上傳後發佈]**. 預設狀態是已選取。
 
 如果父項資產標記為發佈，則某些「子項」資產會自動標記為發佈。此表格列出自動標示為要發佈的子資產。
 
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
 ## 建立發佈工作 {#creating-a-publish-job}
 
-建立發佈工作以發佈您已上傳至Adobe Dynamic Media Classic伺服器但尚未想要自動發佈的資產。 您可以執行一次性發佈工作或排程定期重複的工作。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
+建立發佈工作以發佈您已上傳至Adobe Dynamic Media Classic伺服器，但尚未自動發佈的資產。 您可以執行一次性發佈工作或排程定期重複的工作。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
 **若要建立發佈工作，請執行下列動作：**
 
@@ -92,13 +92,13 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以在「發佈」頁面上顯示「進階」選項，並選擇這些選項來處理發佈工作：
 
-* **[!UICONTROL 發佈至]**  — 若要僅將資產發佈至特定伺服器，請選擇伺服器型別。
+* **[!UICONTROL 發佈至]**：若要僅將資產發佈至特定伺服器，請選擇伺服器型別。
 
-* **[!UICONTROL 發佈]**  — 根據預設，Adobe Dynamic Media Classic僅發佈新資產，而且以前未曾發佈過的資產（「上次發佈後新增的專案」選項）。 不過，您可以選取 **[!UICONTROL 完整發佈]** ，也發佈自上次發佈後已更新或變更的資產。 選取 **[!UICONTROL 包含搜尋資料的完整]** 如果您要發佈eCatalog，而且希望讀者能依關鍵字進行搜尋。
+* **[!UICONTROL 發佈]**  — 根據預設，Adobe Dynamic Media Classic僅發佈新資產，而且以前未曾發佈過的資產（「上次發佈後新增的專案」選項）。 不過，您可以選取 **[!UICONTROL 完整發佈]** 因此，您也可以發佈自上次發佈後已更新或變更的資產。 選取 **[!UICONTROL 包含搜尋資料的完整]** 如果您要發佈eCatalog，而且希望讀者能依關鍵字進行搜尋。
 
-* **[!UICONTROL 執行工作身份]**  — 從清單中選擇使用者名稱。 可以在「工作」頁面上依使用者名稱排序工作。透過選擇名稱，您可以將發佈工作與使用者建立關聯。
+* **[!UICONTROL 執行工作身份]**：從清單中選擇使用者名稱。 可以在「工作」頁面上依使用者名稱排序工作。透過選擇名稱，您可以將發佈工作與使用者建立關聯。
 
-**[!UICONTROL HTTP通知]**  — 輸入URL以觸發後續的發佈工作。
+**[!UICONTROL HTTP通知]**：輸入URL以觸發後續發佈作業。
 
 另請參閱 [使用上載或發佈工作作為觸發器](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
@@ -150,11 +150,11 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 ## 重新發佈的資產和 CDN 延遲 {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic資產在內容傳遞網路(CDN)上分發。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網頁內容會從網路快取傳送給一般使用者，以加快傳送速度。
+Adobe Dynamic Media Classic資產在內容傳遞網路(CDN)上分發。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。在 CDN 系統中，網路內容儲存在整個網際網路的網路快取中 (稱為邊緣快取網路)。網頁內容會從網頁快取傳送給一般使用者，以加快傳送速度。
 
-使用者首次下載網頁時，這些資產即傳送到 CDN 網路快取伺服器。資產儲存在該伺服器上，當下次同一區域中有人存取該網頁時，可以更快地傳送快取的相同內容。內容傳送速度更快是因為其位置更接近終端使用者。CDN 提高了網頁顯示速度。它降低了中央伺服器上的頻寬要求，因為內容是從邊緣快取網路傳送，而不是從每個實體的中央伺服器傳送。
+使用者首次下載網頁時，這些資產即傳送到 CDN 網路快取伺服器。此伺服器會儲存這些快取內容，以便下次同一區域中的某人存取網頁時，能更快速地傳送相同的快取內容。 內容傳送速度更快是因為其位置更接近終端使用者。CDN 提高了網頁顯示速度。它降低了中央伺服器上的頻寬要求，因為內容是從邊緣快取網路傳送，而不是從每個實體的中央伺服器傳送。
 
-使用者可立即取得新發佈的Adobe Dynamic Media Classic內容，並快速填入邊緣快取網路。 但重新發佈的內容 (與之前發佈到影像伺服器的影像完全同名的影像) 需要長達十個小時之後才會在 CDN 上更新。終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Adobe Dynamic Media Classic重新發佈資產不會在十小時內向一般使用者顯示。
+使用者可立即取得新發佈的Adobe Dynamic Media Classic內容，並快速填入邊緣快取網路。 然而，新重新發佈的內容（即名稱與先前發佈至影像伺服器的影像相同的影像）在CDN上最多十小時內不會更新。 終端使用者看到的則是 CDN 網路上網路快取中的內容。因此，您的Adobe Dynamic Media Classic重新發佈資產不會在十小時內向一般使用者顯示。
 
 如果希望重新發佈的影像資產在可用前的延遲時間小於十個小時，可以清空 CDN 上的網路快取。清空這些網路快取可以從 CDN 網路快取中移除舊內容，並將其取代為最新發佈的資產。
 

@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 在上述範例中， `Chapter 1` 是提示識別碼，且為選用。 的提示時間 `00:00:000 --> 01:04:364` 指定章節的開始時間和結束時間（以00為單位）:00:000格式。 最後的三個數字為毫秒，如需要可保留為 000。的章節標題 `The bicycle store behind it all` 是章節內容的實際說明。 當指標停留在視訊時間軸中的視覺提示點上時，提示識別碼、開始提示時間和章節標題都會顯示在視訊播放器的快顯視窗中。
 
-因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節副檔名為.VTT。 您可以深入瞭解有關 WebVTT 註解標準的資訊。
+因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節副檔名為 `.VTT`. 您可以深入瞭解有關 WebVTT 註解標準的資訊。
 
 另請參閱 [WebVTT：網頁視訊文字追蹤格式](https://w3c.github.io/webvtt/).
 
@@ -61,7 +61,7 @@ Cost-efficient access to rapidly evolving technology.
 
    >[!NOTE]
    >
-   >為了全球支援英文以外的其他語言的視訊章節，WebVTT標準要求您為要支援的每種語言建立個別的.vtt檔案和呼叫。
+   >為了在全球支援英文以外的其他語言的視訊章節，WebVTT標準要求您建立個別的 `.VTT` 您要支援的每種語言的檔案和呼叫。
 
 1. 請以UTF8編碼儲存VTT檔案，這樣就能避免在章節標題文字中出現字元轉譯問題。
 

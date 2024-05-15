@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Adobe Dynamic Media Classic隨附數個「最佳實務」影像預設集，這�
 
 Adobe Dynamic Media Classic建立影像預設集的「最佳實務」選項列於此處為一般建議；銳利化是高度主觀的。 這些「最佳實務」設定是以2000×2000主要影像為基礎；大型或小型主要檔案的設定可能不同。 如果要調整「不銳利化遮色片」設定，Adobe Dynamic Media Classic建議使用下列範圍：
 
-* **[!UICONTROL 數量]**  — 介於。8和1.5之間。
+* **[!UICONTROL 數量]**  — 介於 `.8` 和 `1.5`.
 
-* **[!UICONTROL 半徑]**  — 介於。6和2之間。
+* **[!UICONTROL 半徑]**  — 介於 `.6` 和 `2`.
 
-* **[!UICONTROL 臨界值]**  — 從1到6。
+* **[!UICONTROL 臨界值]**  — 從 `1` 到 `6`.
 
 若要刪除影像預設集，請在「影像預設集」畫面上選取它，然後選取「 」 **[!UICONTROL 刪除]**.
 
