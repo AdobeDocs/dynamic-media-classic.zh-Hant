@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # 開發人員資源 {#developer-resources}
 
-檢視器、影像提供與影像演算以及影像生產系統的參考指南會說明這些伺服器模組的http通訊協定。 如果網站開發人員想要進一步自訂網站或自訂應用程式的Adobe Dynamic Media Classic多媒體，可以使用這些指南。 我們假設使用者熟悉Dynamic Media Classic案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像處理術語。
+檢視器、影像提供與影像演算以及影像生產系統的參考指南會說明這些伺服器模組的http通訊協定。 如果網站開發人員想要進一步自訂，並針對網站或自訂應用程式使用Adobe Dynamic Media Classic豐富媒體，可使用這些指南。 我們假設使用者熟悉Dynamic Media Classic案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像處理術語。
 
 另請參閱 [Dynamic Media開發人員資源](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

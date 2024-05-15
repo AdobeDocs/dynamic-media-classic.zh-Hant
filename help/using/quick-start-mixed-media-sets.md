@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 ## 2.建立要在混合媒體集中使用的媒體集
 
-您可以增加影像、影像集、色票集、迴轉集和視訊至混合媒體集。請先準備好媒體集，再將其增加至混合媒體集。
+您可以將影像、影像集、色票集、迴轉集和視訊新增至混合媒體集。 將媒體集新增至混合媒體集之前，請先準備媒體集。
 
 另請參閱 [建立影像集](creating-image-set.md#creating-an-image-set)， [建立色票集](creating-swatch-set.md#creating-a-swatch-set)、和 [建立迴轉集](creating-spin-set.md#creating-a-spin-set).
 
@@ -49,7 +49,7 @@ ht-degree: 33%
 
 Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 管理員可以建立或修改混合媒體集檢視器預設集。
 
-設定混合媒體集檢視器預設集時，請為集合中的所有其他資產新增檢視器預設集。 例如，如果您的混合媒體集包含視訊，則請增加視訊檢視器預設集至混合媒體集檢視器預設集。您也可以增加音軌至檢視器。音軌會在檢視器開啟時播放，但不會在視訊進行的同時播放。
+設定混合媒體集檢視器預設集時，請為集合中的所有其他資產新增檢視器預設集。 例如，如果您的混合媒體集包含視訊，請將視訊檢視器預設集新增至混合媒體集檢視器預設集。 您也可以增加音軌至檢視器。音軌會在檢視器開啟時播放，但不會在視訊進行的同時播放。
 
 另請參閱 [設定混合媒體集檢視器預設集](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) 和 [建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -73,4 +73,4 @@ Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 �
 
 Adobe Dynamic Media Classic會在您發佈混合媒體集後啟用URL呼叫。 您可以從「預覽」頁面複製這些URL。
 
-選取混合媒體集，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面中，選取「混合媒體集檢視器預設集」 ，然後選取「 」 **[!UICONTROL 複製URL]**. 請參閱[將混合媒體集連結至網頁](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
+選取混合媒體集，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面中，選取「混合媒體集檢視器預設集」 ，然後選取 **[!UICONTROL 複製URL]**. 另請參閱 [將混合媒體集連結至網頁](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

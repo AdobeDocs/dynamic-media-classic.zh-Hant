@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄�
 
    * **[!UICONTROL 工作名稱]**  — 您可以指派工作名稱給匯出。
 
-   * **[!UICONTROL 傳送電子郵件至]**  — 如果您要透過電子郵件傳送資產，可選擇輸入電子郵件地址。 電子郵件訊息會列出收件者可用來下載資產的 URL。
+   * **[!UICONTROL 傳送電子郵件至]**  — 選擇性。 如果您要透過電子郵件傳送資產，請輸入電子郵件地址。 電子郵件訊息會列出收件者可用來下載資產的 URL。
 
 1. 選取 **[!UICONTROL 匯出]**.
 
@@ -77,5 +77,5 @@ Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄�
 
 同時選取大量不同資產類型進行匯出時，會導致下列行為:
 
-* 所有無法匯出的資產類型都會在送出工作之前從清單中移除
-* 如果要求轉換，則會轉換所有可轉換的類型，而所有其它項目則會以原始形態匯出
+* 所有無法匯出的資產型別都會在工作提交前從清單中移除
+* 如果要求轉換，所有可轉換的型別都會被匯出，而其他所有型別則會匯出為原始型別

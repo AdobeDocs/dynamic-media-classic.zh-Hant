@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 17%
 
 ---
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 ## 4.預覽色票集
 
-在「瀏覽」面板中選取「色票集」，然後選取 **[!UICONTROL 預覽]**. 您的色票集會顯示在此頁面中。 選取縮圖和色票圖示，以便您可以在選取的檢視器中檢查色票集。 您可以從「預設集」選單選擇不同的檢視器。
+在「瀏覽」面板中選取「色票集」，然後選取 **[!UICONTROL 預覽]**. 您的色票集會顯示在此頁面上。 選取縮圖和色票圖示，以便您可以在選取的檢視器中檢查色票集。 您可以從「預設集」選單選擇不同的檢視器。
 
 另請參閱 [預覽資產](previewing-asset.md#previewing-an-asset).
 

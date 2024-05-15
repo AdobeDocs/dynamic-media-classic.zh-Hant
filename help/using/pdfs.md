@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 28%
+source-wordcount: '726'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 **[!UICONTROL 點陣化]** - （預設）撕裂PDF檔案中的頁面，並將向量影象轉換為點陣圖影像。 若要建立eCatalog，請選擇此選項。
 
-**[!UICONTROL 擷取搜尋字詞]**  — 從PDF檔案中擷取文字，以便在eCatalog檢視器中依關鍵字搜尋檔案。
+**[!UICONTROL 擷取搜尋字詞]**  — 從PDF檔案中擷取文字，以便在eCatalog檢視器中搜尋檔案中的關鍵字。
 
 **[!UICONTROL 擷取連結]**  — 從PDF檔案中擷取連結，並將其轉換成eCatalog檢視器中使用的影像地圖。
 
@@ -73,7 +73,9 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 ## 裁切PDF檔案中的空格 {#cropping-white-space-from-a-pdf-file}
 
-1. 若要在上載 PDF 檔案時自動裁切其中的空白區域像素，請選取「裁切」選單並選擇「修剪」。
+上傳檔案時，您可以自動裁切PDF檔案中的空白畫素。
+
+1. 選取「裁切」選單，然後選擇「裁剪」。
 1. 指定下列選項:
 
    * **[!UICONTROL 修剪依據]**  — 選擇根據顏色或透明度裁切：
@@ -95,4 +97,4 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 1. 從「裁切」功能表中選取 **[!UICONTROL 手動]**.
 1. 在「上」、「右」、「下」及「左」文字方框中輸入像素設定，即可裁切頁面上緣、下緣及側邊。
 
-裁切的頁面部分取決於您針對 PDF 檔案所輸入的「解析度像素/英吋」設定。例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在這種情況下，請用0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。
+裁切的頁面部分取決於您針對 PDF 檔案所輸入的「解析度像素/英吋」設定。例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在這種情況下，請輸入0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。

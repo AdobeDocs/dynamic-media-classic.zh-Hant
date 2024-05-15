@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產發�
 
 ## 1. 瞭解 Media Portal 使用者角色
 
-Media Portal 使用者可分成三種角色 — 使用者、參與者及使用者 - 參與者。每個角色都可以執行不同的工作組合。例如，參與者可以重新命名和刪除檔案和檔案夾，但使用者不能執行這些工作。瞭解不同角色，可讓您在增加使用者時，知道應賦予他們哪些責任。
+Media Portal使用者分為三種角色 — 使用者、貢獻者和使用者貢獻者。 每個角色都可以執行不同的工作組合。例如，參與者可以重新命名和刪除檔案和檔案夾，但使用者不能執行這些工作。瞭解不同角色，可讓您在增加使用者時，知道應賦予他們哪些責任。
 
 請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -47,13 +47,13 @@ Media Portal 使用者可分成三種角色 — 使用者、參與者及使用�
 
 ## 3. 增加使用者
 
-增加使用者時，可以為使用者指定角色 (使用者、參與者或使用者 - 參與者)。您也可以將使用者指定給一或多個群組。為了加速增加使用者的程序，您可以使用 CSV 檔案的形式上載使用者清單。新使用者會收到「歡迎」電子郵件以及登入 Media Portal 的指示。
+增加使用者時，可以為使用者指定角色 (使用者、參與者或使用者 - 參與者)。您也可以將使用者指派給一或多個群組。 為了加速增加使用者的程序，您可以使用 CSV 檔案的形式上載使用者清單。新使用者會收到「歡迎」電子郵件以及登入 Media Portal 的指示。
 
 另請參閱 [新增和管理Media Portal使用者](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. 管理 FTP 帳戶
 
-您可以有與Media Portal相關聯並對應至Adobe Dynamic Media Classic帳戶中特定資料夾的個別FTP帳戶。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
+您可以有與Media Portal關聯的個別FTP帳戶。 它們可以對應至您Adobe Dynamic Media Classic帳戶中的特定資料夾。 這種功能表示，您可以允許使用者透過個別的 FTP 帳戶將數位資產上載至您的帳戶中。
 
 另請參閱 [管理FTP帳戶](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Media Portal使用者匯出檔案時，可以重新格式化檔案並匯出原�
 
 ## 6. 建立影像預設集
 
-「影像預設集」是預先定義的設定集合，在匯出影像時，會變更影像的大小、影像品質、格式、解析度及其他外觀方面。 您可以建立影像預設集，來控制使用者匯出影像時，對影像重新格式化的方式。
+影像預設集是預先定義設定的集合。 這些設定可變更匯出影像時的尺寸、影像品質、格式、解析度及其他外觀方面。 您可以建立影像預設集，來控制使用者匯出影像時，對影像重新格式化的方式。
 
 另請參閱 [建立及啟用影像預設集](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. 建立中繼資料預設集與使用者定義的中繼資料欄位
 
-中繼資料可說明和識別檔案，以及用來搜尋和組織資產。為了確保正確輸入中繼資料，且所有需要資料的中繼資料欄位均已填入資料，您可以建立中繼資料預設集。中繼資料預設集是預先定義的一組中繼資料項目。您也可以建立能夠以唯一方式說明您處理之檔案的中繼資料欄位。
+中繼資料會說明並識別檔案。 它可用來搜尋及組織資產。 您可以建立中繼資料預設集，以確保您正確輸入中繼資料，並填入任何需要資料的中繼資料欄位。 中繼資料預設集是預先定義的一組中繼資料項目。您也可以建立能夠以唯一方式說明您處理之檔案的中繼資料欄位。
 
 請參閱[更有效地使用中繼資料](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 

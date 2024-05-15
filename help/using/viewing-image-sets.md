@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # 檢視影像集{#viewing-image-sets}
 
-您可以在「預覽」視窗中使用可用預設集來檢視影像集。使用縮放檢視器: 自訂影像集的檢視器預設集。
+您可以在「預覽」視窗中使用可用預設集來檢視影像集。您可以使用縮放檢視器：影像集的自訂檢視器預設集。
 
 Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
@@ -34,7 +34,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
    * **編輯**  — 顯示預設集名稱，選取預設集，然後選取 **[!UICONTROL 編輯]**.
 
-1. 在 `Configure Viewer` 頁面，在「預設集名稱」文字欄位中，輸入「色票集檢視器」預設集的名稱。
+1. 在 `Configure Viewer` 頁面，在「預設集名稱」文字欄位中，輸入「色票集檢視器預設集」的名稱。
 1. 選擇中的選項 `Configure Viewer` 頁面。
 
    若要檢視選項的說明，請選取 **[!UICONTROL 資訊提示]** 圖示加以存取。
@@ -45,11 +45,11 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
 ## 在檢視器中預覽影像集資產 {#previewing-image-set-assets-in-a-viewer}
 
-您可以使用預覽來檢視資產在特定檢視器型別(例如HTML5)上的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「預覽」。
+您可以使用「預覽」來檢視資產在特定檢視器型別(例如HTML5)中的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「預覽」。
 
 1. 在左側的「資產庫」面板中， **[!UICONTROL 顯示]** 下拉式清單，選擇 **[!UICONTROL 影像集]**.
 1. 在左側的「資產庫」面板中，導覽資產檔案夾以選取您要預覽的影像集。
-1. 執行下列任一項作業
+1. 執行下列任一項作業︰
 
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取 **[!UICONTROL 清單檢視]** 圖示。 在「資產」視窗中，暫留在資產上，然後選取「 」 **[!UICONTROL 預覽]** （不是「預覽」下拉式清單）。
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取 **[!UICONTROL 格點檢視]** 圖示。 在資產視窗的資產縮圖視窗中，選取 **[!UICONTROL 預覽]** （不是「預覽」下拉式清單）。

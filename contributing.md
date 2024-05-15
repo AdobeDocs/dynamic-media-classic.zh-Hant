@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Adobe想要讓您能夠儘可能輕鬆地提交貢獻內容。 您可以透過�
 
 ### 建立提取請求 {#create-a-pull-request}
 
-如果您發現問題，並清楚知道該如何修正，請考慮建立提取請求。 提取請求可讓您自行編輯說明檔案，然後交由說明檔案團隊成員稽核並納入。 若要進行您建議的變更並建立提取請求，請選取 **[!UICONTROL 編輯此頁面]** ，位於任何頁面的「導覽」面板右上方。
+如果您發現問題，並清楚知道該如何修正，請考慮建立提取請求。 提取請求可讓您自行編輯說明檔案，然後交由說明檔案團隊成員檢閱以便納入。 若要進行您建議的變更並建立提取請求，請選取 **[!UICONTROL 編輯此頁面]** ，位於任何頁面的「導覽」面板右上方。
 
-所有提取請求都必須附有已簽署的 [貢獻者授權合約(CLA)](https://opensource.adobe.com/cla.html). 此工作流程會授予Adobe在專案中重新使用您稿件的許可權。 您只會提交AdobeCLA一次，因此如果您之前已送出CLA，系統就會設定您。
+A已簽署 [貢獻者授權合約(CLA)](https://opensource.adobe.com/cla.html) 必須隨附所有提取請求。 此工作流程會授予Adobe在專案中重新使用您稿件的許可權。 您只能提交AdobeCLA一次，因此如果您之前已送出CLA，則表示已設定好。
 
 ### 快速簡介影片
 

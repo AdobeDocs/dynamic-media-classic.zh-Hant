@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 42%
+source-wordcount: '731'
+ht-degree: 32%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 42%
 
 ## 關於縮放目標 {#about-zoom-targets}
 
-縮放目目標最大縮放百分比是 100%。根據檢視器大小和影像大小的不同組合，最小縮放百分比也會有所不同，如下表格所示:
+縮放目標的最大縮放百分比為100%。 根據檢視器大小和影像大小的不同組合，最小縮放百分比也會有所不同，如下表格所示:
 
 | 影像尺寸 | 檢視器大小 | 縮放百分比 |
 | --- | --- | --- |
 | 大碼 | 較小 | 最小縮放百分比較小 |
 | 小碼 | 較大 | 最小縮放百分比較大 |
 
-您可以變更縮放檢視器大小，使之與網頁上使用的大小相符。若要永久變更此設定，可以在「設定」畫面上變更檢視器大小 (如果您是管理員)。另請參閱 [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+您可以變更縮放檢視器大小，使之與網頁上使用的大小相符。您可以透過變更[設定]畫面上的檢視器大小來永久變更此設定（如果您是管理員）。 另請參閱 [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## 建立和編輯縮放目標 {#creating-and-editing-zoom-targets}
+## 建立及編輯縮放目標 {#creating-and-editing-zoom-targets}
 
-在「縮放目標編輯器」畫面上建立並編輯縮放目標。若要開啟該畫面，請選取一個影像並執行以下操作之一:
+在縮放目標編輯器畫面中建立和編輯縮放目標。 若要開啟該畫面，請選取一個影像並執行以下操作之一:
 
 * 選取變換影像 **[!UICONTROL 編輯]** 按鈕，然後選擇「縮放目標」。
 * 在瀏覽面板中，將影像顯示於 **[!UICONTROL 詳細資料檢視]**，然後選取 **[!UICONTROL 縮放目標]**.
@@ -70,11 +70,11 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->若要在縮放檢視器中檢視縮放目標的外觀，請選取 **[!UICONTROL 預覽]** 「縮放目標編輯器」畫面中的按鈕，並在「預覽」畫面中選擇「縮放檢視器」。 如需有關此熒幕的資訊，請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>若要在縮放檢視器中檢視縮放目標的外觀，請選取 **[!UICONTROL 預覽]** 「縮放目標編輯器」畫面中的按鈕。 然後在「預覽」畫面中選擇「縮放檢視器」。 如需有關此畫面的詳細資訊，請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### 編輯縮放目標 {#editing-zoom-targets}
 
-若要編輯縮放目標，請在「縮放目標編輯器」頁面上使用下列技術：
+若要編輯「縮放目標」，請在「縮放目標編輯器」頁面上使用下列技術：
 
 * **重新定位**  — 使用「選取目標」按鈕（箭頭），選取目標。 然後，將目標拖曳到其他位置。
 
@@ -86,8 +86,8 @@ ht-degree: 42%
 
 ### 複製縮放目標 {#copying-zoom-targets}
 
-可以將縮放目標從一個影像複製到另一個影像。如果兩個影像的內容相似且縮放目標位於同一位置，則可複製目標。若要將縮放目標複製到另一個影像，請執行下列動作：
+您可將縮放目標從一個影像複製到另一個影像。 當兩個影像呈現類似內容且其縮放目標屬於相同位置時，複製目標。 若要將「縮放目標」複製到另一個影像，請執行下列動作：
 
-1. 在「縮放目標編輯器」畫面中，開啟含有您要複製之縮放目標的影像。
+1. 在「縮放目標編輯器」畫面中，使用您要複製的縮放目標開啟影像。
 1. 選取 **[!UICONTROL 將目標複製到]**.
 1. 在「選取影像」對話方塊中，選取影像並選取 **[!UICONTROL 選取]**.

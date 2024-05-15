@@ -9,16 +9,16 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # Adobe Dynamic Media Classic案頭應用程式 — 現已推出 {#new-ui-2020}
 
-另請參閱 [Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md) 若要檢閱系統需求，請下載並安裝新的應用程式，然後登入該應用程式。
+請參閱 [Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md) 若要檢閱系統需求，請下載並安裝新的應用程式，然後登入該應用程式。
 
 ## _上次修訂日期：2020年6月30日_
 
@@ -33,7 +33,7 @@ AdobeFlash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用在
 +++**_如何存取新的案頭應用程式？_**
 新的案頭應用程式以 `.dmg` macOS的安裝程式或 `.exe` Windows®安裝程式。
 
-另請參閱 [Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md) 若要檢閱系統需求，請下載並安裝新的應用程式，然後登入該應用程式。
+請參閱 [Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md) 若要檢閱系統需求，請下載並安裝新的應用程式，然後登入該應用程式。
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
@@ -84,7 +84,7 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++
 
 +++**_如何啟用Adobe Dynamic Media Classic案頭應用程式的升級？_**
-2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須下載新版本並如常安裝（取代中的現有應用程式） **[!UICONTROL 應用]**)。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
+2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須下載並安裝新版本（取代中的現有應用程式） **[!UICONTROL 應用]**)。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
 +++
 
 +++**_我該如何取得Adobe Dynamic Media Classic案頭應用程式相關問題的協助？_**

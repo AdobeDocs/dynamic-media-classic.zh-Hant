@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 36%
+source-wordcount: '1494'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 36%
 
 ## 繪製eCatalog影像地圖 {#drawing-ecatalog-image-maps}
 
-如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。建立影像地圖時，其名稱會輸入影像地圖清單中。
+如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。當您建立「影像地圖」時，其名稱會在「影像地圖」清單中輸入。
 
 1. 選取eCatalog的變換 **[!UICONTROL 編輯]** 按鈕。
 1. 選取 **[!UICONTROL 對應頁面]**.
@@ -51,7 +51,7 @@ ht-degree: 36%
 1. 選取 **[!UICONTROL 儲存]**.
 1. （選用）選取 **[!UICONTROL 預覽]** 使用預設的eCatalog檢視器預設集檢視eCatalog。
 
-若要刪除「影像地圖」，請在「影像地圖」清單中選取其名稱，然後選取 **[!UICONTROL 刪除]**. 若要暫時停用頁面上的「影像地圖」而不刪除「影像地圖」，請取消選取「影像地圖清單」面板中的「影像地圖開啟」選項。
+若要刪除「影像地圖」，請在「影像地圖」清單中選取其名稱，然後選取 **[!UICONTROL 刪除]**. 您可以暫時停用頁面上的「影像地圖」，而不刪除「影像地圖」。 在「影像地圖」清單面板中選取「影像地圖開啟」選項。
 
 ## 在eCatalog中內嵌多媒體 {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ ht-degree: 36%
 
 在 eCatalog 畫面的「地圖頁面」標籤上開始作業，使用以下技巧來編輯 eCatalog 影像地圖:
 
-* **調整位置**  — 選取「平移」工具，並將指標移到地圖邊界附近，但不會移到邊界上。 指標顯示為四向箭頭時，請拖曳整個影像地圖至新位置。
+* **調整位置**  — 選取「平移」工具，並將指標移到地圖邊界附近，但不會移到邊界上。 當指標顯示四向箭頭時，請將整個「影像地圖」拖曳到新位置。
 
   另請參閱 [調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->除了將影像地圖複製到eCatalog中的不同頁面之外，您還可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 另請參閱 [在eCatalog之間複製影像地圖](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 另請參閱 [在其他eCatalog中複製影像地圖](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## 檢閱及匯入影像地圖資料 {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ ht-degree: 36%
 
 1. 在「地圖頁面」畫面上，選取 **[!UICONTROL 摘要]**.
 
-   「地圖摘要」畫面會顯示 eCatalog 中的影像地圖數目、URL、滑鼠指向效果文字敘述以及其它動作。
+   「地圖摘要」畫面會顯示eCatalog中有多少影像地圖、URL、滑鼠指向效果文字說明和其他動作。
 
 1. 如果出現滑鼠指向效果鍵錯誤，請選取 **[!UICONTROL Rollover_Key錯誤]** 欄，檢視您的試算表中必須變更哪些專案才能更正錯誤。 您可以從這個訊息選取並複製文字，然後將其貼上試算表。
-1. 選取 **[!UICONTROL 預覽]** 因此您可以在eCatalog檢視器中檢查頁面；選取X以關閉「摘要」畫面並返回「對映頁面」畫面，或選取 **[!UICONTROL 關閉]** 以返回「瀏覽」。
+1. 選取 **[!UICONTROL 預覽]** 因此您可以在「eCatalog檢視器」中檢查頁面。 選取X以關閉「摘要」畫面並返回「地圖頁面」畫面，或選取 **[!UICONTROL 關閉]** 以返回「瀏覽」。
 
 ### 匯入影像地圖資料 {#import-image-map-data}
 
-您可以為整個 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。匯入影像地圖資料可為您免除麻煩，就不需要在建立每個影像地圖時，都要在影像地圖清單中輸入資料。
+您可以為整個 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。匯入「影像地圖」資料可讓您在建立每個「影像地圖」時，在「影像地圖」清單中輸入資料的麻煩。
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 36%
 1. 在「工作名稱」欄位中，鍵入檔案的名稱 (請注意保留其副檔名)。
 1. 選取 **[!UICONTROL 上傳]**.
 
-## 在eCatalog之間複製影像地圖 {#copying-image-maps-between-ecatalogs}
+## 在其他eCatalog中複製影像地圖 {#copying-image-maps-between-ecatalogs}
 
 您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了成功複製，Adobe Dynamic Media Classic建議您在具有相同頁數和相同影像的eCatalog之間複製。
 
@@ -143,4 +143,4 @@ ht-degree: 36%
 1. 在「排序頁面」標籤上，選取 **[!UICONTROL 複製地圖]**.
 1. 在「選取資產」對話方塊中，選取您要複製影像地圖的eCatalog，然後選取 **[!UICONTROL 選取]**.
 
-如果目標eCatalog （您複製影像地圖的eCatalog）具有不同數量的頁面或不同大小的影像，Adobe Dynamic Media Classic會顯示警告訊息。 選取 **[!UICONTROL 繼續]** 以複製影像地圖，不論是否有警告。
+如果您複製影像地圖的目標eCatalog有不同的頁數或不同大小的影像，Adobe Dynamic Media Classic會顯示警告訊息。 選取 **[!UICONTROL 繼續]** 以複製影像地圖，不論是否有警告。
