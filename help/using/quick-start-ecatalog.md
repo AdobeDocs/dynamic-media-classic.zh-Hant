@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -118,7 +118,7 @@ eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
 發佈eCatalog和相關的PDF時，會將它置於Dynamic Media影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程式中，Adobe Dynamic Media Classic會啟用eCatalog的URL字串。 使用此URL從Dynamic Media影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在瀏覽面板中將eCatalog和PDF標籤為發佈後，選取全域導覽列上的「發佈」按鈕以啟動發佈。 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+在「瀏覽」面板中將eCatalog和PDF標籤為發佈後，選取「全域導覽」列上的「發佈」按鈕以啟動發佈。 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈eCatalog和相關PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 52%
 
    請參閱[為群組建立資產存取權限](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)。
 
-1. 如果要選擇群組可用的影像預設集，請選取 **[!UICONTROL 影像預設集存取許可權]** 標籤，並選取群組可以使用的影像預設集。
+1. 您可以選擇哪些影像預設集可供群組使用。 只需按一下 **[!UICONTROL 影像預設集存取許可權]** 標籤，並選取群組可以使用的影像預設集。
 
    請參閱[為群組選擇影像預設集存取權限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)。
 
@@ -56,7 +56,7 @@ ht-degree: 52%
    * 若要編輯群組的許可權，請選取該群組，然後選取 **[!UICONTROL 編輯]**.
 
 1. 在新增群組或編輯群組對話方塊中，選取 **[!UICONTROL 資產存取許可權]** 標籤。 標籤右側提供的方框可用來建立檔案夾與資產的讀取、寫入及刪除權限。您可以在左窗格中，展開和收合檔案夾與子檔案夾。
-1. 若要為檔案夾或個別資產指定權限，請在左窗格中選取檔案夾。檔案夾內容會顯示在右窗格中。接著，在右窗格中選取相應檔案或檔案夾的方框，即可為群組指定權限。
+1. 若要為檔案夾或個別資產指定權限，請在左窗格中選取檔案夾。檔案夾內容會顯示在右窗格中。然後選取對應檔案的方塊，指派群組的許可權。 或者，在右窗格中選取資料夾。
 
    這個表格會將不同工作對映到讀取、寫入及刪除權限。
 

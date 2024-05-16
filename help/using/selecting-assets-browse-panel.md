@@ -10,7 +10,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -19,7 +19,7 @@ ht-degree: 18%
 
 # 在瀏覽面板中選取資產{#selecting-assets-in-the-browse-panel}
 
-在「瀏覽」面板中選取資產，以便使用它。 使用這些技巧來選取資產:
+在「瀏覽」面板中選取資產，以便使用。 使用這些技巧來選取資產:
 
 * **單一資產**：選取資產（按兩下會在「詳細資料檢視」中開啟資產）。
 

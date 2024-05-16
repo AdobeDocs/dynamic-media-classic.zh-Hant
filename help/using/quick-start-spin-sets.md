@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -69,7 +69,7 @@ ht-degree: 21%
 
 ## 5.預覽迴轉集
 
-在瀏覽面板中選取您的迴轉集，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面上，按住滑鼠鍵，向左或向右拖曳指標，以視覺化方式「旋轉」專案。
+在「瀏覽」面板中選取您的「迴轉集」，然後選取 **[!UICONTROL 預覽]**. 在「預覽」頁面上，按住滑鼠鍵，向左或向右拖曳指標，以視覺化方式「旋轉」專案。
 
 另請參閱 [預覽迴轉集](previewing-spin-set.md#previewing-a-spin-set).
 

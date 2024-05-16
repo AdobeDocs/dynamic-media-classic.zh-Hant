@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 在eCatalog中內嵌多媒體 {#embedding-rich-media-in-an-ecatalog}
 
-您可以使用eCatalog的Rich Media選項，將MP4格式的視訊或迴轉集新增至eCatalog的「影像地圖」。 當使用者在eCatalog中選取「影像地圖」區域時，會顯示相關的迴轉集或視訊。 如果您希望可讓客戶查看使用中的項目，或從不同角度和視角查看項目，此功能特別實用。
+您可以使用eCatalog的Rich Media選項，將MP4格式的視訊或迴轉集新增至eCatalog的影像地圖。 當使用者在eCatalog中選取「影像地圖」區域時，會顯示相關的「迴轉集」或視訊。 如果您希望可讓客戶查看使用中的項目，或從不同角度和視角查看項目，此功能特別實用。
 
 客戶將指標移過影像地圖時，您也可以選擇顯示工具提示文字，讓客戶知道要選取的內容。
 
@@ -66,7 +66,7 @@ ht-degree: 28%
    另請參閱 [繪製eCatalog影像地圖](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. 在「顯示」下拉式清單中，選取 **[!UICONTROL 多媒體]**.
-1. 在左側的「增加資產」面板中，導覽至含有您要內嵌之迴轉集或視訊 (MP4 格式) 資產的資料夾。
+1. 在左側的「新增資產」面板中，導覽至包含您要內嵌之迴轉集或視訊（MP4格式）資產的資料夾。
 1. 將資產拖曳至「影像地圖」。
 1. （選用）在「影像地圖」清單面板的 **[!UICONTROL 工具提示]** 欄標題，輸入檢視者在將指標移到「影像地圖」上時，要在熒幕上看到的文字。
 1. 選取 **[!UICONTROL 儲存]**.

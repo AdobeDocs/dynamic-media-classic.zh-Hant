@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 您有兩種不同的發佈視訊方法：
 
-* **上傳時自動立即發佈影片**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
+* **上傳時自動立即發佈影片**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
 
 * **上傳後手動發佈視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
@@ -107,7 +107,7 @@ ht-degree: 24%
 
 ### 實作內嵌程式碼，以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-如果您未使用Adobe Dynamic Media Classic HTML5視訊播放器，而是想要使用原生HTML5 `<video>` 標籤時，您可以使用以下內嵌程式碼範例：
+您可能不想使用Adobe Dynamic Media ClassicHTML5視訊播放程式。 如果您想使用原生HTML5 `<video>` 標籤時，您可以使用以下內嵌程式碼範例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ ht-degree: 24%
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
-如果您使用協力廠商影片播放器或自訂影片播放器，而非Dynamic Media Classic影片檢視器，您將會取得適用於HLS多位元速率影片串流或漸進式下載的直接影片URL。
+如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，您將會取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
 
 **若要使用協力廠商視訊播放器部署視訊：**
 

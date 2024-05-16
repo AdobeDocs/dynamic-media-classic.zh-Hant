@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資�
 
 ## 顯示、移動、隱藏和開啟資料夾 {#displaying-moving-hiding-and-opening-folders}
 
-資產庫會以檔案夾樹狀結構顯示檔案。當您在資產庫中選取檔案夾，瀏覽面板就會顯示其內容。使用這些技巧，即可在檔案夾樹狀結構中尋找檔案夾:
+資產庫會以檔案夾樹狀結構顯示檔案。當您在「資產庫」中選取資料夾時，其內容會顯示在「瀏覽」面板中。 使用這些技巧，即可在檔案夾樹狀結構中尋找檔案夾:
 
 * **顯示子資料夾**：選取 **[!UICONTROL 展開資料夾]** 圖示來顯示資料夾中的子資料夾。 這個圖示位於檔案夾名稱左側。
 
@@ -33,11 +33,11 @@ Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資�
 
 * **隱藏資料夾**：選取 **[!UICONTROL 摺疊資料夾]** 圖示以隱藏子資料夾。 這個圖示位於檔案夾名稱左側。
 
-* **開啟資料夾**：如果您想要在「瀏覽」面板中顯示資料夾的內容，請選取資料夾。
+* **開啟資料夾**：如果您想在「瀏覽」面板中顯示資料夾的內容，請選取資料夾。
 
 >[!TIP]
 >
->您可以選取「 」，隱藏或顯示「資產庫」。 **[!UICONTROL 展開]** 或 **[!UICONTROL 摺疊]** 左側的控制項。 如果您使用瀏覽面板時需要較多空間，請收合「資產庫」面板。
+>您可以選取「 」，隱藏或顯示「資產庫」。 **[!UICONTROL 展開]** 或 **[!UICONTROL 摺疊]** 左側的控制項。 當您在「瀏覽」面板中需要更多空間來工作時，請收合「資產庫」面板。
 
 ## 建立資料夾
 

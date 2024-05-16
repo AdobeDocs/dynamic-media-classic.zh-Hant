@@ -10,7 +10,7 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 標籤要發佈的影像 {#marking-images-for-publish}
 
-影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以選取「瀏覽」面板中的 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在上傳影像時，將其標示為發佈。
+影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以在「瀏覽」面板中選取 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在上傳影像時，將其標示為發佈。
 
 ## 發佈影像 {#publishing-the-images}
 

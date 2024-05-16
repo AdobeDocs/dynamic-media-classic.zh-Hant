@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 55%
+source-wordcount: '1014'
+ht-degree: 53%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-請求 *共用機密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求共用機密金鑰。
+請求 *共用機密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
@@ -81,7 +81,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | --- | --- | --- |
 | op | 必要 | get_uploadtoken |
 | sharedsecret | 必要 | 正在進行上載的公司共用密鑰。 |
-| 過期 | 選擇性 | 上載標記有效的秒數。如果不指定，則預設為 300 秒鐘。 |
+| 過期 | 選擇性 | 上載標記有效的秒數。若未指定，預設值為300秒。 |
 
 **點陣化影像URL範例：**
 
@@ -181,7 +181,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | URL 參數 | 必要或選擇性 | 值 |
 | --- | --- | --- |
 | `op` | 必要 | 上載 |
-| `upload_token` | 必要 | 與公司關聯的共用密鑰上載標記。 |
+| `upload_token` | 必要 | 上傳與公司相關聯之共用機密金鑰的權杖。 |
 | `company_name` | 必要 | 執行上載的公司名稱。 |
 | `file_limit` | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
 | `file_exts` | 選擇性 | 影像資產檔案允許的副檔名清單。 |

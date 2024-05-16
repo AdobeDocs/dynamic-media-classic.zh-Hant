@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 35%
 
 如需標準化屬性的詳細資訊，請參閱 [Adobe XMP開發人員中心](https://www.adobe.com/devnet/xmp.html).
 
-1. 在瀏覽面板中，從 Tab 字元分隔檔案或 XML 檔案選取要增加中繼資料的影像。
+1. 在「瀏覽」面板中，從Tab字元分隔或XML檔案中選取要新增中繼資料的影像。
 1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 匯入中繼資料]**.
 1. 在 **[!UICONTROL 上傳中繼資料]** 對話方塊，選取 **[!UICONTROL 瀏覽]**.
 1. 在「**[!UICONTROL 選取要上載的檔案]**」對話框中，選取包含中繼資料的 Tab 字元分隔檔案或 XML 檔案。

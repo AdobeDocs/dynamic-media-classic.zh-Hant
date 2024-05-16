@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
 ## 在PSD檔案中檢視和編輯圖層 {#viewing-and-editing-layers-in-a-psd-file}
 
-如果您選取選項 **[!UICONTROL 保留圖層]** 當您上傳PSD時，Adobe Dynamic Media Classic會將個別的圖層擷取至資產。 您可以在「詳細資料檢視」的「瀏覽面板」中開啟檔案，以檢視和編輯屬於PSD檔案的資產圖層。
+如果您選取選項 **[!UICONTROL 保留圖層]** 當您上傳PSD時，Adobe Dynamic Media Classic會將個別的圖層擷取至資產。 您可以在「詳細資料檢視」的「瀏覽」面板中開啟檔案，以檢視和編輯屬於PSD檔案的資產圖層。
 
 >[!NOTE]
 >

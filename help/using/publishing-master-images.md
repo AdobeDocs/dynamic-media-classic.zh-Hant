@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## 標籤要發佈的主要影像 {#marking-master-images-for-publish}
 
-主要影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以選取「瀏覽」面板中的 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在將影像上傳至Adobe Dynamic Media Classic時，將影像標示為發佈。
+主要影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以在「瀏覽」面板中選取要發佈的主要影像 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在將影像上傳至Adobe Dynamic Media Classic時，將影像標示為發佈。
 
 ## 發佈您的主要影像 {#publishing-your-master-images}
 

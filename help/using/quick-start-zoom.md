@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,9 +37,9 @@ Adobe Dynamic Media Classic也提供引導式縮放，讓您強調影像中的�
 
 ## 2.建立引導式縮放的縮放目標
 
-縮放目標可用於反白顯示影像的特定部分。例如，您可以將注意力集中在影像與眾不同之處。在「縮放檢視器」視窗中，縮放目標以縮圖影像的形式顯示在影像一側。選取其中一個縮放目標縮圖，可自動縮放所指定的影像部分。
+縮放目標可用於反白顯示影像的特定部分。例如，您可以將注意力集中在影像與眾不同之處。在「縮放檢視器」視窗中，「縮放目標」會以縮圖影像的形式出現在影像的一側。 選取其中一個縮放目標縮圖，可自動縮放所指定的影像部分。
 
-若要建立縮放目標，請選取 **[!UICONTROL 編輯]** 並選擇「縮放目標」，或在「瀏覽面板」的「詳細檢視」中開啟影像並選取 **[!UICONTROL 縮放目標]**. 然後使用「縮放目標編輯器」頁面上的「縮放」工具，以便隔離部分影像作為目標。 另請參閱 [建立引導式縮放的縮放目標](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+若要建立縮放目標，請選取 **[!UICONTROL 編輯]** 並選擇「縮放目標」，或在「瀏覽」面板的「詳細檢視」中開啟影像並選取 **[!UICONTROL 縮放目標]**. 然後使用「縮放目標編輯器」頁面上的「縮放」工具，以便隔離部分影像作為目標。 另請參閱 [建立引導式縮放的縮放目標](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3.設定縮放檢視器預設集
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic優惠方案 **[!UICONTROL 縮放檢視器預設集]*
 
 若要探索不同的縮放檢視器預設集及其呈現縮放體驗的方式，請在「瀏覽」面板中選取影像，然後選取 **[!UICONTROL 預覽]**. 前往 **[!UICONTROL 預設集]** > **[!UICONTROL 縮放]**，然後使用「縮放」選單選取預設集。
 
-此時會出現「縮放」按鈕。您可以檢視縮放影像在您網站上的外觀。 選取「縮放」按鈕（和縮放目標），以測試您所選取「縮放檢視器預設集」的設定。 另請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+此時會出現「縮放」按鈕。您可以檢視縮放影像在您網站上的外觀。 選取「縮放」按鈕（和「縮放目標」），以測試您所選取「縮放檢視器預設集」的設定。 另請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5.發佈縮放影像
 

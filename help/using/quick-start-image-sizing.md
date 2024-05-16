@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 6%
@@ -66,6 +66,6 @@ ht-degree: 6%
 
 ## 5.將URL連結至您的網頁應用程式
 
-Adobe Dynamic Media Classic會建立影像的URL圖說文字串。 將影像發佈至Dynamic Media影像伺服器時，URL會變成作用中。 您可以從「瀏覽」面板(在「詳細資料檢視」(Detail View)或「預覽」(Preview)畫面複製這些URL字串。 複製URL字串後，即可在您的網站和應用程式中使用。 「調整影像大小」的URL會取代網頁程式碼中靜態影像名稱的參照。 URL會參照資料庫針對要顯示的每個新影像所取代的主要影像名稱。
+Adobe Dynamic Media Classic會建立影像的URL圖說文字串。 將影像發佈至Dynamic Media影像伺服器時，URL會變成作用中。 您可以從「瀏覽」面板（在「詳細資料檢視」中）或「預覽」畫面複製這些URL字串。 複製URL字串後，即可在您的網站和應用程式中使用。 「調整影像大小」的URL會取代網頁程式碼中靜態影像名稱的參照。 URL會參照資料庫針對要顯示的每個新影像所取代的主要影像名稱。
 
 使用影像預設集產生的 URL 字串會包含一個影像預設集的名稱。這個名稱以美元符號括住(`$`)。 例如， `$thumbnail$` 可以是設計成以縮圖大小顯示主要影像的影像預設集。 另請參閱 [將URL連結至您的網頁應用程式](linking-urls-web-application.md#linking_urls_to_your_web_application).

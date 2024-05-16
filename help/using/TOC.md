@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 17%

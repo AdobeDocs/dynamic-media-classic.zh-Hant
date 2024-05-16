@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
 
    例如，若要存取 **[!UICONTROL LoadAsset]** prop中，正確的功能表選擇為 **[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > **[!UICONTROL LoadAsset]**. 如果您有十個以上的自訂Prop，您也會看到其他選單選項。
 
-1. 檢視 Adobe Analytics 產生的圖表此圖表通常只是單一量度的資料。 如果您也想知道此資料與哪個資產相關聯，請取得此事件的資產資料。 例如，知道觀看了哪個影片的比例只有50%或集中的哪個影像受歡迎通常很有用。
+1. 檢視 Adobe Analytics 產生的圖表此圖表通常只是單一量度的資料。 如果您也想知道此資料與哪個資產相關聯，請取得此事件的資產資料。 例如，通常知道觀看了哪個影片僅50%，或集合中的哪個影像受歡迎會很有用。
 
 >[!NOTE]
 >

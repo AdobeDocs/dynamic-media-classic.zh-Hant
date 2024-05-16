@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # 建立 eCatalog {#creating-an-ecatalog}
 
-建立 eCatalog 必須進行下列步驟: 排序頁面、選擇頁面版面，以及透過繪製影像地圖、輸入滑鼠指向與超文字連結資料來連結頁面。或者，您也可以自訂目錄 (TOC)，如此一來，檢視者就會在 eCatalog 檢視器中看到頁面名稱，而非頁碼。
+建立eCatalog需要排序頁面、選擇頁面版面配置，以及透過繪製「影像地圖」來連結頁面。 此外還需要輸入滑鼠指向效果與超文字連結資料。 或者，您也可以自訂目錄 (TOC)，如此一來，檢視者就會在 eCatalog 檢視器中看到頁面名稱，而非頁碼。
 
 ## 建立eCatalog {#create}
 
@@ -38,9 +38,9 @@ ht-degree: 38%
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
-   * **請先選取檔案**：在瀏覽面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
+   * **請先選取檔案**：在「瀏覽」面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
 
-   * **從eCatalog畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
+   * **從eCatalog畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在「資產庫」中選取資料夾。 將檔案從資料夾拖曳至eCatalog頁面的「排序頁面」索引標籤。
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ ht-degree: 38%
 
 1. 完成後，在頁面的右下角附近，請確定 **[!UICONTROL 儲存後發佈]** 已選取（預設）。
 1. 選取 **[!UICONTROL 儲存]**.
-1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。在「檔案名稱」欄位中，輸入迴轉集名稱。
+1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。在「檔案名稱」欄位中，輸入「迴轉集」名稱。
 1. 選取 **[!UICONTROL 儲存]**.
 
    在儲存eCatalog後，您可以選取 **[!UICONTROL 預覽]**.
@@ -98,7 +98,7 @@ ht-degree: 38%
 
 Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，封面可以閱讀「封面」而非「第0-1頁」。
 
-您可以手動建立eCatalog的自訂目錄(TOC)，或是從CSV (僅限Mac)或XML檔案匯入頁面名稱。
+您可以手動建立eCatalog的自訂目錄(TOC)。 或者，您也可以從CSV (僅限Mac)或XML檔案匯入頁面名稱。
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，
 
 ### 手動輸入頁面名稱 {#manually-entering-page-names}
 
-若要逐次手動輸入頁面名稱，請前往「eCatalog」畫面的「排序頁面」標籤。然後，在頁碼欄位中，輸入您要命名之各頁面的名稱。
+前往eCatalog畫面的「排序頁面」索引標籤，一次手動輸入一個頁面名稱。 然後，在頁碼欄位中，輸入您要命名之各頁面的名稱。
 
 ### 匯入頁面名稱 {#importing-page-names}
 

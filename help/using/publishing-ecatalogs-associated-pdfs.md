@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->確定您的eCatalog和PDF位於相同的資料夾中，並在您發佈之前，在「瀏覽面板」或「資產詳細資訊」頁面中標示為要發佈。
+>確定您的eCatalog和PDF位於相同的資料夾中。 此外，在發佈之前，請務必在「瀏覽」面板或「資產詳細資訊」頁面中標示為要發佈。
 
 **若要發佈eCatalog和相關聯的PDF：**
 

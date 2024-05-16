@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -33,9 +33,9 @@ ht-degree: 17%
 >
 >如果在左側看不到「資產庫」面板，請按一下Dynamic Media Classic視窗中途左側右三角箭頭，以開啟「資產庫」。
 
-## 在瀏覽面板中排序檔案 {#sorting-files-in-the-browse-panel}
+## 在「瀏覽」面板中排序檔案 {#sorting-files-in-the-browse-panel}
 
-您可以排序資料夾的內容或出現在右側「瀏覽面板」中的搜尋結果。 在全域導覽列上，選取 **[!UICONTROL 排序]**，然後選取選項。 選項包括 **[!UICONTROL 名稱]**， **[!UICONTROL 大小(KB)]**， **[!UICONTROL 型別]**， **[!UICONTROL 建立日期]**、和 **[!UICONTROL 上次修改時間]**.
+您可以排序資料夾的內容或出現在右側「瀏覽」面板中的搜尋結果。 在全域導覽列上，選取 **[!UICONTROL 排序]**，然後選取選項。 選項包括 **[!UICONTROL 名稱]**， **[!UICONTROL 大小(KB)]**， **[!UICONTROL 型別]**， **[!UICONTROL 建立日期]**、和 **[!UICONTROL 上次修改時間]**.
 
 您也可以選擇 **[!UICONTROL 升序]** 或 **[!UICONTROL 降序]** 依您選擇的條件以遞增或遞減順序排序資產。
 

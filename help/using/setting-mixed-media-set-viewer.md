@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 22%
    * 若要編輯混合媒體集檢視器預設集，請選取該預設集，然後選取 **[!UICONTROL 編輯]**.
 
 1. 在「組態檢視器」頁面的「預設集名稱」方塊中，輸入「混合媒體集檢視器預設集」的名稱。
-1. 指定 **[!UICONTROL 索引標籤]** 或 **[!UICONTROL 無索引標籤]**. 標籤會依照類型 (如視訊、色票和迴轉集) 來分隔項目。未指定標籤時，所有專案都會顯示在「預覽」視窗下的一列中。
+1. 指定 **[!UICONTROL 索引標籤]** 或 **[!UICONTROL 無索引標籤]**. 索引標籤會依型別來分隔專案，例如視訊、色票和迴轉集。 未指定標籤時，所有專案都會顯示在「預覽」視窗下的一列中。
 1. 在 **[!UICONTROL 名稱]** 方塊中，輸入您要新增的檢視器名稱。
 
    例如，如果您要將色票集新增至混合媒體集，請輸入 `Swatch Set A`.

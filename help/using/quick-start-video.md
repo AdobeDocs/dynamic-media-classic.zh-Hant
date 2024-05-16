@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 �
 
 * 在其本身的快顯視窗或強制回應視窗中顯示視訊，在此情況下，請使用 **[!UICONTROL 複製URL]** 功能。
 
-  若要取得視訊的 URL，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中加以選取。選取 **[!UICONTROL 預覽]**，然後選取 **[!UICONTROL 複製URL]** 右側 `Universal_HTML5_Viewer`.
+  若要取得視訊的URL，請在「格點檢視」或「清單檢視」的「瀏覽」面板中選取它。 選取 **[!UICONTROL 預覽]**，然後選取 **[!UICONTROL 複製URL]** 右側 `Universal_HTML5_Viewer`.
 
   當您選取 **[!UICONTROL 複製URL]**，則URL會複製到剪貼簿。 將此程式碼放置在網站、行動裝置網站或應用程式的 HTML 中。
 

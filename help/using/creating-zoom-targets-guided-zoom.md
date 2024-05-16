@@ -10,7 +10,7 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
@@ -39,7 +39,7 @@ ht-degree: 27%
 在縮放目標編輯器畫面中建立和編輯縮放目標。 若要開啟該畫面，請選取一個影像並執行以下操作之一:
 
 * 選取變換影像 **[!UICONTROL 編輯]** 按鈕，然後選擇「縮放目標」。
-* 在瀏覽面板中，將影像顯示於 **[!UICONTROL 詳細資料檢視]**，然後選取 **[!UICONTROL 縮放目標]**.
+* 在「瀏覽」面板中，將影像顯示於 **[!UICONTROL 詳細資料檢視]**，然後選取 **[!UICONTROL 縮放目標]**.
 
 在「縮放目標編輯器」畫面上，選取 **[!UICONTROL 選取目標]** 按鈕（箭頭）以在變更目標大小或位置之前選取目標。 若要在影像上建立縮放目標，請選取 **[!UICONTROL 新增目標]** （矩形）。 「縮放目標編輯器」頁面也提供刪除、複製和命名縮放目標的工具。
 

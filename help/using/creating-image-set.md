@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 38%
@@ -47,7 +47,7 @@ ht-degree: 38%
 
 1. 進行以下一項操作:
 
-   * **請先選取影像**：在瀏覽面板中，選取您想用於影像集的影像，前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**.
+   * **請先選取影像**：在「瀏覽」面板中，選取您想用於影像集的影像，前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**.
 
    * **從影像集畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**. 「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
 

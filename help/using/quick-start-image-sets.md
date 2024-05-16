@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 在動態影像集檢視器中，使用者可以透過選取縮圖影像來檢視專案的不同檢視。 「影像集」可讓您呈現專案的替代高解析度檢視。
 
-影像集檢視器提供了縮放工具，以便近距離檢查影像。如果您想要，也可以讓已導引縮放目標和影像地圖成為您影像集的一部分。影像集能創造更一致且緊密的檢視體驗。
+影像集檢視器提供了縮放工具，以便近距離檢查影像。如有需要，您可以讓引導式「縮放目標」和「影像地圖」成為影像集的一部分。 影像集能創造更一致且緊密的檢視體驗。
 
 另請參閱 [影像和迴轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 訓練影片。
 
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 >
 >如果您選取「 」，則不需要執行此步驟 **[!UICONTROL 儲存後發佈]** （預設）建立並儲存「影像集」時。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+選取 **[!UICONTROL 標籤為發佈]** 圖示於「瀏覽」面板中其名稱的左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈檔案](publishing-files.md#publishing-files).
 

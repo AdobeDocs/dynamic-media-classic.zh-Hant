@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -56,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 「詳細資料檢視」可提供資產或檔案的相關資訊。 系統會顯示專案的相關資訊：專案儲存所在的資料夾、檔案名稱、專案上傳至Adobe Dynamic Media Classic的日期及其發佈歷史記錄。 您也可以在「詳細資料檢視」中檢視和編輯中繼資料，以及新增資產的關鍵字。
 
-您可以在「詳細資料檢視」中取得資產URL，但該URL必須等到您發佈資產後才會啟用。 對於影像，「詳細資料檢視」也會提供內建和衍生的資產和中繼資料清單，例如縮放目標和影像集。
+您可以在「詳細資料檢視」中取得資產URL，但該URL必須等到您發佈資產後才會啟用。 對於影像，「詳細資料檢視」也會提供內建和衍生的資產和中繼資料清單，例如「縮放目標」和「影像集」。
 
 ## 在「詳細資訊」檢視中使用資產 {#working-with-assets-in-detail-view}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 「瀏覽/建置」面板是您進行大部分工作的地方。此面板中可用的功能取決於您處於「瀏覽」模式還是「建置」模式。
 
-* **[!UICONTROL 瀏覽模式]**：若要在「瀏覽」面板中檢視及使用資料夾的內容，請在「資產資料庫」中選取資料夾。 此面板提供 **[!UICONTROL 檔案]**， **[!UICONTROL 預覽]**， **[!UICONTROL 全選]**， **[!UICONTROL 全部不選]**、和 **[!UICONTROL 排序]** 用於使用資產的功能表。 您也可以移動滑桿或選取，以不同的方式檢視資產 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 選取 **[!UICONTROL 詳細資料檢視]** 或連按兩下資產以在「詳細資料檢視」中開啟資產，您可在此執行與資產相關的檔案作業。
+* **[!UICONTROL 瀏覽模式]**：您可以在「瀏覽」面板中檢視及使用資料夾的內容。 在「資產庫」中選取資料夾。 此面板提供 **[!UICONTROL 檔案]**， **[!UICONTROL 預覽]**， **[!UICONTROL 全選]**， **[!UICONTROL 全部不選]**、和 **[!UICONTROL 排序]** 用於使用資產的功能表。 您也可以移動滑桿或選取，以不同的方式檢視資產 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 選取 **[!UICONTROL 詳細資料檢視]** 或連按兩下資產以在「詳細資料檢視」中開啟資產，您可在此執行與資產相關的檔案作業。
 
 * **[!UICONTROL 建置模式]**：選取 **[!UICONTROL 建置]**，然後選擇選項，您就可以開始建立eCatalog、影像集、迴轉集，或「建立」選單上的其他數個可用專案之一。 「建置」頁面隨即開啟。 您可以在進入「建置」模式之前或之後選取要使用的資產。
 

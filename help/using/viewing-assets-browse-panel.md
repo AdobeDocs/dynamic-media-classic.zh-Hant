@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # 在瀏覽面板中檢視資產{#viewing-assets-in-the-browse-panel}
 
-您可以選取「檢視」按鈕，來變更瀏覽面板中的資產檢視方式:
+您可以選取「檢視」按鈕，以變更「瀏覽」面板中的資產檢視：
 
 * **格點檢視**：在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 格點檢視]** 圖示可讓您在格線的縮圖表單中檢視資產。 在「格點檢視」中，您可以拖曳「縮圖」滑桿來變更縮圖影像的大小。
 

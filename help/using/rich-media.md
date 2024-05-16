@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 17%
 
 ---
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classic提供許多建立富媒體的工具。 您可以建�
 * **eVideo**：將高品質的視訊體驗傳送至多個熒幕，包括桌上型電腦、行動裝置和平板電腦。 使用預先定義的Adobe Dynamic Media Classic編碼預設集或自訂編碼，以控制視訊的品質和大小。 使用完整中繼資料支援來組織、瀏覽和搜尋視訊，以有效管理視訊資產。
 另請參閱 [快速入門：Adobe Dynamic Media Classic中的影片](/help/using/quick-start-video.md).
 
-* **影像地圖**：動態地在整個網站上以任何大小和格式提供影像。 您不使用手動建立許多不同大小的影像，而是隻使用一個主要影像。 Adobe Dynamic Media Classic提供要求的影像時，會最佳化影像，以達到大小、格式、重量、品質和銳利化等最高品質結果。
+* **影像地圖**：動態地在整個網站上以任何大小和格式提供影像。 您不需要手動建立許多不同大小的影像，只需要使用一個主要影像。 Adobe Dynamic Media Classic提供要求的影像時，會最佳化影像，以達到大小、格式、重量、品質和銳利化等最高品質結果。
 請參閱[快速入門: 影像集](/help/using/quick-start-image-sizing.md)。
 
 * **影像集**：提供互動式購物體驗，使用者可在多個檢視中檢視產品。 您可以結合縮放、多重檢視和色票，以提供整合的檢視體驗。
 請參閱[快速入門: 影像集](/help/using/quick-start-image-sets.md)。
 
-* **混合媒體集**：在一個簡報中提供影像集、迴轉集、色票集、縮放目標、視訊和音訊的混合。 您可以使用標籤來設定混合媒體集，將視訊與影像分隔開來。您也可以指定顯示色票和縮放目標的位置與方式，並為使用者提供產品或服務的完整多媒體檢視。
+* **混合媒體集**：在一個簡報中提供影像集、迴轉集、色票集、縮放目標、視訊和音訊的混合。 您可以使用標籤來設定混合媒體集，將視訊與影像分隔開來。您也可以指定顯示色票和「縮放目標」的位置和方式，並讓使用者以完整的多媒體檢視瞭解您的產品或服務。
 請參閱[快速入門: 混合媒體集](/help/using/quick-start-mixed-media-sets.md)。
 
 * **迴轉集**：序列化影像以水準旋轉影像。 迴轉集可讓網站訪客轉換產品，並從不同角度檢視產品。 您可以建立一維與二維的「迴轉集」。

@@ -10,7 +10,7 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # 將縮放檢視器連結至您的網頁{#linking-zoom-viewers-to-your-web-pages}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像及相關縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像和相關聯的縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
 
 >[!NOTE]
 >

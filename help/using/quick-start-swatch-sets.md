@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 發佈色票集會將它置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以檢視，此圖示位於其名稱左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+選取 **[!UICONTROL 標籤為發佈]** 圖示於「瀏覽」面板中其名稱的左側。 然後選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
 
 另請參閱 [發佈檔案](publishing-files.md#publishing-files).
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 23%
 >
 >「個人設定」畫面會列出您在Adobe Dynamic Media Classic中的使用者角色：公司管理員、管理員或使用者。
 
-「個人設定」設定可控制瀏覽面板的預設行為、接收電子郵件的方式，以及密碼設定。記得選取 **[!UICONTROL 儲存]** 變更這些設定之後。
+「個人設定」設定可控制「瀏覽」面板的預設行為、接收電子郵件的方式以及密碼設定。 記得選取 **[!UICONTROL 儲存]** 變更這些設定之後。
 
 ## 我的帳戶資訊
 
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL 顯示檔案大小]**：瀏覽時顯示資產的檔案大小。
 * **[!UICONTROL 在搜尋中包含UDF]**：若要改善您執行的大部分中繼資料搜尋的系統效能，請取消選取（預設）。
 
-  如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。或者，您可以使用「進階搜尋」來進行比納入使用者定義的欄位更為直接而快速的搜尋。
+  如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。相較於包含使用者定義的欄位，使用進階搜尋可提供更直接且更快速的搜尋體驗。
 
   請參閱[實施進階搜尋](searching-assets.md#conducting_an_advanced_search)。
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL 目前密碼]**：輸入您目前密碼的密碼。
 * **[!UICONTROL 新密碼]**：輸入新的有效密碼。 您的密碼必須符合下列要求：
-   * 長度介於8到25個字元之間。
+   * 長度必須介於8到25個字元之間。
    * 至少包含一個小寫字母。
    * 至少包含一個大寫字母。
    * 至少包含一個數字。

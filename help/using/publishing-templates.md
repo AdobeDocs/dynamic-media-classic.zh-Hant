@@ -10,7 +10,7 @@ role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## 標示範本以供發佈 {#marking-templates-for-publish}
 
-範本及其所有支援檔案都必須標示為發佈，才能放置在Dynamic Media影像伺服器上。 您可以在「瀏覽」面板中選取要發佈的專案 **[!UICONTROL 標籤為發佈]** 圖示。
+範本及其所有支援檔案都必須標示為發佈，才能放置在Dynamic Media影像伺服器上。 您可以在「瀏覽」面板中選取 **[!UICONTROL 標籤為發佈]** 圖示。
 
 ## 發佈您的範本 {#publishing-your-template}
 
