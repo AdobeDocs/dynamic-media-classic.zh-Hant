@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic案頭應用程式 — 現已推出
-description: 進一步瞭解Adobe Dynamic Media Classic案頭應用程式。
+title: Adobe Dynamic Media Classic案頭
+description: 進一步瞭解現已推出的Adobe Dynamic Media Classic案頭應用程式。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## 僅在最新版本(20.22.2) macOS中修正 {#release-feb2022}
 
-* macOS Montery — 檔案上傳頁面在後續上傳時凍結。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
+* macOS Montery：檔案上傳頁面在後續上傳時凍結。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## 最新版本(20.22.1)中的修正 {#release-jan2022}
 
@@ -99,21 +99,21 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
    * 最新版本可從下列網址取得：
 
-      * [macOS (.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+      * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * 先前版本可在以下位置使用：
 
-      * [macOS (.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+      * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+      * [Windows® (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
-<!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
-<!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. 根據您下載的安裝程式，執行下列任一項作業。
@@ -158,7 +158,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 1. 下載適用於macOS的Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [macOS (.DMG) — 下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+   * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. 使用下列命令將下載的磁碟映像(.DMG)掛載到掛載點位置：
 
@@ -168,7 +168,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-   Unmount DMG - hdiutil detach <mount_point_path>
+   Unmount DMG: hdiutil detach <mount_point_path>
    ```
 
 1. 開啟應用程式時，會顯示新的Adobe Dynamic Media Classic登入頁面：
@@ -201,7 +201,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 1. 下載Adobe Dynamic Media Classic案頭應用程式的最新安裝程式。
 
-   * [Windows® (.EXE) — 下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * [Windows® (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
 1. 使用下列命令以記錄模式執行安裝程式：
 
@@ -254,7 +254,7 @@ Adobe Dynamic Media Classic案頭應用程式中的升級通知不會針對產�
 
 ## Adobe Dynamic Media Classic 20.21.1的已知限制
 
-* 此 **[!UICONTROL 伺服器]** 更新至Adobe Dynamic Media Classic案頭應用程式20.21.1後，下拉式清單為空白 — 案例：您安裝並登入Adobe Dynamic Media Classic 20.20.1或20.20.2，然後關閉應用程式。 接著您更新至Adobe Dynamic Media Classic 20.21.1。當您嘗試登入時， **[!UICONTROL 伺服器]** 中的下拉式清單 **[!UICONTROL 登入您的帳戶]** 對話方塊是空的。 若要解決此問題，您必須 [手動清除快取](#clear-cache) （請參閱上述步驟）。
+* 此 **[!UICONTROL 伺服器]** 更新至Adobe Dynamic Media Classic案頭應用程式20.21.1後，下拉式清單為空白：案例：您安裝並登入Adobe Dynamic Media Classic 20.20.1或20.20.2，然後關閉應用程式。 接著您更新至Adobe Dynamic Media Classic 20.21.1。當您嘗試登入時， **[!UICONTROL 伺服器]** 中的下拉式清單 **[!UICONTROL 登入您的帳戶]** 對話方塊是空的。 若要解決此問題，您必須 [手動清除快取](#clear-cache) （請參閱上述步驟）。
 
 ## Adobe Dynamic Media Classic 20.20.1的已知限制（已在20.20.2中修正）
 

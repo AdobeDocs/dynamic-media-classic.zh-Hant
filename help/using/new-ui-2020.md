@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic案頭應用程式 — 現已推出 {#new-ui-2020}
+# Adobe Dynamic Media Classic案頭應用程式：現已推出 {#new-ui-2020}
 
 請參閱 [Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md) 若要檢閱系統需求，請下載並安裝新的應用程式，然後登入該應用程式。
 
@@ -110,4 +110,4 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
 >* [登入和登出Adobe Dynamic Media Classic案頭應用程式](/help/using/signing-out.md)
 >* [下載並安裝Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

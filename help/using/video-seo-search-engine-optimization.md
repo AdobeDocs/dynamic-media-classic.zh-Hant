@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 30%
@@ -23,9 +23,9 @@ SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎擅�
 
 使用Adobe Dynamic Media Classic視訊SEO，您可以套用視訊中繼資料，為搜尋引擎提供視訊說明。 Adobe Dynamic Media Classic可讓您建立視訊網站地圖和mRSS摘要。 這些標準XML檔案用於將視訊資訊提交至搜尋引擎：
 
-* **視訊網站地圖**  — 通知Google網站上的確切位置及影片內容。 因此，您完全可在Google上搜尋影片。 例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的相關資訊，請參閱 [視訊網站地圖和視訊網站地圖的替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **視訊網站地圖**：通知Google網站上確切的位置和影片內容。 因此，您完全可在Google上搜尋影片。 例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的相關資訊，請參閱 [視訊網站地圖和視訊網站地圖的替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **mRSS （媒體真正簡單的整合）摘要**  — 內容發佈者用來將媒體檔案傳送至Yahoo！ 視訊搜尋。如需mRSS摘要的相關資訊，請參閱 [視訊網站地圖和視訊網站地圖的替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS （媒體真正簡單的整合）摘要**：內容發佈者用來將媒體檔案傳送至Yahoo！ 視訊搜尋。如需mRSS摘要的相關資訊，請參閱 [視訊網站地圖和視訊網站地圖的替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 在 **[!UICONTROL 產生模式]** 從下拉式清單中選擇報表模式：
 
-* **視訊網站地圖**  — 建立視訊網站地圖。
+* **視訊網站地圖**：建立視訊網站地圖。
 
-* **mRSS摘要**  — 建立媒體RSS (mRSS)摘要。
+* **mRSS摘要**：建立媒體RSS (mRSS)摘要。
 
-* **兩者**  — 建立兩種型別的XML檔案。
+* **兩者**：建立兩種型別的XML檔案。
 
-* **關閉**  — 若要停止產生視訊網站地圖和媒體RSS (mRSS)摘要，請選擇此選項。
+* **關閉**：若要停止產生視訊網站地圖和媒體RSS (mRSS)摘要，請選擇此選項。
 
 在 **[!UICONTROL 自動/手動模式]** 從下拉式清單中選擇要自動或手動產生：
 
-* **自動模式** - Adobe Dynamic Media Classic每天會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取 **[!UICONTROL 標籤為發佈]** 用於自動標籤為發佈Adobe Dynamic Media Classic產生的XML檔案的選項。
+* **自動模式**：Adobe Dynamic Media Classic每天會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取 **[!UICONTROL 標籤為發佈]** 用於自動標籤為發佈Adobe Dynamic Media Classic產生的XML檔案的選項。
 
    * **標籤為發佈** 標籤以發佈產生的XML檔案。
 
-* **手動模式** - Adobe Dynamic Media Classic會在您選取時產生視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生 **[!UICONTROL 產生]** 或 **[!UICONTROL 儲存並產生]** （在「視訊搜尋最佳化設定」畫面中）。 同時，也請選擇這些選項:
+* **手動模式**：當您選取時，Adobe Dynamic Media Classic會產生視訊網站地圖、媒體RSS (mRSS)摘要，或兩者同時產生 **[!UICONTROL 產生]** 或 **[!UICONTROL 儲存並產生]** （在「視訊搜尋最佳化設定」畫面中）。 同時，也請選擇這些選項:
 
-   * **沒有其他設定**  — 不會標籤為發佈產生的XML檔案。
+   * **沒有其他設定**：不會標籤為發佈產生的XML檔案。
 
-   * **標籤為發佈**  — 標示要發佈產生的XML檔案。
+   * **標籤為發佈**：標籤為發佈產生的XML檔案。
 
-   * **允許區域性產生**  — 如果XML檔案未包含所有影片的完整中繼資料資訊，搜尋引擎可拒絕該檔案。 即使某些影片沒有中繼資料，此選項也會產生XML檔案。 警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
+   * **允許區域性產生**：如果XML檔案未包含所有影片的完整中繼資料資訊，搜尋引擎可拒絕該檔案。 即使某些影片沒有中繼資料，此選項也會產生XML檔案。 警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
 
 ### 選擇產生設定 {#choosing-generation-settings}
 

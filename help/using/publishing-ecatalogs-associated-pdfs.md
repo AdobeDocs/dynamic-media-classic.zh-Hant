@@ -10,16 +10,16 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 20%
+ht-degree: 13%
 
 ---
 
 # 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-發佈會將您的eCatalog和PDF置於Dynamic Media影像伺服器上，以供您的網站或應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 您可以在 HTML 網頁代碼中放置此 URL 字串。
+發佈會將您的eCatalog和PDF置於Dynamic Media影像伺服器上，以供您的網站或應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 您可以將此URL字串放入HTML網頁程式碼中。
 
 >[!NOTE]
 >

@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 通用URL是用來根據範本變數在集中列出的順序，顯示出現在頁面上的範本變數。 永遠會發佈位於範本集清單最頂層的範本。
 
-您可以使用清單中的任何影像預設集 URL。影像預設集 URL 有如通用 URL。可以有多於一個影像預設集 URL。
+您可以使用清單中的任何影像預設集URL。 影像預設集URL類似於通用URL。 影像預設集URL可以不只一個。
 
 1. 前往 **[!UICONTROL 建置]** > **[!UICONTROL 範本集]**.
 1. 在產生器中，選取範本，然後選取 **[!UICONTROL 新增/預覽]**.

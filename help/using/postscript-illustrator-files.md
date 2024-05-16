@@ -10,7 +10,7 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 36%
@@ -23,18 +23,18 @@ ht-degree: 36%
 
 上載 PostScript (EPS) 或 Illustrator (AI) 影像檔案時，可以透過不同方式予以格式化。您可以點陣化檔案、將檔案轉換 FXG 進行範本發佈、保留透明背景、選擇解析度，以及選擇色域。您可以在「上載」畫面的「上載工作選項」方框中，找到「PostScript 選項」與「Illustrator 選項」，其中提供用來格式化 PostScript 與 Illustrator 檔案的選項。
 
-* **[!UICONTROL 處理中]**  — 選擇 **[!UICONTROL 點陣化]** 將檔案中的向量圖形轉換為點陣圖格式。
+* **[!UICONTROL 處理中]**：選擇 **[!UICONTROL 點陣化]** 將檔案中的向量圖形轉換為點陣圖格式。
 
-* **[!UICONTROL 在演算後的影像中保留透明背景]**  — 維持檔案的背景透明度。
+* **[!UICONTROL 在演算後的影像中保留透明背景]**：維持檔案的背景透明度。
 
-* **[!UICONTROL 解析度]**  — 決定解析度設定。 這個設定可決定檔案每英吋要顯示多少個像素。
+* **[!UICONTROL 解析度]**：決定解析度設定。 這個設定可決定檔案每英吋要顯示多少個像素。
 
-* **[!UICONTROL 色域]**  — 選取 **[!UICONTROL 色域]** 選單並選擇色域：
+* **[!UICONTROL 色域]**：選取 **[!UICONTROL 色域]** 選單並選擇色域：
 
-   * **[!UICONTROL 自動偵測]**  — 保留檔案的色域。
+   * **[!UICONTROL 自動偵測]**：保留檔案的色域。
 
-   * **[!UICONTROL 強製為RGB]**  — 轉換為RGB色域。
+   * **[!UICONTROL 強製為RGB]**：轉換為RGB色域。
 
-   * **[!UICONTROL 強製為CMYK]**  — 轉換為CMYK色彩空間。
+   * **[!UICONTROL 強製為CMYK]**：轉換為CMYK色域。
 
-   * **[!UICONTROL 強製為灰階]**  — 轉換為灰階色域。
+   * **[!UICONTROL 強製為灰階]**：轉換為灰階色域。

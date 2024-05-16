@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 23%
 如有需要，請建立測試環境，而非讓資產公開可用，理由如下：
 
 * 公開推出前的預覽網站 (測試網站)
-* 供應必須限制存取的資產，如在 B2B 網路應用程式中顯示價格的 eCatalog。
-* 使用產品資訊管理系統、客戶服務應用程式、訓練網站等部分防火牆後的資產。
+* 提供需要限制存取的資產，例如在B2B Web應用程式中顯示價格的eCatalog。
+* 在防火牆後面使用資產，做為產品資訊管理系統、客戶服務應用程式、訓練網站等的一部分。
 
 >[!NOTE]
 >
->安全測試不會影響對Adobe Dynamic Media Classic的存取。 Adobe Dynamic Media Classic安全性會保持一致，且需要一般憑證才能存取Adobe Dynamic Media Classic及相關網路服務。
+>安全測試不會影響對Adobe Dynamic Media Classic的存取。 Adobe Dynamic Media Classic安全性會保持一致，且需要一般憑證才能存取Adobe Dynamic Media Classic及相關網站服務。
 
 ## 安全測試的運作方式 {#how-secure-testing-works}
 
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->Secure Testing Services會使用已設定內部發佈內容的目錄伺服器。 因此，如果您的公司設定為發佈至Secure Testing，Adobe Dynamic Media Classic中任何上傳的資產都可立即在Secure Testing服務上使用。 不論資產是否標示為上傳時發佈，此功能皆為true。
+>Secure Testing Services會使用已設定內部發佈內容的目錄伺服器。 因此，如果貴公司設定為發佈至Secure Testing，則可在Secure Testing服務上立即取得Adobe Dynamic Media Classic中上傳的任何資產。 不論資產是否標示為上傳時發佈，此功能皆為true。
 
 Secure Testing服務目前支援下列資產型別和功能：
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * 影像。
 * 暈映 (演算伺服器要求)。
-* 轉譯器伺服器請求（支援，但必須由客戶明確請求）。
+* 轉譯器伺服器請求（支援，但客戶必須明確要求）。
 * 集，包含影像集、eCatalog、演算集和媒體集。
 * 標準Adobe Dynamic Media Classic多媒體檢視器。
 * Adobe Dynamic Media Classic OnDemand JSP頁面。
@@ -88,7 +88,7 @@ Last Modified Date:
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### 準備帳戶
 
@@ -133,8 +133,8 @@ Last Modified Date:
 
 您需要兩個網站變體，分別連結至已發佈和未發佈的資產: 
 
-* 公開版本 — 使用舊版Adobe Dynamic Media Classic URL語法連結資產。
-* 測試版本 — 使用相同語法但具有安全測試網站名稱的連結資產。
+* 公開版本：使用舊版Adobe Dynamic Media Classic URL語法連結資產。
+* 測試版本：使用相同語法但使用安全測試網站名稱的連結資產。
 
 ### 執行測試
 

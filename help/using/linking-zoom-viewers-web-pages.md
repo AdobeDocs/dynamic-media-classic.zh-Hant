@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -43,15 +43,15 @@ ht-degree: 34%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-## 將縮放檢視器URL新增至網頁 {#adding-zoom-viewer-urls-to-your-web-page}
+## 將縮放檢視器URL新增至您的網頁 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取該圖示會啟動一個動態網頁 (ASP 或 JSP)，該網頁在彈出式視窗中顯示該影像。彈出式視窗是訪客實際縮放該影像的位置。
+通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 彈出式視窗是訪客實際縮放該影像的位置。
 
 如需詳細資訊和程式碼範例，請參閱 [Adobe檢視器參考指南中的內嵌HTML5基本縮放檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 複製縮放檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「縮放檢視器」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。不可在「內嵌程式碼」對話框中編輯程式碼。
+您可使用「內嵌程式碼」功能查看所選「縮放檢視器」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製縮放檢視器的內嵌程式碼：**
 

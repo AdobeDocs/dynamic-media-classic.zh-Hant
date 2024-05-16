@@ -10,16 +10,16 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
 # 快速入門: 縮放{#quick-start-zoom}
 
-縮放可讓您以互動方式檢視影像中的高解析度詳細資料。 例如，可以在動態的、可完全設定的整合檢視器中查看影像的色彩、選項、角度以及細節。此檢視器可以內嵌在網頁中，也可以顯示在彈出式視窗中。您可以在近距離稽核影像，並以高解析度平移影像，以仔細檢視它們。 縮放功能可以為您的客戶帶來豐富多彩的互動式視覺效果。
+縮放可讓您以互動方式檢視影像中的高解析度詳細資料。 例如，可以在動態的、可完全設定的整合檢視器中查看影像的色彩、選項、角度以及細節。此檢視器可內嵌在網頁上或顯示在快顯視窗中。 您可以在近距離稽核影像，並以高解析度平移影像，以仔細檢視它們。 縮放功能可以為您的客戶帶來豐富多彩的互動式視覺效果。
 
 Adobe Dynamic Media Classic也提供引導式縮放，讓您強調影像中的重要功能。 例如，若要將檢視者的注意力集中於某個標誌上，可以為該標誌建立一個縮放目標。使用者選取此縮放目標時，會縮放至標誌。
 
@@ -47,7 +47,7 @@ Adobe Dynamic Media Classic也提供引導式縮放，讓您強調影像中的�
 
 若要建立縮放檢視器預設集，請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**. 在「檢視器預設集」頁面上，選取 **[!UICONTROL 新增]**，選擇平台和縮放檢視器，然後選取「 」 **[!UICONTROL 新增]**. 然後選擇上的選項 `Configure Viewer` 頁面。
 
-Adobe Dynamic Media Classic優惠方案 **[!UICONTROL 縮放檢視器預設集]** 可讓您選取按鈕樣式和檢視器整體外觀的選項。 您還可以自訂網站的縮放設定。另請參閱 [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Adobe Dynamic Media Classic優惠方案 **[!UICONTROL 縮放檢視器預設集]** 可讓您選取按鈕樣式和檢視器整體外觀的選項。 您也可以自訂網站的縮放設定。 另請參閱 [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4.使用縮放檢視器預覽影像
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic優惠方案 **[!UICONTROL 縮放檢視器預設集]*
 
 若要探索不同的縮放檢視器預設集及其呈現縮放體驗的方式，請在「瀏覽」面板中選取影像，然後選取 **[!UICONTROL 預覽]**. 前往 **[!UICONTROL 預設集]** > **[!UICONTROL 縮放]**，然後使用「縮放」選單選取預設集。
 
-此時會出現「縮放」按鈕。可以查看縮放影像在網站上的外觀。選取「縮放」按鈕（和縮放目標），以測試您所選取「縮放檢視器預設集」的設定。 另請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+此時會出現「縮放」按鈕。您可以檢視縮放影像在您網站上的外觀。 選取「縮放」按鈕（和縮放目標），以測試您所選取「縮放檢視器預設集」的設定。 另請參閱 [使用不同的縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5.發佈縮放影像
 
@@ -63,6 +63,6 @@ Adobe Dynamic Media Classic優惠方案 **[!UICONTROL 縮放檢視器預設集]*
 
 在全域導覽列上，選取 **[!UICONTROL 發佈]**. 在「發佈」對話方塊中，選取 **[!UICONTROL 提交發佈]**. 請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
 
-## 6.將「縮放檢視器」連結至您的網頁
+## 6.將縮放檢視器連結至您的網頁
 
-Adobe Dynamic Media Classic會建立縮放影像所需的URL圖說文字字串，並在您將影像發佈至Dynamic Media影像伺服器時加以啟用。 您可以複製下列URL字串： **[!UICONTROL 預覽]** 頁面。 複製 URL 字串之後，即可在網站和應用程式上使用。另請參閱 [將縮放檢視器連結至您的網頁](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic會建立縮放影像所需的URL圖說文字字串，並在您將影像發佈至Dynamic Media影像伺服器時加以啟用。 您可以複製下列URL字串： **[!UICONTROL 預覽]** 頁面。 複製URL字串後，您的網站和應用程式即可使用這些字串。 另請參閱 [將縮放檢視器連結至您的網頁](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

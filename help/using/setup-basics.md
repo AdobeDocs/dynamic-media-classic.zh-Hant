@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 15%
 
 管理員也可以在以下位置設定影像預設集和檢視器預設集： **[!UICONTROL 設定]** 頁面：
 
-* **影像預設集**  — 影像預設集是儲存的格式，用於以不同大小和格式顯示主要影像。
+* **影像預設集**：影像預設集是儲存的格式，用於以不同大小和格式顯示主要影像。
 
-* **檢視器預設集**  — 檢視器預設集會決定您在檢視器中看到多媒體時的顯示方式。
+* **檢視器預設集**：檢視器預設集決定您在檢視器中看到豐富媒體時的顯示方式。
 
 >[!MORELIKETHIS]
 >
 >* [基本設定訓練影片](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Adobe Dynamic Media Classic使用者角色和許可權](administration-setup.md#user_administration)
->* [影像預設集](application-setup.md#image_presets)
+>* [Image Presets](application-setup.md#image_presets)
 >* [檢視器預設集](application-setup.md#viewer_presets)

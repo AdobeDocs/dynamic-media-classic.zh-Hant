@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
    * 消除這9個「疑問」，強化您的客戶體驗。
    * 瞭解Dynamic Media團隊如何協助您做好準備，迎接高於正常訪客流量的一天。
-   * 第二次機會瞭解最近的兩次技能建立網路研討會。
+   * 第二次機會瞭解最近的兩個Skill Builder網路研討會。
    * 觀看有關保護數位資產免受盜版侵權的隨選網路研討會。
    * 會議 `Bridget Roman`，Experience Manager Assets資深產品行銷經理。
    * 在Experience League中快速上手Dynamic Media和Adobe Dynamic Media Classic。
@@ -126,10 +126,10 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
 
   在本期中：
 
-   * 可讓您正確管理高價值資產的資源和資訊，以放心地提供體驗，讓訪客隨時回來。
+   * 可讓您正確管理高價值資產的資源和資訊，以便放心地提供體驗，讓訪客隨時回來。
    * 瞭解即將舉辦的保護數位資產網路研討會。
    * 資訊密集AdobeInsider之旅的下一站。
-   * Experience Manager Assets (Experience Manager Assets)內有Dynamic Media時，可享受令人興奮的功能。
+   * Experience Manager Assets (Experience Manager Assets)內若有Dynamic Media，令人興奮的功能將可供使用。
    * 新增360度影片和自訂影片縮圖至您的網站。
    * 會議 `Andrew Hathaway`，Experience Manager Assets中Dynamic Media的主要解決方案顧問。
 
@@ -142,13 +142,13 @@ Experience League的Dynamic Media電子報可協助您快速熟悉Dynamic Media�
    * 進一步瞭解即將推出的AdobeInsider導覽。
    * 閱讀如何保護您的數位資產免受盜版。
    * 瞭解影像的AI驅動智慧型裁切。
-   * 會議 `Alex Thiers`是Dynamic Media和Adobe Dynamic Media Classic許多優異功能與創新背後的推動力量之一。
+   * 會議 `Alex Thiers`，這是AEM和Adobe Dynamic Media Classic上Dynamic Media許多優異功能和創新背後的驅動力。
 
 * **[2019年5月第05期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
   在本期中：
 
-   * 在部落格中探索Adobe Dynamic Media Classic的十大隱藏功能。
+   * 探索部落格中Adobe Dynamic Media Classic的前十大隱藏功能。
    * 觀看Experience League的重要作法影片。
    * 瞭解即將推出的AdobeInsider導覽。
    * 若要更新您的多媒體策略，請閱讀三部分部落格系列。

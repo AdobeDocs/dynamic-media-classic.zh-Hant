@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 40%
@@ -70,8 +70,8 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 
 您可以使用兩種影像銳利化方法：
 
-* 簡單銳利化( `&op_sharpen`) — 類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。最佳實務是避免使用 `&op_sharpen` 除非必要。
-* 不銳利化遮色片( `&op_USM`) — 不銳利化遮色片是業界標準的銳利化濾鏡。 最佳實踐就是遵守以下準則並利用遮色片銳利化調整將影像銳利化。遮色片銳利化調整可讓您控制以下三個參數: 
+* 簡單銳利化( `&op_sharpen`)：類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。最佳實務是避免使用 `&op_sharpen` 除非必要。
+* 不銳利化遮色片( `&op_USM`)：不銳利化遮色片是業界標準的銳利化濾鏡。 最佳實踐就是遵守以下準則並利用遮色片銳利化調整將影像銳利化。遮色片銳利化調整可讓您控制以下三個參數: 
 
    * `&op_sharpen=amount,radius,threshold`
 
@@ -136,5 +136,5 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 實驗時，以下一般建議有助於最佳化您的工作流程：
 
 * 請直接在URL上或使用Adobe Dynamic Media Classic的影像調整功能，即時試用並測試不同的引數。 後者提供調整作業的即時預覽。
-* 如需參考最佳做法，請記得您可以將「Dynamic Media影像伺服」命令群組至影像預設集。 影像預設集基本上是URL指令巨集，其中包含自訂預設集名稱，例如 `$thumb_low$` 和 `&product_high$`. URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
+* 如需參考最佳做法，請記住，您可以將「Dynamic Media影像伺服」命令群組至影像預設集。 影像預設集基本上是URL指令巨集，其中包含自訂預設集名稱，例如 `$thumb_low$` 和 `&product_high$`. URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
 * Adobe Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化演算結果的進階使用案例，Adobe Professional Services可協助您提供自訂分析和最佳實務。

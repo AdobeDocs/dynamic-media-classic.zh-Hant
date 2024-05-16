@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
 在「瀏覽」面板中，選取要在「詳細檢視」中編輯的字型檔案，然後選擇「檔案>編輯資訊」。 此時將開啟「編輯資訊」畫面。選擇下列選項，然後選取 **[!UICONTROL 提交]**.
 
-* **[!UICONTROL 字型名稱]**  — 此名稱可識別發佈時的字型。
+* **[!UICONTROL 字型名稱]**：此名稱可識別發佈時的字型。
 
-* **[!UICONTROL PostScript名稱]**  — 此名稱是字型的完整PostScript名稱。 它通常表示粗細或樣式。
+* **[!UICONTROL PostScript名稱]**：此名稱是字型的完整PostScript名稱。 它通常表示粗細或樣式。
 
-* **[!UICONTROL RTF名稱]**  — 此名稱會出現在RTF編輯器中的彈出式選單上，其中會建立範本文字圖層。
+* **[!UICONTROL RTF名稱]**：此名稱會顯示在RTF編輯器中的彈出式選單上，其中會建立範本文字圖層。
 
-* **[!UICONTROL 字型系列名稱]**  — 此名稱會列出字型名稱，但沒有樣式、粗細或字型型別指示器。
+* **[!UICONTROL 字型系列名稱]**：此名稱會列出不含樣式、粗細或字型型別指示器的字型名稱。
 
-* **[!UICONTROL 字型樣式]**  — 選項為純、粗體、斜體和粗斜體。
+* **[!UICONTROL 字型樣式]**：選項為純、粗體、斜體及粗斜體。
 
-* **[!UICONTROL 字型型別]**  — 選項為TrueType和Adobe Type1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
+* **[!UICONTROL 字型型別]**：選項為TrueType和Adobe Type1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
 
-* **[!UICONTROL 字型型別縮寫]**  — 選項如下：
+* **[!UICONTROL 字型型別縮寫]**：選項如下：
 
-   * **[!UICONTROL TTF]**  — 用於PDF/PostScript轉譯和影像伺服的TrueType字型檔案。
+   * **[!UICONTROL TTF]**：用於PDF/PostScript轉譯和影像伺服的TrueType字型檔案。
 
-   * **[!UICONTROL AFM]**  — 包含Adobe字型度量資訊且用於影像伺服的Adobe PostScript字型檔案。
+   * **[!UICONTROL AFM]**：包含Adobe字型量度資訊且用於影像伺服的Adobe PostScript字型檔案。
 
-   * **[!UICONTROL PFM]**  — 包含二進位字型量度資訊的Adobe PostScript字型檔案。
+   * **[!UICONTROL PFM]**：包含二進位字型量度資訊的Adobe PostScript字型檔案。
 
-   * **[!UICONTROL PFB]**  — 包含二進位字型外框資訊的Adobe PostScript字型檔案，用於PDF/PostScript轉譯和影像伺服。
+   * **[!UICONTROL PFB]**：包含二進位字型外框資訊的Adobe PostScript字型檔案，用於PDF/PostScript轉譯和影像伺服。

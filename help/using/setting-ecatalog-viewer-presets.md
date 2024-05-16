@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
 1. 在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 1. 如要建立 eCatalog 檢視器預設集，您可以在「檢視器預設集」畫面中從頭開始建立，或從現有 eCatalog 檢視器預設集開始:
 
-   * **建立eCatalog檢視器預設集**  — 選取 **[!UICONTROL 新增]**. 在「新增檢視器預設集」對話方塊中，選擇平台，選擇「eCatalog檢視器」，然後選取 **[!UICONTROL 新增]**.
+   * **建立eCatalog檢視器預設集**：選取 **[!UICONTROL 新增]**. 在「新增檢視器預設集」對話方塊中，選擇平台，選擇「eCatalog檢視器」，然後選取 **[!UICONTROL 新增]**.
 
-   * **編輯eCatalog檢視器預設集**  — 選取eCatalog檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**. 選取 **[!UICONTROL 另存為]** 完成預設集建立之後。
+   * **編輯eCatalog檢視器預設集**：選取eCatalog檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**. 選取 **[!UICONTROL 另存為]** 完成預設集建立之後。
 
 1. 在 `Configure Viewer` 頁面，輸入eCatalog檢視器預設集的名稱。
 1. 在 `Configure Viewer` 頁面，設定您想要的選項。

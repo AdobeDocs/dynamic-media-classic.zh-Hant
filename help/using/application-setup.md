@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '10944'
 ht-degree: 30%
@@ -31,31 +31,31 @@ ht-degree: 30%
 
 ### 伺服器
 
-建立帳戶時，Adobe Dynamic Media Classic會自動提供指派給貴公司的伺服器。 這些伺服器是用來為您的網站和應用程式建立 URL 字串。這些 URL 呼叫皆專屬於您的帳戶。
+建立帳戶時，Adobe Dynamic Media Classic會自動提供指派給貴公司的伺服器。 這些伺服器可用來建構您網站和應用程式的URL字串。 這些 URL 呼叫皆專屬於您的帳戶。
 
 另請參閱 [測試Secure Testing service](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL 已發佈的伺服器名稱]**  — 此伺服器是所有系統產生、特定於您帳戶的URL呼叫中所使用的即時CDN （內容傳遞網路）伺服器。 只有在Adobe Dynamic Media Classic支援技術人員指示您變更此伺服器名稱時，才能進行變更。
+* **[!UICONTROL 已發佈的伺服器名稱]**：此伺服器是所有系統產生、且特定於您帳戶的URL呼叫中所使用的即時CDN （內容傳遞網路）伺服器。 只有在Adobe Dynamic Media Classic支援技術人員指示您變更此伺服器名稱時，才能進行變更。
 
-* **[!UICONTROL 原始伺服器名稱]**  — 此伺服器僅用於品質保證測試。 只有在Adobe Dynamic Media Classic支援技術人員指示您變更此伺服器名稱時，才能進行變更。
+* **[!UICONTROL 原始伺服器名稱]**：此伺服器僅用於品質保證測試。 只有在Adobe Dynamic Media Classic支援技術人員指示您變更此伺服器名稱時，才能進行變更。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Test&amp;Target伺服器名稱]** - Test&amp;Target URL，包括 `.com`. 如需取得此URL的說明，請參閱整合 [!DNL Adobe Dynamic Media Classic] 替換為 [!DNL Adobe Target Standard/Premium].
+* **[!UICONTROL Test&amp;Target伺服器名稱]**：Test&amp;Target URL，包括 `.com`. 如需取得此URL的說明，請參閱整合 [!DNL Adobe Dynamic Media Classic] 替換為 [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL iOS串流伺服器名稱]**  — 您的URL [!DNL Adobe Dynamic Media Classic] iOS串流伺服器。 此伺服器會使用HTTP通訊協定，將串流視訊傳送至iOS裝置。
+* **[!UICONTROL iOS串流伺服器名稱]**：前往您的 [!DNL Adobe Dynamic Media Classic] iOS串流伺服器。 此伺服器會使用HTTP通訊協定，將串流視訊傳送至iOS裝置。
 
-* **[!UICONTROL 漸進式視訊伺服器名稱]**  — 您的URL [!DNL Adobe Dynamic Media Classic] 漸進式視訊伺服器。 此伺服器使用HTTP通訊協定來傳送漸進式視訊。
+* **[!UICONTROL 漸進式視訊伺服器名稱]**：前往您的 [!DNL Adobe Dynamic Media Classic] 漸進式視訊伺服器。 此伺服器使用HTTP通訊協定來傳送漸進式視訊。
 
-* **[!UICONTROL 顯示未發佈資產的URL]**  — 如有需要，請選取此選項 [!DNL Adobe Dynamic Media Classic] 可在預覽任何資產時顯示URL，無論是否發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
+* **[!UICONTROL 顯示未發佈資產的URL]**：如果您想要的話，請選取此選項 [!DNL Adobe Dynamic Media Classic] 可在預覽任何資產時顯示URL，無論是否發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Adobe Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Adobe Dynamic Media Classic AIR. Adobe Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
+<!-- AIR users must manually uninstall their existing app and reinstall from the Web version of Adobe Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Adobe Dynamic Media Classic AIR. Adobe Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-* **[!UICONTROL CDN失效範本]**  — 指定用於讓CDN （內容傳遞網路）快取失效的範本。
+* **[!UICONTROL CDN失效範本]**：指定用於讓CDN （內容傳遞網路）快取失效的範本。
 
   例如，假設您輸入參照的影像URL （包括影像預設集或修飾元） `<ID>`，而非如下列範例所示的特定影像ID：
 
@@ -79,13 +79,13 @@ ht-degree: 30%
 
 ### 瀏覽
 
-* **[!UICONTROL 顯示專案]**  — 決定專案是否可作為組織Adobe Dynamic Media Classic資產的一種方式。 另請參閱 [組織您的專案工作](/help/using/organizing-projects.md).
+* **[!UICONTROL 顯示專案]**：決定專案是否可用於組織Adobe Dynamic Media Classic資產。 另請參閱 [組織您的專案工作](/help/using/organizing-projects.md).
 
-* **[!UICONTROL 顯示範例eVideo內容]**  — 開啟或關閉eVideo範例內容的顯示。
+* **[!UICONTROL 顯示範例eVideo內容]**：開啟或關閉eVideo範例內容的顯示。
 
-* **[!UICONTROL 顯示產生的內容]**  — 在資料夾中，顯示從資產產生的內容。 例如，當PDF檔案在上傳時點陣化時，Adobe Dynamic Media Classic會為原始PDF中的每個頁面建立一個影像。 如果選取了「顯示產生的內容」 ，則上傳原始PDF時產生的每個影像都會顯示。 它會與PDF一起出現在將PDF上傳到的資料夾中。
+* **[!UICONTROL 顯示產生的內容]**：在資料夾中，顯示從資產產生的內容。 例如，當PDF檔案在上傳時點陣化時，Adobe Dynamic Media Classic會為原始PDF中的每個頁面建立一個影像。 如果選取了「顯示產生的內容」 ，則上傳原始PDF時產生的每個影像都會顯示。 它會與PDF一起出現在將PDF上傳到的資料夾中。
 
-* **[!UICONTROL 顯示編碼的視訊]**  — 預設為取消選取（關閉）。
+* **[!UICONTROL 顯示編碼的視訊]**：預設為取消選取（關閉）。
 
   您可以在Adobe Dynamic Media Classic中快速搜尋和瀏覽影片，而無需瀏覽相同影片的大量已編碼衍生影片。 保留取消選取此選項（預設）。 只會顯示主要視訊縮圖（您上傳並用來建立衍生影片的來源視訊）和「上層」最適化視訊集縮圖（包含已編碼視訊集的「下層」衍生影片）。
 
@@ -103,43 +103,43 @@ ht-degree: 30%
   >
   >如果您未使用Adobe Dynamic Media Classic上傳及編碼視訊資產，即使取消選取此選項，Adobe Dynamic Media Classic也會顯示所有個別編碼的視訊。
 
-* **[!UICONTROL 顯示重新整理子資料夾按鈕]**  — 開啟或關閉子資料夾重新整理按鈕的顯示。
+* **[!UICONTROL 顯示重新整理子資料夾按鈕]**：開啟或關閉子資料夾「重新整理」按鈕的顯示。
 
 ### Adobe Dynamic Media Classic FTP帳戶
 
-* **[!UICONTROL 伺服器]**  — 列出您的FTP帳戶伺服器。
+* **[!UICONTROL 伺服器]**：列出您的FTP帳戶伺服器。
 
-* **[!UICONTROL 使用者名稱]**  — 列出您的FTP帳戶使用者名稱。
+* **[!UICONTROL 使用者名稱]**：列出您的FTP帳戶使用者名稱。
 
 ### 上載至應用程式
 
 另請參閱 [上傳工作的選項](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) 訓練影片。
 
-* **[!UICONTROL 覆寫影像]** - Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專案的Adobe Dynamic Media Classic ID （影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複的影像會以「–1」重新命名（例如chair.tif會重新命名為chair-1.tif）。 這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。另請參閱 [使用「覆寫影像」選項](#using-the-overwrite-images-option).
+* **[!UICONTROL 覆寫影像]**：Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專案的Adobe Dynamic Media Classic ID （影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複的影像會以「–1」重新命名（例如chair.tif會重新命名為chair-1.tif）。 這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。另請參閱 [使用「覆寫影像」選項](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL 在目前檔案夾中有基本影像名稱/副檔名相同者時予以覆寫]**  — 此選項是最嚴格的取代規則。 它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
+   * **[!UICONTROL 在目前檔案夾中有基本影像名稱/副檔名相同者時予以覆寫]**：此選項是最嚴格的取代規則。 它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
 
-   * **[!UICONTROL 目前檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**  — 要求您將取代影像上傳到與原始影像相同的資料夾，不過副檔名可能與原始影像不同。 例如，chair.tif 會取代 chair.jpg。
+   * **[!UICONTROL 目前檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：要求您將取代影像上傳至與原始影像相同的資料夾，但副檔名可能與原始影像不同。 例如，chair.tif 會取代 chair.jpg。
 
-   * **[!UICONTROL 任何檔案夾內若有基本資產名稱/副檔名相同者，將予以覆寫]**  — 取代影像的副檔名必須與原始影像相同（例如，chair.jpg必須取代chair.jpg，而非chair.tif）。 然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
+   * **[!UICONTROL 任何檔案夾內若有基本資產名稱/副檔名相同者，將予以覆寫]**：取代影像的副檔名必須與原始影像相同（例如，chair.jpg必須取代chair.jpg，而非chair.tif）。 然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
 
-   * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**  — 此選項是最具包容性的取代規則。 您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
+   * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：此選項是最具包容性的取代規則。 您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
 
-* **[!UICONTROL 保留發佈]**  — 指定上傳至Adobe Dynamic Media Classic的取代影像是否保留其取代影像的「準備發佈」設定。 或者，在上傳時指定設定。
+* **[!UICONTROL 保留發佈]**：指定上傳至Adobe Dynamic Media Classic的取代影像是否保留其取代影像的「準備發佈」設定。 或者，在上傳時指定設定。
 
-* **[!UICONTROL 預設色彩設定檔]**  — 指定新增CMYK影像時，套用為預設色彩設定檔選項一部分的色彩設定檔。
+* **[!UICONTROL 預設色彩設定檔]**：指定新增CMYK影像時，套用為預設色彩設定檔選項一部分的色彩設定檔。
 
-* **[!UICONTROL 預設上傳選項]**  — 開啟「上載工作選項」對話方塊，您可以在其中指定預設上載選項。 如需有關這些選項的詳細資訊，請參閱[上載選項](/help/using/uploading-files.md#upload_options)。
+* **[!UICONTROL 預設上傳選項]**：開啟「上載工作選項」對話方塊，您可以在此指定預設上載選項。 如需有關這些選項的詳細資訊，請參閱[上載選項](/help/using/uploading-files.md#upload_options)。
 
 ### 影像地圖編輯器（至應用程式）
 
-* **[!UICONTROL 預設影像對應HREF]**  — 定義影像對應中HREF欄使用的預設URL。 此URL是您在建立影像地圖時看到的預設URL。
+* **[!UICONTROL 預設影像對應HREF]**：定義影像對應中HREF欄使用的預設URL。 此URL是您在建立影像地圖時看到的預設URL。
 
-* **[!UICONTROL 預設影像對應範本]**  — 定義影像對應中HREF範本的預設JavaScript。 您可以在此處設定自訂程式碼，以便在您選取影像地圖時執行。
+* **[!UICONTROL 預設影像對應範本]**：定義影像對應中HREF範本的預設JavaScript。 您可以在此處設定自訂程式碼，以便在您選取影像地圖時執行。
 
 ### 其他設定（至應用程式）
 
-* **[!UICONTROL 垃圾桶清理警告]**  — 垃圾桶中的資產會在七天內自動移除。 選取「自動刪除垃圾桶專案之前先傳送電子郵件」，以便在垃圾桶中的資產距離永久刪除日期四天後通知公司管理員。 另請參閱 [管理垃圾桶資料夾](/help/using/trash-folder.md).
+* **[!UICONTROL 垃圾桶清理警告]**：垃圾桶中的資產會在七天內自動移除。 選取「自動刪除垃圾桶專案之前先傳送電子郵件」，以便在垃圾桶中的資產距離永久刪除日期四天後通知公司管理員。 另請參閱 [管理垃圾桶資料夾](/help/using/trash-folder.md).
 
 ## 使用「覆寫影像」選項 {#using-the-overwrite-images-option}
 
@@ -168,8 +168,8 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**.
 1. 建立預設集或從現有預設集開始：
 
-   * **建立影像預設集**  — 選取 **[!UICONTROL 新增]**.
-   * **從現有的預設集建立影像預設集**  — 選取最接近您要建立的影像預設集，然後選取「 」 **[!UICONTROL 編輯]**.
+   * **建立影像預設集**：選取 **[!UICONTROL 新增]**.
+   * **從現有的預設集建立影像預設集**：選取與您想要建立的影像預設集最相似的影像預設集，然後選取 **[!UICONTROL 編輯]**.
 
 1. 在「新增（或編輯）預設集」頁面上，輸入預設集名稱。
 1. 設定您想要的預設集選項。
@@ -185,73 +185,73 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 「增加預設集」和「編輯預設集」畫面提供下列選項，以建立和編輯影像預設集:
 
-* **[!UICONTROL 預設集名稱]**  — 輸入不含空格的描述性名稱。 為協助使用者識別此影像預設集，請在名稱中包含影像大小規格。
+* **[!UICONTROL 預設集名稱]**：輸入不含空格的描述性名稱。 為協助使用者識別此影像預設集，請在名稱中包含影像大小規格。
 
-* **[!UICONTROL 寬度和高度]**  — 輸入遞送影像的畫素大小。
+* **[!UICONTROL 寬度和高度]**：輸入遞送影像的畫素大小。
 
-* **[!UICONTROL 格式]**  — 從功能表選取格式。 選擇GIF、JPEG、PDF或TIFF格式會提供更多選項：
+* **[!UICONTROL 格式]**：從功能表選取格式。 選擇GIF、JPEG、PDF或TIFF格式會提供更多選項：
 
    * GIF 色彩量化選項
 
-      * **[!UICONTROL 型別]**  — 選取「最適化」（預設）、「Web」或「Mac」。 如果您選取 **[!UICONTROL 使用AlphaGIF]**，無法使用Mac選項。
+      * **[!UICONTROL 型別]**：選取最適化（預設）、Web或Mac。 如果您選取 **[!UICONTROL 使用AlphaGIF]**，無法使用Mac選項。
 
-      * **[!UICONTROL 遞色]**  — 選取「擴散」或「關閉」。
+      * **[!UICONTROL 遞色]**：選取「擴散」或「關閉」。
 
-      * **[!UICONTROL 色彩數目]**  — 拖曳滑桿以輸入2-255。
+      * **[!UICONTROL 色彩數目]**：拖曳滑桿以輸入2-255。
 
-      * **[!UICONTROL 色彩清單]**  — 輸入逗號分隔清單。 例如，對於白色、灰色和黑色，請輸入 `000000,888888,ffffff`.
+      * **[!UICONTROL 色彩清單]**：輸入逗號分隔清單。 例如，對於白色、灰色和黑色，請輸入 `000000,888888,ffffff`.
 
    * JPEG 選項
 
-      * **[!UICONTROL 品質]**  — 控制JPEG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPEG 品質範圍為 1 – 100。
+      * **[!UICONTROL 品質]**：控制JPEG壓縮等級。 這個設定會同時影響檔案大小與影像品質。JPEG 品質範圍為 1 – 100。
 
-      * **[!UICONTROL 啟用JPG色度縮減取樣]**  — 由於眼睛對高頻色彩資訊的敏感性低於高頻明度，JPEG影像會將影像資訊分成明度和色彩元件。 壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣將資料量減少一半或三分之一，幾乎不影響感知品質。 縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
+      * **[!UICONTROL 啟用JPG色度縮減取樣]**：由於眼睛對高頻色彩資訊的敏感性不如高頻明度，因此JPEG影像會將影像資訊劃分為明度和色彩元件。 壓縮 JPEG 影像時，明度組件會保留完整解析度，而色彩組件則會透過平均像素群組來縮減取樣。縮減取樣將資料量減少一半或三分之一，幾乎不影響感知品質。 縮減取樣不適用於灰階影像。這個技巧可減少適用於高對比度影像的壓縮量 (例如含有覆蓋文字的影像)。
 
    * PDF 和 TIFF 選項
 
-      * **[!UICONTROL 壓縮]**  — 選取壓縮演演算法。
+      * **[!UICONTROL 壓縮]**：選取壓縮演演算法。
 
-* **[!UICONTROL 色域]**  — 選取色域。
+* **[!UICONTROL 色域]**：選取色域。
 
-* **[!UICONTROL 銳利化]**  — 選取「啟用簡單銳利化」選項，可在所有縮放完成後將基本銳利化濾鏡套用至影像。 銳利化可以幫助補償以不同大小顯示影像時所造成的模糊現象。
+* **[!UICONTROL 銳利化]**：選取「啟用簡單銳利化」選項，在所有縮放作業完成後套用基本銳利化濾鏡至影像。 銳利化可以幫助補償以不同大小顯示影像時所造成的模糊現象。
 
   如需銳利化、重新取樣模式和遮色片銳利化的詳細資訊，請參閱 [銳利化影像](sharpening-image.md#sharpening_an_image). 另請參閱 [銳利化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 訓練影片。
 
-* **[!UICONTROL 重新取樣模式]**  — 選取重新取樣模式選項。 下列選項會在縮減取樣影像時予以銳利化:
+* **[!UICONTROL 重新取樣模式]**：選取重新取樣模式選項。 下列選項會在縮減取樣影像時予以銳利化:
 
-* **[!UICONTROL 雙線性式]**  — 最快速的重新取樣方法；會產生某些明顯的鋸齒狀不自然感。
+* **[!UICONTROL 雙線性式]**：最快的重新取樣方法；會產生某些明顯的鋸齒狀不自然感。
 
-* **[!UICONTROL 雙立方式]**  — 增加影像伺服器上的CPU使用量，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。
+* **[!UICONTROL 雙立方式]**：增加影像伺服器上的CPU使用量，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。
 
-* **[!UICONTROL `Sharp 2`]**  — 產生的結果可能會比「雙立方式」選項稍微銳利，但耗用的影像伺服器CPU成本更高。
+* **[!UICONTROL `Sharp 2`]**：產生的結果可能會比「雙立方式」選項稍微銳利，但影像伺服器的CPU成本更高。
 
-* **[!UICONTROL 三線性式]**  — 同時使用較高和較低的解析度（如果有的話）；只有在別名是問題的情況下才建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
+* **[!UICONTROL 三線性式]**：同時使用較高和較低的解析度（如果有的話）；只有在別名是問題時才建議使用。 這個方法會減少高頻率資料，所以能夠減少 JPEG 大小。
 
-* **[!UICONTROL 遮色片銳利化調整]**  — 選擇下列選項以微調銳利化：
+* **[!UICONTROL 遮色片銳利化調整]**：選擇下列選項以微調銳利化：
 
-* **[!UICONTROL 數量]**  — 控制套用至邊緣畫素的對比量。 預設是 1.0。對於高解析度的影像，您最多可以將它增加至 5.0。將「數量」視為濾鏡飽和度的度量。
+* **[!UICONTROL 數量]**：控制套用至邊緣畫素的對比量。 預設是 1.0。對於高解析度的影像，您最多可以將它增加至 5.0。將「數量」視為濾鏡飽和度的度量。
 
-* **[!UICONTROL 半徑]**  — 決定邊緣畫素周圍影響銳利化的畫素數量。 對於高解析度的影像，請輸入 1 到 2 的數字。低數值只會銳利化邊緣的像素；高數值會銳利化較寬的像素範圍。正確的值取決於影像大小。
+* **[!UICONTROL 半徑]**：決定邊緣畫素周圍影響銳利化的畫素數量。 對於高解析度的影像，請輸入 1 到 2 的數字。低數值只會銳利化邊緣的像素；高數值會銳利化較寬的像素範圍。正確的值取決於影像大小。
 
-* **[!UICONTROL 臨界值]**  — 決定套用遮色片銳利化調整濾鏡時要忽略的對比範圍。 也就是說，它可以協助解決銳化畫素與周圍區域必須有多大的差異，才會被視為邊緣畫素並加以銳化。 為避免引入雜訊，請嘗試以下範圍內的值 `.02` 和 `0.2`. 預設值6會銳利化影像中的所有畫素。
+* **[!UICONTROL 臨界值]**：決定套用遮色片銳利化調整濾鏡時要忽略的對比範圍。 也就是說，它可以協助解決銳化畫素與周圍區域必須有多大的差異，才會被視為邊緣畫素並加以銳化。 為避免引入雜訊，請嘗試以下範圍內的值 `.02` 和 `0.2`. 預設值6會銳利化影像中的所有畫素。
 
-* **[!UICONTROL 色域]**  — 決定影像使用建立影像的空間，通常是RGB（原始）或明度空間（強度）。
+* **[!UICONTROL 色域]**：決定影像是使用建立影像的空間，通常是RGB（原始）或明度空間（強度）。
 
 * **[!UICONTROL 顏色]** 選擇下列選項：
 
-* **[!UICONTROL 輸出色彩設定檔]**  — 選取 **[!UICONTROL 使用預設]** 或Adobe Dynamic Media Classic上可用的其中一個ICC色彩設定檔。
+* **[!UICONTROL 輸出色彩設定檔]**：選取 **[!UICONTROL 使用預設]** 或Adobe Dynamic Media Classic上可用的其中一個ICC色彩設定檔。
 
   請另參閱 [ICC 設定檔](icc-profiles.md#icc_profiles)。
 
-* **[!UICONTROL 渲染方法]**  — 如果要覆寫色彩設定檔的預設色彩演算比對方式，請選取選項。 當其中一個預設ICC設定檔是色彩轉換的目標色域時，請使用此選項。 或者，此描述檔會描述輸出裝置（印表機或熒幕），而且指定的演算色彩比對方式對此描述檔有效。
+* **[!UICONTROL 渲染方法]**：如果您想要覆寫色彩設定檔的預設演算色彩比對方式，請選取選項。 當其中一個預設ICC設定檔是色彩轉換的目標色域時，請使用此選項。 或者，此描述檔會描述輸出裝置（印表機或熒幕），而且指定的演算色彩比對方式對此描述檔有效。
 
-* **[!UICONTROL 內嵌設定檔]**  — 選取此選項，以便當您在Adobe® Photoshop®中開啟此影像時，它會使用此設定檔。
+* **[!UICONTROL 內嵌設定檔]**：選取此選項，以便當您在Adobe® Photoshop®中開啟此影像時，它會使用此設定檔。
 
-* **[!UICONTROL 列印解析度]**  — 選取列印此影像的解析度；預設為72畫素。
+* **[!UICONTROL 列印解析度]**：選取列印此影像的解析度；預設為72畫素。
 
-* **[!UICONTROL URL修飾元]**  — 如果您偏好指定定義影像預設集的URL修飾元，而非設定，請在此輸入修飾元。
+* **[!UICONTROL URL修飾元]**：如果您偏好指定定義影像預設集的URL修飾元，而非設定，請在這裡輸入修飾元。
 
-* **[!UICONTROL 影像URL範例]**  — 列出「Dynamic Media影像伺服器」用來傳送含有您新增或編輯之影像預設集之影像的「原始」URL字串。 此URL字串會編碼您在「新增預設集」或「編輯預設集」畫面中選取的所有格式設定。
+* **[!UICONTROL 影像URL範例]**：列出「Dynamic Media影像伺服器」用來傳送含有您新增或編輯之影像預設集之影像的「原始」URL字串。 此URL字串會編碼您在「新增預設集」或「編輯預設集」畫面中選取的所有格式設定。
 
 ### 編輯、移除或停用影像預設集 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -288,17 +288,17 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 * 從下列最適化視訊編碼或單一編碼預設集中選取：
 
-   * **[!UICONTROL 16:9最適化視訊]**  — 建立16:9畫面寬高比的視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)，並透過最適合檢視者連線速度的解析度和位元速率進行最佳化。
+   * **[!UICONTROL 16:9最適化視訊]**：建立16:9畫面寬高比的視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)，並使用最符合檢視器連線速度的解析度和位元速率進行最佳化。
 
-   * **[!UICONTROL 4:3最適化視訊]**  — 建立4:3外觀比例視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)，並透過最符合檢視者連線速度的解析度和位元速率進行最佳化。
+   * **[!UICONTROL 4:3最適化視訊]**：建立4:3外觀比例視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)，並透過最符合檢視器連線速度的解析度和位元速率進行最佳化。
 
-   * **[!UICONTROL 自我調整視訊]**  — 單一編碼預設集，可與任何外觀比例搭配使用，建立視訊以傳送至行動裝置、平板電腦和案頭。 使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動調整比例，以保留視訊的外觀比例。
+   * **[!UICONTROL 自我調整視訊]**：單一編碼預設集，可與任何外觀比例搭配使用，建立視訊以傳送至行動裝置、平板電腦和案頭。 使用此預設集編碼而上載的來源視訊，會設定成固定的高度。不過，寬度會自動調整比例，以保留視訊的外觀比例。
 
      當您建立自己的自訂視訊編碼預設集時，也可預設使用「自動縮放」的彈性。
 
      另請參閱 [新增或編輯視訊編碼預設集](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL 自我調整視訊編碼（16:9或4:3）]**  — 建立16:9和4:3外觀比例視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)。 以最符合檢視器連線速度的解析度和位元速率最佳化。
+   * **[!UICONTROL 自我調整視訊編碼（16:9或4:3）]**：建立16:9和4:3外觀比例視訊，以傳送至桌上型電腦、行動裝置(iPhone、iPad、Android™)和平板電腦(iPad、Android™)。 以最符合檢視器連線速度的解析度和位元速率最佳化。
 
      請參閱[最適化視訊編碼 (16:9 或 4:3) 視訊預設集](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)。
 
@@ -318,17 +318,17 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 編碼預設集選項的參數如下:
 
-* **[!UICONTROL 目標連線速度]**  — 目標使用者的網際網路連線速度。
+* **[!UICONTROL 目標連線速度]**：目標使用者的網際網路連線速度。
 
-* **[!UICONTROL 編碼檔案字尾]**  — 附加至已編碼視訊檔案做為識別用途的尾碼。
+* **[!UICONTROL 編碼檔案字尾]**：附加至已編碼視訊檔案做為識別用途的尾碼。
 
-* **[!UICONTROL 視訊位元速率（資料速率）]**  — 經過編碼而構成視訊播放一秒的資料量（以每秒千位元為單位）。
+* **[!UICONTROL 視訊位元速率（資料速率）]**：經過編碼而構成視訊播放一秒的資料量（以每秒千位元為單位）。
 
-* **[!UICONTROL 畫素寬度/高度]**  — 熒幕影像的寬度尺寸（以畫素為單位）；熒幕影像的高度尺寸（以畫素為單位）。
+* **[!UICONTROL 畫素寬度/高度]**：熒幕影像的寬度維度（以畫素為單位）；熒幕影像的高度維度（以畫素為單位）。
 
-* **[!UICONTROL 每秒影格(fps)]**  — 視訊每秒的影格數（或靜止影像）。 在美國和日本，大部分視訊以 29.97 fps 拍攝；在歐洲和亞洲 (不包括日本)，大部分視訊以 25 fps 拍攝。電影的拍攝速度為24 fps。
+* **[!UICONTROL 每秒影格(fps)]**：視訊的每秒影格數，或靜止影像數。 在美國和日本，大部分視訊以 29.97 fps 拍攝；在歐洲和亞洲 (不包括日本)，大部分視訊以 25 fps 拍攝。電影的拍攝速度為24 fps。
 
-* **[!UICONTROL 音訊位元速率]**  — 經過編碼，構成音訊播放一秒的資料量（以每秒千位元為單位）。
+* **[!UICONTROL 音訊位元速率]**：已編碼為構成音訊播放一秒的資料量（以每秒千位元為單位）。
 
 下表說明在選取視訊預設集及用來指定編碼檔案的命名慣例時建議的最佳實踐。
 
@@ -371,7 +371,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
-**H264主要3.2 — 音訊AAC、MP4副檔名**
+**H264主要3.2：音訊AAC、MP4副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | FPS | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,7 +384,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 | 7 | 4:3、640x480 (1200 Kbps) | 1.5 Mbps | _640x480_1200K | 1200 | 640x480 | 與來源同 | 96 | 中高解析度 |
 | 8 | 4:3、1280x960 (2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 | 1280x960 | 與來源同 | 128 | 高畫質 |
 
-**OGG Theora Vorbis - OGV副檔名**
+**OGG Theora Vorbis： OGV副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊資料速率 (Kbps) | 寬度/高度 (像素) | FPS | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -403,7 +403,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關編碼選項參數的資訊，請參閱[關於編碼預設集選項](application-setup.md#about_encoding_preset_options)。
 
-**H264基準2.1 — 音訊AAC，MP4副檔名**
+**H264基準2.1：音訊AAC，MP4副檔名**
 
 |  | 編碼預設集名稱/工具提示文字 | 目標連線速度 (Kbps) | 編碼檔案字尾 | 視訊位元速率 (Kbps) | 像素寬度/高度 | FPS | 音訊位元速率 (Kbps) | 建議 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -422,7 +422,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 >[!NOTE]
 >
->**Flash檢視器生命週期結束通知**  — 自2017年1月31日起，Adobe Dynamic Media Classic正式停止支援Flash檢視器平台。
+>**Flash檢視器生命週期結束通知**：自2017年1月31日起，Adobe Dynamic Media Classic正式停止支援Flash檢視器平台。
 
 *檢視器預設集*&#x200B;是決定使用者如何在電腦螢幕和行動裝置上檢視多媒體資產的設定集合。身為一名管理員，您可以建立檢視器預設集。設定可用於檢視器設定選項的陣列。例如，您可以變更檢視器顯示大小、縮放行為、色彩方案、邊框和字型。
 
@@ -448,23 +448,23 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 ### 檢視器支援回應式設計的網頁 {#viewer-support-for-responsive-designed-web-pages}
 
-不同網頁有不同的需求。有時候，您會想要網頁提供連結，在個別瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，必須直接將HTML5檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能會有靜態配置。 或是「回應式」功能，且在不同裝置或不同瀏覽器視窗大小中顯示的方式有所不同。 為因應這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器同時支援靜態網頁和回應式設計的網頁。
+不同的網頁有不同的需求。 有時候，您會想要一個提供連結的網頁，該連結會在個別的瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，必須直接將HTML5檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能會有靜態配置。 或是「回應式」功能，且在不同裝置或不同瀏覽器視窗大小中顯示的方式有所不同。 為因應這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器同時支援靜態網頁和回應式設計的網頁。
 
-如需如何將回應式檢視器內嵌至網頁的詳細資訊，請參閱 [關於Responsive影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)， [使用回應式影像資料庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、和 [命令參考 — 命令屬性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+如需如何將回應式檢視器內嵌至網頁的詳細資訊，請參閱 [關於Responsive影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)， [使用回應式影像資料庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、和 [命令參考：命令屬性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### 檢視器預設集類型 {#viewer-preset-types}
 
 管理員可以建立和自訂以下類型的檢視器預設集:
 
-* **[!UICONTROL eCatalog檢視器]**  — 模擬讀取列印型錄的體驗。 您可以在不同頁面間移動、放大和縮小頁面上的專案、使用影像地圖來檢視頁面上專案的詳細資訊，或搜尋目錄。 如果對應區域具有有效的rollover_key屬性，您也可以包含「資訊」面板來顯示詳細資訊和影像對應專案。 若要包含「資訊」面板，請在「eCatalog檢視器預設集」視窗的「資訊」面板「設定」面板中指定「資訊伺服器URL」。
+* **[!UICONTROL eCatalog檢視器]**：模擬讀取列印目錄的體驗。 您可以在不同頁面間移動、放大和縮小頁面上的專案、使用影像地圖來檢視頁面上專案的詳細資訊，或搜尋目錄。 如果對應區域具有有效的rollover_key屬性，您也可以包含「資訊」面板來顯示詳細資訊和影像對應專案。 若要包含「資訊」面板，請在「eCatalog檢視器預設集」視窗的「資訊」面板「設定」面板中指定「資訊伺服器URL」。
 
-* **[!UICONTROL 色票集檢視器]**  — 以不同的色彩、材質、紋理、表面處理或網狀物顯示影像。 使用者可選取縮圖以檢視影像中的變化。
+* **[!UICONTROL 色票集檢視器]**：以不同的顏色、材質、紋理、光澤度或光纖顯示影像。 使用者可選取縮圖以檢視影像中的變化。
 
-* **[!UICONTROL 混合媒體集檢視器]**  — 在一個檢視器中顯示不同型別的媒體。 您可以加入色票集、迴轉集、影像和視訊。您可以設定標籤以包含不同型別的內容，例如影像集的標籤和視訊的標籤。 從混合媒體集播放的視訊會使用標準視訊檢視器，該檢視器具有時間軸和視訊控制項，例如「停止」、「暫停」、「倒帶」和「播放」。 當您設定混合媒體集檢視器預設集時，請指定您要用於混合媒體集中不同資產型別的檢視器。 您也可以使用格線檢視器或轉盤檢視器來檢視混合媒體集。
+* **[!UICONTROL 混合媒體集檢視器]**：在一個檢視器中顯示不同型別的媒體。 您可以加入色票集、迴轉集、影像和視訊。您可以設定標籤以包含不同型別的內容，例如影像集的標籤和視訊的標籤。 從混合媒體集播放的視訊會使用標準視訊檢視器，該檢視器具有時間軸和視訊控制項，例如「停止」、「暫停」、「倒帶」和「播放」。 當您設定混合媒體集檢視器預設集時，請指定您要用於混合媒體集中不同資產型別的檢視器。 您也可以使用格線檢視器或轉盤檢視器來檢視混合媒體集。
 
-* **[!UICONTROL 迴轉集檢視器]**  — 提供影像的多個檢視，讓使用者可以轉動物件來檢查不同的側邊和角度。
+* **[!UICONTROL 迴轉集檢視器]**：提供影像的多個檢視，讓使用者可以轉動物件來檢查不同的側邊和角度。
 
-* **視訊檢視器**  — 使用來源檔案的解析度尺寸或自訂大小來顯示視訊。 Adobe Dynamic Media Classic隨附許多預先定義的視訊檢視器預設集，以供您播放視訊，如果您是管理員，可以建立自訂視訊檢視器預設集。 設定Video Viewer有12種以上的不同設定。 您可以設定其：
+* **視訊檢視器**：使用來源檔案的解析度維度或自訂大小來顯示視訊。 Adobe Dynamic Media Classic隨附許多預先定義的視訊檢視器預設集，以供您播放視訊，如果您是管理員，可以建立自訂視訊檢視器預設集。 設定Video Viewer有12種以上的不同設定。 您可以設定其：
 
    * 大小
    * 前景和背景顏色
@@ -474,11 +474,11 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
    * 社交功能
    * 和說明
 
-* **[!UICONTROL 縮放檢視器]**  — 提供三種縮放檢視器型別的選擇：
+* **[!UICONTROL 縮放檢視器]**：提供三種縮放檢視器型別的選擇：
 
-* **[!UICONTROL 縮放檢視器]**  — 可讓使用者透過選取區域來放大該區域。 他們可以選取控制項來放大、縮小影像，以及將影像重設為預設大小。
+* **[!UICONTROL 縮放檢視器]**：可讓使用者透過選取區域來放大該區域。 他們可以選取控制項來放大、縮小影像，以及將影像重設為預設大小。
 
-* **[!UICONTROL 縮放檢視器：彈出式]**  — 在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
+* **[!UICONTROL 縮放檢視器：彈出式]**：在原始影像旁顯示縮放區域的第二個影像。 沒有控制項可供使用，使用者僅需將選取範圍移動至要檢視的區域上。
 
 決定此檢視器的完整頻寬使用情況時，請考量檢視器會同時處理主要影像和彈出影像。主要影像大小 (「舞台寬度」和「舞台高度」) 和「縮放係數」會決定彈出影像大小。若要避免彈出檔案大小過大，請平衡以下兩個值: 如果您的主要影像較大，請降低「縮放係數」值。(「彈出寬度」和「彈出高度」會決定彈出視窗的大小，但不會決定提供給檢視器之彈出影像的大小。)
 
@@ -492,7 +492,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 另請參閱 [Adobe檢視器參考資料庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-如需有關檢視器支援的 Web 瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
+如需有關檢視器支援的網頁瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
 另請參閱 [Adobe檢視器參考發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
@@ -566,28 +566,28 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 「檢視器預設集」畫面提供了執行下列工作的工具:
 
-* **新增預設集**  — 選取 **[!UICONTROL 新增]** 並在「新增檢視器預設集」對話方塊中進行選擇。
+* **新增預設集**：選取 **[!UICONTROL 新增]** 並在「新增檢視器預設集」對話方塊中進行選擇。
 
       請參閱[新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
   
-* **編輯預設集**  — 選取預設集，然後選取「 」 **[!UICONTROL 編輯]**.
+* **編輯預設集**：選取預設集，然後選取 **[!UICONTROL 編輯]**.
 
       請參閱[新增和編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
   
-* **刪除預設集**  — 選取預設集，然後選取「 」 **[!UICONTROL 刪除]**.
+* **刪除預設集**：選取預設集，然後選取 **[!UICONTROL 刪除]**.
 
-* **匯出預設集**  — 選取HTML5檢視器預設集。 然後按一下 **[!UICONTROL 匯出]** 以下載檢視器外觀，以便將它當作建立及新增其他檢視器預設集的基礎。
+* **匯出預設集**：選取HTML5檢視器預設集。 然後按一下 **[!UICONTROL 匯出]** 以下載檢視器外觀，以便將它當作建立及新增其他檢視器預設集的基礎。
 
       請參閱[匯出HTML5檢視器預設集](application-setup.md#exporting_an_html5_viewer_preset)。
   
-* **篩選檢視器預設集清單**  — 使用這些工具來篩選清單：
+* **篩選檢視器預設集清單**：使用這些工具來篩選清單：
 
       *開啟**作用中/非作用中**下拉式清單，並選取選項以顯示作用中的預設集、非作用中的預設集或所有預設集。
       *開啟**檢視器**下拉式清單，並選取選項以僅檢視特定型別的檢視器。 選取**[!UICONTROL 所有檢視器]**一下以檢視所有檢視器。
   
-* **排序預設集**  — 選取欄標題(**[!UICONTROL 作用中]**， **[!UICONTROL 型別]**， **[!UICONTROL 預設集]**，或 **[!UICONTROL Platform]**)來排序欄上的清單。 第二次選取欄標題，依遞減（或遞增）順序排序清單。
+* **排序預設集**：選取欄標題(**[!UICONTROL 作用中]**， **[!UICONTROL 型別]**， **[!UICONTROL 預設集]**，或 **[!UICONTROL Platform]**)來排序欄上的清單。 第二次選取欄標題，依遞減（或遞增）順序排序清單。
 
-* **啟用和停用預設集**  — 選取預設集，然後選取其「作用中」選項，如此您便可啟用或停用預設集。
+* **啟用和停用預設集**：選取預設集，然後選取其「作用中」選項，如此您便可啟用或停用它。
 
       請參閱[啟動或停用檢視器預設集](application-setup.md#activating_or_deactivating_viewer_presets)。
   
@@ -611,15 +611,15 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 1. 在「檢視器預設集」頁面中，新增或編輯「檢視器預設集」畫面上的「檢視器預設集」 。
 
-   * **新增**  — 在工具列上，選取 **[!UICONTROL 新增]**. 在「新增檢視器預設集」對話方塊中，選取平台，然後選取多媒體資產型別。
+   * **新增**：在工具列上，選取 **[!UICONTROL 新增]**. 在「新增檢視器預設集」對話方塊中，選取平台，然後選取多媒體資產型別。
 
          選取**[!UICONTROL 另存為]完成檢視器預設集的建立時**一下。
      
-   * **從現有的檢視器預設集開始新增**  — 在表格中，選取視訊檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]** （在工具列上）。
+   * **從現有的檢視器預設集開始新增**：在表格中，選取視訊檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]** （在工具列上）。
 
          重新設定Video Viewer後，請選取「 **[!UICONTROL 另存為]如**使用「預設集名稱」文字欄位中的不同名稱儲存預設集。
      
-   * **編輯**  — 選取現有的檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**.
+   * **編輯**：選取現有的檢視器預設集，然後選取「 」 **[!UICONTROL 編輯]**.
 
 1. 在「配置檢視器」頁面的「預設集名稱」欄位中，輸入或編輯預設集名稱。
 1. 設定其它想要的選項。
@@ -693,7 +693,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 發佈資產後，您就可以複製 URL，以「檢視器預設集」的設定來顯示資產。
 
-URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應用程式的 HTML 代碼中加以使用。
+URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應用程式的HTML程式碼中使用它。
 
 **若要複製檢視器預設集的URL：**
 
@@ -715,7 +715,7 @@ URL 便會複製到剪貼簿。您可以視需要在網頁、行動裝置或應�
 
 ### 複製檢視器預設集的內嵌程式碼 {#copying-the-embed-code-of-a-viewer-preset}
 
-您可使用「內嵌程式碼」功能查看所選「檢視器預設集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。
+您可使用「內嵌程式碼」功能查看所選「檢視器預設集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。
 
 不可在「內嵌程式碼」對話框中編輯程式碼。
 
@@ -836,31 +836,31 @@ Adobe Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員�
 1. 選取 **[!UICONTROL 新增]**
 1. 在「自訂欄位」對話框中，設定您要的選項。
 
-   * **[!UICONTROL 名稱]**  — 輸入中繼資料欄位的名稱。
+   * **[!UICONTROL 名稱]**：輸入中繼資料欄位的名稱。
 
-   * **[!UICONTROL 型別]**  — 選取一個選項，以定義使用者可在中繼資料欄位中輸入的資訊型別：
+   * **[!UICONTROL 型別]**：選取一個選項，定義使用者可在中繼資料欄位中輸入的資訊型別：
 
-   * **[!UICONTROL 字串]**  — 文字字串。
+   * **[!UICONTROL 字串]**：文字字串。
 
-   * **[!UICONTROL 整數]**  — 整數。
+   * **[!UICONTROL 整數]**：整數。
 
-   * **[!UICONTROL 浮點數]**  — 浮點數。
+   * **[!UICONTROL 浮點數]**：浮點數。
 
-   * **[!UICONTROL 是/否]**  — 是/否布林值。
+   * **[!UICONTROL 是/否]**：是/否布林值。
 
-   * **[!UICONTROL 日期]**  — 日期。 接受 MM/DD/YYYY 格式。
+   * **[!UICONTROL 日期]**：日期。 接受 MM/DD/YYYY 格式。
 
-   * **[!UICONTROL 檔案名稱]**  — 檔案的名稱。
+   * **[!UICONTROL 檔案名稱]**：檔案的名稱。
 
-   * **[!UICONTROL 顏色]**  — 顏色的名稱。
+   * **[!UICONTROL 顏色]**：顏色的名稱。
 
-   * **[!UICONTROL Dimension]**  — 資產的寬度和高度。
+   * **[!UICONTROL Dimension]**：資產的寬度和高度。
 
-   * **[!UICONTROL 無型別]**  — 提供回溯相容性。 請勿選取此選項。
+   * **[!UICONTROL 無型別]**：用於回溯相容性。 請勿選取此選項。
 
-   * **[!UICONTROL 預設值]**  — 選擇性。 輸入使用者最有可能在欄位中輸入的值。 您輸入的值會成為您建立之欄位的預設值。
+   * **[!UICONTROL 預設值]**：選填。 輸入使用者最有可能在欄位中輸入的值。 您輸入的值會成為您建立之欄位的預設值。
 
-   * **[!UICONTROL 套用至]**  — 選擇性。 如果您希望中繼資料欄位僅套用至特定型別的資產，請選取資產型別。
+   * **[!UICONTROL 套用至]**：選填。 如果您希望中繼資料欄位僅套用至特定型別的資產，請選取資產型別。
 
      >[!NOTE]
      >
@@ -876,11 +876,11 @@ Adobe Dynamic Media Classic隨附預先定義的中繼資料檢視，管理員�
 
 若要開啟此畫面，請前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義的欄位]**.
 
-* **編輯欄位**  — 選取欄位，然後選取 **[!UICONTROL 編輯]**.
+* **編輯欄位**：選取欄位，然後選取 **[!UICONTROL 編輯]**.
 
-* **刪除欄位**  — 選取欄位，然後選取 **[!UICONTROL 刪除]**.
+* **刪除欄位**：選取欄位，然後選取 **[!UICONTROL 刪除]**.
 
-* **啟用欄位**  — 選取或取消選取 **[!UICONTROL 作用中]** 欄位名稱旁的選項。 如果您處於公司管理角色，此選項不會顯示。 由於此選項與MediaPortal有關，因此您必須選取（開啟） 「在個人設定中顯示MediaPortal功能」才能檢視已啟用的欄位。
+* **啟用欄位**：選取或取消選取 **[!UICONTROL 作用中]** 欄位名稱旁的選項。 如果您處於公司管理角色，此選項不會顯示。 由於此選項與MediaPortal有關，因此您必須選取（開啟） 「在個人設定中顯示MediaPortal功能」才能檢視已啟用的欄位。
 
 ## 最佳化檔案 {#optimize-files}
 

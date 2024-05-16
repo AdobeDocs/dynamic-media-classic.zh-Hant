@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ ht-degree: 30%
 
 若要從垃圾桶資料夾中永久刪除資產，請選取 **[!UICONTROL 垃圾桶]** 圖示。 在「垃圾桶」資料夾頁面上，執行下列任一項作業：
 
-* **刪除個別資產**  — 選取您要永久刪除的資產，然後前往 **[!UICONTROL 檔案]** > **[!UICONTROL 從垃圾桶清空]**.
+* **刪除個別資產**：選取您要永久刪除的資產，然後前往 **[!UICONTROL 檔案]** > **[!UICONTROL 從垃圾桶清空]**.
 
-* **刪除所有資產**  — 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 清空垃圾桶]**.
+* **刪除所有資產**：前往 **[!UICONTROL 檔案]** > **[!UICONTROL 清空垃圾桶]**.
 
 >[!MORELIKETHIS]
 >

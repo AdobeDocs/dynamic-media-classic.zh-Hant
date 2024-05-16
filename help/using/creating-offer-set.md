@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 從以下類型的提案集中建立一個提案集:
 
-* **影像**  — 您可以組合選件集的影像。 每個影像在集中包含不同的選件。
+* **影像**：您可以組合選件集的影像。 每個影像在集中包含不同的選件。
 
-* **影像範本**  — 您可以在Adobe Dynamic Media Classic中使用 **[!UICONTROL 建置]** >基本範本指令。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。如需建立及引數化影像範本的相關資訊，請參閱 [建立範本引數](creating-template-parameters.md#creating_template_parameters).
+* **影像範本**：您可以在Adobe Dynamic Media Classic中使用將影像範本引數化 **[!UICONTROL 建置]** >基本範本指令。 透過參數，可交換出及自訂範本的各個組件 (文字框中的文字、不同的影像)。對於提案集，舉例來說，您可以使用範本參數在提案集中的同一影像上建立變體。如需建立及引數化影像範本的相關資訊，請參閱 [建立範本引數](creating-template-parameters.md#creating_template_parameters).
 
 另請參閱 [範本基本需知](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 訓練影片。
 
-* **視訊**  — 您可以組合選件集的視訊。 每個視訊是提案集中的一個不同提案。
+* **視訊**：您可以為選件集組合視訊。 每個視訊是提案集中的一個不同提案。
 
 ## 使用引數化範本建立優惠方案集 {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
    頁面的左側列出了範本中的參數及參數值。
 
-1. 變更參數值以建立提案。例如，在文字欄位中輸入不同文字、變更圖層大小、用一個影像交換另一個影像或者選擇不同的檢視器預設集。
+1. 變更參數值以建立提案。例如，在文字欄位中輸入不同的文字、變更圖層大小、將一個影像交換給另一個影像，或選擇不同的「檢視器預設集」。
 1. 選取 **[!UICONTROL 儲存]** 或 **[!UICONTROL 另存新檔**]** 將優惠儲存為優惠方案集的一部分。
 
    Test&amp;Target選件集頁面會列出您建立的選件。
@@ -93,9 +93,9 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 1. 組合選件集的影像或視訊。 從「Test&amp;Target選件集」畫面或「格線檢視」或「清單檢視」開始，並使用下列其中一種方法：
 
-   * **Test&amp;Target選件集畫面**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**. 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Test&amp;Target選件集畫面**：前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**. 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
-   * **格點檢視或清單檢視**  — 選取影像或影片，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**.
+   * **格點檢視或清單檢視**：選取影像或影片，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**.
 
 1. 或者，選取影像或視訊，然後選取 **[!UICONTROL 預覽]**. 在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您可以變更選件集中的所有影像或視訊。
 
@@ -127,10 +127,10 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 1. 若要編輯選件集，請在「網格檢視」或「清單檢視」中顯示選件集，然後選取其 **[!UICONTROL 編輯]** 變換按鈕。
 1. 在Test&amp;Target選件集頁面中，執行下列任一項作業：
 
-   * **移除選件**  — 選取選件，然後選取「 」 **[!UICONTROL 刪除]** 以從選件集移除選件。
-   * **新增優惠方案**  — 如何新增優惠方案取決於您使用的優惠方案集型別：
-      * **範本**  — 選取 **[!UICONTROL 新增並預覽]**，並在新增和預覽選件頁面上建立另一個選件。
-      * **影像和影片**  — 將影像或視訊拖曳至Test&amp;Target選件集頁面。
+   * **移除選件**：選取選件，然後選取 **[!UICONTROL 刪除]** 以從選件集移除選件。
+   * **新增優惠方案**：新增優惠的方式取決於您使用的優惠方案集型別：
+      * **範本**：選取 **[!UICONTROL 新增並預覽]**，並在新增和預覽選件頁面上建立另一個選件。
+      * **影像和影片**：將影像或影片拖曳至Test&amp;Target選件集頁面。
 
    >[!NOTE]
    >

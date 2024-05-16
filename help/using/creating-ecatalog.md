@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ ht-degree: 44%
 
 1. 使用下列其中一個技巧來開始建立 eCatalog:
 
-   * **請先選取檔案**  — 在「瀏覽」面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
+   * **請先選取檔案**：在瀏覽面板中，選取檔案，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**.
 
-   * **從eCatalog畫面開始**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
+   * **從eCatalog畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL eCatalogs]**. 在資產庫中選取檔案夾，並將檔案從檔案夾中拖曳至「eCatalog」頁面的「排序頁面」頁面。
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ ht-degree: 44%
 1. 或者，您可以選取個別頁面或跨頁頁面，然後選擇 **[!UICONTROL 1欄式]**， **[!UICONTROL 2欄式]**，或 **[!UICONTROL 自訂]** 按鈕。 在 **[!UICONTROL 變更eCatalog版面]** 對話方塊中，選取 **[!UICONTROL 展開選取專案]** 選項並選取 **[!UICONTROL 確定]**.
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
-   * **拖曳**  — 將頁面或跨頁拖曳到新位置。 垂直列會顯示移動頁面的位置。
+   * **拖曳**：將頁面或跨頁拖曳至新位置。 垂直列會顯示移動頁面的位置。
 
-   * **移至按鈕**  — 選取頁面或跨頁，選取 **[!UICONTROL 移至]**，然後在功能表中選擇您想讓頁面在之前顯示的頁面。
+   * **移至按鈕**：選取頁面或跨頁，選取 **[!UICONTROL 移至]**，然後在功能表中選擇您想讓頁面在之前顯示的頁面。
 
-   * **序號**  — 在清單檢視中，在「序號」欄位中輸入頁碼。
+   * **序號**：在清單檢視的序列欄位中輸入頁碼。
 
 1. 完成時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**.

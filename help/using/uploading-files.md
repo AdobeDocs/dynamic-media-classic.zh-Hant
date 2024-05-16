@@ -9,10 +9,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '3869'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -141,13 +141,13 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 您選擇在Adobe Dynamic Media Classic上儲存內容的資料夾命名方法和結構取決於貴組織的需求。 以下是一些檔案夾結構範例:
 
-**以SKU為基礎**  — 資料夾會根據SKU或專案編號來命名。 例如，為所有以 0、20、30 開頭的編號序列分別建立單獨的檔案夾。
+**以SKU為基礎**：資料夾是根據SKU或專案編號來命名。 例如，為所有以 0、20、30 開頭的編號序列分別建立單獨的檔案夾。
 
-**品牌型**  — 針對擁有多個品牌系列的製造商和從其他公司行銷其他品牌的零售商，將檔案分割為以不同品牌命名的產品資料夾。
+**品牌型**：針對擁有多個品牌系列的製造商和從其他公司行銷其他品牌的零售商，將檔案分割為以不同品牌命名的產品資料夾。
 
-**以專案為基礎**  — 根據轉出/放置日期或專案名稱來組織資料夾。 主要產生 eCatalog 的客戶喜歡使用這種方法。
+**以專案為基礎**：資料夾會根據轉出/放置日期或專案名稱進行組織。 主要產生 eCatalog 的客戶喜歡使用這種方法。
 
-**網站資料夾階層的映象**  — 此資料夾結構會映象網站的資料夾結構，具有名為的資料夾（例如，產品類別）。
+**網站資料夾階層的映象**：此檔案夾結構映象網站的檔案夾結構，具有名為的檔案夾，例如，用於產品類別。
 
 ## 關於上傳檔案 {#uploading-your-files}
 
@@ -207,74 +207,74 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 
 上傳檔案時，您可以在「上傳工作選項」對話方塊中選擇以下選項：
 
-* **工作**  — 選取 **[!UICONTROL 工作]** 以選擇影響整個上載工作的選項。
+* **工作**：選取 **[!UICONTROL 工作]** 以選擇影響整個上載工作的選項。
 
   您也可以選擇 *預設* 使用上傳作業的選項 **[!UICONTROL 預設上傳選項]** 對話方塊。 前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 預設上傳選項]**，然後設定您想要的預設選項。
 
-   * **[!UICONTROL 時間]**  — 只有在選取 **[!UICONTROL 透過FTP]** 標籤。
-      * **[!UICONTROL 單次]**  — 指定執行一次的上載工作。 選項包括：
-         * **[!UICONTROL 現在]**  — 選取後立即執行上載工作 **[!UICONTROL 儲存]** 在「上載工作選項」對話方塊中，然後選取 **[!UICONTROL 提交上傳]** 上傳頁面上。
-         * **[!UICONTROL 排程於稍後進行]**  — 選取您要執行上載工作的年、月、日和時間（以15分鐘為增量）。
-      * **[!UICONTROL 週期性]**  — 指定每日、每週或每月執行的上傳工作。 或者，根據您自己的規格自訂上載工作。
-         * **[!UICONTROL 每日]**  — 設定每天要執行工作的時間。 如果您希望工作只在星期一到星期五執行，請選取 **[!UICONTROL 僅限工作日]**.
-         * **[!UICONTROL 每週]**  — 選擇一週中的特定日和您要執行工作的時間。
-         * **[!UICONTROL 每月]**  — 選擇您想要執行工作的特定日期（一個月或一週中的某天），包括開始時間。
-         * **[!UICONTROL 自訂]**  — 根據您自己的規格自訂上載或發佈工作時間間隔。 另請參閱 [建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+   * **[!UICONTROL 時間]**：此選項僅在您選取 **[!UICONTROL 透過FTP]** 標籤。
+      * **[!UICONTROL 單次]**：指定執行一次的上傳工作。 選項包括：
+         * **[!UICONTROL 現在]**：選取後立即執行上傳工作 **[!UICONTROL 儲存]** 在「上載工作選項」對話方塊中，然後選取 **[!UICONTROL 提交上傳]** 上傳頁面上。
+         * **[!UICONTROL 排程於稍後進行]**：選取您要執行上傳工作的年、月、日和時間（以15分鐘為增量）。
+      * **[!UICONTROL 週期性]**：指定每日、每週或每月執行的上傳工作。 或者，根據您自己的規格自訂上載工作。
+         * **[!UICONTROL 每日]**：設定您想要工作每天執行的時間。 如果您希望工作只在星期一到星期五執行，請選取 **[!UICONTROL 僅限工作日]**.
+         * **[!UICONTROL 每週]**：選擇一週中的特定日子和您要執行工作的時間。
+         * **[!UICONTROL 每月]**：選擇您想要工作執行的特定日期（一個月或一週中的某天），包括開始時間。
+         * **[!UICONTROL 自訂]**：根據您自己的規格自訂上傳或發佈工作時間間隔。 另請參閱 [建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL 上傳後發佈]**  — 若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 選取此選項即可自動發佈您上載的資產。當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
+   * **[!UICONTROL 上傳後發佈]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 選取此選項即可自動發佈您上載的資產。當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
 
-   * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**  — 若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 如果您要以上載的檔案來取代現有同名檔案，請選取此選項。「上載」頁面上也有此選項。 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
+   * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 如果您要以上載的檔案來取代現有同名檔案，請選取此選項。「上載」頁面上也有此選項。 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
 
-   * **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]**  — 若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。
+   * **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。
 如果您想要自動擷取已上傳之ZIP或TAR檔案中的所有檔案，請選取此選項。 「工作選項」對話方塊中也可以使用此相同選項。
 
-   * **[!UICONTROL 包含子資料夾]**  — 僅當您選取 **[!UICONTROL 透過FTP]** 標籤。
+   * **[!UICONTROL 包含子資料夾]**：僅當您已選取 **[!UICONTROL 透過FTP]** 標籤。
 如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的資料夾及其子資料夾的名稱會自動在Adobe Dynamic Media Classic中輸入。
 
-   * **[!UICONTROL 處理中繼資料檔案]**  — 僅當您選取 **[!UICONTROL 透過FTP]** 標籤。 如果您想要上傳以Tab字元分隔的或XML檔案，以新增中繼資料至多個資產，請選取此選項。
+   * **[!UICONTROL 處理中繼資料檔案]**：僅當您選取 **[!UICONTROL 透過FTP]** 標籤。 如果您想要上傳以Tab字元分隔的或XML檔案，以新增中繼資料至多個資產，請選取此選項。
 請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
-* **裁切選項**  — 若要自動裁切影像中的空白畫素，請開啟 **[!UICONTROL 裁切]** 功能表，選取 **[!UICONTROL 手動]**，並在「上」、「右」、「下」和「左」文字欄位中輸入畫素度量，從側面裁切。 您也可以選取 **[!UICONTROL Trim]** 在「裁切」功能表上，選擇下列選項：
+* **裁切選項**：若要自動裁切影像中的空白畫素，請開啟 **[!UICONTROL 裁切]** 功能表，選取 **[!UICONTROL 手動]**，並在「上」、「右」、「下」和「左」文字欄位中輸入畫素度量，從側面裁切。 您也可以選取 **[!UICONTROL Trim]** 在「裁切」功能表上，選擇下列選項：
 
-   * **[!UICONTROL 修剪依據]**  — 選擇根據顏色或透明度裁切：
-      * **[!UICONTROL 顏色]**  — 選擇「顏色」選項。 接著，選取「邊角」功能表，並選取最能代表您要裁切之空白顏色的影像邊角。
+   * **[!UICONTROL 修剪依據]**：選擇根據顏色或透明度裁切：
+      * **[!UICONTROL 顏色]**：選擇顏色選項。 接著，選取「邊角」功能表，並選取最能代表您要裁切之空白顏色的影像邊角。
 依據色彩修剪: 指定為 0 時，則僅當像素與您在影像邊角中所選取色彩完全相符時才會裁切像素。數值越接近 1，允許的色彩差異就越大。
-      * **[!UICONTROL 透明度]**  — 選擇 **[!UICONTROL 透明度]** 選項。
+      * **[!UICONTROL 透明度]**：選擇 **[!UICONTROL 透明度]** 選項。
 根據透明度裁剪：指定0可裁切透明畫素；數字越接近1則透明度越高。
-      * **[!UICONTROL 容許度]**  — 拖曳滑桿以指定從0到1的公差。
+      * **[!UICONTROL 容許度]**：拖曳滑桿以指定從0到1的容許度。
 
-* **色彩設定檔選項**  — 當您建立用於Adobe Dynamic Media Classic動態傳送的最佳化檔案時，請選擇色彩轉換：
+* **色彩設定檔選項**：當您建立用於Adobe Dynamic Media Classic動態傳送的最佳化檔案時，請選擇色彩轉換：
 
-   * **[!UICONTROL 預設色彩儲存]**  — 當影像包含色域資訊時，維持來源影像顏色；沒有色彩轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB 是在網頁上顯示影像時建議使用的色域。
-   * **[!UICONTROL 保留原始色域]**  — 保留原始顏色，而無須在擷取至Adobe Dynamic Media Classic時進行任何色彩轉換。 對於沒有內嵌色彩設定檔的影像，任何處理影像要求所需的色彩轉換，都會使用在「發佈」設定中設定的預設色彩設定檔來完成。 這些色彩設定檔並不總是與使用此選項建立的檔案中的色彩一致。 因此，最好使用「預設色彩保存」選項。
-   * **[!UICONTROL 自訂來源]** > **[!UICONTROL 至]**  — 開啟功能表，讓您選擇 **[!UICONTROL 轉換自]** 和 **[!UICONTROL 轉換為]** 色域。 這個進階選項會覆蓋來源檔案內嵌的任何色彩資訊。只有在您要提交的所有影像包含不正確或遺失色彩設定檔資料時，才選取此選項。
+   * **[!UICONTROL 預設色彩儲存]**：當影像包含色域資訊時，維持來源影像顏色；沒有色彩轉換。 幾乎所有影像目前都已內嵌適當的色彩設定檔。不過，如果 CMYK 來源影像沒有內嵌色彩設定檔，其色彩就會轉換為 sRGB (標準三原色) 色域。sRGB是在網頁上顯示影像的建議色域。
+   * **[!UICONTROL 保留原始色域]**：保留原始顏色，而無須在擷取至Adobe Dynamic Media Classic時進行任何顏色轉換。 對於沒有內嵌色彩設定檔的影像，任何處理影像要求所需的色彩轉換，都會使用在「發佈」設定中設定的預設色彩設定檔來完成。 這些色彩設定檔並不總是與使用此選項建立的檔案中的色彩一致。 因此，最好使用「預設色彩保存」選項。
+   * **[!UICONTROL 自訂來源]** > **[!UICONTROL 至]**：開啟功能表，供您選擇 **[!UICONTROL 轉換自]** 和 **[!UICONTROL 轉換為]** 色域。 這個進階選項會覆蓋來源檔案內嵌的任何色彩資訊。只有在您要提交的所有影像包含不正確或遺失色彩設定檔資料時，才選取此選項。
 
-* **影像編輯選項**  — 您可以保留影像中的剪裁&lt;>遮色片，並選擇色彩設定檔。
+* **影像編輯選項**：您可以保留影像中的剪裁&lt;>遮色片，並選擇色彩設定檔。
 另請參閱 [上傳時影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript®選項**  — 您可以點陣化PostScript®檔案、裁切檔案、維持透明背景、選擇解析度，以及選擇色域。
+* **PostScript®選項**：您可以點陣化PostScript®檔案、裁切檔案、維持透明背景、選擇解析度以及選擇色域。
 另請參閱 [使用PostScript和Illustrator檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Photoshop選項**  — 您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定到範本的方式。
+* **Photoshop選項**：您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定至範本的方式。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
-* **PDF選項**  — 您可以點陣化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇色域。
+* **PDF選項**：您可以點陣化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇色域。
 請參閱[PDF 上載選項](pdfs.md#pdf_upload_options)。
 
-* **Illustrator選項**  — 您可以點陣化Adobe Illustrator®檔案、維持透明背景、選擇解析度，以及選擇色域。
+* **Illustrator選項**：您可以點陣化Adobe Illustrator®檔案、維持透明背景、選擇解析度，以及選擇色域。
 另請參閱 [使用PostScript和Illustrator檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **EVIDEO選項**  — 您可以選擇視訊預設集，將視訊檔案轉碼。
+* **EVIDEO選項**：您可以透過選擇視訊預設集來轉碼視訊檔案。
 另請參閱 [使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **更多中繼資料**  — 輸入說明您要上傳之檔案的關鍵字。 用逗號分隔關鍵字。關鍵字可讓您更輕鬆地搜尋資產。
+* **更多中繼資料**：輸入說明您要上傳之檔案的關鍵字。 用逗號分隔關鍵字。關鍵字可讓您更輕鬆地搜尋資產。
 另請參閱 [執行進階搜尋](searching-assets.md#conducting_an_advanced_search).
 另請參閱 [上傳關鍵字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 訓練影片。
 
-* **批次集預設集**  — 如果要從上傳的檔案中建立影像集、迴轉集或色票集，請選取 **[!UICONTROL 作用中]** 欄，以顯示您要使用的預設集。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
+* **批次集預設集**：如果您想從上傳的檔案建立影像集、迴轉集或色票集，請選取 **[!UICONTROL 作用中]** 欄，以顯示您要使用的預設集。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
 請參閱[批次集預設集](application-setup.md#batch_set_presets)。
 
-* **進階**  — 請參閱 [上載後執行其他工作](uploading-files.md#follow-an-upload-with-another-job).
+* **進階**：請參閱 [上載後執行其他工作](uploading-files.md#follow-an-upload-with-another-job).
 
 ## 上載後執行其他工作 {#follow-an-upload-with-another-job}
 

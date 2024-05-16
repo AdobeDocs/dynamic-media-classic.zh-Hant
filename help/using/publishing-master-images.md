@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 # 發佈主要影像{#publishing-master-images}
 
-發佈影像檔案會將檔案發佈至Dynamic Media影像伺服器，以供您的網站和應用程式使用。 此外，在發佈程式期間，Adobe Dynamic Media Classic會啟用您網站和應用程式所需的URL字串。
+發佈影像檔案會將檔案發佈至Dynamic Media影像伺服器，以供您的網站和應用程式使用。 此外，在發佈程式中，Adobe Dynamic Media Classic會啟用您網站和應用程式所需的URL字串。
 
 ## 標籤要發佈的主要影像 {#marking-master-images-for-publish}
 

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 52%
@@ -98,6 +98,6 @@ ht-degree: 52%
 1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**.
 1. 在「群組清單」頁面上，選取某個群組，然後加以編輯或刪除。
 
-   **編輯群組**  — 選取 **[!UICONTROL 編輯]**，然後在「編輯群組」對話方塊中選擇選項。
+   **編輯群組**：選取 **[!UICONTROL 編輯]**，然後在「編輯群組」對話方塊中選擇選項。
 
-   **刪除群組**  — 選取 **[!UICONTROL 刪除]**.
+   **刪除群組**：選取 **[!UICONTROL 刪除]**.

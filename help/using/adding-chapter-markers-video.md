@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -65,7 +65,7 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 請以UTF8編碼儲存VTT檔案，這樣就能避免在章節標題文字中出現字元轉譯問題。
 
-   一般來說，您會想要將章節VTT檔案命名為與視訊檔案相同的名稱，並附加上 `chapters`. 如此一來，系統便可使用既有的網頁內容管理系統自動產生視訊 URL。
+   一般來說，您會想要將章節VTT檔案命名為與視訊檔案相同的名稱，並附加上 `chapters`. 如此一來，即可協助您使用現有的網頁內容管理系統，自動化視訊URL的產生作業。
 
 1. 在Adobe Dynamic Media Classic中，上傳您的WebVTT章節檔案。
 

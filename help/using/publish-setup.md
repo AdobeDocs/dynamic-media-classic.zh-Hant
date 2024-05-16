@@ -1,6 +1,6 @@
 ---
 title: 發佈設定
-description: 發佈設定可讓您決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳遞到網站或應用程式。
+description: 發佈設定可讓您決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳送到網站或應用程式。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -30,11 +30,11 @@ ht-degree: 30%
 
 ## 影像伺服器 {#image-server}
 
-「影像伺服器」頁面會建立從影像伺服器傳送影像的預設設定。 設定值可用於這五個類別（請參閱「影像伺服器」頁面本身，以取得設定的詳細說明）。
+「影像伺服器」頁面會建立從「影像伺服器」傳送影像的預設設定。 設定值可用於這五個類別（請參閱「影像伺服器」頁面本身，以取得設定的詳細說明）。
 
 請僅在Adobe Dynamic Media Classic支援人員的協助下變更這些設定。
 
-* **[!UICONTROL 目錄管理]**：這些設定會決定Adobe Dynamic Media Classic和目錄互動的方式。 與大部分的網頁伺服器不同，Dynamic Media影像伺服器URL呼叫會前往資訊清單或目錄檔案，而不是適當的影像檔案。 目錄檔案（不要與eCatalog混淆）包含發佈至影像伺服器的所有內容清單。 它也會包含每個影像的路徑。 如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+* **[!UICONTROL 目錄管理]**：這些設定會決定Adobe Dynamic Media Classic和目錄互動的方式。 與大部分的Web伺服器不同，Dynamic Media影像伺服器URL呼叫會前往資訊清單或目錄檔案，而不是適當的影像檔案。 目錄檔案（不要與eCatalog混淆）包含發佈至影像伺服器的所有內容清單。 它也會包含每個影像的路徑。 如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
 * **[!UICONTROL 要求屬性]**：這些設定對可從伺服器傳送的影像施加限制。 例如， *最大* **[!UICONTROL 回覆影像大小限制]** 是 **[!UICONTROL 寬度]** 5000和 **[!UICONTROL 高度]** 5000。
 
@@ -160,7 +160,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 | en， en_us， en_uk | 我的影像(_E)，我的影像 |
 | de， de_de， de_at | myImg_D， myImg |
 | fr | myImg_F， myImg |
-| 所有其他 | - |
+| 所有其他 | ： |
 
 ##### 地區設定不明時尋找localeMap
 
@@ -222,15 +222,15 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 「影像轉譯器」頁面會建立從影像轉譯伺服器傳送影像集的預設設定。 設定值可用於這五個類別（請參閱「影像伺服器」頁面本身，以取得設定的詳細說明）：
 
-* **[!UICONTROL 目錄管理]**  — 這些設定會決定Adobe Dynamic Media Classic和目錄檔案的互動方式。 Adobe Dynamic Media Classic轉譯器伺服器URL會呼叫目錄，然後呼叫從伺服器傳送影像。 請僅在Adobe Dynamic Media Classic支援人員的協助下變更這些設定。
+* **[!UICONTROL 目錄管理]**：這些設定會決定Adobe Dynamic Media Classic和目錄檔案的互動方式。 Adobe Dynamic Media Classic轉譯器伺服器URL會呼叫目錄，然後呼叫從伺服器傳送影像。 請僅在Adobe Dynamic Media Classic支援人員的協助下變更這些設定。
 
-* **[!UICONTROL 工作階段屬性]**  — 這些設定會建立錯誤引數、相對影像URL的URL，以及是否允許物件重疊。
+* **[!UICONTROL 工作階段屬性]**：這些設定會建立錯誤引數、相對影像URL的URL，以及是否允許物件重疊。
 
-* **[!UICONTROL 預設材質屬性]**  — 這些設定可建立影像的預設解析度和銳利化設定。
+* **[!UICONTROL 預設材質屬性]**：這些設定會建立影像的預設解析度和銳利化設定。
 
-* **[!UICONTROL 回應影像屬性]**  — 這些設定與影像的預設外觀有關。
+* **[!UICONTROL 回應影像屬性]**：這些設定與影像的預設外觀有關。
 
-* **[!UICONTROL 色彩管理屬性]**  — 這些設定與影像的預設色彩設定有關。
+* **[!UICONTROL 色彩管理屬性]**：這些設定與影像的預設顏色設定相關。
 
 ## 暈映 {#vignette}
 

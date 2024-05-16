@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
 # 將混合媒體集連結至網頁{#linking-a-mixed-media-set-to-a-web-page}
 
-發佈混合媒體集後，您可以取得其相關聯的URL，以用於您的網站或應用程式。 然後，您便可以視需要部署 URL，以便使用者在您的網站或應用程式中檢視混合媒體集。
+發佈混合媒體集後，您可以取得其相關聯的URL，以用於您的網站或應用程式。 之後，您可以視需要部署URL，讓使用者可以在您的網站或應用程式上檢視混合媒體集。
 
 ## 取得混合媒體集 URL {#obtain-a-mixed-media-set-url}
 
@@ -40,15 +40,15 @@ ht-degree: 43%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-## 增加混合媒體集 URL 至網頁 {#add-mixed-media-set-urls-to-your-web-page}
+## 將混合媒體集URL新增至網頁 {#add-mixed-media-set-urls-to-your-web-page}
 
 部署混合媒體集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取後，連結會啟動動態頁面（ASP或JSP），在混合媒體集檢視器中顯示混合媒體集。
 
 ## 複製混合媒體集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「混合媒體集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。不可在「內嵌程式碼」對話框中編輯程式碼。
+您可使用「內嵌程式碼」功能查看所選「混合媒體集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
-**複製「混合媒體集」檢視器的內嵌程式碼:**
+**複製混合媒體集檢視器的內嵌程式碼：**
 
 1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 混合媒體集]**.
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「混合媒體集」的資產資料夾。

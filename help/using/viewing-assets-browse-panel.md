@@ -10,7 +10,7 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 17%
@@ -21,11 +21,11 @@ ht-degree: 17%
 
 您可以選取「檢視」按鈕，來變更瀏覽面板中的資產檢視方式:
 
-* **格點檢視**  — 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 格點檢視]** 圖示可讓您在格線的縮圖表單中檢視資產。 在「格點檢視」中，您可以拖曳「縮圖」滑桿來變更縮圖影像的大小。
+* **格點檢視**：在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 格點檢視]** 圖示可讓您在格線的縮圖表單中檢視資產。 在「格點檢視」中，您可以拖曳「縮圖」滑桿來變更縮圖影像的大小。
 
-* **清單檢視**  — 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 清單檢視]** 圖示以檢視清單中的資產。 清單會顯示每項資產的名稱、類型、建立日期及上次修改日期。根據您使用的資產型別，您也會取得其他資訊。 例如，您可以看到影像的尺寸與檔案大小。
+* **清單檢視**：在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 清單檢視]** 圖示以檢視清單中的資產。 清單會顯示每項資產的名稱、類型、建立日期及上次修改日期。根據您使用的資產型別，您也會取得其他資訊。 例如，您可以看到影像的尺寸與檔案大小。
 
-* **詳細資料檢視**  — 選取資產。 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 詳細資料檢視]** 圖示以在「詳細資料檢視」中檢查資產。 您也可以連按兩下資產，或選取該資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]** 以在「詳細資料檢視」中檢視。 如果管理員已指定「顯示URL」偏好設定，則「詳細資料檢視」中會顯示所有資產的URL；不過，URL僅在資產發佈後有效。
+* **詳細資料檢視**：選取資產。 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 詳細資料檢視]** 圖示以在「詳細資料檢視」中檢查資產。 您也可以連按兩下資產，或選取該資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]** 以在「詳細資料檢視」中檢視。 如果管理員已指定「顯示URL」偏好設定，則「詳細資料檢視」中會顯示所有資產的URL；不過，URL僅在資產發佈後有效。
 
 >[!TIP]
 >

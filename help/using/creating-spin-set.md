@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ ht-degree: 44%
 1. 選取迴轉集的變換影像 **[!UICONTROL 編輯]** 按鈕。
 1. 請執行下列任一動作:
 
-   * **移除影像**  — 選取影像，然後選取 **[!UICONTROL 刪除]**.
+   * **移除影像**：選取影像，然後選取 **[!UICONTROL 刪除]**.
 
-   * **新增影像**  — 將影像拖曳至儲存格。
+   * **新增影像**：將影像拖曳至儲存格。
 
-   * **重新排序列（二維迴轉集）**  — 選取列選擇器方塊（位於列的左側），然後選取 **[!UICONTROL 將列下移]** 或 **[!UICONTROL 將列上移]**.
+   * **重新排序列（二維迴轉集）**：選取列選擇器方塊（位於列左側），然後選取 **[!UICONTROL 將列下移]** 或 **[!UICONTROL 將列上移]**.
 
-   * **新增列和儲存格**  — 在「列」方塊和「儲存格」方塊中輸入數字，以決定每列的列數和儲存格數。
+   * **新增列和儲存格**：在「列」方塊和「儲存格」方塊中輸入數字，以決定每列的列數和儲存格數。
 
 1. 完成編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
 1. 選取 **[!UICONTROL 儲存]**，選取儲存資料夾，輸入集名稱，然後選取 **[!UICONTROL 儲存]**.

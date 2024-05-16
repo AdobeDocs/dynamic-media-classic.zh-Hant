@@ -10,10 +10,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 範本可以包含任何數目的影像圖層和文字圖層。您可以將包含圖層的靜態檔案(例如圖層PSD檔案)轉換為範本，並在Adobe Dynamic Media Classic中建立範本。 您可以使用上傳至Adobe Dynamic Media Classic的字型，在範本中建立文字圖層。 將文字新增至範本後，您可以變更文字齊行、字型、字型大小及顏色來格式化文字。
 
-您可以在「引數」頁面將範本的任何方面轉換為可定址引數。 這樣做時，您可以變更要使用哪個圖層影像，或要在範本中使用的文字值。 這些參數是透過 URL 字串傳遞的，因此可以透過變更任何參數，動態自訂從影像伺服器產生的回覆影像。
+您可以在「引數」頁面將範本的任何方面轉換為可定址引數。 這樣做時，您可以變更要使用哪個圖層影像，或要在範本中使用的文字值。 引數會與URL字串一併傳遞，可讓您變更任何引數，以動態自訂從影像伺服器產生的回覆影像。
 
 另請參閱 [範本基本需知](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 訓練影片。
 
@@ -69,4 +69,4 @@ ht-degree: 21%
 
 Dynamic Media Classic會為範本建立URL，並在您將範本發佈至Dynamic Media影像伺服器時啟用URL。 您可以從「範本預覽」頁面複製這些URL字串。
 
-在「瀏覽」面板中選取您的範本，然後選取 **[!UICONTROL 預覽]** 以開啟「範本預覽」頁面。 選擇影像預設集來傳遞範本，然後選取 **[!UICONTROL 複製URL]**. 從「預覽」頁面複製URL後，即可在您的網站或應用程式中使用。 請參閱[將範本連結到網頁](linking-template-web-page.md#linking_a_template_to_a_web_page)。
+在「瀏覽」面板中選取您的範本，然後選取 **[!UICONTROL 預覽]** 以開啟「範本預覽」頁面。 選擇影像預設集來傳遞範本，然後選取 **[!UICONTROL 複製URL]**. 從「預覽」頁面複製URL後，即可在您的網站或應用程式中使用。 另請參閱 [將範本連結至網頁](linking-template-web-page.md#linking_a_template_to_a_web_page).

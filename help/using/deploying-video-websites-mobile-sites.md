@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 30%
 
 您有兩種不同的發佈視訊方法：
 
-* **上傳時自動立即發佈影片**  — 在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
+* **上傳時自動立即發佈影片**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 此立即發佈功能意味著不需要另外再發佈視訊 (因為已經發佈了)。
 
-* **上傳後手動發佈視訊**  — 如果您不想立即發佈視訊，可以隨時手動發佈視訊。
+* **上傳後手動發佈視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
 在您發佈影片後，Adobe Dynamic Media Classic會啟用HTML頁面或應用程式程式碼的URL字串。
 
@@ -46,7 +46,7 @@ ht-degree: 30%
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-發佈視訊時，您可以取得其相關URL，以用於您的網站、行動網站或案頭應用程式。 當您想要在網頁頂端的彈出式視窗或浮出視窗中顯示視訊，請使用視訊 URL。
+發佈視訊時，您可以取得其相關URL，以用於您的網站、行動網站或案頭應用程式。 當您想要在網頁頂端的快顯視窗或強制回應視窗中顯示視訊時，請使用視訊URL。
 
 當客戶選取連結時，會自動偵測其裝置、頻寬和熒幕大小。 系統會在預先定義的桌上型電腦檢視器或智慧型手機和平板電腦的行動裝置本機視訊播放器中，顯示適當的視訊以供播放。
 
@@ -75,7 +75,7 @@ ht-degree: 30%
 
 ## 將視訊檢視器內嵌在網頁上 {#embedding-the-video-viewer-on-a-web-page}
 
-當您想播放網頁上內嵌的視訊時，請使用「內嵌程式碼」功能。將內嵌程式碼複製到剪貼簿上，以便貼到網頁中。不可在「內嵌程式碼」對話框中編輯程式碼。
+當您想要播放內嵌在網頁上的影片時，請使用內嵌程式碼功能。 您可以將內嵌程式碼複製到剪貼簿，以便貼到網頁中。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ ht-degree: 30%
    不可在「內嵌程式碼」對話框中編輯程式碼。
 
 1. 選取 **[!UICONTROL 關閉]**.
-1. 在您的網頁中貼上內嵌程式碼。
+1. 將內嵌程式碼貼到您的網頁中。
 
 ### 實作內嵌程式碼，以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 

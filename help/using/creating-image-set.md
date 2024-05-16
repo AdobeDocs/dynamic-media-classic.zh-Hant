@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ ht-degree: 46%
 
 1. 進行以下一項操作:
 
-   * **請先選取影像**  — 在「瀏覽」面板中，選取您想用於影像集的影像，前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**.
+   * **請先選取影像**：在瀏覽面板中，選取您想用於影像集的影像，前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**.
 
-   * **從影像集畫面開始**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**. 「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
+   * **從影像集畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL 影像集]**. 「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
 
 1. 若要變更影像順序，請將影像拖曳至新位置。
 1. 在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。

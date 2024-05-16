@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ ht-degree: 58%
 
 1. 進行以下一項操作:
 
-   * **請先選取影像**  — 在「瀏覽」面板中，選取影像，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL 色票集]**.
+   * **請先選取影像**：在「瀏覽」面板中，選取影像，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL 色票集]**.
 
-   * **從色票集畫面開始**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL 色票集]**. 從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
+   * **從色票集畫面開始**：前往 **[!UICONTROL 建置]** > **[!UICONTROL 色票集]**. 從資產庫中選取檔案夾，並將影像拖曳到「色票集」頁面的「檢視」區段。
 
 1. 將色票色彩、圖樣或飾面拖曳到「色票集」頁面上的「色票」預留位置方框中。
 

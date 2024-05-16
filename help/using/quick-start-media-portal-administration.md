@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產發佈給外部合作夥伴和管道，以及公司的內部使用者。 這個以瀏覽器為基礎的「自助式」環境為Media Portal使用者提供由管理員控制的Adobe Dynamic Media Classic資產「檢視」，方便他們以公司核准的格式存取、瀏覽、搜尋、預覽和匯出資產。
 
-身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您還可以自訂 Media Portal 介面來符合您的網站與品牌。您可以在Media Portal介面中指定字型、字型顏色、字型大小，以及合併商標元素（例如標誌）。
+身為管理員，您可以控制使用者在 Media Portal 中檢視、存取和使用資產的方式。此外，您可以自訂Media Portal介面，以符合您的網站和品牌。 您可以在Media Portal介面中指定字型、字型顏色、字型大小，以及合併商標元素（例如標誌）。
 
 請參閱下列訓練影片：
 
@@ -35,7 +35,7 @@ Media Portal可讓公司輕鬆取得、控制資產，並將核准的資產發�
 
 ## 1. 瞭解 Media Portal 使用者角色
 
-Media Portal使用者分為三種角色 — 使用者、貢獻者和使用者貢獻者。 每個角色都可以執行不同的工作組合。例如，參與者可以重新命名和刪除檔案和檔案夾，但使用者不能執行這些工作。瞭解不同角色，可讓您在增加使用者時，知道應賦予他們哪些責任。
+Media Portal使用者分為三種角色：使用者、貢獻者和使用者貢獻者。 每個角色都可以執行不同的工作組合。例如，參與者可以重新命名和刪除檔案和檔案夾，但使用者不能執行這些工作。瞭解不同角色，可讓您在增加使用者時，知道應賦予他們哪些責任。
 
 請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 

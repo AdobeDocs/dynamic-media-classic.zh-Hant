@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 54%
@@ -113,24 +113,24 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 1. 在「使用者管理設定」畫面中，選取 **[!UICONTROL 電子郵件設定]**.
 1. 在「電子郵件設定」對話框中，指定下列任一設定:
 
-   * **[!UICONTROL 傳送電子郵件]**  — 取消選取此選項，以透過電子郵件通知新使用者您已註冊。
+   * **[!UICONTROL 傳送電子郵件]**：取消選取此選項，以透過電子郵件通知新使用者您已註冊。
 
-   * **[!UICONTROL 預設密碼]**  — 為新使用者輸入臨時密碼，或將此欄位留空以讓Adobe Dynamic Media Classic產生隨機密碼。 使用者第一次登入時，系統會要求他們變更密碼。
+   * **[!UICONTROL 預設密碼]**：輸入新使用者的臨時密碼，或將此欄位留空以讓Adobe Dynamic Media Classic產生隨機密碼。 使用者第一次登入時，系統會要求他們變更密碼。
 
-   * **[!UICONTROL 替代URL]**  — 如果您的使用者透過其他URL存取Adobe Dynamic Media Classic，請輸入與預設不同的URL。
+   * **[!UICONTROL 替代URL]**：如果您的使用者透過其他URL存取Adobe Dynamic Media Classic，請輸入與預設不同的URL。
 
 ## 其它使用者管理任務 {#other-user-management-tasks}
 
 從「使用者管理設定」畫面開始，您也可以執行下列工作:
 
-* **[!UICONTROL 篩選及排序使用者清單]**  — 篩選Media Portal使用者清單，以找出使用者。
+* **[!UICONTROL 篩選及排序使用者清單]**：篩選Media Portal使用者清單以尋找使用者。
 
-* **[!UICONTROL 刪除使用者]**  — 從清單中移除使用者。
+* **[!UICONTROL 刪除使用者]**：從清單中移除使用者。
 
-* **[!UICONTROL 啟用和停用使用者]**  — 暫停使用者存取資料夾。
+* **[!UICONTROL 啟用和停用使用者]**：暫停使用者存取資料夾。
 
-* **[!UICONTROL 編輯使用者資訊]**  — 輸入使用者的最新資訊。
+* **[!UICONTROL 編輯使用者資訊]**：輸入有關使用者的最新資訊。
 
-* **[!UICONTROL 建立使用者定義的欄位]**  — 建立自訂、使用者定義的中繼資料欄位，協助您在Adobe Dynamic Media Classic中整理資產。 這些欄位也可視需要啟用或停用。
+* **[!UICONTROL 建立使用者定義的欄位]**：建立自訂、使用者定義的中繼資料欄位，協助您在Adobe Dynamic Media Classic中整理資產。 這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。

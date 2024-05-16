@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 21%
@@ -59,7 +59,7 @@ ht-degree: 21%
 
 ### 檢視器事件 {#viewer-events}
 
-檢視器事件說明使用者使用Dynamic Media Classic檢視器執行的動作。 當使用者啟動動作時，例如選取縮圖或啟動或停止視訊，檢視器會「廣播」事件至網頁。 也會推送與該事件相關聯的資料。
+檢視器事件說明使用者使用Dynamic Media Classic檢視器執行的動作。 當使用者起始動作（例如選取縮圖或啟動或停止視訊）時，檢視器會將事件「廣播」至網頁。 也會推送與該事件相關聯的資料。
 
 下表說明可新增至Adobe Analytics設定畫面的檢視器事件。
 
@@ -105,8 +105,8 @@ ht-degree: 21%
 
 可以在「Adobe Analytics 配置」畫面上啟用、編輯和刪除檢視器事件: 
 
-* **啟動**  — 選取 **[!UICONTROL 啟用]** 以啟動或 **[!UICONTROL 停用]** 停用選取的檢視器事件。
+* **啟動**：選取 **[!UICONTROL 啟用]** 以啟動或 **[!UICONTROL 停用]** 停用選取的檢視器事件。
 
-* **編輯**  — 選取檢視器事件並選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 在Adobe Dynamic Media Classic變數和Adobe Analytics變數下拉式清單中，從各個清單選擇不同的變數。 如需詳細資訊，請參閱 [將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **編輯**：選取檢視器事件並選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 在Adobe Dynamic Media Classic變數和Adobe Analytics變數下拉式清單中，從各個清單選擇不同的變數。 如需詳細資訊，請參閱 [將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **刪除**  — 選取檢視器事件，然後選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 選取 **[!UICONTROL 刪除]**.
+* **刪除**：選取檢視器事件，然後選取 **[!UICONTROL 檢視/編輯]** 變數灰色按鈕。 選取 **[!UICONTROL 刪除]**.

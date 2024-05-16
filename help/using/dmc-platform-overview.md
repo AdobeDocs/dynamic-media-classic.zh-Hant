@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classic是一個整合式多媒體管理、發佈和服務�
 
 Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
-* **上傳和管理您的資產**  — 將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
+* **上傳和管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
 
-* **建立多媒體**  — 建立資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
+* **建立多媒體**：建立資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
 
-* **發佈和管理**  — 將資產發佈至Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
+* **發佈和管理**：將資產發佈至Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
 
-* **服務**  — 從Adobe Dynamic Media Classic SaaS網路傳送媒體至網頁、應用程式和行動裝置；媒體會最佳化效能，並透過CDN快取傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
+* **服務**：從Adobe Dynamic Media Classic SaaS網路傳送媒體至網頁、應用程式和行動裝置；媒體會最佳化效能，並與CDN快取一起傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
 
 ![Adobe Dynamic Media Classic工作流程程式](/help/using/assets/gs_workflow.png)
 

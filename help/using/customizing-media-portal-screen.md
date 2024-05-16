@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 21%
@@ -23,21 +23,21 @@ Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與�
 
 若要存取樣式設定，請前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**. 請務必選取 **[!UICONTROL 儲存]** 以在完成設定後加以儲存。 您可以選取 **[!UICONTROL 還原]** 以恢復預設設定。 當您做出選擇時，「預覽」面板會顯示它們的顯示方式。
 
-* **[!UICONTROL 標誌]**  — 選取 **[!UICONTROL 瀏覽]**，然後在「選取標誌影像」視窗中選擇圖形。
+* **[!UICONTROL 標誌]**：選取 **[!UICONTROL 瀏覽]**，然後在「選取標誌影像」視窗中選擇圖形。
 
-* **[!UICONTROL 應用]**  — 透過在「背景漸層顏色」選單中進行選擇，建立漸層顏色混合。
+* **[!UICONTROL 應用]**：在「背景漸層顏色」選單中進行選擇，以建立漸層顏色混合。
 
-* **[!UICONTROL 樹狀]**  — 選擇滑鼠指向效果色彩（將指標移到專案上時出現的色彩）和選取範圍色彩（選取專案時出現的色彩）。
+* **[!UICONTROL 樹狀]**：選擇滑鼠指向效果顏色（將指標移到專案上時顯示的顏色）和選取範圍顏色（選取專案時顯示的顏色）。
 
-* **[!UICONTROL 摺疊面板]**  — 選擇背景顏色、邊框樣式、滑鼠指向效果以及選取的顏色，以供「詳細資訊」檢視畫面右側顯示的摺疊式功能表使用。
+* **[!UICONTROL 摺疊面板]**：針對在「詳細資訊」檢視畫面右側顯示的摺疊式功能表，選擇背景顏色、邊框樣式以及滑鼠指向效果與選取的顏色。
 
-* **[!UICONTROL 收合式選單標題]**  — 選擇是否以收合式選單標題粗體顯示文字。
+* **[!UICONTROL 收合式選單標題]**：選擇是否以收合式選單標題粗體顯示文字。
 
-* **[!UICONTROL 資料格]**  — 選擇資料網格中標題列的顏色。
+* **[!UICONTROL 資料格]**：選擇資料網格中標題列的顏色。
 
-* **[!UICONTROL 警報]**  — 選擇警示訊息方塊的背景顏色。
+* **[!UICONTROL 警報]**：選擇警示訊息方塊的背景顏色。
 
-* **[!UICONTROL 進度列]**  — 選擇可顯示上傳和下載進度的橫條色彩。
+* **[!UICONTROL 進度列]**：選擇列顏色，指出上傳和下載的進度。
 
 若要Media Portal使用者檢視您選擇的樣式設定，他們必須附加 `?company=(company name)` 存取使用者存取Media Portal時使用的URL。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
 

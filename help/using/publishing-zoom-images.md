@@ -10,16 +10,16 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # 發佈縮放影像{#publishing-zoom-images}
 
-發佈功能會將縮放影像置於Dynamic Media影像伺服器上，以供您的網站和應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 可以將這些 URL 字串放在網站的 HTML 代碼中。
+發佈功能會將縮放影像置於Dynamic Media影像伺服器上，以供您的網站和應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 您可以將這些URL字串放在網站的HTML代碼中。
 
 ## 標籤要發佈的影像 {#marking-images-for-publish}
 

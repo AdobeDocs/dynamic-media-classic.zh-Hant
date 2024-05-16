@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
 # 將影像集連結至網頁{#linking-an-image-set-to-a-web-page}
 
-發佈影像集後，您可以複製其相關URL或其內嵌程式碼，以用於您的網站或應用程式。 然後，您可以視需要部署 URL 或貼上內嵌程式碼，以便使用者在您的網站或應用程式中檢視「影像集」。
+發佈影像集後，您可以複製其相關URL或其內嵌程式碼，以用於您的網站或應用程式。 接著，您可以部署URL，或視需要貼上內嵌程式碼，讓使用者檢視您網站或應用程式上的影像集。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 33%
 
      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-## 增加影像集 URL 至網頁 {#adding-image-set-urls-to-your-web-page}
+## 將影像集URL新增至網頁 {#adding-image-set-urls-to-your-web-page}
 
 部署影像集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟一個彈出式視窗，其中包含實際的縮放功能。
 
@@ -52,7 +52,7 @@ ht-degree: 33%
 
 ## 複製影像集檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「影像集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。不可在「內嵌程式碼」對話框中編輯程式碼。
+您可使用「內嵌程式碼」功能查看所選「影像集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製影像集檢視器的內嵌程式碼：**
 

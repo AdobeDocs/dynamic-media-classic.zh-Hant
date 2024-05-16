@@ -1,6 +1,6 @@
 ---
 title: 將URL連結至您的網頁應用程式
-description: 瞭解如何將URL從Adobe Dynamic Media Classic連結至您的網路應用程式。
+description: 瞭解如何將URL從Adobe Dynamic Media Classic連結至您的網頁應用程式。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
 # 將URL連結至您的網頁應用程式{#linking-urls-to-your-web-application}
 
-您的網站和應用程式會透過URL字串存取Dynamic Media影像伺服器內容。 發佈影像後，Adobe Dynamic Media Classic會啟用參照Dynamic Media影像伺服器上影像預設集的URL字串。 您可以將這些 URL 貼至網路瀏覽器以進行測試。
+您的網站和應用程式會透過URL字串存取Dynamic Media影像伺服器內容。 發佈影像後，Adobe Dynamic Media Classic會啟用參照Dynamic Media影像伺服器上影像預設集的URL字串。 您可以將這些URL貼到網頁瀏覽器以進行測試。
 
 若要將這些URL字串放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。 若要取得影像預設集產生的URL字串，請前往「預覽」畫面或「瀏覽」面板（在「詳細檢視」中）。
 
@@ -80,7 +80,7 @@ URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Med
 
 ## 將動態影像新增至網頁 {#adding-dynamic-images-to-your-web-page}
 
-若要將動態影像新增至網頁，請 `<IMG>` HTML網頁程式碼中的標籤通常會使用Adobe Dynamic Media Classic URL字串來修改，以便向Dynamic Media影像伺服器提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
+若要將動態影像新增至您的網頁，請 `<IMG>` HTML網頁程式碼中的標籤通常會使用Adobe Dynamic Media Classic URL字串來修改，以便向Dynamic Media影像伺服器提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
 
 例如，您不需使用一般呼叫即可開啟靜態影像，如
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
 # 將色票集連結至網頁{#linking-a-swatch-set-to-a-web-page}
 
-發佈色票集後，您可以在網站或應用程式中使用其相關聯的URL或內嵌程式碼。 然後，您可以視需要部署 URL 或內嵌程式碼，以便使用者在您的網站或應用程式中檢視「色票集」。
+發佈色票集後，您可以在網站或應用程式中使用其相關聯的URL或內嵌程式碼。 接著，您可以視需要部署URL或內嵌程式碼，讓使用者檢視您網站或應用程式上的色票集。
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 31%
 
 ## 複製色票集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「色票集」的檢視器程式碼。您也可以將該程式碼複製到剪貼簿，然後在您的網頁中貼上，以便部署檢視器。不可在「內嵌程式碼」對話框中編輯程式碼。
+您可使用「內嵌程式碼」功能查看所選「色票集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製色票集檢視器的內嵌程式碼：**
 

@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # 建立影像地圖 {#creating-image-maps}
 
-「影像地圖」是影像、eCatalog頁面上的區域，或SpinSet中顯示包含文字的滑鼠指向效果面板的影像。 當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁讓使用者進一步瞭解產品。當使用者將指標移到「影像地圖」上時，其周圍會顯示一個外框。
+「影像地圖」是影像、eCatalog頁面上的區域，或SpinSet中顯示包含文字的滑鼠指向效果面板的影像。 當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁以便使用者進一步瞭解產品。 當使用者將指標移到「影像地圖」上時，其周圍會顯示一個外框。
 
 除了在Adobe Dynamic Media Classic中建立影像地圖功能以外，當您在Adobe Acrobat或Adobe InDesign中設計目錄時，也可以建立影像地圖。
 
 當您建立「影像地圖」時，可以執行下列任一項作業：
 
 * 輸入滑鼠指向效果文字。
-* 輸入用來啟動網頁的 JavaScript 與 URL。
+* 輸入啟動網頁的JavaScript和URL。
 * 為影像地圖建立 URL 範本。
 * 將影像地圖複製到其它影像、eCatalog 頁面或迴轉集中。
 * 將影像地圖匯出至 CSV 或 XML。
@@ -54,7 +54,7 @@ ht-degree: 33%
 
    若要建立名稱，Adobe Dynamic Media Classic會在您使用的影像或eCatalog頁面名稱后面附加一個循序號碼。 您也可以自行輸入名稱。
 
-1. 如果您希望使用者在選取「影像地圖」時開啟新網頁，請在「影像地圖」清單中輸入URL。
+1. 如果您希望使用者在選取「影像地圖」時開啟新的網頁，請在「影像地圖」清單中輸入URL。
 
    另請參閱 [輸入JavaScript和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 您可以在URL範本中的影像地圖之間放置所有不會變更的值。 只將會變更的值增加到「影像地圖」清單的「URL」欄中。例如: 
 
-* URL範本 —  `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL值 —  `product.htm`
-* 實際產生的URL - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL範本： `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL值： `product.htm`
+* 產生的實際URL： `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 依預設，URL範本包含專有的Adobe Dynamic Media Classic JavaScript處理常式，稱為 `loadProduct` 會開啟含有URL目的地的新視窗。 不過，您可以使用任何JavaScript程式碼來取代此JavaScript處理常式，或使用下列其中一個Adobe Dynamic Media Classic處理常式：
 
@@ -181,7 +181,7 @@ Javascript:loadProduct('$$');void(0);
 
 * **`accesskey`**：當使用者按下鍵盤上的指定鍵時觸發動作。
 
-* **`onfocus`**：當影像地圖收到焦點時觸發事件 — 透過游標、Tab鍵或按存取鍵。 例如，您可以在影像地圖成為焦點時啟動網頁，並在影像地圖不再成為焦點時關閉該網頁。
+* **`onfocus`**：當影像地圖收到焦點時觸發事件 — 透過游標、Tab鍵或按存取鍵。 例如，您可以在影像地圖收到焦點時啟動網頁，並在影像地圖失去焦點時關閉網頁。
 
 * **`onblur`**：當影像地圖失去焦點時觸發事件（游標或Tab鍵瀏覽皆然）。
 

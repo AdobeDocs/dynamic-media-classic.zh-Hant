@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -37,9 +37,9 @@ ht-degree: 22%
 
 您可以從資產庫開始或在您將檔案上傳到Adobe Dynamic Media Classic時建立專案資料夾：
 
-* **在資產庫中**  — 捲動至「資產庫」底部的「專案」區段，然後選取「 」 **[!UICONTROL 新增專案]**. 輸入專案名稱。
+* **在資產庫中**：捲動至「資產庫」底部，至「專案」區段，然後選取「 」 **[!UICONTROL 新增專案]**. 輸入專案名稱。
 
-* **上傳檔案時**  — 在上傳畫面上，前往 **[!UICONTROL 新增至專案]** > **[!UICONTROL 建立專案]**. 輸入專案名稱。
+* **上傳檔案時**：在上傳畫面上，前往 **[!UICONTROL 新增至專案]** > **[!UICONTROL 建立專案]**. 輸入專案名稱。
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ ht-degree: 22%
 
 若要顯示、刪除和重新命名「專案」資料夾，請執行下列任一項作業：
 
-* **瀏覽內容**  — 在資產庫中選取資料夾的名稱。 其資產會顯示在瀏覽面板中。
+* **瀏覽內容**：選取資產庫中資料夾的名稱。 其資產會顯示在瀏覽面板中。
 
-* **刪除專案資料夾**  — 選取專案資料夾，然後選取 **[!UICONTROL 移除專案]**. 從專案資料夾中刪除資產不會從Adobe Dynamic Media Classic中刪除資產；資產會保留在儲存資產的原始資料夾中。
+* **刪除專案資料夾**：選取專案資料夾，然後選取「 」 **[!UICONTROL 移除專案]**. 從專案資料夾中刪除資產不會從Adobe Dynamic Media Classic中刪除資產；資產會保留在儲存資產的原始資料夾中。
 
-* **重新命名專案資料夾**  — 在「資產面板」中按兩下資料夾的名稱，然後輸入新名稱。
+* **重新命名專案資料夾**：在「資產面板」中按兩下資料夾的名稱，然後輸入新名稱。
 
 ## 將資產新增至專案資料夾 {#adding-assets-to-a-project-folder}
 
@@ -61,4 +61,4 @@ ht-degree: 22%
 
 * **從瀏覽面板**，選取資產並將其拖曳至專案資料夾。 您也可以前往 **[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**. 在「選取專案」對話方塊中選取專案資料夾名稱，然後選取 **[!UICONTROL 提交]**.
 
-* **上傳檔案時**  — 在上傳頁面上，選取 **[!UICONTROL 工作選項]**. 在「上載工作選項」對話方塊中，選取 **[!UICONTROL 專案]**，然後選取專案名稱。
+* **上傳檔案時**：在上傳頁面上，選取 **[!UICONTROL 工作選項]**. 在「上載工作選項」對話方塊中，選取 **[!UICONTROL 專案]**，然後選取專案名稱。
