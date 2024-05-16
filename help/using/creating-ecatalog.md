@@ -10,10 +10,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '982'
+ht-degree: 38%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 44%
 
 您可以在eCatalog中包含影像檔案和PDF檔案。
 
-建立 eCatalog 時，「**[!UICONTROL 儲存後發佈]**」選項會以下列方式影響集與集成員:
+建立eCatalog時， **[!UICONTROL 儲存後發佈]** 選項會以下列方式影響集合與設定成員：
 
-| 儲存前是否已選取「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 儲存前選取了「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- |
 | 是 | 已發佈 | 已發佈 |
 | 否 | 未發佈 | 集成員會保持已發佈或未發佈的狀態。 |
@@ -56,7 +56,7 @@ ht-degree: 44%
 
    * **序號**：在清單檢視的序列欄位中輸入頁碼。
 
-1. 完成時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
+1. 完成後，在頁面的右下角附近，請確定 **[!UICONTROL 儲存後發佈]** 已選取（預設）。
 1. 選取 **[!UICONTROL 儲存]**.
 1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。在「檔案名稱」欄位中，輸入迴轉集名稱。
 1. 選取 **[!UICONTROL 儲存]**.
@@ -80,7 +80,7 @@ ht-degree: 44%
 
 1. 選取eCatalog的變換 **[!UICONTROL 編輯]** 按鈕。
 1. 視需要進行變更。
-1. 完成編輯時，在頁面右上角附近，請確保選取了「**[!UICONTROL 儲存後發佈]**」(預設)。
+1. 當您完成編輯時（在頁面的右下角附近），請確定 **[!UICONTROL 儲存後發佈]** 已選取（預設）。
 1. 選取 **[!UICONTROL 儲存]**，選取儲存資料夾，輸入集名稱，然後選取 **[!UICONTROL 儲存]**.
 
 ## 刪除eCatalog

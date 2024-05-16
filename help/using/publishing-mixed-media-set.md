@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**.
 1. 設定您想要的排程選項。
 1. （選用）在 **[!UICONTROL 工作名稱]** 欄位，輸入發佈工作的名稱。
-1. 在「**[!UICONTROL 進階]**」選項的「**[!UICONTROL 發佈至]**」下拉式清單中選取「**[!UICONTROL 視訊伺服器]**」。
+1. 在 **[!UICONTROL 進階]** 選項，在 **[!UICONTROL 發佈至]** 下拉式清單，選取 **[!UICONTROL 視訊伺服器]**.
 
    另請參閱 [進階發佈選項](publishing-files.md#advanced_publish_options) 如需更多可設定的選項，請參閱。
 

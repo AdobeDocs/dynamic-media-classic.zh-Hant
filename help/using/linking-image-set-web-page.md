@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 24%
 ## 複製影像集URL {#copying-an-image-set-url}
 
 1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 影像集]**.
-1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「影像集」的資產資料夾。
+1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的影像集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。
@@ -57,7 +57,7 @@ ht-degree: 24%
 **若要複製影像集檢視器的內嵌程式碼：**
 
 1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 影像集]**.
-1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「影像集」的資產資料夾。
+1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的影像集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的URL面板中，選取 **[!UICONTROL 內嵌程式碼]**.

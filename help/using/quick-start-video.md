@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
    * 合併視訊和影像內容的混合媒體檢視器。
 
 * 設定視訊播放器來滿足您的品牌推廣需要。
-* 透過一個簡單的 URL 或內嵌程式碼將視訊整合到您的網站、行動網站或行動應用程式。
+* 使用簡單的URL或內嵌程式碼將視訊整合至您的網站、行動網站或行動應用程式。
 
 請參閱下列訓練影片：
 * [MP4視訊概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,13 +146,13 @@ Adobe Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 �
 
 * 顯示內嵌在網頁上的影片，在此情況下，請使用 **[!UICONTROL 內嵌程式碼]** 功能。
 
-  若要取得視訊的內嵌程式碼，請在「格點檢視」或「清單檢視」中，在「瀏覽」面板中選取該視訊。前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**. 在表格的「動作」欄下，選取 **[!UICONTROL 內嵌程式碼]** 右側 `Universal_HTML5_Video`. 不允許編輯程式碼。
+  若要取得視訊的內嵌程式碼，請在「格線檢視」或「清單檢視」中，選取「瀏覽」面板中的視訊。 前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**. 在表格的「動作」欄下，選取 **[!UICONTROL 內嵌程式碼]** 右側 `Universal_HTML5_Video`. 不允許編輯程式碼。
 
-  選取 **[!UICONTROL 關閉]** 並將內嵌程式碼貼到一或多個網頁中。
+  選取 **[!UICONTROL 關閉]** 並將內嵌程式碼貼到一個或多個網頁中。
 
   >[!NOTE]
   >
-  >內嵌程式碼只會在您發佈視訊或自我調整視訊集後啟動。
+  >內嵌程式碼僅會在您發佈視訊或自我調整視訊集後啟動。
 
 另請參閱 [將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

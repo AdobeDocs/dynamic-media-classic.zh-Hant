@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # 預覽迴轉集{#previewing-a-spin-set}
 
-您可以使用「檢視器清單」預覽資產顯示在特定檢視器類型平台 (例如 HTML5) 上的情形。視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「檢視器清單」。
+您可以使用檢視器清單來預覽資產在特定檢視器型別平台(例如HTML5)上的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「檢視器清單」。
 
 另請參閱 [設定預設檢視器](application-setup.md#configuring_default_viewers).
 

@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 8%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 影像大小調整是指Adobe Dynamic Media Classic根據單一高解析度影像建立多個衍生影像的能力。 您不需要手動為網站或應用程式建立數個影像（例如縮圖和放大的檢視影像），而是提供單一的主要影像。 Adobe Dynamic Media Classic會依您的請求產生所有修改的影像。 能夠從單一主要影像動態傳送影像有許多優點：
 
-* 您不需手動建立不同大小的數個影像複本。您向Adobe Dynamic Media Classic提供一個主要影像，而Adobe Dynamic Media Classic會從主要影像產生不同大小的衍生物。
-* 您可以在整個網站或應用程式中快速變更影像型別的大小。 例如，若要變更所有縮圖影像，您可以修改「縮圖」影像預設集。 影像預設集（與巨集類似）是大小和格式屬性的集合。 您可以修改「縮圖」影像預設集，以變更整個網站或應用程式中所有縮圖影像的大小。
+* 不需要手動建立多個不同大小的影像復本。 您向Adobe Dynamic Media Classic提供一個主要影像，而Adobe Dynamic Media Classic會從主要影像產生不同大小的衍生物。
+* 您可以在整個網站或應用程式中快速變更影像型別的大小。 例如，若要變更所有縮圖影像，您可以修改「縮圖」影像預設集。 影像預設集 — 它類似於巨集 — 是大小和格式屬性之集合。 您可以修改「縮圖」影像預設集，以變更整個網站或應用程式中所有縮圖影像的大小。
 * 您不需要從內部或外部管理任何內容或資產管理系統中的主要檔案和所有各種衍生專案。
 
 ![您可以從相同的高解析度主要檔案中，以不同大小建立多個衍生影像。](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 ## 2.設定影像預設集
 
-如同巨集，影像預設集是儲存於同一個名稱下的預先定義大小和格式命令集合。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 如果您處於公司管理員狀態，可以自行設定影像預設集。 Adobe Dynamic Media Classic也隨附預設影像預設集，您可以透過這些預設集動態傳遞影像。
+如同巨集，影像預設集是儲存於同一個名稱下的預先定義大小和格式命令集合。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 如果您處於公司管理員狀態，可以自行設定影像預設集。 您可以使用隨Adobe Dynamic Media Classic提供的預設影像預設集，以動態方式傳送影像。
 
 若要建立影像預設集（如果您是管理員），請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 影像預設集]**. 然後選取 **[!UICONTROL 新增]** 以建立影像預設集，或選取 **[!UICONTROL 編輯]** 以變更現有的影像預設集。
 
@@ -66,6 +66,6 @@ ht-degree: 8%
 
 ## 5.將URL連結至您的網頁應用程式
 
-Adobe Dynamic Media Classic會建立影像的URL圖說文字串。 將影像發佈至Dynamic Media影像伺服器時，URL會變成作用中。 您可以從「瀏覽」面板(在「詳細資料檢視」(Detail View)或「預覽」(Preview)畫面複製這些URL字串。 複製URL字串後，即可在您的網站和應用程式中使用。 調整影像大小的URL會取代網頁程式碼中靜態影像名稱的參照。 URL會參照主要影像名稱，該名稱會針對要顯示的每個新影像由資料庫取代。
+Adobe Dynamic Media Classic會建立影像的URL圖說文字串。 將影像發佈至Dynamic Media影像伺服器時，URL會變成作用中。 您可以從「瀏覽」面板(在「詳細資料檢視」(Detail View)或「預覽」(Preview)畫面複製這些URL字串。 複製URL字串後，即可在您的網站和應用程式中使用。 「調整影像大小」的URL會取代網頁程式碼中靜態影像名稱的參照。 URL會參照資料庫針對要顯示的每個新影像所取代的主要影像名稱。
 
 使用影像預設集產生的 URL 字串會包含一個影像預設集的名稱。這個名稱以美元符號括住(`$`)。 例如， `$thumbnail$` 可以是設計成以縮圖大小顯示主要影像的影像預設集。 另請參閱 [將URL連結至您的網頁應用程式](linking-urls-web-application.md#linking_urls_to_your_web_application).

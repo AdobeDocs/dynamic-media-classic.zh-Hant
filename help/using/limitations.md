@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## Dynamic Media對資產型別的最佳實務和強制執行限制 {#best-practice-enforced-limits}
 
-當您建立迴轉集或影像集，或上傳頁面擷取的PDF時，Adobe會建議下列最佳作法並強制執行下列限制：
+當您建立迴轉集或影像集，或上傳頁面擷取的PDF時，Adobe會建議下列最佳作法。 Adobe也會強制實行下列限制：
 
 | 資產：限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ ht-degree: 1%
 | **迴轉集**：每個2D集的最大列/欄數 | 每組12至18個影像 | 1000 |
 | **PDF**：要視為擷取的PDF最大頁數 |  | 100 (適用於所有PDF) |
 
-‡最佳實務是集合中不要有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
+‡最佳實務是不要在一個集中有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

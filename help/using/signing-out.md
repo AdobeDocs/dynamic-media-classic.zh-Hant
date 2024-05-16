@@ -1,6 +1,6 @@
 ---
 title: 登入和登出Adobe Dynamic Media Classic
-description: 瞭解如何登入和登出Adobe Dynamic Media Classic，以及連線到北美(NA)或歐洲、中東、非洲(EMEA)或亞太(APAC)的生產環境伺服器。
+description: 瞭解如何登入和登出Adobe Dynamic Media Classic。 也學習如何連線到北美(NA)或歐洲、中東、非洲(EMEA)或亞太(APAC)的生產伺服器。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---

@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->在發佈資產之前，URL 或內嵌程式碼不會產生作用。
+>發佈資產後，URL或內嵌程式碼才會啟用。
 
 ## 發佈視訊 {#publishing-video}
 
@@ -82,7 +82,7 @@ ht-degree: 26%
 **若要將視訊檢視器內嵌在網頁上：**
 
 1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 視訊]**，或 **[!UICONTROL 最適化視訊集]**.
-1. 在左側的「資產庫」面板中，瀏覽至包含您要複製其內嵌程式碼的視訊或最適化視訊集的資產資料夾。
+1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的視訊或最適化視訊集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 選取 **[!UICONTROL 格點檢視]** 或 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取「 」 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
@@ -103,7 +103,7 @@ ht-degree: 26%
    不可在「內嵌程式碼」對話框中編輯程式碼。
 
 1. 選取 **[!UICONTROL 關閉]**.
-1. 將內嵌程式碼貼到您的網頁中。
+1. 將內嵌程式碼貼入您的網頁。
 
 ### 實作內嵌程式碼，以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 

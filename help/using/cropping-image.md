@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 35%
 1. 在「裁切編輯器」視窗中，將您不想裁切的影像部分放置在裁切方塊中。 方塊內顯示的內容即為選取後所保留的內容 **[!UICONTROL 儲存]** 並裁切影像。
 1. 若要調整裁切區域，請執行下列其中一個動作:
 
-   * 拖曳方塊某一側或邊角。拖曳時按住 Shift 鍵即可變更大小，但會維持裁切方塊的外觀比例 (形狀)。
+   * 拖曳方塊某一側或邊角。按住Shift鍵拖曳以變更大小，但維持裁切方塊的外觀比例（形狀）。
    * 在「大小」方框中輸入像素度量。
    * 拖曳以移動裁切方塊。在方塊邊界內移動指標。顯示四向箭頭時，請將方塊拖曳至影像上的新位置。
 
