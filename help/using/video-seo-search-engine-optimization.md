@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # 視訊 SEO (搜尋引擎最佳化){#video-seo-search-engine-optimization}
 
-SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎擅於收集以文字為基礎之內容的相關資訊，但除非向其提供此資訊，否則也無法充分取得視訊相關資訊。
+SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎在收集文字型內容的相關資訊方面表現優異，卻無法充分取得視訊的相關資訊。 這些資訊必須提供給他們。
 
 使用Adobe Dynamic Media Classic視訊SEO，您可以套用視訊中繼資料，為搜尋引擎提供視訊說明。 Adobe Dynamic Media Classic可讓您建立視訊網站地圖和mRSS摘要。 這些標準XML檔案用於將視訊資訊提交至搜尋引擎：
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 ## 選擇視訊SEO設定
 
-選取上的視訊網站地圖和mRSS摘要的視訊SEO設定 **[!UICONTROL 視訊搜尋引擎最佳化設定]** 頁面。 若要開啟此頁面，請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊SEO]** > **[!UICONTROL 設定]**.
+選取視訊網站地圖和mRSS摘要的視訊SEO設定 **[!UICONTROL 視訊搜尋引擎最佳化設定]** 頁面。 若要開啟此頁面，請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊SEO]** > **[!UICONTROL 設定]**.
 
 在 **[!UICONTROL 一般設定]** 區域，選擇是否要產生視訊網站地圖、mRSS摘要，或兩者都產生。 在 **[!UICONTROL 產生設定]** 區域，將中繼資料欄位對應至輸入欄位。
 
@@ -65,7 +65,7 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 在 **[!UICONTROL 自動/手動模式]** 從下拉式清單中選擇要自動或手動產生：
 
-* **自動模式**：Adobe Dynamic Media Classic每天會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取 **[!UICONTROL 標籤為發佈]** 用於自動標籤為發佈Adobe Dynamic Media Classic產生的XML檔案的選項。
+* **自動模式**：Adobe Dynamic Media Classic每天會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取 **[!UICONTROL 標籤為發佈]** 選項，讓您能夠自動標籤為發佈Adobe Dynamic Media Classic產生的XML檔案。
 
    * **標籤為發佈** 標籤以發佈產生的XML檔案。
 
@@ -79,7 +79,7 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 ### 選擇產生設定 {#choosing-generation-settings}
 
-「產生設定」區域會列出「視訊網站地圖」或mRSS摘要（或兩者）的輸入欄位，在「中繼資料」面板中則列出中繼資料欄位的名稱。 使用「一般設定」區域，即可將輸入欄位對應至中繼資料欄位。如此一來，您就能告訴Adobe Dynamic Media Classic從何處取得視訊網站地圖和/或mRSS摘要的中繼資料。
+「產生設定」區域會列出視訊網站地圖（或mRSS摘要），或兩者適用的輸入欄位。 在「中繼資料」面板中，會列出中繼資料欄位的名稱。 使用「一般設定」區域，即可將輸入欄位對應至中繼資料欄位。如此一來，您就能告訴Adobe Dynamic Media Classic從何處取得視訊網站地圖和/或mRSS摘要的中繼資料。
 
 1. 在「中繼資料檢視」選單上選擇中繼資料檢視。選擇檢視後，中繼資料欄位的名稱會顯示在「中繼資料」面板中。
 請參閱[中繼資料檢視](application-setup.md#metadata_views)。

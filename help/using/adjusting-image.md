@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # 調整影像{#adjusting-an-image}
 
-Adobe Dynamic Media Classic提供多種調整影像外觀的指令。 您可以翻轉、旋轉、模糊影像、改變影像的色彩平衡，以及色彩化影像。當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
+Adobe Dynamic Media Classic提供多種調整影像外觀的指令。 您可以翻轉、旋轉、模糊、改變色彩平衡和為影像著色。 當您實驗這些命令時，可以看到這些命令在您處理的影像上產生的效果。
 
 另請參閱 [建立影像的別名](adjusting-image.md#creating_an_alias_for_an_image).
 

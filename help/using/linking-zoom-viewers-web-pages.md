@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 27%
+source-wordcount: '671'
+ht-degree: 23%
 
 ---
 
 # 將縮放檢視器連結至您的網頁{#linking-zoom-viewers-to-your-web-pages}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括主要影像和相關聯的縮放目標，以及縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像及相關縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 27%
 
 **若要複製縮放檢視器的內嵌程式碼：**
 
-1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「縮放」檢視器的資產資料夾。
+1. 在左側的「資產庫」面板中，導覽至包含您要複製其內嵌程式碼的縮放檢視器的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。

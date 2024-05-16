@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 30%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 漸進式視訊伺服器名稱]**：前往您的 [!DNL Adobe Dynamic Media Classic] 漸進式視訊伺服器。 此伺服器使用HTTP通訊協定來傳送漸進式視訊。
 
-* **[!UICONTROL 顯示未發佈資產的URL]**：如果您想要的話，請選取此選項 [!DNL Adobe Dynamic Media Classic] 可在預覽任何資產時顯示URL，無論是否發佈。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
+* **[!UICONTROL 顯示未發佈資產的URL]**：如果您想要的話，請選取此選項 [!DNL Adobe Dynamic Media Classic] 以在您預覽任何資產（無論是否已發佈）時顯示URL。 如果資產尚未發佈，URL 將無法運作。不過，您可以使用 URL 來進行規劃或組織。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 顯示範例eVideo內容]**：開啟或關閉eVideo範例內容的顯示。
 
-* **[!UICONTROL 顯示產生的內容]**：在資料夾中，顯示從資產產生的內容。 例如，當PDF檔案在上傳時點陣化時，Adobe Dynamic Media Classic會為原始PDF中的每個頁面建立一個影像。 如果選取了「顯示產生的內容」 ，則上傳原始PDF時產生的每個影像都會顯示。 它會與PDF一起出現在將PDF上傳到的資料夾中。
+* **[!UICONTROL 顯示產生的內容]**：在檔案夾中，會顯示從資產產生的內容。 例如，當PDF檔案在上傳時點陣化時，Adobe Dynamic Media Classic會為原始PDF中的每個頁面建立一個影像。 如果選取了「顯示產生的內容」 ，則上傳原始PDF時產生的每個影像都會顯示。 它會與PDF一起出現在將PDF上傳到的資料夾中。
 
 * **[!UICONTROL 顯示編碼的視訊]**：預設為取消選取（關閉）。
 
@@ -117,11 +117,11 @@ ht-degree: 30%
 
 * **[!UICONTROL 覆寫影像]**：Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專案的Adobe Dynamic Media Classic ID （影像名稱減去副檔名）必須是唯一的。 因為此規則，所以「上載」對話框擁有「覆寫」選項。此選項的確實效果取決於指定的「覆寫影像」選項。這些選項會指定取代影像的上載方式: 取代原始影像或成為重複影像。重複的影像會以「–1」重新命名（例如chair.tif會重新命名為chair-1.tif）。 這些選項會影響上載至非原始檔案夾的影像，或擁有非原始副檔名 (例如 JPG、TIF 或 PNG) 的影像。另請參閱 [使用「覆寫影像」選項](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL 在目前檔案夾中有基本影像名稱/副檔名相同者時予以覆寫]**：此選項是最嚴格的取代規則。 它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
+   * **[!UICONTROL 在目前檔案夾中有基本影像名稱或副檔名相同者時予以覆寫]**：此選項是最嚴格的取代規則。 它會要求您將取代影像上載至與原始影像相同的檔案夾，且取代影像必須與原始檔案擁有相同的副檔名。如果未符合這些要求，便會建立重複項目。
 
    * **[!UICONTROL 目前檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：要求您將取代影像上傳至與原始影像相同的資料夾，但副檔名可能與原始影像不同。 例如，chair.tif 會取代 chair.jpg。
 
-   * **[!UICONTROL 任何檔案夾內若有基本資產名稱/副檔名相同者，將予以覆寫]**：取代影像的副檔名必須與原始影像相同（例如，chair.jpg必須取代chair.jpg，而非chair.tif）。 然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
+   * **[!UICONTROL 任何檔案夾內若有基本資產名稱或副檔名相同者，將予以覆寫]**：取代影像的副檔名必須與原始影像相同。 例如，chair.jpg必須取代chair.jpg，而非chair.tif)。 然而，您可以將取代影像上載至與原始影像不同的檔案夾。上載的影像將會位於新檔案夾中；無法再於原始位置中找到該檔案
 
    * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：此選項是最具包容性的取代規則。 您可以將取代影像上載至非原始檔案夾、上載擁有不同副檔名的檔案，以及取代原始檔案。如果原始檔案位於不同檔案夾，則取代影像會位於其上載的新目標檔案夾中。
 
@@ -135,7 +135,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 預設影像對應HREF]**：定義影像對應中HREF欄使用的預設URL。 此URL是您在建立影像地圖時看到的預設URL。
 
-* **[!UICONTROL 預設影像對應範本]**：定義影像對應中HREF範本的預設JavaScript。 您可以在此處設定自訂程式碼，以便在您選取影像地圖時執行。
+* **[!UICONTROL 預設影像對應範本]**：定義影像對應中HREF範本的預設JavaScript。 您可以在此處設定自訂程式碼，以便在選取「影像地圖」時執行。
 
 ### 其他設定（至應用程式）
 

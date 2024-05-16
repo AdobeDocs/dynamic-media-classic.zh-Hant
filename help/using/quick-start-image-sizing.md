@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 ## 2.設定影像預設集
 
-如同巨集，影像預設集是儲存於同一個名稱下的預先定義大小和格式命令集合。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 如果您擁有公司管理員狀態，便可以自行設定影像預設集。Adobe Dynamic Media Classic也隨附預設影像預設集，您可以透過這些預設集動態傳遞影像。
+如同巨集，影像預設集是儲存於同一個名稱下的預先定義大小和格式命令集合。影像預設集可控制從Dynamic Media影像伺服器傳送影像的大小和格式。 如果您處於公司管理員狀態，可以自行設定影像預設集。 Adobe Dynamic Media Classic也隨附預設影像預設集，您可以透過這些預設集動態傳遞影像。
 
 若要建立影像預設集（如果您是管理員），請在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 影像預設集]**. 然後選取 **[!UICONTROL 新增]** 以建立影像預設集，或選取 **[!UICONTROL 編輯]** 以變更現有的影像預設集。
 

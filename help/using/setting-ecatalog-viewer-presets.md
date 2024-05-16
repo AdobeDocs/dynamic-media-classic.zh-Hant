@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -48,7 +48,7 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
    | `$2$` | frame | 目前在影像集中顯示之影格的序號。 |
    | `$3$` | 影像根 | 在影像命令中指定之第一個項目的第一個路徑元素 (通常為指定影像集之目錄項目的影像目錄 ID)。 |
 
-1. （選用）在 **[!UICONTROL 資訊面板設定]**，在 **[!UICONTROL 回應範本]** 方塊中，輸入當Adobe Dynamic Media Classic在擷取影像地圖的資訊時遇到錯誤時要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （選用）在 **[!UICONTROL 資訊面板設定]**，在 **[!UICONTROL 回應範本]** 方塊中，輸入當Adobe Dynamic Media Classic在擷取「影像地圖」的資訊時遇到錯誤時要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 
 >[!NOTE]
 >

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 49%
+source-wordcount: '258'
+ht-degree: 48%
 
 ---
 
 # 建立及啟用影像預設集{#creating-and-enabling-image-presets}
 
-使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。「影像預設集」是預先定義的設定集合，在匯出影像時，會變更影像的大小、影像品質、格式、解析度及其他外觀方面。
+使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。影像預設集是預先定義設定的集合。 這些設定可變更匯出影像時的尺寸、影像品質、格式、解析度及其他外觀方面。
 
 Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。使用者從Adobe Dynamic Media Classic匯出影像時，影像預設集會依貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
 

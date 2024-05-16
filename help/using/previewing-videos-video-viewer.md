@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 21%
 
 1. 在左側的「資產庫」面板中，於「顯示」下拉式清單中，選取 **[!UICONTROL 視訊]** （單一編碼的視訊）或 **[!UICONTROL 最適化視訊集]**. 使用最適化視訊編碼預設集時，會產生一組多位元速率編碼的視訊。
 1. 在左側的「資產庫」面板中，瀏覽資產檔案夾，以選取您要預覽的視訊。
-1. 執行下列任一項作業
+1. 執行下列任一項作業︰
 
    * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 清單檢視]**. 在「資產」視窗中，暫留在資產上，然後選取「 」 **[!UICONTROL 預覽]**.
    * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在資產視窗的資產縮圖視窗中，選取 **[!UICONTROL 預覽]**.
@@ -41,7 +41,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。不過請注意，在案頭預覽中看到的內容不會實際顯示行動裝置上的播放外觀。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面，選取「 」 **[!UICONTROL 複製URL]**，並在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱 [將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。不過請注意，在案頭預覽中看到的內容不會實際顯示行動裝置上的播放外觀。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面。 按一下 **[!UICONTROL 複製URL]**，並在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱 [將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 
 1. 前往Adobe Dynamic Media Classic右上角附近 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**.
 
-   若只要檢視「視訊檢視器」的預設集，請在表格正上方工具列中，從開啟的「檢視器」下拉式清單中選取「視訊檢視器」 。
+   您可以選擇只檢視視訊檢視器的預設集。 在表格正上方的工具列中，從開啟的檢視器下拉式清單中選取Video Viewer。
 
 1. 增加或編輯用於顯示視訊的「檢視器預設集」:
 

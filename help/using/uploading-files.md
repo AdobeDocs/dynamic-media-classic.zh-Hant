@@ -9,16 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3869'
-ht-degree: 27%
+source-wordcount: '3868'
+ht-degree: 26%
 
 ---
 
 # 上載檔案{#uploading-files}
 
-將資產檔案上傳至Adobe Dynamic Media Classic之前，請確定資產檔案已正確命名，且您的資料夾結構已依照您想要的方式設定和組織。 您可以從Adobe Dynamic Media Classic提供的FTP站台上傳檔案，或直接從您的電腦或網路上傳檔案。 Adobe Dynamic Media Classic提供上傳檔案時最佳化檔案的選項。 如果您已安裝Adobe Dynamic Media Classic案頭應用程式，則可直接從案頭拖曳檔案和資料夾以將其上傳。 請參閱[應用程式一般設定](application-setup.md#general_settings)。
+將資產檔案上傳至Adobe Dynamic Media Classic之前，請確定資產檔案的名稱正確。 此外，請確定您的檔案夾結構已依照您想要的方式進行設定和組織。 您可以從Adobe Dynamic Media Classic提供的FTP站台上傳檔案，或直接從您的電腦或網路上傳檔案。 Adobe Dynamic Media Classic提供上傳檔案時最佳化檔案的選項。 如果您已安裝Adobe Dynamic Media Classic案頭應用程式，則可直接從案頭拖曳檔案和資料夾以將其上傳。 請參閱[應用程式一般設定](application-setup.md#general_settings)。
 
 ## 準備您的資產和資料夾以進行上傳 {#preparing-your-assets-and-folders-for-uploading}
 
@@ -72,7 +72,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 | --- | --- |
 | 音效資料 | 輸入音訊資產格式，其中包括 AAC、HE-AAC、AC3、WAV、WMA、AIFF、MP3。 可以將音訊轉碼為以下格式: MP3、AAC 和 HE-AAC。 |
 | 影像 (用於調整影像大小、縮放、影像集、迴轉集) | 影像在最大大小下必須至少為2000畫素；一般影像大小在最大大小下的範圍是1500到2500畫素。 建議使用不失真的影像格式，包括 TIFF 和 PNG 檔案。 如果使用 JPEG 影像，請使用最高品質的設定。處理動畫GIF檔案的方式與其他靜態內容相同。 |
-| eCatalog | 使用在Adobe Acrobat中建立的高解析度PDF檔案，或是儲存為「可立即使用」的AdobeCreative Suite應用程式。 PDF 包括所有需要的字型、影像、遮色片以及參照的圖形化元素，採用單頁、雙頁式跨頁或多頁格式。 透過按字母數字順序為檔案命名來排列頁面順序。 將 eCatalog 的所有 PDF 檔放於一個檔案夾中，以便上載。 您可以在上載時選取裁切選項，以便從 PDF 中移除修剪區域，包括裁切標記、對齊目標或色彩導表。 多數印刷就緒的 PDF 檔案採用 CMYK 色域，因此務必要獲得用於 PDF 檔案的 CMYK ICC 色彩設定檔。 |
+| eCatalog | 使用在Adobe Acrobat中建立的高解析度PDF檔案，或是儲存為「可立即使用」的AdobeCreative Suite應用程式。 PDF包含所有需要的字型、影像、遮色片。 而且，以單頁、雙頁跨頁或多頁格式包含所有必要的參考圖形元素。 透過按字母數字順序為檔案命名來排列頁面順序。 將 eCatalog 的所有 PDF 檔放於一個檔案夾中，以便上載。 您可以在上載時選取裁切選項，以便從 PDF 中移除修剪區域，包括裁切標記、對齊目標或色彩導表。 多數印刷就緒的 PDF 檔案採用 CMYK 色域，因此務必要獲得用於 PDF 檔案的 CMYK ICC 色彩設定檔。 |
 | 範本 | 分層影像或版面設計，可以包括文字、影像和圖層。 可以將圖層、文字字串和屬性 (如色彩和大小) 參數化，從而可以自訂變數資料。 在範本中使用時的影像要求與其他影像相同。 在 Photoshop 或其他影像編輯程式中準備圖形。 採用 TIFF 或 PNG 格式將每個圖形儲存為平面化透明檔案。 確保影像解析度適合所要求的用途。 列印影像為300 ppi。 |
 | 視訊 | Adobe Dynamic Media Classic支援以OGV和MP4格式儲存的視訊檔案。 您可在上傳時將檔案轉碼為MP4格式。 請參閱[支援的資產檔案格式](#supported-static-file-formats)。 |
 | 字型 | 已上傳TrueType， `Type1` (僅限Windows®)、OpenType®字型和PhotoFonts。 |
@@ -116,7 +116,7 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 請確定貴公司的所有使用者都瞭解這些檔案命名規則：
 
-* 系統中不允許存在名稱完全相同的資產 ID。
+* 系統中不允許使用相同名稱的資產ID。
 * 資產ID名稱會區分大小寫。
 * 最佳做法是確保資產 ID 不包含空格 (例如 black jacket.tif 和 blue jacket.jpg)。Adobe Dynamic Media Classic使用資產名稱來建構URL字串時，會對資產名稱中的空白進行ASCII編碼。 這些 ASCII 代碼不易理解，從而使 URL 更難讀取。
 * 檔名中允許使用特定語言的字元，但不允許使用下列字元:
@@ -141,7 +141,7 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 
 您選擇在Adobe Dynamic Media Classic上儲存內容的資料夾命名方法和結構取決於貴組織的需求。 以下是一些檔案夾結構範例:
 
-**以SKU為基礎**：資料夾是根據SKU或專案編號來命名。 例如，為所有以 0、20、30 開頭的編號序列分別建立單獨的檔案夾。
+**以SKU為基礎**：資料夾是根據SKU或專案編號來命名。 例如，會針對所有0、20和30數字序列建立個別資料夾。
 
 **品牌型**：針對擁有多個品牌系列的製造商和從其他公司行銷其他品牌的零售商，將檔案分割為以不同品牌命名的產品資料夾。
 
@@ -161,12 +161,12 @@ Adobe Dynamic Media Classic會傳送電子郵件給您，以確認上傳工作�
 
 Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上傳檔案和資料夾。
 
-1. 在Adobe Dynamic Media Classic案頭應用程式的「全域導覽」列上，選取「 」 **[!UICONTROL 上傳]**.
+1. 在Adobe Dynamic Media Classic案頭應用程式中，於全域導覽列上選取 **[!UICONTROL 上傳]**.
 1. 在上傳頁面上，選取 **[!UICONTROL 從案頭]** 標籤。
 1. 在上傳頁面的左側，在 **[!UICONTROL 選取要上載的檔案]** 區域，選取 **[!UICONTROL 瀏覽]** 以選取您要上傳的檔案或資料夾，然後選取 **[!UICONTROL 開啟]**.
 1. 在上傳頁面的右側，在所選的 **資料夾目的地** 區域，導覽至您要新增上傳檔案或資料夾的目標資料夾。
 1. （選擇性）在「上載」頁面底部附近的「工作名稱」文字欄位中，輸入上傳工作的新名稱。 或者，您只需使用Adobe Dynamic Media Classic提供的系統產生的預設名稱即可。 上載和發佈工作會記錄在「工作」頁面上，您可以在此檢查工作的狀態。 請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
-1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 上傳後發佈]** 如果要自動發佈您上傳的資產。
+1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 上傳後發佈]** 以便自動發佈您上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]** 如果您希望上傳的檔案以相同名稱取代現有的檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
@@ -176,7 +176,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 
 1. 在「上載工作選項」對話方塊中，選取 **[!UICONTROL 儲存]**.
 1. 在上傳頁面的右下角，選取「 」 **[!UICONTROL 提交上傳]**.
-若要檢視上傳的進度，請選取 **[!UICONTROL 工作]** ，位於全域導覽列上。 您可以繼續在Adobe Dynamic Media Classic中工作，並隨時返回「工作」頁面以檢閱進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**[!UICONTROL 取消]**」按鈕。
+若要檢視上傳的進度，請選取 **[!UICONTROL 工作]** ，位於全域導覽列上。 您可以繼續在Adobe Dynamic Media Classic中工作。 隨時返回「工作」頁面以複查進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**[!UICONTROL 取消]**」按鈕。
 
 ### 使用「透過FTP」索引標籤上傳檔案 {#upload-files-using-via-ftp}
 
@@ -187,11 +187,11 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. 在上傳頁面的右側，在所選的 **[!UICONTROL AdobeDynamic Media資料夾目的地]** 區域，選擇Adobe Dynamic Media Classic中的目的地資料夾。
 1. （選擇性）在「上載」頁面底部附近的「工作名稱」文字欄位中，輸入上傳工作的新名稱。 或者，您只需使用Adobe Dynamic Media Classic提供的系統產生的預設名稱即可。 上載和發佈工作會記錄在「工作」頁面上，您可以在此檢查工作的狀態。
 請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
-1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 上傳後發佈]** 如果要自動發佈您上傳的資產。
+1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 上傳後發佈]** 以便自動發佈您上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選用）在「上傳」頁面底部附近，選取「 」 **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]** 如果您希望上傳的檔案以相同名稱取代現有的檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
-1. 選擇性；只有當您選取 **[!UICONTROL 透過FTP]** 標籤。 在上傳頁面底部附近，選取 **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]** 如果您想從上傳的ZIP或TAR檔案中自動擷取所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
+1. 選擇性；只有當您選取 **[!UICONTROL 透過FTP]** 標籤。 在上傳頁面底部附近，選取 **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]** 以便您從上傳的ZIP或TAR檔案中自動擷取所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 1. 在上傳頁面的右下角附近，選取「 」 **[!UICONTROL 工作選項]**，然後指定您想要的選項。
 
    參閱[上載選項](uploading-files.md#upload_options)。
@@ -199,7 +199,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. 在「上載工作選項」對話方塊中，選取 **[!UICONTROL 儲存]**.
 1. 在上傳頁面的右下角，選取「 」 **[!UICONTROL 提交上傳]**.
 
-   若要檢視上傳進度，請在全域導覽列上，選取 **[!UICONTROL 工作]**. 「工作」頁面隨即出現，並顯示上載的進度。您可以繼續在Adobe Dynamic Media Classic中工作，並隨時返回「工作」頁面以檢閱進行中的工作。
+   若要檢視上傳進度，請在全域導覽列上，選取 **[!UICONTROL 工作]**. 「工作」頁面隨即出現，並顯示上載的進度。您可以繼續在Adobe Dynamic Media Classic中工作。 隨時返回「工作」頁面以複查進行中的工作。
 
 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**[!UICONTROL 取消]**」按鈕。
 
@@ -221,12 +221,12 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
          * **[!UICONTROL 每月]**：選擇您想要工作執行的特定日期（一個月或一週中的某天），包括開始時間。
          * **[!UICONTROL 自訂]**：根據您自己的規格自訂上傳或發佈工作時間間隔。 另請參閱 [建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL 上傳後發佈]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 選取此選項即可自動發佈您上載的資產。當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
+   * **[!UICONTROL 上傳後發佈]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 選取此選項，您就可以自動發佈您上傳的資產。 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
 
    * **[!UICONTROL 任何檔案夾內若有基本資產名稱相同者（無論副檔名為何），將予以覆寫]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。 如果您要以上載的檔案來取代現有同名檔案，請選取此選項。「上載」頁面上也有此選項。 此選項的名稱可能會有所不同，具體取決於中的設定 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**.
 
    * **[!UICONTROL 上傳時解壓縮Zip或Tar檔案]**：若您選取 **[!UICONTROL 從案頭]** 標籤或 **[!UICONTROL 透過FTP]** 標籤。
-如果您想要自動擷取已上傳之ZIP或TAR檔案中的所有檔案，請選取此選項。 「工作選項」對話方塊中也可以使用此相同選項。
+選取此選項，您就可以自動從上傳的ZIP或TAR檔案中解壓縮所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 
    * **[!UICONTROL 包含子資料夾]**：僅當您已選取 **[!UICONTROL 透過FTP]** 標籤。
 如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的資料夾及其子資料夾的名稱會自動在Adobe Dynamic Media Classic中輸入。
@@ -234,7 +234,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
    * **[!UICONTROL 處理中繼資料檔案]**：僅當您選取 **[!UICONTROL 透過FTP]** 標籤。 如果您想要上傳以Tab字元分隔的或XML檔案，以新增中繼資料至多個資產，請選取此選項。
 請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
-* **裁切選項**：若要自動裁切影像中的空白畫素，請開啟 **[!UICONTROL 裁切]** 功能表，選取 **[!UICONTROL 手動]**，並在「上」、「右」、「下」和「左」文字欄位中輸入畫素度量，從側面裁切。 您也可以選取 **[!UICONTROL Trim]** 在「裁切」功能表上，選擇下列選項：
+* **裁切選項**：自動裁切影像中的空白畫素。 開啟 **[!UICONTROL 裁切]** 功能表，選取 **[!UICONTROL 手動]**，並在「上」、「右」、「下」和「左」文字欄位中輸入畫素度量，從側面裁切。 您也可以選取 **[!UICONTROL Trim]** 在「裁切」功能表上，選擇下列選項：
 
    * **[!UICONTROL 修剪依據]**：選擇根據顏色或透明度裁切：
       * **[!UICONTROL 顏色]**：選擇顏色選項。 接著，選取「邊角」功能表，並選取最能代表您要裁切之空白顏色的影像邊角。
@@ -271,7 +271,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 另請參閱 [執行進階搜尋](searching-assets.md#conducting_an_advanced_search).
 另請參閱 [上傳關鍵字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 訓練影片。
 
-* **批次集預設集**：如果您想從上傳的檔案建立影像集、迴轉集或色票集，請選取 **[!UICONTROL 作用中]** 欄，以顯示您要使用的預設集。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
+* **批次集預設集**：若要從上傳的檔案建立影像集、迴轉集或色票集，請選取 **[!UICONTROL 作用中]** 欄，以顯示您要使用的預設集。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
 請參閱[批次集預設集](application-setup.md#batch_set_presets)。
 
 * **進階**：請參閱 [上載後執行其他工作](uploading-files.md#follow-an-upload-with-another-job).

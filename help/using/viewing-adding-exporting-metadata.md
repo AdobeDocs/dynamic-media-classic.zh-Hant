@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 
 ## 處理中繼資料結構  {#working-with-metadata-schemas}
 
-公司管理員可以檢視所有可用資料結構的清單。在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構]**.
+公司管理員可以檢視所有可用綱要的清單。 在全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構]**.
 
 最初，會隱藏XMP等全域標準結構描述的清單。 但可以使用清單底部的核取方塊加以顯示。
 

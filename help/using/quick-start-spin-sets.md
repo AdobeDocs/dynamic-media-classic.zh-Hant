@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 23%
+source-wordcount: '803'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 
 ![迴轉集的影像。](/help/using/assets/spin_set.png)
 
-迴轉集也接受影像地圖。影像地圖就是迴轉集內顯示含文字之滑鼠指向面板的影像區域。當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁以便使用者進一步瞭解產品。 若要指出「迴轉集」中的影像對映，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍顯示輪廓。
+迴轉集也接受影像地圖。影像地圖就是迴轉集內顯示含文字之滑鼠指向面板的影像區域。當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁以便使用者進一步瞭解產品。 若要指出「迴轉集」中的「影像對映」，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍出現輪廓。
 
 另請參閱 [建立影像地圖](creating-image-maps.md).
 
@@ -55,7 +55,7 @@ ht-degree: 23%
 
 ## 3.編輯迴轉集
 
-若要編輯「迴轉集」，請在「全域導覽」列上移至 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**. 選取迴轉集，然後選取 **[!UICONTROL 編輯]**. 增加、移除和變更影像的位置。您可以變更二維迴轉集中列的位置。
+若要編輯「迴轉集」，請在「全域導覽」列上移至 **[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**. 選取迴轉集，然後選取 **[!UICONTROL 編輯]**. 增加、移除和變更影像的位置。您可以變更二維迴轉集中資料列的位置。
 
 另請參閱 [編輯迴轉集](creating-spin-set.md#editing-a-spin-set).
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic隨附數個「最佳實務」影像預設集，這�
 
 ## 建立影像預設集 {#creating-an-image-preset}
 
-如果您是公司管理員，則可以建立自己的影像預設集。您可以建立影像預設集，或從Adobe Dynamic Media Classic提供的預設影像預設集開始、編輯預設集，然後以新名稱儲存。
+如果您是公司管理員，可以建立自己的影像預設集。 您可以建立影像預設集，或從Adobe Dynamic Media Classic提供的預設影像預設集開始、編輯預設集，然後以新名稱儲存。
 
 **若要建立影像預設集：**
 

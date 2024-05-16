@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -36,7 +36,7 @@ eCatalog是數位的Web版印刷資料，例如目錄、手冊、傳單、產品
 * 將指標移到頁面區域（稱為影像地圖）上，您就可以看到包含專案相關資訊的快顯視窗。
 * 選取頁面區域，以開啟包含專案詳細資訊的新網頁。
 * 撰寫註解並將其附加到 eCatalog 頁面。
-* 如果您想要啟動相關網頁或內容資訊面板，請點選影像地圖圖示。
+* 如果您想要啟動相關網頁或內容資訊面板，請點選「影像地圖」圖示。
 * 使用手勢互動，包括雙指縮放與揮動翻頁。
 * 依項目關鍵字搜尋。
 
@@ -92,7 +92,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 另請參閱 [使用影像地圖將多媒體內嵌到eCatalog中](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-您可以使用「eCatalog」畫面中的「資訊面板」設定，來設定和管理影像地圖文字。
+您可以使用eCatalog畫面中的「資訊面板」設定來設定及管理「影像地圖」文字。
 
 另請參閱 [管理eCatalogs中的資訊面板內容](/help/using/info-panel-content-ecatalog.md).
 

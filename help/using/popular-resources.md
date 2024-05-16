@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 * [行動裝置最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)：使用Adobe Dynamic Media Classic將目標多媒體有效傳送至所有裝置。 在此網路研討會中，您將瞭解如何設計並提供在行動應用程式和回應式網站中有效的影像和視訊檢視體驗。
 * [Adobe Dynamic Media Classic如何支援SEO](/help/using/assets/s7_seo.pdf)：現在的搜尋引擎可搜尋網站和影像。 Adobe Dynamic Media Classic可支援讓影像更易於搜尋引擎使用的做法，以便為Adobe Dynamic Media Classic使用者的網站帶來更多流量。 本PDF提供您所需的背景和實施指引。
 * [使用Adobe Dynamic Media Classic讓假日轉換率最大化](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)：此網路研討會會教導您如何設定自動化工作流程，以從watched資料夾取得內容並自動建立迴轉集和視訊。 您也會瞭解如何快速管理變更和更新影像。
-* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：此網路研討會會教導您如何從Adobe Dynamic Media Classic取得內容。 瞭解如何設定影像預設集以獲得最佳效能和體驗。 您也將學到檢視器預設集與快取配置。
+* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：此網路研討會會教導您如何從Adobe Dynamic Media Classic取得內容。 瞭解如何設定影像預設集以獲得最佳效能和體驗。 您也會瞭解檢視器預設集和快取設定。
 * [回應式設計的最佳實務](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)：此網路研討會會教導您如何改善行動裝置策略的實用秘訣。 並觀看動作期間的回應式設計實際範例。建立一個可在多部裝置間運作的主要資產。 動態變更影像解析度，提升行動運算效能。 或者，調整影像方向，以直向或橫向顯示。 也學習如何動態裁切、縮放或調整影像大小。
 
 ## Adobe Dynamic Media Classic培訓
