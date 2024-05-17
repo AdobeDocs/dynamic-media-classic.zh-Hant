@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '327'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與�
 
 * **[!UICONTROL 應用]**：在「背景漸層顏色」選單中進行選擇，以建立漸層顏色混合。
 
-* **[!UICONTROL 樹狀]**：選擇滑鼠指向效果顏色（將指標移到專案上時顯示的顏色）和選取範圍顏色（選取專案時顯示的顏色）。
+* **[!UICONTROL 樹狀]**：選擇滑鼠指向效果顏色和選取範圍顏色。
 
 * **[!UICONTROL 摺疊面板]**：針對在「詳細資訊」檢視畫面右側顯示的摺疊式功能表，選擇背景顏色、邊框樣式以及滑鼠指向效果與選取的顏色。
 

@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # 檢查工作檔案{#checking-job-files}
 
-若要監視上傳至Adobe Dynamic Media Classic的檔案以及您發佈至Adobe Dynamic Media Classic伺服器的檔案，Adobe Dynamic Media Classic會提供「工作」頁面。 您可以在「工作」頁面上檢閱上載及發佈工作，並透過該頁面查看工作狀態及取消發佈工作。您也可以排程上載和發佈工作。
+若要監視上傳至Adobe Dynamic Media Classic的檔案以及您發佈至Adobe Dynamic Media Classic伺服器的檔案，Adobe Dynamic Media Classic會提供「工作」頁面。 您可以在「工作」頁面上檢閱、上傳和發佈工作、檢查工作的狀態，以及取消從此頁面發佈工作。 您也可以排程上載和發佈工作。
 
 在您上載資產時，「工作」選單旁會顯示一個旋轉圖示 (指示工作正在進行中) 以及進行中的檔案數目。您可以選取圖示來檢視有關使用中工作的詳細資訊。
 
@@ -49,7 +49,7 @@ ht-degree: 24%
 
 * **[!UICONTROL 狀態]**：顯示工作的狀態。
 
-* **[!UICONTROL 目的地]**：針對上傳作業，提供上傳檔案的公司名稱和資料夾。 此類別不適用於發佈作業。
+* **[!UICONTROL 目的地]**：針對上傳作業，目的地是公司名稱和檔案上傳到的資料夾。 此類別不適用於發佈作業。
 
 * **[!UICONTROL 提交者]**：列出上傳資產的使用者。
 

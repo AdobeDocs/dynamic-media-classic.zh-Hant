@@ -10,7 +10,7 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 24%
@@ -27,7 +27,7 @@ ht-degree: 24%
 1. 進行以下一項操作:
 
    * 若要建立預設集，請選取 **[!UICONTROL 新增]**，然後在「新增檢視器預設集」對話方塊中，選擇平台，然後選取 **[!UICONTROL 迴轉集檢視器]**.
-   * 若要編輯現有的迴轉集檢視器預設集，請選取該預設集，然後選取「 」 **[!UICONTROL 編輯]**.
+   * 若要編輯現有的迴轉集檢視器預設集，請選取該預設集，然後選取 **[!UICONTROL 編輯]**.
 
 1. 在 `Configure Viewer` 頁面，在「迴轉集檢視器預設集」的「預設集名稱」方塊中輸入名稱。
 1. 視需要指定其他選項。若要檢視選項的說明，請選取 **[!UICONTROL 資訊提示]** 圖示加以存取。

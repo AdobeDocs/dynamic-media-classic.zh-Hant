@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->增加使用者之前，請先設定用來管理使用者的群組。如果您在增加使用者時，沒有為使用者指定一或多個群組，則 Media Portal 不會讓您增加使用者。如需詳細資訊，請參閱 [建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>增加使用者之前，請先設定用來管理使用者的群組。Media Portal可讓您將使用者指派至一或多個群組，以新增使用者。 如需詳細資訊，請參閱 [建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 管理Media Portal密碼 {#handling-media-portal-passwords}
 
@@ -41,7 +41,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 1. 瀏覽至 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
 1. 在「使用者管理」頁面上，選取 **新增**.
-1. 在 **[!UICONTROL `Add User`]** 對話方塊的「使用者資訊」面板中，輸入使用者的「名字」、「姓氏」和「電子郵件地址」，然後選取 **[!UICONTROL 下一個]**.
+1. 在 **[!UICONTROL `Add User`]** 對話方塊的「使用者資訊」面板中，輸入使用者的名字、姓氏和電子郵件地址，然後選取 **[!UICONTROL 下一個]**.
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
 1. 在「角色」清單中，選取Media Portal角色，然後選取 **[!UICONTROL 下一個]**.
 
@@ -95,7 +95,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 >[!NOTE]
 >
->如果CSV檔案的格式不正確，便會顯示下列錯誤訊息：「處理上傳的CSV檔案時發生錯誤。 檢查檔案內容是否為有效資料。」 此外，如果 CSV 包含現有的 IP 或 IPS 使用者，該使用者就不會增加到「使用者清單」中。
+>如果CSV檔案的格式不正確，便會顯示下列錯誤訊息：「處理上傳的CSV檔案時發生錯誤。 檢查檔案內容是否為有效資料。」 此外，如果CSV包含現有的IP或IPS使用者，該使用者不會新增到使用者清單中。
 
 ## 產生 Media Portal 使用者的可選取清單 {#generating-a-selectable-list-of-media-portal-users}
 
