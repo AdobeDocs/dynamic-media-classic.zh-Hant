@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
 1. 導覽至您要新增多個標題和音訊曲目的上傳視訊資產。
 1. 在資產選取模式中，從「清單檢視」或「卡片檢視」中選取視訊資產。
 1. 在工具列上，選取「屬性」圖示（內有「i」的圓形）。
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. 在視訊的「屬性」頁面上，選取 **[!UICONTROL 註解與音訊曲目]** 標籤。
 
    >[!TIP]
@@ -135,8 +134,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
    >* 或者，影片必須由Dynamic Media重新處理。 若是如此，請參閱 [重新處理資料夾中的Dynamic Media資產].
    >
    >完成上述任一項工作後，請回到這些步驟。
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. 若要將一或多個音訊曲目新增至視訊，請執行下列動作：
    1. 選取 **[!UICONTROL 上傳音軌]**.
@@ -165,7 +162,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
    | **選項2** | 我希望AI能產生多種語言的註解檔案。<br>另請參閱 **選項2** 步驟8。 |
    | **選項3** | 註解檔案(.vtt)中的文字需要更正，重新上傳以取代舊的.vtt檔案，然後讓AI翻譯更正的檔案。<br>另請參閱 **選項3** 步驟8。 |
 
-
 +++**選項1：** *我有我現有的註解檔案，這些檔案都使用我想要使用的語言。*
 
    1. 在頁面的右上角附近，按一下 **[!UICONTROL 建立標題]** > **[!UICONTROL 上傳檔案]**.
@@ -189,7 +185,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
 
    1. 如果您已選取 **[!UICONTROL 儲存並關閉]** ，而不是選取 **[!UICONTROL 儲存]**，您仍可檢視已上傳檔案的處理狀態。 另請參閱 [檢視上傳的標題和音訊曲目檔案的生命週期狀態].
    1. 繼續步驟9。
-
 +++
 
 +++**選項2：** *我希望AI能產生多種語言的註解檔案。*
@@ -218,7 +213,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
 
       如有需要，您可以稍後變更或編輯特定註解中繼資料。 發佈視訊時，這些中繼資料詳細資料會反映在已發佈視訊的公開URL中。
    1. 繼續步驟9。
-
 +++
 
 +++**選項3：** *註解檔案(.vtt)中的文字需要更正，重新上傳以取代舊的.vtt檔案，然後讓AI翻譯更正的檔案。*
@@ -248,7 +242,6 @@ Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強�
       如有需要，您可以稍後變更或編輯特定註解中繼資料。 發佈視訊時，這些中繼資料詳細資料會反映在已發佈視訊的公開URL中。
 
    1. 繼續步驟9。
-
 +++
 
 1. （可選）在發佈之前預覽視訊，以確保字幕和音訊如預期般運作。 另請參閱 [預覽含有多個字幕和音訊曲目的視訊].
