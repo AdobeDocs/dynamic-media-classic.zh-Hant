@@ -30,7 +30,7 @@ ht-degree: 53%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-請求 *共用機密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
+[使用Admin Console建立支援案例，要求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在技術支援案例中，請要求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
@@ -41,12 +41,12 @@ ht-degree: 53%
 上載標記是字母數字字串，只能在指定時間內使用。使用下列URL，以您的共用機密金鑰替代，以便擷取上傳權杖。
 
 * 點陣化影像
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為`fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若要要求更多時間，請包含 `expires` 以及您所需的時間（以秒為單位）。 例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
+根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若要要求更多時間，請在URL中加入`expires`，並以秒為單位計算所需時間。 例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -92,11 +92,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **允許的HTTP方法：**
-`GET` 和 `POST`
+`GET`和`POST`
 
 您現在可以上載影像資產。
 
-另請參閱 [上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+請參閱[上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
 ## 上傳點陣化影像資產 {#uploading-an-image-asset}
 
@@ -106,11 +106,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-此 `upload_token` 和 `company_name` 欄位為必填欄位。
+`upload_token`和`company_name`欄位為必填。
 
-另請參閱 [擷取上傳權杖](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+請參閱[擷取上傳權杖](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
-另請參閱 [擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+請參閱[擷取共用機密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
 您還可以透過 URL 查詢字串的形式傳送其他可選值，如以下範例所示:
 
@@ -118,14 +118,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-此 `file_limit` 引數指定檔案大小限制（位元組）。 此 `file_exts` 引數指定允許上傳的副檔名。 這兩個值都是可選的。
+`file_limit`引數指定檔案大小限制（位元組）。 `file_exts`引數指定允許上傳的副檔名。 這兩個值都是可選的。
 
 對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果您在要求中傳送的內容是全域限制的子集，即表示接受。 全域限制如下所示:
 
 | 全域限制 | 值 |
 | --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
-| 用於上載的支援影像檔案格式 | BMP，GIF，JPG， PNG，PSD，TIFF |
+| 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD、TIFF |
 
 使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
 
@@ -135,14 +135,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-請參閱中的去底色背景 [上傳時影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
+在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
-您可以選取「 」，檢視與上述表單相關聯的HTML原始碼 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼
 
-在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取 **[!UICONTROL 檢視頁面來源]**. 程式碼會顯示對應的URL查詢字串以及使用者選取時執行的POST方法 **[!UICONTROL 提交]**.
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 檢視頁面Source]**。 程式碼會顯示對應的URL查詢字串以及使用者選取&#x200B;**[!UICONTROL Submit]**&#x200B;時所執行的POST方法。
 
-若要在Internet Explorer中檢視XML回應，請前往 **[!UICONTROL 檢視]** > **[!UICONTROL 來源]**. 若要在Firefox中檢視XML回應，請前往 **[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL Web開發人員工具]**. 建議使用 Firefox 檢視 XML 回應。
+若要在Internet Explorer中檢視XML回應，請移至&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -202,7 +202,7 @@ POST
 
 ### 取得影像的資產中繼資料 {#getting-asset-metadata-for-images}
 
-您可以使用 `image_info` 擷取您上傳之資產的中繼資料，如下列範例所示：
+您可以使用`image_info`來擷取您上傳之資產的中繼資料，如下列範例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

@@ -23,13 +23,13 @@ ht-degree: 36%
 
 上載 PostScript (EPS) 或 Illustrator (AI) 影像檔案時，可以透過不同方式予以格式化。您可以點陣化檔案、將檔案轉換 FXG 進行範本發佈、保留透明背景、選擇解析度，以及選擇色域。您可以在「上載」畫面的「上載工作選項」方框中，找到「PostScript 選項」與「Illustrator 選項」，其中提供用來格式化 PostScript 與 Illustrator 檔案的選項。
 
-* **[!UICONTROL 處理中]**：選擇 **[!UICONTROL 點陣化]** 將檔案中的向量圖形轉換為點陣圖格式。
+* **[!UICONTROL 處理中]**：選擇&#x200B;**[!UICONTROL 點陣化]**，將檔案中的向量圖形轉換成點陣圖格式。
 
-* **[!UICONTROL 在演算後的影像中保留透明背景]**：維持檔案的背景透明度。
+* **[!UICONTROL 在演算後的影像中維持透明背景]**：維持檔案的背景透明度。
 
 * **[!UICONTROL 解析度]**：決定解析度設定。 這個設定可決定檔案每英吋要顯示多少個像素。
 
-* **[!UICONTROL 色域]**：選取 **[!UICONTROL 色域]** 選單並選擇色域：
+* **[!UICONTROL 色域]**：選取&#x200B;**[!UICONTROL 色域]**&#x200B;功能表並選擇色域：
 
    * **[!UICONTROL 自動偵測]**：保留檔案的色域。
 

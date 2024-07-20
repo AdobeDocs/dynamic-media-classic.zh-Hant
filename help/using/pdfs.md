@@ -27,7 +27,7 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 | --- | --- | --- |
 | 要考慮進行擷取的PDF最大頁數 | 5000 （適用於新上傳） | 100 (適用於所有PDF) |
 
-另請參閱 [Dynamic Media限制](/help/using/limitations.md).
+另請參閱[Dynamic Media限制](/help/using/limitations.md)。
 
 ## PDF 上載選項 {#pdf-upload-options}
 
@@ -37,13 +37,13 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 ### 處理選項
 
-**[!UICONTROL 點陣化]**：（預設）擷取PDF檔案中的頁面，並將向量影象轉換為點陣圖影像。 若要建立eCatalog，請選擇此選項。
+**[!UICONTROL 點陣化]**： （預設）撕裂PDF檔案中的頁面，並將向量影象轉換為點陣圖影像。 若要建立eCatalog，請選擇此選項。
 
-**[!UICONTROL 擷取搜尋字詞]**：從PDF檔案中擷取字詞，以便在eCatalog檢視器中搜尋檔案中的關鍵字。
+**[!UICONTROL 擷取搜尋字詞]**：從PDF檔案擷取字詞，以便在eCatalog檢視器中搜尋檔案中的關鍵字。
 
-**[!UICONTROL 擷取連結]**：從PDF檔案中擷取連結，並將其轉換成eCatalog檢視器中使用的影像地圖。
+**[!UICONTROL 擷取連結]**：從PDF檔案擷取連結，並將其轉換成eCatalog檢視器中使用的影像地圖。
 
-**[!UICONTROL 使用多頁PDF自動產生eCatalog]**：自動從PDF檔案建立eCatalog。 上載 PDF 檔案後會命名 eCatalog。(僅在您上載 PDF 檔案並將其點陣化時，才可使用此選項。)
+**[!UICONTROL 使用多頁PDF自動產生eCatalog]**：從PDF檔案自動建立eCatalog。 上載 PDF 檔案後會命名 eCatalog。(僅在您上載 PDF 檔案並將其點陣化時，才可使用此選項。)
 
 ### 解析度
 
@@ -67,7 +67,7 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 * **[!UICONTROL 保留原始色域]**：保留原始色域。
 
-* **[!UICONTROL 自訂來源]** > **[!UICONTROL 至]**：開啟選單，讓您能夠選擇「轉換自」和「轉換至」色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
+* **[!UICONTROL 自訂從]** > **[!UICONTROL 到]**：開啟功能表，讓您能夠選擇「轉換自」和「轉換至」色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
 
 請另參閱 [ICC 設定檔](/help/using/icc-profiles.md#icc_profiles)。
 
@@ -78,23 +78,23 @@ PDF（可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 1. 選取「裁切」選單，然後選擇「裁剪」。
 1. 指定下列選項:
 
-   * **[!UICONTROL 修剪依據]**：選擇根據顏色或透明度裁切：
+   * **[!UICONTROL 修剪範圍依據]**：選擇根據顏色或透明度裁切：
 
-      * **[!UICONTROL 顏色]**：選擇顏色選項。 然後選取 **[!UICONTROL 邊角]** 功能表，然後以最能代表您要裁切之空白顏色的顏色，選擇PDF的角落。
+      * **[!UICONTROL 色彩]**：選擇色彩選項。 然後選取&#x200B;**[!UICONTROL 轉角]**&#x200B;功能表，並選取最能代表您要裁切之空白區域色彩的PDF轉角。
 
-      * **[!UICONTROL 透明度]**：選擇「透明度」選項。
+      * **[!UICONTROL 透明度]**：選擇透明度選項。
 
    * **[!UICONTROL 容許度]**：拖曳滑桿以指定從0到1的容許度。
 
-   * **[!UICONTROL 根據色彩修剪]**：指定0以裁切畫素，前提是這些畫素完全符合您在PDF角落選取的顏色。 數值越接近 1，允許的色彩差異就越大。
+   * **[!UICONTROL 根據色彩修剪]**：指定0以裁切畫素，前提是這些畫素完全符合您在PDF角落選取的色彩。 數值越接近 1，允許的色彩差異就越大。
 
-   * **[!UICONTROL 根據透明度修剪]**：指定0以裁切透明畫素；數字越接近1則透明度越高。
+   * **[!UICONTROL 以透明度為基礎修剪]**：指定0以裁切畫素，但前提是畫素是透明的；接近1的數字可增加透明度。
 
 ## 從PDF頁面側面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
 上傳時，您可以手動從PDF檔案的頁面兩側移除印表機標籤。
 
-1. 從「裁切」功能表中選取 **[!UICONTROL 手動]**.
+1. 從[裁切]功能表，選取[手動] ****。
 1. 在「上」、「右」、「下」及「左」文字方框中輸入像素設定，即可裁切頁面上緣、下緣及側邊。
 
 裁切的頁面部分取決於您針對 PDF 檔案所輸入的「解析度像素/英吋」設定。例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在這種情況下，請輸入0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。

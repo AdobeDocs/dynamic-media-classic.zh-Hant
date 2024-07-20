@@ -21,25 +21,25 @@ ht-degree: 22%
 
 Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與色彩。使用樣式設定將您的公司品牌置於Media Portal上。
 
-若要存取樣式設定，請前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**. 請務必選取 **[!UICONTROL 儲存]** 以在完成設定後加以儲存。 您可以選取 **[!UICONTROL 還原]** 以恢復預設設定。 當您做出選擇時，「預覽」面板會顯示它們的顯示方式。
+若要存取樣式設定，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**。 確定選取&#x200B;**[!UICONTROL 儲存]**，在設定完成後儲存設定。 您可以選取&#x200B;**[!UICONTROL 還原]**&#x200B;以恢復預設設定。 當您做出選擇時，「預覽」面板會顯示它們的顯示方式。
 
-* **[!UICONTROL 標誌]**：選取 **[!UICONTROL 瀏覽]**，然後在「選取標誌影像」視窗中選擇圖形。
+* **[!UICONTROL 標誌]**：選取&#x200B;**[!UICONTROL 瀏覽]**，然後在[選取標誌影像]視窗中選擇圖形。
 
-* **[!UICONTROL 應用]**：在「背景漸層顏色」選單中進行選擇，以建立漸層顏色混合。
+* **[!UICONTROL 應用程式]**：在[背景漸層色彩]功能表上選取選項，以建立漸層色彩混合。
 
-* **[!UICONTROL 樹狀]**：選擇滑鼠指向效果顏色和選取範圍顏色。
+* **[!UICONTROL 樹狀結構]**：選擇滑鼠指向效果顏色和選取範圍顏色。
 
-* **[!UICONTROL 摺疊面板]**：針對在「詳細資訊」檢視畫面右側顯示的摺疊式功能表，選擇背景顏色、邊框樣式以及滑鼠指向效果與選取的顏色。
+* **[!UICONTROL 摺疊式功能表]**：選擇背景顏色、邊框樣式，以及在[詳細資料]檢視畫面右側顯示的摺疊式功能表所選取的滑鼠指向效果顏色。
 
-* **[!UICONTROL 收合式選單標題]**：選擇是否以收合式選單標題粗體顯示文字。
+* **[!UICONTROL 收合式選單標題]**：選擇是否要以收合式選單標題粗體顯示文字。
 
-* **[!UICONTROL 資料格]**：選擇資料網格中標題列的顏色。
+* **[!UICONTROL Datagrid]**：選擇資料網格中標題列的色彩。
 
-* **[!UICONTROL 警報]**：選擇警示訊息方塊的背景顏色。
+* **[!UICONTROL 警示]**：選擇警示訊息方塊的背景顏色。
 
-* **[!UICONTROL 進度列]**：選擇列顏色，指出上傳和下載的進度。
+* **[!UICONTROL 進度列]**：選擇指示上傳和下載進度的進度列色彩。
 
-若要Media Portal使用者檢視您選擇的樣式設定，他們必須附加 `?company=(company name)` 存取使用者存取Media Portal時使用的URL。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
+若要讓Media Portal使用者檢視您選擇的樣式設定，他們必須在存取Media Portal的URL中附加`?company=(company name)`。 例如，若要查看樣式設定，使用以下 URL 存取 PortalCo 公司的 Media Portal 使用者:
 
 `https://s7sps1.scene7.com/MediaPortal`
 

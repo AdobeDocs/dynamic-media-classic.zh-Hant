@@ -20,5 +20,5 @@ ht-degree: 0%
 # 列印資產{#printing-assets}
 
 1. 在「瀏覽」面板中，選取您要列印的一個或多個資產。
-1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 列印]** 或按 `Ctrl+P` (Windows®)或 `Command+P` (Mac)。
-1. 在「列印」對話方塊中，選擇要列印的份數，然後按一下 **[!UICONTROL 列印]**.
+1. 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 列印]**&#x200B;或按`Ctrl+P` (Windows®)或`Command+P` (Mac)。
+1. 在[列印]對話方塊中，選擇要列印的份數，然後按一下[列印]。****

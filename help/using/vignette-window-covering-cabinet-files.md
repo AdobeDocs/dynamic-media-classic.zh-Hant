@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 處理暈映、視窗涵蓋範圍及封包檔案{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic影像製作工具的使用者可以 *使用* 暈映（VNT檔案）、視窗覆蓋（VNW檔案）和檔案櫃（VNC檔案）。 無法在Adobe Dynamic Media Classic中建立或編輯這些檔案。
+Adobe Dynamic Media Classic影像製作工具的使用者可以&#x200B;*使用*&#x200B;暈映（VNT檔案）、視窗覆蓋（VNW檔案）和檔案櫃（VNC檔案）。 無法在Adobe Dynamic Media Classic中建立或編輯這些檔案。
 
 暈映、視窗覆蓋和檔案櫃是經過編寫的影像。 您可以使用名為「影像製作」的其他Adobe Dynamic Media Classic程式，遮罩影像中的物件，讓使用者可以看見不同紋理或顏色的相同影像。 例如，使用者會看到用各種織物裝飾的沙發、用各種窗戶處理裝飾的窗戶，或是用不同木料裝飾的櫥櫃。
 

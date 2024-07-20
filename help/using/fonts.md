@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
 >[!NOTE]
 >
->如果您打算在範本圖層中使用字型，Adobe Dynamic Media Classic建議您上傳所有字型樣式（粗體、斜體、粗體/斜體及一般字型）。 Adobe Dynamic Media Classic需要這些字型樣式來處理請求。 正在全部上傳 `PostScript/Adobe Type1` 也建議使用與字型關聯的檔案，因為有些字型包含詳細的字距微調資訊。
+>如果您打算在範本圖層中使用字型，Adobe Dynamic Media Classic建議您上傳所有字型樣式（粗體、斜體、粗體/斜體及一般字型）。 Adobe Dynamic Media Classic需要這些字型樣式來處理請求。 也建議上傳與某個字型關聯的所有`PostScript/Adobe Type1`檔案，因為其中某些字型包含詳細的字距微調資訊。
 
 ## 上傳字型檔案 {#uploading-font-files}
 
@@ -43,15 +43,15 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
 您可以變更字型的ID名稱及其型別資訊。 編輯字型檔案有助於搜尋，並且使得字型更易於識別。
 
-在「瀏覽」面板中，選取要在「詳細檢視」中編輯的字型檔案，然後選擇「檔案>編輯資訊」。 此時將開啟「編輯資訊」畫面。選擇下列選項，然後選取 **[!UICONTROL 提交]**.
+在「瀏覽」面板中，選取要在「詳細檢視」中編輯的字型檔案，然後選擇「檔案>編輯資訊」。 此時將開啟「編輯資訊」畫面。選擇下列選項，然後選取&#x200B;**[!UICONTROL 提交]**。
 
 * **[!UICONTROL 字型名稱]**：此名稱可識別發佈時的字型。
 
 * **[!UICONTROL PostScript名稱]**：此名稱是字型的完整PostScript名稱。 它通常表示粗細或樣式。
 
-* **[!UICONTROL RTF名稱]**：此名稱會顯示在RTF編輯器中的彈出式選單上，其中會建立範本文字圖層。
+* **[!UICONTROL RTF名稱]**：此名稱會出現在建立範本文字圖層的RTF編輯器中的彈出式選單上。
 
-* **[!UICONTROL 字型系列名稱]**：此名稱會列出不含樣式、粗細或字型型別指示器的字型名稱。
+* **[!UICONTROL 字型系列名稱]**：此名稱列出字型名稱，但沒有樣式、粗細或字型型別指示器。
 
 * **[!UICONTROL 字型樣式]**：選項為純、粗體、斜體及粗斜體。
 
@@ -61,8 +61,8 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
    * **[!UICONTROL TTF]**：用於PDF/PostScript轉譯和影像伺服的TrueType字型檔案。
 
-   * **[!UICONTROL AFM]**：包含Adobe字型量度資訊且用於影像伺服的Adobe PostScript字型檔案。
+   * **[!UICONTROL AFM]**：包含Adobe字型度量資訊且用於影像伺服的Adobe PostScript字型檔案。
 
    * **[!UICONTROL PFM]**：包含二進位字型量度資訊的Adobe PostScript字型檔案。
 
-   * **[!UICONTROL PFB]**：包含二進位字型外框資訊的Adobe PostScript字型檔案，用於PDF/PostScript轉譯和影像伺服。
+   * **[!UICONTROL PFB]**： Adobe PostScript字型檔案，其中包含二進位字型外框資訊，用於PDF/PostScript轉譯及影像伺服。

@@ -27,11 +27,11 @@ ht-degree: 11%
 
 ## 標示範本以供發佈 {#marking-templates-for-publish}
 
-範本及其所有支援檔案都必須標示為發佈，才能放置在Dynamic Media影像伺服器上。 您可以在「瀏覽」面板中選取 **[!UICONTROL 標籤為發佈]** 圖示。
+範本及其所有支援檔案都必須標示為發佈，才能放置在Dynamic Media影像伺服器上。 您可以選取&#x200B;**[!UICONTROL 標示為Publish]**&#x200B;圖示，在「瀏覽」面板中將這些專案標示為發佈。
 
-## 發佈您的範本 {#publishing-your-template}
+## Publish您的範本 {#publishing-your-template}
 
-若要將範本發佈至Dynamic Media影像伺服器，請在全域導覽列上，選取 **[!UICONTROL 發佈]**，然後選取 **[!UICONTROL 時間]** 選項。 您可以選擇輸入發佈工作的名稱。 選取 **[!UICONTROL 提交發佈]**.
+若要將範本發佈至Dynamic Media影像伺服器，請在全域導覽列上選取&#x200B;**[!UICONTROL Publish]**，然後選取&#x200B;**[!UICONTROL 何時]**&#x200B;選項。 您可以選擇輸入發佈工作的名稱。 選取&#x200B;**[!UICONTROL 提交Publish]**。
 
 >[!MORELIKETHIS]
 >

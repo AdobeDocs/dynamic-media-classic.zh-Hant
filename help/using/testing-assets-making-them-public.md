@@ -37,7 +37,7 @@ ht-degree: 19%
 
 大多數企業都是在防火牆後方執行網際網路。可以通過特定路由，一般而言也可以透過限制範圍的公開 IP 位址存取網際網路。
 
-透過公司網路，您可以使用以下網站找出您的公用IP位址： [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的公司IT組織索取此資訊。
+透過您的公司網路，您可以使用[https://www.whatismyip.com](https://www.whatismyip.com/)之類的網站來找出您的公用IP位址，或向您的公司IT組織要求此資訊。
 
 透過安全測試，Adobe Dynamic Media Classic可為中繼環境或內部應用程式建立專用的影像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。 Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定已核准的IP位址清單。
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. 請聯絡Adobe客戶服務，要求他們啟用您帳戶的安全測試。
-1. 在Adobe Dynamic Media Classic中的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**.
-1. 在「影像伺服器發佈」頁面的 **[!UICONTROL `Publish Context`]** 下拉式清單，選取 **[!UICONTROL 測試影像服務]**.
-1. 對於使用者端位址篩選器，請選取 **[!UICONTROL 新增]**.
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Publish設定]** > **[!UICONTROL 影像伺服器]**。
+1. 在「影像伺服器Publish」頁面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 測試影像伺服]**。
+1. 對於使用者端位址篩選，請選取&#x200B;**[!UICONTROL 新增]**。
 1. 選取核取方塊以啟用（開啟）地址，然後在各自的文字欄位中輸入IP位址和網路遮罩。
 
    >[!NOTE]
    >
-   >如果您新增單一IP位址和網路遮罩，該位址可能會進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮罩都不能進行資產呼叫。 因此，請考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮罩的功能。 這麼做實際上允許 *全部* 進行資產呼叫的IP位址，這些位址都會顯示。
+   >如果您新增單一IP位址和網路遮罩，該位址可能會進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮罩都不能進行資產呼叫。 因此，請考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮罩的功能。 這麼做會有效允許&#x200B;*所有*&#x200B;個IP位址進行資產呼叫，且這些位址都會顯示。
 
 1. 進行以下一項操作:
    * 如果您必須新增更多IP位址，請重複前兩個步驟。
    * 繼續下一個步驟。
-1. 在「影像伺服器發佈」頁面的左下方，選取「 」 **[!UICONTROL 儲存]**
+1. 在「影像伺服器Publish」頁面的左下方，選取&#x200B;**[!UICONTROL 儲存]**
 1. 將所需的影像上傳至您的Adobe Dynamic Media Classic帳戶。
 
-   另請參閱 [上傳檔案](uploading-files.md#uploading_files).
+   請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 1. 請確定某些影像已標示為發佈，而其他影像已取消標籤，然後提交發佈工作。
 
-   另請參閱 [發佈檔案](publishing-files.md#publishing_files).
+   檢視[Publish檔案](publishing-files.md#publishing_files)。
 
-1. 請前往「 」，判斷Secure Testing服務的名稱 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**.
+1. 請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**，以決定您的Secure Testing服務名稱。
 1. 在「應用程式一般設定」頁面的「伺服器」群組下方，尋找「**[!UICONTROL 測試發佈內容伺服器名稱]**」右側的名稱。
 
 如果伺服器名稱遺失或伺服器的URL無法運作，請聯絡Adobe服務。

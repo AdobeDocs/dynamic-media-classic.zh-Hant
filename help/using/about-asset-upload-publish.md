@@ -24,7 +24,7 @@ ht-degree: 24%
 * 對檔案進行管理，以使用這些檔案建立多媒體資產。
 * 將您的資產檔案發佈至Dynamic Media Classic伺服器，以便傳送至您的網站和應用程式。
 
-上傳資產檔案至Adobe Dynamic Media Classic以及發佈資產檔案至Adobe Dynamic Media Classic伺服器時，系統會將這些檔案傳輸記錄在 **[!UICONTROL 工作]** 頁面。 您可以移至該頁面，以追蹤和監視上載和發佈活動。
+當您上傳資產檔案至Adobe Dynamic Media Classic以及發佈資產檔案至Adobe Dynamic Media Classic伺服器時，系統會在&#x200B;**[!UICONTROL 工作]**&#x200B;頁面上記錄這些檔案傳輸。 您可以移至該頁面，以追蹤和監視上載和發佈活動。
 
 >[!NOTE]
 >

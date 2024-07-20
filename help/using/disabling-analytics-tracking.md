@@ -24,4 +24,4 @@ ht-degree: 3%
 1. 關閉Adobe Dynamic Media Classic中Adobe Analytics設定頁面上的所有事件。
 1. 儲存並發佈。
 
-這些步驟會關閉對Adobe Dynamic Media Classic和從取得的URL的支援 **[!UICONTROL 複製URL]** 功能。 如果您實作自訂追蹤，請依照設定頁面中的設定停用Adobe Analytics追蹤，以防止與自訂實作衝突。
+這些步驟會關閉對Adobe Dynamic Media Classic和從&#x200B;**[!UICONTROL CopyURL]**&#x200B;功能取得的URL的支援。 如果您實作自訂追蹤，請依照設定頁面中的設定停用Adobe Analytics追蹤，以防止與自訂實作衝突。

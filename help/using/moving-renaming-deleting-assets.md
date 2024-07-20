@@ -25,19 +25,19 @@ ht-degree: 17%
 
 您可以在「瀏覽」面板中將資產移至不同的資料夾。
 
-**若要移動資產：**
+**移動資產：**
 
 1. 在「瀏覽」面板中選取一個或多個資產，然後執行下列任一項作業：
 
    * 在「資產庫」中顯示您要移動資產的資料夾，並將資產拖曳至資料夾。
-   * 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 移動]**，請在「移動資產」視窗中選取資料夾，然後選取 **[!UICONTROL 移動]**.
+   * 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 移動]**，在「移動Assets」視窗中選取資料夾，然後選取&#x200B;**[!UICONTROL 移動]**。
 
 ## 重新命名資產 {#rename-assets}
 
 1. 在「瀏覽」面板中選取資產，然後執行下列任一項作業：
 
-   * 選取名稱，輸入新名稱，然後按 **[!UICONTROL 輸入]** 或選取遠離名稱。
-   * 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**. 資產名稱會以反白顯示。輸入新名稱，然後按 **[!UICONTROL 輸入]**. 請勿輸入現有Adobe Dynamic Media Classic資產的名稱。
+   * 選取名稱，輸入新名稱，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或選取遠離名稱。
+   * 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**。 資產名稱會以反白顯示。輸入新名稱，然後按&#x200B;**[!UICONTROL Enter]**。 請勿輸入現有Adobe Dynamic Media Classic資產的名稱。
 
 ## 刪除資產 {#delete-assets}
 
@@ -55,8 +55,8 @@ ht-degree: 17%
 
 1. 請執行下列任一動作:
 
-   * 若要刪除一或多個資產，請在「瀏覽」面板中選取資產，然後按下 **[!UICONTROL 刪除]** 或前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]**.
-   * 若要刪除資料夾，請在「資產庫」中選取該資料夾，然後選取 **[!UICONTROL 移除資料夾]**.
+   * 若要刪除一或多個資產，請在[瀏覽]面板中選取資產，然後按下&#x200B;**[!UICONTROL 刪除]**&#x200B;或移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 刪除]**。
+   * 若要刪除資料夾，請在資產庫中選取該資料夾，然後選取&#x200B;**[!UICONTROL 移除資料夾]**。
 
      刪除資料夾會刪除該資料夾、該資料夾中的所有資產及其子資料夾中的所有資產。
 
@@ -70,9 +70,9 @@ ht-degree: 17%
 
 建立清單之後，遵循下列步驟即可使用該清單刪除資產:
 
-1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除資產清單]**.
-1. 在 **[!UICONTROL 已刪除的資產清單]** 對話方塊中，輸入文字檔的路徑，其中包含您要刪除的資產清單。
-1. 選取 **[!UICONTROL 刪除]**.
+1. 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 刪除資產清單]**。
+1. 在&#x200B;**[!UICONTROL 刪除的資產清單]**&#x200B;對話方塊中，輸入包含您要刪除的資產清單的文字檔路徑。
+1. 選取&#x200B;**[!UICONTROL 刪除]**。
 
 當您刪除含有文字檔的資產時，如果清單中不存在任何Adobe Dynamic Media Classic ID，則會顯示「無法驗證您清單中的這些專案：」訊息。 也會顯示專案清單。 不過，Adobe Dynamic Media Classic不會在作業頁面上產生錯誤。
 
@@ -80,4 +80,4 @@ ht-degree: 17%
 >
 >* [在瀏覽面板中選取資產](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [準備您的資產和資料夾以進行上傳](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [從垃圾桶資料夾中還原資產](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [從垃圾桶資料夾還原資產](trash-folder.md#restoring_assets_from_the_trash_folder)

@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # 匯出來源和編碼的視訊{#exporting-source-and-encoded-videos}
 
-在「瀏覽」面板中，來源視訊會加上標籤 *主要視訊*. 已編碼的視訊已加上標籤 *視訊*. 您可以匯出主要視訊和視訊。 若要匯出視訊檔案，請在「瀏覽」面板中選取它們，然後移至 **[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**.
+在「瀏覽」面板中，來源視訊標示為&#x200B;*主要視訊*。 已編碼的視訊標示為&#x200B;*視訊*。 您可以匯出主要視訊和視訊。 若要匯出視訊檔案，請在[瀏覽]面板中選取這些檔案，然後移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**。
 
-另請參閱 [從Adobe Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+請參閱[從Adobe Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
 
 >[!MORELIKETHIS]
 >

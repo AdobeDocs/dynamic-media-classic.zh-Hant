@@ -25,9 +25,9 @@ ht-degree: 44%
 
 因為使用者可以在影像集中縮放影像，所以請確保影像在最大維度至少有 2000 個像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
 
-如需上傳資產的詳細指示，請參閱 [上傳檔案](uploading-files.md#uploading_files).
+如需上傳資產的詳細指示，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [上傳檔案](uploading-files.md#uploading_your_files)
->* [使用暈映、視窗覆蓋和封包檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [上傳您的檔案](uploading-files.md#uploading_your_files)
+>* [處理暈映、視窗覆蓋和封包檔](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

@@ -28,8 +28,8 @@ ht-degree: 61%
 
 由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
 
-如需上傳資產的詳細指示，請參閱 [上傳檔案](uploading-files.md#uploading_files).
+如需上傳資產的詳細指示，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [使用暈映、視窗覆蓋和封包檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [處理暈映、視窗覆蓋和封包檔](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

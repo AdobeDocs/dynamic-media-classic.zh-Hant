@@ -21,21 +21,21 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classic是一個整合式多媒體管理、發佈和服務環境。 豐富型媒體可傳送至所有行銷和銷售管道。 這些管道包括網頁、印刷品、電子郵件行銷活動、入口網站、桌上型電腦和裝置。
 
-另請參閱 [平台概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) 訓練影片。
+另請觀看[平台概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)訓練影片。
 
 ## 工作流程程序 {#workflow-process}
 
 Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
-* **上傳和管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
+* **上傳及管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
 
-* **建立多媒體**：建立資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
+* **建立豐富媒體**：建立您資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
 
-* **發佈和管理**：將資產發佈至Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
+* **Publish和管理**： Publish資產到Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
 
-* **服務**：從Adobe Dynamic Media Classic SaaS網路傳送媒體至網頁、應用程式和行動裝置；媒體會最佳化效能，並與CDN快取一起傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
+* **服務**：將媒體從Adobe Dynamic Media Classic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並透過CDN快取傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
 
-![Adobe Dynamic Media Classic工作流程程式](/help/using/assets/gs_workflow.png)
+![Adobe Dynamic Media Classic工作流程處理序](/help/using/assets/gs_workflow.png)
 
 ## 單一主要影像和單一URL呼叫 {#single-master-images-and-single-url-calls}
 

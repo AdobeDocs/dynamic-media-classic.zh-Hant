@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # 取得磁碟使用資訊 {#get-disk-usage-information}
 
-您可以使用 `disk_info` 引數來擷取有關公司磁碟空間使用情況的資訊，如下列範例所示：
+您可以使用`disk_info`引數來擷取有關公司磁碟空間使用情況的資訊，如下列範例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

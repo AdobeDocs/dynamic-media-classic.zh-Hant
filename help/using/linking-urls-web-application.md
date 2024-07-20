@@ -36,21 +36,21 @@ ht-degree: 26%
 1. 在左側的「資產庫」面板中，導覽至包含要預覽之影像資產的資產資料夾。
 1. 執行下列任一項作業︰
 
-   * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在「資產」視窗中，選取單一影像資產，然後在縮圖影像下方前往 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
-   * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 清單檢視]**. 在「資產」視窗中，選取單一影像資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
-   * 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
+   * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗中，選取單一影像資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**。
+   * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產」視窗中，選取單一影像資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**。
+   * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 詳細資料檢視]**。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**。
 
 1. （選用）在「影像預設集」清單的「產生複製URL的URL編碼」下拉式清單中，選取URL編碼，以在複製影像資產時套用至該資產的URL。
-1. 在「影像預設集清單」視窗中，在預覽窗格的右上角區域中，選取 **[!UICONTROL 複製URL]** 選取的預設集型別。
-1. 在「影像預設集清單」視窗的右下角，選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
+1. 在「影像預設集清單」視窗中，在預覽窗格的右上角區域中，為選取的預設集型別選取「**[!UICONTROL 複製URL]**」。
+1. 在「影像預設集清單」視窗的右下角，選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回Assets畫面。
 
 ### 從瀏覽面板取得影像預設集URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左側的「資產庫」面板中，導覽至包含您要預覽之影像資產的資產資料夾。
-1. 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 從瀏覽面板取得影像預設集 URL
-1. 在「資產」視窗的工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**.
-1. 選取 **[!UICONTROL URL]** 位於畫面右側的面板，讓您展開影像預設集清單。
-1. 選取 **[!UICONTROL 複製URL]** 影像預設集名稱旁的連結，以及您要複製到剪貼簿的URL。
+1. 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 從瀏覽面板取得影像預設集 URL
+1. 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 詳細資料檢視]**。
+1. 在熒幕右側的面板上選取&#x200B;**[!UICONTROL URL]**，您可以展開影像預設集清單。
+1. 選取影像預設集名稱旁的&#x200B;**[!UICONTROL 複製URL]**&#x200B;連結，以及您要複製到剪貼簿的URL。
 
 ## 關於影像預設集 URL 字串 {#about-image-preset-url-strings}
 
@@ -76,11 +76,11 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Media影像伺服器遇到URL的影像預設集部分時( `Large` 在此情況下)，使用「大」影像預設集所定義的大小和格式設定指示。
+URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Media影像伺服器遇到URL的影像預設集部分（在此案例中為`Large`）時，會使用「大」影像預設集所定義的大小和格式指示。
 
 ## 將動態影像新增至網頁 {#adding-dynamic-images-to-your-web-page}
 
-將動態影像新增至網頁時， `<IMG>` HTML頁面代碼中的標籤通常會使用Adobe Dynamic Media Classic URL字串來修改，以便向Dynamic Media影像伺服器提出要求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
+將動態影像新增至網頁時，HTML頁面代碼中的`<IMG>`標籤通常會使用Adobe Dynamic Media Classic URL字串進行修改，以向Dynamic Media影像伺服器提出請求。 此字串會按照影像預設集所定義的大小和格式規格來產生影像。
 
 例如，您不需使用一般呼叫即可開啟靜態影像，如
 
@@ -88,10 +88,10 @@ URL 中的影像預設集名稱皆包含在貨幣符號 ($) 中。當Dynamic Med
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-您現在使用 `<IMG>`標籤以使用對Adobe Dynamic Media Classic平台的影像預設集呼叫來取代靜態影像的參考。 範例呼叫的外觀如下:
+您現在可以使用`<IMG>`標籤，以對Adobe Dynamic Media Classic平台的影像預設集呼叫來取代靜態影像的參考。 範例呼叫的外觀如下:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-在此範例中，Dynamic Media影像伺服器「查詢」以下專案的定義： `$thumbnail$` 並透過以下定義的大小與格式規格，動態產生適當的影像： `thumbnail`影像預設集。 在URL字串中，產品影像檔案名稱( `backpack_trns` 在此情況下)，通常會針對頁面範本進行硬式連線。 唯一自動從商務伺服器插入頁面範本的元素是 IPS ID 或影像名稱。
+在此範例中，Dynamic Media影像伺服器「查詢」`$thumbnail$`的定義，並以`thumbnail`影像預設集所定義的尺寸與格式規格，動態產生適當的影像。 在URL字串中，除了產品影像檔案名稱（在此案例中為`backpack_trns`）以外的所有專案通常都會以硬式連線方式連線頁面範本。 唯一自動從商務伺服器插入頁面範本的元素是 IPS ID 或影像名稱。

@@ -27,28 +27,28 @@ Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄�
 
 **若要從Adobe Dynamic Media Classic匯出資產：**
 
-1. 選取您要匯出的資產，然後前往 **[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**.
+1. 選取您要匯出的資產，然後前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**。
 1. 在「匯出選取的資產」視窗中，按一下「**[!UICONTROL 影像選項]**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):
 
-   * **[!UICONTROL 預設集]**：您可選擇在匯出資產時，選擇影像預設集來格式化資產。 如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
+   * **[!UICONTROL 預設集]**：您可以選擇在匯出資產時，選擇影像預設集來格式化資產。 如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
 
    * **[!UICONTROL 轉換]**：轉換資產檔案或原始影像。
 
-   * **[!UICONTROL 大小]**：您可以選取標準大小。 或者，您可以選取 **[!UICONTROL 其他]** 從 **[!UICONTROL 大小]** 從下拉式清單中選擇所需的度量單位，然後指定寬度和高度。
+   * **[!UICONTROL 大小]**：您可以選取標準大小。 或者，您可以從&#x200B;**[!UICONTROL 大小]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 其他]**，選擇所需的度量單位，然後指定寬度和高度。
 
-     另請參閱 [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     另請參閱[指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
    * **[!UICONTROL 格式]**：選擇影像格式。
 
-   * **[!UICONTROL 顏色]**：選擇「RGB」、「CMYK」或「灰色」。
+   * **[!UICONTROL 色彩]**：選擇RGB、CMYK或灰色。
 
    * **[!UICONTROL 解析度]**：選擇72 ppi、150 ppi或300 ppi。
 
    * **[!UICONTROL 工作名稱]**：您可以指派工作名稱給匯出。
 
-   * **[!UICONTROL 傳送電子郵件至]**：選填。 如果您要透過電子郵件傳送資產，請輸入電子郵件地址。 電子郵件訊息會列出收件者可用來下載資產的 URL。
+   * **[!UICONTROL 傳送電子郵件至]**：選擇性。 如果您要透過電子郵件傳送資產，請輸入電子郵件地址。 電子郵件訊息會列出收件者可用來下載資產的 URL。
 
-1. 選取 **[!UICONTROL 匯出]**.
+1. 選取&#x200B;**[!UICONTROL 匯出]**。
 
 支援三種基本匯出動作:
 

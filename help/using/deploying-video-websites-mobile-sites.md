@@ -31,18 +31,18 @@ ht-degree: 23%
 
 您有兩種不同的發佈視訊方法：
 
-* **上傳時自動立即發佈影片**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
+* **Publish視訊上傳時自動立即完成**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
 
-* **上傳後手動發佈視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
+* **上傳後手動Publish視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
 在您發佈影片後，Adobe Dynamic Media Classic會啟用HTML頁面或應用程式程式碼的URL字串。
 
-**若要發佈視訊：**
+**要發佈視訊：**
 
 1. 進行以下一項操作:
 
-   * 若要在上傳時自動立即發佈視訊，請在「上傳」頁面中選取「 」 **[!UICONTROL 上傳後發佈]**. 程序已完成，您不需要再做任何步驟。
-   * 若要在上傳後手動發佈影片，請在「瀏覽」面板中選取影片，然後在「全域導覽」列上選取「 」 **發佈**.
+   * 若要在上傳時自動並立即發佈視訊，請在「上傳」頁面中，在上傳後選取&#x200B;**[!UICONTROL Publish]**。 程序已完成，您不需要再做任何步驟。
+   * 若要在上傳後手動發佈影片，請在[瀏覽]面板中選取影片，然後在[全域導覽]列上選取&#x200B;**Publish**。
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -50,26 +50,26 @@ ht-degree: 23%
 
 當客戶選取連結時，會自動偵測其裝置、頻寬和熒幕大小。 系統會在預先定義的桌上型電腦檢視器或智慧型手機和平板電腦的行動裝置本機視訊播放器中，顯示適當的視訊以供播放。
 
-另請參閱 [將視訊檢視器內嵌在網頁上](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
+另請參閱[將視訊檢視器內嵌在網頁上](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page)。
 
 **若要將視訊URL連結至行動網站或網站：**
 
-1. 在「資產瀏覽」面板的 **[!UICONTROL 顯示]** 下拉式清單，選取 **[!UICONTROL 視訊]**，或 **[!UICONTROL 最適化視訊集]**.
+1. 在「資產瀏覽」面板的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 視訊]**&#x200B;或&#x200B;**[!UICONTROL 最適化視訊集]**。
 1. 在左側的「資產庫」面板中，瀏覽至包含您要連結之視訊或最適化視訊集的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取 **[!UICONTROL 格點檢視]** 或 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取「 」 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
-   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
 
-   * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**、**[!UICONTROL 清單檢視]**&#x200B;或&#x200B;**[!UICONTROL 詳細檢視]**。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**. 依據最佳做法的要求，複製與 `Universal_HTML5_Video` 檢視器。
+     在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
 
 1. 將 HTML5 視訊 URL 連結貼到您的網站和行動網站上。
 
@@ -77,37 +77,37 @@ ht-degree: 23%
 
 當您想要播放內嵌在網頁上的影片時，請使用內嵌程式碼功能。 您可以將內嵌程式碼複製到剪貼簿，以便貼到網頁中。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
-另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+另請參閱[將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
 **若要將視訊檢視器內嵌在網頁上：**
 
-1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 視訊]**，或 **[!UICONTROL 最適化視訊集]**.
+1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取&#x200B;**[!UICONTROL 視訊]**&#x200B;或&#x200B;**[!UICONTROL 最適化視訊集]**。
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的視訊或最適化視訊集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取 **[!UICONTROL 格點檢視]** 或 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取「 」 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
-   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在視訊縮圖影像下方選取 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在視訊縮圖影像下方選取&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像右側 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-   * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**、**[!UICONTROL 清單檢視]**&#x200B;或&#x200B;**[!UICONTROL 詳細檢視]**。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**. 最佳做法是選取 **[!UICONTROL 內嵌程式碼]** 與 `Universal_HTML5_Video` 檢視器。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
+1. 在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
    不可在「內嵌程式碼」對話框中編輯程式碼。
 
-1. 選取 **[!UICONTROL 關閉]**.
+1. 選取&#x200B;**[!UICONTROL 關閉]**。
 1. 將內嵌程式碼貼入您的網頁。
 
 ### 實作內嵌程式碼，以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-您可能不想使用Adobe Dynamic Media ClassicHTML5視訊播放程式。 如果您想使用原生HTML5 `<video>` 標籤時，您可以使用以下內嵌程式碼範例：
+您可能不想使用Adobe Dynamic Media ClassicHTML5視訊播放程式。 如果您想要搭配MP4視訊資產使用原生HTML5 `<video>`標籤，您可以使用下列內嵌程式碼範例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,17 +117,17 @@ ht-degree: 23%
 </video>
 ```
 
-* 取代 `"S7 video thumbnail URL"` 使用視訊的縮圖URL，也就是使用者在播放視訊之前看到的視訊縮圖影像。
+* 將`"S7 video thumbnail URL"`取代為視訊的縮圖URL，也就是使用者在播放視訊之前看到的視訊縮圖影像。
 
-  另請參閱 [取得視訊縮圖URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  請參閱[取得視訊縮圖URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)。
 
-* 取代 `"S7 OGG video asset URL (no player)"` 搭配視訊的漸進式URL以顯示OGG視訊。
+* 將`"S7 OGG video asset URL (no player)"`取代為OGG視訊的漸進式URL。
 
-  另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  請參閱[將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
-* 取代 `"S7 MP4 mobile progressive video asset URL (no player)"` 搭配視訊的行動漸進式URL。
+* 將`"S7 MP4 mobile progressive video asset URL (no player)"`取代為視訊的行動漸進式URL。
 
-  另請參閱 [將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  請參閱[將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
@@ -135,23 +135,23 @@ ht-degree: 23%
 
 **若要使用協力廠商視訊播放器部署視訊：**
 
-1. 在Adobe Dynamic Media Classic中的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**.
+1. 在Adobe Dynamic Media Classic的全域導覽列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**。
 1. 依據您要使用的 URL 類型，執行下列其中一項工作: 
 
 * 產生直接HLS串流視訊URL （多位元速率）的方式
 
-  在 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL 已發佈的伺服器名稱]** 文字欄位，建構直接URL。 使用下列語法： `server/is/content/company/folder/filename.m3u8`
+  在&#x200B;**[!UICONTROL 應用程式一般設定]**&#x200B;頁面的&#x200B;**[!UICONTROL 伺服器]**&#x200B;群組中，**[!UICONTROL 發佈的伺服器名稱]**&#x200B;文字欄位中，建構直接URL。 使用下列語法： `server/is/content/company/folder/filename.m3u8`
 
-  例如，假設已發佈的伺服器名稱為 `https://s7d9.scene7.com/.` 使用步驟2中的語法，直接URL可能會如下所示：
+  例如，假設已發佈的伺服器名稱為`https://s7d9.scene7.com/.`使用步驟2中的語法，直接URL可能如下所示：
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 產生直接HLS串流視訊URL （單位元速率）的方式
 
-  在 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組，在 **[!UICONTROL HLS資料流伺服器名稱]** 文字欄位，使用下列語法建構直接URL：
+  在&#x200B;**[!UICONTROL 應用程式一般設定]**&#x200B;頁面的&#x200B;**[!UICONTROL 伺服器]**&#x200B;群組的&#x200B;**[!UICONTROL HLS串流伺服器名稱]**&#x200B;文字欄位中，使用下列語法建構直接URL：
 
   `server/company/folder/filename.ext.m3u8`
 
-  例如，假設HLS串流伺服器名稱為 `https://s7mbrstream.scene7.com/hls-vod/`. 使用步驟2中的語法，直接URL可能會如下所示：
+  例如，假設HLS串流伺服器名稱為`https://s7mbrstream.scene7.com/hls-vod/`。 使用步驟2中的語法，直接URL可能會如下所示：
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 產生直接漸進式視訊 URL
@@ -160,7 +160,7 @@ ht-degree: 23%
 
   `server/company/folder/filename`
 
-  例如，假設漸進式視訊伺服器名稱為 `https://s7d9.scene7.com/is/content/`. 使用步驟2中的語法，直接URL可能會如下所示：
+  例如，假設漸進式視訊伺服器名稱為`https://s7d9.scene7.com/is/content/`。 使用步驟2中的語法，直接URL可能會如下所示：
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
@@ -175,9 +175,9 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 若要產生視訊縮圖的 URL，請執行發佈作業。
 
-另請參閱 [發佈視訊](deploying-video-websites-mobile-sites.md#publishing_video).
+觀看[Publish影片](deploying-video-websites-mobile-sites.md#publishing_video)。
 
-在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。選取 **[!UICONTROL 複製URL]** 位於視訊縮圖的右側，方便您複製其相關聯的URL。
+在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
 
 ### 修改視訊檢視器中的海報影格 {#modifying-poster-frames-in-video-viewers}
 
@@ -185,12 +185,12 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 您可以將影像修飾元套用至海報影格。例如，您可以裁切海報影格或使其變得透明。若要修改海報影格，請開啟視訊檢視器配置畫面，並在「海報影像修飾元」區段輸入修飾元。
 
-另請參閱 [新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-另請參閱 [影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+請參閱[影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 
 >[!MORELIKETHIS]
 >
->* [發佈檔案](publishing-files.md#publishing_files)
+>* [Publish檔案](publishing-files.md#publishing_files)

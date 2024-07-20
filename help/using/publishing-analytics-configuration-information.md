@@ -1,5 +1,5 @@
 ---
-title: 發佈Adobe Analytics設定資訊
+title: Publish Adobe Analytics設定資訊
 description: 瞭解如何從Adobe Dynamic Media Classic發佈Adobe Analytics設定資訊。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# 發佈Adobe Analytics設定資訊{#publishing-adobe-analytics-configuration-information}
+# Publish Adobe Analytics設定資訊{#publishing-adobe-analytics-configuration-information}
 
-發佈Adobe Dynamic Media Classic檢視器，以便將設定Adobe Analytics報表的資訊傳送到Adobe Dynamic Media Classic伺服器。 該資訊將嵌入檢視器中。發佈是必要的，如此檢視器中包含的資訊才能在Adobe Dynamic Media Classic伺服器上使用。 該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
+Publish您的Adobe Dynamic Media Classic檢視器，以便將設定Adobe Analytics報表的資訊傳送至Adobe Dynamic Media Classic伺服器。 該資訊將嵌入檢視器中。發佈是必要的，如此檢視器中包含的資訊才能在Adobe Dynamic Media Classic伺服器上使用。 該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ ht-degree: 19%
 
 請參閱[登入 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-另請參閱 [設定Adobe Analytics報表](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
+請參閱[設定Adobe Analytics報表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
 
 **若要發佈組態資訊：**
 
-1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**.
-1. 在 **[!UICONTROL `Publish`]** 對話方塊，選取 **[!UICONTROL 提交發佈]**.
+1. 在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**。
+1. 在&#x200B;**[!UICONTROL `Publish`]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 提交Publish]**。

@@ -18,7 +18,7 @@ ht-degree: 34%
 
 # 刪除已上傳的資產{#deleting-an-uploaded-asset}
 
-您可以使用 `delete` 要刪除資產的引數：
+您可以使用此格式的`delete`引數來刪除資產：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
