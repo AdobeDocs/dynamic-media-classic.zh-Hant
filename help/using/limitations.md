@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: 「瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制限制。 另外還能瞭解不支援的Dynamic Media網頁瀏覽器和作業系統組合。」
+description: 瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制限制。 另外還能瞭解不支援的Dynamic Media網頁瀏覽器和作業系統組合。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic

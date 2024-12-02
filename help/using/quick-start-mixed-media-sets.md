@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：混合媒體集」
+title: 快速入門：混合媒體集
 description: 介紹和快速入門混合媒體集，協助您在Adobe Dynamic Media Classic中快速上手並執行。
 contentOwner: Rick Brough
 content-type: reference

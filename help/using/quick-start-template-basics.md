@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：範本基本知識」
+title: '快速入門: 基本範本'
 description: 範本基本概念的簡介和快速入門，可幫助您在Adobe Dynamic Media Classic中快速上手並執行。
 contentOwner: Rick Brough
 content-type: reference

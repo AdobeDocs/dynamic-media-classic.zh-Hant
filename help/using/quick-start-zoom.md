@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：縮放」
+title: '快速入門: 縮放'
 description: 介紹和Zoom快速入門，協助您快速上手並執行。
 contentOwner: Rick Brough
 content-type: reference

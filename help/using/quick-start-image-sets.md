@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：影像集」
+title: '快速入門: 影像集'
 description: 影像集簡介和快速入門，可幫助您快速上手並執行Adobe Dynamic Media Classic中的影像集技術。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

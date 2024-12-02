@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：eCatalogs」
+title: 快速入門：eCatalogs
 description: eCatalogs簡介和快速入門，可幫助您在Adobe Dynamic Media Classic中使用eCatalog技術快速上手並執行。
 contentOwner: Rick Brough
 content-type: reference

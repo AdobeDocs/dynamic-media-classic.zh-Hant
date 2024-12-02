@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：調整影像大小」
+title: '快速入門: 影像調整大小'
 description: 影像大小調整的簡介和快速入門，協助您快速上手，使用Adobe Dynamic Media Classic中的影像大小調整技術。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 

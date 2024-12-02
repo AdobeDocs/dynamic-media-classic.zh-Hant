@@ -1,5 +1,5 @@
 ---
-title: 「快速入門：迴轉集」
+title: 快速入門:迴轉集
 description: 迴轉集簡介和快速入門可幫助您在Adobe Dynamic Media Classic中快速上手並執行。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
