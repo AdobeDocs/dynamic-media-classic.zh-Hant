@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3868'
+source-wordcount: '3858'
 ht-degree: 26%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 26%
 
 ### 支援的資產檔案格式 {#supported-asset-file-formats}
 
-下表列出Adobe Dynamic Media Classic支援的資產檔案格式。 如需有關受支援Camera Raw檔案的資訊，請參閱[https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)。
+下表列出Adobe Dynamic Media Classic支援的資產檔案格式。 如需有關支援的Camera Raw檔案的資訊，請參閱[https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)。
 
 | 資產檔案格式 | 說明 |
 | --- | --- |
@@ -55,14 +55,12 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 
 下列清單說明Dynamic Media *不*&#x200B;支援點陣影像檔案格式的子型別。
 
-另請參閱[偵測Dynamic Media不支援的檔案格式](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)。
-
 * IDAT區塊大小大於100 MB的PNG檔案。
 * PSB檔案。
 * 不支援色彩空間不是CMYK、RGB、灰階或點陣圖的PSD檔案。 不支援DuoTone、Lab和索引色域。
-* PSD位元深度大於16的檔案。
-* TIFF含有浮點資料的檔案。
-* TIFF具有Lab色域的檔案。
+* 位元深度大於16的PSD檔案。
+* 含有浮點數資料的TIFF檔案。
+* 具有Lab色域的TIFF檔案。
 
 ### 資產類型 {#asset-types}
 
@@ -72,7 +70,7 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 | --- | --- |
 | 音效資料 | 輸入音訊資產格式，其中包括 AAC、HE-AAC、AC3、WAV、WMA、AIFF、MP3。 可以將音訊轉碼為以下格式: MP3、AAC 和 HE-AAC。 |
 | 影像 (用於調整影像大小、縮放、影像集、迴轉集) | 影像在最大大小下必須至少為2000畫素；一般影像大小在最大大小下的範圍是1500到2500畫素。 建議使用不失真的影像格式，包括 TIFF 和 PNG 檔案。 如果使用 JPEG 影像，請使用最高品質的設定。處理動畫GIF檔案的方式與其他靜態內容相同。 |
-| eCatalog | 使用在Adobe Acrobat中建立的高解析度PDF檔案，或是儲存為「可立即使用」的AdobeCreative Suite應用程式。 PDF包含所有需要的字型、影像、遮色片。 而且，以單頁、雙頁跨頁或多頁格式包含所有必要的參考圖形元素。 透過按字母數字順序為檔案命名來排列頁面順序。 將 eCatalog 的所有 PDF 檔放於一個檔案夾中，以便上載。 您可以在上載時選取裁切選項，以便從 PDF 中移除修剪區域，包括裁切標記、對齊目標或色彩導表。 多數印刷就緒的 PDF 檔案採用 CMYK 色域，因此務必要獲得用於 PDF 檔案的 CMYK ICC 色彩設定檔。 |
+| eCatalog | 使用在Adobe Acrobat中建立的高解析度PDF檔案，或儲存為「可立即使用」的Adobe Creative Suite應用程式。 PDF包含所有需要的字型、影像、遮色片。 而且，以單頁、雙頁跨頁或多頁格式包含所有必要的參考圖形元素。 透過按字母數字順序為檔案命名來排列頁面順序。 將 eCatalog 的所有 PDF 檔放於一個檔案夾中，以便上載。 您可以在上載時選取裁切選項，以便從 PDF 中移除修剪區域，包括裁切標記、對齊目標或色彩導表。 多數印刷就緒的 PDF 檔案採用 CMYK 色域，因此務必要獲得用於 PDF 檔案的 CMYK ICC 色彩設定檔。 |
 | 範本 | 分層影像或版面設計，可以包括文字、影像和圖層。 可以將圖層、文字字串和屬性 (如色彩和大小) 參數化，從而可以自訂變數資料。 在範本中使用時的影像要求與其他影像相同。 在 Photoshop 或其他影像編輯程式中準備圖形。 採用 TIFF 或 PNG 格式將每個圖形儲存為平面化透明檔案。 確保影像解析度適合所要求的用途。 列印影像為300 ppi。 |
 | 視訊 | Adobe Dynamic Media Classic支援以OGV和MP4格式儲存的視訊檔案。 您可在上傳時將檔案轉碼為MP4格式。 請參閱[支援的資產檔案格式](#supported-static-file-formats)。 |
 | 字型 | 已上傳TrueType、`Type1` (僅限Windows®)、OpenType®字型和PhotoFonts。 |
@@ -85,11 +83,11 @@ TAR 和 ZIP 上載支援包含一個核取框，供您選取是否想要解壓�
 | SVG 檔案 | 「影像伺服」伺服器可以演算的可擴放向量圖形檔案。 |
 | XML 檔案 | 定義用於修改要求路徑和查詢部分之預處理規則的檔案。 |
 | 階層式樣式表檔案。 | 上傳CSS外觀元素以供HTML5檢視器自訂。 |
-| JavaScript 檔案 | JavaScript檔案是供viewer instrumentation用來儲存帳戶資訊。 Adobe安全性建議，此資產型別僅適用於使用不同網域進行傳送的使用者端帳戶（以避免跨網站指令碼）。 |
+| JavaScript 檔案 | JavaScript檔案是供viewer instrumentation用來儲存帳戶資訊。 Adobe安全性建議僅針對傳送時使用不同網域的使用者端帳戶使用此資產型別（以避免跨網站指令碼）。 |
 
 >[!NOTE]
 >
->當您上傳影像檔案和PDF到Adobe Dynamic Media Classic時，系統將這些來源檔案轉換為PTIFF(金字塔TIFF)檔案。 這些PTIFF是稍後發佈至Dynamic Media影像伺服器的檔案。 Adobe Dynamic Media Classic使用Pyramid Tiff檔案格式，因為它包含各種縮放比例，允許使用Adobe Dynamic Media Classic縮放檢視器檢視時快速縮放。
+>當您上傳影像檔案和PDF至Adobe Dynamic Media Classic時，系統將這些來源檔案轉換為P-TIFF (金字塔TIFF)檔案。 這些P-TIFF是稍後發佈至Dynamic Media影像伺服器的檔案。 Adobe Dynamic Media Classic使用Pyramid Tiff檔案格式，因為它包含各種縮放比例，允許使用Adobe Dynamic Media Classic縮放檢視器檢視時快速縮放。
 
 ### 支援的靜態檔案格式 {#supported-static-file-formats}
 
@@ -102,7 +100,7 @@ Adobe Dynamic Media Classic支援數種靜態檔案格式。 靜態內容是以�
 * CSS
 * JavaScript (當公司設定了自己的網域時)
 * 主要視訊
-* PDF(當PDF在上傳後標籤為發佈時，以避免交付現有eCatalog/PDF工作流程的所有PDF)
+* PDF (當PDF在上傳後標示為發佈時，以避免針對現有eCatalog/PDF工作流程傳送所有PDF)
 * PrX 視訊
 * SVG
 * XML
@@ -166,7 +164,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. 在上傳頁面的左側，在&#x200B;**[!UICONTROL 選取要上傳的檔案]**&#x200B;區域中，選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以選取您要上傳的檔案或資料夾，然後選取&#x200B;**[!UICONTROL 開啟]**。
 1. 在上傳頁面的右側，在所選的&#x200B;**資料夾目的地**&#x200B;區域中，瀏覽至您想要新增已上傳檔案或資料夾的目的地資料夾。
 1. （選擇性）在「上載」頁面底部附近的「工作名稱」文字欄位中，輸入上傳工作的新名稱。 或者，您只需使用Adobe Dynamic Media Classic提供的系統產生的預設名稱即可。 上載和發佈工作會記錄在「工作」頁面上，您可以在此檢查工作的狀態。 請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
-1. （選用）在上傳頁面底部附近，選取「上傳後使用Publish」****，讓您可以自動發佈上傳的資產。
+1. （選擇性）在上傳頁面底部附近，選取「**[!UICONTROL 上傳後發佈」]**，以便您可以自動發佈上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選擇性）如果您希望上傳的檔案以相同名稱取代現有的檔案，請選取「上傳」頁面底部附近的&#x200B;**[!UICONTROL 覆寫任何檔案夾中的相同基本資產名稱（無論副檔名為何）]**。 「工作選項」對話方塊中也可以使用此相同選項。
 根據**[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定，此選項的名稱可能會不同。
@@ -184,10 +182,10 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. 在Adobe Dynamic Media Classic的全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**。
 1. 在上傳頁面上，選取&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤。
 1. 在上傳頁面的左側，在&#x200B;**[!UICONTROL 選擇要上傳的FTP資料夾]**&#x200B;區域中，選擇要從中上傳檔案的FTP資料夾。
-1. 在上傳頁面的右側，在所選&#x200B;**[!UICONTROL AdobeDynamic Media資料夾目的地]**&#x200B;區域中，選擇Adobe Dynamic Media Classic中的目的地資料夾。
+1. 在上傳頁面的右側，在所選&#x200B;**[!UICONTROL Adobe Dynamic Media資料夾目的地]**&#x200B;區域中，選擇Adobe Dynamic Media Classic中的目的地資料夾。
 1. （選擇性）在「上載」頁面底部附近的「工作名稱」文字欄位中，輸入上傳工作的新名稱。 或者，您只需使用Adobe Dynamic Media Classic提供的系統產生的預設名稱即可。 上載和發佈工作會記錄在「工作」頁面上，您可以在此檢查工作的狀態。
 請參閱[檢查工作檔案](checking-job-files.md#checking_job_files)。
-1. （選用）在上傳頁面底部附近，選取「上傳後使用&#x200B;**[!UICONTROL Publish]**」，讓您可以自動發佈上傳的資產。
+1. （選擇性）在上傳頁面底部附近，選取「**[!UICONTROL 上傳後發佈]**」，以便您可以自動發佈上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選擇性）如果您希望上傳的檔案以相同名稱取代現有的檔案，請選取「上傳」頁面底部附近的&#x200B;**[!UICONTROL 覆寫任何檔案夾中的相同基本資產名稱（無論副檔名為何）]**。 「工作選項」對話方塊中也可以使用此相同選項。
 此選項的名稱可能會不同，取決於**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定。
@@ -221,7 +219,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
          * **[!UICONTROL 每月]**：選擇您希望工作執行的特定日期（包括開始時間）。
          * **[!UICONTROL 自訂]**：根據您自己的規格自訂上載或發佈工作時間間隔。 請參閱[建立自訂上載或發佈工作時間間隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)。
 
-   * **[!UICONTROL 上傳後的Publish]**：若您選取&#x200B;**[!UICONTROL 從案頭]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤，即可使用。 選取此選項，您就可以自動發佈您上傳的資產。 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
+   * **[!UICONTROL 上傳後發佈]**：若您選取&#x200B;**[!UICONTROL 從案頭]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤，即可使用。 選取此選項，您就可以自動發佈您上傳的資產。 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「上載」頁面上也有此選項。
 
    * **[!UICONTROL 在任何資料夾中覆寫相同的基本資產名稱，無論副檔名為何]**：若您選取&#x200B;**[!UICONTROL 從案頭]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤，則可使用。 如果您要以上載的檔案來取代現有同名檔案，請選取此選項。「上載」頁面上也有此選項。 此選項的名稱可能會不同，取決於&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定。
 
@@ -255,7 +253,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 * **PostScript®選項**：您可以點陣化PostScript®檔案、裁切檔案、維持透明背景、選擇解析度，以及選擇色域。
 請參閱[使用PostScript和Illustrator檔案](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **Photoshop選項**：您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定到範本的方式。
+* **Photoshop選項**：您可以從Adobe® Photoshop®檔案建立範本、維護圖層、指定圖層的命名方式、擷取文字，以及指定影像錨定至範本的方式。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
 * **PDF選項**：您可以點陣化檔案、擷取搜尋字詞和連結、自動產生eCatalog、設定解析度，以及選擇色域。
