@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 32%
@@ -210,7 +210,7 @@ Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬�
 
 產生報告後，您便可以匯出其資料，以用於試算表和其它應用程式。您也可以列印報告。
 
-* **匯出報表資料**：在資料檢視中，視需要排序和排列資料。 然後開啟&#x200B;**[!UICONTROL 匯出]**&#x200B;功能表並選擇格式： **[!UICONTROL 以Tab分隔]**、**[!UICONTROL 以逗號分隔]**&#x200B;或&#x200B;**[!UICONTROL 格式化HTML]**。 資料會以您選擇的格式複製到剪貼簿。 您現在可以將資料貼上試算表或應用程式。
+* **匯出報表資料**：在資料檢視中，視需要排序和排列資料。 然後開啟&#x200B;**[!UICONTROL 匯出]**&#x200B;功能表並選擇格式： **[!UICONTROL 以Tab分隔]**、**[!UICONTROL 以逗號分隔]**&#x200B;或&#x200B;**[!UICONTROL HTML格式]**。 資料會以您選擇的格式複製到剪貼簿。 您現在可以將資料貼上試算表或應用程式。
 
 * **列印報告**：選取&#x200B;**[!UICONTROL 列印]**，在[列印]對話方塊中選擇您想要的選項，然後選取&#x200B;**[!UICONTROL 確定]**。
 
