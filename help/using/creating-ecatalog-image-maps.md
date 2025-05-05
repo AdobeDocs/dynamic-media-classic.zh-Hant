@@ -97,7 +97,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[複製影像地圖。
+>當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog [&#128279;](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的複製影像地圖。
 
 ## 檢閱及匯入影像地圖資料 {#reviewing-and-importing-image-map-data}
 

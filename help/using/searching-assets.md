@@ -73,7 +73,7 @@ ht-degree: 17%
 
 * **搜尋條件**：建立一或多個搜尋欄位以搜尋中繼資料。 建立搜尋欄位:
 
-   1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;]**、**[!UICONTROL &#x200B;壓縮檢視&#x200B;]**、**[!UICONTROL  IPTC ]**、**[!UICONTROL &#x200B;中繼資料伺服器Publish欄位&#x200B;]**或**[!UICONTROL  XMP ]**的**[!UICONTROL &#x200B;所有屬性。
+   1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;**、**&#x200B;[!UICONTROL &#x200B;壓縮檢視&#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B; IPTC &#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B;中繼資料伺服器Publish欄位&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B; XMP &#x200B;]&#x200B;**的**&#x200B;所有屬性。
    1. 選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;下拉式功能表並選擇欄位名稱。
    1. 選擇&#x200B;**[!UICONTROL 包含]**&#x200B;選項： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 開頭為]**、**[!UICONTROL 結尾為]**&#x200B;或&#x200B;**[!UICONTROL 等於]**。
    1. 針對數值欄位，請選擇值或輸入自訂日期範圍。

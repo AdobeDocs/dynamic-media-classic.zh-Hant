@@ -256,6 +256,6 @@ Dynamic Media隨附60 GB的儲存空間。 您可以以250GB的區塊購買額�
 
 ## 其他資源
 
-+++**我在哪裡可以瞭解有關其功能的更多資訊 [!DNL Dynamic Media] ？**[[!DNL Dynamic Media] 請参閱微網站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)以了解有關 的更多信息[!DNL Dynamic Media]。
++++**我在哪裡可以瞭解有關其功能的更多資訊 [!DNL Dynamic Media] ？**&#x200B;[[!DNL Dynamic Media] 請参閱微網站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)以了解有關 的更多信息[!DNL Dynamic Media]。
 
 +++

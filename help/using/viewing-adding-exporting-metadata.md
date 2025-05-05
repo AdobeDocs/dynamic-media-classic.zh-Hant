@@ -72,7 +72,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**並輸入關鍵字。
+>您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**&#x200B;並輸入關鍵字。
 >參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}

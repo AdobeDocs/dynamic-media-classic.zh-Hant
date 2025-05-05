@@ -99,7 +99,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 
 保留 monochrome 參數的設定值 0。
 
-## JPEG壓縮(`&qlt=`) {#best-practices-for-jpeg-compression-qlt}的最佳作法
+## JPEG壓縮(`&qlt=`)的最佳作法 {#best-practices-for-jpeg-compression-qlt}
 
 * 這個參數控制 JPG 編碼品質。值愈大表示影像品質愈好，但檔案較大；相反地，值愈小表示影像品質愈差，但檔案較小。此參數的範圍是 0-100。
 * 若要將品質最佳化，請勿將此參數值設為 100。設定90或95與100之間的差異幾乎無法察覺。 然而100會不必要地增加影像檔案的大小。 因此，若要最佳化品質但避免影像檔案變得太大，請將`qlt=`值設為90或95。

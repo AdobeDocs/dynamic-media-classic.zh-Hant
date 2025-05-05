@@ -135,7 +135,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像微調選項中的「去底色背景」。
+在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼

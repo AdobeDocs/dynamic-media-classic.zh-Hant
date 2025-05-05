@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 
    如果使用者未收到歡迎電子郵件，請讓他們前往Adobe Dynamic Media Classic登入頁面(https://s7sps1.scene7.com)，然後選取&#x200B;**[!UICONTROL 忘記我的密碼]**。 已重設密碼並傳送新的電子郵件。如果使用者沒有收到電子郵件，也沒有在「垃圾郵件」資料夾中也發現，請聯絡「技術支援」。
 
-   增加 Media Portal 使用者時，您也可以前往「設定>應用程式設定&#x200B;]**」>**[!UICONTROL 「使用者管理&#x200B;]**」，然後選取「**[!UICONTROL &#x200B;上傳使用者清單&#x200B;]**」並選取包含不超過 500 個使用者的.csv檔案。******[!UICONTROL 
+   增加 Media Portal 使用者時，您也可以前往「設定>應用程式設定&#x200B;**」>**&#x200B;[!UICONTROL 「使用者管理&#x200B;]&#x200B;**」，然後選取「**&#x200B;[!UICONTROL &#x200B;上傳使用者清單&#x200B;]&#x200B;**」並選取包含不超過 500 個使用者的.csv檔案。**&#x200B;**&#x200B;**
 
 ### 刪除使用者 {#delet-a-user}
 
@@ -75,7 +75,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
 1. 從清單中選取使用者，然後選取&#x200B;**[!UICONTROL 編輯]**。
 1. 取消選取「有效」。
-1. 選擇儲存&#x200B;****。
+1. 選擇儲存&#x200B;**&#x200B;**。
 
 ### 啟用或停用使用者 {#activating-or-deactivating-users}
 
@@ -93,7 +93,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 1. 在表格中選取顯示您嘗試修改許可權或存取之公司的專案，然後選取&#x200B;**[!UICONTROL 管理公司]**。
 1. 選取使用者角色。
 1. 如果您要變更用戶的群組成員資格 （如果您要编辑或增加 Media Portal 的用戶或參與者），請選取 **[!UICONTROL 「下一個]** 」並编辑群組成員資格。
-1. 選擇儲存&#x200B;****。
+1. 選擇儲存&#x200B;**&#x200B;**。
 
 ### 篩選和排序使用者清單 {#filtering-and-sorting-the-user-list}
 
@@ -162,7 +162,7 @@ Adobe Dynamic Media Classic管理員可以為他們管理的公司產生頻寬�
 
 「影像內容」報告提供了有關下列影像類型要求的資訊:
 
-* ****&#x200B;影像請求：圖像請求。
+* **&#x200B;**&#x200B;影像請求：圖像請求。
 
 * **縮圖要求**： 查看器中色票或備用影像的要求。
 

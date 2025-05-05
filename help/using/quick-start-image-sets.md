@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 >[!NOTE]
 >
->如果您在建立並儲存影像集時於儲存&#x200B;]**（預設）之後選取**[!UICONTROL  Publish，則不需要執行此步驟。
+>如果您在建立並儲存影像集時於儲存&#x200B;**（預設）之後選取** Publish，則不需要執行此步驟。
 
 在「瀏覽」面板中，選取名稱左側的&#x200B;**[!UICONTROL Publish標籤]**&#x200B;圖示。 然後選取&#x200B;**[!UICONTROL Publish]**。 在發佈頁面上，選取&#x200B;**[!UICONTROL 提交Publish]**。
 

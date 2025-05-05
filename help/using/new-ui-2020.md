@@ -76,7 +76,7 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++
 
 +++**_可透過本機電腦上傳至Adobe Dynamic Media Classic的檔案數量是否有任何限制？_**
-在Windows®上使用新的Adobe Dynamic Media Classic案頭應用程式時，您可以使用**[!UICONTROL 上傳]**&#x200B;對話方塊一次最多上傳150個檔案。 2020年底前已解決此限制。 macOS平台上有&#x200B;*no*上傳限制。
+在Windows®上使用新的Adobe Dynamic Media Classic案頭應用程式時，您可以使用&#x200B;**[!UICONTROL 上傳]**&#x200B;對話方塊一次最多上傳150個檔案。 2020年底前已解決此限制。 macOS平台上有&#x200B;*no*上傳限制。
 +++
 
 +++**_新的Adobe Dynamic Media Classic案頭應用程式是否需要新的SKU？ 涉及授權成本嗎？_**
@@ -84,7 +84,7 @@ Adobe致力確保其產品符合客戶的安全需求。 新的Adobe Dynamic Med
 +++
 
 +++**_如何啟用升級至Adobe Dynamic Media Classic案頭應用程式？_**
-在2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須下載並安裝新版本（取代**[!UICONTROL 應用程式]**中的現有應用程式）。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
+在2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須下載並安裝新版本（取代&#x200B;**[!UICONTROL 應用程式]**&#x200B;中的現有應用程式）。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
 +++
 
 +++**_我如何取得Adobe Dynamic Media Classic案頭應用程式相關問題的協助？_**
