@@ -21,7 +21,7 @@ ht-degree: 21%
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/http2)。
 
 ## 上載後發佈 {#publish-after-uploading}
 

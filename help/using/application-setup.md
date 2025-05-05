@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 若要開啟「影像預設集」畫面，請在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**。
 
-請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 ### 建立和編輯影像預設集 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 您可以將多媒體內容的觸角伸展至桌上型電腦、平板電腦和行動使用者，並確保提供簡化的視訊體驗。
 
-請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
+請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
 
 請參閱[Adobe Dynamic Media Classic檢視器預設集相容性對照表](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 不同的網頁有不同的需求。 有時候，您會想要一個提供連結的網頁，該連結會在個別的瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，必須直接將HTML5檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能會有靜態配置。 或是「回應式」功能，且在不同裝置或不同瀏覽器視窗大小中顯示的方式有所不同。 為因應這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器同時支援靜態網頁和回應式設計的網頁。
 
-有關如何將回應式檢視器內嵌到網頁上的詳細資訊，請參閱[關於回應式影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用回應式影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令參考：命令屬性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
+有關如何將回應式檢視器內嵌到網頁上的詳細資訊，請參閱[關於回應式影像庫](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用回應式影像庫](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令參考：命令屬性](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
 
 ### 檢視器預設集類型 {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關檢視器支援的網頁瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
-請參閱[Adobe檢視器參考發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
+請參閱[Adobe檢視器參考發行說明](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)。
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | Android™智慧型手機 | Android™平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |

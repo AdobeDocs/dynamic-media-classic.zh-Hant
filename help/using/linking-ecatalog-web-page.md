@@ -48,7 +48,7 @@ ht-degree: 23%
 
 部署eCatalog最常見的方式是在網頁上以eCatalog縮圖封面頁面的形式放置連結。 請與您的 IT 團隊合作，以確認 eCatalog 會在整潔、置中的彈出式視窗中啟動。要求您的 IT 團隊避免將工具列與位址列顯示在瀏覽器中。
 
-如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南[&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)中的內嵌Adobe5 eCatalog檢視器。
+如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)中的內嵌Adobe5 eCatalog檢視器。
 
 ## 複製eCatalog檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-ecatalog-viewer}
 

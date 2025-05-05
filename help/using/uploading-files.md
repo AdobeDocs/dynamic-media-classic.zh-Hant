@@ -26,7 +26,7 @@ ht-degree: 26%
 
 ### 支援的資產檔案格式 {#supported-asset-file-formats}
 
-下表列出Adobe Dynamic Media Classic支援的資產檔案格式。 如需有關支援的Camera Raw檔案的資訊，請參閱[https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)。
+下表列出Adobe Dynamic Media Classic支援的資產檔案格式。 如需有關支援的Camera Raw檔案的資訊，請參閱[https://helpx.adobe.com/tw/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/tw/camera-raw/using/supported-cameras.html)。
 
 | 資產檔案格式 | 說明 |
 | --- | --- |

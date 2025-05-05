@@ -18,14 +18,14 @@ ht-degree: 2%
 
 ## Adobe Dynamic Media Classic技術檔案
 
-* [發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [發行說明](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [使用手冊](introduction.md)
 
 ## Adobe Dynamic Media Classic開發人員資源
 
-* [Adobe檢視器參考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Adobe檢視器參考指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)
 * [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [影像提供與影像轉譯API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [影像提供與影像轉譯API](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic電子報、Tutorials和網路研討會
 
@@ -42,6 +42,6 @@ ht-degree: 2%
 ## Adobe Dynamic Media Classic培訓
 
 請前往[這裡](https://training.adobe.com/training/courses.html#product=adobe-scene7)檢視目前可用的訓練課程。
-[Adobe Dynamic Media Classic訓練影片](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro)。
+[Adobe Dynamic Media Classic訓練影片](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/intro/training-videos#intro)。
 
 檢視[Adobe Dynamic Media Classic](home.md)可用的所有常用資源。

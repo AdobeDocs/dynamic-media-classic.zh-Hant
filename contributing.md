@@ -58,4 +58,4 @@ Adobe歡迎任何貢獻。 貢獻內容如果是放在公共存放庫中，則�
 
 ## 進一步資訊
 
-請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) 以進一步瞭解如何使用GitHub編寫平台。
+請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction) 以進一步瞭解如何使用GitHub編寫平台。
