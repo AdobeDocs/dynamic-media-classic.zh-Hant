@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說 {#dmc-app-video-walk-through}
 
-觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
+觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
 
 ## 使用案頭應用程式清除電腦上的影像快取和資產快取 {#clear-cache}
 

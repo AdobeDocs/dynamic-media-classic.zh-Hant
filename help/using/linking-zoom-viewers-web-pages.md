@@ -47,7 +47,7 @@ ht-degree: 23%
 
 通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南中的[內嵌Adobe5 Basic Zoom Viewer ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南中的[內嵌Adobe5 Basic Zoom Viewer ](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製縮放檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
