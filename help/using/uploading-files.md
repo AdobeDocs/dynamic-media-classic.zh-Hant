@@ -167,14 +167,14 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. （選擇性）在上傳頁面底部附近，選取「**[!UICONTROL 上傳後發佈」]**，以便您可以自動發佈上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選擇性）如果您希望上傳的檔案以相同名稱取代現有的檔案，請選取「上傳」頁面底部附近的&#x200B;**[!UICONTROL 覆寫任何檔案夾中的相同基本資產名稱（無論副檔名為何）]**。 「工作選項」對話方塊中也可以使用此相同選項。
-根據**[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定，此選項的名稱可能會不同。
+根據&#x200B;**[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定，此選項的名稱可能會不同。
 1. 在「上傳」頁面的右下角附近，選取&#x200B;**[!UICONTROL 工作選項]**，然後指定您想要的選項。
 
    參閱[上載選項](uploading-files.md#upload_options)。
 
 1. 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL 儲存]**。
 1. 在上傳頁面的右下角，選取&#x200B;**[!UICONTROL 送出上傳]**。
-若要檢視上傳進度，請選取[全域導覽列]上的**[!UICONTROL 工作]**。 您可以繼續在Adobe Dynamic Media Classic中工作。 隨時返回「工作」頁面以複查進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**[!UICONTROL 取消]**」按鈕。
+若要檢視上傳進度，請選取[全域導覽列]上的&#x200B;**[!UICONTROL 工作]**。 您可以繼續在Adobe Dynamic Media Classic中工作。 隨時返回「工作」頁面以複查進行中的工作。 若要取消進行中的上載工作，請選取「持續時間」旁邊的「**[!UICONTROL 取消]**」按鈕。
 
 ### 使用「透過FTP」索引標籤上傳檔案 {#upload-files-using-via-ftp}
 
@@ -188,7 +188,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 1. （選擇性）在上傳頁面底部附近，選取「**[!UICONTROL 上傳後發佈]**」，以便您可以自動發佈上傳的資產。
 當您發佈檔案時，檔案就會傳送至即時伺服器。然後即可在外部網站和應用程式中使用這些檔案的 URL。「工作選項」對話方塊中也可以使用此相同選項。
 1. （選擇性）如果您希望上傳的檔案以相同名稱取代現有的檔案，請選取「上傳」頁面底部附近的&#x200B;**[!UICONTROL 覆寫任何檔案夾中的相同基本資產名稱（無論副檔名為何）]**。 「工作選項」對話方塊中也可以使用此相同選項。
-此選項的名稱可能會不同，取決於**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定。
+此選項的名稱可能會不同，取決於&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定。
 1. 選擇性；只有當您選取&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤時才能使用。 在上傳頁面底部附近，選取&#x200B;**[!UICONTROL 在上傳時解壓縮Zip或Tar檔案]**，以便您能夠自動從上傳的ZIP或TAR檔案中解壓縮所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 1. 在「上傳」頁面的右下角附近，選取&#x200B;**[!UICONTROL 工作選項]**，然後指定您想要的選項。
 
@@ -223,13 +223,13 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 
    * **[!UICONTROL 在任何資料夾中覆寫相同的基本資產名稱，無論副檔名為何]**：若您選取&#x200B;**[!UICONTROL 從案頭]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤，則可使用。 如果您要以上載的檔案來取代現有同名檔案，請選取此選項。「上載」頁面上也有此選項。 此選項的名稱可能會不同，取決於&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 上傳至應用程式]** > **[!UICONTROL 覆寫影像]**&#x200B;中的設定。
 
-   * **[!UICONTROL 在上傳時解壓縮Zip或Tar檔案]**：若您選取&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**索引標籤，則可使用。
+   * **[!UICONTROL 在上傳時解壓縮Zip或Tar檔案]**：若您選取&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;索引標籤或&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤，則可使用。
 選取此選項，您就可以自動從上傳的ZIP或TAR檔案中解壓縮所有檔案。 「工作選項」對話方塊中也可以使用此相同選項。
 
-   * **[!UICONTROL 包含子資料夾]**：只有在您選取&#x200B;**[!UICONTROL 透過FTP]**索引標籤時才可用。
+   * **[!UICONTROL 包含子資料夾]**：只有在您選取&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤時才可用。
 如果您要一併上載檔案夾及其子檔案夾，請選取此選項。您上傳的資料夾及其子資料夾的名稱會自動在Adobe Dynamic Media Classic中輸入。
 
-   * **[!UICONTROL 處理中繼資料檔案]**：只有在您選取&#x200B;**[!UICONTROL 透過FTP]**索引標籤時才可用。 如果您想要上傳以Tab字元分隔的或XML檔案，以新增中繼資料至多個資產，請選取此選項。
+   * **[!UICONTROL 處理中繼資料檔案]**：只有在您選取&#x200B;**[!UICONTROL 透過FTP]**&#x200B;索引標籤時才可用。 如果您想要上傳以Tab字元分隔的或XML檔案，以新增中繼資料至多個資產，請選取此選項。
 請參閱[匯入中繼資料 (透過 FTP)](viewing-adding-exporting-metadata.md#import-metadata)。
 
 * **裁切選項**：自動裁切影像中的空白畫素。 開啟&#x200B;**[!UICONTROL 裁切]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 手動]**，然後在[上]、[右]、[下]和[左]文字欄位中輸入畫素度量，從側面裁切。 您也可以在「裁切」功能表上選取&#x200B;**[!UICONTROL 裁切]**，並選擇下列選項：
@@ -237,7 +237,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
    * **[!UICONTROL 修剪範圍依據]**：選擇根據顏色或透明度裁切：
       * **[!UICONTROL 色彩]**：選擇色彩選項。 接著，選取「邊角」功能表，並選取最能代表您要裁切之空白顏色的影像邊角。
 依據色彩修剪: 指定為 0 時，則僅當像素與您在影像邊角中所選取色彩完全相符時才會裁切像素。數值越接近 1，允許的色彩差異就越大。
-      * **[!UICONTROL 透明度]**：選擇&#x200B;**[!UICONTROL 透明度]**選項。
+      * **[!UICONTROL 透明度]**：選擇&#x200B;**[!UICONTROL 透明度]**&#x200B;選項。
 根據透明度裁剪：指定0可裁切透明畫素；數字越接近1則透明度越高。
       * **[!UICONTROL 容許度]**：拖曳滑桿以指定從0到1的容許度。
 
@@ -269,7 +269,7 @@ Adobe Dynamic Media Classic案頭應用程式可讓您透過拖曳方式來上�
 請參閱[進行進階搜尋](searching-assets.md#conducting_an_advanced_search)。
 另請參閱[上傳關鍵字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS)訓練影片。
 
-* **批次集預設集**：若要從上傳的檔案中建立影像集、迴轉集或色票集，請選取您要使用之預設集的&#x200B;**[!UICONTROL Active]**欄。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
+* **批次集預設集**：若要從上傳的檔案中建立影像集、迴轉集或色票集，請選取您要使用之預設集的&#x200B;**[!UICONTROL Active]**&#x200B;欄。 可以選取多個預設集。您可以在「應用程式設定/批次集預設集」頁面中建立預設集。
 請參閱[批次集預設集](application-setup.md#batch_set_presets)。
 
 * **進階**：請參閱[使用其他工作追蹤上傳](uploading-files.md#follow-an-upload-with-another-job)。

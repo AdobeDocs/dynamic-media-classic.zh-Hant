@@ -29,7 +29,7 @@ ht-degree: 32%
 
 如需上傳檔案的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。 上載範本檔案時請注意以下事項:
 
-* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
+* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**&#x200B;下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->

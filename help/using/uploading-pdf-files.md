@@ -52,7 +52,7 @@ ht-degree: 30%
 
 * **擷取搜尋字詞（選用）**：在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 如果要讓檢視者能夠在eCatalog中依關鍵字搜尋，請在「擷取」下拉式清單中選擇&#x200B;**[!UICONTROL 搜尋字詞]**。
 
-* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下「從多頁PDF自動產生eCatalog」****，上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。eCatalog 是根據 PDF 檔案來命名。
+* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下「從多頁PDF自動產生eCatalog」**&#x200B;**，上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。eCatalog 是根據 PDF 檔案來命名。
 
 * **解析度**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在&#x200B;**[!UICONTROL 解析度]**&#x200B;文字欄位中，輸入值。 Adobe Dynamic Media Classic建議每英吋150畫素。
 

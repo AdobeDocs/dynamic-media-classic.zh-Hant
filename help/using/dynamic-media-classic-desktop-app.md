@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 提示與秘訣
 
-**_我在Adobe Dynamic Media Classic的登陸頁面上無法看到媒體購物車面板。_**<br>在Adobe Dynamic Media Classic中，點選**[!UICONTROL 設定>個人設定&#x200B;]**。 在瀏覽器區段中，確定已選取**[!UICONTROL 顯示MediaPortal功能&#x200B;]**（已核取）。 點選**[!UICONTROL 儲存>關閉&#x200B;]**。
+**_我在Adobe Dynamic Media Classic的登陸頁面上無法看到媒體購物車面板。_**<br>在Adobe Dynamic Media Classic中，點選&#x200B;**[!UICONTROL 設定>個人設定&#x200B;]**。 在瀏覽器區段中，確定已選取&#x200B;**[!UICONTROL 顯示MediaPortal功能&#x200B;]**（已核取）。 點選&#x200B;**[!UICONTROL 儲存>關閉&#x200B;]**。
 
-**_無法正確反映資產的發佈狀態（綠色指標）。_**<br>在瀏覽器使用者介面中，必須重新登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe在工具列的**[!UICONTROL 不選&#x200B;]**按鈕右側引入了**[!UICONTROL 重新整理&#x200B;]**圖示。 點選**[!UICONTROL 重新整理&#x200B;]**圖示以檢視指定頁面上所有資產的最新狀態。 使用瀏覽器UI無需重新登入。
+**_無法正確反映資產的發佈狀態（綠色指標）。_**<br>在瀏覽器使用者介面中，必須重新登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe在工具列的&#x200B;**[!UICONTROL 不選&#x200B;]**&#x200B;按鈕右側引入了&#x200B;**[!UICONTROL 重新整理&#x200B;]**&#x200B;圖示。 點選&#x200B;**[!UICONTROL 重新整理&#x200B;]**&#x200B;圖示以檢視指定頁面上所有資產的最新狀態。 使用瀏覽器UI無需重新登入。
 
 ![重新整理圖示](/help/using/assets/refresh-icon1.png)
 *重新整理圖示*
 
-**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選**[!UICONTROL 上傳>工作選項>批次集預設集&#x200B;]**。 請確定已啟用相關的**[!UICONTROL 批次集預設集&#x200B;]**。 按一下**[!UICONTROL 儲存並提交上傳&#x200B;]**。
+**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選&#x200B;**[!UICONTROL 上傳>工作選項>批次集預設集&#x200B;]**。 請確定已啟用相關的&#x200B;**[!UICONTROL 批次集預設集&#x200B;]**。 按一下&#x200B;**[!UICONTROL 儲存並提交上傳&#x200B;]**。

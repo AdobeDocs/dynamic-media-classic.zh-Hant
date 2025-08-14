@@ -61,7 +61,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->如果您想在Adobe Dynamic Media Classic中設定本地化支援選項（例如「地區地圖」欄位），請使用Admin Console建立支援案例。[](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
+>如果您想在Adobe Dynamic Media Classic中設定本地化支援選項（例如「地區地圖」欄位），請使用Admin Console建立支援案例。[&#128279;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
 
 使用Adobe Dynamic Media Classic的常見方式是管理e-Commerce網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常差異在於整體媒體的某些部分。 複製每個國家/地區的所有資產，並僅覆寫差異，以解決這些差異是巨大的努力，並且與單一主要資產的比喻相抵觸。 資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Adobe Dynamic Media Classic使用基本查詢機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
