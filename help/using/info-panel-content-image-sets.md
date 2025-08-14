@@ -51,11 +51,11 @@ ht-degree: 34%
 
    支援的檔案格式為使用UTF-16編碼的TAB分隔檔案和使用ASCII編碼的CSV檔案。 如果是 CSV 檔案，則非 ASCII 字元必須使用 HTML 編碼。
 
-1. 在「資訊面板設定」面板中，選取&#x200B;**[!UICONTROL Publish]**。
+1. 在「資訊面板設定」面板中，選取&#x200B;**[!UICONTROL 發佈]**。
 
 ## 匯入影像集中資訊面板的來源內容 {#import-source-content-for-the-info-panel-in-image-sets}
 
-對於影像集的資訊面板，您可以使用帶有ASCII編碼的CSV （逗號分隔值）檔案(非ASCII字元必須使用HTML編碼)或以定位點分隔的檔案作為來源文字。 Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法匯入不同的檔案型別。
+對於影像集的資訊面板，您可以使用帶有ASCII編碼的CSV （逗號分隔值）檔案(非ASCII字元必須是HTML編碼)或以定位點分隔的檔案作為來源文字。 Tab 字元分隔檔案必須使用 UTF-16 (Unicode) 編碼。您可以使用不同的方法匯入不同的檔案型別。
 
 格式化來源內容時，請記住下列準則:
 

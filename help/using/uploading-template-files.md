@@ -19,17 +19,17 @@ ht-degree: 32%
 
 # 上傳範本檔案{#uploading-template-files}
 
-在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 您可以從Adobe®Photoshop®PSD或影像檔案建立範本。 建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
+在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 您可以從Adobe®Photoshop®PSD或影像檔案建置範本。 建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic建議您在範本中使用透明的TIFF或PSD影像，且大小應與您要顯示於網站上的大小完全相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
+>Adobe Dynamic Media Classic建議您在範本中使用透明的TIFF或PSD影像，且大小應與您要顯示於網站上的大小相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
 
 可以使用 Adobe Photoshop PSD 檔案或影像檔案建立範本。
 
 如需上傳檔案的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。 上載範本檔案時請注意以下事項:
 
-* 如果您要上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**&#x200B;下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD圖層建立的影像。
+* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
@@ -37,4 +37,4 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 >[!MORELIKETHIS]
 >
 >* [上傳您的檔案](uploading-files.md#uploading_your_files)
->* [處理PSD檔案](psd-files.md#working_with_psd_files)
+>* [使用PSD檔案](psd-files.md#working_with_psd_files)

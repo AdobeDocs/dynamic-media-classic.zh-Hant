@@ -41,7 +41,7 @@ ht-degree: 19%
 
 透過安全測試，Adobe Dynamic Media Classic可為中繼環境或內部應用程式建立專用的影像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。 Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定已核准的IP位址清單。
 
-由於原始請求的位置必須確認，因此Secure Testing Service的流量不會透過內容發佈網路(例如公用Dynamic Media影像伺服器流量)進行路由。 向安全測試服務提出的請求與公開Dynamic Media影像伺服器的請求相比，延遲時間稍微長一些。
+由於原始請求的位置必須確認，因此Secure Testing服務的流量不會透過內容發佈網路（例如公用Dynamic Media影像伺服器流量）進行路由。 向安全測試服務提出的要求與公開Dynamic Media影像伺服器的要求相比，延遲時間稍微長一些。
 
 可立即從安全測試服務使用未發佈的資產，而不需加以發佈。透過這種方式，您可以在資產發佈到公開顯示的影像伺服器之前執行預覽。
 
@@ -102,9 +102,9 @@ Last Modified Date:
 
  -->
 
-1. 請聯絡Adobe客戶服務，要求他們啟用您帳戶的安全測試。
-1. 在Adobe Dynamic Media Classic的全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Publish設定]** > **[!UICONTROL 影像伺服器]**。
-1. 在「影像伺服器Publish」頁面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 測試影像伺服]**。
+1. 請聯絡Adobe客戶服務，要求他們在您的帳戶上啟用安全測試。
+1. 在Adobe Dynamic Media Classic的全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**。
+1. 在「影像伺服器發佈」頁面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 測試影像伺服]**。
 1. 對於使用者端位址篩選，請選取&#x200B;**[!UICONTROL 新增]**。
 1. 選取核取方塊以啟用（開啟）地址，然後在各自的文字欄位中輸入IP位址和網路遮罩。
 
@@ -115,14 +115,14 @@ Last Modified Date:
 1. 進行以下一項操作:
    * 如果您必須新增更多IP位址，請重複前兩個步驟。
    * 繼續下一個步驟。
-1. 在「影像伺服器Publish」頁面的左下方，選取&#x200B;**[!UICONTROL 儲存]**
+1. 在「影像伺服器發佈」頁面的左下方，選取&#x200B;**[!UICONTROL 儲存]**
 1. 將所需的影像上傳至您的Adobe Dynamic Media Classic帳戶。
 
    請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
 1. 請確定某些影像已標示為發佈，而其他影像已取消標籤，然後提交發佈工作。
 
-   檢視[Publish檔案](publishing-files.md#publishing_files)。
+   請參閱[發佈檔案](publishing-files.md#publishing_files)。
 
 1. 請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**，以決定您的Secure Testing服務名稱。
 1. 在「應用程式一般設定」頁面的「伺服器」群組下方，尋找「**[!UICONTROL 測試發佈內容伺服器名稱]**」右側的名稱。

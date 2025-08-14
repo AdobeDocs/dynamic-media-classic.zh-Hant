@@ -1,5 +1,5 @@
 ---
-title: Publish檔案
+title: 發佈檔案
 description: 瞭解如何將資產發佈至Dynamic Media影像伺服器。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Publish檔案{#publishing-files}
+# 發佈檔案{#publishing-files}
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
 資產狀態一定是「已發佈」或「未發佈」。依預設，您上傳至Adobe Dynamic Media Classic的任何資產都會自動標示為發佈。
 
-如需詳細資訊，請參閱[即時Publish通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
+如需詳細資訊，請參閱[立即發佈通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
 
 使用這些技巧來標籤要發佈的資產：
 
-* **[!UICONTROL 上傳後的Publish]**：在上傳頁面上，靠近底部，選取&#x200B;**[!UICONTROL 上傳後的Publish]**。 預設狀態是已選取。
+* **[!UICONTROL 上傳後發佈]**：在上傳頁面上，靠近底部，選取&#x200B;**[!UICONTROL 上傳後發佈]**。 預設狀態是已選取。
 
-* **[!UICONTROL 上傳後的Publish]**：在[工作選項]對話方塊中，選取[上傳後的&#x200B;**[!UICONTROL Publish]]**。 預設狀態是已選取。
+* **[!UICONTROL 上傳後發佈]**：在[工作選項]對話方塊中，選取&#x200B;**[!UICONTROL 上傳後發佈]**。 預設狀態是已選取。
 
 如果父項資產標記為發佈，則某些「子項」資產會自動標記為發佈。此表格列出自動標示為要發佈的子資產。
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
 **若要建立發佈工作：**
 
-1. 在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**。
+1. 在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**。
 1. 在「發佈」對話方塊中，選擇您要單次或循環發佈工作。
 
    請參閱[建立一次性發佈工作](publishing-files.md#creating_a_one_time_publish_job)和[建立循環發佈工作](publishing-files.md#creating_a_recurring_publish_job)。
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
    請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)。
 
-1. 選取&#x200B;**[!UICONTROL 提交Publish]**。
+1. 選取&#x200B;**[!UICONTROL 提交發佈]**。
 
 Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您可以在該頁面上檢閱發佈工作。
 
@@ -92,9 +92,9 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以在「發佈」頁面上顯示「進階」選項，並選擇這些選項來處理發佈工作：
 
-* **[!UICONTROL Publish To]**：若要僅將資產發佈至特定伺服器，請選擇伺服器型別。
+* **[!UICONTROL 發佈至]**：若要僅將資產發佈至特定伺服器，請選擇伺服器型別。
 
-* **[!UICONTROL Publish]**：依預設，Adobe Dynamic Media Classic只會發佈新資產，而且是以前未發佈的資產(上次使用Publish後新增的選項)。 不過，您可以選取&#x200B;**[!UICONTROL 完整Publish]**，這樣您也可以發佈自上次發佈以來已更新或變更的資產。 如果您要發佈eCatalog且希望讀者能依關鍵字進行搜尋，請選取&#x200B;**[!UICONTROL 完整包含搜尋資料]**。
+* **[!UICONTROL 發佈]**：依預設，Adobe Dynamic Media Classic只會發佈新資產，而且是以前未發佈的資產（上次發佈後的新資產選項）。 不過，您可以選取&#x200B;**[!UICONTROL 完整發佈]**，以便也可以發佈自上次發佈後已更新或變更的資產。 如果您要發佈eCatalog且希望讀者能依關鍵字進行搜尋，請選取&#x200B;**[!UICONTROL 完整包含搜尋資料]**。
 
 * **[!UICONTROL 以]**&#x200B;執行工作：從清單中選擇使用者名稱。 可以在「工作」頁面上依使用者名稱排序工作。透過選擇名稱，您可以將發佈工作與使用者建立關聯。
 
@@ -106,13 +106,13 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以取消進行中的發佈工作。 此外，管理員還可以透過公司的「工作」頁面取消進行中的發佈工作。
 
-若要取消發佈工作，請移至[工作]頁面並選取[取消]。**&#x200B;** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
+若要取消發佈工作，請移至[工作]頁面並選取[取消]。**** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
 
 >[!NOTE]
 >
 >取消發佈工作後，其狀態會變更為「正在停止」，直到工作達到可以安全停止的時間點為止。 如果發佈工作正在從資料庫取得資料，則停止發佈工作可能需要一些時間。
 
-## 手動Publish資產 {#manually-publishing-assets}
+## 手動發佈資產 {#manually-publishing-assets}
 
 您可以手動發佈個別資產，而不是建立發佈工作。當您發佈影像集或最適化視訊集等集時，集（或「父項」）與該集內的所有成員（或「子項」）都會發佈。
 
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
    * 在格點檢視、清單檢視或詳細資訊檢視中，用標準檔案選取方法來選取一或多個未發佈的資產。
 
-     在全域導覽列上，前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL Publish]**。
+     在全域導覽列上，前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**。
 
    * 在「格點檢視」、「清單檢視」或「詳細資料檢視」中，選取資產名稱左邊具有斜線的灰色圓形圖示。
 

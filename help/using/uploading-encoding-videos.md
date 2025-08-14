@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
 1. 在上傳頁面中，選取&#x200B;**[!UICONTROL 從案頭]**&#x200B;索引標籤。
 1. 在上傳頁面的&#x200B;**[!UICONTROL 選取要上傳的檔案]**&#x200B;面板中，選取&#x200B;**[!UICONTROL 瀏覽]**，瀏覽至MP4視訊檔案，然後選取&#x200B;**[!UICONTROL 開啟]**。
 1. 在所選的&#x200B;**[!UICONTROL 資料夾目的地]**&#x200B;面板中，選取已上傳檔案的資料夾。
-1. 在上傳頁面上，確定已勾選&#x200B;**[!UICONTROL 上傳後的Publish]**。
+1. 在上傳頁面上，確定已勾選&#x200B;**[!UICONTROL 上傳後發佈]**。
 1. 選取&#x200B;**[!UICONTROL 送出上傳]**。
 
 *如果您想使用Adobe Dynamic Media Classic編碼視訊*
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic也會產生視訊縮圖。 您可以深入瞭解視�
    * 選填。 若要使用個別編碼設定，請展開&#x200B;**[!UICONTROL 單一編碼預設集]**，然後選取您要用於案頭、行動裝置和平板電腦的編碼選項。
 請參閱[桌上型電腦視訊編碼預設集](application-setup.md#desktop-video-encoding-presets)、[行動裝置視訊編碼預設集](application-setup.md#mobile-video-encoding-presets)、[平板電腦視訊編碼預設集](application-setup.md#tablet-video-encoding-presets)。
 1. 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL 儲存]**。
-1. 在上傳頁面上，確定已勾選&#x200B;**[!UICONTROL 上傳後的Publish]**。
+1. 在上傳頁面上，確定已勾選&#x200B;**[!UICONTROL 上傳後發佈]**。
 1. 在「上傳」頁面的右下角，選取&#x200B;**[!UICONTROL 送出上傳]**。
 
 *如果您要重新編碼先前上傳的視訊檔案*
@@ -378,4 +378,4 @@ Adobe Dynamic Media Classic已設定目標資料速率、解析度高度和解�
 >* [快速入門： Adobe Dynamic Media Classic中的影片](quick-start-video.md#quick-start-video)
 >* [上傳並編碼視訊](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用視訊檢視器預設集](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [影片預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)訓練影片
+>* [影片預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)訓練影片

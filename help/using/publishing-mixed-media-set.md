@@ -1,5 +1,5 @@
 ---
-title: Publish a混合媒體集
+title: 發佈混合媒體集
 description: 瞭解如何從Adobe Dynamic Media Classic發佈混合媒體集。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# Publish a混合媒體集{#publishing-a-mixed-media-set}
+# 發佈混合媒體集{#publishing-a-mixed-media-set}
 
 建立發佈工作，以發佈您已標示要發佈至Adobe Dynamic Media Classic Video Server和Image Server的混合媒體集。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. 進行以下一項操作:
 
-   * 在「瀏覽」面板中，選取您要發佈的每個檔案名稱旁的&#x200B;**[!UICONTROL 標籤為Publish]**。
-   * 在「上傳」畫面中，選取您要發佈的每個檔案名稱旁的&#x200B;**[!UICONTROL 標籤為Publish]**。
+   * 在「瀏覽」面板中，選取您要發佈的每個檔案名稱旁的&#x200B;**[!UICONTROL 標籤為發佈]**。
+   * 在「上傳」畫面中，選取您要發佈的每個檔案名稱旁的&#x200B;**[!UICONTROL 標籤為發佈]**。
 
-1. 在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**。
+1. 在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**。
 1. 設定您想要的排程選項。
 1. （選擇性）在&#x200B;**[!UICONTROL 工作名稱]**&#x200B;欄位中，輸入發佈工作的名稱。
-1. 在&#x200B;**[!UICONTROL 進階]**&#x200B;選項的&#x200B;**[!UICONTROL Publish To]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 視訊伺服器]**。
+1. 在&#x200B;**[!UICONTROL 進階]**&#x200B;選項的&#x200B;**[!UICONTROL 發佈至]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 視訊伺服器]**。
 
    請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)，瞭解您可以設定的更多選項。
 
-1. 選取&#x200B;**[!UICONTROL 提交Publish]**。
+1. 選取&#x200B;**[!UICONTROL 提交發佈]**。
 1. 重複上述步驟2到4。
 1. 在「**[!UICONTROL 進階]**」的「**[!UICONTROL 發佈至]**」下拉式清單中選取「**[!UICONTROL 影像伺服器]**」。
 
    請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)，瞭解您可以設定的更多選項。
 
-1. 選取&#x200B;**[!UICONTROL 提交Publish]**。
+1. 選取&#x200B;**[!UICONTROL 提交發佈]**。

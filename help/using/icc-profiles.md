@@ -23,7 +23,7 @@ ICC （國際色彩聯盟）設定檔是一個檔案，說明如何正確地將�
 
 在Adobe Dynamic Media Classic中，您可以在上傳影像時，選擇ICC設定檔將影像轉換為不同的色域。 Adobe Dynamic Media Classic預設提供所有標準Photoshop ICC設定檔。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。然後選擇「自訂來源」>「目標」，並在「轉換自」和「轉換至」功能表上選擇ICC設定檔名稱。
 
-在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像編輯選項。
+在上傳[檢視](image-editing-options-upload.md#image-editing-options-at-upload)影像編輯選項。
 
 除了使用預設的ICC設定檔之外，您還可以將其他ICC設定檔上傳到Adobe Dynamic Media Classic，以便用於色域轉換。 切換至「瀏覽」面板中的「詳細檢視」，以調查ICC設定檔的設定檔類別、色域型別和PCS型別。
 

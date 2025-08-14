@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 * **[!UICONTROL 建置]**：從功能表選擇建置工作。 會開啟「建置」面板，讓您建立資產類型。
 
-* **[!UICONTROL Publish]**：開啟「發佈」畫面，以便您將多媒體資產發佈到Adobe Dynamic Media影像伺服器和Adobe Dynamic Media Classic SAAS基礎建設的其餘部分。
+* **[!UICONTROL 發佈]**：開啟「發佈」畫面，以便將多媒體資產發佈到Adobe Dynamic Media影像伺服器和Adobe Dynamic Media Classic SAAS基礎建設的其餘部分。
 
 * **[!UICONTROL 工作]**：開啟[工作]畫面，讓您檢查上載和發佈工作的記錄。
 
@@ -71,7 +71,7 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 * **[!UICONTROL 建置模式]**：選取&#x200B;**[!UICONTROL 建置]**，然後選擇一個選項，這樣您就可以開始建置eCatalog、影像集、迴轉集或「建置」功能表上的其他幾個可用專案之一。 「建置」頁面隨即開啟。 您可以在進入「建置」模式之前或之後選取要使用的資產。
 
-另請觀看[導覽基本概念](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)訓練影片。
+另請觀看[導覽基本概念](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)訓練影片。
 
 >[!MORELIKETHIS]
 >

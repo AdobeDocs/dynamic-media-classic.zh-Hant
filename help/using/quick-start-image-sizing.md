@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ![您可以建立多個衍生影像，其大小與相同的高解析度主要檔案不同。](/help/using/assets/is_derivative_sizes_popup.png)
 
-請參閱[影像大小：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
+請參閱[影像大小： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
 下列影像大小調整快速入門旨在協助您快速上手並執行Adobe Dynamic Media Classic中的影像大小調整技術。 請依照步驟1-5操作。 每個步驟之後都會有互動參照，您可以在需要資訊時找到更多資訊。
 
@@ -55,14 +55,14 @@ ht-degree: 7%
 
 請參閱[根據影像預設集預覽影像資產](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)。
 
-## 4.Publish您的主要影像
+## 4.發佈您的主要影像
 
 發佈主要影像檔案有兩個基本目的：
 
 * 將您的主要影像發佈至Dynamic Media影像伺服器，以便動態地傳送影像至您的網站和應用程式。
 * 發佈會啟用URL字串，以將影像從Dynamic Media影像伺服器呼叫至您的網站或應用程式。 發佈後，您可以視需要複製Adobe Dynamic Media Classic產生的URL，並將其放置在網站或應用程式中。
 
-在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**&#x200B;以開始發佈工作。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 提交Publish]**。 檢視[Publish主要影像](publishing-master-images.md#publishing_master_images)。
+在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**&#x200B;以開始發佈工作。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 送出發佈]**。 請參閱[發佈主要影像](publishing-master-images.md#publishing_master_images)。
 
 ## 5.將URL連結至您的網頁應用程式
 

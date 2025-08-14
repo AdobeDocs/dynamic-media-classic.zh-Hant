@@ -1,6 +1,6 @@
 ---
-title: 從 [!DNL Experience Manager] Assets上的Adobe [!DNL Dynamic Media Classic] 升級至 [!DNL Dynamic Media]
-description: 從 [!DNL Adobe Dynamic Media Classic] 升級至 [!DNL Adobe Experience Manager]上的 [!DNL Dynamic Media] 。 瞭解 [!DNL Dynamic Media]的主要優點與功能。 檢閱功能清單比較、升級常見問題集和整備檢查清單。
+title: '從Adobe [!DNL Dynamic Media Classic] 升級至 [!DNL Dynamic Media] Assets上的 [!DNL Experience Manager] '
+description: 從 [!DNL Adobe Dynamic Media Classic] 升級至 [!DNL Dynamic Media] 上的 [!DNL Adobe Experience Manager]。 瞭解 [!DNL Dynamic Media]的主要優點與功能。 檢閱功能清單比較、升級常見問題集和整備檢查清單。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
 
-[!DNL Adobe Experience Manager]上的新[!DNL Dynamic Media]以您期望從[!DNL Dynamic Media Classic] (原為Scene7)獲得的功能為基礎。 它為貴組織提供全新和改進的工具，以建立更佳、更吸引人的體驗。
+[!DNL Dynamic Media]上的新[!DNL Adobe Experience Manager]以您期望從[!DNL Dynamic Media Classic] （先前為Scene7）獲得的功能為基礎。 它為貴組織提供全新和改進的工具，以建立更佳、更吸引人的體驗。
 
-[!DNL Dynamic Media]使用即時視覺化建置器來升級內容建置體驗。 坐在Adobe已嘗試、信任且可擴充的傳遞網路頂端，並搭配直覺式[!DNL Adobe Experience Manager]使用者介面，[!DNL Dynamic Media]提供撰寫、反複運算及提供引人入勝的下一代體驗的功能。
+[!DNL Dynamic Media]使用即時視覺化建置器來升級內容建置體驗。 坐在Adobe經驗證的、受信任且可擴充的傳遞網路頂端，並與直覺式[!DNL Adobe Experience Manager]使用者介面配對，[!DNL Dynamic Media]提供撰寫、反複運算及提供引人入勝的下一代體驗的功能。
 
 | 您從[!DNL Dynamic Media]獲得的內容 | 說明 |
 | --- | --- |
@@ -39,10 +39,10 @@ Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
 
 * 與[!DNL Adobe Experience Manager]緊密整合的體驗與整合：從單一商店、單一來源設定並動態傳遞豐富的內容
 * 全新的以行銷人員為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
-* WYSIWYG （所見即所得）外觀與風格，以及影像檢視器和視訊播放器的行為編輯器。
+* 適用於影像檢視器和視訊播放器的WYSIWYG (What You See Is What You Get)外觀和風格以及行為編輯器。
 * 快速建立及部署可購物/互動媒體體驗，包括影像熱點及可購物視訊
 
-### [!DNL Experience Manager] Assets中的[!DNL Dynamic Media]功能
+### [!DNL Dynamic Media] Assets中的[!DNL Experience Manager]功能
 
 | 功能 | 說明 |
 | --- | --- |

@@ -35,7 +35,7 @@ ht-degree: 34%
 
 * **IPTC**：國際新聞通訊委員會定義的值。
 
-* **XMP**：由可延伸的中繼資料程式定義的值。
+* **XMP**：由可延伸中繼資料程式定義的值。
 
 管理員可以建立中繼資料檢視。這些檢視也會出現在中繼資料檢視功能表中。
 
@@ -72,8 +72,8 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**&#x200B;並輸入關鍵字。
->參閱[上載選項](uploading-files.md#upload_options)。
+>您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**並輸入關鍵字。
+>>參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}
 
@@ -82,9 +82,9 @@ ht-degree: 34%
 >[!NOTE]
 >
 >您可以建立用於輸入中繼資料的範本，以便正確地將其匯入至Adobe Dynamic Media Classic。 建立範本後，您可以用它來輸入中繼資料。
->請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+>>請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
-您可以在[AdobeXMP開發人員中心](https://www.adobe.com/devnet/xmp.html)找到更多有關標準化屬性的資訊。
+您可以在[Adobe XMP開發人員中心](https://www.adobe.com/devnet/xmp.html)找到更多有關標準化屬性的資訊。
 
 1. 在「瀏覽」面板中，從Tab字元分隔或XML檔案中選取要新增中繼資料的影像。
 1. 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 匯入中繼資料]**。
@@ -98,7 +98,7 @@ ht-degree: 34%
 識別要匯入的不同中繼資料類型時，請記住下列事項:
 
 * 使用者定義欄位的名稱是在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義欄位]**&#x200B;中建立的。 使用`Generate file`功能以正確的匯入格式取得所有已定義UDF的清單。
-* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。可以在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構描述]**&#x200B;編輯器中找到XMP首碼。 您可以在相關的 XMP 資料結構文件中找到技術名稱。XMP屬性名稱未出現在`Generate file`功能中。
+* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。字首和名稱會以冒號區隔。您可以在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構描述]**&#x200B;編輯器中找到XMP前置詞。 您可以在相關的 XMP 資料結構文件中找到技術名稱。XMP屬性名稱未出現在`Generate file`功能中。
 * 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。字首和名稱會以冒號區隔。前置詞和屬性名稱是在中繼資料結構編輯器中定義。 中繼資料結構描述屬性名稱未出現在`Generate file`功能中。
 
 例如：關鍵字的XMP屬性是首碼為`dc`的XMP結構描述「Dublin Core」，而`subject`是技術XMP名稱。 前置詞和技術XMP名稱會合併至`dc:subject`完整屬性名稱。 在XML中繼資料匯入格式中，`dc.subject`必須是屬性名稱。 在以Tab字元分隔的匯入格式中，它必須是欄標題。
@@ -107,11 +107,11 @@ ht-degree: 34%
 
 關鍵字可以匯入為逗號分隔清單。 如果逗號出現在任何個別值中，請使用反斜線(\)將其逸出。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。
 
-例如，包含`dc:subject`的值`Hello\, World!,back\\slash,foo`的中繼資料匯入檔案會在資產上設定三個XMP關鍵字： `Hello, World!,` `back\slash,`和`foo`。
+例如，包含`Hello\, World!,back\\slash,foo`的值`dc:subject`的中繼資料匯入檔案會在資產上設定三個XMP關鍵字： `Hello, World!,` `back\slash,`和`foo`。
 
 ### 匯入 XMP 和中繼資料結構中繼資料 XMP 檔案
 
-XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會新增名稱空間前置詞，其行為類似於XMP-namespace。 必須宣告此名稱空間。 例如，在頂層標籤中。
+XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會新增名稱空間前置詞，其行為類似於XMP名稱空間。 必須宣告此名稱空間。 例如，在頂層標籤中。
 
 例如: 
 
@@ -121,7 +121,7 @@ XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會
 </ips>
 ```
 
-### 匯入XMP和中繼資料結構描述資料（以Tab分隔）檔案
+### 匯入XMP和中繼資料結構中繼資料頁簽分隔檔案
 
 必須將字首新增至匯入欄位相關的欄標題。
 
@@ -163,7 +163,7 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 
 公司管理員可以檢視所有可用綱要的清單。 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構描述]**。
 
-最初，會隱藏XMP等全域標準結構描述的清單。 但可以使用清單底部的核取方塊加以顯示。
+一開始，XMP等全域標準結構描述的清單會隱藏。 但可以使用清單底部的核取方塊加以顯示。
 
 公司管理員可以建立自訂結構描述，或編輯現有的自訂結構描述。
 

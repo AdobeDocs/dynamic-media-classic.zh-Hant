@@ -37,4 +37,4 @@ ht-degree: 5%
 >
 >所有Adobe Dynamic Media Classic檢視器資料都會顯示於Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中，並彙整成報表。
 
-如需詳細資訊，請參閱[分析Tutorials](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)。
+如需詳細資訊，請參閱[Analytics教學課程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)。

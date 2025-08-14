@@ -33,8 +33,8 @@ ht-degree: 19%
 
 ## 桌上型電腦
 
-* **清除影像快取**：從您的電腦移除所有AdobeDynamic Media快取的影像檔案。
-* **清除資產快取**：從您的電腦移除所有Dynamic Media快取資產檔案的Adobe。
+* **清除影像快取**：從您的電腦移除所有Adobe Dynamic Media快取的影像檔案。
+* **清除資產快取**：從您的電腦移除所有Adobe Dynamic Media快取資產檔案。
 
 除了使用案頭應用程式清除影像和資產快取以外，您也可以直接從檔案系統手動清除快取。 根據您的作業系統，瀏覽至下列專案：
 
@@ -43,9 +43,9 @@ ht-degree: 19%
 
 ## Creative Suite Extension
 
-**若要安裝AdobeDynamic MediaCreative Suite延伸模組：**
+**若要安裝Adobe Dynamic Media Creative Suite Extension：**
 
-1. 在Adobe Dynamic Media Classic的工具列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，在Creative Suite副檔名下，選取&#x200B;**[!UICONTROL 立即下載]**&#x200B;以下載`s7csxs.zxp`檔案。
+1. 在Adobe Dynamic Media Classic的工具列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，在Creative Suite Extension下，選取&#x200B;**[!UICONTROL 立即下載]**&#x200B;以下載`s7csxs.zxp`檔案。
 1. 選取&#x200B;**[!UICONTROL 安裝]**&#x200B;和&#x200B;**[!UICONTROL 系統需求]**&#x200B;連結，以取得擴充功能的其他資訊。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

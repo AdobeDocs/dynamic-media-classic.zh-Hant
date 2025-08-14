@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 上傳主要影像{#uploading-master-images}
 
-在將影像上傳至Adobe Dynamic Media Classic之前，請確定它們為最高品質的大小和格式。 Adobe Dynamic Media Classic建議上傳畫素數充足（長尺寸可從1500到2000畫素）的高品質影像。 此大小調整可允許所需的任何Dynamic Imaging。
+在將影像上傳至Adobe Dynamic Media Classic之前，請確定它們為最高品質的大小和格式。 Adobe Dynamic Media Classic建議上傳畫素數充足（長尺寸可從1500到2000畫素）的高品質影像。 此大小調整可允許任何所需的Dynamic Imaging。
 
 如需上傳影像的詳細資訊，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 * **影像大小**：建立您預期使用的最大大小影像。 一般影像大小最長的範圍介於1500到2500畫素之間。 如果您打算使用「縮放」功能，Adobe Dynamic Media Classic建議使用最大大小至少為2000畫素的影像，以獲得最佳的縮放細節。 Adobe Dynamic Media Classic最多可轉譯每張影像2500萬畫素。 例如，您可以使用5000×5000 MP的影像，或任何其他大小組合，最大可達25 MP。
 
-* **檔案格式**： Adobe Dynamic Media Classic支援所有標準影像檔案格式。 這些格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建議使用無損影像格式 — TIFF和PNG。 如果您使用JPEG影像，請使用最高品質的設定。
+* **檔案格式**： Adobe Dynamic Media Classic支援所有標準影像檔案格式。 這些格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建議使用無損影像格式 — TIFF和PNG。 如果您使用JPEG影像，請使用最高品質設定。
 
-* **色域**：RGB是網頁影像簡報的色域；通常用於列印的CMYK影像會在您上傳時自動轉換為RGB。 建議上傳內嵌ICC （國際色彩聯盟）色彩設定檔的CMYK影像，以轉換成RGB。 另請參閱[ICC （國際色彩聯盟）設定檔](/help/using/icc-profiles.md)。
+* **色域**： RGB是Web影像簡報的色域；通常用於列印的CMYK影像會在您上傳時自動轉換為RGB。 建議上傳內嵌ICC （國際色彩聯盟）色彩設定檔的CMYK影像，以轉換至RGB。 另請參閱[ICC （國際色彩聯盟）設定檔](/help/using/icc-profiles.md)。

@@ -23,8 +23,8 @@ eCatalog是數位的Web版印刷資料，例如目錄、手冊、傳單、產品
 
 另請觀看下列訓練影片：
 
-* [快速入門1： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [快速入門2： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [快速入門1： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [快速入門2： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 根據您為eCatalog選擇的設定，檢視器可讓您執行下列動作：
 
@@ -48,11 +48,11 @@ eCatalog是數位的Web版印刷資料，例如目錄、手冊、傳單、產品
 
 >[!NOTE]
 >
->如果您是Dynamic Media： Scene7模式使用者，並且想要使用eCatalogs，請在CRXDE Lite中編輯`pdfbrochure`值。 若要這麼做，請在Adobe Experience Manager中移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 一般]** > **[!UICONTROL CRXDE Lite]**。 在左側面板導覽樹狀結構中，導覽至`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+>如果您是Dynamic Media： Scene7模式使用者，並且想要使用eCatalogs，請在CRXDE Lite中編輯`pdfbrochure`值。 若要這麼做，請在Adobe Experience Manager中前往&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 一般]** > **[!UICONTROL CRXDE Lite]**。 在左側面板導覽樹狀結構中，導覽至`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 >
 >在右下方窗格的&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，選取`jobParam`列。 將`pdfbrochure`的值從`false`設定為`true`。 在`pdfbrochure=true`中
 >
->在CRXDE Lite頁面的左上角，選取&#x200B;**[!UICONTROL 全部儲存]**。
+>在CRXDE Lite頁面的左上角，選取「**[!UICONTROL 儲存全部]**」。
 >
 >您現在可以在Adobe Dynamic Media Classic中撰寫eCatalogs 。
 
@@ -108,23 +108,23 @@ Adobe PDF 檔案通常是 eCatalog 的來源。因為 PDF 檔案須列印，所�
 
 eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
-若要瞭解eCatalog檢視器預設集如何顯示您的eCatalog，請在[瀏覽]面板中選取您的eCatalog，然後選取[預覽]。**&#x200B;** 「預覽」畫面會在預設的檢視器中開啟。
+若要瞭解eCatalog檢視器預設集如何顯示您的eCatalog，請在[瀏覽]面板中選取您的eCatalog，然後選取[預覽]。**** 「預覽」畫面會在預設的檢視器中開啟。
 
 請注意方向、色彩方案、變更頁面的控制項外觀，以及頁面翻頁時的外觀。
 
 請參閱[在eCatalog檢視器](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)中預覽eCatalog。
 
-## 6. Publish eCatalog和相關的PDF
+## 6.發佈eCatalog和相關聯的PDF
 
 發佈eCatalog和相關的PDF時，會將它置於Dynamic Media影像伺服器上，以便傳送至您的網站和應用程式。 在發佈程式中，Adobe Dynamic Media Classic會啟用eCatalog的URL字串。 使用此URL從Dynamic Media影像伺服器呼叫eCatalog至您的網站或應用程式。
 
-在瀏覽面板中將eCatalog和PDF標籤為發佈後，選取全域導覽列上的Publish按鈕以啟動發佈。 在發佈頁面上，選取&#x200B;**[!UICONTROL 提交Publish]**。
+在瀏覽面板中將eCatalog和PDF標籤為發佈後，選取全域導覽列上的「發佈」按鈕以啟動發佈。 在發佈頁面上，選取&#x200B;**[!UICONTROL 送出發佈]**。
 
-請參閱[Publish eCatalog與相關PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
+請參閱[發佈eCatalog和相關聯的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 ## 7.將eCatalog連結至網頁
 
-當您將eCatalog發佈至Adobe Dynamic Media Classic影像伺服器時，Dynamic Media會啟用顯示所需的URL圖說文字字串。 您可以從「預覽」畫面和「瀏覽」面板（在「詳細資料檢視」中）中選取面板中的URL，以複製此URL字串。 複製URL字串後，您的網站和應用程式即可使用該字串。
+當您將eCatalog發佈至Dynamic Media影像伺服器時，Adobe Dynamic Media Classic會啟用顯示所需的URL圖說文字字串。 您可以從「預覽」畫面和「瀏覽」面板（在「詳細資料檢視」中）中選取面板中的URL，以複製此URL字串。 複製URL字串後，您的網站和應用程式即可使用該字串。
 
 請與您的IT團隊合作，將指向eCatalog的連結放置在網頁中的適當位置。 當使用者選取連結時，eCatalog檢視器會出現，使用者可以瀏覽您的eCatalog。
 

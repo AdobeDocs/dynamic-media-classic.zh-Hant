@@ -23,7 +23,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 影像集檢視器提供了縮放工具，以便近距離檢查影像。如有需要，您可以讓引導式「縮放目標」和「影像地圖」成為影像集的一部分。 影像集能創造更一致且緊密的檢視體驗。
 
-請參閱[影像和迴轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
+請參閱[影像和迴轉集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
 建立影像集時，Adobe會建議下列最佳作法並強制進行下列限制：
 
@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 ## 1.上傳多個檢視和色票的主要影像
 
-請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這個功能。 請確定影像的大小至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
+請先為影像集上載影像。由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這個功能。 請確定影像的大小至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用無損的TIFF、PNG和EPS影像。
 
 在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。
 
@@ -70,17 +70,17 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-## 5. Publish影像集
+## 5.發佈影像集
 
 發佈影像集時會將其置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
 >[!NOTE]
 >
->如果您在建立並儲存影像集時於儲存&#x200B;**（預設）之後選取** Publish，則不需要執行此步驟。
+>如果您在建立並儲存影像集時選取了&#x200B;**[!UICONTROL 儲存後發佈]** （預設），則不需要執行此步驟。
 
-在「瀏覽」面板中，選取名稱左側的&#x200B;**[!UICONTROL Publish標籤]**&#x200B;圖示。 然後選取&#x200B;**[!UICONTROL Publish]**。 在發佈頁面上，選取&#x200B;**[!UICONTROL 提交Publish]**。
+在「瀏覽」面板中，選取其名稱左側的&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示。 然後選取&#x200B;**[!UICONTROL 發佈]**。 在發佈頁面上，選取&#x200B;**[!UICONTROL 送出發佈]**。
 
-檢視[Publish檔案](publishing-files.md#publishing-files)。
+請參閱[發佈檔案](publishing-files.md#publishing-files)。
 
 ## 6.將影像集連結至您的網站
 

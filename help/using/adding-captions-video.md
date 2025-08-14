@@ -38,7 +38,7 @@ ht-degree: 17%
 
 Adobe Dynamic Media Classic可以將註解檔案轉換為JSON (JavaScript物件標籤法)格式。 此轉換表示您可以將JSON文字內嵌至網頁，做為影片隱藏但完整的文字記錄。 搜尋引擎接著可以編目和索引內容，讓影片更容易被找到，並為客戶提供更多有關影片內容的詳細資訊。
 
-請參閱中的[提供靜態（非影像）內容](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)，以取得在URL中使用JSON函式的詳細資訊。
+請參閱中的[提供靜態（非影像）內容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)，以取得在URL中使用JSON函式的詳細資訊。
 
 **若要在視訊中新增字幕：**
 
@@ -54,7 +54,7 @@ Adobe Dynamic Media Classic可以將註解檔案轉換為JSON (JavaScript物件�
 
 1. 在左側的「資產庫」面板中，導覽至包含視訊檔案的資產資料夾，以與您上傳的註解檔案建立關聯。
 1. 在「資產瀏覽」面板中，選取單一視訊資產，然後在資產的縮圖影像下方選取&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
-1. 在檢視器清單表格中，找到名為&#x200B;**Univeral_Media5_Video**、**Universal_Video5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_Video5_MixedMedia_light**&#x200B;的HTML5HTMLHTML，然後執行下列其中一項作業： Universal_HTML5_MixedMedia_light
+1. 在檢視器清單表格中，找到名為&#x200B;**Univeral_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5檢視器，然後執行下列任一項作業：
 
    * 若要取得快顯視訊檢視器體驗，請選取名稱最右邊的&#x200B;**[!UICONTROL 複製URL]**。
 
@@ -68,7 +68,7 @@ Adobe Dynamic Media Classic可以將註解檔案轉換為JSON (JavaScript物件�
 
      在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
-     針對HTML5 `Universal_HTML5_Video`、`Universal_HTML5_MixedMedia_dark`或`Universal_HTML5_MixedMedia_light`檢視器，將複製的內嵌程式碼附加至下列專案：
+     若為HTML5 `Universal_HTML5_Video`、`Universal_HTML5_MixedMedia_dark`或`Universal_HTML5_MixedMedia_light`檢視器，請將複製的內嵌程式碼附加至下列專案：
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

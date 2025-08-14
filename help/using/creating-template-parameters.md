@@ -27,7 +27,7 @@ ht-degree: 45%
 
 您可以多次參考一個參數。對參數對話框中的每個命令使用下拉式方框，以選取符合該特定命令的任何參數。例如，`size=`命令可使用所有大小引數。 可以將參數參照再分配給已存在於下拉式方框中的任何參數，並重新命名為下拉式方框中不存在的名稱。在後一種情況下，名稱必須是唯一的。 否則，錯誤會指出引數存在。 當您刪除引數參照時，如果沒有在其他地方參照引數，則會從URL中移除該引數。 當您變更文字引數的預設值時，該引數的所有參照都會更新。 您可以在圖層表格、範本的演算和URL中看到更新。 當您藉由操控調整大小控點或在屬性面板中輸入值來變更圖層屬性時，引數值會更新，且引數的所有參照都會更新。 例如，如果使用一個參數對兩個圖層的大小進行了參數化，則在變更其中一個圖層大小時，兩個圖層的大小均會更新。在您預覽範本並變更參數時，該參數的所有參照均會更新。
 
-另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
+另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
 
 ## 將圖層引數化 {#parameterizing-a-layer}
 

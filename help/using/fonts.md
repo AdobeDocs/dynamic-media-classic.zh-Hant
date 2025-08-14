@@ -55,14 +55,14 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
 * **[!UICONTROL 字型樣式]**：選項為純、粗體、斜體及粗斜體。
 
-* **[!UICONTROL 字型型別]**：選項為TrueType和Adobe Type1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
+* **[!UICONTROL 字型型別]**：選項為TrueType和Adobe Type 1。 如果使用其他名稱命名這些字型，可以輸入該名稱。
 
 * **[!UICONTROL 字型型別縮寫]**：選項如下：
 
-   * **[!UICONTROL TTF]**：用於PDF/PostScript轉譯和影像伺服的TrueType字型檔案。
+   * **[!UICONTROL TTF]**：用於PDF/PostScript轉譯與影像伺服的TrueType字型檔案。
 
    * **[!UICONTROL AFM]**：包含Adobe字型度量資訊且用於影像伺服的Adobe PostScript字型檔案。
 
    * **[!UICONTROL PFM]**：包含二進位字型量度資訊的Adobe PostScript字型檔案。
 
-   * **[!UICONTROL PFB]**： Adobe PostScript字型檔案，其中包含二進位字型外框資訊，用於PDF/PostScript轉譯及影像伺服。
+   * **[!UICONTROL PFB]**：包含二進位字型外框資訊的Adobe PostScript字型檔案，用於PDF/PostScript轉譯及影像伺服。

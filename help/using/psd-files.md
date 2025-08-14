@@ -23,7 +23,7 @@ ht-degree: 21%
 
 PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範本。 上傳PSD檔案時，您可以從檔案自動建立Adobe Dynamic Media Classic範本（在「上傳」畫面上選取「建立範本」選項）。
 
-如果您使用包含圖層的PSD檔案來建立範本，Adobe Dynamic Media Classic會從該檔案建立多個影像；它會為每個圖層建立一個影像。
+如果您使用包含圖層的Adobe Dynamic Media Classic檔案來建立範本，則該檔案會從包含圖層的PSD檔案建立多個影像；它會為每個圖層建立一個影像。
 
 ## PSD 上載選項 {#psd-upload-options}
 
@@ -31,11 +31,11 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
 上載 PSD 檔案時可使用以下選項:
 
-* **裁切選項**：位於&#x200B;**[!UICONTROL 裁切選項]**&#x200B;下方。 選取&#x200B;**[!UICONTROL 修剪]**，以便自動裁切PSD檔案邊緣的空格。 選取&#x200B;**[!UICONTROL 手動]**&#x200B;裁切PSD檔案的側邊：
+* **裁切選項**：位於&#x200B;**[!UICONTROL 裁切選項]**&#x200B;下方。 選取&#x200B;**[!UICONTROL 修剪]**，以便從PSD檔案的邊緣自動裁切空白字元。 選取&#x200B;**[!UICONTROL 手動]**&#x200B;裁切PSD檔案的側邊：
 
    * **[!UICONTROL Trim]**：選取&#x200B;**[!UICONTROL 以]**&#x200B;為基準的修剪掉，然後選擇&#x200B;**[!UICONTROL 色彩]**&#x200B;或&#x200B;**[!UICONTROL 透明度]**。
 
-  如果您選擇&#x200B;**[!UICONTROL 色彩]**&#x200B;選項，請選取「邊角」功能表，然後選擇最能代表您要裁切之空白顏色的PSD邊角。
+  如果您選擇&#x200B;**[!UICONTROL 色彩]**&#x200B;選項，請選取「轉角」功能表，並選擇PSD轉角的色彩，該色彩最能代表您要裁切的空白顏色。
 
   拖曳滑桿以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。若要根據透明度進行裁剪，請指定0以裁切透明畫素；接近1的數字可提供更高的透明度。
 
@@ -51,7 +51,7 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
 * **Photoshop選項**
 
-   * **[!UICONTROL 保留圖層]**：將PSD中的圖層（如果有的話）撕裂成個別資產。 資產圖層會維持與 PSD 相關聯。您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 請參閱在PSD檔案中檢視和編輯圖層。
+   * **[!UICONTROL 保留圖層]**：將PSD中的圖層（如果有的話）擷取至個別資產。 資產圖層會維持與 PSD 相關聯。您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 請參閱在PSD檔案中檢視和編輯圖層。
 
    * **[!UICONTROL 建立範本]**：從PSD檔案中的圖層建立範本。
 
@@ -59,15 +59,15 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
    * **[!UICONTROL 將圖層延伸至背景大小]**：將擷取的影像圖層大小延伸至背景圖層大小。
 
-   * **[!UICONTROL 圖層命名]**：PSD檔案中的圖層會以個別影像上傳。 若要在Adobe Dynamic Media Classic中命名這些影像，請從下列選項中選擇：
+   * **[!UICONTROL 圖層命名]**： PSD檔案中的圖層會以個別影像上傳。 若要在Adobe Dynamic Media Classic中命名這些影像，請從下列選項中選擇：
 
-      * **[!UICONTROL 圖層名稱]**：將影像命名為PSD檔案中的圖層名稱。 例如，在原始 PSD 檔案中名稱為 Price Tag 的圖層會變成名稱為 Price Tag 的影像。不過，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（「背景」、「圖層1」、「圖層2」等等），則會以影像在PSD檔案中的圖層編號來命名影像。<!-- not their default layer names -->
+      * **[!UICONTROL 圖層名稱]**：將影像命名為PSD檔案中的圖層名稱。 例如，在原始 PSD 檔案中名稱為 Price Tag 的圖層會變成名稱為 Price Tag 的影像。不過，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（「背景」、「圖層1」、「圖層2」等等），則會以PSD檔案中的圖層編號來命名影像。<!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop和圖層編號]**：將影像命名為PSD檔案中的圖層編號，略過原始圖層名稱。 影像會以 Photoshop 檔案名稱並附加圖層編號命名。例如，名為`Spring Ad.psd`之檔案的第二個層名為`Spring Ad_2`，即使它在Photoshop中有非預設名稱。
+      * **[!UICONTROL Photoshop和圖層編號]**：將影像命名為PSD檔案中的圖層編號後方，略過原始的圖層名稱。 影像會以 Photoshop 檔案名稱並附加圖層編號命名。例如，名為`Spring Ad.psd`之檔案的第二個層名為`Spring Ad_2`，即使它在Photoshop中有非預設名稱。
 
-      * **[!UICONTROL Photoshop和圖層名稱]**：在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。例如，名為`SpringAd`的PSD檔案中名為`Price Tag`的圖層名為`Spring Ad_Price Tag`。 預設名稱為「圖層2」的圖層稱為`Spring Ad_2`。
+      * **[!UICONTROL Photoshop和圖層名稱]**：在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。例如，名為`Price Tag`的PSD檔案中名為`SpringAd`的圖層名為`Spring Ad_Price Tag`。 預設名稱為「圖層2」的圖層稱為`Spring Ad_2`。
 
-   * **[!UICONTROL 錨點]**：指定如何在範本中錨定影像，範本是從PSD檔案產生的分層組合產生的。 預設的錨點為中心。無論取代影像的外觀比例為何，置中錨點都可讓取代影像最能填滿相同的空間。 當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
+   * **[!UICONTROL 錨點]**：指定影像錨定在範本中的方式，這些範本是從PSD檔案產生的階層式組合產生的。 預設的錨點為中心。無論取代影像的外觀比例為何，置中錨點都可讓取代影像最能填滿相同的空間。 當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
 
 ## 在PSD檔案中檢視和編輯圖層 {#viewing-and-editing-layers-in-a-psd-file}
 
@@ -77,7 +77,7 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 >
 >Adobe Dynamic Media Classic在巢狀圖層群組中最多可支援五個層級。
 
-1. 在「瀏覽」面板中按兩下完整PSD檔案。 檔案會在「詳細資料檢視」中開啟。
+1. 在「瀏覽」面板中，按兩下完整的PSD檔案。 檔案會在「詳細資料檢視」中開啟。
 
    >[!NOTE]
    >

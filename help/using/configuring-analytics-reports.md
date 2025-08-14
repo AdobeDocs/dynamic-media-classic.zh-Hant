@@ -29,7 +29,7 @@ ht-degree: 21%
 
 請參閱[登入Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-請參閱[Publish組態資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
+請參閱[發佈組態資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
 
 ## 將Adobe Analytics變數指派給Adobe Dynamic Media Classic檢視器事件和變數 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
@@ -53,7 +53,7 @@ ht-degree: 21%
    選取&#x200B;**[!UICONTROL 儲存]**&#x200B;後，檢視器事件、其Adobe Analytics變數及其Adobe Dynamic Media Classic變數會列在Adobe Analytics設定畫面中。
 
 1. 在右下角，選取&#x200B;**[!UICONTROL 關閉]**。
-1. 移至&#x200B;**[!UICONTROL Publish]** > **[!UICONTROL 提交Publish]**&#x200B;以執行影像伺服發佈。
+1. 移至&#x200B;**[!UICONTROL 發佈]** > **[!UICONTROL 提交發佈]**&#x200B;以執行影像伺服發佈。
 
    發佈是必要的，如此檢視器中包含的資訊才能在Adobe Dynamic Media Classic伺服器上使用。
 

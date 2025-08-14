@@ -21,7 +21,7 @@ ht-degree: 0%
 
 確認您是Adobe Analytics中「Web服務存取」群組的成員。 請在登入前完成設定Adobe Analytics報表，並將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件比對。 此群組中的成員可以存取指定報表套裝中的所有報表。 無論介面中設定的許可權為何，都使用Experience Cloud的網站服務API來執行此操作。 若要新增成員到群組，請在Adobe Analytics中移至&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**。
 
-登入時，您可以選擇輸入Experience Cloud組織ID，以使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍可運作。 但是，它可能會導致資料無法正確與Adobe Dynamic Media Classic外部該使用者端的其他資料整合。
+登入時，您可以選擇輸入Experience Cloud組織ID，使用最新的視訊分析實作。 如果您選擇不輸入ID，視訊報表仍可運作。 但是，它可能會導致資料無法正確與Adobe Dynamic Media Classic外部該使用者端的其他資料整合。
 
 >[!NOTE]
 >

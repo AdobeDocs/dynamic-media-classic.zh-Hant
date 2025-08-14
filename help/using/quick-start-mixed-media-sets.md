@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 �
 
 請參閱[設定混合媒體集檢視器預設集](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset)和[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
-另請觀看[檢視器預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)訓練影片。
+另請觀看[檢視器預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)訓練影片。
 
 ## 5.預覽混合媒體集
 
@@ -61,13 +61,13 @@ Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 �
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-## 6. Publish a混合媒體集
+## 6.發佈混合媒體集
 
 發佈混合媒體集時會將其置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
 您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 而且，您可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
 
-請參閱[Publish a混合媒體集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
+請參閱[發佈混合媒體集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
 ## 7.將混合媒體集連結至網頁
 

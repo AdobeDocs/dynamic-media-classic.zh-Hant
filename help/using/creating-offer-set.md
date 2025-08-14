@@ -41,15 +41,15 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 
 * **影像範本**：您可以使用&#x200B;**[!UICONTROL 建置]** >範本基本概念命令，將Adobe Dynamic Media Classic中的影像範本引數化。 透過引數、範本的元件、文字框中的文字，以及不同的影像，都可以調出並自訂。 例如，針對優惠方案集，您可以使用範本引數在優惠方案集中的相同影像上建立變數。 如需建立與引數化影像範本的相關資訊，請參閱[建立範本引數](creating-template-parameters.md#creating_template_parameters)。
 
-另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
+另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
 
 * **影片**：您可以組合選件集的影片。 每個視訊是提案集中的一個不同提案。
 
 ## 使用引數化範本建立選件集 {#creating-an-offer-set-with-a-parameterized-template}
 
-當您建立選件集時，儲存&#x200B;**之後的** Publish選項會以下列方式影響該集和設定成員：
+當您建立選件集時，**[!UICONTROL 在儲存後發佈]**&#x200B;選項會以下列方式影響該集和設定成員：
 
-| 儲存前已選取儲存後&#x200B;**[!UICONTROL Publish]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 在儲存之前選取儲存後&#x200B;**[!UICONTROL 發佈]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- |
 | 是 | 已發佈 | 已發佈 |
 | 否 | 未發佈 | 集成員會保持已發佈或未發佈的狀態。 |
@@ -73,16 +73,16 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
    Test&amp;Target選件集頁面會列出您建立的選件。
 
 1. 重複步驟 3 到 5 為提案集建立更多提案。
-1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存Publish*]** （預設）。
+1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈*]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 關閉]**，輸入選件集的名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
 在關閉Test&amp;Target選件集頁面之前，請將選件集推送至Adobe Target Standard/Premium。 請參閱[將提案集推送至Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 使用影像或影片建立選件集 {#creating-an-offer-set-with-images-or-videos}
 
-當您建立選件集時，儲存&#x200B;**之後的** Publish選項會以下列方式影響該集和設定成員：
+當您建立選件集時，**[!UICONTROL 在儲存後發佈]**&#x200B;選項會以下列方式影響該集和設定成員：
 
-| 儲存前已選取儲存後&#x200B;**[!UICONTROL Publish]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 在儲存之前選取儲存後&#x200B;**[!UICONTROL 發佈]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- |
 | 是 | 已發佈 | 已發佈 |
 | 否 | 未發佈 | 集成員會保持已發佈或未發佈的狀態。 |
@@ -104,16 +104,16 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 
    選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存影像或視訊選件的變更。 然後選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回Test&amp;Target選件集頁面。
 
-1. 完成建立選件集的選件並選擇不同影像的影像預設集後，請確定已選取&#x200B;**[!UICONTROL 儲存]**&#x200B;後的Publish （預設）。
+1. 完成建立選件集的選件並選擇不同影像的影像預設集後，請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;並輸入選件集的名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
 在關閉Test&amp;Target選件集頁面之前，請將選件集推送至Adobe Target Standard/Premium。 請參閱[將提案集推送至Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 編輯優惠方案集 {#editing-an-offer-set}
 
-不論您是編輯已發佈的集還是未發佈的集，**[!UICONTROL 儲存]**&#x200B;後的Publish選項都會影響該集和整合員，其影響方式如下：
+無論您是編輯已發佈的集還是未發佈的集，**[!UICONTROL 在儲存之後發佈]**&#x200B;選項都會影響該集和整合員，其方式如下：
 
-| 已發佈集? | 在儲存編輯內容之前，是否已選取儲存&#x200B;**[!UICONTROL Publish]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | 在儲存編輯之前，是否要選取儲存後發佈&#x200B;**[!UICONTROL 選項]**？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
 | 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
    >
    >您無法刪除與行銷活動相關聯的優惠方案集。 若要刪除與行銷活動相關聯的優惠方案集，請先登入Adobe Target Standard/Premium並移除行銷活動關聯。 即使在與行銷活動解除關聯後，也只能從Adobe Dynamic Media Classic中刪除資產，這要求登入Adobe Target Standard/Premium，而不是從Adobe Target Standard/Premium中登入。
 
-1. 當您完成編輯時（在頁面的右下角附近），請確定已選取儲存後的&#x200B;**[!UICONTROL Publish]** （預設）。
+1. 當您完成編輯時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**，選取儲存資料夾，輸入集合的名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
 ## 刪除優惠方案集 {#delet-an-offer-set}

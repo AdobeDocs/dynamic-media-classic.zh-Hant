@@ -1,6 +1,6 @@
 ---
 title: 發佈設定
-description: Publish設定可讓您決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳送至網站或應用程式。
+description: 發佈設定可讓您決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳送到網站或應用程式。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # 發佈設定 {#publish-setup}
 
-Publish設定頁面設定會決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳送至網站或應用程式。 如果未指定設定，Adobe Dynamic Media Classic伺服器會根據Publish設定頁面上的預設設定傳送資產。 例如，傳送不包含解析度屬性的影像的要求會以「影像伺服器」頁面上的「預設物件解析度」設定產生影像。
+發佈設定頁面設定會決定預設如何從Adobe Dynamic Media Classic伺服器將資產傳送至網站或應用程式。 如果未指定設定，Adobe Dynamic Media Classic伺服器會根據發佈設定頁面上的預設設定傳送資產。 例如，傳送不包含解析度屬性的影像的要求會以「影像伺服器」頁面上的「預設物件解析度」設定產生影像。
 
 管理員可以在「影像伺服器」、「影像轉譯器」和「暈映」頁面上變更預設設定，以建立從伺服器傳送資產的預設設定。
 
-若要開啟Publish安裝程式的頁面，請前往&#x200B;**[!UICONTROL 安裝程式]** > **[!UICONTROL 應用程式安裝程式]** > **[!UICONTROL Publish安裝程式]**。
+若要開啟發佈設定的頁面，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]**。
 
 >[!NOTE]
 >
->Publish設定頁面可供有經驗的網站開發人員和程式設計師使用。 Adobe Dynamic Media Classic假設在這些頁面上變更設定的使用者熟悉Adobe Dynamic Media Classic、HTTP通訊協定標準和慣例，以及基本影像處理技術。
+>「發佈設定」頁面可供有經驗的網站開發人員和程式設計師使用。 Adobe Dynamic Media Classic假設在這些頁面上變更設定的使用者熟悉Adobe Dynamic Media Classic、HTTP通訊協定標準和慣例，以及基本影像處理技術。
 
 ## 影像伺服器 {#image-server}
 
@@ -34,7 +34,7 @@ Publish設定頁面設定會決定預設如何從Adobe Dynamic Media Classic伺�
 
 請僅在Adobe Dynamic Media Classic支援人員的協助下變更這些設定。
 
-* **[!UICONTROL 目錄管理]**：這些設定會決定Adobe Dynamic Media Classic和目錄互動的方式。 與大部分的Web伺服器不同，Dynamic Media影像伺服器URL呼叫會前往資訊清單或目錄檔案，而不是適當的影像檔案。 目錄檔案（不要與eCatalog混淆）包含發佈至影像伺服器的所有內容清單。 它也會包含每個影像的路徑。 如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
+* **[!UICONTROL 目錄管理]**：這些設定會決定Adobe Dynamic Media Classic和目錄互動的方式。 與大部分的Web伺服器不同，Dynamic Media影像伺服器URL呼叫會移至資訊清單或目錄檔案，而不是適當的影像檔案。 目錄檔案（不要與eCatalog混淆）包含發佈至影像伺服器的所有內容清單。 它也會包含每個影像的路徑。 如果您有 Digimarc ID，請在「Digimarc 使用者資訊」區段輸入您的使用者資訊。
 
 * **[!UICONTROL 要求屬性]**：這些設定對可從伺服器傳送的影像施加限制。 例如，*最大值* **[!UICONTROL 回覆影像大小限制]**&#x200B;為&#x200B;**[!UICONTROL 寬度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
 
@@ -53,7 +53,7 @@ Publish設定頁面設定會決定預設如何從Adobe Dynamic Media Classic伺�
   例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後，在檢視器的預設集中編輯工具提示文字。 只要為您想要的語言新增翻譯文字字串。
 
   >[!NOTE]
-  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
+  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
 
   如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -61,7 +61,7 @@ Publish設定頁面設定會決定預設如何從Adobe Dynamic Media Classic伺�
 
 >[!NOTE]
 >
->如果您想在Adobe Dynamic Media Classic中設定本地化支援選項，例如「地區地圖」欄位，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
+>如果您想在Adobe Dynamic Media Classic中設定本地化支援選項（例如「地區地圖」欄位），請使用Admin Console建立支援案例。[](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
 
 使用Adobe Dynamic Media Classic的常見方式是管理e-Commerce網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常差異在於整體媒體的某些部分。 複製每個國家/地區的所有資產，並僅覆寫差異，以解決這些差異是巨大的努力，並且與單一主要資產的比喻相抵觸。 資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Adobe Dynamic Media Classic使用基本查詢機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-影像伺服器收到http呼叫時，會透過&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL Publish設定]** > **[!UICONTROL 影像伺服器]** > **[!UICONTROL 本地化支援]**&#x200B;群組中的`localeMap`欄位來剖析`locale=`引數。
+影像伺服器收到http呼叫時，會透過`locale=`設定`localeMap` > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]** > **[!UICONTROL 本地化支援]**&#x200B;群組中的&#x200B;**[!UICONTROL 欄位來剖析]**&#x200B;引數。
 
 「地區地圖」欄位會包含以管線符號 (|) 分隔的項目清單。
 
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 | URL | `GlobalLocale`與`localeMap` ID | 結果 | 附註 |
 | --- | --- | --- | --- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 地區設定引數de_DE與`localeMap`中的第一個專案相符。 找到GlobalLocale子字串，並以`localeMap`中的第一個對應值`de`取代： `image-de-01`。 若在影像伺服器上找到，則會傳回。 如果沒有，則會取代第二個值，產生`image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 地區設定引數de_DE與`localeMap`中的第一個專案相符。 找到GlobalLocale子字串，並以`de`中的第一個對應值`localeMap`取代： `image-de-01`。 若在影像伺服器上找到，則會傳回。 如果沒有，則會取代第二個值，產生`image-main-01`。 |
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 

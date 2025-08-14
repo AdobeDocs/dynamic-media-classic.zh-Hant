@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # 現已推出： Adobe Dynamic Media Classic案頭應用程式 {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic使用者現在可以使用全新的案頭應用程式體驗，不必再仰賴瀏覽器的AdobeFlash技術。
+Adobe Dynamic Media Classic使用者現在可以使用全新的案頭應用程式體驗，不必再仰賴瀏覽器的Adobe Flash技術。
 
 此新應用程式現在可供Windows®和macOS使用。
 
 >[!IMPORTANT]
 >
->Adobe建議您在2020年10月1日前安裝新的Adobe Dynamic Media Classic案頭應用程式。 這麼做可確保AdobeFlash Player在2020年12月31日淘汰前順利轉換。 在該日期之後，您將無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，該產品中標示為Adobe Dynamic Media Classic。
+>Adobe建議您在2020年10月1日前安裝新的Adobe Dynamic Media Classic案頭應用程式。 這麼做可確保Adobe Flash Player在2020年12月31日淘汰前能順利轉換。 在該日期之後，您將無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，該產品中標示為Adobe Dynamic Media Classic。
 
 檢視[現在提供新Adobe Dynamic Media Classic登入的常見問題集。](/help/using/new-ui-2020.md)
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 * 編輯影像時，**[!UICONTROL 儲存]**&#x200B;按鈕無法運作。
 * 在「設定」編輯器中，捲動「**[!UICONTROL 新增Assets]**」面板中的資產後，**[!UICONTROL 關閉]**、**[!UICONTROL 儲存]**&#x200B;和&#x200B;**[!UICONTROL 另存新檔]**&#x200B;按鈕會停用。
 * 視訊詳細資料檢視中的&#x200B;**[!UICONTROL 播放]**&#x200B;按鈕無法運作。
-* 執行macOS Monterey時，無法在&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位中輸入`d`和`e`。
+* 執行macOS Monterey時，無法在`d`使用者名稱`e`和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 和]**。
 * 將其餘的Analytics API移至2.0版。
 
 ## 20.21.3版中的修正 {#release-sept2021}
@@ -67,10 +67,10 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 ## 20.21.2版中的修正 {#minor-release}
 
 * 20.21.1中的已知限制：登入畫面上的&#x200B;**[!UICONTROL 伺服器]**&#x200B;下拉式清單是空的。
-* 在&#x200B;**[!UICONTROL 上載工作選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下的預設圖層名稱值為&#x200B;**[!UICONTROL Photoshop和圖層名稱]**。 PSD檔案中的圖層會以個別影像的方式上傳。
-   * **[!UICONTROL 圖層名稱]**&#x200B;的早期預設值，在PSD檔案中以圖層名稱或圖層編號命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
-   * 新的預設值&#x200B;**[!UICONTROL Photoshop和「圖層名稱]**」會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
-   * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，因此不會更新現有PSD或範本(會在原始PSD檔案中共用哪些圖層名稱)。
+* 在&#x200B;**[!UICONTROL 上載工作選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下的預設圖層名稱值為&#x200B;**[!UICONTROL Photoshop和圖層名稱]**。 PSD檔案中的圖層會以個別影像上傳。
+   * **[!UICONTROL 圖層名稱]**&#x200B;的早期預設值，在PSD檔案中以圖層名稱或圖層編號命名。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
+   * 新預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
+   * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，將不會更新現有的PSD或範本(哪些會共用原始PSD檔案中的圖層名稱)。
 * 資產的縮圖損毀。
 
 ## 20.21.1版中的修正 {#latest-fixes-desktop-app}
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說 {#dmc-app-video-walk-through}
 
-觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
+觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
 
 ## 使用案頭應用程式清除電腦上的影像快取和資產快取 {#clear-cache}
 
@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 提示與秘訣
 
-**_我在Adobe Dynamic Media Classic的登陸頁面上無法看到媒體購物車面板。_**<br>在Adobe Dynamic Media Classic中，點選&#x200B;**[!UICONTROL 設定>個人設定&#x200B;]**。 在瀏覽器區段中，確定已選取&#x200B;**[!UICONTROL 顯示MediaPortal功能&#x200B;]**（已核取）。 點選&#x200B;**[!UICONTROL 儲存>關閉&#x200B;]**。
+**_我在Adobe Dynamic Media Classic的登陸頁面上無法看到媒體購物車面板。_**<br>在Adobe Dynamic Media Classic中，點選**[!UICONTROL 設定>個人設定&#x200B;]**。 在瀏覽器區段中，確定已選取**[!UICONTROL 顯示MediaPortal功能&#x200B;]**（已核取）。 點選**[!UICONTROL 儲存>關閉&#x200B;]**。
 
-無法正確反映資產的&#x200B;**_Publish狀態（綠色指標）。_**<br>在瀏覽器使用者介面中，必須重新登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe已在&#x200B;**[!UICONTROL 不選取&#x200B;]**&#x200B;按鈕右側的工具列中引入&#x200B;**[!UICONTROL 重新整理&#x200B;]**&#x200B;圖示。 點選&#x200B;**[!UICONTROL 重新整理&#x200B;]**&#x200B;圖示以檢視指定頁面上所有資產的最新狀態。 使用瀏覽器UI無需重新登入。
+**_無法正確反映資產的發佈狀態（綠色指標）。_**<br>在瀏覽器使用者介面中，必須重新登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe在工具列的**[!UICONTROL 不選&#x200B;]**按鈕右側引入了**[!UICONTROL 重新整理&#x200B;]**圖示。 點選**[!UICONTROL 重新整理&#x200B;]**圖示以檢視指定頁面上所有資產的最新狀態。 使用瀏覽器UI無需重新登入。
 
 ![重新整理圖示](/help/using/assets/refresh-icon1.png)
 *重新整理圖示*
 
-**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選&#x200B;**[!UICONTROL 上傳>工作選項>批次集預設集&#x200B;]**。 請確定已啟用相關的&#x200B;**[!UICONTROL 批次集預設集&#x200B;]**。 按一下&#x200B;**[!UICONTROL 儲存並提交上傳&#x200B;]**。
+**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選**[!UICONTROL 上傳>工作選項>批次集預設集&#x200B;]**。 請確定已啟用相關的**[!UICONTROL 批次集預設集&#x200B;]**。 按一下**[!UICONTROL 儲存並提交上傳&#x200B;]**。

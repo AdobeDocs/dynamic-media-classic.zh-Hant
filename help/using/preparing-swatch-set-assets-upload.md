@@ -26,7 +26,7 @@ ht-degree: 61%
 * 同一外套的黑色、棕色和綠色快照。
 * 黑色、棕色及綠色色票。
 
-由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
+由於使用者可以在色票集中縮放影像，因此請確保影像最大尺寸至少為 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用無損的TIFF、PNG和EPS影像。
 
 如需上傳資產的詳細指示，請參閱[上傳檔案](uploading-files.md#uploading_files)。
 

@@ -23,9 +23,9 @@ SEO 是改善來自搜尋引擎之網站流量的程序。雖然搜尋引擎在�
 
 使用Adobe Dynamic Media Classic視訊SEO，您可以套用視訊中繼資料，為搜尋引擎提供視訊說明。 Adobe Dynamic Media Classic可讓您建立視訊網站地圖和mRSS摘要。 這些標準XML檔案用於將視訊資訊提交至搜尋引擎：
 
-* **視訊網站地圖**：通知Google視訊內容在網站上的確切位置與內容。 因此，您完全可在Google上搜尋影片。 例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的相關資訊，請參閱[視訊網站地圖和視訊網站地圖替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)。
+* **視訊網站地圖**：通知Google視訊內容在網站上的確切位置與內容。 因此，您完全可在Google上搜尋影片。 例如，視訊網站地圖可以指出視訊的執行時間和類別。如需視訊網站地圖的相關資訊，請參閱[視訊網站地圖和視訊網站地圖替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)。
 
-* **mRSS (Media Really Simple Syndication)摘要**：內容發行者用來將媒體檔案摘要至Yahoo！ 視訊搜尋。如需mRSS摘要的相關資訊，請參閱[視訊網站地圖和視訊網站地圖替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)。
+* **mRSS (Media Really Simple Syndication)摘要**：內容發行者用來將媒體檔案摘要至Yahoo！ 視訊搜尋。如需mRSS摘要的相關資訊，請參閱[視訊網站地圖和視訊網站地圖替代方案](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)。
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 在&#x200B;**[!UICONTROL 自動/手動模式]**&#x200B;下拉式清單上，選擇是否要自動或手動產生：
 
-* **自動模式**： Adobe Dynamic Media Classic每天都會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取&#x200B;**[!UICONTROL 標示為Publish]**&#x200B;選項，以便您可以自動標示為發佈Adobe Dynamic Media Classic產生的XML檔案。
+* **自動模式**： Adobe Dynamic Media Classic每天都會自動產生一個視訊網站地圖、媒體RSS (mRSS)摘要，或兩者皆產生。 選取&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;選項，以便您可以自動標籤為發佈Adobe Dynamic Media Classic產生的XML檔案。
 
-   * **標示為Publish**&#x200B;標示為發佈產生的XML檔案。
+   * **標籤為發佈**&#x200B;標籤為發佈產生的XML檔案。
 
 * **手動模式**：當您在視訊搜尋最佳化設定畫面中選取&#x200B;**[!UICONTROL 產生]**&#x200B;或&#x200B;**[!UICONTROL 儲存並產生]**&#x200B;時，Adobe Dynamic Media Classic會產生視訊網站地圖、媒體RSS (mRSS)摘要，或兩者同時產生。 同時，也請選擇這些選項:
 
    * **沒有其他設定**：未標籤為發佈產生的XML檔案。
 
-   * **標示為Publish**：標示為發行產生的XML檔案。
+   * **標籤為發佈**：標籤為發佈產生的XML檔案。
 
    * **允許部分產生**：如果XML檔案未包含所有視訊的完整中繼資料資訊，則搜尋引擎可以拒絕XML檔案。 即使某些影片沒有中繼資料，此選項也會產生XML檔案。 警告會登錄在「報告」畫面上。如果您要匯出 XML 檔案並手動處理遺失的資訊，請選擇此選項。
 
@@ -98,7 +98,7 @@ Adobe Dynamic Media Classic可從儲存於每個視訊的中繼資料產生視�
 
 >[!NOTE]
 >
->Publish視訊網站地圖或mRSS摘要，然後才能將其提交至搜尋引擎。 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。如有必要，請標籤這些XML檔案以供發佈，然後選取&#x200B;**[!UICONTROL Publish]**。
+>先發佈視訊網站地圖或mRSS摘要，您才能將其提交至搜尋引擎。 視訊網站地圖和媒體 RSS (mRSS) 新聞頻道檔案儲存於公司的根檔案夾中。視需要標籤這些XML檔案以供發佈，然後選取&#x200B;**[!UICONTROL 發佈]**。
 
 ## 將視訊網站地圖和mRSS摘要檔案提交至搜尋引擎 {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

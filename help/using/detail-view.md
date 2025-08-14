@@ -62,7 +62,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 「詳細資料檢視」提供處理您所開啟之資產的工具。 可用的工具取決於您使用的資產型別，但「詳細資料檢視」一律會提供下列功能：
 
-* 發佈&#x200B;**的**&#x200B;專案：選取名稱左邊的&#x200B;**[!UICONTROL `Publish`]**&#x200B;圖示，或移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL Publish]**&#x200B;或&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**。
+* 發佈&#x200B;**的**&#x200B;專案：選取名稱左邊的&#x200B;**[!UICONTROL `Publish`]**&#x200B;圖示，或移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**&#x200B;或&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**。
 
 * **重新命名資產**：選取名稱並輸入新名稱。
 

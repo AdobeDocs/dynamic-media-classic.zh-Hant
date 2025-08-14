@@ -1,6 +1,6 @@
 ---
 title: Adobe 訓練服務
-description: 進一步瞭解Adobe Dynamic Media Classic的Adobe訓練服務。
+description: 進一步瞭解適用於Adobe Dynamic Media Classic的Adobe培訓服務。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -25,7 +25,7 @@ Dynamic Media Classic以影片訓練、講師授課的研討會、網路研討�
 
 Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓練。訓練形式可為區域型的大學式課堂、以網路為基礎的課程，或客製化的網站研討會。區域型的課堂開放所有客戶參加，並定期在全北美、歐洲、中東和非洲地區各個地點舉行。客製化的課程可為初學至進階使用者、終端使用者、管理員及 IT 人員量身訂做。
 
-檢視[Adobe訓練服務](https://learning.adobe.com/)
+請參閱[Adobe訓練服務](https://learning.adobe.com/)
 
 ## 演示
 

@@ -27,9 +27,9 @@ ht-degree: 22%
 
 請參閱[建立影像地圖](creating-image-maps.md)。
 
-請參閱[影像和迴轉集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
+請參閱[影像和迴轉集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
-當您建立「迴轉集」時，Adobe會建議下列最佳作法並強制執行下列限制：
+建立迴轉集時，Adobe會建議下列最佳作法並強制實行下列限制：
 
 | 迴轉集限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
@@ -73,13 +73,13 @@ ht-degree: 22%
 
 請參閱[預覽迴轉集](previewing-spin-set.md#previewing-a-spin-set)。
 
-## 6. Publish a迴轉集
+## 6.發佈迴轉集
 
 發佈迴轉集會將它置於Adobe Dynamic Media Classic伺服器上，以便動態傳遞至您的網站或應用程式。 這也會啟用URL字串，將迴轉集從Dynamic Media影像伺服器呼叫至您的網站或應用程式。
 
-若要發佈迴轉集，請在「瀏覽」面板中選取其名稱旁的&#x200B;**[!UICONTROL 標籤為Publish]**&#x200B;圖示，將其標籤為發佈。 在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**&#x200B;以啟動發佈。 在發佈頁面上，選取&#x200B;**[!UICONTROL 提交Publish]**。
+若要發佈迴轉集，請在「瀏覽」面板中選取其名稱旁的&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示，將其標籤為發佈。 在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**&#x200B;以啟動發佈。 在發佈頁面上，選取&#x200B;**[!UICONTROL 送出發佈]**。
 
-請參閱[Publish a迴轉集](publishing-spin-set.md#publishing-a-spin-set)。
+請參閱[發佈迴轉集](publishing-spin-set.md#publishing-a-spin-set)。
 
 ## 7.將迴轉集連結至網頁
 

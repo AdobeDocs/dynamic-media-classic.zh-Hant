@@ -25,7 +25,7 @@ ht-degree: 24%
 >
 >使用的視訊播放程式必須支援使用章節記號。
 
-如果要設定`Universal_HTML5_Video`檢視器(HTML5)的章節導覽提示點和章節標題快顯文字，請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
+如果要設定[檢視器(HTML5)的章節導覽提示點和章節標題快顯文字，請參閱](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)新增或編輯視訊檢視器預設集`Universal_HTML5_Video`。
 
 另請參閱[新增及編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
@@ -85,6 +85,6 @@ Cost-efficient access to rapidly evolving technology.
 
      在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
-     針對HTML5 `Universal_HTML5_Video`檢視器，將複製的內嵌程式碼附加至以下內容：
+     若為HTML5 `Universal_HTML5_Video`檢視器，請將複製的內嵌程式碼附加至下列內容：
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

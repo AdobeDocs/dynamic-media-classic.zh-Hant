@@ -19,7 +19,7 @@ ht-degree: 16%
 
 # 將範本連結至網頁{#linking-a-template-to-a-web-page}
 
-您的網站和應用程式會透過URL字串存取Dynamic Media影像伺服器內容。 在您發佈範本後，Adobe Dynamic Media Classic會啟用參考Dynamic Media影像伺服器上的範本的URL字串。 您可以將此URL貼到網頁瀏覽器以進行測試。
+您的網站和應用程式會透過URL字串存取Dynamic Media影像伺服器內容。 在您發佈範本後，Adobe Dynamic Media Classic會啟用在Dynamic Media影像伺服器上參考範本的URL字串。 您可以將此URL貼到網頁瀏覽器以進行測試。
 
 若要將URL字串置入網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。 若要取得使用影像預設集產生的範本URL字串，請前往「預覽」畫面或「瀏覽」面板（在「詳細資料檢視」中）。 然後選取「影像預設集」並選取「複製 URL」按鈕。
 

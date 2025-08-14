@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classic是一個整合式多媒體管理、發佈和服務環境。 豐富型媒體可傳送至所有行銷和銷售管道。 這些管道包括網頁、印刷品、電子郵件行銷活動、入口網站、桌上型電腦和裝置。
 
-另請觀看[平台概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)訓練影片。
+另請觀看[平台概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)訓練影片。
 
 ## 工作流程程序 {#workflow-process}
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
 * **建立豐富媒體**：建立您資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
 
-* **Publish和管理**： Publish資產到Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
+* **發佈和管理**：將資產發佈到Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
 
 * **服務**：將媒體從Adobe Dynamic Media Classic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並透過CDN快取傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
 
@@ -48,4 +48,4 @@ Adobe Dynamic Media Classic與其他系統截然不同，因為您可以使用Ad
 
 ## 內容快取 {#content-caching}
 
-Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，它們是JPEG影像，具有可識別它們的唯一URL呼叫。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。使用任何CDN廠商實作快取機制時，只需將伺服器名稱變更為指向啟用CDN的Dynamic Media Image Server即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。
+Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，這些影像是具有可識別這些影像的唯一URL呼叫的JPEG影像。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。使用任何CDN廠商實作快取機制時，只需將伺服器名稱變更為指向啟用CDN的Dynamic Media影像伺服器即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。

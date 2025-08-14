@@ -45,13 +45,13 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-## 5. Publish a色票集
+## 5.發佈色票集
 
 發佈色票集會將它置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
-在「瀏覽」面板中，選取名稱左側的&#x200B;**[!UICONTROL Publish標籤]**&#x200B;圖示。 然後選取&#x200B;**[!UICONTROL Publish]**。 在發佈頁面上，選取&#x200B;**[!UICONTROL 提交Publish]**。
+在「瀏覽」面板中，選取其名稱左側的&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示。 然後選取&#x200B;**[!UICONTROL 發佈]**。 在發佈頁面上，選取&#x200B;**[!UICONTROL 送出發佈]**。
 
-檢視[Publish檔案](publishing-files.md#publishing-files)。
+請參閱[發佈檔案](publishing-files.md#publishing-files)。
 
 ## 6.將色票集連結至網頁
 

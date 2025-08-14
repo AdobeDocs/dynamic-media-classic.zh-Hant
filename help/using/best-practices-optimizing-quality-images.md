@@ -12,8 +12,8 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 40%
+source-wordcount: '1602'
+ht-degree: 39%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 40%
 
 Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果的100多個影像伺服命令。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+另請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 >[!TIP]
 >
@@ -35,14 +35,14 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
 
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
-* 如果URL中未提供任何格式命令，Dynamic Media Image Serving會預設為JPG以進行傳送。
-* JPG 以 10:1 的比例壓縮，通常會產生較小的檔案。PNG會以大約2:1的比率壓縮，除非有時影像包含空白背景。 大致上 PNG 檔案的大小比 JPG 檔案更大。
+* 如果URL中未提供格式命令，則「動態媒體影像伺服」預設為JPG以進行傳送。
+* JPG會以10:1的比率壓縮，且通常會產生較小的影像檔案大小。 PNG會以大約2:1的比率壓縮，除非有時影像包含空白背景。 大致上 PNG 檔案的大小比 JPG 檔案更大。
 * JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
 * 如果您的影像具有透明度，請使用 PNG，因為 JPG 不支援透明度。
@@ -51,7 +51,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 
 ## 影像大小的最佳實踐 {#best-practices-for-image-size}
 
-動態縮減影像大小是Dynamic Media Image Serving最常執行的工作之一。 它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
+動態縮減影像大小是Dynamic Media影像伺服最常執行的工作之一。 它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
 
 * 調整影像大小的最佳且最直接的方法是使用`&wid=<value>`和`&hei=<value>`，或只使用`&hei=<value>`。 這些參數會根據外觀比例自動設定影像寬度。
 * `&resMode=<value>`控制縮減取樣所使用的演演算法。 從`&resMode=sharp2`開始。 此值可提供最好的影像品質。使用縮減取樣值`=bilin`的速度較快，但通常會導致成品產生鋸齒。
@@ -99,7 +99,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 
 保留 monochrome 參數的設定值 0。
 
-## JPEG壓縮(`&qlt=`)的最佳作法 {#best-practices-for-jpeg-compression-qlt}
+## JPEG壓縮的最佳作法(`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * 這個參數控制 JPG 編碼品質。值愈大表示影像品質愈好，但檔案較大；相反地，值愈小表示影像品質愈差，但檔案較小。此參數的範圍是 0-100。
 * 若要將品質最佳化，請勿將此參數值設為 100。設定90或95與100之間的差異幾乎無法察覺。 然而100會不必要地增加影像檔案的大小。 因此，若要最佳化品質但避免影像檔案變得太大，請將`qlt=`值設為90或95。
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 * 在`qlt=`中使用色度旗標
 
    * `qlt=`引數有第二個設定，可讓您使用一般值`,0` （預設）開啟RGB色度縮減取樣，或使用值`,1`將其關閉。
-   * 若要保持簡單，請從關閉RGB色度縮減取樣( `,1`)開始。 此設定通常會得到較好的影像品質，特別是包含許多銳利邊緣和對比的合成影像。
+   * 若要保持簡單，請從RGB色度縮減取樣關閉( `,1`)開始。 此設定通常會得到較好的影像品質，特別是包含許多銳利邊緣和對比的合成影像。
 
 JPG壓縮的最佳作法是使用`&qlt=85,0`。
 
@@ -136,5 +136,5 @@ JPG壓縮的最佳作法是使用`&qlt=85,0`。
 實驗時，以下一般建議有助於最佳化您的工作流程：
 
 * 請直接在URL上或使用Adobe Dynamic Media Classic的影像調整功能，即時試用並測試不同的引數。 後者提供調整作業的即時預覽。
-* 如需參考最佳做法，請記住，您可以將「Dynamic Media影像伺服」命令群組至影像預設集。 影像預設集基本上是含有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
-* Adobe Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化演算結果的進階使用案例，Adobe Professional Services可協助您提供自訂分析和最佳實務。
+* 如需參考最佳做法，請記得您可以將「動態媒體影像伺服」命令群組至影像預設集。 影像預設集基本上是含有自訂預設集名稱（例如`$thumb_low$`和`&product_high$`）的URL命令巨集。 URL路徑中的自訂預設集名稱會呼叫這些預設集。 這類功能可協助您管理網站上不同影像使用模式的命令和品質設定，以及縮短 URL 的整體長度。
+* Adobe Dynamic Media Classic也提供更進階的方式來調整影像品質，例如在擷取時套用影像銳利化。 對於可選擇進一步調整和最佳化演算結果的進階使用案例，Adobe Professional Services可協助您進行自訂insight和最佳實務。

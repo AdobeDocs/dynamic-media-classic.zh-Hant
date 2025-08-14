@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: 瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制限制。 另外還能瞭解不支援的Dynamic Media網頁瀏覽器和作業系統組合。
+description: 瞭解建立影像集或迴轉集或上傳PDF時的最佳實務和強制限制。 也瞭解不支援的Dynamic Media網頁瀏覽器和作業系統組合。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## Dynamic Media對資產型別的最佳實務和強制執行限制 {#best-practice-enforced-limits}
 
-當您建立迴轉集或影像集，或上傳頁面擷取的PDF時，Adobe會建議下列最佳作法。 Adobe也會強制實行下列限制：
+當您建立迴轉集或影像集，或上傳PDF以進行頁面擷取時，Adobe會建議下列最佳作法。 Adobe也會強制實行下列限制：
 
 | 資產：限制型別 | 最佳實務 | 強加的限制 |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 1%
 | **所有集合**：每個集合的重複資產數目 | 無重複專案 | 20‡ |
 | **所有集合**：每個集合的資產數量上限 | 每組5至10個影像 | 1000 |
 | **迴轉集**：每個2D集的列/欄數上限 | 每組12至18個影像 | 1000 |
-| **PDF**：要考慮擷取之PDF的最大頁數 |  | 100 (適用於所有PDF) |
+| **PDF**：要考慮擷取之PDF的最大頁數 |  | 100 （適用於所有PDF） |
 
 ‡最佳實務是不要在一個集中有重複的資產。 單一資產的限製為20個重複專案。 如果您為該資產新增另一個重複專案（在該集合內），請求會傳回錯誤或忽略重複專案。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media不支援下列網頁瀏覽器和作業系統組合。
+Adobe Dynamic Media不支援下列Web瀏覽器和作業系統組合。
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -63,7 +63,7 @@ AdobeDynamic Media不支援下列網頁瀏覽器和作業系統組合。
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-自2024年4月30日起，Adobe Dynamic Media將停止支援下列專案：
+自2024年4月30日起，Adobe Dynamic Media將終止支援下列專案：
 
 * SSL （安全通訊端層） 2.0
 * SSL 3.0

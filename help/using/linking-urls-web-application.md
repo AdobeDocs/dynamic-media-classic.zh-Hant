@@ -54,7 +54,7 @@ ht-degree: 26%
 
 ## 關於影像預設集 URL 字串 {#about-image-preset-url-strings}
 
-Dynamic Media影像伺服器的影像大小調整URL呼叫有以下基本語法：
+Dynamic Media影像伺服器影像大小調整的URL呼叫有以下基本語法：
 
 *路徑*/*影像伺服器名稱*/*帳戶名稱*/*影像名稱*?*修飾元 1*&amp;*修飾元 2*&amp;...
 

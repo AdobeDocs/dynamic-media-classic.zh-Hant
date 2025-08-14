@@ -31,9 +31,9 @@ ht-degree: 23%
 
 您有兩種不同的發佈視訊方法：
 
-* **Publish視訊上傳時自動立即完成**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
+* **上傳視訊時立即自動發佈**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
 
-* **上傳後手動Publish視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
+* **上傳後手動發佈視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
 在您發佈影片後，Adobe Dynamic Media Classic會啟用HTML頁面或應用程式程式碼的URL字串。
 
@@ -41,8 +41,8 @@ ht-degree: 23%
 
 1. 進行以下一項操作:
 
-   * 若要在上傳時自動並立即發佈視訊，請在「上傳」頁面中，在上傳後選取&#x200B;**[!UICONTROL Publish]**。 程序已完成，您不需要再做任何步驟。
-   * 若要在上傳後手動發佈影片，請在[瀏覽]面板中選取影片，然後在[全域導覽]列上選取&#x200B;**Publish**。
+   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面中，選取[上傳後發佈]。****&#x200B;程序已完成，您不需要再做任何步驟。
+   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]****。
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -85,18 +85,18 @@ ht-degree: 23%
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的視訊或最適化視訊集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在視訊縮圖影像下方選取&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
 
    * 選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
 
    * 選取&#x200B;**[!UICONTROL 格線檢視]**、**[!UICONTROL 清單檢視]**&#x200B;或&#x200B;**[!UICONTROL 詳細檢視]**。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
 
 1. 在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
@@ -105,9 +105,9 @@ ht-degree: 23%
 1. 選取&#x200B;**[!UICONTROL 關閉]**。
 1. 將內嵌程式碼貼入您的網頁。
 
-### 實作內嵌程式碼，以搭配MP4視訊資產使用HTML5視訊 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### 透過MP4視訊資產實作HTML5視訊的內嵌程式碼 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-您可能不想使用Adobe Dynamic Media ClassicHTML5視訊播放程式。 如果您想要搭配MP4視訊資產使用原生HTML5 `<video>`標籤，您可以使用下列內嵌程式碼範例：
+您可能不想使用Adobe Dynamic Media Classic HTML5視訊播放程式。 反之，如果您想要將原生HTML5 `<video>`標籤與MP4視訊資產搭配使用，您可以使用下列內嵌程式碼範例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ ht-degree: 23%
 
 ## 使用協力廠商視訊播放器部署視訊 {#deploying-video-using-a-third-party-video-player}
 
-如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，您將會取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
+如果您使用協力廠商視訊播放器或自訂的視訊播放器，而非Dynamic Media Classic視訊檢視器，您將取得適用於HLS多位元速率視訊串流或漸進式下載的直接視訊URL。
 
 **若要使用協力廠商視訊播放器部署視訊：**
 
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 若要產生視訊縮圖的 URL，請執行發佈作業。
 
-觀看[Publish影片](deploying-video-websites-mobile-sites.md#publishing_video)。
+請參閱[發佈視訊](deploying-video-websites-mobile-sites.md#publishing_video)。
 
 在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
 
@@ -187,10 +187,10 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-請參閱[影像伺服指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+請參閱[影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 
 >[!MORELIKETHIS]
 >
->* [Publish檔案](publishing-files.md#publishing_files)
+>* [發佈檔案](publishing-files.md#publishing_files)

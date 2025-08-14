@@ -30,7 +30,7 @@ ht-degree: 53%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-[使用Admin Console建立支援案例，要求&#x200B;*共用機密金鑰*。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在技術支援案例中，請要求共用機密金鑰。
+由&#x200B;*使用Admin Console要求*&#x200B;共用機密金鑰[以建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在技術支援案例中，請要求共用機密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
@@ -135,7 +135,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像微調選項中的「去底色背景」。
+在上傳[檢視](image-editing-options-upload.md#image-editing-options-at-upload)影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼

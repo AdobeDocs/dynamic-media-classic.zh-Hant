@@ -25,7 +25,7 @@ ht-degree: 15%
 
 ## 從Adobe Dynamic Media Classic設定Adobe Analytics追蹤 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-對於所有HTML5檢視器，請將下列JavaScript新增至HTML容器（通常在&lt;head>元素中）：
+針對所有HTML5檢視器，新增下列JavaScript至HTML容器（通常在&lt;head>元素中）：
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ ht-degree: 15%
 
 繼續，現在新增將檢視器事件傳輸至Adobe Analytics追蹤代碼的函式。
 
-將`s7ComponentEvent()`函式新增至容器HTML（或JSP、ASPX或其他）：
+將`s7ComponentEvent()`函式新增至容器HTML （或JSP、ASPX或其他）：
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

@@ -21,7 +21,7 @@ ht-degree: 35%
 
 若要建立範本，請前往&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 範本基本知識]**。 選取「設計師」或「開發人員」。在此頁面上，可以增加影像圖層和文字圖層。還可以將圖層重新排序、變更圖層的大小和位置，並將陰影和光暈效果套用於影像和文字。
 
-另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
+另請觀看[基本範本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)訓練影片。
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ ht-degree: 35%
 
 ## 建立初始範本 {#creating-the-initial-template}
 
-當您建立範本集時，儲存&#x200B;**之後的** Publish選項會以下列方式影響該集和設定成員：
+當您建立範本集時，**[!UICONTROL 儲存後發佈]**&#x200B;選項會以下列方式影響該集和設定成員：
 
-| 儲存前已選取儲存後&#x200B;**[!UICONTROL Publish]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 在儲存之前選取儲存後&#x200B;**[!UICONTROL 發佈]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- |
 | 是 | 已發佈 | 已發佈 |
 | 否 | 未發佈 | 集成員會保持已發佈或未發佈的狀態。 |
@@ -44,13 +44,13 @@ ht-degree: 35%
 
 1. 若要建立初始範本，請使用下列其中一種方法：
 
-   * **請先選取PSD或影像**：在「瀏覽」面板中，選取您要用於範本的PSD檔案，移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 範本基本知識]**。
+   * **請先選取PSD或影像**：在「瀏覽」面板中，選取您要用於範本的PSD檔案或影像，前往&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 範本基本知識]**。
 
    * **從範本畫面開始**：移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 範本基本知識]**。 選取「設計師」或「開發人員」。
 
 1. 在「輸入畫布大小」對話方塊中，輸入範本的寬度和高度測量值。
 1. 在「資產庫」中選取一個檔案夾，然後將範本所需的 PSD 檔案或影像拖曳到「範本」畫面上。
-1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存Publish]** （預設）。
+1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 1. 選取儲存範本的資料夾，輸入範本的名稱，然後選取&#x200B;**[!UICONTROL 提交]**。
 
@@ -58,9 +58,9 @@ ht-degree: 35%
 
 ## 編輯範本集 {#editing-a-template-set}
 
-無論您是編輯已發佈集還是未發佈範本集，儲存&#x200B;**後所使用的** Publish選項都會影響該集和整合員，其方式如下：
+無論您是編輯已發佈集還是未發佈範本集，**[!UICONTROL 在儲存後發佈]**&#x200B;選項都會影響該集和設定成員，其方式如下：
 
-| 已發佈集? | 在儲存編輯內容之前，是否已選取儲存&#x200B;**[!UICONTROL Publish]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | 在儲存編輯之前，是否要選取儲存後發佈&#x200B;**[!UICONTROL 選項]**？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
 | 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
@@ -73,7 +73,7 @@ ht-degree: 35%
 
 1. 在格線檢視中，瀏覽至範本集，然後在影像下方選取&#x200B;**[!UICONTROL 編輯]**。
 1. 視需要變更範本。
-1. 完成編輯時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存]**&#x200B;後的Publish （預設）。
+1. 當您完成編輯時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**，選取儲存資料夾，輸入集合的名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
 ## 刪除範本
@@ -307,7 +307,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 內光暈]**：在圖層的全部邊緣套用光暈效果。
 
-套用效果之後，效果名稱會顯示在「圖層」清單上。若要刪除效果，請在[圖層]清單中選取其名稱，然後選取[刪除]。**&#x200B;**
+套用效果之後，效果名稱會顯示在「圖層」清單上。若要刪除效果，請在[圖層]清單中選取其名稱，然後選取[刪除]。****
 
 >[!NOTE]
 >

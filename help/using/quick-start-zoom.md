@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic也提供引導式縮放，讓您強調影像中的�
 
 所有縮放影像都是從單一主要影像、圖形和資料庫驅動屬性建立及提供的。 Adobe Dynamic Media Classic縮放可大幅減少製作和傳送影像的時間和成本。 您可以使用「縮放檢視器」來放大和縮小影像。 「縮放檢視器」有按鈕可供您選取來縮放和平移；您也可以拖曳到熒幕上來平移。 透過縮放檢視器預設集，可以設定要用於縮放影像的縮放檢視器。
 
-觀看[縮放目標：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/559_Zoom%20Target%20Tool_converted%20renamed_Dynamic%20Imaging-AVS)和[縮放：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/560_Zoom_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
+請參閱[縮放目標： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/559_Zoom%20Target%20Tool_converted%20renamed_Dynamic%20Imaging-AVS)和[縮放： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/560_Zoom_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
 下列「縮放快速入門」的設計目的，是要讓您快速上手並執行Adobe Dynamic Media Classic中的縮放技術。 依照步驟 1 至 6 執行。每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
 
@@ -57,11 +57,11 @@ Adobe Dynamic Media Classic提供&#x200B;**[!UICONTROL 縮放檢視器預設集]
 
 此時會出現「縮放」按鈕。您可以檢視縮放影像在您網站上的外觀。 選取「縮放」按鈕（和「縮放目標」），以測試您所選取「縮放檢視器預設集」的設定。 檢視[使用不同縮放檢視器預覽影像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers)。
 
-## 5. Publish縮放影像
+## 5.發佈縮放影像
 
 發佈縮放影像時，會將影像置於Dynamic Media影像伺服器上，以便傳遞至您的網站和應用程式。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 這些URL字串會將Dynamic Media影像伺服器的縮放影像呼叫至您的網站或應用程式。
 
-在全域導覽列上，選取&#x200B;**[!UICONTROL Publish]**。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 提交Publish]**。 請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
+在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 送出發佈]**。 請參閱[發佈縮放影像](publishing-zoom-images.md#publishing_zoom_images)。
 
 ## 6.將縮放檢視器連結至您的網頁
 
