@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
   各種iOS平台均支援最適化視訊串流。
 
-  請參閱[Adobe檢視器參考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)中的最新支援。
+  請參閱[Adobe檢視器參考指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)中的最新支援。
 
   Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
