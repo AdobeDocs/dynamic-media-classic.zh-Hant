@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 32%
@@ -37,7 +37,7 @@ ht-degree: 32%
 
 ## 建立迴轉集 {#create}
 
-在Adobe Dynamic Media Classic中製作或建立迴轉集的順序很重要。 在將影像拖放至「迴轉集」頁面的格線時，根據您排序資產的方式，迴轉集會以特定方向迴轉。 因此，當使用者移動滑鼠指標或移動他們的手指（由左至右）時，資產在產生器中視覺顯示的順序就是資產的旋轉方式。
+在Adobe Dynamic Media Classic中製作或建立旋轉集的順序很重要。 在將影像拖放至「迴轉集」頁面的格線時，根據您排序資產的方式，迴轉集會以特定方向迴轉。 因此，當使用者移動滑鼠指標或移動他們的手指（由左至右）時，資產在產生器中視覺顯示的順序就是資產的旋轉方式。
 
 當您建立集合時，**[!UICONTROL 在儲存之後發佈]**&#x200B;選項會以下列方式影響集合和設定成員：
 
@@ -89,7 +89,7 @@ ht-degree: 32%
 
 **若要編輯迴轉集：**
 
-1. 選取迴轉集的變換&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
+1. 選取旋轉組的滑鼠指向效果&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 1. 請執行下列任一動作:
 
    * **移除影像**：選取影像，然後選取&#x200B;**[!UICONTROL 刪除]**。

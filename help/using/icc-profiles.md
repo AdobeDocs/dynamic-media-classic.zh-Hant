@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ ICC （國際色彩聯盟）設定檔是一個檔案，說明如何正確地將�
 
 若要檢查ICC設定檔，請在「瀏覽」面板中選取該設定檔，並在「詳細資料檢視」中顯示它。 「詳細資料檢視」提供下列有關ICC設定檔的資訊：
 
-* **[!UICONTROL 設定檔類別]**： ICC （國際色彩聯盟）定義每個類別以涵蓋應用程式型別。 例如，輸入設定檔套用於數位相機和掃描器等裝置，輸出設定檔套用於印表機。
+* **[!UICONTROL 設定檔類別]**： ICC （國際色彩聯盟）定義每個類別以涵蓋應用程式型別。 例如，「輸入」設定檔適用於數位相機和掃描器等裝置，而「輸出」設定檔適用於印表機。
 
 * **[!UICONTROL 色域型別]**：此數字是設定檔的「輸入」色域，如ICC所定義。 色域類型可定義色域的組件數目和對這些組件的解釋。例如，RGB 是具有三個組件 (紅色、綠色和藍色) 的 色域。色域類型並不定義該色域的特定色彩特性 (例如，原色的色度)。
 

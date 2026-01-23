@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 迴轉集用於模擬轉動物件進行查看時的真實動作。利用迴轉集能夠從任何角度查看項目，從而獲得任何角度的重要視覺詳細資訊。迴轉集會模擬 360 度的視覺效果。Adobe Dynamic Media Classic提供一維迴轉集（檢視器可旋轉專案）和二維迴轉集（檢視器可旋轉和翻轉專案）。 此外，使用者只要按幾下滑鼠即可隨意縮放及平移任何檢視。 透過這種方式，使用者能夠以特定的視點，更仔細地檢查項目。
 
-迴轉集的![影像。](/help/using/assets/spin_set.png)
+迴轉集的![影像](/help/using/assets/spin_set.png)
 
-迴轉集也接受影像地圖。影像地圖就是迴轉集內顯示含文字之滑鼠指向面板的影像區域。當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁以便使用者進一步瞭解產品。 若要指出「迴轉集」中的「影像對映」，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍出現輪廓。
+旋轉組也接受影像對映。 「影像地圖」是旋轉組內影像上的區域，顯示包含文字的滑鼠指向效果面板。 當使用者選取影像地圖時，就會觸發某種動作。 例如，啟動網頁以便使用者進一步瞭解產品。 若要指出「迴轉集」中的「影像對映」，當使用者將滑鼠指標移到「影像對映」上時，就會在「影像對映」本身周圍出現輪廓。
 
 請參閱[建立影像地圖](creating-image-maps.md)。
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 
 另請參閱[Dynamic Media限制](/help/using/limitations.md)。
 
-此迴轉集快速入門旨在讓您快速上手並執行Adobe Dynamic Media Classic中的迴轉集技術。 依照步驟 1 至 7 執行。在每個步驟結束時，您可以選取主題連結以瞭解更多資訊。
+本快速入門旨在協助您快速上手，使用Adobe Dynamic Media Classic中的迴轉集技術。 依照步驟 1 至 7 執行。在每個步驟結束時，您可以選取主題連結以瞭解更多資訊。
 
 ## 1.建立及上傳影像
 

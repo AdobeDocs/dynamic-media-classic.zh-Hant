@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 21%
@@ -45,7 +45,7 @@ ht-degree: 21%
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
-使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集後，您可使用您選擇的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
+使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集後，您可以使用所選的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
 
 Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可供您播放視訊，如果您是管理員，可以建立自訂檢視器預設集。 設定Video Viewer有12種以上的不同設定。 您可以設定其大小、色彩、視訊和音訊控制項、進度列、使用者介面外觀和社交功能。
 

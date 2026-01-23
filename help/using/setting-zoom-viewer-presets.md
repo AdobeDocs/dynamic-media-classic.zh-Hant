@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 40%
 
 ---
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic建議您將下列引數用於彈出式縮放檢視�
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 1. 進行以下一項操作:
 
-   * **建立預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[縮放檢視器]，然後選取[新增]&#x200B;**&#x200B;**。 在「預設集名稱」方塊中輸入預設集名稱。
+   * **建立預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[縮放檢視器]，然後選取[新增]****。 在「預設集名稱」方塊中輸入預設集名稱。
 
    * **編輯預設集**：選取縮放檢視器預設集，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic建議您將下列引數用於彈出式縮放檢視�
    當您更新和變更設定時，「預覽」頁面會顯示檢視器。
 
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**。
-1. 在「檢視器預設集」頁面上，檢查您建立的「縮放檢視器預設集」或「引導式縮放檢視器預設集」。 如果需要調整，請選取&#x200B;**[!UICONTROL 編輯]**，變更`Configure Viewer`頁面上的設定，然後選取&#x200B;**[!UICONTROL 儲存]**。
+1. 在「檢視器預設集」頁面上，檢查您建立的「縮放檢視器預設集」或「引導式縮放檢視器預設集」。 如果您需要調整，請選取&#x200B;**[!UICONTROL 編輯]**，變更`Configure Viewer`頁面上的設定，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
 有關在「檢視器預設集」畫面上管理檢視器預設集的資訊，請參閱[檢視器預設集](application-setup.md#viewer_presets)。
 

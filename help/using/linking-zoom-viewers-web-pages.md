@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -47,11 +47,11 @@ ht-degree: 23%
 
 通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南中的[內嵌Adobe5 Basic Zoom Viewer &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
-## 複製縮放檢視器的內嵌副本 {#copying-the-embed-copy-of-a-zoom-viewer}
+## 複製縮放檢視器的內嵌復本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「縮放檢視器」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
+使用內嵌程式碼功能可讓您檢閱所選縮放檢視器的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製縮放檢視器的內嵌程式碼：**
 

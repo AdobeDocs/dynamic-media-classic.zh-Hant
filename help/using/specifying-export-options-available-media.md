@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 38%
@@ -32,7 +32,7 @@ ht-degree: 38%
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**。
 1. 在「影像預設集」視窗中，選取下列任一選項:
 
-   * **啟用使用者定義的轉換**：選取此選項時，使用者可以從[匯出選取的Assets]視窗的&#x200B;**[!UICONTROL 大小]**&#x200B;下拉式清單中選擇其他。 接著，使用者可選擇畫素或公分等度量單位，並指定所需的寬度和高度。 當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
+   * **啟用使用者定義的轉換**：選取此選項時，使用者可以從[匯出選取的Assets]視窗的&#x200B;**[!UICONTROL 大小]**&#x200B;下拉式清單中選擇其他。 使用者可以選擇測量單位，例如畫素或公分，然後指定所要的寬度和高度。 當使用者匯出或下載這些檔案時，影像檔案便會重新格式化。
 
      從&#x200B;**[!UICONTROL 大小]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 畫素]**&#x200B;時，產生的影像寬度×高度不能超過100百萬畫素。 這個大小相當於方形影像的10,000×10,000畫素，或是2x3外觀比例影像的大約8,000×12,000畫素。 如果您匯出原始主要影像，則不會套用此大小限制。
 

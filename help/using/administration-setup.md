@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 1. 從清單中選取使用者，然後選取&#x200B;**[!UICONTROL 編輯]**。
 1. 在表格中選取顯示您嘗試修改許可權或存取之公司的專案，然後選取&#x200B;**[!UICONTROL 管理公司]**。
 1. 選取使用者角色。
-1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請選取[下一步] **&#x200B;**&#x200B;並編輯群組成員資格。
+1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請選取[下一步] ****&#x200B;並編輯群組成員資格。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
 ### 篩選和排序使用者清單 {#filtering-and-sorting-the-user-list}
@@ -105,7 +105,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 
 * **依使用者角色篩選**：選取&#x200B;**[!UICONTROL 依使用者角色]**&#x200B;功能表，並選擇選項以將清單縮小至不同型別的使用者或管理員。
 
-* **依欄位名稱篩選**：選取&#x200B;**[!UICONTROL 啟用依欄位篩選]**。 接著選取&#x200B;**[!UICONTROL 依欄位名稱]**&#x200B;功能表，選擇欄以篩選清單，然後選取「篩選字元」功能表並選擇字母。 清單會依您選取的字母在其中一個欄上篩選。 若要檢視完整清單，請取消選取&#x200B;**[!UICONTROL 啟用依欄位篩選]**&#x200B;選項。
+* **依欄位名稱篩選**：選取&#x200B;**[!UICONTROL 啟用依欄位篩選]**。 接著選取&#x200B;**[!UICONTROL 依欄位名稱]**&#x200B;功能表，選擇欄以篩選清單，然後選取「篩選字元」功能表並選擇字母。 清單會依您選取的字母在其中一個欄上篩選。 若要檢視完整清單，請取消選取&#x200B;**`Enable Filter By Field`**&#x200B;選項。
 
 * **篩選出無效的使用者**：取消選取&#x200B;**[!UICONTROL 包含無效]**。 搜尋結果只會顯示系統中的使用者。已從您管理的系統和帳戶中刪除無效的使用者。
 

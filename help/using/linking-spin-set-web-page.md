@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -56,7 +56,7 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 ## 複製迴轉集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-spin-set-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「迴轉集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
+使用內嵌程式碼功能可讓您檢閱所選迴轉集的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製迴轉集檢視器的內嵌程式碼：**
 

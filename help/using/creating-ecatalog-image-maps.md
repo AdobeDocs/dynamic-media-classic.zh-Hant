@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 26%
@@ -66,7 +66,7 @@ ht-degree: 26%
    檢視[繪製eCatalog影像地圖](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
 
 1. 在「顯示」下拉式清單中，選取&#x200B;**[!UICONTROL 多媒體]**。
-1. 在左側的「新增Assets」面板中，導覽至包含您要內嵌之迴轉集或視訊（MP4格式）資產的資料夾。
+1. 在左側的「新增Assets」面板中，導覽至包含您要內嵌之旋轉組合或視訊（MP4格式）資產的資料夾。
 1. 將資產拖曳至「影像地圖」。
 1. （選擇性）在「影像地圖」清單面板的&#x200B;**[!UICONTROL 工具提示]**&#x200B;欄標題下，輸入檢視者在影像地圖上移動指標時，想在熒幕看到的文字。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。

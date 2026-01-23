@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -41,8 +41,8 @@ ht-degree: 23%
 
 1. 進行以下一項操作:
 
-   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面中，選取[上傳後發佈]。**&#x200B;**&#x200B;程序已完成，您不需要再做任何步驟。
-   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]&#x200B;**&#x200B;**。
+   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面中，選取[上傳後發佈]。****&#x200B;程序已完成，您不需要再做任何步驟。
+   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]****。
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -73,9 +73,9 @@ ht-degree: 23%
 
 1. 將 HTML5 視訊 URL 連結貼到您的網站和行動網站上。
 
-## 將視訊檢視器內嵌在網頁上 {#embedding-the-video-viewer-on-a-web-page}
+## 在網頁上新增視訊檢視器 {#embedding-the-video-viewer-on-a-web-page}
 
-當您想要播放內嵌在網頁上的影片時，請使用內嵌程式碼功能。 您可以將內嵌程式碼複製到剪貼簿，以便貼到網頁中。 不可在「內嵌程式碼」對話框中編輯程式碼。
+當您想要播放內嵌在網頁上的視訊時，請使用內嵌程式碼功能。 您可以將內嵌程式碼複製到剪貼簿，以便貼到網頁中。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 另請參閱[將視訊URL連結至行動網站或網站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
@@ -103,7 +103,7 @@ ht-degree: 23%
    不可在「內嵌程式碼」對話框中編輯程式碼。
 
 1. 選取&#x200B;**[!UICONTROL 關閉]**。
-1. 將內嵌程式碼貼入您的網頁。
+1. 將內嵌程式碼貼到您的網頁中。
 
 ### 透過MP4視訊資產實作HTML5視訊的內嵌程式碼 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-請參閱[影像伺服指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+請參閱[影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 

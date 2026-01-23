@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 1. 在「瀏覽」面板中選取一個或多個資產，然後執行下列任一項作業：
 
    * 在「資產庫」中顯示您要移動資產的資料夾，並將資產拖曳至資料夾。
-   * 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 移動]**，在「移動Assets」視窗中選取資料夾，然後選取&#x200B;**[!UICONTROL 移動]**。
+   * 移至&#x200B;**[!UICONTROL 檔案]** > **`Move`**，在`Move Assets`視窗中選取資料夾，然後選取&#x200B;**`Move`**。
 
 ## 重新命名資產 {#rename-assets}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 
 **若要在eCatalog檢視器中預覽eCatalog：**
 
-1. 在「資產庫」面板左方的「顯示」下拉式清單中，選取以視訊為基礎的資產類型，如「視訊」或「視訊集」。
+1. 在左側的「資產庫」面板中，從「顯示」下拉式清單中，選取視訊資產型別，如「視訊」或「視訊集」。
 1. 在「資產庫」面板左方，導覽至含有您要使用 eCatalog 檢視器來預覽的「資產」檔案夾。
 1. 進行以下一項操作:
 

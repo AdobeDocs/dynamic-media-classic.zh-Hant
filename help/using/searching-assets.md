@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -155,7 +155,7 @@ ht-degree: 17%
 
 若要設定中繼資料伺服器，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 中繼資料伺服器]**。
 
-「中繼資料伺服器發佈」頁面可讓您設定下列選項：
+「中繼資料伺服器發佈者」頁面可讓您設定下列選項：
 
 * **[!UICONTROL 即時發佈]**：在進行任何中繼資料變更時，會自動推播這些變更，包括新資產、關鍵字變更等。
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1673'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
 ## 上載後發佈 {#publish-after-uploading}
 
@@ -106,7 +106,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以取消進行中的發佈工作。 此外，管理員還可以透過公司的「工作」頁面取消進行中的發佈工作。
 
-若要取消發佈工作，請移至[工作]頁面並選取[取消]。**&#x200B;** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
+若要取消發佈工作，請移至[工作]頁面並選取[取消]。**** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
 
 >[!NOTE]
 >

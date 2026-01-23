@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
 
 * 與[!DNL Adobe Experience Manager]緊密整合的體驗與整合：從單一商店、單一來源設定並動態傳遞豐富的內容
 * 全新的以行銷人員為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
-* 適用於影像檢視器和視訊播放器的WYSIWYG (What You See Is What You Get)外觀和風格以及行為編輯器。
+* WYSIWYG (What You See Is What You Get)的整體外觀與風格，以及影像檢視器和視訊播放器的行為編輯器。
 * 快速建立及部署可購物/互動媒體體驗，包括影像熱點及可購物視訊
 
 ### [!DNL Dynamic Media] Assets中的[!DNL Experience Manager]功能

@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 22%
 
 ## 複製混合媒體集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-您可使用「內嵌程式碼」功能查看所選「混合媒體集」的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
+使用內嵌程式碼功能可讓您檢閱所選混合媒體集的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製混合媒體集檢視器的內嵌程式碼：**
 

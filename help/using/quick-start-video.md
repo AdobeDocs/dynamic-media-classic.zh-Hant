@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發佈高品質的最適化視訊，以便跨多個畫面串流，包括桌上型電腦、iOS、Android™、BlackBerry®和Windows®行動裝置。 最適化視訊集會將以不同位元速率和格式 (如 400 kbps、800 kbps 和 1000 kbps) 編碼之相同視訊的版本分組。桌上型電腦或行動裝置會偵測可用的頻寬。
 
-例如，iOS 行動裝置會偵測 3G、4G 或 Wi-Fi 的頻寬。然後，它會自動從最適化視訊集的各種視訊位元速率中選取正確編碼的視訊。視訊會串流至桌上型電腦、行動裝置或平板電腦。
+例如，在iOS行動裝置上，它會偵測頻寬，例如3G、4G或Wi-Fi。 然後，它會自動從最適化視訊集的各種視訊位元速率中選取正確編碼的視訊。視訊會串流至桌上型電腦、行動裝置或平板電腦。
 
 此外，如果桌上型電腦或行動裝置上的網路條件有所變更，則視訊品質會自動動態切換。此外，如果客戶在桌上型電腦上進入全熒幕模式，Adaptive Video Set會使用更好的解析度來回應，進而改善客戶的觀看體驗。 使用「自我調整視訊集」可提供最佳播放效果。 它最適合在多個熒幕和裝置上播放Adobe Dynamic Media Classic視訊的客戶。
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
   各種iOS平台均支援最適化視訊串流。
 
-  請參閱[Adobe檢視器參考指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)中的最新支援。
+  請參閱[Adobe檢視器參考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)中的最新支援。
 
   Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -144,9 +144,9 @@ Adobe Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 �
   >
   >URL 只會在您發佈視訊或最適化視訊集之後啟用。
 
-* 顯示內嵌在網頁上的影片，在此情況下，請使用&#x200B;**[!UICONTROL 內嵌程式碼]**&#x200B;功能。
+* 顯示內嵌在網頁上的影片，在此情況下，請使用內嵌程式碼功能。
 
-  若要取得視訊的內嵌程式碼，請在「格線檢視」或「清單檢視」中，選取「瀏覽」面板中的視訊。 移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。 在表格的[動作]欄下，選取&#x200B;**[!UICONTROL 右側的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。 不允許編輯程式碼。
+  若要取得視訊的內嵌程式碼，請在「格點檢視」或「清單檢視」中，選取「瀏覽」面板中的視訊。 移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。 在表格的[動作]欄下，選取&#x200B;**[!UICONTROL 右側的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。 不允許編輯程式碼。
 
   選取&#x200B;**[!UICONTROL 關閉]**&#x200B;並將內嵌程式碼貼到您的一個或多個網頁中。
 

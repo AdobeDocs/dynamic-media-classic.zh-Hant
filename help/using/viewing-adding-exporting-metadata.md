@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 34%
@@ -72,8 +72,8 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**&#x200B;並輸入關鍵字。
->&#x200B;>參閱[上載選項](uploading-files.md#upload_options)。
+>您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**並輸入關鍵字。
+>參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}
 
@@ -82,7 +82,7 @@ ht-degree: 34%
 >[!NOTE]
 >
 >您可以建立用於輸入中繼資料的範本，以便正確地將其匯入至Adobe Dynamic Media Classic。 建立範本後，您可以用它來輸入中繼資料。
->&#x200B;>請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+>請參閱[建立範本以輸入要上載的中繼資料](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 您可以在[Adobe XMP開發人員中心](https://www.adobe.com/devnet/xmp.html)找到更多有關標準化屬性的資訊。
 
@@ -135,7 +135,7 @@ XML 匯入只接受有效的 XML。匯入XMP或中繼資料結構欄位時，會
 
 ## 使用中繼資料批次重新命名 ID {#batch-rename-ids-using-metadata}
 
-您可以使用從定位字元分隔檔案或XML檔案匯入的中繼資料，重新命名Adobe Dynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 無論是否在「瀏覽」面板上選取影像。
+您可以使用從定位字元分隔檔案或XML檔案匯入的中繼資料，重新命名Adobe Dynamic Media Classic ID。 匯入的中繼資料只會套用於中繼資料檔案本身所指定的影像， 無論是否在「瀏覽」面板中選取影像。
 
 若要重新命名影像的Adobe Dynamic Media Classic ID，請將標示為&#x200B;*newipsid*&#x200B;的欄新增至以Tab分隔的檔案，或將名為`new_vc_objectname`的欄位新增至XML資料。
 

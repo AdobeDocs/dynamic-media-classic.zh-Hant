@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 23%
 
 部署eCatalog最常見的方式是在網頁上以eCatalog縮圖封面頁面的形式放置連結。 請與您的 IT 團隊合作，以確認 eCatalog 會在整潔、置中的彈出式視窗中啟動。要求您的 IT 團隊避免將工具列與位址列顯示在瀏覽器中。
 
-如需詳細資訊和程式碼範例，請參閱HTML檢視器參考指南中的[內嵌Adobe5 eCatalog檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱「HTML檢視器參考」中的[內嵌Adobe5 eCatalog檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製eCatalog檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-您可使用「內嵌程式碼」功能查看所選 eCatalog 的檢視器程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
+使用內嵌程式碼功能可讓您檢閱所選eCatalog的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製eCatalog檢視器的內嵌程式碼：**
 

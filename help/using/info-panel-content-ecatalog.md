@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 40%
 
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
-* 「資訊面板設定」面板可讓您指定用來顯示「資訊面板」文字的範本、預設的錯誤回應，以及快取資訊的小時數。 此外，您還可以指定是否要自動發佈 eCatalog。
+* 「資訊面板設定」面板可讓您指定用來顯示「資訊面板」文字的範本、預設的錯誤回應，以及快取資訊的小時數。 此外，您可以指定是否自動發佈eCatalog。
 * 「資訊面板」資料摘要面板可讓您指定CSV檔案，其中包含您要顯示在「資訊面板」滑鼠指向效果文字中的文字，以及更新資訊的排程時間。
 * 「匯入中繼資料」(Import Metadata)對話方塊(從「對映頁面」(Map Pages)檢視中存取)可讓您匯入包含滑鼠指向效果文字資訊的Tab字元分隔的TXT檔案。 您可以針對滑鼠指向效果文字，使用此TXT選項或具有CSV檔案選項的「資料摘要」面板。
 * 「對應頁面」檢視提供預覽針對特定「影像地圖」顯示之xml的選項。
@@ -97,6 +97,6 @@ Adobe Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上�
 
 1. 選取目錄的變換影像&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL 對應頁面]**。
-1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] **&#x200B;**。
+1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] ****。
 
    滑鼠指項效果關鍵文字會顯示在每個包含「資訊面板」文字的影像地圖旁邊。

@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3981'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -264,7 +264,7 @@ Adobe Dynamic Media Classic提供您預先定義的視訊編碼預設集資料�
 * 編輯視訊編碼預設集。
 * 刪除視訊預設集。
 
-上傳至Adobe Dynamic Media Classic或在Adobe Dynamic Media Classic中編碼的任何視訊都會視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Adobe Dynamic Media Classic中預覽這些型別的影片。 您也可以產生 URL (使用「複製 URL」功能) 和可內嵌的程式碼 (使用「內嵌程式碼」功能)，以用於視訊播放器、網站等處。
+上傳至Adobe Dynamic Media Classic或在Adobe Dynamic Media Classic中編碼的任何視訊都會視為「視訊」。 換句話說，此資產類別表示您可傳送視訊以供桌上型電腦、行動裝置或兩者播放。例如，您可以在Adobe Dynamic Media Classic中預覽這些型別的影片。 您也可以產生URL （使用複製URL功能）和程式碼，以便內嵌（使用內嵌程式碼功能）並搭配視訊播放器、網站等使用。
 
 檢視[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
 

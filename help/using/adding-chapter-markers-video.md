@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->使用的視訊播放程式必須支援使用章節記號。
+>視訊播放器必須支援使用章節標籤。
 
 如果要設定[檢視器(HTML5)的章節導覽提示點和章節標題快顯文字，請參閱](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)新增或編輯視訊檢視器預設集`Universal_HTML5_Video`。
 

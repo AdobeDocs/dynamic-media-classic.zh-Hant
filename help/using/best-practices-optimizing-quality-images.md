@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 39%
 
 Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果的100多個影像伺服命令。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+另請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
 
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 
 影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以花時間進一步瞭解銳利化和遮色片銳利化在Adobe Dynamic Media Classic中的運作方式：
 
-最佳實務白皮書[在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf)。
+PDF中的最佳做法白皮書，稱為[在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf)。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
