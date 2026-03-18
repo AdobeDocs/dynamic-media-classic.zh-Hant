@@ -30,7 +30,7 @@ ht-degree: 51%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
+由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。 從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
