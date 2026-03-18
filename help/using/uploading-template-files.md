@@ -10,29 +10,32 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 32%
 
 ---
 
 # 上傳範本檔案{#uploading-template-files}
 
-在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 您可以從Adobe®Photoshop®PSD或影像檔案建置範本。 建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
+在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 您可以從®Photoshop®PSD或影像檔案建置範本。 建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic建議您在範本中使用透明的TIFF或PSD影像，且大小應與您要顯示於網站上的大小相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
+>Adobe Dynamic Media Classic建議您在範本中使用透明的TIFF或PSD影像，且大小應與您要顯示於網站上的大小相同。 發佈範本時，呼叫的影像所帶的影像預設集大小亦相同。 請注意，此大小可確保範本的大小不會調整 (重新取樣) 為大於或小於設計尺寸。
 
 可以使用 Adobe Photoshop PSD 檔案或影像檔案建立範本。
 
 如需上傳檔案的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。 上載範本檔案時請注意以下事項:
 
-* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**&#x200B;下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
+* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
-<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
-See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
+
+<!--
+THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). 
+-->
 
 >[!MORELIKETHIS]
 >

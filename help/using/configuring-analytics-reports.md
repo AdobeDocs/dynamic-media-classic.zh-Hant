@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 20%
+source-wordcount: '1251'
+ht-degree: 22%
 
 ---
 
@@ -72,10 +72,10 @@ ht-degree: 20%
 | HREF | **X** (eCatalog) | 在支援「影像地圖」的檢視器中，當使用者在「影像地圖」中選取URL時。 |
 | TARGET | | 在目標縮放檢視器中，使用者選取縮放目標以縮放至影像的一部分時。 |
 | SEARCH | | 當使用者在 eCatalog 中，執行關鍵字搜尋時。 |
-| PLAY | **X** (視訊) | 在視訊檢視器中，當使用者選取「播放」開始播放視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報告，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 視訊播放器會產生追蹤資料，以便在Adobe Analytics視訊報表中檢視。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
-| PAUSE | **X** (視訊) | 在視訊檢視器中，當使用者選取&#x200B;**[!UICONTROL 暫停]**&#x200B;以凍結視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報告，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 視訊播放器會產生追蹤資料，以便在Adobe Analytics視訊報表中檢視。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
-| STOP | **X** (視訊) | 在視訊檢視器中，當使用者選取&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報告，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 視訊播放器會產生追蹤資料，以便在Adobe Analytics視訊報表中檢視。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
-| MILESTONE | **X** (視訊) | 在視訊檢視器中，使用者在觀看到視訊的 0%、25%、50%、75% 或 100% 時產生里程碑事件時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報告，在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 視訊播放器會產生追蹤資料，以便在Adobe Analytics視訊報表中檢視。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
+| PLAY | **X** (視訊) | 在視訊檢視器中，當使用者選取「播放」以開始播放視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率型視訊報表，當您在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
+| PAUSE | **X** (視訊) | 在視訊檢視器中，當使用者選取&#x200B;**[!UICONTROL 暫停]**&#x200B;以凍結視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報表，當您在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
+| STOP | **X** (視訊) | 在視訊檢視器中，當使用者選取&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放視訊時。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率式視訊報告，當您在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
+| MILESTONE | **X** (視訊) | 在視訊檢視器中，當使用者觀看0、25、50、75或100%的視訊時，就會產生里程碑事件。<br><br>**注意：**&#x200B;如果您使用Adobe Analytics心率型視訊報告，當您在Adobe Dynamic Media Classic中設定Adobe Analytics時，不需要將任何變數對應至此檢視器事件。 視訊心率適用於現成可用的Adobe Dynamic Media Classic HTML5視訊和MixedMedia檢視器。 此視訊播放器會產生可在 Adobe Analytics 視訊報告中檢視的追蹤資料。 請參閱[啟用Adobe Analytics視訊報表](enabling-analytics-video-reports.md)。 |
 | SWATCH | **X** (彈出、縮放) | 此檢視器事件對應至Adobe Dynamic Media Classic中的頁面檢視器事件。 |
 | ZOOM | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。 |
 | PAN | **X** (eCatalog、迴轉集、縮放) | Adobe Analytics 不會加以追蹤。 |
@@ -103,7 +103,7 @@ ht-degree: 20%
 
 ## 啟動、編輯和刪除檢視器事件 {#activating-editing-and-deleting-viewer-events}
 
-可以在「Adobe Analytics 配置」畫面上啟用、編輯和刪除檢視器事件: 
+可以在「Adobe Analytics 配置」畫面上啟用、編輯和刪除檢視器事件:
 
 * **啟動**：選取&#x200B;**[!UICONTROL 啟用]**&#x200B;以啟動或&#x200B;**[!UICONTROL 停用]**&#x200B;以停用選取的檢視器事件。
 

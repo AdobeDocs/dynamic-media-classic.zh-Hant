@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '841'
 ht-degree: 19%
 
 ---
 
 # 個人設定 {#personal-setup}
 
-所有使用者皆可在「個人設定」畫面上變更設定。若要開啟[個人設定]畫面，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
+所有使用者皆可在「個人設定」畫面上變更設定。 若要開啟[個人設定]畫面，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
 
 >[!NOTE]
 >
@@ -48,11 +48,14 @@ ht-degree: 19%
 1. 在Adobe Dynamic Media Classic的工具列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，在Creative Suite Extension下，選取&#x200B;**[!UICONTROL 立即下載]**&#x200B;以下載`s7csxs.zxp`檔案。
 1. 選取&#x200B;**[!UICONTROL 安裝]**&#x200B;和&#x200B;**[!UICONTROL 系統需求]**&#x200B;連結，以取得擴充功能的其他資訊。
 
-<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+<!--    
+A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
-1. Depending on your installed operating system, do one of the following: -->
+1. Depending on your installed operating system, do one of the following: 
+-->
 
-<!-- #### Windows
+<!--
+#### Windows
 
 |If you are running|Do this|
 |--- |--- |
@@ -68,12 +71,13 @@ ht-degree: 19%
 |Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
 |Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-The plug-in is now available for you to use in Adobe Illustrator. -->
+The plug-in is now available for you to use in Adobe Illustrator.
+-->
 
 ## 瀏覽器
 
 * **[!UICONTROL 縮圖大小]**：決定瀏覽面板中格線檢視的縮圖影像預設大小。
-* **[!UICONTROL 預設資產庫檢視]**：決定組建集的資產庫中的資產是以縮圖還是名稱顯示。 如果您正在處理「資產庫」中的大量資產，則可依名稱來檢視資產。例如，如果您使用許多 PDF 檔案建置大型 eCatalog，便可以依照名稱來檢視資產，使清單較為簡短。
+* **[!UICONTROL 預設資產庫檢視]**：決定組建集的資產庫中的資產是以縮圖還是名稱顯示。 如果您正在處理「資產庫」中的大量資產，則可依名稱來檢視資產。 例如，如果您使用許多 PDF 檔案建置大型 eCatalog，便可以依照名稱來檢視資產，使清單較為簡短。
 * **[!UICONTROL 預設瀏覽排序順序]**：決定資產在瀏覽面板中的預設顯示順序。 在選單上選擇排序條件，以及是否採用遞增或遞減排序。
 * **[!UICONTROL 預設瀏覽位置]**：可讓您將瀏覽位置設定為預設值、瀏覽的最後一個資料夾，或設定為您導覽並識別的特定位置。 您也可以設定瀏覽位置，將檔案和檔案夾按遞增或遞減排序。
 * **[!UICONTROL 預設瀏覽檢視]**：決定「格線檢視」或「清單檢視」是您第一次開啟「瀏覽」面板時看到的預設檢視。
@@ -83,7 +87,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL 顯示檔案大小]**：瀏覽時顯示資產的檔案大小。
 * **[!UICONTROL 在搜尋中包含UDF]**：若要改善您執行的大多數中繼資料搜尋的系統效能，請取消選取（預設）。
 
-  如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。相較於包含使用者定義的欄位，使用進階搜尋可提供更直接且更快速的搜尋體驗。
+  如果納入使用者定義的欄位有助於您執行中繼資料搜尋，您可以選取此選項而加以開啟。 相較於包含使用者定義的欄位，使用進階搜尋可提供更直接且更快速的搜尋體驗。
 
   請參閱[實施進階搜尋](searching-assets.md#conducting_an_advanced_search)。
 

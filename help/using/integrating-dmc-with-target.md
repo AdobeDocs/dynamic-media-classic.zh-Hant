@@ -6,20 +6,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # 將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合 {#integrating-dmc-with-target}
 
-您必須先在「[!DNL Adobe Dynamic Media Classic]應用程式一般設定」畫面中輸入目標URL，才能將[!DNL Target Standard/Premium]與[!DNL Adobe Dynamic Media Classic]整合。 若要取得Target URL並在「應用程式一般設定」頁面中輸入，請執行下列動作：
+您必須先在「[!DNL Adobe Dynamic Media Classic]應用程式一般設定」畫面中輸入目標URL，才能將[!DNL Adobe Dynamic Media Classic]與[!DNL Target Standard/Premium]整合。 若要取得Target URL並在「應用程式一般設定」頁面中輸入，請執行下列動作：
 
 1. 在[!DNL Adobe Experience Cloud]中，登入您的[!DNL Target Standard/Premium]帳戶。
 1. 登入後，在瀏覽器的位址列中，將URL複製到並包括`.com`。

@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1292'
 ht-degree: 21%
 
 ---
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 
    頁面的左側列出了範本中的參數及參數值。
 
-1. 變更參數值以建立提案。例如，在文字欄位中輸入不同的文字、變更圖層大小、將一個影像交換給另一個影像，或選擇不同的「檢視器預設集」。
+1. 變更參數值以建立提案。 例如，在文字欄位中輸入不同的文字、變更圖層大小、將一個影像交換給另一個影像，或選擇不同的「檢視器預設集」。
 1. 選取「**[!UICONTROL 儲存]**」或「**[!UICONTROL 另存新檔**]**」，將選件儲存為選件集的一部分。
 
    Test&amp;Target選件集頁面會列出您建立的選件。
@@ -93,7 +93,7 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 
 1. 組合選件集的影像或視訊。 從「Test&amp;Target選件集」畫面或「格線檢視」或「清單檢視」開始，並使用下列其中一種方法：
 
-   * **Test&amp;Target選件集畫面**：移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**。 將影像或視訊拖放到畫面上。若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
+   * **Test&amp;Target選件集畫面**：移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**。 將影像或視訊拖放到畫面上。 若要建立大小不同的視訊或影像，請拖入多個影像或視訊，然後逐一設定其大小。
 
    * **格線檢視或清單檢視**：選取影像或視訊，然後前往&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**。
 
@@ -116,7 +116,7 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 | 已發佈集? | 在儲存編輯之前，是否要選取儲存後發佈&#x200B;**[!UICONTROL 選項]**？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -141,7 +141,7 @@ Adobe Dynamic Media Classic提供編輯和建立選件集的工具。
 
 ## 刪除優惠方案集 {#delet-an-offer-set}
 
-刪除提案集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+刪除提案集時，便會將集本身移到垃圾桶。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 

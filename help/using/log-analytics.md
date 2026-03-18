@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的Adobe Analytics帳戶已移轉至Adobe IMS驗證(Identity Management系統)以進行登入，則無法輸入直接憑證。
+>如果您的Adobe Analytics帳戶已移轉至Adobe IMS驗證（Identity Management系統）以進行登入，則無法輸入直接憑證。
 
 ## 從Adobe Dynamic Media Classic登入Adobe Analytics {#log-in-to-analytics-from-dmc}
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 1. 在左側面板的&#x200B;**[!UICONTROL 應用程式設定]**&#x200B;下，選取&#x200B;**[!UICONTROL Adobe Analytics]**。
 1. 在&#x200B;**[!UICONTROL Adobe Analytics設定]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL Adobe Analytics登入]**。
 1. 在&#x200B;**[!UICONTROL Adobe Analytics登入]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;欄位和&#x200B;**[!UICONTROL 使用者端密碼]**&#x200B;欄位中，貼上您先前複製的個別值。
-1. 在對話方塊的右下角，選取&#x200B;**[!UICONTROL 登入]**&#x200B;並執行您的Adobe IMS (Identity Management服務)登入。
+1. 在對話方塊的右下角，選取&#x200B;**[!UICONTROL 登入]**&#x200B;並執行您的Adobe IMS （Identity Management服務）登入。
 
    當您成功登入時，「Adobe Analytics登入」對話方塊會再次出現，並顯示&#x200B;**[!UICONTROL 公司]**&#x200B;下拉式清單，由您可用的公司啟動。
 

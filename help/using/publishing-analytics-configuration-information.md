@@ -6,11 +6,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 19%
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 # 發佈Adobe Analytics設定資訊{#publishing-adobe-analytics-configuration-information}
 
-發佈Adobe Dynamic Media Classic檢視器，以便將設定Adobe Analytics報表的資訊傳送到Adobe Dynamic Media Classic伺服器。 該資訊將嵌入檢視器中。發佈是必要的，如此檢視器中包含的資訊才能在Adobe Dynamic Media Classic伺服器上使用。 該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
+發佈Adobe Dynamic Media Classic檢視器，以便將設定Adobe Analytics報表的資訊傳送到Adobe Dynamic Media Classic伺服器。 該資訊將嵌入檢視器中。 發佈是必要的，如此檢視器中包含的資訊才能在Adobe Dynamic Media Classic伺服器上使用。 該資訊可在使用者於檢視器上執行活動後從伺服器傳遞到 Adobe Analytics。
 
 >[!NOTE]
 >

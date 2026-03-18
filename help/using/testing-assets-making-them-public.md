@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 19%
+source-wordcount: '1070'
+ht-degree: 21%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 19%
 
 ## 安全測試的運作方式 {#how-secure-testing-works}
 
-大多數企業都是在防火牆後方執行網際網路。可以通過特定路由，一般而言也可以透過限制範圍的公開 IP 位址存取網際網路。
+大多數企業都是在防火牆後方執行網際網路。 可以通過特定路由，一般而言也可以透過限制範圍的公開 IP 位址存取網際網路。
 
 透過您的公司網路，您可以使用[https://www.whatismyip.com](https://www.whatismyip.com/)之類的網站來找出您的公用IP位址，或向您的公司IT組織要求此資訊。
 
-透過安全測試，Adobe Dynamic Media Classic可為中繼環境或內部應用程式建立專用的影像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。 Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定已核准的IP位址清單。
+透過安全測試，Adobe Dynamic Media Classic可為中繼環境或內部應用程式建立專用的影像伺服器。 向此伺服器提出的任何要求都會檢查其原始 IP 位址。 如果要求不在已核准 IP 位址清單中，則會傳回失敗回應。 Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定已核准的IP位址清單。
 
 由於原始請求的位置必須確認，因此Secure Testing服務的流量不會透過內容發佈網路（例如公用Dynamic Media影像伺服器流量）進行路由。 向安全測試服務提出的要求與公開Dynamic Media影像伺服器的要求相比，延遲時間稍微長一些。
 
-可立即從安全測試服務使用未發佈的資產，而不需加以發佈。透過這種方式，您可以在資產發佈到公開顯示的影像伺服器之前執行預覽。
+可立即從安全測試服務使用未發佈的資產，而不需加以發佈。 透過這種方式，您可以在資產發佈到公開顯示的影像伺服器之前執行預覽。
 
 >[!NOTE]
 >
@@ -86,9 +86,11 @@ Last Modified Date:
 
 測試Secure Testing服務，確保該服務可如預期般運作。
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. 
+-->
 
 ### 準備帳戶
 
@@ -131,7 +133,7 @@ Last Modified Date:
 
 ### 準備網站變體
 
-您需要兩個網站變體，分別連結至已發佈和未發佈的資產: 
+您需要兩個網站變體，分別連結至已發佈和未發佈的資產:
 
 * 公開版本：使用舊版Adobe Dynamic Media Classic URL語法連結資產。
 * 測試版本：使用相同語法但使用安全測試網站名稱的連結資產。

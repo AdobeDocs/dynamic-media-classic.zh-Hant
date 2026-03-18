@@ -9,16 +9,16 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 53%
+source-wordcount: '1051'
+ht-degree: 51%
 
 ---
 
 # 上傳點陣化影像資產 {#uploading-an-image-asset-or-a-vector-asset}
 
-您必須先要求一個共用密鑰，然後才能上載影像資產。使用此共用密鑰來擷取上載標記。您接著可使用上傳權杖來上傳點陣影像資產。
+您必須先要求一個共用密鑰，然後才能上載影像資產。 使用此共用密鑰來擷取上載標記。 您接著可使用上傳權杖來上傳點陣影像資產。
 
 >[!IMPORTANT]
 >
@@ -30,23 +30,25 @@ ht-degree: 53%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-由&#x200B;*使用Admin Console要求*&#x200B;共用機密金鑰[以建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在技術支援案例中，請要求共用機密金鑰。
+由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
 
-在電子郵件中，請提供想要用於上載影像資產的公司名稱。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
+在電子郵件中，請提供想要用於上載影像資產的公司名稱。 從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
 ## 擷取上傳權杖 {#retrieving-the-upload-token}
 
-*上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。它確保上載合法且來自信任的來源。
+*上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。 它確保上載合法且來自信任的來源。
 
-上載標記是字母數字字串，只能在指定時間內使用。使用下列URL，以您的共用機密金鑰替代，以便擷取上傳權杖。
+上載標記是字母數字字串，只能在指定時間內使用。 使用下列URL，以您的共用機密金鑰替代，以便擷取上傳權杖。
 
 * 點陣化影像
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用機密金鑰為`fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-<!-- * Vector
-  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
+<!-- 
+* Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` 
+-->
 
-根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。若要要求更多時間，請在URL中加入`expires`，並以秒為單位計算所需時間。 例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
+根據預設，上載標記在您擷取之後 5 分鐘 (300 秒) 便過期。 若要要求更多時間，請在URL中加入`expires`，並以秒為單位計算所需時間。 例如，以下範例影像 URL 擷取有效期為 1800 秒鐘的上載標記:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -81,15 +83,17 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | --- | --- | --- |
 | op | 必要 | get_uploadtoken |
 | sharedsecret | 必要 | 正在進行上載的公司共用密鑰。 |
-| 過期 | 選擇性 | 上載標記有效的秒數。若未指定，預設值為300秒。 |
+| 過期 | 選擇性 | 上載標記有效的秒數。 若未指定，預設值為300秒。 |
 
 **點陣化影像URL範例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-<!-- **Sample vector URL:**
+<!-- 
+**Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` 
+-->
 
 **允許的HTTP方法：**
 `GET`和`POST`
@@ -100,7 +104,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 ## 上傳點陣化影像資產 {#uploading-an-image-asset}
 
-您擷取在指定時間內有效的上載標記後，即可上載影像資產。以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
+您擷取在指定時間內有效的上載標記後，即可上載影像資產。 以 multipart/form post 形式上載資產，以 URL 查詢字串形式傳送值的其餘部分，如以下範例中所示:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
@@ -120,14 +124,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `file_limit`引數指定檔案大小限制（位元組）。 `file_exts`引數指定允許上傳的副檔名。 這兩個值都是可選的。
 
-對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。如果您在要求中傳送的內容是全域限制的子集，即表示接受。 全域限制如下所示:
+對於允許的檔案大小限制和檔案副檔名，在應用程式中設置全域限制。 如果您在要求中傳送的內容是全域限制的子集，即表示接受。 全域限制如下所示:
 
 | 全域限制 | 值 |
 | --- | --- |
 | 所有用戶端的檔案大小 | 20 MB |
 | 用於上載的支援影像檔案格式 | BMP、GIF、JPG、PNG、PSD、TIFF |
 
-使用者可透過下面的 HTML 表單上載資產。表單要求使用者輸入以下資訊:
+使用者可透過下面的 HTML 表單上載資產。 表單要求使用者輸入以下資訊:
 
 * 公司名稱。
 * 上傳權杖。
@@ -135,7 +139,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-在上傳[檢視](image-editing-options-upload.md#image-editing-options-at-upload)影像微調選項中的「去底色背景」。
+在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼
@@ -170,13 +174,13 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 >
 >上載的資產 (JPG、GIF 等) 轉換為 PTIFF 格式，回應會傳送該 PTIFF 資產的直接連結。
 
-該資產類似於任何其他的影像伺服資源；您可以對其套用處理查詢。例如，下列URL會要求將資產延伸至指定寬度和高度的許可權。
+該資產類似於任何其他的影像伺服資源；您可以對其套用處理查詢。 例如，下列URL會要求將資產延伸至指定寬度和高度的許可權。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。您可以在 URL 查詢字串中使用以下欄位來上載資產:
+以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。 您可以在 URL 查詢字串中使用以下欄位來上載資產:
 
 | URL 參數 | 必要或選擇性 | 值 |
 | --- | --- | --- |
@@ -185,8 +189,8 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | `company_name` | 必要 | 執行上載的公司名稱。 |
 | `file_limit` | 選擇性 | 資產的檔案大小限制 (以位元組為單位)。 |
 | `file_exts` | 選擇性 | 影像資產檔案允許的副檔名清單。 |
-| `preserve_colorprofile` | 選擇性 | 用於在將上載檔案轉換成 PTIFF 格式時保留任何內嵌的色彩設定檔。可能的值為 true 或 false。預設為 false。 |
-| `preserve_filename` | 選擇性 | 保留所上載資產的檔案名稱。可能的值為 true 或 false。預設為 false。 |
+| `preserve_colorprofile` | 選擇性 | 用於在將上載檔案轉換成 PTIFF 格式時保留任何內嵌的色彩設定檔。 可能的值為 true 或 false。 預設為 false。 |
+| `preserve_filename` | 選擇性 | 保留所上載資產的檔案名稱。 可能的值為 true 或 false。 預設為 false。 |
 
 >[!NOTE]
 >
@@ -248,7 +252,8 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 GET 和 POST
 
-<!-- ## Upload a vector asset {#uploading-a-vector-asset}
+<!--
+## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
@@ -383,4 +388,4 @@ Send the asset to upload as a multipart/form post while sending the rest of the 
 **Allowed HTTP method:**
 
 POST
- -->
+-->

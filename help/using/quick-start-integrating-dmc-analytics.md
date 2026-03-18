@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 21%
+source-wordcount: '699'
+ht-degree: 23%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 將Adobe Analytics與Adobe Dynamic Media Classic整合後，您可以在網站上使用Adobe Dynamic Media Classic檢視器取得網站訪客行為的相關報表。 例如，當網站訪客在Adobe Dynamic Media Classic縮放檢視器中選取縮放目標時，Adobe Analytics會記錄此動作。 Adobe Analytics報表可收集Adobe Dynamic Media Classic檢視器中使用者活動的累計資訊。
 
-透過 Adobe Analytics 報告，可以非常清楚地瞭解客戶在網站上的活動。您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
+透過 Adobe Analytics 報告，可以非常清楚地瞭解客戶在網站上的活動。 您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
 
-另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)。
+另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 本快速入門旨在協助您快速上手並執行Adobe Analytics Instrumentation Kit。
 
-## 1.透過Adobe Dynamic Media Classic登入Adobe Analytics並下載Adobe Analytics報表變數
+## &#x200B;1. 透過Adobe Dynamic Media Classic登入Adobe Analytics並下載Adobe Analytics報表變數
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 在「Adobe Analytics登入」對話方塊中，輸入您的Experience Cloud組織ID （選擇性）和完整的認證，然後選取「**[!UICONTROL 登入]**」。 在「報告套件」下拉式選單中，選取您要使用的報告套件名稱。
 
-## 2.將Adobe Analytics報表變數指派給Adobe Dynamic Media Classic檢視器事件和Adobe Dynamic Media Classic變數
+## &#x200B;2. 將Adobe Analytics報表變數指派給Adobe Dynamic Media Classic檢視器事件和Adobe Dynamic Media Classic變數
 
-在「Adobe Analytics 配置」頁面上，指定要用在 Adobe Analytics 報告中的資訊。針對您想瞭解的每個Adobe Dynamic Media Classic檢視器事件，選擇一個Adobe Analytics變數（從報表套裝中）和一個Adobe Dynamic Media Classic變數。
+在「Adobe Analytics 配置」頁面上，指定要用在 Adobe Analytics 報告中的資訊。 針對您想瞭解的每個Adobe Dynamic Media Classic檢視器事件，選擇一個Adobe Analytics變數（從報表套裝中）和一個Adobe Dynamic Media Classic變數。
 
 * 檢視器事件描述了要在報告中評估的使用者活動。
 * Adobe Dynamic Media Classic變數說明您希望報表傳送之使用者事件的相關資料。
@@ -58,18 +58,18 @@ Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個�
 
 請參閱[設定Adobe Analytics報表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
 
-## 3.發佈您的Adobe Dynamic Media Classic檢視器
+## &#x200B;3. 發佈您的Adobe Dynamic Media Classic檢視器
 
-發佈您的Adobe Dynamic Media Classic檢視器，以便將檢視器(包含追蹤Adobe Analytics報表中使用者活動的程式碼)載入Adobe Dynamic Media Classic伺服器。 發佈後，此資訊會包含在檢視器中。 使用它進行Adobe Analytics的分析。
+發佈您的Adobe Dynamic Media Classic檢視器，以便將檢視器（包含追蹤Adobe Analytics報表中使用者活動的程式碼）載入Adobe Dynamic Media Classic伺服器。 發佈後，此資訊會包含在檢視器中。 使用它進行Adobe Analytics的分析。
 
 請參閱[發佈組態資訊](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
 
-## 4.將Adobe Dynamic Media Classic檢視器放置在您的網站上
+## &#x200B;4. 將Adobe Dynamic Media Classic檢視器放置在您的網站上
 
 將含有Adobe Analytics追蹤程式碼的Adobe Dynamic Media Classic檢視器放在您的網站上。
 
-## 5.檢視Adobe Analytics報表，以測試Adobe Analytics整合
+## &#x200B;5. 檢視 Adobe Analytics 報告以測試 Adobe Analytics 整合
 
-若要檢視 Adobe Analytics 報告，請前往 Adobe Analytics 網站。「報告」頁面可讓您檢視資料及產生圖形和圖表，以便評估不同檢視器中的使用者活動。
+若要檢視 Adobe Analytics 報告，請前往 Adobe Analytics 網站。 「報告」頁面可讓您檢視資料及產生圖形和圖表，以便評估不同檢視器中的使用者活動。
 
 檢視[檢視Adobe Analytics報表，以測試Adobe Analytics整合](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report)。

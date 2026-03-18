@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->「個人設定」頁面會提供選項，讓您選擇要如何進行搜尋。 例如，您可以選擇預設搜尋類型，並選擇是否在搜尋中包含使用者定義的欄位。如需詳細資訊，請參閱[個人設定](personal-setup.md#personal_setup)。
+>「個人設定」頁面會提供選項，讓您選擇要如何進行搜尋。 例如，您可以選擇預設搜尋類型，並選擇是否在搜尋中包含使用者定義的欄位。 如需詳細資訊，請參閱[個人設定](personal-setup.md#personal_setup)。
 
 ## 依型別檢視資產 {#viewing-assets-by-type}
 
@@ -53,9 +53,11 @@ ht-degree: 17%
 
    搜尋結果會顯示在右側的「瀏覽」面板中。
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## 執行進階搜尋 {#conducting-an-advanced-search}
 
@@ -73,11 +75,11 @@ ht-degree: 17%
 
 * **搜尋條件**：建立一或多個搜尋欄位以搜尋中繼資料。 建立搜尋欄位:
 
-   1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;**[!UICONTROL 、]**&#x200B;壓縮檢視&#x200B;**[!UICONTROL 、]** IPTC **[!UICONTROL 、]**&#x200B;中繼資料伺服器發佈欄位&#x200B;**[!UICONTROL 或]** XMP **[!UICONTROL 的]**&#x200B;所有屬性。
+   1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;]**、**[!UICONTROL &#x200B;壓縮檢視&#x200B;]**、**[!UICONTROL  IPTC ]**、**[!UICONTROL &#x200B;中繼資料伺服器發佈欄位&#x200B;]**或**[!UICONTROL  XMP ]**的**[!UICONTROL &#x200B;所有屬性。
    1. 選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;下拉式功能表並選擇欄位名稱。
    1. 選擇&#x200B;**[!UICONTROL 包含]**&#x200B;選項： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 開頭為]**、**[!UICONTROL 結尾為]**&#x200B;或&#x200B;**[!UICONTROL 等於]**。
    1. 針對數值欄位，請選擇值或輸入自訂日期範圍。
-   1. (選擇性) 重複步驟 1-4，以建立更多搜尋欄位。
+   1. （可選）重複步驟1至4以建立更多搜尋欄位。
 
 選取&#x200B;**[!UICONTROL 移除搜尋欄位]**&#x200B;圖示（內有「X」的圓形）以便刪除搜尋欄位。
 
@@ -87,13 +89,13 @@ ht-degree: 17%
 
 ## 使用中繼資料篩選資產 {#filter-assets-using-metadata}
 
-您可以在資產庫的「篩選」標籤中篩選資產。若要篩選資產，您可以使用中繼資料值做為條件。選擇要篩選的中繼資料欄位後，「篩選」索引標籤會列出在您所選欄位中輸入的所有中繼資料值。 它也會列出指派給每個值的資產數量。 例如，在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位上的篩選作業中，**[!UICONTROL 篩選器]**&#x200B;索引標籤會針對不同的資產，列出在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位中輸入的所有名稱。 也會列出每個名稱的指派資產數量。 然後，選取中繼資料值以檢視所有指派該值的資產。 在此範例中，您選取`Prairie Cat`中繼資料值以檢視在`Prairie Cat`建立者&#x200B;**[!UICONTROL 中繼資料欄位中輸入名稱]**&#x200B;的所有資產。 您可以使用多個中繼資料欄位作為篩選條件，來進行篩選。
+您可以在資產庫的「篩選」標籤中篩選資產。 若要篩選資產，您可以使用中繼資料值做為條件。 選擇要篩選的中繼資料欄位後，「篩選」索引標籤會列出在您所選欄位中輸入的所有中繼資料值。 它也會列出指派給每個值的資產數量。 例如，在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位上的篩選作業中，**[!UICONTROL 篩選器]**&#x200B;索引標籤會針對不同的資產，列出在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位中輸入的所有名稱。 也會列出每個名稱的指派資產數量。 然後，選取中繼資料值以檢視所有指派該值的資產。 在此範例中，您選取`Prairie Cat`中繼資料值以檢視在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位中輸入名稱`Prairie Cat`的所有資產。 您可以使用多個中繼資料欄位作為篩選條件，來進行篩選。
 
 您可以儲存篩選操作以多次執行。
 
 >[!NOTE]
 >
->只有預設「中繼資料檢視」的中繼資料欄位才能用於篩選作業。「中繼資料檢視」頁面會顯示預設中繼資料檢視的名稱。
+>只有預設「中繼資料檢視」的中繼資料欄位才能用於篩選作業。 「中繼資料檢視」頁面會顯示預設中繼資料檢視的名稱。
 
 請參閱[中繼資料檢視](application-setup.md#metadata_views)。
 
@@ -103,7 +105,7 @@ ht-degree: 17%
 
 1. 在資產庫中，選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤。
 
-   前一個篩選作業的條件會顯示在「篩選」窗格中。「篩選」窗格分成數個面板，每個面板都代表一個中繼資料欄位。使用面板可以選擇要篩選哪些中繼資料欄位，而在每個欄位中，則可以選擇適合篩選作業的中繼資料值。
+   前一個篩選作業的條件會顯示在「篩選」窗格中。 「篩選」窗格分成數個面板，每個面板都代表一個中繼資料欄位。 使用面板可以選擇要篩選哪些中繼資料欄位，而在每個欄位中，則可以選擇適合篩選作業的中繼資料值。
 
    若要執行您建立並儲存的篩選作業，請選取&#x200B;**[!UICONTROL 選取預設集]**，然後在功能表上選擇作業名稱。
 
@@ -129,7 +131,7 @@ ht-degree: 17%
    * 針對每個中繼資料值，曾使用過該值的資產數目。
 
 1. 視需要多次重複步驟 2，即可在面板上列出適合執行篩選作業的所有中繼資料欄位。
-1. 在每個面板中，選取要篩選的中繼資料值。您無法在每個面板中選取多個中繼資料值。
+1. 在每個面板中，選取要篩選的中繼資料值。 您無法在每個面板中選取多個中繼資料值。
 
    符合所有選取值的Assets會顯示在「瀏覽」面板中。
 
