@@ -24,7 +24,7 @@ ht-degree: 14%
 | 支援 | 訂閱 |
 | --- | --- |
 | 個案限制 | 無限制。 |
-| 檢查Adobe系統狀態 | [Adobe Dynamic Media Classic系統狀態](https://status.adobe.com/products/1175)。 |
+| 檢查Adobe系統狀態 | [Adobe Dynamic Media Classic系統狀態](https://status.adobe.com/tw/products/1175)。 |
 | 找不到答案？ | [若要取得支援的協助，請開啟票證](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)。 |
 | 社群論壇 | [Experience Manager社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hant)。 |
 | SLA （服務等級協定） | [支援服務/條款與條件](https://helpx.adobe.com/tw/support/programs/support-policies-terms-conditions.html)。 |
