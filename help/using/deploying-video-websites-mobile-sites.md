@@ -195,7 +195,7 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-請參閱[影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+請參閱[影像伺服指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 

@@ -56,7 +56,7 @@ ht-degree: 18%
 
 部署影像集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5縮放檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5縮放檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製影像集檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
 
