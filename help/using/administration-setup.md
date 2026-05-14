@@ -11,10 +11,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:22.364Z'
 TQID: 'https://experienceleague.adobe.com/UbxE4vDKYB-6CsdV2d4lX2WeOMYPe9caewOQD-MBark'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 2004
@@ -98,7 +102,7 @@ Adobe Dynamic Media Classic支援多個使用者角色。 這些角色可以存�
 1. 從清單中選取使用者，然後選取&#x200B;**[!UICONTROL 編輯]**。
 1. 在表格中選取顯示您嘗試修改許可權或存取之公司的專案，然後選取&#x200B;**[!UICONTROL 管理公司]**。
 1. 選取使用者角色。
-1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請選取[下一步] ****&#x200B;並編輯群組成員資格。
+1. 如果您想要變更使用者的群組成員資格（如果您正在編輯或新增Media Portal使用者或貢獻者），請選取[下一步] **&#x200B;**&#x200B;並編輯群組成員資格。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
 ### 篩選和排序使用者清單 {#filtering-and-sorting-the-user-list}

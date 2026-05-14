@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1696
@@ -111,7 +114,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以取消進行中的發佈工作。 此外，管理員還可以透過公司的「工作」頁面取消進行中的發佈工作。
 
-若要取消發佈工作，請移至[工作]頁面並選取[取消]。**** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
+若要取消發佈工作，請移至[工作]頁面並選取[取消]。**&#x200B;** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
 
 >[!NOTE]
 >

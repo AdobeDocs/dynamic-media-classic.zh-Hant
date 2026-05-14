@@ -12,10 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:54.763Z'
 TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1643
@@ -82,14 +86,14 @@ ht-degree: 21%
 您可以將該資訊複製到剪貼簿。
 
 1. 在「作業」頁面上按兩下報表名稱。
-1. 在[工作詳細資料]頁面上，選取[檢視詳細資料] ****&#x200B;以取得有關專案的詳細報告。
+1. 在[工作詳細資料]頁面上，選取[檢視詳細資料] **&#x200B;**&#x200B;以取得有關專案的詳細報告。
 1. 選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
 ## 處理週期性上載和發佈工作 {#handling-recurring-upload-and-publish-jobs}
 
 您在「上傳」和「發佈」頁面上建立的週期性上傳和發佈工作，會列在「工作」頁面的「已排程」索引標籤中。 您可以在「已排程」標籤上編輯和刪除週期性工作。
 
-選取[全域導覽]列上的[工作]按鈕，並在[工作]頁面上選取[已排程]索引標籤&#x200B;****，以便編輯和刪除週期性工作。
+選取[全域導覽]列上的[工作]按鈕，並在[工作]頁面上選取[已排程]索引標籤&#x200B;**&#x200B;**，以便編輯和刪除週期性工作。
 
 >[!NOTE]
 >

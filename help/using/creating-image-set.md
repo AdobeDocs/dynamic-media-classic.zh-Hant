@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:43.308Z'
 TQID: 'https://experienceleague.adobe.com/W8HyE6-6ofFJRUWa37n9XnVAeXDkQ8ycBY-hna1ArAY'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 679
@@ -84,7 +87,7 @@ ht-degree: 39%
    * 若要重新排序影像，請將影像拖曳至新位置。
 
 1. 當您完成編輯集合時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 在儲存後發佈]** （預設）。
-1. 選取[儲存]****，為您的集合選取儲存資料夾，輸入集合名稱，然後選取[儲存]****。
+1. 選取[儲存]&#x200B;**&#x200B;**，為您的集合選取儲存資料夾，輸入集合名稱，然後選取[儲存]&#x200B;**&#x200B;**。
 
 ## 刪除影像集
 

@@ -11,9 +11,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:17:17.647Z'
 TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 858
@@ -57,7 +61,7 @@ ht-degree: 29%
 
 * **擷取搜尋字詞（選用）**：在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 如果要讓檢視者能夠在eCatalog中依關鍵字搜尋，請在「擷取」下拉式清單中選擇&#x200B;**[!UICONTROL 搜尋字詞]**。
 
-* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下「從多頁PDF自動產生eCatalog」****，上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。 eCatalog 是根據 PDF 檔案來命名。
+* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下「從多頁PDF自動產生eCatalog」**&#x200B;**，上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。 eCatalog 是根據 PDF 檔案來命名。
 
 * **解析度**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在&#x200B;**[!UICONTROL 解析度]**&#x200B;文字欄位中，輸入值。 Adobe Dynamic Media Classic建議每英吋150畫素。
 

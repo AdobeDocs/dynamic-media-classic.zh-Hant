@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:35.428Z'
 TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 2454
@@ -45,7 +49,7 @@ ht-degree: 30%
 1. 進行以下一項操作:
 
    * 如果您正在處理格線檢視或清單檢視中的影像，請在「編輯」下拉式清單中選取&#x200B;**[!UICONTROL 影像地圖]**。 或者，在[詳細資料檢視]中開啟，然後選取影像上方的&#x200B;**[!UICONTROL 影像地圖]**。
-   * 如果您正在使用格線檢視或清單檢視中的迴轉集，請選取&#x200B;**[!UICONTROL 編輯]**。 或者，在[詳細資料檢視]中開啟，然後選取[編輯]。**** 選取影像資產，然後選取&#x200B;**[!UICONTROL 影像地圖]**。
+   * 如果您正在使用格線檢視或清單檢視中的迴轉集，請選取&#x200B;**[!UICONTROL 編輯]**。 或者，在[詳細資料檢視]中開啟，然後選取[編輯]。**&#x200B;** 選取影像資產，然後選取&#x200B;**[!UICONTROL 影像地圖]**。
    * 如果您正在使用eCatalog，請在[網格檢視]、[清單檢視]、[詳細資料檢視]中選取&#x200B;**[!UICONTROL 編輯]**。 選取&#x200B;**[!UICONTROL 對應頁面]**&#x200B;索引標籤。
 
    ![影像地圖插圖](assets/ma_image_map.png)
@@ -73,7 +77,7 @@ ht-degree: 30%
 1. (選擇性) 執行下列任一項作業:
 
    * 若要預覽影像地圖，請選取&#x200B;**[!UICONTROL 預覽]**。
-   * 若要刪除影像地圖或多邊形頂點，請選取影像上的形狀，然後選取&#x200B;**[!UICONTROL 刪除]**。 或者，若是eCatalog，請在[排序頁面]索引標籤上選取[清除對映] ]**，以從所有頁面移除影像對映。**[!UICONTROL 
+   * 若要刪除影像地圖或多邊形頂點，請選取影像上的形狀，然後選取&#x200B;**[!UICONTROL 刪除]**。 或者，若是eCatalog，請在[排序頁面]索引標籤上選取[清除對映] **，以從所有頁面移除影像對映。**
    * 若要移除：
       * 影像中的影像地圖
       * 迴轉集中的影像
@@ -236,8 +240,8 @@ Javascript:loadProduct('$$');void(0);
 >您不需要在Adobe Acrobat中設定外觀選項。 您可以在Adobe Dynamic Media Classic中指定外觀。
 
 1. 在[連結屬性]方塊中，選取&#x200B;**[!UICONTROL 動作]**。
-1. 從[選取動作]功能表選取[開啟網頁連結]****，然後選取[新增]****。
-1. 在[編輯URL]方塊中輸入[影像地圖]的產品ID，然後選取[確定]。**** （Adobe Dynamic Media Classic會使用影像地圖URL範本完成URL。）
+1. 從[選取動作]功能表選取[開啟網頁連結]&#x200B;**&#x200B;**，然後選取[新增]&#x200B;**&#x200B;**。
+1. 在[編輯URL]方塊中輸入[影像地圖]的產品ID，然後選取[確定]。**&#x200B;** （Adobe Dynamic Media Classic會使用影像地圖URL範本完成URL。）
 1. 針對您要建立的所有影像地圖，重複步驟 1 到 7。
 1. 儲存檔案。
 1. 將PDF上傳至Adobe Dynamic Media Classic，然後選取「從PDF選項擷取連結」 。

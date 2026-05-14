@@ -12,9 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T19:58:21.817Z'
 TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 245
@@ -34,7 +38,7 @@ ht-degree: 32%
 
 如需上傳檔案的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。 上載範本檔案時請注意以下事項:
 
-* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
+* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**&#x200B;下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
 <!--

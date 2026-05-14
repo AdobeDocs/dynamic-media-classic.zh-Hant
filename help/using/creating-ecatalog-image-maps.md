@@ -12,10 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1505
@@ -103,7 +107,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[複製影像地圖。
+>當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog [&#128279;](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的複製影像地圖。
 
 ## 檢閱及匯入影像地圖資料 {#reviewing-and-importing-image-map-data}
 

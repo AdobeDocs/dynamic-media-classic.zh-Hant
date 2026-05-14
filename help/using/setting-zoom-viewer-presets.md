@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:28.286Z'
 TQID: 'https://experienceleague.adobe.com/dVCfolvS11dmHRlOF2OruJwM1TMM68lEtKy76l4LkC8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 638
@@ -53,7 +56,7 @@ Adobe Dynamic Media Classic建議您將下列引數用於彈出式縮放檢視�
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 1. 進行以下一項操作:
 
-   * **建立預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[縮放檢視器]，然後選取[新增]****。 在「預設集名稱」方塊中輸入預設集名稱。
+   * **建立預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[縮放檢視器]，然後選取[新增]&#x200B;**&#x200B;**。 在「預設集名稱」方塊中輸入預設集名稱。
 
    * **編輯預設集**：選取縮放檢視器預設集，然後選取&#x200B;**[!UICONTROL 編輯]**。
 

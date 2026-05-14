@@ -12,9 +12,12 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 735
@@ -99,7 +102,7 @@ PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 上傳時，您可以手動從PDF檔案的頁面兩側移除印表機標籤。
 
-1. 從[裁切]功能表，選取[手動] ****。
+1. 從[裁切]功能表，選取[手動] **&#x200B;**。
 1. 在「上」、「右」、「下」及「左」文字方框中輸入像素設定，即可裁切頁面上緣、下緣及側邊。
 
 裁切的頁面部分取決於您針對 PDF 檔案所輸入的「解析度像素/英吋」設定。 例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在這種情況下，請輸入0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。
