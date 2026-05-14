@@ -1,14 +1,27 @@
 ---
 title: 升級常見問答集
-description: 從 [!DNL Adobe Dynamic Media Classic] 案頭應用程式升級至 [!DNL Dynamic Media] Assets上的 [!DNL Adobe Experience Manager] 時，常見問題集(FAQ)。
+description: 從 [!DNL Adobe Dynamic Media Classic] 案頭應用程式升級至 [!DNL Adobe Experience Manager] Assets上的 [!DNL Dynamic Media] 時，常見問題集(FAQ)。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
+autotag-review: '2026-05-13T20:15:39.241Z'
+TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: 1591
 ht-degree: 0%
 
 ---
@@ -17,8 +30,8 @@ ht-degree: 0%
 
 ## 一般資訊
 
-+++**什麼是[!DNL Dynamic Media] Assets中的[!DNL Adobe Experience Manager]？**
-[!DNL Dynamic Media]是[!DNL Adobe Dynamic Media Classic] Assets中[!DNL Experience Manager] （原為Scene7）功能的新一代進化。 此解決方案結合了資產管理的強大功能與多媒體遞送。 功能包括下列各項：
++++**什麼是[!DNL Adobe Experience Manager] Assets中的[!DNL Dynamic Media]？**
+[!DNL Dynamic Media]是[!DNL Experience Manager] Assets中[!DNL Adobe Dynamic Media Classic] （原為Scene7）功能的新一代進化。 此解決方案結合了資產管理的強大功能與多媒體遞送。 功能包括下列各項：
 
 * 管理影像和視訊的單一使用者介面和平台。
 * 創新的銷售功能。
@@ -73,10 +86,10 @@ Adobe已將Adobe Scene7的名稱變更為[!DNL Dynamic Media Classic]。
 +++
 
 +++**如何處理升級程式？**
-AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 在彙總層次，升級計畫包含下列專案：
+AGS （Adobe全域服務）會處理升級，並將其視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 在彙總層次，升級計畫包含下列專案：
 
 * 布建公司/使用者帳戶。
-* 將資產從[!DNL Dynamic Media Classic] （先前的Scene7）復寫到[!DNL Dynamic Media] Assets的[!DNL Experience Manager]元件(由Adobe透過自動升級工具提供)。
+* 將資產從[!DNL Dynamic Media Classic] （先前的Scene7）復寫到[!DNL Experience Manager] Assets的[!DNL Dynamic Media]元件（由Adobe透過自動升級工具提供）。
 * 設定影像和視訊的設定。
 * 修改生產流程並訓練使用者。
 
@@ -103,7 +116,7 @@ AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅
 +++
 
 +++**是否有任何與升級程式相關的停機時間？**
-不適用。 在升級程式期間，[!DNL Dynamic Media Classic]會繼續不間斷地工作。 升級完成且內容通過驗證後，所有使用者僅在[!DNL Dynamic Media] Assets的[!DNL Experience Manager]元件中工作。
+不適用。 在升級程式期間，[!DNL Dynamic Media Classic]會繼續不間斷地工作。 升級完成且內容通過驗證後，所有使用者僅在[!DNL Experience Manager] Assets的[!DNL Dynamic Media]元件中工作。
 
 +++
 
@@ -119,8 +132,8 @@ AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅
 
 +++
 
-+++**在我升級至[!DNL Dynamic Media Classic]後，是否仍可使用[!DNL Dynamic Media] （先前稱為Adobe Scene7）？**
-升級為[!DNL Dynamic Media]之後，您應該只使用Dynamic Media進行影像和視訊。 您只能針對[!DNL Dynamic Media Classic]中尚未提供的功能，繼續使用[!DNL Dynamic Media]，包括下列功能：
++++**在我升級至[!DNL Dynamic Media]後，是否仍可使用[!DNL Dynamic Media Classic] （先前稱為Adobe Scene7）？**
+升級為[!DNL Dynamic Media]之後，您應該只使用Dynamic Media進行影像和視訊。 您只能針對[!DNL Dynamic Media]中尚未提供的功能，繼續使用[!DNL Dynamic Media Classic]，包括下列功能：
 
 * 視覺化設定器（影像作者、影像演算）。
 * 影像範本。
@@ -129,27 +142,27 @@ AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅
 +++
 
 +++**Adobe提供哪些工具可自動化升級程式？**
-對於升級程式的初始啟動，Adobe提供的工具可以在[!DNL Dynamic Media Classic] Assets中自動將資產從[!DNL Dynamic Media]移至[!DNL Experience Manager]。
+對於升級程式的初始啟動，Adobe提供的工具可以在[!DNL Experience Manager] Assets中自動將資產從[!DNL Dynamic Media Classic]移至[!DNL Dynamic Media]。
 
 +++
 
 +++**在我升級期間和之後，現有的[!DNL Dynamic Media Classic] URL、API整合和檢視器是否仍可繼續運作？**
-是. 您可以繼續使用[!DNL Dynamic Media Classic]解決方案中的[!DNL Dynamic Media] （先前的Adobe Scene7）發佈與傳遞基礎結構。
+是. 您可以繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic] （先前的Adobe Scene7）發佈與傳遞基礎結構。
 
 +++
 
 +++**我是否必須更新生產URL？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media Classic]解決方案中的[!DNL Dynamic Media]發佈與傳遞基礎結構。 此方法的好處是，您不必變更網頁上的任何生產URL，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您不必變更網頁上的任何生產URL，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
 
 +++
 
 +++**我是否必須重寫API整合和其他自動化指令碼？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media Classic]解決方案中的[!DNL Dynamic Media]發佈與傳遞基礎結構。 此外，所有資產都會復寫到[!DNL Dynamic Media Classic]。 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此外，所有資產都會復寫到[!DNL Dynamic Media Classic]。 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
 
 +++
 
 +++**我是否需要變更或重新開發我的自訂檢視器？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media Classic]解決方案中的[!DNL Dynamic Media]發佈與傳遞基礎結構。 此方法的好處是，您可以繼續使用自訂的檢視器，因此將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您可以繼續使用自訂的檢視器，因此將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
 +++
 
 +++**如何將我的設定（例如影像預設集、視訊編碼）移轉至[!DNL Dynamic Media]？**
@@ -168,7 +181,7 @@ AGS (Adobe全域服務)會處理升級，並將其視為服務專案。 Adobe僅
 +++
 
 +++**哪些資源可用來訓練新使用者？**
-培訓可透過ADLS (Adobe數位學習服務)提供。 [!DNL Dynamic Media]功能包含在2個課程中：管理和傳遞數位Assets以及自訂數位Assets。
+培訓可透過ADLS （Adobe數位學習服務）提供。 [!DNL Dynamic Media]功能包含在2個課程中：管理和傳遞數位Assets以及自訂數位Assets。
 
 +++
 
@@ -217,7 +230,7 @@ Adobe會對所有移至[!DNL Dynamic Media]的資產執行自動驗證。 建議
 
 +++
 
-+++**[!DNL Dynamic Media]是否有我需要的功能以便升級？ [!DNL Dynamic Media] Assets上的[!DNL Experience Manager]有哪些可用功能？**
++++**[!DNL Dynamic Media]是否有我需要的功能以便升級？ [!DNL Experience Manager] Assets上的[!DNL Dynamic Media]有哪些可用功能？**
 請參閱[功能比較](/help/using/upgrade-feature-comparison.md)頁面，瞭解更多資訊。
 
 +++

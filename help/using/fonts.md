@@ -10,16 +10,24 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:50:28.929Z'
+TQID: 'https://experienceleague.adobe.com/g-A6M8KM6VT4m-JVyDp6KMMN82CtGTXcoUFVvQsoLps'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 430
 ht-degree: 23%
 
 ---
 
 # 字型{#fonts}
 
-有時候，Adobe Dynamic Media Classic會要求您上傳字型檔案，以輸入或轉譯特定字型的文字。 例如，要在範本圖層上將特定的字型用於文字，請上載字型檔案。若要以特定的字型顯示 eCatalog 檢視器頁碼，請上載字型檔案。
+有時候，Adobe Dynamic Media Classic會要求您上傳字型檔案，以輸入或轉譯特定字型的文字。 例如，要在範本圖層上將特定的字型用於文字，請上載字型檔案。 若要以特定的字型顯示 eCatalog 檢視器頁碼，請上載字型檔案。
 
 Adobe Dynamic Media Classic支援下列字型型別：
 
@@ -37,13 +45,13 @@ Adobe Dynamic Media Classic支援下列字型型別：
 
 ## 上傳字型檔案 {#uploading-font-files}
 
-使用與上載其他檔案相同的方法上載字型檔案。您可以將字型檔案儲存在任何Adobe Dynamic Media Classic資料夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
+使用與上載其他檔案相同的方法上載字型檔案。 您可以將字型檔案儲存在任何Adobe Dynamic Media Classic資料夾中。 請參閱[上載檔案](uploading-files.md#uploading_your_files)。
 
 ## 編輯字型檔案資訊 {#editing-font-file-information}
 
 您可以變更字型的ID名稱及其型別資訊。 編輯字型檔案有助於搜尋，並且使得字型更易於識別。
 
-在「瀏覽」面板中，選取要在「詳細檢視」中編輯的字型檔案，然後選擇「檔案>編輯資訊」。 此時將開啟「編輯資訊」畫面。選擇下列選項，然後選取&#x200B;**[!UICONTROL 提交]**。
+在「瀏覽」面板中，選取要在「詳細檢視」中編輯的字型檔案，然後選擇「檔案>編輯資訊」。 此時將開啟「編輯資訊」畫面。 選擇下列選項，然後選取&#x200B;**[!UICONTROL 提交]**。
 
 * **[!UICONTROL 字型名稱]**：此名稱可識別發佈時的字型。
 

@@ -9,16 +9,26 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:36:57.321Z'
+TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: 730
 ht-degree: 15%
 
 ---
 
 # 新增註解至視訊 {#add-captions-to-video}
 
-將視訊的觸角伸展至全球市場。 若要這麼做，您可以在單一視訊或最適化視訊集新增字幕。 您可增加字幕，如此一來便無須為音訊配音或請本地人重新以不同語言錄製音訊。以錄製的語言播放視訊。畫面會出現外國語言字幕，以便使用不同語言的人瞭解音訊部份的內容。
+將視訊的觸角伸展至全球市場。 若要這麼做，您可以在單一視訊或最適化視訊集新增字幕。 您可增加字幕，如此一來便無須為音訊配音或請本地人重新以不同語言錄製音訊。 以錄製的語言播放視訊。 畫面會出現外國語言字幕，以便使用不同語言的人瞭解音訊部份的內容。
 
 為有聽力障礙或重聽問題的使用者提供隱藏式字幕，註解功能可提供更佳的協助工具服務。
 
@@ -36,7 +46,7 @@ ht-degree: 15%
 
 另請參閱[新增及編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
-Adobe Dynamic Media Classic可以將註解檔案轉換為JSON (JavaScript物件標籤法)格式。 此轉換表示您可以將JSON文字內嵌至網頁，做為影片隱藏但完整的文字記錄。 搜尋引擎接著可以編目和索引內容，讓影片更容易被找到，並為客戶提供更多有關影片內容的詳細資訊。
+Adobe Dynamic Media Classic可以將註解檔案轉換為JSON （JavaScript物件標籤法）格式。 此轉換表示您可以將JSON文字內嵌至網頁，做為影片隱藏但完整的文字記錄。 搜尋引擎接著可以抓取和索引內容，讓視訊更容易被找到，並為客戶提供更多有關視訊內容的詳細資訊。
 
 請參閱中的[提供靜態（非影像）內容](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)，以取得在URL中使用JSON函式的詳細資訊。
 
@@ -46,7 +56,7 @@ Adobe Dynamic Media Classic可以將註解檔案轉換為JSON (JavaScript物件�
 
    | 檢視器類型 | 註解檔案 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。字幕副檔名為`.VTT`。 您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://w3c.github.io/webvtt/)：網頁視訊文字追蹤格式。 <br><br>有許多網站提供免費和收費的工具與服務，您可用來製作WebVTT註解檔案。 <br><br>按照網站上的熒幕指示來編寫和儲存您的WebVTT檔案。 完成後，複製註解檔案內容並貼到純文字編輯器中，以VTT副檔名儲存。 <br><br><b>注意：</b>為了全球支援英文以外的其他語言的視訊標題，WebVTT標準要求您針對要支援的每種語言建立個別的`.VTT`檔案和呼叫。 <br><br>一般而言，您會想要將註解VTT檔案命名為與視訊檔案相同的名稱，並附加註解。 如此一來，即可協助您使用現有的網頁內容管理系統，自動化視訊URL的產生作業。 |
+   | HTML5 | 如果您使用 HTML5 視訊檢視器，請確定您所建立的註解檔案符合 WebVTT (Web Video Text Tracks) 標準。 字幕副檔名為`.VTT`。 您可以深入瞭解有關 WebVTT 註解標準的資訊。<br><br>[請參閱WebVTT](https://w3c.github.io/webvtt/)：網頁視訊文字追蹤格式。 <br><br>有許多網站提供免費和收費的工具與服務，您可用來製作WebVTT註解檔案。 <br><br>按照網站上的熒幕指示來編寫和儲存您的WebVTT檔案。 完成後，複製註解檔案內容並貼到純文字編輯器中，以VTT副檔名儲存。 <br><br><b>注意：</b>為了全球支援英文以外的其他語言的視訊標題，WebVTT標準要求您針對要支援的每種語言建立個別的`.VTT`檔案和呼叫。 <br><br>一般而言，您會想要將註解VTT檔案命名為與視訊檔案相同的名稱，並附加註解。 如此一來，即可協助您使用現有的網頁內容管理系統，自動化視訊URL的產生作業。 |
 
 1. 在Adobe Dynamic Media Classic中，上傳您的WebVTT、DFXP或SMPTE XML標題檔案。
 

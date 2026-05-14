@@ -10,9 +10,17 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:08:57.110Z'
+TQID: 'https://experienceleague.adobe.com/ZDf5ovDIKfCJ5p-6-Qz-isp77LnCQDKJo5hQA1HBN0w'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: 264
 ht-degree: 12%
 
 ---
@@ -23,7 +31,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 而且，您可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
+>您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。 使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 而且，您可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
 
 Adobe Dynamic Media Classic會追蹤「工作」畫面上的發佈工作。
 

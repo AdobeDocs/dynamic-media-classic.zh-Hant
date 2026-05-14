@@ -10,9 +10,17 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:54:33.145Z'
+TQID: 'https://experienceleague.adobe.com/fMbleVTKmwZDm8Ol0jSNVG130jTYKkPcE4SuQA520bA'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 197
 ht-degree: 13%
 
 ---
@@ -31,7 +39,7 @@ ht-degree: 13%
 1. 在[發佈]畫面上，選取&#x200B;**[!UICONTROL 單次]**，或選取&#x200B;**[!UICONTROL 遞回]**。
 1. （選擇性）在「工作名稱」欄位中，輸入發佈工作的名稱，但保留預先定義的日期與時間文字。
 
-   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 進階]**。 從&#x200B;**[!UICONTROL 發佈]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 完整包含搜尋資料]**。 根據預設值，此選項為已選取。
+   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 進階]**。 從&#x200B;**[!UICONTROL 發佈]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 完整包含搜尋資料]**。 根據預設值，此選項為已選取。
 
 1. 選取&#x200B;**[!UICONTROL 提交發佈]**。
 

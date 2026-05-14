@@ -10,10 +10,20 @@ role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
 topic: Certification
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:14:51.725Z'
+TQID: 'https://experienceleague.adobe.com/7JapEdXICdgrmCm8Hdu1xdqQKpD0g-AQNTk3ooN8HUY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 44%
+source-wordcount: 174
+ht-degree: 42%
 
 ---
 
@@ -23,7 +33,7 @@ Dynamic Media Classic以影片訓練、講師授課的研討會、網路研討�
 
 ## Adobe 訓練服務
 
-Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓練。訓練形式可為區域型的大學式課堂、以網路為基礎的課程，或客製化的網站研討會。區域型的課堂開放所有客戶參加，並定期在全北美、歐洲、中東和非洲地區各個地點舉行。客製化的課程可為初學至進階使用者、終端使用者、管理員及 IT 人員量身訂做。
+Adobe 訓練服務提供專為您組織設計之深入、客製化的課堂訓練。 訓練形式可為區域型的大學式課堂、以網路為基礎的課程，或客製化的網站研討會。 區域型的課堂開放所有客戶參加，並定期在全北美、歐洲、中東和非洲地區各個地點舉行。 客製化的課程可為初學至進階使用者、終端使用者、管理員及 IT 人員量身訂做。
 
 請參閱[Adobe訓練服務](https://learning.adobe.com/)
 

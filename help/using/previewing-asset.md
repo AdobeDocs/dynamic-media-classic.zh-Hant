@@ -10,16 +10,24 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:07:17.783Z'
+TQID: 'https://experienceleague.adobe.com/SGEzcnrSQUNlvBeZjObo3kn6mStNAXtUeUtAmHMosS4'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 12%
+source-wordcount: 1023
+ht-degree: 11%
 
 ---
 
 # 預覽資產{#previewing-an-asset}
 
-您可以使用預覽來檢視客戶檢視時數位資產的顯示方式。 「預覽」功能會使用指定給資產的預設檢視器。預設檢視器可在「應用程式設定」中設定。
+您可以使用預覽來檢視客戶檢視時數位資產的顯示方式。 「預覽」功能會使用指定給資產的預設檢視器。 預設檢視器可在「應用程式設定」中設定。
 
 請參閱[設定預設檢視器](application-setup.md#configuring_default_viewers)。
 
@@ -43,7 +51,7 @@ ht-degree: 12%
 
 ## 根據檢視器平台型別預覽資產 {#previewing-an-asset-based-on-viewer-platform-type}
 
-您可以使用檢視器清單來預覽資產在特定檢視器平台型別(例如HTML5)上的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，「檢視器清單」中並非提供所有平台。
+您可以使用檢視器清單來預覽資產在特定檢視器平台型別（例如HTML5）上的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，「檢視器清單」中並非提供所有平台。
 
 您也可以使用「檢視器清單」來複製檢視器的URL，或檢視並複製檢視器程式碼以嵌入您的網頁。
 
@@ -72,7 +80,7 @@ ht-degree: 12%
 
    * 在「檢視器清單」視窗中，在表格的「動作」欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-     當您選取&#x200B;**[!UICONTROL 內嵌程式碼]**&#x200B;時，內嵌程式碼視窗會開啟，您可以在其中檢閱檢視器程式碼。 您無法在此視窗中編輯程式碼。您也可以將程式碼複製到剪貼簿，以便貼到網頁中。
+     當您選取&#x200B;**[!UICONTROL 內嵌程式碼]**&#x200B;時，內嵌程式碼視窗會開啟，您可以在其中檢閱檢視器程式碼。 您無法在此視窗中編輯程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中。
 
      關閉顯示的預覽。
 

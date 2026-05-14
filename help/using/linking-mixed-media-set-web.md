@@ -10,9 +10,17 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:51.028Z'
+TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 657
 ht-degree: 20%
 
 ---
@@ -27,16 +35,16 @@ ht-degree: 20%
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的媒體集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的「URL和內嵌程式碼」面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 清單檢視]**」。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。
 
-   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。
 
@@ -54,16 +62,16 @@ ht-degree: 20%
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的混合媒體集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的URL和內嵌程式碼面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
-   * 按一下「**[!UICONTROL 格點檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的URL和內嵌程式碼面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-   * 按一下「**[!UICONTROL 清單檢視]**」。在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 清單檢視]**」。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
-   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
+   * 按一下「**[!UICONTROL 格點檢視]**」、「**[!UICONTROL 清單檢視]**」或「**[!UICONTROL 詳細檢視]**」。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
 

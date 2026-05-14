@@ -10,22 +10,30 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:38:48.640Z'
+TQID: 'https://experienceleague.adobe.com/JVp6DCNNDrdo5AQvDrv4ubTmXFKUvqLKOHg0CtGVN2E'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 450
 ht-degree: 27%
 
 ---
 
 # 使用資產資料夾{#working-with-asset-folders}
 
-Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。將檔案從您的電腦或網路上傳到Adobe Dynamic Media Classic之前，系統會要求您命名儲存檔案的資料夾。 上載任何檔案之前，請先建立這些檔案夾。
+Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資產庫」面板會依英文字母順序列出這些檔案夾。 將檔案從您的電腦或網路上傳到Adobe Dynamic Media Classic之前，系統會要求您命名儲存檔案的資料夾。 上載任何檔案之前，請先建立這些檔案夾。
 
 在上傳檔案之前，請務必建立檔案夾結構和組織以將檔案儲存在Adobe Dynamic Media Classic上。
 
 ## 顯示、移動、隱藏和開啟資料夾 {#displaying-moving-hiding-and-opening-folders}
 
-資產庫會以檔案夾樹狀結構顯示檔案。當您在「資產庫」中選取資料夾時，其內容會顯示在「瀏覽」面板中。 使用這些技巧，即可在檔案夾樹狀結構中尋找檔案夾:
+資產庫會以檔案夾樹狀結構顯示檔案。 當您在「資產庫」中選取資料夾時，其內容會顯示在「瀏覽」面板中。 使用這些技巧，即可在檔案夾樹狀結構中尋找檔案夾:
 
 * **顯示子資料夾**：選取&#x200B;**[!UICONTROL 展開資料夾]**&#x200B;圖示以顯示資料夾中的子資料夾。 這個圖示位於檔案夾名稱左側。
 
@@ -53,7 +61,7 @@ Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 「資�
 
 選取檔案夾，並使用這些技巧予以刪除或重新命名:
 
-* **刪除**：選取&#x200B;**[!UICONTROL `Remove Folder`]**&#x200B;按鈕。 已刪除之檔案夾中的資產會放在「垃圾桶」檔案夾。您可以從該處予以復原。
+* **刪除**：選取&#x200B;**[!UICONTROL `Remove Folder`]**&#x200B;按鈕。 已刪除之檔案夾中的資產會放在「垃圾桶」檔案夾。 您可以從該處予以復原。
 
 * **重新命名**：按兩下名稱並輸入新名稱。
 

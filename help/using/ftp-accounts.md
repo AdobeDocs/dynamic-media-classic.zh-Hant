@@ -10,16 +10,27 @@ role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+autotag-review: '2026-05-13T19:50:36.235Z'
+TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 239
 ht-degree: 52%
 
 ---
 
 # 管理FTP帳戶{#managing-ftp-accounts}
 
-只有 Media Portal 管理員才能夠管理 FTP 帳戶。此外，只有角色為&#x200B;*Media Portal參與者 — 使用者*&#x200B;或&#x200B;*Media Portal參與者*&#x200B;的使用者才能上傳數位資產。
+只有 Media Portal 管理員才能夠管理 FTP 帳戶。 此外，只有角色為&#x200B;*Media Portal參與者 — 使用者*&#x200B;或&#x200B;*Media Portal參與者*&#x200B;的使用者才能上傳數位資產。
 
 請記住，您可以透過「管理設定」中的「使用者管理」頁面來啟用或停用現有的 Media Portal 使用者。
 

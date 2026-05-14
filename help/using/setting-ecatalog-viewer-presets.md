@@ -9,16 +9,25 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T19:57:04.669Z'
+TQID: 'https://experienceleague.adobe.com/Ej7QeFT62FLz2hWS2w-ll2H9m2pkHXlMSJJDJTsgERg'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: 483
 ht-degree: 25%
 
 ---
 
 # 設定eCatalog檢視器預設集{#setting-up-ecatalog-viewer-presets}
 
-eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式、行為與外觀。Adobe Dynamic Media Classic提供eCatalog檢視器預設集，如果您是管理員，也可以建立您自己的eCatalog檢視器預設集。
+eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式、行為與外觀。 Adobe Dynamic Media Classic提供eCatalog檢視器預設集，如果您是管理員，也可以建立您自己的eCatalog檢視器預設集。
 
 若要建立預設集，您可以從頭開始，或從Adobe Dynamic Media Classic提供的eCatalog檢視器預設集開始，然後以新名稱儲存。 您可以自行建立 eCatalog 檢視器預設集，以公司的色彩來呈現列印材料並設定色調。
 

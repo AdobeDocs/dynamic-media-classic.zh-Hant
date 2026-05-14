@@ -9,9 +9,20 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: 2434
 ht-degree: 30%
 
 ---
@@ -50,10 +61,10 @@ ht-degree: 30%
 
 * **[!UICONTROL 本地化支援]**：這些設定可讓您管理多個地區設定屬性。 也可以讓您指定地區地圖字串，以便您定義要在「檢視器」的各種工具提示中支援的語言。
 
-  例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。若要完成此功能設定，您須指定地區地圖字串。然後，在檢視器的預設集中編輯工具提示文字。 只要為您想要的語言新增翻譯文字字串。
+  例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。 若要完成此功能設定，您須指定地區地圖字串。 然後，在檢視器的預設集中編輯工具提示文字。 只要為您想要的語言新增翻譯文字字串。
 
   >[!NOTE]
-  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
+  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求設定說明。
 
   如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -61,9 +72,9 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->如果您想在Adobe Dynamic Media Classic中設定本地化支援選項（例如「地區地圖」欄位），請使用Admin Console建立支援案例。[&#128279;](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)在您的支援案例中，要求設定說明。
+>如果您想在Adobe Dynamic Media Classic中設定本地化支援選項，例如「地區設定地圖」欄位，[請使用Admin Console建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求設定說明。
 
-使用Adobe Dynamic Media Classic的常見方式是管理e-Commerce網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。通常差異在於整體媒體的某些部分。 複製每個國家/地區的所有資產，並僅覆寫差異，以解決這些差異是巨大的努力，並且與單一主要資產的比喻相抵觸。 資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。Adobe Dynamic Media Classic使用基本查詢機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
+使用Adobe Dynamic Media Classic的常見方式是管理e-Commerce網站上的產品影像。 國際企業常面臨類似產品的資產在不同國家間有外觀差異的問題。 通常差異在於整體媒體的某些部分。 複製每個國家/地區的所有資產，並僅覆寫差異，以解決這些差異是巨大的努力，並且與單一主要資產的比喻相抵觸。 資產的此類差異可能無所不在，從因不同國家而有不同配音的視訊，到產品所用電源線這種微小但重要的差異都包括在內。 Adobe Dynamic Media Classic使用基本查詢機制。 您可以定義影像伺服器查閱資產字尾的順序，以從必要的地區開始。
 
 #### 資產本地化方式
 
@@ -73,7 +84,7 @@ IS (影像伺服) 請求的地區可透過下列 IS/IR (影像演算) 命令來�
 
 這個命令接受不區分大小寫的區域設定ID (locId)字串。 地區設定識別碼通常是2-6個字元的字串，由字母和&quot;`_`&quot;組成。
 
-IS支援任意可列印的ASCII字串。 `locale=`命令具有全域範圍，這表示它套用至整個要求，包括所有巢狀IS和IR要求、參照的範本和影像層。 不支援一個請求有多個地區 (例如每個圖層各有不同的地區)。但要允許在內嵌的請求中進行明確覆寫，這倒是可行。
+IS支援任意可列印的ASCII字串。 `locale=`命令具有全域範圍，這表示它套用至整個要求，包括所有巢狀IS和IR要求、參照的範本和影像層。 不支援一個請求有多個地區 (例如每個圖層各有不同的地區)。 但要允許在內嵌的請求中進行明確覆寫，這倒是可行。
 
 如果未指定`locale=`，則會將`attribute::DefaultLocale`傳遞至翻譯引擎。 有限的輸入驗證已套用至`locale=`值。 允許空的`locale=`值。 因為`locale=`具有全域範圍，`attribute::DefaultLocale`是由整個要求的主要目錄所提供。
 
@@ -93,8 +104,8 @@ IS支援任意可列印的ASCII字串。 `locale=`命令具有全域範圍，這
 
 | 應用程式 | 案例 |
 | --- | --- |
-| 檢視器本地化 | 實作靜態內容目錄後，本地化完全以locale=引數控制，附加至向IS提出的所有要求。 設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
-| 影像和視訊 | 跨國公司常會混用通用內容與地區特定內容。在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
+| 檢視器本地化 | 實作靜態內容目錄後，本地化完全以locale=引數控制，附加至向IS提出的所有要求。 設定記錄、外觀、啟動畫面等項目可能會有地區特定變體。 IS 會提供正確的內容，檢視器無須知道哪些內容已本地化以及內容的 ID。 |
+| 影像和視訊 | 跨國公司常會混用通用內容與地區特定內容。 在此機制下，對影像或視訊的參考會是通用的，而 IS 會在有可用的地區特定內容時加以提供。 |
 | 影像集和媒體集 | 有些地區設定的整個影像集可能不同，例如當eCatalog不同時，由檢視器處理從一般到地區設定特定影像集的轉譯。 更常見的情況是，一般集中的個別ID可以參照本地化的內容。 例如，除控制面板的像片外，裝置的大部分像片在所有語言中都可能相同。 IS會自動翻譯ID，因此不需要產生地區設定特有的影像集。 |
 
 #### 實施資產本地化
@@ -109,11 +120,11 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-影像伺服器收到http呼叫時，會透過`locale=`設定`localeMap` > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]** > **[!UICONTROL 本地化支援]**&#x200B;群組中的&#x200B;**[!UICONTROL 欄位來剖析]**&#x200B;引數。
+影像伺服器收到http呼叫時，會透過&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]** > **[!UICONTROL 本地化支援]**&#x200B;群組中的`localeMap`欄位來剖析`locale=`引數。
 
 「地區地圖」欄位會包含以管線符號 (|) 分隔的項目清單。
 
-每個項目都包含一份以逗號分隔的值清單。第一個值是透過`locale=`引數傳遞的搜尋值。 其餘的值是字尾/取代值，之後會嘗試這些值，直到其中一個值產生現有影像為止。
+每個項目都包含一份以逗號分隔的值清單。 第一個值是透過`locale=`引數傳遞的搜尋值。 其餘的值是字尾/取代值，之後會嘗試這些值，直到其中一個值產生現有影像為止。
 
 應套用字尾值還是取代值，取決於「**[!UICONTROL 設定]**」>「**[!UICONTROL 應用程式設定]**」>「**[!UICONTROL 發佈設定]**」>「**[!UICONTROL 影像伺服器]**」>「**[!UICONTROL 本地化支援]**」群組中的「全域地區」設定。
 
@@ -125,13 +136,13 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 | URL | localeMap ID | 結果 | 附註 |
 | --- | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。地區設定引數de_DE與`localeMap`中的第一個專案相符。 第一個對應值_DE會新增為資產image_DE的尾碼，並嘗試在影像伺服器上尋找該資產。 若在伺服器上找到，則會傳回。 否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | 請注意，其中並未定義 GlobalLocale。 地區設定引數de_DE與`localeMap`中的第一個專案相符。 第一個對應值_DE會新增為資產image_DE的尾碼，並嘗試在影像伺服器上尋找該資產。 若在伺服器上找到，則會傳回。 否則，第二個值「」會作為尾碼，導致影像本身傳回。 |
 
 **取代範例：**
 
 | URL | `GlobalLocale`與`localeMap` ID | 結果 | 附註 |
 | --- | --- | --- | --- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 地區設定引數de_DE與`localeMap`中的第一個專案相符。 找到GlobalLocale子字串，並以`de`中的第一個對應值`localeMap`取代： `image-de-01`。 若在影像伺服器上找到，則會傳回。 如果沒有，則會取代第二個值，產生`image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述取代範例中，GlobalLocale設定為main。 地區設定引數de_DE與`localeMap`中的第一個專案相符。 找到GlobalLocale子字串，並以`localeMap`中的第一個對應值`de`取代： `image-de-01`。 若在影像伺服器上找到，則會傳回。 如果沒有，則會取代第二個值，產生`image-main-01`。 |
 
 如果 URL 中未定義地區，影像伺服器會使用 DefaultLocale，如果已定義，則會將該地區套用至 URL。
 
@@ -139,7 +150,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 #### 關於defaultImage
 
-影像伺服器會針對所請求的地區逐一嘗試各個選項。若找不到相符專案，區域設定選項會套用至defaultImage，並傳回相符版本。 因此，每個地區設定都必須包含影像的選項，但不進行本地化，或是在Adobe Dynamic Media Classic中提供本地化的defaultImage版本。
+影像伺服器會針對所請求的地區逐一嘗試各個選項。 若找不到相符專案，區域設定選項會套用至defaultImage，並傳回相符版本。 因此，每個地區設定都必須包含影像的選項，但不進行本地化，或是在Adobe Dynamic Media Classic中提供本地化的defaultImage版本。
 
 #### 尋找localeMap的案例
 
@@ -151,7 +162,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 ##### 尋找localeMap的標準行為
 
-地區 ID 會對應至其對應的字尾。如果在目錄中找不到地區特定 ID，則會以通用 ID 嘗試。請注意對應至通用ID的空白locSuffix值。
+地區 ID 會對應至其對應的字尾。 如果在目錄中找不到地區特定 ID，則會以通用 ID 嘗試。 請注意對應至通用ID的空白locSuffix值。
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
@@ -160,11 +171,11 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 | en， en_us， en_uk | 我的影像(_E)，我的影像 |
 | de， de_de， de_at | myImg_D， myImg |
 | fr | myImg_F， myImg |
-| 所有其他 | ： |
+| 所有其他 | : |
 
 ##### 地區設定不明時尋找localeMap
 
-您可以將不明的地區對應至特定 ID 或通用 ID。例如，您可以將未知的地區設定對應至英文ID，如果沒有的話，則對應至一般ID。
+您可以將不明的地區對應至特定 ID 或通用 ID。 例如，您可以將未知的地區設定對應至英文ID，如果沒有的話，則對應至一般ID。
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
@@ -184,9 +195,9 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 ##### 使用多階層查詢來尋找localeMap
 
-我們常會需要將地區 (例如歐洲、中東與北美洲) 分組，以滿足地區性標準 (例如外觀)。您可以使用多層式查閱達到此效用。
+我們常會需要將地區 (例如歐洲、中東與北美洲) 分組，以滿足地區性標準 (例如外觀)。 您可以使用多層式查閱達到此效用。
 
-例如，假設您想支援西方和中東使用的收藏集。 這兩個集合都以通用影像集合為基礎，增加或修改了一些影像。然後針對特定地區設定進一步調整這兩個集合。 例如，`m1, m2`適用於兩個中東變體，`w1, w2,`和`w3`適用於三個西方地區設定，但影像共用給`w1`和`w3`除外。 不明地區只會對應至通用集合，且無權存取地區特定影像。以下是地圖將看起來的樣子:
+例如，假設您想支援西方和中東使用的收藏集。 這兩個集合都以通用影像集合為基礎，增加或修改了一些影像。 然後針對特定地區設定進一步調整這兩個集合。 例如，`m1, m2`適用於兩個中東變體，`w1, w2,`和`w3`適用於三個西方地區設定，但影像共用給`w1`和`w3`除外。 不明地區只會對應至通用集合，且無權存取地區特定影像。 以下是地圖將看起來的樣子:
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -200,7 +211,7 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 ##### 透過搜尋特定ID來尋找localeMap
 
-有些影像命名慣例不支援一般影像ID。 請求中的通用 ID 必須對應至目錄中的特定 ID。但在某些情況下，確切的特定ID會不明。
+有些影像命名慣例不支援一般影像ID。 請求中的通用 ID 必須對應至目錄中的特定 ID。 但在某些情況下，確切的特定ID會不明。
 
 以第一個範例為基礎，所有語言的影像都可以有尾碼`_1`、`_2`或`_3`。 法文地區設定的特定影像可以有尾碼`_22`或`_23`尾碼。 而德文地區設定的特定影像可以有尾碼`_470`或`_480`。
 
@@ -214,9 +225,9 @@ Adobe Dynamic Media Classic和「影像伺服」擁有可本地化影像和靜�
 
 ##### 實作本地化支援時的重要考量
 
-* 本地化限用於以 ID 為基礎的資產呼叫，而無法用於以路徑為基礎的資產呼叫。因此，在呼叫具有地區設定的視訊時，必須以 company/assetID 的形式呼叫，而不是以視訊的完整路徑。您無法將`RTMP`與本地化搭配使用，因為此方法僅適用於以路徑為基礎的視訊呼叫。
-* 如果 localeMap 作用中，您就無法使用包含單一視訊的混合媒體集，否則對該媒體集之內容的呼叫將會失敗。若要解決此問題，您可以將單一視訊新增到最適化視訊集。 接著，將最適化視訊集增加至混合媒體集。
-* 有些請求並不會本地化，例如最適化視訊集之內容的請求。因此，如果您打算將自我調整視訊集與本地化搭配使用，請將自我調整視訊集放置在混合媒體集中。 然後，使用`locale=`引數將集合呼叫為混合媒體檢視器。
+* 本地化限用於以 ID 為基礎的資產呼叫，而無法用於以路徑為基礎的資產呼叫。 因此，在呼叫具有地區設定的視訊時，必須以 company/assetID 的形式呼叫，而不是以視訊的完整路徑。 您無法將`RTMP`與本地化搭配使用，因為此方法僅適用於以路徑為基礎的視訊呼叫。
+* 如果 localeMap 作用中，您就無法使用包含單一視訊的混合媒體集，否則對該媒體集之內容的呼叫將會失敗。 若要解決此問題，您可以將單一視訊新增到最適化視訊集。 接著，將最適化視訊集增加至混合媒體集。
+* 有些請求並不會本地化，例如最適化視訊集之內容的請求。 因此，如果您打算將自我調整視訊集與本地化搭配使用，請將自我調整視訊集放置在混合媒體集中。 然後，使用`locale=`引數將集合呼叫為混合媒體檢視器。
 
 ## 影像演算 {#image-renderer}
 

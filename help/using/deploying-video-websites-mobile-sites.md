@@ -10,10 +10,18 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:45:00.273Z'
+TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 23%
+source-wordcount: 1735
+ht-degree: 22%
 
 ---
 
@@ -58,7 +66,7 @@ ht-degree: 23%
 1. 在左側的「資產庫」面板中，瀏覽至包含您要連結之視訊或最適化視訊集的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。 在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。 最佳做法是複製與`Universal_HTML5_Video`檢視器關聯的URL。
@@ -85,18 +93,18 @@ ht-degree: 23%
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的視訊或最適化視訊集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產的視訊縮圖，即可在「詳細檢視」中開啟它。 在右側的「URL和內嵌程式碼」面板中，在「HTTP串流」下方，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在視訊縮圖影像下方選取&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
    * 選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像的右側，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
    * 選取&#x200B;**[!UICONTROL 格線檢視]**、**[!UICONTROL 清單檢視]**&#x200B;或&#x200B;**[!UICONTROL 詳細檢視]**。 在相同工具列上，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
-     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與&#x200B;**[!UICONTROL 檢視器相關聯的]**&#x200B;內嵌程式碼`Universal_HTML5_Video`。
+     在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。 最佳實務是選取與`Universal_HTML5_Video`檢視器相關聯的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
 1. 在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
@@ -136,7 +144,7 @@ ht-degree: 23%
 **若要使用協力廠商視訊播放器部署視訊：**
 
 1. 在Adobe Dynamic Media Classic的全域導覽列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**。
-1. 依據您要使用的 URL 類型，執行下列其中一項工作: 
+1. 依據您要使用的 URL 類型，執行下列其中一項工作:
 
 * 產生直接HLS串流視訊URL （多位元速率）的方式
 
@@ -165,7 +173,7 @@ ht-degree: 23%
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 
-Adobe Dynamic Media Classic會產生已編碼視訊的縮圖，以及預先編碼的視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。此外，您也可以取得Adobe Dynamic Media Classic產生之視訊縮圖的URL。 然後，您就可以在Adobe Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
+Adobe Dynamic Media Classic會產生已編碼視訊的縮圖，以及預先編碼的視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。 此外，您也可以取得Adobe Dynamic Media Classic產生之視訊縮圖的URL。 然後，您就可以在Adobe Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
 
 縮圖的產生以視訊中的首個異質影格 (非全黑影格或全白影格等等) 為基礎。
 
@@ -177,13 +185,13 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 請參閱[發佈視訊](deploying-video-websites-mobile-sites.md#publishing_video)。
 
-在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
+在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。 選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
 
 ### 修改視訊檢視器中的海報影格 {#modifying-poster-frames-in-video-viewers}
 
-「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。Adobe Dynamic Media Classic使用視訊縮圖作為海報框架。
+「*海報影格*」是視訊開始播放之前在「視訊」檢視器中顯示的初始影格。 Adobe Dynamic Media Classic使用視訊縮圖作為海報框架。
 
-您可以將影像修飾元套用至海報影格。例如，您可以裁切海報影格或使其變得透明。若要修改海報影格，請開啟視訊檢視器配置畫面，並在「海報影像修飾元」區段輸入修飾元。
+您可以將影像修飾元套用至海報影格。 例如，您可以裁切海報影格或使其變得透明。 若要修改海報影格，請開啟視訊檢視器配置畫面，並在「海報影像修飾元」區段輸入修飾元。
 
 請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 

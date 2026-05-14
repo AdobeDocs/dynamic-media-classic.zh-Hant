@@ -10,16 +10,24 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:41:43.308Z'
+TQID: 'https://experienceleague.adobe.com/W8HyE6-6ofFJRUWa37n9XnVAeXDkQ8ycBY-hna1ArAY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 38%
+source-wordcount: 679
+ht-degree: 39%
 
 ---
 
 # 建立影像集{#creating-an-image-set}
 
-若要建立多重視圖影像集，您需要的影像必須能夠從不同視角顯示項目，或是能夠顯示相同項目的不同面相。目標是要向檢視者呈現項目的影像，讓他們確實瞭解項目外觀或功能。
+若要建立多重視圖影像集，您需要的影像必須能夠從不同視角顯示項目，或是能夠顯示相同項目的不同面相。 目標是要向檢視者呈現項目的影像，讓他們確實瞭解項目外觀或功能。
 
 ## 建立影像集 {#create}
 
@@ -49,7 +57,7 @@ ht-degree: 38%
 
    * **請先選取影像**：在「瀏覽」面板中，選取您想用於影像集的影像，移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 影像集]**。
 
-   * **從影像集畫面開始**：移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 影像集]**。 「影像集」畫面開啟。選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
+   * **從影像集畫面開始**：移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 影像集]**。 「影像集」畫面開啟。 選取「資產庫」中的檔案夾，並將您要用於影像集的影像拖曳至「影像集」畫面。
 
 1. 若要變更影像順序，請將影像拖曳至新位置。
 1. 在頁面的右下角附近，確定已選取&#x200B;**[!UICONTROL 在儲存後發佈]** （預設）。
@@ -63,7 +71,7 @@ ht-degree: 38%
 | 已發佈集? | 在儲存編輯之前是否已選取&#x200B;**[!UICONTROL `Publish after a save`]**&#x200B;選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -83,7 +91,7 @@ ht-degree: 38%
 
 ## 刪除影像集
 
-刪除集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+刪除集時，便會將集本身移到垃圾桶。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 

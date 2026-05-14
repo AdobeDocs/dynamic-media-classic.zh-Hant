@@ -10,10 +10,18 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:41.296Z'
+TQID: 'https://experienceleague.adobe.com/d1hGtQAgf1wwjIAbeRJ-kQW4kfglXNu5VSIGxRTgxnc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: 703
+ht-degree: 18%
 
 ---
 
@@ -31,7 +39,7 @@ ht-degree: 16%
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其內嵌程式碼之「影像集」的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的&#x200B;**[!UICONTROL URL和內嵌程式碼]**&#x200B;面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的&#x200B;**[!UICONTROL URL和內嵌程式碼]**&#x200B;面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。
@@ -46,7 +54,7 @@ ht-degree: 16%
 
 ## 將影像集URL新增至網頁 {#adding-image-set-urls-to-your-web-page}
 
-部署影像集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟一個彈出式視窗，其中包含實際的縮放功能。
+部署影像集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 縮放連結會開啟包含實際縮放功能的快顯視窗。
 
 如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5縮放檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
@@ -60,7 +68,7 @@ ht-degree: 16%
 1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的影像集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的URL面板中，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的URL面板中，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。

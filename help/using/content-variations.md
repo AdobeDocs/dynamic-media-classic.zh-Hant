@@ -10,9 +10,17 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T17:40:29.070Z'
+TQID: 'https://experienceleague.adobe.com/KjKdz4CAeSdJ3P-LKvdmsoGlkroeOZ60AvydF2FBHaI'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 248
 ht-degree: 44%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 44%
 
 使用範本集管理發佈資產變體的方式。
 
-建立範本集以管理範本變體。您不需變更網站程式碼即可控制要使用哪些變體。此方法可協助內容管理員輪換內容，而不需要IT人員變更網頁程式碼中的URL。
+建立範本集以管理範本變體。 您不需變更網站程式碼即可控制要使用哪些變體。 此方法可協助內容管理員輪換內容，而不需要IT人員變更網頁程式碼中的URL。
 
 通用URL是用來根據範本變數在集中列出的順序，顯示出現在頁面上的範本變數。 永遠會發佈位於範本集清單最頂層的範本。
 
@@ -36,7 +44,7 @@ ht-degree: 44%
 
 1. 前往「詳細資訊」頁面以從 URL 區段取得複製 URL。
 
-您可以將範本拖曳至新位置，以在範本順序中移動範本 (例如移至清單頂端)。再次發佈以送出新順序。
+您可以將範本拖曳至新位置，以在範本順序中移動範本 (例如移至清單頂端)。 再次發佈以送出新順序。
 
 >[!NOTE]
 >

@@ -10,16 +10,24 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:42:52.841Z'
+TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 732
 ht-degree: 27%
 
 ---
 
 # 建立引導式縮放的縮放目標{#creating-zoom-targets-for-guided-zoom}
 
-縮放目標會將檢視器引導到影像的特定部分。除了自由格式縮放以外，檢視者還可以選取縮放目標縮圖，並縮放至您要其聚焦的影像部分。 透過縮放目標，可反白顯示影像的有趣或誘人之處。
+縮放目標會將檢視器引導到影像的特定部分。 除了自由格式縮放以外，檢視者還可以選取縮放目標縮圖，並縮放至您要其聚焦的影像部分。 透過縮放目標，可反白顯示影像的有趣或誘人之處。
 
 ![建立引導式縮放的縮放目標](/help/using/assets/zo_guided_zoom.png)
 
@@ -61,12 +69,12 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >在「名稱」方框中輸入的不僅僅是名稱。使用者在縮放目標上移動指標時，將會看到您在「名稱」方框中輸入的內容。在「名稱」方框中輸入對縮放目標的簡要說明，以便使用者瞭解其可以縮放的內容。
+   >在「名稱」方框中輸入的不僅僅是名稱。 使用者在縮放目標上移動指標時，將會看到您在「名稱」方框中輸入的內容。 在「名稱」方框中輸入對縮放目標的簡要說明，以便使用者瞭解其可以縮放的內容。
 
-1. 可以視情況在「使用者資料」欄位中輸入使用者資料。此欄位可供網站設計人員新增資訊至縮放目標。
+1. 可以視情況在「使用者資料」欄位中輸入使用者資料。 此欄位可供網站設計人員新增資訊至縮放目標。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
-   即可儲存縮放目標的座標和縮放等級。帶有您輸入的名稱的縮放目標縮圖顯示在畫面右側。
+   即可儲存縮放目標的座標和縮放等級。 帶有您輸入的名稱的縮放目標縮圖顯示在畫面右側。
 
 >[!NOTE]
 >

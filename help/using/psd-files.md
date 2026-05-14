@@ -10,9 +10,18 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:08:12.325Z'
+TQID: 'https://experienceleague.adobe.com/DkWNVywchW9Lpxgg-u56TlLEmryKxrxc1zKIno8KgfU'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: 1029
 ht-degree: 21%
 
 ---
@@ -21,7 +30,7 @@ ht-degree: 21%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
-PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範本。 上傳PSD檔案時，您可以從檔案自動建立Adobe Dynamic Media Classic範本（在「上傳」畫面上選取「建立範本」選項）。
+PSD （Photoshop檔案檔案）最常用於Adobe Dynamic Media Classic中建立範本。 上傳PSD檔案時，您可以從檔案自動建立Adobe Dynamic Media Classic範本（在「上傳」畫面上選取「建立範本」選項）。
 
 如果您使用包含圖層的Adobe Dynamic Media Classic檔案來建立範本，則該檔案會從包含圖層的PSD檔案建立多個影像；它會為每個圖層建立一個影像。
 
@@ -37,9 +46,9 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
   如果您選擇&#x200B;**[!UICONTROL 色彩]**&#x200B;選項，請選取「轉角」功能表，並選擇PSD轉角的色彩，該色彩最能代表您要裁切的空白顏色。
 
-  拖曳滑桿以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。數值越接近 1，允許的色彩差異就越大。若要根據透明度進行裁剪，請指定0以裁切透明畫素；接近1的數字可提供更高的透明度。
+  拖曳滑桿以指定從0到1的公差。 若要根據色彩修剪，請指定 0，如此僅會在完全符合您選取的 PDF 邊角顏色時才會裁切像素。 數值越接近 1，允許的色彩差異就越大。 若要根據透明度進行裁剪，請指定0以裁切透明畫素；接近1的數字可提供更高的透明度。
 
-   * **[!UICONTROL 手動]**：輸入要從影像任何一面或每一面裁切的畫素數。 影像裁切的多寡取決於影像檔案的 ppi (每英吋像素) 設定。例如，假設影像顯示150 ppi。 然後在「上」、「右」、「下」和「左」文字方塊中輸入75。 影像每一面都會被裁切，0.5英吋。
+   * **[!UICONTROL 手動]**：輸入要從影像任何一面或每一面裁切的畫素數。 影像裁切的多寡取決於影像檔案的 ppi (每英吋像素) 設定。 例如，假設影像顯示150 ppi。 然後在「上」、「右」、「下」和「左」文字方塊中輸入75。 影像每一面都會被裁切，0.5英吋。
 
 * **色彩設定檔選項**：位於&#x200B;**[!UICONTROL 色彩設定檔選項]**&#x200B;下方。
 
@@ -51,7 +60,7 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
 * **Photoshop選項**
 
-   * **[!UICONTROL 保留圖層]**：將PSD中的圖層（如果有的話）擷取至個別資產。 資產圖層會維持與 PSD 相關聯。您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 請參閱在PSD檔案中檢視和編輯圖層。
+   * **[!UICONTROL 保留圖層]**：將PSD中的圖層（如果有的話）擷取至個別資產。 資產圖層會維持與 PSD 相關聯。 您可以在「詳細資料檢視」中開啟PSD檔案，並選取圖層面板來檢視它們。 請參閱在PSD檔案中檢視和編輯圖層。
 
    * **[!UICONTROL 建立範本]**：從PSD檔案中的圖層建立範本。
 
@@ -61,13 +70,13 @@ PSD (Photoshop檔案檔案)最常用於Adobe Dynamic Media Classic中建立範�
 
    * **[!UICONTROL 圖層命名]**： PSD檔案中的圖層會以個別影像上傳。 若要在Adobe Dynamic Media Classic中命名這些影像，請從下列選項中選擇：
 
-      * **[!UICONTROL 圖層名稱]**：將影像命名為PSD檔案中的圖層名稱。 例如，在原始 PSD 檔案中名稱為 Price Tag 的圖層會變成名稱為 Price Tag 的影像。不過，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（「背景」、「圖層1」、「圖層2」等等），則會以PSD檔案中的圖層編號來命名影像。<!-- not their default layer names -->
+      * **[!UICONTROL 圖層名稱]**：將影像命名為PSD檔案中的圖層名稱。 例如，在原始 PSD 檔案中名稱為 Price Tag 的圖層會變成名稱為 Price Tag 的影像。 不過，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（「背景」、「圖層1」、「圖層2」等等），則會以PSD檔案中的圖層編號來命名影像。<!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop和圖層編號]**：將影像命名為PSD檔案中的圖層編號後方，略過原始的圖層名稱。 影像會以 Photoshop 檔案名稱並附加圖層編號命名。例如，名為`Spring Ad.psd`之檔案的第二個層名為`Spring Ad_2`，即使它在Photoshop中有非預設名稱。
+      * **[!UICONTROL Photoshop和圖層編號]**：將影像命名為PSD檔案中的圖層編號後方，略過原始的圖層名稱。 影像會以 Photoshop 檔案名稱並附加圖層編號命名。 例如，名為`Spring Ad.psd`之檔案的第二個層名為`Spring Ad_2`，即使它在Photoshop中有非預設名稱。
 
-      * **[!UICONTROL Photoshop和圖層名稱]**：在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。例如，名為`Price Tag`的PSD檔案中名為`SpringAd`的圖層名為`Spring Ad_Price Tag`。 預設名稱為「圖層2」的圖層稱為`Spring Ad_2`。
+      * **[!UICONTROL Photoshop和圖層名稱]**：在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。 例如，名為`SpringAd`的PSD檔案中名為`Price Tag`的圖層名為`Spring Ad_Price Tag`。 預設名稱為「圖層2」的圖層稱為`Spring Ad_2`。
 
-   * **[!UICONTROL 錨點]**：指定影像錨定在範本中的方式，這些範本是從PSD檔案產生的階層式組合產生的。 預設的錨點為中心。無論取代影像的外觀比例為何，置中錨點都可讓取代影像最能填滿相同的空間。 當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
+   * **[!UICONTROL 錨點]**：指定影像錨定在範本中的方式，這些範本是從PSD檔案產生的階層式組合產生的。 預設的錨點為中心。 無論取代影像的外觀比例為何，置中錨點都可讓取代影像最能填滿相同的空間。 當參考範本並且使用替換參數時，取代此影像的不同長寬影像可有效的填滿相同的空間。 如果您的應用程式需要將替代影像填滿範本中的配置空間，請變更為其他設定。
 
 ## 在PSD檔案中檢視和編輯圖層 {#viewing-and-editing-layers-in-a-psd-file}
 

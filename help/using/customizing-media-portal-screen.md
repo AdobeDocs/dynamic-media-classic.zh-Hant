@@ -10,16 +10,25 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
+autotag-review: '2026-05-13T19:43:32.877Z'
+TQID: 'https://experienceleague.adobe.com/tIJ90TIWEvVbRT1LR-z8ajTrx2zEXg33V8Q9SgOfzKY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 22%
+source-wordcount: 329
+ht-degree: 23%
 
 ---
 
 # 自訂Media Portal畫面{#customizing-the-media-portal-screen}
 
-Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與色彩。使用樣式設定將您的公司品牌置於Media Portal上。
+Media Portal 樣式設定可讓您在 Media Portal 畫面置入公司標誌與色彩。 使用樣式設定將您的公司品牌置於Media Portal上。
 
 若要存取樣式設定，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**。 確定選取&#x200B;**[!UICONTROL 儲存]**，在設定完成後儲存設定。 您可以選取&#x200B;**[!UICONTROL 還原]**&#x200B;以恢復預設設定。 當您做出選擇時，「預覽」面板會顯示它們的顯示方式。
 

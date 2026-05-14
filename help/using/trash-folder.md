@@ -10,9 +10,18 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:15:24.015Z'
+TQID: 'https://experienceleague.adobe.com/5XOu6T0n7zssUzXgQXushja4DJBSHs8-0-2h2Ao1L20'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 563
 ht-degree: 28%
 
 ---
@@ -21,7 +30,7 @@ ht-degree: 28%
 
 您從Adobe Dynamic Media Classic刪除的專案會移至垃圾桶資料夾。 這些已刪除的專案會在此資料夾中保留七天，直到還原或永久刪除為止。 您可以選取資產庫底部的&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;圖示，並檢視「垃圾桶」資料夾頁面中的專案，以檢查已刪除的專案。
 
-所有使用者都可以將「垃圾桶」檔案夾中的項目還原到其刪除來源的檔案夾。所有使用者也都可以清空「垃圾桶」檔案夾中的所有內容。
+所有使用者都可以將「垃圾桶」檔案夾中的項目還原到其刪除來源的檔案夾。 所有使用者也都可以清空「垃圾桶」檔案夾中的所有內容。
 
 若從垃圾桶資料夾刪除專案，將會永久刪除Adobe Dynamic Media Classic中的專案；若從垃圾桶資料夾刪除專案，將無法再還原。 如需設定在資產即將從「垃圾桶」中自動刪除時通知公司管理員的資訊，請參閱[應用程式一般設定](application-setup.md#general_settings)。
 
@@ -31,15 +40,15 @@ ht-degree: 28%
 
 ## 關於垃圾桶檔案夾 {#about-the-trash-folder}
 
-刪除檔案夾中的項目會將該項目放入「垃圾桶」檔案夾。刪除項目並將它移動到「垃圾桶」檔案夾時，會發生下列狀況:
+刪除檔案夾中的項目會將該項目放入「垃圾桶」檔案夾。 刪除項目並將它移動到「垃圾桶」檔案夾時，會發生下列狀況:
 
 * 雖然專案已從您的Adobe Dynamic Media Classic資料夾中移除，但其ID無法指派給另一個資產，因為它仍保留在垃圾桶資料夾中。 如果您嘗試上傳與垃圾桶資料夾中檔案同名的資產，Adobe Dynamic Media Classic會在資產名稱后面附加數字。
-* 無法發佈項目。即使項目在您刪除時已標記為發佈，您也無法予以發佈。
+* 無法發佈項目。 即使項目在您刪除時已標記為發佈，您也無法予以發佈。
 * 專案會保留在垃圾桶資料夾中，直到還原為止、過了七天或有人選擇&#x200B;**[!UICONTROL 清空垃圾桶]**&#x200B;命令。 七天之後，自動清除作業就會永久刪除項目。
 
 ## 從垃圾桶資料夾中還原資產 {#restoring-assets-from-the-trash-folder}
 
-刪除資產的人不需要還原資產；任何人都可以從垃圾桶資料夾還原資產。 還原的資產會放在其刪除來源的檔案夾中。如果這些資料夾已不存在，Adobe Dynamic Media Classic會重新建立它們，而且還原的資產會放在重新建立的資料夾中。
+刪除資產的人不需要還原資產；任何人都可以從垃圾桶資料夾還原資產。 還原的資產會放在其刪除來源的檔案夾中。 如果這些資料夾已不存在，Adobe Dynamic Media Classic會重新建立它們，而且還原的資產會放在重新建立的資料夾中。
 
 若要將資產從垃圾桶資料夾還原至其被刪除的資料夾，請執行下列動作：
 
@@ -49,7 +58,7 @@ ht-degree: 28%
 
 ## 永久刪除垃圾桶檔案夾中的資產 {#permanently-deleting-assets-in-the-trash-folder}
 
-刪除「垃圾桶」檔案夾中的資產時，會永久刪除該資產。七天後就會從「垃圾桶」檔案夾中永久刪除資產。
+刪除「垃圾桶」檔案夾中的資產時，會永久刪除該資產。 七天後就會從「垃圾桶」檔案夾中永久刪除資產。
 
 您可以選取&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;圖示，從「垃圾桶」資料夾中永久刪除資產。 在「垃圾桶」資料夾頁面上，執行下列任一項作業：
 
