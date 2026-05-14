@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:56:29.690Z'
+TQID: 'https://experienceleague.adobe.com/urNoJw6SrzPpsfpoTtudKndZfJOmWsZKtBZ3Za4aE0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 534
 ht-degree: 1%
 
 ---
@@ -23,7 +29,7 @@ Adobe Target Standard/Premium讓行銷人員直接掌握控制權。 這麼做�
 
 Adobe Dynamic Media Classic可讓您建立Adobe Target Standard/Premium行銷活動的優惠方案和優惠方案集。 例如，您可以建立包含相同多媒體資產的三個變數的選件集。 接著，您可以擁有Adobe Target Standard或Premium ，判斷哪個資產可提供較佳的轉換提升度。 您可以從基本範本或個別影像建立優惠方案和優惠方案集。 優惠方案集推送或儲存至Adobe Target Standard/Premium （優惠方案與mbox和體驗相關聯）後，Adobe Target Standard/Premium就可以執行行銷活動。 這些行銷活動會決定網站的哪些變數最適合點進和轉換。
 
-若要進一步自訂動態Adobe Dynamic Media Classic內容，請使用Adobe Target Standard/Premium HTML選件。 如需詳細資訊，請參閱[Adobe Target Standard/Premium產品檔案](https://experienceleague.adobe.com/zh-hant/docs/target)。
+若要進一步自訂動態Adobe Dynamic Media Classic內容，請使用Adobe Target Standard/Premium HTML選件。 如需詳細資訊，請參閱[Adobe Target Standard/Premium產品檔案](https://experienceleague.adobe.com/en/docs/target)。
 
 >[!NOTE]
 >

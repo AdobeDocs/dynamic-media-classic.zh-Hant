@@ -10,9 +10,15 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:46:13.313Z'
+TQID: 'https://experienceleague.adobe.com/qaWxQCcT9VjPt4MmahAR3-voOpUBjYztzNFXSZG6R6k'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: 524
 ht-degree: 12%
 
 ---
@@ -27,7 +33,7 @@ Adobe Dynamic Media Classic是一個整合式多媒體管理、發佈和服務�
 
 Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
-* **上傳及管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。您也可以將中繼資料套用至資產。
+* **上傳及管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。 您也可以將中繼資料套用至資產。
 
 * **建立豐富媒體**：建立您資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
 
@@ -48,4 +54,4 @@ Adobe Dynamic Media Classic與其他系統截然不同，因為您可以使用Ad
 
 ## 內容快取 {#content-caching}
 
-Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，這些影像是具有可識別這些影像的唯一URL呼叫的JPEG影像。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。影像會從全域各處的伺服器分發至電腦。使用任何CDN廠商實作快取機制時，只需將伺服器名稱變更為指向啟用CDN的Dynamic Media影像伺服器即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。
+Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，這些影像是具有可識別這些影像的唯一URL呼叫的JPEG影像。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。 影像會從全域各處的伺服器分發至電腦。 使用任何CDN廠商實作快取機制時，只需將伺服器名稱變更為指向啟用CDN的Dynamic Media影像伺服器即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。

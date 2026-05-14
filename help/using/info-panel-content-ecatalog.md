@@ -10,16 +10,22 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:51:12.585Z'
+TQID: 'https://experienceleague.adobe.com/KZEo-DNrfZJt66xzSAHpLX6A8j1evxOBtwSxQfk44Wc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 890
 ht-degree: 38%
 
 ---
 
 # 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
-除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。您也可以使用計時的快取及排程內容更新來管理資訊面板。
+除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。 您也可以使用計時的快取及排程內容更新來管理資訊面板。
 
 您可以使用Adobe Dynamic Media Classic中的下列功能來管理資訊面板設定和資料：
 
@@ -30,11 +36,11 @@ ht-degree: 38%
 
 ## 設定eCatalogs的回應範本 {#set-up-a-response-template-for-ecatalogs}
 
-您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。您可以選取預設的回應範本，或建立您自己的回應範本。
+您可以選取三個預設回應範本之一，以便在資訊面板中顯示文字。 這些預設回應範本會決定您的資訊在資訊面板中如何呈現: 欄與列的數目、字型大小、字型等。 您可以選取預設的回應範本，或建立您自己的回應範本。
 
 >[!NOTE]
 >
->您也可以在檢視器預設集中設定回應範本。若要改用檢視器預設集中的回應範本，請在檢視器預設集中的資訊伺服器URL結尾新增`fmt=1`。
+>您也可以在檢視器預設集中設定回應範本。 若要改用檢視器預設集中的回應範本，請在檢視器預設集中的資訊伺服器URL結尾新增`fmt=1`。
 >
 >請參閱[設定eCatalog檢視器預設集](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
@@ -42,8 +48,8 @@ ht-degree: 38%
 1. 選取&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;面板。
 1. 選取回應範本:
 
-   * 從「回應範本」選單中選取一個預設集。用於範本設計的 XML 會顯示在「使用者範本」方框中。
-   * 若要建立您自己的回應範本，請選取&#x200B;**[!UICONTROL 自訂]**。 在「使用者範本」方框中鍵入範本 XML 定義。您可以使用預設範本作為自訂範本的基礎。
+   * 從「回應範本」選單中選取一個預設集。 用於範本設計的 XML 會顯示在「使用者範本」方框中。
+   * 若要建立您自己的回應範本，請選取&#x200B;**[!UICONTROL 自訂]**。 在「使用者範本」方框中鍵入範本 XML 定義。 您可以使用預設範本作為自訂範本的基礎。
 
 1. （選擇性）在「預設回應」方塊中，輸入您要在Adobe Dynamic Media Classic擷取「影像地圖」資訊時發生錯誤，顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
 1. 在「回應 TTL」方框中輸入快取資料前要等候的時數:
@@ -55,7 +61,7 @@ ht-degree: 38%
 
 ## 匯入eCatalogs中資訊面板的來源內容 {#import-source-content-for-the-info-panel-in-ecatalogs}
 
-對於 eCatalog 之資訊面板的來源文字，您可以使用逗號分隔值檔案 (CSV) 或 Tab 字元分隔檔案 (TXT)。Tab 字元分隔檔案必須使用 UTF16 (Unicode) 編碼。您可以使用不同的方法匯入不同的檔案型別。
+對於 eCatalog 之資訊面板的來源文字，您可以使用逗號分隔值檔案 (CSV) 或 Tab 字元分隔檔案 (TXT)。 Tab 字元分隔檔案必須使用 UTF16 (Unicode) 編碼。 您可以使用不同的方法匯入不同的檔案型別。
 
 格式化來源內容時，請記住下列準則:
 
@@ -67,8 +73,8 @@ ht-degree: 38%
 
 1. 連按兩下eCatalog，使其在「詳細資料檢視」中開啟。
 1. 選取&#x200B;**[!UICONTROL 資訊面板資料摘要]**&#x200B;面板。
-1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。您可以在此欄位中貼上 URL，也可以直接鍵入。
-1. （選擇性）使用[排程更新]功能表指定更新內容的時間，並選取&#x200B;**[!UICONTROL 新增]**。 您可以選取多個更新時間。每個更新時間都會顯示在「更新時間」方框中。（若要移除時間，請選取該時間，然後選取&#x200B;**[!UICONTROL 刪除]**。）
+1. 在「外部代管的 CSV 檔案位置」方框中輸入 CSV 檔案的 URL。 您可以在此欄位中貼上 URL，也可以直接鍵入。
+1. （選擇性）使用[排程更新]功能表指定更新內容的時間，並選取&#x200B;**[!UICONTROL 新增]**。 您可以選取多個更新時間。 每個更新時間都會顯示在「更新時間」方框中。 （若要移除時間，請選取該時間，然後選取&#x200B;**[!UICONTROL 刪除]**。）
 1. （選擇性）選取&#x200B;**[!UICONTROL 立即執行更新]**，以便您可以立即更新內容。
 
 ### 匯入 Tab 字元分隔檔案或 CSV 檔案 {#import-a-tab-delimited-or-csv-file}
@@ -97,6 +103,6 @@ Adobe Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上�
 
 1. 選取目錄的變換影像&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL 對應頁面]**。
-1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] **&#x200B;**。
+1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] ****。
 
    滑鼠指項效果關鍵文字會顯示在每個包含「資訊面板」文字的影像地圖旁邊。

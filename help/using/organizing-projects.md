@@ -10,18 +10,24 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:06:21.685Z'
+TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: 483
 ht-degree: 21%
 
 ---
 
 # 組織您的專案工作{#organizing-your-work-with-projects}
 
-專案為您提供組織資產的次要選擇，而這種組織方式與資產儲存在哪個檔案夾無關。資產只能放在一個檔案夾中，但是可以基於組織目的而複製到多個「專案」檔案夾。
+專案為您提供組織資產的次要選擇，而這種組織方式與資產儲存在哪個檔案夾無關。 資產只能放在一個檔案夾中，但是可以基於組織目的而複製到多個「專案」檔案夾。
 
-建立「專案」檔案夾之後，就可以放入資產。專案中的Assets實際上是指向儲存資產的資產資料庫資料夾的指標。 您可以將資產放入多個專案。例如，襯衫的影像可以同時放在「襯衫」和「秋季系列」專案資料夾中。
+建立「專案」檔案夾之後，就可以放入資產。 專案中的Assets實際上是指向儲存資產的資產資料庫資料夾的指標。 您可以將資產放入多個專案。 例如，襯衫的影像可以同時放在「襯衫」和「秋季系列」專案資料夾中。
 
 您可以在上載檔案時建立專案，或是在「資產庫」面板中建立專案。
 
@@ -31,7 +37,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->您的管理員必須設定允許您使用專案，您才能組織專案中的資產。如果您在Assets資料庫底部沒有看到「專案」資料夾區段，就無法使用這種資產組織方法。 請參閱[應用程式一般設定](application-setup.md#general-settings)。
+>您的管理員必須設定允許您使用專案，您才能組織專案中的資產。 如果您在Assets資料庫底部沒有看到「專案」資料夾區段，就無法使用這種資產組織方法。 請參閱[應用程式一般設定](application-setup.md#general-settings)。
 
 ## 建立專案資料夾 {#creating-a-project-folder}
 
@@ -59,6 +65,6 @@ ht-degree: 21%
 
 您可以從「瀏覽」面板開始或將檔案上傳到Adobe Dynamic Media Classic時，將影像新增到「專案」資料夾：
 
-* **從「瀏覽」面板**&#x200B;中，選取資產並將其拖曳至「專案」資料夾。 您也可以前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**。 在[選取專案]對話方塊中選取專案資料夾名稱，然後選取[提交]。**&#x200B;**
+* **從「瀏覽」面板**&#x200B;中，選取資產並將其拖曳至「專案」資料夾。 您也可以前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**。 在[選取專案]對話方塊中選取專案資料夾名稱，然後選取[提交]。****
 
 * **上傳檔案時**：在上傳頁面上，選取&#x200B;**[!UICONTROL 工作選項]**。 在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL 專案]**，然後選取專案名稱。

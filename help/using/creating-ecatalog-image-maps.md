@@ -10,9 +10,15 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:43:26.837Z'
+TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: 1505
 ht-degree: 26%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 26%
 
 ## 繪製eCatalog影像地圖 {#drawing-ecatalog-image-maps}
 
-如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。當您建立「影像地圖」時，其名稱會在「影像地圖」清單中輸入。
+如果是eCatalog，請在「eCatalog」畫面的「地圖頁面」標籤上繪製影像地圖。 此畫面包含顯示 eCatalog 頁面的影像地圖區域，以及右方的影像地圖清單。 當您建立「影像地圖」時，其名稱會在「影像地圖」清單中輸入。
 
 1. 選取eCatalog的變換影像&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL 對應頁面]**。
@@ -79,7 +85,7 @@ ht-degree: 26%
 
   請參閱[調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **變更形狀和大小**：若要調整矩形影像地圖的大小，請選取「平移」工具。 接著，將指標移動至邊框或角上，當您看到雙向箭頭圖示時，請加以拖曳。若要調整多邊形影像地圖的大小，請拖曳方形的選取範圍控制點。若要建立選取範圍控點，請選取「影像地圖」的框線並拖曳。
+* **變更形狀和大小**：若要調整矩形影像地圖的大小，請選取「平移」工具。 接著，將指標移動至邊框或角上，當您看到雙向箭頭圖示時，請加以拖曳。 若要調整多邊形影像地圖的大小，請拖曳方形的選取範圍控制點。 若要建立選取範圍控點，請選取「影像地圖」的框線並拖曳。
 
   請參閱[調整影像地圖的位置、形狀和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
@@ -97,11 +103,11 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog [中的](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)複製影像地圖。
+>當您將「影像地圖」複製到eCatalog中的不同頁面時，可以將eCatalog中的所有影像地圖複製到不同的eCatalog。 檢視其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[複製影像地圖。
 
 ## 檢閱及匯入影像地圖資料 {#reviewing-and-importing-image-map-data}
 
-「地圖摘要」畫面提供有關 eCatalog 的中繼資料。在「地圖摘要」畫面上開始作業時，您也可以為 eCatalog 批次匯入影像地圖資料。使用這個方式匯入影像地圖資料，可讓您更輕鬆輸入影像地圖 URL 與滑鼠指向效果文字。
+「地圖摘要」畫面提供有關 eCatalog 的中繼資料。 在「地圖摘要」畫面上開始作業時，您也可以為 eCatalog 批次匯入影像地圖資料。 使用這個方式匯入影像地圖資料，可讓您更輕鬆輸入影像地圖 URL 與滑鼠指向效果文字。
 
 若要檢視[地圖摘要]畫面，請在eCatalog畫面的[地圖頁面]索引標籤上選取&#x200B;**[!UICONTROL 摘要]**。
 
@@ -116,7 +122,7 @@ ht-degree: 26%
 
 ### 匯入影像地圖資料 {#import-image-map-data}
 
-您可以為整個 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。匯入「影像地圖」資料可讓您在建立每個「影像地圖」時，在「影像地圖」清單中輸入資料的麻煩。
+您可以為整個 eCatalog 匯入資料至「地圖摘要」畫面，而不用在各個頁面上輸入影像地圖資料。 匯入影像地圖資料時，可以採用 Tab 字元分隔檔案或 XML DTD 的格式。 檔案中的欄位必須依照「地圖摘要」畫面所顯示的順序:「名稱」、「TOC 標籤」、「地圖」、「URL」、「滑鼠指向效果文字」、「其它動作」與「搜尋字串」。 匯入「影像地圖」資料可讓您在建立每個「影像地圖」時，在「影像地圖」清單中輸入資料的麻煩。
 
 >[!NOTE]
 >
@@ -131,7 +137,7 @@ ht-degree: 26%
 
 ## 在其他eCatalog中複製影像地圖 {#copying-image-maps-between-ecatalogs}
 
-您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。為了成功複製，Adobe Dynamic Media Classic建議您在具有相同頁數和相同影像的eCatalog之間複製。
+您可以將一個 eCatalog 中的所有影像地圖複製到其它 eCatalog。 以這種方式複製影像地圖，對於在相同 eCatalog 的外文翻譯之間複製影像地圖來說，是非常便利的方法。 為了成功複製，Adobe Dynamic Media Classic建議您在具有相同頁數和相同影像的eCatalog之間複製。
 
 >[!NOTE]
 >

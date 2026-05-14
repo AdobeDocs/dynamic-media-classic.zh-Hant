@@ -9,9 +9,15 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T20:16:55.218Z'
+TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: 1051
 ht-degree: 51%
 
 ---
@@ -30,7 +36,7 @@ ht-degree: 51%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
+由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。 從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
@@ -139,7 +145,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像微調選項中的「去底色背景」。
+在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼

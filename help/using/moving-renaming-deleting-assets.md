@@ -10,9 +10,14 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:04:38.888Z'
+TQID: 'https://experienceleague.adobe.com/PhoMSxegLPSABPovcBA94eiSksqAcIMhQV93BcAWh-s'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 613
 ht-degree: 17%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 17%
 1. 在「瀏覽」面板中選取資產，然後執行下列任一項作業：
 
    * 選取名稱，輸入新名稱，然後按&#x200B;**[!UICONTROL Enter]**&#x200B;或選取遠離名稱。
-   * 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**。 資產名稱會以反白顯示。輸入新名稱，然後按&#x200B;**[!UICONTROL Enter]**。 請勿輸入現有Adobe Dynamic Media Classic資產的名稱。
+   * 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 重新命名]**。 資產名稱會以反白顯示。 輸入新名稱，然後按&#x200B;**[!UICONTROL Enter]**。 請勿輸入現有Adobe Dynamic Media Classic資產的名稱。
 
 ## 刪除資產 {#delete-assets}
 
@@ -45,7 +50,7 @@ ht-degree: 17%
 
 當您刪除資產時，衍生自該資產的所有資產也會一併刪除。 例如，刪除您已建立「縮放目標」的影像時，會一併刪除「縮放目標」與影像。
 
-刪除資產時，也會永久刪除其中衍生的縮放影像、影像屬性及操作記錄項目。這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
+刪除資產時，也會永久刪除其中衍生的縮放影像、影像屬性及操作記錄項目。 這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
 
 >[!IMPORTANT]
 >

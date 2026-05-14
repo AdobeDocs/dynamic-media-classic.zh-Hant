@@ -9,9 +9,15 @@ role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+autotag-review: '2026-05-13T17:34:44.287Z'
+TQID: 'https://experienceleague.adobe.com/SwNEO6U33qx45AECK79nff9f9kABWuOdq91d4X8SHd0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 179
 ht-degree: 35%
 
 ---
@@ -32,7 +38,7 @@ UGC支援點陣影像檔案格式BMP、GIF、JPG、PNG、PSD、TIFF。
 >
 >Adobe Dynamic Media Classic已於2021年9月30日停止支援新的或現有的UGC向量影像資產。
 
-上載資產之前，請取得共用密鑰。使用此密鑰來擷取上載標記。上載資產及執行其他 UGC 工作時，請送出上載標記。
+上載資產之前，請取得共用密鑰。 使用此密鑰來擷取上載標記。 上載資產及執行其他 UGC 工作時，請送出上載標記。
 
 擷取共用密鑰並上載標記後，您可以對使用者產生的內容執行以下作業:
 

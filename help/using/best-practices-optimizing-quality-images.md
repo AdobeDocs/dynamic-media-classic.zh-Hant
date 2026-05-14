@@ -10,20 +10,26 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:39:42.316Z'
+TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 39%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
 # 影像品質最佳化的最佳實踐{#best-practices-for-optimizing-the-quality-of-your-images}
 
-最佳化影像品質可能會耗費大量時間。 呈現可接受結果的因素有很多。 結果有點主觀，因為每個人對影像品質的認定不同。結構化實驗是關鍵。
+最佳化影像品質可能會耗費大量時間。 呈現可接受結果的因素有很多。 結果有點主觀，因為每個人對影像品質的認定不同。 結構化實驗是關鍵。
 
 Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果的100多個影像伺服命令。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+另請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 >[!TIP]
 >
@@ -35,7 +41,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
 
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -43,7 +49,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 * 要讓影像呈現良好品質並具有可管理的大小和寬度，JPG 或 PNG 是最佳選擇。
 * 如果URL中未提供格式命令，則「動態媒體影像伺服」預設為JPG以進行傳送。
 * JPG會以10:1的比率壓縮，且通常會產生較小的影像檔案大小。 PNG會以大約2:1的比率壓縮，除非有時影像包含空白背景。 大致上 PNG 檔案的大小比 JPG 檔案更大。
-* JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。PNG 另一方面會使用無失真壓縮。
+* JPG 使用失真壓縮，意思就是在壓縮時會捨棄一些圖形元素 (像素)。 PNG 另一方面會使用無失真壓縮。
 * JPG 壓縮的相片影像通常比合成影像有更好的真實度，因為具有銳利的邊緣和對比。
 * 如果您的影像具有透明度，請使用 PNG，因為 JPG 不支援透明度。
 
@@ -54,13 +60,13 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 動態縮減影像大小是Dynamic Media影像伺服最常執行的工作之一。 它牽涉到指定大小，以及選擇性指定使用哪一個縮減取樣模式來縮減影像。
 
 * 調整影像大小的最佳且最直接的方法是使用`&wid=<value>`和`&hei=<value>`，或只使用`&hei=<value>`。 這些參數會根據外觀比例自動設定影像寬度。
-* `&resMode=<value>`控制縮減取樣所使用的演演算法。 從`&resMode=sharp2`開始。 此值可提供最好的影像品質。使用縮減取樣值`=bilin`的速度較快，但通常會導致成品產生鋸齒。
+* `&resMode=<value>`控制縮減取樣所使用的演演算法。 從`&resMode=sharp2`開始。 此值可提供最好的影像品質。 使用縮減取樣值`=bilin`的速度較快，但通常會導致成品產生鋸齒。
 
 如需調整影像大小的最佳作法，請使用`&wid=<value>&hei=<value>&resMode=sharp2`或`&hei=<value>&resMode=sharp2`
 
 ## 影像銳利化的最佳實踐 {#best-practices-for-image-sharpening}
 
-影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。請參考下列實用資源，以花時間進一步瞭解銳利化和遮色片銳利化在Adobe Dynamic Media Classic中的運作方式：
+影像銳利化是在網站上控制影像時最複雜的一環，常會發生許多錯誤。 請參考下列實用資源，以花時間進一步瞭解銳利化和遮色片銳利化在Adobe Dynamic Media Classic中的運作方式：
 
 PDF中的最佳做法白皮書，稱為[在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf)。
 
@@ -70,8 +76,8 @@ PDF中的最佳做法白皮書，稱為[在Adobe Dynamic Media Classic和影像�
 
 您可以使用兩種影像銳利化方法：
 
-* 簡單銳利化( `&op_sharpen`)：類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。最佳實務是避免使用`&op_sharpen` （除非必要）。
-* 遮色片銳利化(`&op_USM`)：遮色片銳利化是業界標準的銳利化濾鏡。 最佳實踐就是遵守以下準則並利用遮色片銳利化調整將影像銳利化。遮色片銳利化調整可讓您控制以下三個參數: 
+* 簡單銳利化( `&op_sharpen`)：類似於Photoshop中使用的銳利化濾鏡，簡單銳利化會在動態調整大小後，將基本銳利化套用至影像的最終檢視。 不過，使用者無法設定這個方法。 最佳實務是避免使用`&op_sharpen` （除非必要）。
+* 遮色片銳利化(`&op_USM`)：遮色片銳利化是業界標準的銳利化濾鏡。 最佳實踐就是遵守以下準則並利用遮色片銳利化調整將影像銳利化。 遮色片銳利化調整可讓您控制以下三個參數:
 
    * `&op_sharpen=amount,radius,threshold`
 
@@ -82,27 +88,27 @@ PDF中的最佳做法白皮書，稱為[在Adobe Dynamic Media Classic和影像�
 
       * `threshold` （0-255，效果敏感度。）
 
-        這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
+        這個參數決定銳利化的像素必須與周圍的區域有多大的差異，才會被視為邊緣像素，濾鏡才會予以銳利化。 臨界值利用相似顏色 (如皮膚色調) 避免區域過度銳利化。 例如，閾值為12會忽略膚色亮度的微小變化，以避免加上「雜訊」，同時仍會加上邊緣對比度至高對比區域，例如睫毛與皮膚相遇的區域。
 
         如需如何設定這三個引數的詳細資訊，包括搭配濾鏡使用的最佳實務，請參閱[在Adobe Dynamic Media Classic和影像伺服器上銳利化影像](/help/using/assets/s7_sharpening_images.pdf)。
 
       * Adobe Dynamic Media Classic也可讓您控制第四個引數：單色( `0,1`)。 此引數決定使用值`0`將遮色片銳利化調整分別套用至每個色彩元件，或使用值`1`套用至影像亮度/強度。
 
-最佳實踐就是從遮色片銳利化調整的 radius 參數著手。您可以從以下的 radius 設定開始: 
+最佳實踐就是從遮色片銳利化調整的 radius 參數著手。 您可以從以下的 radius 設定開始:
 
 * 網站: 0.2-0.3 像素
 * 相片列印 (250-300 ppi): 0.3-0.5 像素
 * 偏移列印 (266-300 ppi): 0.7-1.0 像素
 * 畫布列印 (150 ppi): 1.5-2.0 像素
 
-將 amount 從 1.75 逐漸增加至 4。如果銳利化仍未產生您想要的樣子，以小數遞增 radius，並再次將 amount 從 1.75 增加至 4。視需要重複執行
+將 amount 從 1.75 逐漸增加至 4。 如果銳利化仍未產生您想要的樣子，以小數遞增 radius，並再次將 amount 從 1.75 增加至 4。 視需要重複執行
 
 保留 monochrome 參數的設定值 0。
 
 ## JPEG壓縮的最佳作法(`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
-* 這個參數控制 JPG 編碼品質。值愈大表示影像品質愈好，但檔案較大；相反地，值愈小表示影像品質愈差，但檔案較小。此參數的範圍是 0-100。
-* 若要將品質最佳化，請勿將此參數值設為 100。設定90或95與100之間的差異幾乎無法察覺。 然而100會不必要地增加影像檔案的大小。 因此，若要最佳化品質但避免影像檔案變得太大，請將`qlt=`值設為90或95。
+* 這個參數控制 JPG 編碼品質。 值愈大表示影像品質愈好，但檔案較大；相反地，值愈小表示影像品質愈差，但檔案較小。 此參數的範圍是 0-100。
+* 若要將品質最佳化，請勿將此參數值設為 100。 設定90或95與100之間的差異幾乎無法察覺。 然而100會不必要地增加影像檔案的大小。 因此，若要最佳化品質但避免影像檔案變得太大，請將`qlt=`值設為90或95。
 * 若要針對較小的影像檔案大小進行最佳化，但將影像品質維持在可接受的等級，請將`qlt=`值設定為80。 低於 70 至 75 的值會導致影像品質大幅下滑。
 * 若要停留在中間，最佳做法是將`qlt=`值設定為85以停留在中間。
 * 在`qlt=`中使用色度旗標
@@ -129,9 +135,9 @@ JPG壓縮的最佳作法是使用`&qlt=85,0`。
 
 在大多數情況下，這種設定組合會產生卓越的結果。
 
-如果影像需要進一步最佳化，可逐漸微調銳利化 (遮色片銳利化調整) 參數，從 radius 設為 0.2 或 0.3 開始。接著，將 amount 從 1.75 逐漸增加至最大值 4 (相當於 Photoshop 中的 400%)。查看是否得到想要的結果。
+如果影像需要進一步最佳化，請從半徑設定為0.2或0.3開始，逐步微調銳利化（不銳利化遮色片）引數。 然後，逐漸將數量從1.75增加到最大值4 （相當於Photoshop中的400%）。 查看是否得到想要的結果。
 
-如果仍不滿意銳利化的結果，以小數遞增 radius。每一次小數增量，amount 就從 1.75 重新開始逐漸增加至 4。重複這個程序，直到得到想要的結果為止。上述值是經過 Creative Studios 驗證的方法，請記住您可以依循其他策略並從其他值開始。您對於結果的滿意度很主觀，因此，結構化實驗是關鍵。
+如果仍不滿意銳利化的結果，以小數遞增 radius。 每一次小數增量，amount 就從 1.75 重新開始逐漸增加至 4。 重複這個程序，直到得到想要的結果為止。 上述值是經過 Creative Studios 驗證的方法，請記住您可以依循其他策略並從其他值開始。 您對於結果的滿意度很主觀，因此，結構化實驗是關鍵。
 
 實驗時，以下一般建議有助於最佳化您的工作流程：
 

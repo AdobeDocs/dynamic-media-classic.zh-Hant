@@ -10,16 +10,21 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T20:18:31.253Z'
+TQID: 'https://experienceleague.adobe.com/LoxI3OmVOAtiiieHgJpKFwKUHJAn6GUA1x85CHuWtPs'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: 466
 ht-degree: 15%
 
 ---
 
 # 檢視色票集{#viewing-swatch-sets}
 
-可以使用可用預設集在「預覽」視窗中檢視色票集。您可以使用縮放檢視器：色票集的自訂檢視器預設集。
+可以使用可用預設集在「預覽」視窗中檢視色票集。 您可以使用縮放檢視器：色票集的自訂檢視器預設集。
 
 Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
@@ -44,7 +49,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
 ## 在檢視器中預覽色票集 {#previewing-swatch-sets-in-a-viewer}
 
-您可以使用預覽來檢視資產在特定檢視器型別(例如HTML5)中的顯示方式。 根據您選擇要預覽的資產型別和關聯的檢視器，並非所有檢視器型別平台都可在預覽中使用。
+您可以使用預覽來檢視資產在特定檢視器型別（例如HTML5）中的顯示方式。 根據您選擇要預覽的資產型別和關聯的檢視器，並非所有檢視器型別平台都可在預覽中使用。
 
 1. 在左側「資產庫」面板的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中，選取色票集型資產型別，例如&#x200B;**[!UICONTROL 色票集]**。
 1. 在左側的「資產庫」面板中，瀏覽包含要使用檢視器預覽的色票集的資產檔案夾。

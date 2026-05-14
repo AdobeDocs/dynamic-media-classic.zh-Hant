@@ -10,9 +10,14 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:47:10.191Z'
+TQID: 'https://experienceleague.adobe.com/wE2C1kA1I2fYIkXCqMvw-hPWIV5GMcj1Y0-dgkALyyc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 443
 ht-degree: 38%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 38%
 
 您可以在Adobe Dynamic Media Classic中編輯的資產儲存至本機網路磁碟機。 匯出的資產會合併成 ZIP 檔案，適合下載或透過電子郵件傳送。
 
-適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。此外，每個匯出作業最多允許500個總資產。
+適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。 此外，每個匯出作業最多允許500個總資產。
 
 Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄。
 
@@ -56,7 +61,7 @@ Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄�
 * 使用預設集轉換（使用影像預設集來格式化資產）
 * 不使用預設集轉換 (使用匯出對話框來指定影像修飾元)
 
-無法匯出下列資產類型。所有其他會產生匯出。
+無法匯出下列資產類型。 所有其他會產生匯出。
 
 * 影像集
 * 演算集

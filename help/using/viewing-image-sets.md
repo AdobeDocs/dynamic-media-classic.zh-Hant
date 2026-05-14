@@ -10,16 +10,21 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:18:23.477Z'
+TQID: 'https://experienceleague.adobe.com/l-cl9I9W-otYvwidmsnmq5dLwoUDNIgBcntyoIVNuVI'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 500
 ht-degree: 19%
 
 ---
 
 # 檢視影像集{#viewing-image-sets}
 
-您可以在「預覽」視窗中使用可用預設集來檢視影像集。您可以使用縮放檢視器：影像集的自訂檢視器預設集。
+您可以在「預覽」視窗中使用可用預設集來檢視影像集。 您可以使用縮放檢視器：影像集的自訂檢視器預設集。
 
 Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
@@ -45,7 +50,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
 ## 在檢視器中預覽影像集Assets {#previewing-image-set-assets-in-a-viewer}
 
-您可以使用預覽來檢視資產在特定檢視器型別(例如HTML5)中的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「預覽」。
+您可以使用預覽來檢視資產在特定檢視器型別（例如HTML5）中的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「預覽」。
 
 1. 在左側「資產庫」面板的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 影像集]**。
 1. 在左側的「資產庫」面板中，導覽資產檔案夾以選取您要預覽的影像集。

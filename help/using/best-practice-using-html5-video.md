@@ -10,10 +10,15 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T17:39:23.475Z'
+TQID: 'https://experienceleague.adobe.com/wGnoHGEOQLVV-rnoKBOE8wzphK3VaM-vr9YB1Y-gT8c'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 10%
+source-wordcount: 499
+ht-degree: 8%
 
 ---
 
@@ -31,7 +36,7 @@ Adobe Dynamic Media Classic HTML5視訊檢視器預設集是強大的視訊播�
 
 您可以將豐富媒體內容的觸角伸展到桌上型電腦和行動使用者。 您也可以確保簡化的視訊體驗。
 
-另請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
+另請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
 
 另請觀看[檢視器預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)訓練影片。
 
@@ -48,12 +53,12 @@ Adobe Dynamic Media Classic HTML5視訊檢視器預設集是強大的視訊播�
 | 桌上型電腦 | Internet Explorer 9和10 | 漸進式下載。 |
 | 桌上型電腦 | Internet Explorer 11+ | HLS視訊串流。 |
 | 桌上型電腦 | Firefox 23-44 | 漸進式下載。 |
-| 桌上型電腦 | Firefox 45 或更高版本 | HLS視訊串流。 |
+| 桌上型電腦 | Firefox 45或更新版本 | HLS視訊串流。 |
 | 桌上型電腦 | Chrome | HLS視訊串流。 |
 | 桌上型電腦 | Safari (Mac) | HLS視訊串流。 |
-| 行動 | Chrome (Android™ 6或更舊版本) | 漸進式下載。 |
-| 行動 | Chrome (Android™ 7或更新版本) | HLS視訊串流。 |
-| 行動 | Android™ （預設瀏覽器） | 漸進式下載。 |
+| 行動 | Chrome （Android™ 6或更舊版本） | 漸進式下載。 |
+| 行動 | Chrome （Android™ 7或更新版本） | HLS視訊串流。 |
+| 行動 | ™ （預設瀏覽器） | 漸進式下載。 |
 | 行動 | Safari (iOS) | HLS視訊串流。 |
 | 行動 | Chrome (iOS) | HLS視訊串流。 |
 | 行動 | BlackBerry® | HLS視訊串流。 |

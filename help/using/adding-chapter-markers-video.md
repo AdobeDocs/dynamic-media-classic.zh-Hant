@@ -10,9 +10,14 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:37:15.687Z'
+TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 624
 ht-degree: 22%
 
 ---
@@ -25,11 +30,11 @@ ht-degree: 22%
 >
 >視訊播放器必須支援使用章節標籤。
 
-如果要設定[檢視器(HTML5)的章節導覽提示點和章節標題快顯文字，請參閱](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)新增或編輯視訊檢視器預設集`Universal_HTML5_Video`。
+如果要設定`Universal_HTML5_Video`檢視器(HTML5)的章節導覽提示點和章節標題快顯文字，請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
 另請參閱[新增及編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
-為視訊建立章節清單的方式與建立註解的方式非常類似。也就是說，您會建立 WebVTT 檔案。但請注意，該檔案必須與您可能在使用的任何 WebVTT 註解檔案不同；您不能將註解與章節合併在一個 WebVTT 檔案中。
+為視訊建立章節清單的方式與建立註解的方式非常類似。 也就是說，您會建立 WebVTT 檔案。 但請注意，該檔案必須與您可能在使用的任何 WebVTT 註解檔案不同；您不能將註解與章節合併在一個 WebVTT 檔案中。
 
 您可以使用下列範例，做為用來建立含有章節導覽之 WebVTT 檔案的格式範例:
 
@@ -49,9 +54,9 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上述範例中，`Chapter 1`是提示識別碼，而且是選擇性的。 `00:00:000 --> 01:04:364`的提示時間指定章節的開始時間和結束時間，格式為00:00:000。 最後的三個數字為毫秒，如需要可保留為 000。`The bicycle store behind it all`的章節標題是章節內容的實際描述。 當指標停留在視訊時間軸中的視覺提示點上時，提示識別碼、開始提示時間和章節標題都會顯示在視訊播放器的快顯視窗中。
+在上述範例中，`Chapter 1`是提示識別碼，而且是選擇性的。 `00:00:000 --> 01:04:364`的提示時間指定章節的開始時間和結束時間，格式為00:00:000。 最後的三個數字為毫秒，如需要可保留為 000。 `The bicycle store behind it all`的章節標題是章節內容的實際描述。 當指標停留在視訊時間軸中的視覺提示點上時，提示識別碼、開始提示時間和章節標題都會顯示在視訊播放器的快顯視窗中。
 
-因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。章節檔名副檔名為`.VTT`。 您可以深入瞭解有關 WebVTT 註解標準的資訊。
+因為您使用 HTML5 視訊檢視器，請確定您所建立的章節檔案符合 WebVTT (Web Video Text Tracks) 標準。 章節檔名副檔名為`.VTT`。 您可以深入瞭解有關 WebVTT 註解標準的資訊。
 
 請參閱[WebVTT：網頁視訊文字追蹤格式](https://w3c.github.io/webvtt/)。
 

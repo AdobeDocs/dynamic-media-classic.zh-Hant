@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T20:14:40.601Z'
+TQID: 'https://experienceleague.adobe.com/BwQe9AuhBfi-bLCuO-j48kE-3gw9rgtz5GEI9nIBRjE'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 345
 ht-degree: 5%
 
 ---
@@ -37,4 +43,4 @@ ht-degree: 5%
 >
 >所有Adobe Dynamic Media Classic檢視器資料都會顯示於Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中，並彙整成報表。
 
-如需詳細資訊，請參閱[Analytics教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)。
+如需詳細資訊，請參閱[Analytics教學課程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)。

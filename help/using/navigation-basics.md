@@ -10,10 +10,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:05:39.171Z'
+TQID: 'https://experienceleague.adobe.com/DCK4H8boSXIInHtizm4W1MbLLE6jkwizXhi7fHFVWr0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 15%
+source-wordcount: 702
+ht-degree: 16%
 
 ---
 
@@ -31,7 +37,7 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 * **[!UICONTROL 選取公司]**：從功能表中選擇您要存取的公司。 如果您與一家公司合作，則無法使用此按鈕。
 
-* **[!UICONTROL 上傳]**：開啟「上傳」畫面，讓您可以從您的電腦或網路上傳檔案至Adobe Dynamic Media Classic。 您可以從您的案頭或透過FTP上傳檔案。 請參閱[上傳檔案](/help/using/uploading-files.md)。
+* **[!UICONTROL 上傳]**：開啟「上傳」畫面，讓您可以從您的電腦或網路上傳檔案至Adobe Dynamic Media Classic。 您可以從桌上型電腦或是透過 FTP 來上載檔案。 請參閱[上傳檔案](/help/using/uploading-files.md)。
 
 * **[!UICONTROL 建置]**：從功能表選擇建置工作。 會開啟「建置」面板，讓您建立資產類型。
 
@@ -55,9 +61,9 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 ## 資產庫 {#asset-library}
 
-使用「資產庫」來組織您所處理的資產。您可以建立檔案夾和子檔案夾來組織資產庫中的資產。
+使用「資產庫」來組織您所處理的資產。 您可以建立檔案夾和子檔案夾來組織資產庫中的資產。
 
-「資產庫」面板頂端有用來尋找資產的命令。 您可以搜尋資產和篩選器來尋找資產。若要檢查您刪除的資產，請選取資產庫底部的&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;圖示。
+「資產庫」面板頂端有用來尋找資產的命令。 您可以搜尋資產和篩選器來尋找資產。 若要檢查您刪除的資產，請選取資產庫底部的&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;圖示。
 
 >[!NOTE]
 >
@@ -65,7 +71,7 @@ Adobe Dynamic Media Classic畫麵包含三個主要區域：全域導覽列、�
 
 ## 瀏覽面板/建置面板 {#browse-panel-build-panel}
 
-「瀏覽/建置」面板是您進行大部分工作的地方。此面板中可用的功能取決於您處於「瀏覽」模式還是「建置」模式。
+「瀏覽/建置」面板是您進行大部分工作的地方。 此面板中可用的功能取決於您處於「瀏覽」模式還是「建置」模式。
 
 * **[!UICONTROL 瀏覽模式]**：您可以在「瀏覽」面板中檢視及使用資料夾的內容。 在「資產庫」中選取資料夾。 此面板提供&#x200B;**[!UICONTROL 檔案]**、**[!UICONTROL 預覽]**、**[!UICONTROL 全選]**、**[!UICONTROL 全選]**&#x200B;以及&#x200B;**[!UICONTROL 排序]**&#x200B;功能表以使用資產。 您也可以移動滑桿或選取&#x200B;**[!UICONTROL 格線檢視]**、**[!UICONTROL 清單檢視]**&#x200B;或&#x200B;**[!UICONTROL 詳細檢視]**，以不同的方式檢視資產。 選取&#x200B;**[!UICONTROL 詳細資料檢視]**&#x200B;或按兩下資產，在「詳細資料檢視」中開啟資產，您可以在此執行與資產相關的檔案作業。
 

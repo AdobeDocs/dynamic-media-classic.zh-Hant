@@ -10,24 +10,30 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:37:47.692Z'
+TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 50%
+source-wordcount: 1032
+ht-degree: 51%
 
 ---
 
 # 新增和管理Media Portal使用者{#adding-and-managing-media-portal-users}
 
-身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。這些工作都可以在「使用者管理」畫面上完成。若要存取此畫面，請瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
+身為管理員，您可以增加和管理使用者、決定使用者是否能夠變更密碼、編輯使用者資訊，以及上載使用者清單。 這些工作都可以在「使用者管理」畫面上完成。 若要存取此畫面，請瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
 
 >[!NOTE]
 >
->增加使用者之前，請先設定用來管理使用者的群組。Media Portal可讓您將使用者指派至一或多個群組，以新增使用者。 如需詳細資訊，請參閱[建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+>增加使用者之前，請先設定用來管理使用者的群組。 Media Portal可讓您將使用者指派至一或多個群組，以新增使用者。 如需詳細資訊，請參閱[建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
 ## 管理Media Portal密碼 {#handling-media-portal-passwords}
 
-Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎」電子郵件，其中含有您予以註冊時所使用的密碼。管理員可以決定 Media Portal 使用者是否能夠變更此密碼。
+Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎」電子郵件，其中含有您予以註冊時所使用的密碼。 管理員可以決定 Media Portal 使用者是否能夠變更此密碼。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 一般設定]**。
 1. 在「一般設定」頁面上，選取或取消選取&#x200B;**[!UICONTROL 允許 Media Portal 使用者變更密碼]**。
@@ -43,7 +49,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 1. 在[使用者管理]頁面上，選取[**新增**]。
 1. 在&#x200B;**[!UICONTROL `Add User`]**&#x200B;對話方塊的「使用者資訊」面板中，輸入使用者的名字、姓氏及電子郵件地址，然後選取&#x200B;**[!UICONTROL 下一步]**。
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
-1. 在[角色]清單中，選取Media Portal角色，然後選取[下一步] **&#x200B;**。
+1. 在[角色]清單中，選取Media Portal角色，然後選取[下一步] ****。
 
    請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -57,17 +63,17 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 1. 選取&#x200B;**[!UICONTROL 新增使用者]**。
 
-增加使用者之後，Media Portal 會將「歡迎」電子郵件傳送給該使用者。該訊息含有臨時密碼與 Media Portal URL。
+增加使用者之後，Media Portal 會將「歡迎」電子郵件傳送給該使用者。 該訊息含有臨時密碼與 Media Portal URL。
 
 ## 上載 Media Portal 使用者清單 {#uploading-a-media-portal-user-list}
 
-如果您要增加數個使用者，則可以上載使用者清單。使用者會自動增加到目前選取的帳戶中。
+如果您要增加數個使用者，則可以上載使用者清單。 使用者會自動增加到目前選取的帳戶中。
 
-將使用者清單建立為含有使用者資訊的 CSV (逗號分隔值) 檔案。上載清單之後，清單中的使用者就會與指定的群組指派一起自動增加到帳戶中。系統會將「歡迎」電子郵件傳送給每個新使用者，其中包含 Media Portal 的連結與臨時密碼。
+將使用者清單建立為含有使用者資訊的 CSV (逗號分隔值) 檔案。 上載清單之後，清單中的使用者就會與指定的群組指派一起自動增加到帳戶中。 系統會將「歡迎」電子郵件傳送給每個新使用者，其中包含 Media Portal 的連結與臨時密碼。
 
 ### 建立 CSV 檔案 {#create-the-csv-file}
 
-建立符合下列格式與欄位的 CSV 檔案 (filename.csv)。檔案的第一列必須包含此表格列出的欄標題；您可以視需要排序這些欄。所有欄都是必要欄。
+建立符合下列格式與欄位的 CSV 檔案 (filename.csv)。 檔案的第一列必須包含此表格列出的欄標題；您可以視需要排序這些欄。 所有欄都是必要欄。
 
 | 欄名稱 | 說明 |
 |--- |--- |
@@ -76,7 +82,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 | 電子郵件 | 有效的電子郵件地址。 |
 | 密碼 | 區分大小寫的密碼字串。 |
 | 使用者角色 | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
-| 群組 | 為每個使用者指定的一或多個帳戶群組的清單 (以逗號分隔)。您可以透過為帳戶名稱添加字首以指定群組，並以正斜線 (/) 區隔之。例如，若 PortalCo 為帳戶而 IT 為 PortalCo 帳戶內的群組，則為「PortalCo/IT」。 |
+| 群組 | 為每個使用者指定的一或多個帳戶群組的清單 (以逗號分隔)。 您可以透過為帳戶名稱添加字首以指定群組，並以正斜線 (/) 區隔之。 例如，若 PortalCo 為帳戶而 IT 為 PortalCo 帳戶內的群組，則為「PortalCo/IT」。 |
 
 下列範例試算表示範如何配置 CSV 檔案:
 
@@ -89,7 +95,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 1. 開啟「使用者管理設定」畫面。
 1. 選取&#x200B;**[!UICONTROL 上載使用者清單]**。
-1. 在[選取要上載的檔案]對話方塊中，選取CSV檔案，然後選取[開啟]。**&#x200B;**
+1. 在[選取要上載的檔案]對話方塊中，選取CSV檔案，然後選取[開啟]。****
 
 清單中的每個使用者都會自動新增至指定的群組。 系統會將「歡迎」電子郵件傳送給每個使用者。
 
@@ -99,7 +105,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 ## 產生 Media Portal 使用者的可選取清單 {#generating-a-selectable-list-of-media-portal-users}
 
-您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
+您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。 這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
 1. 在&#x200B;**[!UICONTROL 依使用者角色]**&#x200B;下拉式清單中，選擇Media Portal使用者角色的名稱，然後選取&#x200B;**[!UICONTROL 重新整理]**&#x200B;以顯示一個Media Portal使用者類別的名稱。
@@ -107,7 +113,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 ## 設定 Media Portal 使用者的「歡迎」電子郵件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。您可以設定此電子郵件訊息，或告訴Adobe Dynamic Media Classic不要傳送。
+新增 Media Portal 使用者、參與者及參與者 - 使用者時，可以傳送「歡迎」電子郵件。 您可以設定此電子郵件訊息，或告訴Adobe Dynamic Media Classic不要傳送。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
 1. 在使用者管理設定畫面中，選取&#x200B;**[!UICONTROL 電子郵件設定]**。

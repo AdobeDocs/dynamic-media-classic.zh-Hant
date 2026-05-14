@@ -10,16 +10,21 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:17:31.090Z'
+TQID: 'https://experienceleague.adobe.com/JPVFAyUa8a6NkXUpb1mfUT4jNQqmi86T-CmsZTinYos'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 16%
+source-wordcount: 227
+ht-degree: 15%
 
 ---
 
 # 上傳縮放影像{#uploading-zoom-images}
 
-縮放影像必須具有高像素。需要大量畫素，以便檢視者在縮放影像時可以清楚檢視影像詳細資料。 上傳至Adobe Dynamic Media Classic之前，請確定您使用的影像大小適當。
+縮放影像必須具有高像素。 需要大量畫素，以便檢視者在縮放影像時可以清楚檢視影像詳細資料。 上傳至Adobe Dynamic Media Classic之前，請確定您使用的影像大小適當。
 
 在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**&#x200B;以開始上傳影像。
 
@@ -33,7 +38,7 @@ ht-degree: 16%
 
 * **檔案格式**： Adobe Dynamic Media Classic支援所有標準影像檔案格式。 格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建議使用無損影像格式 — TIFF和PNG。 如果您使用JPEG影像，請使用最高品質設定。
 
-* **色域**： RGB是Web影像簡報的色域；當您上傳CMYK影像時，系統會自動將其轉換為RGB。 建議上載含有內嵌 ICC 色彩設定檔的 CMYK 影像，以供轉換為 RGB。另請參閱ICC設定檔。
+* **色域**： RGB是Web影像簡報的色域；當您上傳CMYK影像時，系統會自動將其轉換為RGB。 建議上載含有內嵌 ICC 色彩設定檔的 CMYK 影像，以供轉換為 RGB。 另請參閱ICC設定檔。
 
 >[!MORELIKETHIS]
 >

@@ -10,10 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:43:46.184Z'
+TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 30%
+source-wordcount: 990
+ht-degree: 31%
 
 ---
 
@@ -46,7 +52,7 @@ ht-degree: 30%
      >
      >若要依名稱 (而非縮圖) 來檢視資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選取「名稱」選項。
 
-1. 為 eCatalog 選取整體版面。選取&#x200B;**[!UICONTROL 1 Up]**&#x200B;代表單頁，**[!UICONTROL 2 Up]**&#x200B;代表雙頁跨頁，或&#x200B;**[!UICONTROL 自訂]**&#x200B;代表超過兩頁的頁面跨頁。 在&#x200B;**[!UICONTROL 變更eCatalog配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 所有跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
+1. 為 eCatalog 選取整體版面。 選取&#x200B;**[!UICONTROL 1 Up]**&#x200B;代表單頁，**[!UICONTROL 2 Up]**&#x200B;代表雙頁跨頁，或&#x200B;**[!UICONTROL 自訂]**&#x200B;代表超過兩頁的頁面跨頁。 在&#x200B;**[!UICONTROL 變更eCatalog配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 所有跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
 1. 選擇是否變更個別頁面或跨頁版面配置，方法是選取個別頁面或跨頁版面配置，然後選擇&#x200B;**[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**&#x200B;按鈕。 在&#x200B;**[!UICONTROL 變更eCatalog版面配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 選取的跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
@@ -58,7 +64,7 @@ ht-degree: 30%
 
 1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
-1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。在「檔案名稱」欄位中，輸入「迴轉集」名稱。
+1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。 在「檔案名稱」欄位中，輸入「迴轉集」名稱。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
    儲存eCatalog之後，您可以選取&#x200B;**[!UICONTROL 預覽]**&#x200B;來預覽。
@@ -70,7 +76,7 @@ ht-degree: 30%
 | 已發佈集? | 儲存編輯內容前，是否已選取「儲存後發佈」選項？ | 儲存後集的狀態 | 儲存後集成員的狀態 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈 |
-| 是 | 否 | 已發佈 | 現有整合員會保留其已發佈狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
+| 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 | 否 | 是 | 已發佈 | 已發佈 |
 | 否 | 否 | 未發佈 | 現有的集成員和在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
 
@@ -85,7 +91,7 @@ ht-degree: 30%
 
 ## 刪除eCatalog
 
-刪除集時，便會將集本身移到垃圾桶。不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+刪除集時，便會將集本身移到垃圾桶。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
@@ -96,9 +102,9 @@ ht-degree: 30%
 
 ## 自訂目錄（目錄） {#customizing-the-table-of-contents-toc}
 
-Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。建議重新命名封面與封底。例如，封面可以閱讀「封面」而非「第0-1頁」。
+Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，提供eCatalog中的預設頁碼。 如需自訂頁面名稱，您可以變更組成目錄 (TOC) 的頁面標籤。 建議重新命名封面與封底。 例如，封面可以閱讀「封面」而非「第0-1頁」。
 
-您可以手動建立eCatalog的自訂目錄(TOC)。 或者，您也可以從CSV (僅限Mac)或XML檔案匯入頁面名稱。
+您可以手動建立eCatalog的自訂目錄(TOC)。 或者，您也可以從CSV （僅限Mac）或XML檔案匯入頁面名稱。
 
 >[!NOTE]
 >
@@ -110,7 +116,7 @@ Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，
 
 ### 匯入頁面名稱 {#importing-page-names}
 
-如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
+如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。 您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
 TOC標籤儲存在影像的使用者資料欄位中；將此資料格式化為`name=<value>` ` pairs separated by two question marks "??" `的清單。 例如，若要為名為`tocEN`的目錄欄位設定一個標籤，請將影像的使用者資料設定為：
 
@@ -134,4 +140,4 @@ TOC標籤儲存在影像的使用者資料欄位中；將此資料格式化為`n
 </ips>
 ```
 
-若要從以Tab分隔的檔案或XML檔案匯入頁面名稱，請選取&#x200B;**[!UICONTROL 目錄標籤]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 匯入]**。 在「上載中繼資料」對話方塊中，選取&#x200B;**[!UICONTROL 瀏覽]**，然後匯入CSV檔案(僅限Mac)或使每個頁面與頁面名稱相關聯的XML檔案。
+若要從以Tab分隔的檔案或XML檔案匯入頁面名稱，請選取&#x200B;**[!UICONTROL 目錄標籤]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 匯入]**。 在「上載中繼資料」對話方塊中，選取&#x200B;**[!UICONTROL 瀏覽]**，然後匯入CSV檔案（僅限Mac）或使每個頁面與頁面名稱相關聯的XML檔案。

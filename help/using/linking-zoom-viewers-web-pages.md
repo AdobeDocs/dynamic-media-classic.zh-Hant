@@ -10,16 +10,22 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:57.696Z'
+TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 21%
+source-wordcount: 698
+ht-degree: 20%
 
 ---
 
 # 將縮放檢視器連結至您的網頁{#linking-zoom-viewers-to-your-web-pages}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像和相關聯的縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
+您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像和相關聯的縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。 若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
 
 >[!NOTE]
 >
@@ -30,7 +36,7 @@ ht-degree: 21%
 1. 在左側的「資產庫」面板中，導覽至含有您要複製其 URL 之縮放檢視器的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的「URL和內嵌程式碼」面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;或&#x200B;**[!UICONTROL 清單檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的「URL和內嵌程式碼」面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在「檢視器清單」頁面中，在表格的「動作」欄下，選取「**[!UICONTROL 複製URL]**」。
@@ -47,7 +53,7 @@ ht-degree: 21%
 
 通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 彈出式視窗是訪客實際縮放該影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製縮放檢視器的內嵌復本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -58,7 +64,7 @@ ht-degree: 21%
 1. 在左側的「資產庫」面板中，導覽至包含您要複製其內嵌程式碼的縮放檢視器的資產資料夾。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
-   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。在右側的URL和內嵌程式碼面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的URL和內嵌程式碼面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
    * 選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
 
      在[檢視器清單]頁面的[動作]資料表欄下，選取&#x200B;**[!UICONTROL 內嵌程式碼]**。

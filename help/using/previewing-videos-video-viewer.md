@@ -10,10 +10,15 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:07:44.590Z'
+TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 21%
+source-wordcount: 870
+ht-degree: 19%
 
 ---
 
@@ -32,7 +37,7 @@ ht-degree: 21%
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產」視窗中，暫留在資產上，然後選取「**[!UICONTROL 預覽]**」。
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗的資產縮圖視窗中，選取&#x200B;**[!UICONTROL 預覽]**。
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 詳細資料檢視]**。 在相同工具列上，選取&#x200B;**[!UICONTROL 預覽]**。
-   * 在「資產」視窗中選取資產。在工具列中，移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**。
+   * 在「資產」視窗中選取資產。 在工具列中，移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**。
 
 1. （可選）在預覽視窗底部的下拉式清單中，選取複製資產時套用至資產URL的URL編碼。
 1. 選取&#x200B;**[!UICONTROL 預覽]**&#x200B;連結，以便在選取的檢視器中檢閱資產。
@@ -41,11 +46,11 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。不過請注意，在案頭預覽中看到的內容不會實際顯示行動裝置上的播放外觀。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面。 按一下&#x200B;**[!UICONTROL 複製URL]**，然後在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱[將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>Adobe Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。 不過請注意，在案頭預覽中看到的內容不會實際顯示行動裝置上的播放外觀。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面。 按一下&#x200B;**[!UICONTROL 複製URL]**，然後在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱[將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
-使用者在視訊檢視器觀看視訊。視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。在「預覽」畫面上選擇一種「檢視器預設集」。選擇預設集後，您可以使用所選的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
+使用者在視訊檢視器觀看視訊。 視訊檢視器的工作方式、外觀以及其播放控制項的工作方式都取決於您為播放視訊選擇的「檢視器預設集」。 在「預覽」畫面上選擇一種「檢視器預設集」。 選擇預設集後，您可以使用所選的檢視器預設集取得播放視訊所需的URL或內嵌程式碼。
 
 Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可供您播放視訊，如果您是管理員，可以建立自訂檢視器預設集。 設定Video Viewer有12種以上的不同設定。 您可以設定其大小、色彩、視訊和音訊控制項、進度列、使用者介面外觀和社交功能。
 
@@ -55,7 +60,7 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 
 ### 新增或編輯視訊檢視器預設集 {#adding-or-editing-a-video-viewer-preset}
 
-您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。您也可以新增及編輯自己的自訂檢視器預設集，或編輯Adobe Dynamic Media Classic隨附的現有檢視器預設集。
+您可以使用「檢視器預設集」來查看不同的檢視器類型及其預先定義的設定。 您也可以新增及編輯自己的自訂檢視器預設集，或編輯Adobe Dynamic Media Classic隨附的現有檢視器預設集。
 
 在檢視器預設集中，您可以啟動、篩選、排序和預覽檢視器預設集。
 

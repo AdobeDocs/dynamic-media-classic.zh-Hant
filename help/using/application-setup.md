@@ -10,9 +10,15 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
+autotag-review: '2026-05-13T17:38:37.961Z'
+TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '11377'
+source-wordcount: 11377
 ht-degree: 27%
 
 ---
@@ -161,7 +167,7 @@ Adobe Dynamic Media Classic不允許兩個檔案具有相同名稱。 每個專�
 
 若要開啟「影像預設集」畫面，請在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 影像預設集]**。
 
-請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 ### 建立和編輯影像預設集 {#creating-and-editing-image-presets}
 
@@ -436,7 +442,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 您可以將多媒體內容的觸角伸展至桌上型電腦、平板電腦和行動使用者，並確保提供簡化的視訊體驗。
 
-請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
+請參閱HTML檢視器參考指南中的[關於Adobe5檢視器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
 
 請參閱[Adobe Dynamic Media Classic檢視器預設集相容性對照表](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -450,7 +456,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 不同的網頁有不同的需求。 有時候，您會想要有網頁提供連結，在個別瀏覽器視窗中開啟HTML5檢視器。 在其他情況下，需要直接將HTML5 Viewer內嵌在託管頁面上。 在後一種情況下，網頁可能會有靜態配置。 或是「回應式」功能，且在不同裝置或不同瀏覽器視窗大小中顯示的方式有所不同。 為因應這些需求，Adobe Dynamic Media Classic隨附的HTML5檢視器同時支援靜態網頁和回應式設計的網頁。
 
-有關如何將回應式檢視器內嵌到網頁上的詳細資訊，請參閱[關於回應式影像庫](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用回應式影像庫](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令參考：命令屬性](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
+有關如何將回應式檢視器內嵌到網頁上的詳細資訊，請參閱[關於回應式影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用回應式影像庫](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令參考：命令屬性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
 
 ### 檢視器預設集類型 {#viewer-preset-types}
 
@@ -494,7 +500,7 @@ Adobe Dynamic Media Classic提供最適化視訊編碼預設集。 這是將16:9
 
 如需有關檢視器支援的網頁瀏覽器和作業系統版本的資訊，您可以檢閱「檢視器發行說明」。
 
-請參閱[Adobe檢視器參考發行說明](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)。
+請參閱[Adobe檢視器參考發行說明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
 
 |  | 檢視器技術 | 桌上型電腦 | Apple iPhone | Apple iPad | ™智慧型手機 | ™平板電腦 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -576,7 +582,7 @@ Adobe Dynamic Media Classic支援MP4 H.264視訊的行動視訊播放。
 
 * **刪除預設集**：選取預設集，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
-* **匯出預設集**：選取HTML5檢視器預設集。 然後按一下[匯出]&#x200B;**&#x200B;**&#x200B;下載檢視器外觀元素，以將其作為建立及新增其他檢視器預設集的基礎。
+* **匯出預設集**：選取HTML5檢視器預設集。 然後按一下[匯出]****&#x200B;下載檢視器外觀元素，以將其作為建立及新增其他檢視器預設集的基礎。
 
   請參閱[匯出HTML5檢視器預設集](application-setup.md#exporting_an_html5_viewer_preset)。
 
@@ -938,7 +944,7 @@ Adobe Dynamic Media Classic使用批次集預設集將共用某些一般資訊�
 
 **若要建立批次集預設集：**
 
-1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**。**[!UICONTROL 檢視表單]** （在[詳細資料]頁面的右上角設定）是預設檢視。
+1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**。 「**[!UICONTROL 檢視表單]**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中，選取&#x200B;**[!UICONTROL 新增]**&#x200B;以啟動頁面右側「詳細資料」面板中的定義欄位。
 1. 在「詳細資料」面板的「預設集名稱」欄位中，輸入預設集的名稱。
 1. 在「批次集類型」下拉式功能表中，選取預設集類型。
@@ -987,12 +993,12 @@ spin-03-12
 
 **若要建立批次集預設集以自動產生2D迴轉集：**
 
-1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**。**[!UICONTROL 檢視表單]** （在[詳細資料]頁面的右上角設定）是預設檢視。
+1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 批次集預設集]** > **[!UICONTROL 批次集預設集]**。 「**[!UICONTROL 檢視表單]**」(設定於「詳細資料」頁面的右上角) 是預設檢視。
 1. 在「預設集清單」面板中，選取&#x200B;**[!UICONTROL 新增]**&#x200B;以啟動頁面右側「詳細資料」面板中的定義欄位。
 1. 在「詳細資料」面板的「預設集名稱」欄位中，輸入預設集的名稱。
 1. 在「批次集類型」下拉式功能表中，選取「**[!UICONTROL 資產集]**」。
 1. 在「子型別」下拉式清單中，選取&#x200B;**[!UICONTROL 多軸迴轉集]**。
-1. 展開&#x200B;**[!UICONTROL 資產命名慣例]**，然後在[檔案命名]下拉式清單中，選取[自訂]&#x200B;**&#x200B;**。
+1. 展開&#x200B;**[!UICONTROL 資產命名慣例]**，然後在[檔案命名]下拉式清單中，選取[自訂]****。
 1. 使用「**[!UICONTROL 符合]**」，並選擇性地使用「**[!UICONTROL 基本名稱]**」屬性，定義用來為組成群組的影像資產命名的規則運算式。
 
    例如，您的常值Match規則運算式可能如下所示：

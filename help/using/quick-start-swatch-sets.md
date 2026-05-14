@@ -10,10 +10,15 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: 402
+ht-degree: 21%
 
 ---
 
@@ -23,29 +28,29 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 此色票集快速入門旨在協助您快速上手，並使用Adobe Dynamic Media Classic中的色票集技術。
 
-## 1.上傳影像和色票檔案
+## &#x200B;1. 上傳影像和色票檔案
 
 首先為色票集上載影像和色票檔案。
 
 在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。 請參閱[準備要上傳的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上傳您的檔案](uploading-files.md#uploading-your-files)。
 
-## 2.建立色票集
+## &#x200B;2. 建立色票集
 
 若要建立色票集，請在全域導覽列上，前往&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 色票集]**。 在「色票集」頁面上，將影像和色票拖曳至頁面。 請參閱[建立色票集](creating-swatch-set.md#creating-a-swatch-set)。
 
-## 3.設定色票集檢視器預設集
+## &#x200B;3. 設定色票集檢視器預設集
 
-管理員可以建立或修改影像集檢視器預設集。Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
+管理員可以建立或修改影像集檢視器預設集。 Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
-## 4.預覽色票集
+## &#x200B;4. 預覽色票集
 
 在「瀏覽」面板中選取「色票集」，然後選取「**[!UICONTROL 預覽]**」。 您的色票集會顯示在此頁面上。 選取縮圖和色票圖示，以便您可以在選取的檢視器中檢查色票集。 您可以從「預設集」選單選擇不同的檢視器。
 
 請參閱[預覽資產](previewing-asset.md#previewing-an-asset)。
 
-## 5.發佈色票集
+## &#x200B;5. 發佈色票集
 
 發佈色票集會將它置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
@@ -53,8 +58,8 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 請參閱[發佈檔案](publishing-files.md#publishing-files)。
 
-## 6.將色票集連結至網頁
+## &#x200B;6. 將色票集連結至網頁
 
 Adobe Dynamic Media Classic會為色票集建立URL呼叫，並在您發佈後啟用。 您可以從「預覽」頁面複製這些URL。
 
-選取「色票集」，然後選取「預覽」按鈕。「預覽」頁面隨即開啟。 選取一個色票集檢視器預設集，然後選取「複製 URL」按鈕。請參閱[連結色票集至網頁](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
+選取「色票集」，然後選取「預覽」按鈕。 「預覽」頁面隨即開啟。 選取一個色票集檢視器預設集，然後選取「複製 URL」按鈕。 請參閱[連結色票集至網頁](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
