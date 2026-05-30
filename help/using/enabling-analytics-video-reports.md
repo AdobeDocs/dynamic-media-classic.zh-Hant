@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * Adobe Analytics視訊報表與Adobe Dynamic Media Classic的整合可支援解決方案變數，但不支援自訂變數。
 
-  如需解決方案變數和自訂變數的詳細資訊，請參閱[音訊和視訊引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters)。
+  如需解決方案變數和自訂變數的詳細資訊，請參閱[音訊和視訊引數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/audio-video-parameters)。
 
 * 支援一分鐘遞增的現成區段。 但是，不支援自訂區段報告，例如根據時間增量、百分比里程碑或位移里程碑的客戶定義里程碑。
 
