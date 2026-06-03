@@ -21,9 +21,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 241
 ht-degree: 52%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 52%
 
    若要上載媒體資產，您需要列於「現有帳戶」表格中的「FTP 帳戶使用者名稱」，以及指定給該帳戶的密碼。
 
-   請參閱[上傳檔案](uploading-files.md#uploading_files)。
+   請參閱主題[上傳檔案](uploading-files.md#uploading_files)。
 
 ## 刪除現有的FTP帳戶 {#deleting-an-existing-ftp-account}
 
