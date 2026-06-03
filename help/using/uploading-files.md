@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3571
+source-wordcount: 3681
 ht-degree: 22%
 
 ---
@@ -158,6 +158,18 @@ Adobe Dynamic Media Classic不提供產生靜態內容預覽URL的選項。
 **以專案為基礎**：資料夾會根據轉出/卸除日期或專案名稱來整理。 主要產生 eCatalog 的客戶喜歡使用這種方法。
 
 **網站資料夾階層的映象**：此資料夾結構會映象網站的資料夾結構，具有名稱為的資料夾（例如，產品類別）。
+
+### FTP安全性 {#about-ftp-security}
+
+Dynamic Media Classic會針對FTP存取強制執行以下安全性原則：
+
+| 安全性原則 | 說明 |
+| --- | --- |
+| 使用者隔離 | 每個FTP使用者受限於自己的目錄，且無法存取屬於其他使用者的目錄。 |
+| 不重複帳戶 | 每個FTP使用者或整合都需要專用的FTP帳戶。 不允許共用帳戶。 請參閱[管理FTP帳戶](/help/using/ftp-accounts.md)。 |
+| 設定基準線 | FTP伺服器設定需遵循既定的安全性基準。 |
+| 進行中的稽核 | FTP伺服器應用程式和基礎作業系統會定期稽核及監控安全漏洞，並視需要更新。 |
+| *新*&#x200B;客戶的安全FTP | 新客戶已布建安全FTP。 *現有*&#x200B;客戶仍可存取舊版FTP。 |
 
 ## 關於上傳檔案 {#uploading-your-files}
 
