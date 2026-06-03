@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
+source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
 workflow-type: tm+mt
-source-wordcount: 3570
+source-wordcount: 3571
 ht-degree: 22%
 
 ---
@@ -167,11 +167,11 @@ Adobe Dynamic Media Classic會傳送電子郵件給您，以確認上傳工作�
 
 在大型上載工作期間（或緊接之後），某些新專案可能會顯示「影像尚未最佳化」訊息。 出現此訊息是因為檔案尚未完全處理並新增至Adobe Dynamic Media Classic。 您可以稍後將這些檔案最佳化。 請參閱[最佳化檔案](application-setup.md#optimize_files)。
 
-### FTP安全性 {#about-ftp-security}
+### FTP安全性 {#ftp-security}
 
 Dynamic Media Classic會針對FTP存取強制執行以下安全性原則：
 
-| 原則 | 說明 |
+| 安全性原則 | 說明 |
 | --- | --- |
 | 使用者隔離 | 每個FTP使用者受限於自己的目錄，且無法存取屬於其他使用者的目錄。 |
 | 不重複帳戶 | 每個FTP使用者或整合都需要專用的FTP帳戶。 不允許共用帳戶。 請參閱[管理FTP帳戶](/help/using/ftp-accounts.md)。 |
