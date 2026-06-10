@@ -30,9 +30,9 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic也提供下列說明檔案：
 
-**使用Adobe Dynamic Media Classic Media Portal**： Adobe Dynamic Media Classic Media Portal是瀏覽器式的環境，入口網站使用者可透過公司核准的格式，輕鬆上傳、瀏覽、搜尋、預覽及匯出資產。 請參閱[https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)。
+**使用Adobe Dynamic Media Classic Media Portal**： Adobe Dynamic Media Classic Media Portal是瀏覽器式的環境，入口網站使用者可透過公司核准的格式，輕鬆上傳、瀏覽、搜尋、預覽及匯出資產。 請參閱[https://help.adobe.com/zh_TW/scene7/mediaportal/](https://help.adobe.com/zh_TW/scene7/mediaportal/)。
 
 <!-- 
 Is this topic still needed? -rb 04/22/21
- used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/
+ used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/zh_TW/scene7/mediaportal/
 -->
