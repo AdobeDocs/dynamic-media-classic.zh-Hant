@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # 新增註解至視訊 {#add-captions-to-video}
 
-將視訊的觸角伸展至全球市場。 若要這麼做，您可以在單一視訊或最適化視訊集新增字幕。 您可增加字幕，如此一來便無須為音訊配音或請本地人重新以不同語言錄製音訊。 以錄製的語言播放視訊。 畫面會出現外國語言字幕，以便使用不同語言的人瞭解音訊部份的內容。
+讓您的影片在全球市場都能觀看。 若要這麼做，您可以在單一視訊或最適化視訊集新增字幕。 加入字幕後，您就不需要對音訊進行配音，或是使用原聲演唱師來錄製每種語言的音訊。 視訊會以其原始語言播放。 翻譯字幕的出現，讓不同語言的人仍然可以瞭解音訊部分。
 
 為有聽力障礙或重聽問題的使用者提供隱藏式字幕，註解功能可提供更佳的協助工具服務。
 
@@ -46,9 +42,9 @@ ht-degree: 15%
 
 另請參閱[新增及編輯檢視器預設集](application-setup.md#adding_and_editing_viewer_presets)。
 
-Adobe Dynamic Media Classic可以將註解檔案轉換為JSON （JavaScript物件標籤法）格式。 此轉換表示您可以將JSON文字內嵌至網頁，做為影片隱藏但完整的文字記錄。 搜尋引擎接著可以抓取和索引內容，讓視訊更容易被找到，並為客戶提供更多有關視訊內容的詳細資訊。
+Adobe Dynamic Media Classic可以將註解檔案轉換為JSON （JavaScript物件標籤法）格式。 此轉換可讓您將JSON文字內嵌到網頁中，做為視訊的隱藏但完整記錄。 搜尋引擎接著可以抓取和索引內容，讓視訊更容易被找到，並為客戶提供更多有關視訊內容的詳細資訊。
 
-請參閱中的[提供靜態（非影像）內容](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)，以取得在URL中使用JSON函式的詳細資訊。
+如需在URL中使用JSON函式的詳細資訊，請參閱[提供靜態（非影像）內容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
 
 **若要在視訊中新增字幕：**
 
@@ -64,17 +60,17 @@ Adobe Dynamic Media Classic可以將註解檔案轉換為JSON （JavaScript物�
 
 1. 在左側的「資產庫」面板中，導覽至包含視訊檔案的資產資料夾，以與您上傳的註解檔案建立關聯。
 1. 在「資產瀏覽」面板中，選取單一視訊資產，然後在資產的縮圖影像下方選取&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。
-1. 在檢視器清單表格中，找到名為&#x200B;**Univeral_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5檢視器，然後執行下列任一項作業：
+1. 在檢視器清單表格中，找到名為&#x200B;**Universal_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5檢視器，然後執行下列任一項作業：
 
-   * 若要取得快顯視訊檢視器體驗，請選取名稱最右邊的&#x200B;**[!UICONTROL 複製URL]**。
+   * 若要取得快顯視訊檢視器體驗，請選取名稱右側的&#x200B;**[!UICONTROL 複製URL]**。
 
-     使用以下語法附加複製的視訊URL，以便將其與複製的標題URL建立關聯：
+     將下列語法附加至視訊的複製URL，以便將其與註解檔案建立關聯：
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      記下標題URL路徑結尾的`,1`。 在路徑中的VTT副檔名後面緊接著可以選擇性啟用或停用視訊播放器列上的隱藏式字幕按鈕，方法是分別設定為`1`或`0`。
 
-   * 若要內嵌視訊檢視器體驗，請選取名稱最右邊的&#x200B;**[!UICONTROL 內嵌程式碼]**。
+   * 若要內嵌視訊檢視器體驗，請選取名稱右側的&#x200B;**[!UICONTROL 內嵌程式碼]**。
 
      在「內嵌程式碼」對話方塊中，選取&#x200B;**[!UICONTROL 複製到剪貼簿]**。
 
