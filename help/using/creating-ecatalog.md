@@ -12,25 +12,20 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
 # 建立 eCatalog {#creating-an-ecatalog}
 
-建立eCatalog需要排序頁面、選擇頁面版面配置，以及透過繪製「影像地圖」來連結頁面。 此外還需要輸入滑鼠指向效果與超文字連結資料。 或者，您也可以自訂目錄 (TOC)，如此一來，檢視者就會在 eCatalog 檢視器中看到頁面名稱，而非頁碼。
+建立eCatalog需要排序頁面、選擇頁面配置，以及透過繪製「影像地圖」來連結頁面。 此外還需要輸入滑鼠指向效果與超文字連結資料。 或者，您也可以自訂目錄 (TOC)，如此一來，檢視者就會在 eCatalog 檢視器中看到頁面名稱，而非頁碼。
 
 ## 建立eCatalog {#create}
 
@@ -58,21 +53,21 @@ ht-degree: 31%
      >若要依名稱 (而非縮圖) 來檢視資產庫中的項目，請為「個人設定」中的「預設資產庫視圖」選取「名稱」選項。
 
 1. 為 eCatalog 選取整體版面。 選取&#x200B;**[!UICONTROL 1 Up]**&#x200B;代表單頁，**[!UICONTROL 2 Up]**&#x200B;代表雙頁跨頁，或&#x200B;**[!UICONTROL 自訂]**&#x200B;代表超過兩頁的頁面跨頁。 在&#x200B;**[!UICONTROL 變更eCatalog配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 所有跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
-1. 選擇是否變更個別頁面或跨頁版面配置，方法是選取個別頁面或跨頁版面配置，然後選擇&#x200B;**[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**&#x200B;按鈕。 在&#x200B;**[!UICONTROL 變更eCatalog版面配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 選取的跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
+1. 選擇是否變更個別頁面或跨頁版面配置，方法是選取個別頁面或跨頁版面，然後選擇&#x200B;**[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**&#x200B;按鈕。 在&#x200B;**[!UICONTROL 變更eCatalog配置]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 選取跨頁]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 確定]**。
 1. 視需要使用下列其中一個技巧來重新排序頁面:
 
-   * **拖曳**：將頁面或跨頁拖曳到新位置。 垂直列會顯示移動頁面的位置。
+   * **拖曳**：將頁面或跨頁拖曳到新位置。 垂直列會指出頁面移動到的位置。
 
-   * **移動至按鈕**：選取頁面或跨頁，選取&#x200B;**[!UICONTROL 移動至]**，然後在功能表上選取您想讓頁面在之前顯示的頁面。
+   * **移動至按鈕**：選取頁面或跨頁，選取&#x200B;**[!UICONTROL 移動至]**，然後在功能表上選擇要顯示頁面的頁面。
 
-   * **序號#**：在清單檢視中，在序號#的欄位中輸入頁碼。
+   * **序號#**：在清單檢視中，在「序號」欄位中輸入頁碼。
 
 1. 完成時（在頁面的右下角附近），請確定已選取&#x200B;**[!UICONTROL 儲存後發佈]** （預設）。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
-1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。 在「檔案名稱」欄位中，輸入「迴轉集」名稱。
+1. 在「儲存」對話框中，選取一個檔案夾來儲存 eCatalog。 在「檔案名稱」欄位中，輸入eCatalog名稱。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
-   儲存eCatalog之後，您可以選取&#x200B;**[!UICONTROL 預覽]**&#x200B;來預覽。
+   選取&#x200B;**[!UICONTROL 預覽]**，在儲存eCatalog之後即可預覽。
 
 ## 編輯eCatalog {#editing-an-ecatalog}
 
@@ -96,7 +91,7 @@ ht-degree: 31%
 
 ## 刪除eCatalog
 
-刪除集時，便會將集本身移到垃圾桶。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+刪除集合時，集合本身會移至已刪除專案資料夾。 該集內的成員不受影響；每個成員都會保留其現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
@@ -121,9 +116,9 @@ Adobe Dynamic Media Classic會在eCatalog畫面的「訂購頁面」標籤上，
 
 ### 匯入頁面名稱 {#importing-page-names}
 
-如果您處理的 eCatalog 包含多個頁面，建議使用匯入頁面名稱。 您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
+如果您使用包含許多頁面的eCatalog，建議匯入頁面名稱。 您可以從 Tab 字元分隔檔案或 XML 檔案匯入名稱。
 
-TOC標籤儲存在影像的使用者資料欄位中；將此資料格式化為`name=<value>` ` pairs separated by two question marks "??" `的清單。 例如，若要為名為`tocEN`的目錄欄位設定一個標籤，請將影像的使用者資料設定為：
+目錄標籤儲存在影像的使用者資料欄位中；將此資料格式化為`name=<value>`對的清單，以兩個問號「??」分隔。 例如，若要為名為`tocEN`的目錄欄位設定一個標籤，請將影像的使用者資料設定為：
 
 `tocEN=&lt;EN_page_label>`
 
