@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -55,7 +49,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 1. 在[使用者管理]頁面上，選取[**新增**]。
 1. 在&#x200B;**[!UICONTROL `Add User`]**&#x200B;對話方塊的「使用者資訊」面板中，輸入使用者的名字、姓氏及電子郵件地址，然後選取&#x200B;**[!UICONTROL 下一步]**。
 1. 在「公司/角色」面板的「公司」下拉式清單中，選取該使用者的一或多個公司。
-1. 在[角色]清單中，選取Media Portal角色，然後選取[下一步] **&#x200B;**。
+1. 在[角色]清單中，選取Media Portal角色，然後選取[下一步] ****。
 
    請參閱[Media Portal 使用者角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -101,7 +95,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 1. 開啟「使用者管理設定」畫面。
 1. 選取&#x200B;**[!UICONTROL 上載使用者清單]**。
-1. 在[選取要上載的檔案]對話方塊中，選取CSV檔案，然後選取[開啟]。**&#x200B;**
+1. 在[選取要上載的檔案]對話方塊中，選取CSV檔案，然後選取[開啟]。****
 
 清單中的每個使用者都會自動新增至指定的群組。 系統會將「歡迎」電子郵件傳送給每個使用者。
 
@@ -111,7 +105,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 ## 產生 Media Portal 使用者的可選取清單 {#generating-a-selectable-list-of-media-portal-users}
 
-您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。 這份清單有助您剪下並貼上使用者名稱與位址，在 Media Portal 以外使用。
+您可以在彈出式視窗中，顯示 Media Portal 使用者的名稱與電子郵件地址。 如果您想要複製並貼上使用者名稱和位址，以便在Media Portal外部使用，此清單就十分實用。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**。
 1. 在&#x200B;**[!UICONTROL 依使用者角色]**&#x200B;下拉式清單中，選擇Media Portal使用者角色的名稱，然後選取&#x200B;**[!UICONTROL 重新整理]**&#x200B;以顯示一個Media Portal使用者類別的名稱。
@@ -135,7 +129,7 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 從「使用者管理設定」畫面開始，您也可以執行下列工作:
 
-* **[!UICONTROL 篩選及排序使用者清單]**：篩選Media Portal使用者清單以尋找使用者。
+* **[!UICONTROL 篩選及排序使用者清單]**：若要尋找使用者，請篩選Media Portal使用者清單。
 
 * **[!UICONTROL 刪除使用者]**：從清單中移除使用者。
 
@@ -143,6 +137,6 @@ Media Portal 使用者、參與者及參與者 - 使用者都會收到「歡迎�
 
 * **[!UICONTROL 編輯使用者資訊]**：輸入有關使用者的最新資訊。
 
-* **[!UICONTROL 建立使用者定義的欄位]**：建立自訂、使用者定義的中繼資料欄位，協助您在Adobe Dynamic Media Classic中組織資產。 這些欄位也可視需要啟用或停用。
+* **[!UICONTROL 建立使用者定義的欄位]**：建立自訂、使用者定義的中繼資料欄位，協助您整理Adobe Dynamic Media Classic中的資產。 這些欄位也可視需要啟用或停用。
 
 請參閱[使用者定義的欄位](application-setup.md#user_defined_fields)。
