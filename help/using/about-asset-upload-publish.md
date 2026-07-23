@@ -1,5 +1,5 @@
 ---
-title: 關於上傳和發佈資產
+title: 上傳和發佈Assets
 description: 瞭解如何在Adobe Dynamic Media Classic中上傳和發佈資產。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,19 +17,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
-# 關於上傳和發佈資產 {#about-uploading-and-publishing-assets}
+# 上載和發佈資產 {#about-uploading-and-publishing-assets}
 
-您在Adobe Dynamic Media Classic中的工作有三大方面：
+Adobe Dynamic Media Classic包含三個基本功能：
 
 * 正在將檔案資產上傳至Adobe Dynamic Media Classic。
-* 對檔案進行管理，以使用這些檔案建立多媒體資產。
+* 管理您的檔案，以便使用這些檔案來建立多媒體資產。
 * 將您的資產檔案發佈至Dynamic Media Classic伺服器，以便傳送至您的網站和應用程式。
 
 當您上傳資產檔案至Adobe Dynamic Media Classic以及發佈資產檔案至Adobe Dynamic Media Classic伺服器時，系統會在&#x200B;**[!UICONTROL 工作]**&#x200B;頁面上記錄這些檔案傳輸。 您可以移至該頁面，以追蹤和監視上載和發佈活動。
