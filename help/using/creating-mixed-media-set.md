@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ ht-degree: 57%
 1. 請執行下列任一動作:
 
    * 若要增加音軌，請將音訊檔案從資產庫拖曳至「音軌」方框。 音軌會在顯示影像時播放， 它會在視訊播放時停止。
-   * 若要變更媒體集的順序，請將其拖曳至「混合媒體集」畫面上的新位置。 媒體集在畫面上的順序會決定使用者在混合媒體集檢視器中看到的順序 (由左至右)。
+   * 若要變更媒體集的順序，請將其拖曳至「混合媒體集」畫面上的新位置。 熒幕順序會決定使用者在混合媒體集檢視器中看見集的順序（由左至右）。
    * (選擇性) 若要在檢視器中增加自訂縮圖以代表視訊，請將影像檔案從資產庫拖曳至「縮圖」預留位置方框。
 
 1. 在頁面的右下角附近，確定已選取&#x200B;**[!UICONTROL 在儲存後發佈]** （預設）。
@@ -61,7 +58,7 @@ ht-degree: 57%
 1. 選取儲存混合媒體集的資料夾，然後輸入該集的名稱。
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
 
-   若要檢視您的組合影像集在影像集檢視器中的外觀，請選取&#x200B;**[!UICONTROL 預覽]**。
+   若要檢視您的混合媒體集在影像集檢視器中的外觀，請選取&#x200B;**[!UICONTROL 預覽]**。
 
 ## 編輯混合媒體集 {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ ht-degree: 57%
 
 ## 刪除混合媒體集
 
-刪除集時，便會將集本身移到垃圾桶。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+刪除集時，便會將集本身移到垃圾桶。 該集內的成員不受影響，而是各自保留現有的已發佈或未發佈狀態。
 
 另請參閱[手動發佈資產](publishing-files.md#manually_publishing_assets)和[手動取消發佈資產](publishing-files.md#manually_unpublishing_assets)。
 
