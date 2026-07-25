@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 47%
+source-wordcount: 260
+ht-degree: 46%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 47%
 
 使用者使用 Media Portal 匯出影像資產時，可以在「匯出選取的資產」對話框中，選擇影像預設集。 影像預設集是預先定義設定的集合。 這些設定可變更匯出影像時的尺寸、影像品質、格式、解析度及其他外觀方面。
 
-Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。 使用者從Adobe Dynamic Media Classic匯出影像時，影像預設集會依貴公司的規格重新格式化影像。 使用者可匯出完全符合影像預設集規格的影像，而非自行重新格式化影像。
+Media Portal 管理員可以建立影像預設集，來控制影像匯出時重新格式化的方式。 使用者從Adobe Dynamic Media Classic匯出影像時，影像預設集會依貴公司的規格重新格式化影像。 使用者不會手動重新格式化影像，而是將其匯出為影像預設集的精確規格。
 
 匯出影像資產時，會套用下列限制:
 
 * 寬度×高度必須小於或等於每個影像100 MB。 例如，影像不能超過10 K×10 K，或是以下的任何外觀變化，例如8 K×12 K。
-* 每個匯出作業的總檔案大小上限為1-GB。
+* 每個匯出工作的總檔案大小上限為 1 GB。
 * 每個匯出工作的總資產上限為 500 個。
 
 >[!NOTE]
