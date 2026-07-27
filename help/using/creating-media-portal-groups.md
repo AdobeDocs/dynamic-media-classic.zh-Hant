@@ -12,16 +12,11 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T17:41:54.576Z'
 TQID: 'https://experienceleague.adobe.com/If0j5hWmxTOGGYshsqh2sa0iM3S2SvG57iPO2rtG1lY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e8d28c53d9bcc90cbbbb09b038833136fc96ad7
 workflow-type: tm+mt
 source-wordcount: 843
 ht-degree: 39%
@@ -46,7 +41,7 @@ ht-degree: 39%
 
 1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**。
 1. 選取&#x200B;**[!UICONTROL 新增]**。
-1. 在[新增群組]對話方塊的[群組名稱]方塊中輸入群組的名稱，然後選取[新增群組] **&#x200B;**。
+1. 在[新增群組]對話方塊的[群組名稱]方塊中輸入群組的名稱，然後選取[新增群組] ****。
 1. 您也可以選取使用者名稱旁的方框，將該使用者增加到新群組。
 1. 如果您現在想要指定存取許可權，請選取&#x200B;**[!UICONTROL 資產存取許可權]**&#x200B;標籤，然後指定您想要的選項。
 
@@ -63,8 +58,8 @@ ht-degree: 39%
 1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 群組]**。
 1. 在「群組清單」頁面上，執行下列其中一個動作:
 
-   * 若要新增群組並指定許可權，請選取[新增]。**&#x200B;** 在[新增群組]對話方塊中，輸入群組的名稱，選取[**[!UICONTROL 新增群組]**]，然後將使用者新增至群組。
-   * 若要編輯群組的許可權，請選取該群組，然後選取[編輯]。**&#x200B;**
+   * 若要新增群組並指定許可權，請選取[新增]。**** 在[新增群組]對話方塊中，輸入群組的名稱，選取[**[!UICONTROL 新增群組]**]，然後將使用者新增至群組。
+   * 若要編輯群組的許可權，請選取該群組，然後選取[編輯]。****
 
 1. 在「新增群組」或「編輯群組」對話方塊中，選取&#x200B;**[!UICONTROL 資產存取許可權]**&#x200B;索引標籤。 標籤右側提供的方框可用來建立檔案夾與資產的讀取、寫入及刪除權限。 您可以在左窗格中，展開和收合檔案夾與子檔案夾。
 1. 若要為檔案夾或個別資產指定權限，請在左窗格中選取檔案夾。 檔案夾內容會顯示在右窗格中。 然後選取對應檔案的方塊，指派群組的許可權。 或者，在右窗格中選取資料夾。
