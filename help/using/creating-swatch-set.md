@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:21.987Z'
 TQID: 'https://experienceleague.adobe.com/8nWsAO1rwDZnpj3GkUv7iUEqQR894oeoo81Vtr-uHcs'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
 source-wordcount: 709
@@ -60,7 +63,7 @@ ht-degree: 42%
 
 無論您是編輯已發佈集還是未發佈集，**[!UICONTROL 在儲存後發佈]**&#x200B;選項都會以下列方式影響集和整合員：
 
-| 已發佈集? | 在儲存編輯之前，是否要選取儲存後發佈&#x200B;]**儲存選項？**[!UICONTROL  | 儲存後集的狀態 | 儲存後集成員的狀態 |
+| 已發佈集? | 在儲存編輯之前，是否要選取儲存後發佈&#x200B;**儲存選項？** | 儲存後集的狀態 | 儲存後集成員的狀態 |
 |--- | --- | --- | --- |
 | 是 | 是 | 已發佈 | 已發佈。 |
 | 是 | 否 | 已發佈 | 現有集成員會保持已發佈的狀態。 在編輯期間加入的任何新的集成員，會保持已發佈或未發佈的狀態。 |
