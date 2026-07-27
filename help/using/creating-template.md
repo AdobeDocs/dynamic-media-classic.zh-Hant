@@ -12,10 +12,15 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T18:19:13.276Z'
 TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
 source-wordcount: 3550
@@ -319,7 +324,7 @@ ht-degree: 32%
 
    * **[!UICONTROL 內光暈]**：在圖層的全部邊緣套用光暈效果。
 
-套用效果之後，效果名稱會顯示在「圖層」清單上。 若要刪除效果，請在[圖層]清單中選取其名稱，然後選取[刪除]。****
+套用效果之後，效果名稱會顯示在「圖層」清單上。 若要刪除效果，請在[圖層]清單中選取其名稱，然後選取[刪除]。**&#x200B;**
 
 >[!NOTE]
 >
