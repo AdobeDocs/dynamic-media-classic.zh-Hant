@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
 source-wordcount: 1720
@@ -46,8 +49,8 @@ ht-degree: 19%
 
 1. 進行以下一項操作:
 
-   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面上選取[上傳後發佈]。**** 程式已完成；沒有其他步驟需要執行。
-   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]****。
+   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面上選取[上傳後發佈]。**&#x200B;** 程式已完成；沒有其他步驟需要執行。
+   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]&#x200B;**&#x200B;**。
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
