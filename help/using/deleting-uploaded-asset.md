@@ -11,15 +11,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:44:43.552Z'
 TQID: 'https://experienceleague.adobe.com/EVwriRMQMB9aO3j-cZeaFeZE3wVtbQmQZA67ioyUniI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 7f6a75dae63b295e7df72b3b8b0935a2406c3d32
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 139
 ht-degree: 33%
 
 ---
@@ -62,7 +59,7 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產將會移除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產會移除。
 
 >[!NOTE]
 >
