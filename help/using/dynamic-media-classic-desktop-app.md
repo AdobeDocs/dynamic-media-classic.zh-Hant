@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic案頭
+title: Adobe Dynamic Media Classic案頭應用程式
 description: 進一步瞭解現已推出的Adobe Dynamic Media Classic案頭應用程式。
 contentOwner: rbrough
 content-type: reference
@@ -12,31 +12,26 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
 workflow-type: tm+mt
-source-wordcount: 2135
-ht-degree: 1%
+source-wordcount: 2124
+ht-degree: 0%
 
 ---
 
 # 現已推出： Adobe Dynamic Media Classic案頭應用程式 {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic使用者現在可以使用全新的案頭應用程式體驗，不必再仰賴瀏覽器的Adobe Flash技術。
+Adobe Dynamic Media Classic使用者現在可以使用新的案頭應用程式，不必再仰賴瀏覽器的Adobe Flash技術。
 
 此新應用程式現在可供Windows®和macOS使用。
 
 >[!IMPORTANT]
 >
->Adobe建議您在2020年10月1日前安裝新的Adobe Dynamic Media Classic案頭應用程式。 這麼做可確保Adobe Flash Player在2020年12月31日淘汰前能順利轉換。 在該日期之後，您將無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，該產品中標示為Adobe Dynamic Media Classic。
+>Adobe建議您在2020年10月1日前安裝新的Adobe Dynamic Media Classic案頭應用程式。 這可確保在2020年12月31日淘汰Adobe Flash Player之前有一個過渡期。 在該日期之後，您將無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，該產品中標示為Adobe Dynamic Media Classic。
 
 檢視[現在提供新Adobe Dynamic Media Classic登入的常見問題集。](/help/using/new-ui-2020.md)
 
@@ -60,8 +55,8 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 * 編輯影像時，**[!UICONTROL 儲存]**&#x200B;按鈕無法運作。
 * 在「設定」編輯器中，捲動「**[!UICONTROL 新增Assets]**」面板中的資產後，**[!UICONTROL 關閉]**、**[!UICONTROL 儲存]**&#x200B;和&#x200B;**[!UICONTROL 另存新檔]**&#x200B;按鈕會停用。
 * 視訊詳細資料檢視中的&#x200B;**[!UICONTROL 播放]**&#x200B;按鈕無法運作。
-* 執行macOS Monterey時，無法在&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位中輸入`d`和`e`。
-* 將其餘的Analytics API移至2.0版。
+* 執行macOS Monterey時，使用者無法在&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位中輸入`d`和`e`。
+* 將其餘Analytics API移至2.0版。
 
 ## 20.21.3版中的修正 {#release-sept2021}
 
@@ -79,14 +74,14 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 * 20.21.1中的已知限制：登入畫面上的&#x200B;**[!UICONTROL 伺服器]**&#x200B;下拉式清單是空的。
 * 在&#x200B;**[!UICONTROL 上載工作選項]**&#x200B;中，**[!UICONTROL Photoshop選項]**&#x200B;下的預設圖層名稱值為&#x200B;**[!UICONTROL Photoshop和圖層名稱]**。 PSD 檔案中的圖層以個別影像上載。
-   * **[!UICONTROL 圖層名稱]**&#x200B;的早期預設值，在PSD檔案中以圖層名稱或圖層編號命名。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。
-   * 新預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果 PSD 檔案中的圖層名稱為預設的 Photoshop 圖層名稱，則會使用圖層編號命名。
-   * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，將不會更新現有的PSD或範本（哪些會共用原始PSD檔案中的圖層名稱）。
+  * **[!UICONTROL 圖層名稱]**&#x200B;的先前預設值在PSD檔案中會以圖層名稱或圖層編號命名影像。 如果PSD檔案中的圖層名稱是預設的Adobe Photoshop圖層名稱，則會使用圖層編號。
+  * 新的預設值&#x200B;**[!UICONTROL Photoshop和圖層名稱]**&#x200B;會在PSD檔案後面加上圖層名稱或圖層編號來命名影像。 如果PSD檔案中的圖層名稱是預設的Adobe Photoshop圖層名稱，則會使用圖層編號。
+  * 鑑於Adobe Dynamic Media Classic中的圖層影像現在具有唯一名稱，因此不會更新現有的PSD或範本（這些會共用原始PSD檔案中的圖層名稱）。
 * 資產的縮圖損毀。
 
 ## 20.21.1版中的修正 {#latest-fixes-desktop-app}
 
-* 由於逾時而導致下列訊息的登入問題： *此使用者可能會指派給沒有許可權的群組或群組。 請連絡您的系統管理員。*
+* 由於逾時而導致下列訊息的登入問題： *此使用者被指派給沒有許可權的群組或群組。 請連絡您的系統管理員。*
 * 檢視器預設集會與每個錯誤的密碼嘗試重複。
 * 由於根資料夾中有許多資產，案頭應用程式變得無回應。 （在Windows®上修正；視需要在macOS上運作。）
 
@@ -110,13 +105,13 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
    * 最新版本可從下列網址取得：
 
-      * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+     * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+     * [Windows (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * 先前版本可在以下位置使用：
 
-      * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+     * [macOS (.DMG)：下載](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+     * [Windows® (.EXE)：下載](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 <!--
          * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
@@ -160,7 +155,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
    | EMEA生產（歐洲、中東和非洲） | https://s7sps3.scene7.com/ |
    | APAC生產（亞太） | https://s7sps5.scene7.com/ |
 
-1. 登入後，請注意熟悉的瀏覽器使用者介面體驗。 您可以照常在案頭應用程式上繼續進行日常Adobe Dynamic Media Classic活動。
+1. 登入後，畫面會顯示瀏覽器使用者介面體驗。 您可以照常在案頭應用程式上繼續進行Adobe Dynamic Media Classic活動。
 
 ## 在macOS上下載並&#x200B;*無訊息地*&#x200B;安裝最新的Adobe Dynamic Media Classic案頭應用程式 {#install-silent-mac-dmc-app}
 
@@ -181,7 +176,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
    `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
-1. 使用以下命令將.APP檔案複製到&#x200B;**[!UICONTROL 應用程式]**：
+1. 使用以下命令將`.APP`檔案複製到&#x200B;**[!UICONTROL 應用程式]**：
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
@@ -226,7 +221,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 1. 在GUI安裝程式視窗中，依照安裝步驟進行，以便在`Setup.iss`檔案中記錄互動/輸入，例如安裝位置。
 
-1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.22.1.exe`複製到其他電腦。
+1. 將已建立的`Setup.iss`檔案和`adobe-dynamic-media-classic-20.22.1.exe`複製到另一部電腦。
 
 1. 針對無訊息安裝執行以下命令：
 
@@ -250,7 +245,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說 {#dmc-app-video-walk-through}
 
-觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
+觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
 
 ## 使用案頭應用程式清除電腦上的影像快取和資產快取 {#clear-cache}
 
@@ -286,13 +281,13 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 * 重新啟動Adobe Dynamic Media Classic，然後照常登入以與新公司合作。
 
-## 提示與秘訣
+## 最佳實務
 
-**_我在Adobe Dynamic Media Classic的登陸頁面上無法看到「媒體購物車」面板。_**<br>在Adobe Dynamic Media Classic中，點選&#x200B;**[!UICONTROL 設定>個人設定&#x200B;]**。 在瀏覽器區段中，確定已選取&#x200B;**[!UICONTROL 顯示MediaPortal功能&#x200B;]**（已核取）。 點選&#x200B;**[!UICONTROL 儲存>關閉&#x200B;]**。
+***我在Adobe Dynamic Media Classic的登陸頁面上看不到Media Portal面板。***<br>在Adobe Dynamic Media Classic中，點選&#x200B;**[!UICONTROL 設定>個人設定]**。 在瀏覽器區段中，確定已選取&#x200B;**[!UICONTROL 顯示MediaPortal功能]** （已核取）。 點選&#x200B;**[!UICONTROL 儲存>關閉]**。
 
-**_無法正確反映資產的發佈狀態（綠色指標）。_**<br>在瀏覽器使用者介面中，需要重新登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe在工具列的&#x200B;**[!UICONTROL 不選&#x200B;]**&#x200B;按鈕右側引入了&#x200B;**[!UICONTROL 重新整理&#x200B;]**&#x200B;圖示。 點選&#x200B;**[!UICONTROL 重新整理程式&#x200B;]**&#x200B;圖示可檢視指定頁面上所有資產的最新狀態。 使用瀏覽器UI無需重新登入。
+***資產的發佈狀態（綠色指示器）未正確反映。***<br>在瀏覽器使用者介面中，先前需要再次登入UI才能檢視資產的正確發佈狀態。 在案頭應用程式中，Adobe已在工具列的「**[!UICONTROL 不選取]**」按鈕右側新增「**[!UICONTROL 重新整理]**」圖示。 若要檢視指定頁面上所有資產的最新狀態，請點選&#x200B;**[!UICONTROL 重新整理]**&#x200B;圖示。 瀏覽器UI無需重新驗證。
 
 ![重新整理圖示](/help/using/assets/refresh-icon1.png)
 *重新整理圖示*
 
-**_我看不到批次集預設集在案頭應用程式中運作。_**<br>點選&#x200B;**[!UICONTROL 上傳>工作選項>批次集預設集&#x200B;]**。 請確定已啟用相關的&#x200B;**[!UICONTROL 批次集預設集&#x200B;]**。 按一下&#x200B;**[!UICONTROL 儲存並提交上傳&#x200B;]**。
+***我看不到批次集預設集在案頭應用程式中運作。***<br>點選&#x200B;**[!UICONTROL 上傳>工作選項>批次集預設集]**。 請確定已啟用相關的&#x200B;**[!UICONTROL 批次集預設集]**。 按一下&#x200B;**[!UICONTROL 儲存並提交上傳]**。
