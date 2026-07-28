@@ -1,5 +1,5 @@
 ---
-title: 將視訊部署到網站和行動裝置網站
+title: 將視訊部署至您的網站和行動網站
 description: 瞭解如何從Adobe Dynamic Media Classic將視訊部署至您的網站和行動網站。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 22%
 
 您有兩種不同的發佈視訊方法：
 
-* **上傳視訊時立即自動發佈**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 這種即時發佈功能表示事後不需要個別發佈視訊。
+* **上傳視訊時立即自動發佈**：在視訊上傳程式中，Adobe Dynamic Media Classic可在上傳及編碼視訊時自動發佈視訊。 即時發佈表示不需要另外發佈影片。
 
 * **上傳後手動發佈視訊**：如果您不想立即發佈視訊，可以隨時手動發佈視訊。
 
@@ -49,8 +46,8 @@ ht-degree: 22%
 
 1. 進行以下一項操作:
 
-   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面中，選取[上傳後發佈]。**&#x200B;**&#x200B;程序已完成，您不需要再做任何步驟。
-   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]&#x200B;**&#x200B;**。
+   * 若要在上傳時自動立即發佈視訊，請在[上傳]頁面上選取[上傳後發佈]。**** 程式已完成；沒有其他步驟需要執行。
+   * 若要在上傳後手動發佈視訊，請在[瀏覽]面板中選取視訊，然後在[全域導覽]列上選取[發佈]****。
 
 ## 將視訊URL連結至行動網站或網站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -150,7 +147,8 @@ ht-degree: 22%
 
   在&#x200B;**[!UICONTROL 應用程式一般設定]**&#x200B;頁面的&#x200B;**[!UICONTROL 伺服器]**&#x200B;群組中，**[!UICONTROL 發佈的伺服器名稱]**&#x200B;文字欄位中，建構直接URL。 使用下列語法： `server/is/content/company/folder/filename.m3u8`
 
-  例如，假設已發佈的伺服器名稱為`https://s7d9.scene7.com/.`使用步驟2中的語法，直接URL可能如下所示：
+  例如，假設已發佈的伺服器名稱為`https://s7d9.scene7.com/`。 使用步驟2中的語法，直接URL如下：
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 產生直接HLS串流視訊URL （單位元速率）的方式
@@ -159,7 +157,8 @@ ht-degree: 22%
 
   `server/company/folder/filename.ext.m3u8`
 
-  例如，假設HLS串流伺服器名稱為`https://s7mbrstream.scene7.com/hls-vod/`。 使用步驟2中的語法，直接URL可能會如下所示：
+  例如，假設HLS串流伺服器名稱為`https://s7mbrstream.scene7.com/hls-vod/`。 使用步驟2中的語法，直接URL如下：
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 產生直接漸進式視訊 URL
@@ -168,24 +167,25 @@ ht-degree: 22%
 
   `server/company/folder/filename`
 
-  例如，假設漸進式視訊伺服器名稱為`https://s7d9.scene7.com/is/content/`。 使用步驟2中的語法，直接URL可能會如下所示：
+  例如，假設漸進式視訊伺服器名稱為`https://s7d9.scene7.com/is/content/`。 使用步驟2中的語法，直接URL如下：
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用視訊縮圖 {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classic會產生已編碼視訊的縮圖，以及預先編碼的視訊。 您可以像使用任何影像資產一樣使用視訊縮圖。 此外，您也可以取得Adobe Dynamic Media Classic產生之視訊縮圖的URL。 然後，您就可以在Adobe Dynamic Media Classic外部部署這些URL。 例如，您可以在網站的搜尋結果、相關視訊清單和視訊播放清單中部署縮圖。
 
-縮圖的產生以視訊中的首個異質影格 (非全黑影格或全白影格等等) 為基礎。
+縮圖是根據視訊的第一個異質影格（非全黑色影格或全白色影格）產生。
 
 ### 取得視訊縮圖URL {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖會出現在「清單檢視」和「格點檢視」的「瀏覽」面板中。
+Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 縮圖會出現在「瀏覽」面板的「清單檢視」和「格點檢視」中。
 
 若要產生視訊縮圖的 URL，請執行發佈作業。
 
 請參閱[發佈視訊](deploying-video-websites-mobile-sites.md#publishing_video)。
 
-在發佈後，您可以在「URL 和內嵌程式碼」面板的「詳細檢視」中，取得視訊縮圖 URL。 選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
+發佈後，您可以在URL和內嵌程式碼面板的詳細資料檢視中取得視訊縮圖URL。 選取&#x200B;**[!UICONTROL 在視訊縮圖右側複製URL]**，以便您可以複製其相關聯的URL。
 
 ### 修改視訊檢視器中的海報影格 {#modifying-poster-frames-in-video-viewers}
 
@@ -195,7 +195,7 @@ Adobe Dynamic Media Classic會在上傳程式期間自動產生視訊縮圖。 �
 
 請參閱[新增或編輯視訊檢視器預設集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-請參閱[影像伺服指南](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+請參閱[影像伺服指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 還可以透過將修飾元附加到視訊縮圖 URL 來修改視訊縮圖。
 
