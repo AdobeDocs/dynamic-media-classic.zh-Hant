@@ -23,18 +23,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 48c22780dad668ea7189197dce2ca2a7edd1cedd
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 3%
+source-wordcount: 84
+ht-degree: 32%
 
 ---
 
 # 停用Adobe Analytics追蹤{#disabling-adobe-analytics-tracking}
+
+這些步驟停用對Adobe Dynamic Media Classic和從&#x200B;**[!UICONTROL CopyURL]**&#x200B;功能取得的URL的支援。 如果您實作自訂追蹤，則停用「配置」頁面中設定的 Adobe Analytics 追蹤功能，可防止與自訂實作項目產生衝突。
 
 **若要停用Adobe Analytics追蹤：**
 
 1. 關閉Adobe Dynamic Media Classic中Adobe Analytics設定頁面上的所有事件。
 1. 儲存並發佈。
 
-這些步驟會關閉對Adobe Dynamic Media Classic和從&#x200B;**[!UICONTROL CopyURL]**&#x200B;功能取得的URL的支援。 如果您實作自訂追蹤，請依照設定頁面中的設定停用Adobe Analytics追蹤，以防止與自訂實作衝突。
+

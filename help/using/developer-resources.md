@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # 開發人員資源 {#developer-resources}
 
-檢視器、影像提供與影像演算以及影像生產系統的參考指南會說明這些伺服器模組的http通訊協定。 如果網站開發人員想要進一步自訂，並針對網站或自訂應用程式使用Adobe Dynamic Media Classic豐富媒體，可使用這些指南。 我們假設使用者熟悉Dynamic Media Classic案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像處理術語。
+檢視器、影像提供與影像演算以及影像生產系統的參考指南會說明這些伺服器模組的HTTP通訊協定。 網站開發人員若想為網站或自訂應用程式自訂和使用Adobe Dynamic Media Classic多媒體，可以使用這些指南。 使用者必須熟悉Dynamic Media Classic案頭應用程式、一般HTTP通訊協定標準和慣例，以及基本的影像處理術語。
 
 另請參閱[Dynamic Media開發人員資源](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)。
 

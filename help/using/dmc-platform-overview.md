@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 12%
+source-wordcount: 496
+ht-degree: 13%
 
 ---
 
@@ -42,23 +42,23 @@ Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
 * **上傳及管理您的資產**：將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以在系統上組織、瀏覽和搜尋資產。 您也可以將中繼資料套用至資產。
 
-* **建立豐富媒體**：建立您資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
+* **建立豐富媒體**：建立資產設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集和範本。
 
 * **發佈和管理**：將資產發佈到Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產的狀態。 管理使用者許可權並維護安全性。
 
-* **服務**：將媒體從Adobe Dynamic Media Classic SaaS網路傳送至網頁、應用程式和行動裝置；媒體已最佳化效能，並透過CDN快取傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
+* **服務**：從Adobe Dynamic Media Classic SaaS網路傳送媒體至網頁、應用程式和行動裝置。 媒體已最佳化效能，並搭配CDN快取傳送。 Adobe Dynamic Media Classic會提供您每個資產的URL。 您發佈資產後，URL 便會生效。
 
 ![Adobe Dynamic Media Classic工作流程處理序](/help/using/assets/gs_workflow.png)
 
 ## 單一主要影像和單一URL呼叫 {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic與其他系統截然不同，因為您可以使用Adobe Dynamic Media Classic以動態方式從單一主要資產和URL呼叫傳送媒體。
+Adobe Dynamic Media Classic與其他系統不同，因為您可以使用Adobe Dynamic Media Classic以動態方式從個別主要資產和URL呼叫傳送媒體。
 
-您透過Adobe Dynamic Media Classic產生的URL字串包含指示，告知伺服器如何在傳送資產時顯示資產。 例如，相同的主要影像可以不同大小、格式、重量、顏色和縮放檢視提供。 使用Adobe Dynamic Media Classic建置和發佈媒體資產時，您可以透過視覺化方式設定效果。 這樣做時，您會建立URL呼叫，正確地告知伺服器如何將您的主要資產呈現給應用程式。
+您透過Adobe Dynamic Media Classic產生的URL字串包含指示，告知伺服器如何在傳送資產時顯示資產。 例如，相同的主要影像可以不同大小、格式、重量、顏色或檢視提供。 使用Adobe Dynamic Media Classic建置和發佈媒體資產時，您可以透過視覺化方式設定效果。 這樣做時，您會建立URL呼叫，正確地告知伺服器如何將您的主要資產呈現給應用程式。
 
 ![Adobe Dynamic Media Classic可將相同的主要影像傳送至不同大小和格式的不同媒體。](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic可確保在任何熒幕都能提供一致的品質體驗，無論熒幕大小或頻寬為何。*
 
 ## 內容快取 {#content-caching}
 
-Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，這些影像是具有可識別這些影像的唯一URL呼叫的JPEG影像。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。 影像會從全域各處的伺服器分發至電腦。 使用任何CDN廠商實作快取機制時，只需將伺服器名稱變更為指向啟用CDN的Dynamic Media影像伺服器即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。
+Adobe Dynamic Media Classic動態產生的影像適合快取；通常是JPEG影像，具有可識別它們的唯一URL呼叫。 影像會在內容傳遞網路 (CDN) 上傳送；CDN 是一種伺服器系統，會在網際網路上互相連結以更快傳送內容。 影像會從全域各處的伺服器分發至電腦。 若要使用任何CDN廠商來實作快取機制，請將伺服器名稱變更為指向啟用CDN的Dynamic Media影像伺服器。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。
