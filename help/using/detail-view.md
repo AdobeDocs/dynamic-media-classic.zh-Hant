@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -60,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->您可以在「詳細資料檢視」的相同資料夾中，將資產從一個頁面移至另一個資產。 只需按一下&#x200B;**[!UICONTROL 上一個資產]**&#x200B;或&#x200B;**[!UICONTROL 下一個資產]**。 這些按鈕位於「詳細資料檢視」的右上角。
+>您可以使用「詳細資料檢視」，在同一個資料夾中的資產之間導覽。 按一下&#x200B;**[!UICONTROL 上一個資產]**&#x200B;或&#x200B;**[!UICONTROL 下一個資產]**。 這些按鈕位於「詳細資料檢視」的右上角。
 
 ## 在「詳細資訊」檢視中獲得資訊 {#getting-information-in-detail-view}
 
@@ -72,7 +68,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 「詳細資料檢視」提供處理您所開啟之資產的工具。 可用的工具取決於您使用的資產型別，但「詳細資料檢視」一律會提供下列功能：
 
-* 發佈&#x200B;**的**&#x200B;專案：選取名稱左邊的&#x200B;**[!UICONTROL `Publish`]**&#x200B;圖示，或移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**&#x200B;或&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**。
+* **要發佈的專案**：選取名稱左邊的&#x200B;**[!UICONTROL `Publish`]**&#x200B;圖示，或移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**&#x200B;或&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 取消發佈]**。
 
 * **重新命名資產**：選取名稱並輸入新名稱。
 
