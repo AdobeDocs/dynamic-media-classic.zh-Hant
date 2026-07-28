@@ -28,26 +28,26 @@ ht-degree: 12%
 
 檢視器、影像提供與影像演算以及影像生產系統的參考指南會說明這些伺服器模組的HTTP通訊協定。 網站開發人員若想為網站或自訂應用程式自訂和使用Adobe Dynamic Media Classic多媒體，可以使用這些指南。 使用者必須熟悉Dynamic Media Classic案頭應用程式、一般HTTP通訊協定標準和慣例，以及基本的影像處理術語。
 
-另請參閱[Dynamic Media開發人員資源](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
+另請參閱[Dynamic Media開發人員資源](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources)。
 
 ## 檢視器 {#viewers-guide}
 
 | 文件 | 網址 |
 | --- | --- |
-| 檢視器參考指南與發行說明 | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
+| 檢視器參考指南與發行說明 | [https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/homeviewers) |
 | 檢視器資產庫範例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## 影像提供/影像轉譯(IS/IR) API {#is-ir-api-guide}
 
 | 文件 | 網址 |
 | --- | --- |
-| API 參考指南 | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| API 參考指南 | [https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## Image Production System (IPS) API {#ips-api-guide}
 
 | 文件 | 網址 |
 | --- | --- |
-| API 參考指南 | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| API 參考指南 | [https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}
