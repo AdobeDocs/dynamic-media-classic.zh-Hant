@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:47:10.191Z'
 TQID: 'https://experienceleague.adobe.com/wE2C1kA1I2fYIkXCqMvw-hPWIV5GMcj1Y0-dgkALyyc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -31,12 +28,12 @@ ht-degree: 38%
 
 適用於匯出工作的壓縮 Zip 檔的檔案大小上限為 1 GB。 此外，每個匯出作業最多允許500個總資產。
 
-Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄。
+Adobe Dynamic Media Classic會保留「作業」畫面中匯出作業的記錄。
 
 **若要從Adobe Dynamic Media Classic匯出資產：**
 
 1. 選取您要匯出的資產，然後前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**。
-1. 在「匯出選取的資產」視窗中，按一下「**[!UICONTROL 影像選項]**」，然後指定下列任一選項 (管理員會決定使用者可以使用哪些選項):
+1. 在「匯出選取的Assets」視窗中，按一下&#x200B;**[!UICONTROL 影像選項]**，然後指定下列任一選項（管理員會決定哪些選項可供軟體使用者使用）：
 
    * **[!UICONTROL 預設集]**：您可以選擇在匯出資產時，選擇影像預設集來格式化資產。 如果選擇「影像預設集」，就無法使用其它格式化選項，因為資產會採用「影像預設集」所定義的格式。
 
@@ -86,4 +83,4 @@ Adobe Dynamic Media Classic會保留「工作」畫面中匯出工作的記錄�
 同時選取大量不同資產類型進行匯出時，會導致下列行為:
 
 * 所有無法匯出的資產型別都會在工作提交前從清單中移除
-* 如果要求轉換，所有可轉換的型別都會被匯出，而其他所有型別則會匯出為原始型別
+* 如果要求轉換，則會處理所有可轉換的型別，並將其他所有型別匯出為原始檔案
