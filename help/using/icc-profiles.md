@@ -12,10 +12,15 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:59:42.608Z'
 TQID: 'https://experienceleague.adobe.com/eGKamqA47mITzfyTuHoFYLfWEXOP0jAl5XWDpihGjZA'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5cf4a3f436cd6dd46ee68daeb0ef798402ae311a
 workflow-type: tm+mt
 source-wordcount: 527
@@ -29,7 +34,7 @@ ICC （國際色彩聯盟）設定檔是一個檔案，說明如何正確地將�
 
 在Adobe Dynamic Media Classic中，您可以在上傳影像時，選擇ICC設定檔將影像轉換為不同的色域。 Adobe Dynamic Media Classic預設提供所有標準Adobe Photoshop ICC設定檔。 若要在「上載」畫面中查看色彩設定檔的名稱，請選取「色彩設定檔」選單。 然後按一下&#x200B;**自訂從** > **到**，並在&#x200B;**轉換自**&#x200B;和&#x200B;**轉換成**&#x200B;功能表上選擇ICC設定檔名稱。
 
-在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像編輯選項。
+在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像編輯選項。
 
 除了使用預設的ICC設定檔之外，您還可以將其他ICC設定檔上傳到Adobe Dynamic Media Classic，以便用於色域轉換。 若要調查ICC設定檔的設定檔類別、色域型別和PCS型別，請切換至「瀏覽」面板中的「詳細資料檢視」。
 
