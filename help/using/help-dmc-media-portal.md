@@ -12,14 +12,10 @@ topic: Collaboration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:59:18.353Z'
 TQID: 'https://experienceleague.adobe.com/CmX-gSZYPboz0fvargZ-GK5f-HxudHFAoePq3KXoAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: fa52322e2bccf9ac52380c0af87b5ca2bdb7f709
 workflow-type: tm+mt
 source-wordcount: 87
 ht-degree: 0%
@@ -30,9 +26,9 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic也提供下列說明檔案：
 
-**使用Adobe Dynamic Media Classic Media Portal**： Adobe Dynamic Media Classic Media Portal是瀏覽器式的環境，入口網站使用者可透過公司核准的格式，輕鬆上傳、瀏覽、搜尋、預覽及匯出資產。 請參閱[https://help.adobe.com/zh_TW/scene7/mediaportal/](https://help.adobe.com/zh_TW/scene7/mediaportal/)。
+**使用Adobe Dynamic Media Classic Media Portal**： Adobe Dynamic Media Classic Media Portal是瀏覽器式的環境，入口網站使用者可存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。 請參閱[https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)。
 
 <!-- 
 Is this topic still needed? -rb 04/22/21
- used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/zh_TW/scene7/mediaportal/
+ used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/
 -->
