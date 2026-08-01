@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: df89051c2f5083cdf7ae39f978ab0bfc05230296
 workflow-type: tm+mt
-source-wordcount: 92
-ht-degree: 42%
+source-wordcount: 88
+ht-degree: 34%
 
 ---
 
 # 取得磁碟使用資訊 {#get-disk-usage-information}
 
-您可以使用`disk_info`引數來擷取有關公司磁碟空間使用情況的資訊，如下列範例所示：
+您可以使用`disk_info`引數來擷取有關磁碟空間使用情況的資訊，如下列範例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -60,7 +60,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 | op | 必要 | disk_info |
 | sharedsecret | 必要 | 公司的共用機密金鑰 |
 
-下面的範例代碼可取得 000Company 的磁碟資訊:
+下列範常式式碼會取得磁碟資訊：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602
