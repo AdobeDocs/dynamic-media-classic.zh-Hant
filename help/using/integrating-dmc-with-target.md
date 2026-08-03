@@ -20,21 +20,21 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: c8b39b658f09de6bb598277c5a0a4e1ce3a8bc9a
 workflow-type: tm+mt
-source-wordcount: 150
+source-wordcount: 137
 ht-degree: 0%
 
 ---
 
 # 將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合 {#integrating-dmc-with-target}
 
-您必須先在「[!DNL Adobe Dynamic Media Classic]應用程式一般設定」畫面中輸入目標URL，才能將[!DNL Adobe Dynamic Media Classic]與[!DNL Target Standard/Premium]整合。 若要取得Target URL並在「應用程式一般設定」頁面中輸入，請執行下列動作：
+您必須先在「[!DNL Adobe Dynamic Media Classic]應用程式一般設定」畫面中輸入目標URL，才能將[!DNL Adobe Dynamic Media Classic]與[!DNL Target Standard/Premium]整合。 若要取得Target URL並在「應用程式一般設定」頁面中輸入，請執行下列動作
 
 1. 在[!DNL Adobe Experience Cloud]中，登入您的[!DNL Target Standard/Premium]帳戶。
 1. 登入後，在瀏覽器的位址列中，將URL複製到並包括`.com`。
 
-   例如，如果位址列中的&#x200B;*虛構* URL （URL路徑一律包含正斜線，而非此範例中的反斜線）是`https:\\www.myfictionalsite.com/categories/admin/home.do`，則僅複製&#x200B;*虛構* URL的這個部分： `https:\\www.myfictionalsite.com`。
+   如果位址列中的URL （URL路徑一律包含正斜線，而非反斜線）是`https://www.myfictionalsite.com/categories/admin/home.do`，請複製此部分： `https://www.myfictionalsite.com`。
 
 1. 在[!DNL Adobe Dynamic Media Classic]中，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]**。
 1. 在「應用程式一般設定」頁面的&#x200B;**[!UICONTROL Test&amp;Target伺服器名稱]**&#x200B;欄位中，貼上您在步驟2中複製的URL。
