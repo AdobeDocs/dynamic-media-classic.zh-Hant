@@ -12,27 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:51.028Z'
 TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 650
 ht-degree: 20%
 
 ---
 
 # 將混合媒體集連結至網頁{#linking-a-mixed-media-set-to-a-web-page}
 
-發佈混合媒體集後，您可以取得其相關聯的URL，以用於您的網站或應用程式。 之後，您可以視需要部署URL，讓使用者可以在您的網站或應用程式上檢視混合媒體集。
+發佈混合媒體集後，您可以取得其相關聯的URL，以用於您的網站或應用程式。 接著，您可以視需要部署URL，讓使用者檢視您網站或應用程式上的混合媒體集。
 
 ## 取得混合媒體集 URL {#obtain-a-mixed-media-set-url}
 
 1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取&#x200B;**[!UICONTROL 媒體集]**。
-1. 在左側的「資產庫」面板中，導覽至資產資料夾，該資料夾包含您要複製其內嵌程式碼的媒體集。
+1. 在左側的「資產庫」面板中，導覽至資產資料夾。 其中包含您要複製其內嵌程式碼的媒體集。
 1. 在工具列右側的「資產瀏覽」面板上方，執行下列任一操作:
 
    * 按一下「**[!UICONTROL 格點檢視]**」。 在「資產瀏覽」面板中，按兩下單一資產以在「詳細檢視」中開啟。 在右側的「URL和內嵌程式碼」面板中，選取您想要的檢視器右側的&#x200B;**[!UICONTROL 複製URL]**。
@@ -50,7 +47,7 @@ ht-degree: 20%
 
 ## 將混合媒體集URL新增至網頁 {#add-mixed-media-set-urls-to-your-web-page}
 
-部署混合媒體集的最常見方式是在網頁上放置連結（透過導覽圖示）。 選取後，連結會啟動動態頁面（ASP或JSP），在混合媒體集檢視器中顯示混合媒體集。
+部署混合媒體集的標準方法是使用導覽圖示在網頁上新增連結。 選取後，連結會啟動動態頁面（ASP或JSP），在混合媒體集檢視器中顯示混合媒體集。
 
 ## 複製混合媒體集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
