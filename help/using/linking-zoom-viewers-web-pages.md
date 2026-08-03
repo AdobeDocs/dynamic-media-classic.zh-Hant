@@ -57,7 +57,7 @@ ht-degree: 19%
 
 通常訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網頁上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 快顯視窗是訪客縮放影像的位置。
 
-如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製縮放檢視器的內嵌復本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
