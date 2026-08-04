@@ -20,14 +20,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
-# 將縮放檢視器連結至您的網頁{#linking-zoom-viewers-to-your-web-pages}
+# 將Zoom檢視器連線至您的網頁{#linking-zoom-viewers-to-your-web-pages}
 
 您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容。 該存取權包括主要影像和相關聯的縮放目標。 其中也包含縮放檢視器預設集。 這些 URL 字串會在發佈程序中啟用。 若要將這些URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。
 
@@ -55,7 +55,7 @@ ht-degree: 20%
 
 ## 將縮放檢視器URL新增至您的網頁 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常，訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網站上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 彈出式視窗是訪客實際縮放該影像的位置。
+通常訪客會先選取「縮放」圖示（通常該圖示會顯示放大鏡的影像），以縮放網頁上的影像。 選取此圖示會啟動動態網頁（ASP或JSP），在快顯視窗中顯示影像。 快顯視窗是訪客縮放影像的位置。
 
 如需詳細資訊和程式碼範例，請參閱Adobe檢視器參考指南中的[內嵌HTML5 Basic Zoom Viewer](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 

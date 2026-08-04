@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
 # 將eCatalog連結至網頁{#linking-an-ecatalog-to-a-web-page}
 
-您的網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括eCatalog。 這些 URL 字串會在發佈程序中啟用。 若要將eCatalog的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製。
+您的網站和應用程式會使用URL字串或內嵌程式碼來存取Dynamic Media影像伺服器內容，包括eCatalog。 這些 URL 字串會在發佈程序中啟用。 若要將eCatalog的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -55,13 +55,13 @@ ht-degree: 20%
 
 ## 將eCatalog URL新增至網頁 {#adding-ecatalog-urls-to-your-web-page}
 
-部署eCatalog最常見的方式是在網頁上以eCatalog縮圖封面頁面的形式放置連結。 請與您的 IT 團隊合作，以確認 eCatalog 會在整潔、置中的彈出式視窗中啟動。 要求您的 IT 團隊避免將工具列與位址列顯示在瀏覽器中。
+部署eCatalog的標準方法是使用網頁上的eCatalog縮圖封面來新增連結。 若要確保eCatalog會在置中的快顯視窗啟動，請連絡您的IT部門。 若要隱藏工具列和位址列，請設定瀏覽器。
 
 如需詳細資訊和程式碼範例，請參閱「HTML檢視器參考」中的[內嵌Adobe5 eCatalog檢視器](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 複製eCatalog檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-使用內嵌程式碼功能可讓您檢閱所選eCatalog的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
+內嵌程式碼功能可讓您檢閱所選eCatalog的檢視器程式碼。 您也可以將程式碼複製到剪貼簿，以便貼到網頁中來部署檢視器。 不可在「內嵌程式碼」對話框中編輯程式碼。
 
 **若要複製eCatalog檢視器的內嵌程式碼：**
 

@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
 # 將迴轉集連結至網頁{#linking-a-spin-set-to-a-web-page}
 
-網站和應用程式可透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括迴轉集。 這些 URL 字串會在發佈程序中啟用。 若要將迴轉集的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製。
+網站和應用程式使用URL字串或內嵌程式碼來存取Dynamic Media影像伺服器內容，包括迴轉集。 這些URL字串會在發佈程式期間啟用。 若要將迴轉集的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製。
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ ht-degree: 21%
 
 ## 將迴轉集URL新增至網頁 {#adding-spin-set-urls-to-your-web-page}
 
-迴轉集的部署方式與所有縮放檢視器一樣，即透過在縮放視窗中顯示迴轉集的動態頁面 (ASP 或 JSP) 部署。 對Adobe Dynamic Media Classic平台的URL呼叫在縮放檢視器上會遵循相同的通訊協定。 不過，「檢視器預設集」名稱取決於管理員定義為預設「迴轉集檢視器預設集」的預設集。 例如，下列非即時URL語法範例包含名為`viewer.jsp`的預設集名稱，而SKU引數現在是迴轉集名稱：
+使用在縮放視窗中顯示迴轉集的動態頁面（ASP或JSP），像所有縮放檢視器一樣部署迴轉集。 Adobe Dynamic Media Classic平台的URL要求使用與縮放檢視器相同的通訊協定。 不過，「檢視器預設集」名稱取決於管理員定義為預設「迴轉集檢視器預設集」的預設集。 例如，下列URL語法範例（未上線）包含名為`viewer.jsp`的預設集名稱，而SKU引數現在是迴轉集名稱：
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-在此URL語法範例中（連結未上線），請注意SKU編號( `sku=backpack_spin`)。 `sku=`之後的字串是迴轉集名稱( `backpack spin`)。
+在此URL語法範例中（連結未上線），請參閱SKU編號( `sku=backpack_spin`)。 `sku=`之後的字串是迴轉集名稱( `backpack spin`)。
 
 ## 複製迴轉集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-spin-set-viewer}
 
