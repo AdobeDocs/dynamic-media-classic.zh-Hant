@@ -11,28 +11,20 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:03.775Z'
 TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
 
 # Adobe Dynamic Media Classic案頭應用程式：現已推出 {#new-ui-2020}
 
-請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)以檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式。
+若要檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式，請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)。
 
 ## _上次修訂日期：2020年6月30日_
 
@@ -45,19 +37,19 @@ Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用�
 +++
 
 +++**_如何存取新的案頭應用程式？_**
-新的案頭應用程式可作為macOS的`.dmg`安裝程式或Windows®的`.exe`安裝程式使用。
+新的案頭應用程式可用作macOS的`.dmg`安裝程式。 `.exe`個Windows®安裝程式。
 
-請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)以檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式。
+若要檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式，請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)。
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_新案頭應用程式如何運作？_**
-下載、安裝和啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 透過輸入您現有的使用者名稱和密碼，並根據您的地區選取適當的伺服器，您可以登入Adobe Dynamic Media Classic。 整體體驗與您慣用的熟悉網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。
+下載、安裝和啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 輸入您現有的使用者名稱和密碼，並根據您所在的地區選擇適當的伺服器，即可登入Adobe Dynamic Media Classic。 整體體驗與網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。
 
 >[!IMPORTANT]
 >
->一次只能在指定電腦上安裝案頭應用程式的一個執行個體&#x200B;*和*。 但是，您可以跨電腦安裝的數量並沒有限制。
+>在指定的電腦上，只能同時安裝及啟用案頭應用程式的一個執行個體。 但是，您可以跨電腦安裝的數量並沒有限制。
 
 +++
 
@@ -70,11 +62,11 @@ Adobe Dynamic Media Classic的基礎API沒有變更。
 +++
 
 +++**_此變更是否會影響我的自動化指令碼？_**
-不適用。 對自動化指令碼沒有影響。 新案頭應用程式的運作和行為方式與您已熟悉的瀏覽器式體驗類似。
+不適用。 對自動化指令碼沒有影響。 新版案頭應用程式的運作方式與瀏覽器式體驗類似。
 +++
 
 +++**_新的Adobe Dynamic Media Classic案頭應用程式能否在Mac與個人電腦上運作？_**
-是. 新版案頭應用程式是跨平台解決方案，適用於Mac和電腦。 Linux® *不支援*。
+是. 新版案頭應用程式是跨平台解決方案，適用於Mac和電腦。 不支援Linux®。
 +++
 
 +++**_我的公司有嚴格的安全要求。 新的Adobe Dynamic Media Classic案頭應用程式如何處理這些需求？_**
@@ -82,11 +74,11 @@ Adobe致力確保產品符合客戶的安全需求。 新的Adobe Dynamic Media 
 +++
 
 +++**_我的公司不允許我在電腦上安裝軟體與應用程式。 您建議我如何存取新的案頭應用程式？_**
-有些公司不允許未經核准將軟體與應用程式下載並安裝至您的系統。 在這種情況下，請及早與您的IT團隊合作，取得存取新Adobe Dynamic Media Classic案頭應用程式的許可權。 請記住，2020年12月31日之後，瀏覽器版本將被棄用。 請務必避免等到最後一分鐘才下載新的案頭應用程式。
+有些公司不允許您未經核准下載軟體與應用程式並安裝到您的系統中。 若要取得存取新Adobe Dynamic Media Classic案頭應用程式的許可權，請先與您的IT團隊協調。 請記住，2020年12月31日之後，瀏覽器版本已過時。 請務必在截止日期前下載新的案頭應用程式。
 +++
 
 +++**_新案頭應用程式的多個執行個體是否可以同時開啟？_**
-不適用。 使用建置新Adobe Dynamic Media Classic案頭應用程式的AIR技術，使用者無法在指定時間開啟多個應用程式例項。
+不適用。 使用建置新Adobe Dynamic Media Classic案頭應用程式的Adobe® AIR®技術，使用者無法在指定時間開啟多個應用程式例項。
 +++
 
 +++**_可透過本機電腦上傳至Adobe Dynamic Media Classic的檔案數目是否有任何限制？_**
@@ -98,7 +90,7 @@ Adobe致力確保產品符合客戶的安全需求。 新的Adobe Dynamic Media 
 +++
 
 +++**_如何啟用Adobe Dynamic Media Classic案頭應用程式的升級？_**
-在2020年6月30日發行Adobe Dynamic Media Classic案頭應用程式後，如果Adobe發行新版本，客戶必須下載並安裝新版本（取代&#x200B;**[!UICONTROL 應用程式]**&#x200B;中的現有應用程式）。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
+如果Adobe發行新版本的案頭應用程式，客戶必須下載並安裝它（取代&#x200B;**[!UICONTROL 應用程式]**&#x200B;中的現有應用程式）。 您會透過Adobe帳戶團隊和應用程式內升級通知機制收到新版本的通知，通知使用者已升級。
 +++
 
 +++**_如何取得有關Adobe Dynamic Media Classic案頭應用程式問題的協助？_**
@@ -106,14 +98,15 @@ Adobe致力確保產品符合客戶的安全需求。 新的Adobe Dynamic Media 
 +++
 
 +++**_我想確定我正在最佳化我的多媒體策略。 如何進一步瞭解Adobe Dynamic Media Classic？_** 
-Adobe Dynamic Media Classic是功能豐富的強大解決方案，專為增強您的多媒體策略而設計。 為確保您能充分運用所有功能，請務必探索以下實用資源：
+Adobe Dynamic Media Classic是全方位的解決方案，專為支援您的豐富媒體工作流程而設計。 為確保您使用所有功能，請探索以下實用資源：
 
-* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
-* [Adobe部落格](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media電子報封存](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe部落格](https://blog.adobe.com/)
+* [Adobe Dynamic Media電子報封存](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=zh-Hant), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_我有興趣進一步瞭解如何使用Adobe Experience Manager Assets升級至Adobe Dynamic Media。 在哪裡可以找到更多資訊？_**
 若要進一步瞭解升級至新一代多媒體撰寫、發佈及動態傳遞的好處，請造訪[Adobe Dynamic Media入口網站進行升級](/help/using/upgrade.md)。
