@@ -12,22 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 25%
+source-wordcount: 734
+ht-degree: 20%
 
 ---
 
 # 使用PDF{#working-with-pdfs}
 
-PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建立eCatalog。 上傳PDF檔案時，Adobe Dynamic Media Classic會依預設點陣化或Rip化頁面，以便使用這些頁面建置豐富媒體。
+PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建立eCatalog。 上傳PDF檔案時，Adobe Dynamic Media Classic會依預設點陣化頁面，以便使用這些頁面建置豐富媒體。
 
 當您上傳PDF以進行頁面擷取時，Adobe會強制進行下列限制：
 
@@ -39,13 +36,13 @@ PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 ## PDF 上載選項 {#pdf-upload-options}
 
-上載 PDF 檔案時，您可以使用各種方法來設定 PDF 檔案的格式。 您可以裁切其頁面、擷取搜尋字詞、輸入每英吋像素解析度，以及選擇色域。 PDF檔案通常包含裁切邊界、裁切標籤、註冊標籤和其他印表機標籤。 您可以在上載 PDF 檔案時，從頁邊裁切這些標記。
+上載 PDF 檔案時，您可以使用各種方法來設定 PDF 檔案的格式。 您可以裁切頁面、擷取搜尋字詞、輸入每英吋畫素解析度，以及選擇色域。 PDF檔案通常包含裁切邊界、裁切標籤、註冊標籤和其他列印標籤。 您可以在上載 PDF 檔案時，從頁邊裁切這些標記。
 
 上傳PDF檔案的選項位於「上傳頁面」的「PDF選項」下。
 
 ### 處理選項
 
-**[!UICONTROL 點陣化]**： （預設）擷取PDF檔案中的頁面，並將向量影象轉換為點陣圖影像。 若要建立eCatalog，請選擇此選項。
+**[!UICONTROL 點陣化]**： （預設）若要點陣化PDF檔案中的頁面，並將向量影象轉換為點陣圖影像，請使用此選項。 若要建立eCatalog，請選擇此選項。
 
 **[!UICONTROL 擷取搜尋字詞]**：從PDF檔案擷取字詞，以便在eCatalog檢視器中搜尋檔案中的關鍵字。
 
@@ -75,7 +72,7 @@ PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 * **[!UICONTROL 保留原始色域]**：保留原始色域。
 
-* **[!UICONTROL 自訂從]** > **[!UICONTROL 到]**：開啟功能表，讓您能夠選擇「轉換自」和「轉換至」色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
+* **[!UICONTROL 自訂從]** > **[!UICONTROL 到]**：開啟功能表，讓您能夠選擇`Convert From`和`Convert To`色域。 您可以選擇標準的Adobe Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
 
 請另參閱 [ICC 設定檔](/help/using/icc-profiles.md#icc_profiles)。
 
@@ -88,11 +85,11 @@ PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
    * **[!UICONTROL 修剪範圍依據]**：選擇根據顏色或透明度裁切：
 
-      * **[!UICONTROL 色彩]**：選擇色彩選項。 接著，選取「**[!UICONTROL 轉角]**」功能表，再選擇最能代表您要裁切之空白顏色的PDF轉角。
+     * **[!UICONTROL 色彩]**：選擇色彩選項。 接著，選取「**[!UICONTROL 轉角]**」功能表，再選擇最能代表您要裁切之空白顏色的PDF轉角。
 
-      * **[!UICONTROL 透明度]**：選擇透明度選項。
+     * **[!UICONTROL 透明度]**：選擇透明度選項。
 
-   * **[!UICONTROL 容許度]**：拖曳滑桿以指定從0到1的容許度。
+   * **[!UICONTROL 容許度]**：若要指定從0到1的容許度，請拖曳滑桿。
 
    * **[!UICONTROL 根據色彩修剪]**：指定0以裁切畫素，前提是這些畫素完全符合您在PDF角落選取的色彩。 數值越接近 1，允許的色彩差異就越大。
 
@@ -100,9 +97,9 @@ PDF （可攜式檔案格式）檔案最常用於Adobe Dynamic Media Classic建�
 
 ## 從PDF頁面側面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
-上傳時，您可以手動從PDF檔案的頁面兩側移除印表機標籤。
+上傳時，您可以手動移除PDF檔案中頁面兩側的列印標籤。
 
-1. 從[裁切]功能表，選取[手動] **&#x200B;**。
+1. 從[裁切]功能表，選取[手動] ****。
 1. 在「上」、「右」、「下」及「左」文字方框中輸入像素設定，即可裁切頁面上緣、下緣及側邊。
 
-裁切的頁面部分取決於您針對 PDF 檔案所輸入的「解析度像素/英吋」設定。 例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在這種情況下，請輸入0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。
+裁切的頁面數量取決於您為PDF檔案輸入的「解析度畫素/英吋」設定。 例如，假設您輸入150 （預設值）作為「解析度PX/英吋」設定。 然後裁切頁面兩側75畫素。 在本例中，為0.5英吋 已裁切。 若每英吋150畫素，75畫素等於半英吋。
