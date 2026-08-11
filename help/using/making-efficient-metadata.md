@@ -1,5 +1,5 @@
 ---
-title: 更有效地使用中繼資料
+title: 有效管理中繼資料
 description: 瞭解如何在Adobe Dynamic Media Classic中更有效率地使用中繼資料。
 contentOwner: Rick Brough
 content-type: reference
@@ -21,18 +21,18 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 58%
+source-wordcount: 163
+ht-degree: 37%
 
 ---
 
-# 更有效地使用中繼資料{#making-more-efficient-use-of-metadata}
+# 有效管理中繼資料{#making-more-efficient-use-of-metadata}
 
 Adobe Dynamic Media Classic上的所有檔案都包含中繼資料。 中繼資料可說明和識別檔案，以及用來搜尋和組織資產。 若要檢視資產的中繼資料，請在「詳細資料檢視」中開啟該資產，然後檢查「中繼資料」面板。 這個面板上的中繼資料欄位可提供有關資產的說明資訊。
 
-除非在中繼資料欄位正確輸入中繼資料，否則無法使用中繼資料來進行搜尋和組織資產。 為了正確輸入中繼資料，並確保所有正確的中繼資料欄位都包含中繼資料，您可以建立中繼資料預設集。 *中繼資料預設集*&#x200B;是預先定義的一組中繼資料項目。 使用者可以在「詳細資料檢視」中選擇中繼資料預設集，以預先定義的資訊填入中繼資料欄位，而不需自行輸入中繼資料。
+只有在中繼資料欄位正確輸入中繼資料時，中繼資料才適合用於搜尋和資產組織。 若要正確輸入中繼資料並確保所有必要中繼資料欄位都包含中繼資料，您可以建立中繼資料預設集。 *中繼資料預設集*&#x200B;是預先定義的一組中繼資料項目。 使用者可以在「詳細資料檢視」中選擇中繼資料預設集，以預先定義的資訊填入中繼資料欄位，而不必手動輸入中繼資料。
 
 若要建立中繼資料預設集，請參閱[中繼資料預設集](application-setup.md#metadata_presets)。
 

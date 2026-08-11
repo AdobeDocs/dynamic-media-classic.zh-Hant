@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic。
 index: true
-source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
+source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 19%
+source-wordcount: '805'
+ht-degree: 20%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 19%
   + [管理FTP帳戶](ftp-accounts.md)
   + [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md)
   + [建立及啟用影像預設集](creating-enabling-image-presets.md)
-  + [更有效地使用中繼資料](making-efficient-metadata.md)
+  + [有效管理中繼資料](making-efficient-metadata.md)
   + [自訂Media Portal畫面](customizing-media-portal-screen.md)
 + 上載和發佈資產 {#upload-publish}
   + [上傳和發佈資產](about-asset-upload-publish.md)

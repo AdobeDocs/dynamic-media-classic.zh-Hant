@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 5ed02e02ea5fd8756cbfc279a52985632ddf987a
 workflow-type: tm+mt
 source-wordcount: 243
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 # Media Portal{#media-portal}
 
-使用Adobe Media Portal時，公司可以取得、控制已核准的資產，並將其發佈給外部合作夥伴、管道和內部使用者。 瀏覽器式「自助式」環境為入口網站使用者提供由Adobe Dynamic Media Classic資產管理員控制的「檢視」，可輕鬆存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。
+使用Adobe Media Portal，公司可以取得、控制及分配核准的資產給外部合作夥伴、管道和內部使用者。 瀏覽器式「自助式」環境為入口網站使用者提供由Adobe Dynamic Media Classic資產管理員控制的「檢視」，可輕鬆存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。
 
 如需Media Portal的詳細資訊，包括系統需求，請參閱[使用Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/zh_TW/scene7/mediaportal/)。<!-- (https://help.adobe.com/zh_TW/scene7/mediaportal/index.html) -->
 
@@ -39,5 +39,5 @@ ht-degree: 6%
 另請觀看下列訓練影片：
 
 * [Media Portal概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
-* [Media Portal導覽1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
-* [Media Portal導覽2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Media Portal使用者總覽](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal管理概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
