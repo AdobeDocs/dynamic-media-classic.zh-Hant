@@ -32,7 +32,7 @@ ht-degree: 6%
 
 使用Adobe Media Portal，公司可以取得、控制及分配核准的資產給外部合作夥伴、管道和內部使用者。 瀏覽器式「自助式」環境為入口網站使用者提供由Adobe Dynamic Media Classic資產管理員控制的「檢視」，可輕鬆存取企業核准格式的上傳、瀏覽、搜尋、預覽和匯出資產。
 
-如需Media Portal的詳細資訊，包括系統需求，請參閱[使用Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/)。<!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+如需Media Portal的詳細資訊，包括系統需求，請參閱[使用Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/zh_TW/scene7/mediaportal/)。<!-- (https://help.adobe.com/zh_TW/scene7/mediaportal/index.html) -->
 
 如需更多關於管理 Media Portal 的詳細資訊，請參閱[快速入門: Media Portal 管理](quick-start-media-portal-administration.md#quick_start_media_portal_administration)。
 
