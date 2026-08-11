@@ -1,5 +1,5 @@
 ---
-title: 移動、重新命名和刪除資產
+title: 移動、重新命名和刪除Assets
 description: 瞭解如何在Adobe Dynamic Media Classic中移動、重新命名和刪除資產。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:04:38.888Z'
 TQID: 'https://experienceleague.adobe.com/PhoMSxegLPSABPovcBA94eiSksqAcIMhQV93BcAWh-s'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # 移動、重新命名和刪除資產{#moving-renaming-and-deleting-assets}
 
-您可以從「瀏覽」面板移動、重新命名和刪除資產。 此外，您也可以利用文字檔案同時刪除多項資產。
+您可以從「瀏覽」面板移動、重新命名和刪除資產。 此外，您可以使用文字檔同時刪除多個資產。
 
 ## 移動資產 {#move-assets}
 
@@ -52,13 +48,13 @@ ht-degree: 17%
 
 您可以刪除「瀏覽」面板中選取的資產並刪除整個資料夾。 刪除的資產與檔案夾會移動到「垃圾桶」檔案夾，七天後就會永久刪除。
 
-當您刪除資產時，衍生自該資產的所有資產也會一併刪除。 例如，刪除您已建立「縮放目標」的影像時，會一併刪除「縮放目標」與影像。
+刪除資產時，也會刪除衍生的所有資產。 例如，刪除您已建立「縮放目標」的影像時，會一併刪除「縮放目標」與影像。
 
-刪除資產時，也會永久刪除其中衍生的縮放影像、影像屬性及操作記錄項目。 這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
+縮放目標、影像屬性和歷史專案會在您刪除衍生自它們的資產時永久刪除。 這些衍生項目不會與資產一同移動到「垃圾桶」檔案夾，也無法從「垃圾桶」中復原。
 
 >[!IMPORTANT]
 >
->大量刪除是一項大量作業。 請確定您是依序執行大量刪除，而非同時執行大量刪除作業。 Adobe建議您將刪除操作限製為每小時5000個或更少的資產刪除。 任何大於每小時5000的數字都可能導致速率限制。
+>大量刪除是一項耗用大量資源的作業。 依序執行大量刪除，而非同時執行大規模刪除作業。 Adobe建議您將刪除操作限製為每小時5000個或更少的資產刪除。 每小時超過5000的任何數量都可能導致速率限制。
 
 **若要刪除資產：**
 
@@ -73,14 +69,14 @@ ht-degree: 17%
 
 ## 利用文字檔案刪除多項資產 {#delete-multiple-assets-with-a-text-file}
 
-若要在整個資產庫中一次刪除許多資產，您可以在文字檔中列出您要刪除的資產，並將清單提交至Adobe Dynamic Media Classic。
+若要在整個資產庫中一次刪除多個資產，您可以在文字檔中列出您要刪除的資產，並將清單提交至Adobe Dynamic Media Classic。
 
-建立Adobe Dynamic Media Classic ID清單，並將其儲存為文字(.txt)檔案。 每個Adobe Dynamic Media Classic ID都必須有自己的行（後面接著強制傳回）。
+建立Adobe Dynamic Media Classic ID清單，並將其儲存為文字(.txt)檔案。 每個Adobe Dynamic Media Classic ID都必須在其自己的行上（後面跟著歸位）。
 
-建立清單之後，遵循下列步驟即可使用該清單刪除資產:
+若要使用清單來刪除資產，請執行下列動作：
 
 1. 移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 刪除資產清單]**。
-1. 在&#x200B;**[!UICONTROL 刪除的資產清單]**&#x200B;對話方塊中，輸入包含您要刪除的資產清單的文字檔路徑。
+1. 在&#x200B;**[!UICONTROL 刪除的資產清單]**&#x200B;對話方塊中，輸入包含您要刪除之資產清單的文字檔路徑。
 1. 選取&#x200B;**[!UICONTROL 刪除]**。
 
 當您刪除含有文字檔的資產時，如果清單中不存在任何Adobe Dynamic Media Classic ID，則會顯示「無法驗證您清單中的這些專案：」訊息。 也會顯示專案清單。 不過，Adobe Dynamic Media Classic不會在作業頁面上產生錯誤。
