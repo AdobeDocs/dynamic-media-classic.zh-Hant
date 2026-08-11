@@ -12,10 +12,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:06:21.685Z'
 TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
 source-wordcount: 478
@@ -65,6 +71,6 @@ ht-degree: 14%
 
 您可以從「瀏覽」面板開始或將檔案上傳到Adobe Dynamic Media Classic時，將影像新增到「專案」資料夾：
 
-* **從「瀏覽」面板**&#x200B;中，選取資產並將其拖曳至「專案」資料夾。 您也可以前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**。 在[選取專案]對話方塊中選取專案資料夾名稱，然後選取[提交]。****
+* **從「瀏覽」面板**&#x200B;中，選取資產並將其拖曳至「專案」資料夾。 您也可以前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 新增至專案]**。 在[選取專案]對話方塊中選取專案資料夾名稱，然後選取[提交]。**&#x200B;**
 
 * **上傳檔案時**：在上傳頁面上，選取&#x200B;**[!UICONTROL 工作選項]**。 在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL 專案]**，然後選取專案名稱。
