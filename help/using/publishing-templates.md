@@ -12,16 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 172
-ht-degree: 11%
+source-wordcount: 171
+ht-degree: 1%
 
 ---
 
@@ -31,7 +28,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->若要使用範本，請發佈構成範本的所有內容，包括字型和影像。 如果您未包含所有必要的檔案，則發佈時會顯示錯誤訊息。
+>若要使用範本，請發佈建立範本所需的所有內容，包括字型和影像。 如果您未包含所有必要的檔案，則發佈時會顯示錯誤訊息。
 
 ## 標示範本以供發佈 {#marking-templates-for-publish}
 
