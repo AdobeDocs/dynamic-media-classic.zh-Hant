@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: c19d0ff374b6697c647810a2bf7ba23627ff8830
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: 245
 ht-degree: 3%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 3%
 <!-- NOT FOUND * [Maximize your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices for delivering rich media across your sites and mobile apps. In this webinar, examples and demonstrations show you how to deliver video efficiently across devices. It shows you how to deliver dynamic creative in your marketing campaigns. And, increase conversion by making any image, style guide, or lookbook shoppable. -->
 <!-- NOT FOUND * [Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): This webinar gives you an introduction and demonstration of Adobe Experience Manager Assets: on demand, the next generation program for rich media management and delivery. Learn how to collaborate and share assets between creative and marketing teams to streamline asset review processes. Learn best practices for managing asset metadata efficiently to make assets easy to find, use, reuse, and share. Learn how to deliver interactive cross-channel rich media experiences. -->
 <!-- NOT FOUND * [Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Using Adobe Dynamic Media Classic for efficient delivery of targeted rich media to all devices. In this webinar, you learn how to design and deliver imaging and video viewing experiences that are effective across mobile apps and responsive sites. -->
-* [Adobe Dynamic Media Classic如何支援SEO](/help/using/assets/s7_seo.pdf)：搜尋引擎目前可啟用網站和影像的搜尋。 Adobe Dynamic Media Classic可支援讓影像更易於搜尋引擎使用的做法，以便為Adobe Dynamic Media Classic使用者的網站帶來更多流量。 此PDF提供實現目標的背景和實施指引。
+* [Adobe Dynamic Media Classic如何支援SEO](/help/using/assets/s7_seo.pdf)： Adobe Dynamic Media Classic會最佳化搜尋引擎的影像，以增加您網站的流量。 本PDF提供達成該結果的背景和實施指引。
 <!-- NOT FOUND * [Use Adobe Dynamic Media Classic to maximize holiday conversion](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): This webinar teaches you how to set up automated workflows to get content from watched folders and automatically create Spin Sets and videos. You also learn how you can quickly manage changes and update images. -->
-* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：此網路研討會會教導您如何從Adobe Dynamic Media Classic取得內容。 瞭解如何設定影像預設集以獲得最佳效能和體驗。 您也會瞭解檢視器預設集和快取設定。
+* [使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：此網路研討會會教導您如何使用Adobe Dynamic Media Classic匯入和匯出內容。 瞭解如何設定影像預設集以獲得最佳效能和體驗。 您也會瞭解檢視器預設集和快取設定。
 <!-- NOT FOUND ANYMORE* [Best practices for responsive design](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): This webinar teaches you practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices. Increase mobile performance by dynamically changing the resolution of images. Or, orient images for portrait or landscape displays. Also learn how to dynamically crop, scale, or resize images. -->
 
 ## Adobe Dynamic Media Classic培訓

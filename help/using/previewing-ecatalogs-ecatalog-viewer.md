@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # 在eCatalog檢視器中預覽eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-您可以使用「預覽」，透過各種不同的 eCatalog 檢視器預設集來顯示 eCatalog。 您可以實驗各種不同的控制項來翻頁、撰寫註解及瀏覽。
+您可以使用「預覽」功能，使用不同的eCatalog檢視器預設集來顯示eCatalog。 若要翻頁、新增註記及瀏覽，您可以使用不同的控制項。
 
 請參閱[設定預設檢視器](application-setup.md#configuring_default_viewers)。
 
@@ -35,8 +35,8 @@ ht-degree: 22%
 
 **若要在eCatalog檢視器中預覽eCatalog：**
 
-1. 在左側的「資產庫」面板中，從「顯示」下拉式清單中，選取視訊資產型別，如「視訊」或「視訊集」。
-1. 在「資產庫」面板左方，導覽至含有您要使用 eCatalog 檢視器來預覽的「資產」檔案夾。
+1. 在左側的「資產庫」面板中，從「顯示」下拉式清單中選取eCatalog型資產型別，例如eCatalog或eCatalog集。
+1. 在左側的「資產庫」面板中，導覽至包含您要使用eCatalog檢視器預覽之eCatalog的資產資料夾。
 1. 進行以下一項操作:
 
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗中，在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。

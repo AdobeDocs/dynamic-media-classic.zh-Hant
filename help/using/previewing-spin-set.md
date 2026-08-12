@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 99a88f17cedfc68f0339067c75c360f98f098c30
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 28%
+source-wordcount: 261
+ht-degree: 9%
 
 ---
 
 # 預覽迴轉集{#previewing-a-spin-set}
 
-您可以使用檢視器清單來預覽資產在特定檢視器型別平台（例如HTML5）上的顯示方式。 視資產類型和您所選取用來預覽的相關檢視器而定，並非所有的平台都適用於「檢視器清單」。
+您可以使用檢視器清單來預覽資產在特定檢視器型別平台（例如HTML5）上的顯示方式。 根據您選取要預覽的資產型別和相關聯的檢視器，「檢視器清單」中並非所有平台都可用。
 
 請參閱[設定預設檢視器](application-setup.md#configuring_default_viewers)。
 
@@ -36,7 +36,7 @@ ht-degree: 28%
 **預覽迴轉集：**
 
 1. 在左側的「資產庫」面板中，在「顯示」下拉式清單中，選取迴轉集資產類型。
-1. 在左側的「資產庫」面板中，瀏覽要使用檢視器進行預覽的迴轉集所在的資產檔案夾。
+1. 在左側的「資產庫」面板中，導覽至包含您要在檢視器中預覽之迴轉集的資產資料夾。
 1. 進行以下一項操作:
 
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗中，在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。

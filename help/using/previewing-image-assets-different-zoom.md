@@ -1,5 +1,5 @@
 ---
-title: 使用不同的縮放檢視器預覽影像資產
+title: 使用不同的縮放檢視器預覽影像Assets
 description: 瞭解如何在Adobe Dynamic Media Classic中使用不同的縮放檢視器來預覽影像資產。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 28%
 **若要使用不同的縮放檢視器預覽影像資產：**
 
 1. 在左側「資產庫」面板的「顯示」下拉式清單中，選取影像型資產類型 (如影像或影像集)。
-1. 在左側「資產庫」面板中，瀏覽包含要使用縮放檢視器預覽的影像的資產檔案夾。
+1. 在左側的「資產庫」面板中，導覽至包含您要使用縮放檢視器預覽之影像的資產資料夾。
 1. 進行以下一項操作:
 
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗中，在縮圖影像下方，移至&#x200B;**[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**。

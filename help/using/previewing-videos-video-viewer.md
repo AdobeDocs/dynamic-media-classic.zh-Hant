@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 853
+ht-degree: 15%
 
 ---
 
@@ -33,23 +33,23 @@ ht-degree: 19%
 
 **若要在視訊檢視器中預覽視訊：**
 
-1. 在左側「資產庫」面板的「顯示」下拉式清單中，選取&#x200B;**[!UICONTROL 視訊]** （單一編碼的視訊）或&#x200B;**[!UICONTROL 最適化視訊集]**。 使用最適化視訊編碼預設集時，會產生一組多位元速率編碼的視訊。
-1. 在左側的「資產庫」面板中，瀏覽資產檔案夾，以選取您要預覽的視訊。
-1. 執行下列任一項作業︰
+1. 在左側「資產庫」面板的「顯示」下拉式清單中，選取&#x200B;**[!UICONTROL 視訊]** （單一編碼的視訊）或&#x200B;**[!UICONTROL 最適化視訊集]**。 最適化視訊編碼預設集會產生一組多位元速率編碼的視訊。
+1. 在左側的「資產庫」面板中，瀏覽資產資料夾以選取您要預覽的影片。
+1. 進行以下一項操作:
 
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 清單檢視]**。 在「資產」視窗中，暫留在資產上，然後選取「**[!UICONTROL 預覽]**」。
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 格線檢視]**。 在「資產」視窗的資產縮圖視窗中，選取&#x200B;**[!UICONTROL 預覽]**。
    * 在Assets視窗上方、工具列右側，選取&#x200B;**[!UICONTROL 詳細資料檢視]**。 在相同工具列上，選取&#x200B;**[!UICONTROL 預覽]**。
    * 在「資產」視窗中選取資產。 在工具列中，移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 預覽]**。
 
-1. （可選）在預覽視窗底部的下拉式清單中，選取複製資產時套用至資產URL的URL編碼。
+1. （可選）在預覽視窗底部的下拉式清單中，選取在複製資產時套用至資產URL的URL編碼。
 1. 選取&#x200B;**[!UICONTROL 預覽]**&#x200B;連結，以便在選取的檢視器中檢閱資產。
 1. 關閉顯示的檢視器。
 1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回Assets畫面。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic提供在案頭上預覽MP4視訊的便利方法。 使用此方式可在桌面上預覽行動裝置內容，而不必在行動裝置上對其進行實際測試。 不過請注意，在案頭預覽中看到的內容不會實際顯示行動裝置上的播放外觀。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面。 按一下&#x200B;**[!UICONTROL 複製URL]**，然後在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱[將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>Adobe Dynamic Media Classic可讓您在案頭上預覽MP4影片。 使用此方法在案頭上預覽行動內容，而不在行動裝置上進行測試。 不過，案頭預覽無法準確反映行動裝置上的播放情形。 若要預覽視訊在行動裝置上的外觀和播放方式，請前往「預覽」畫面。 按一下&#x200B;**[!UICONTROL 複製URL]**，然後在行動裝置的網頁瀏覽器中輸入該URL。 如需詳細資訊，請參閱[將視訊部署至您的網站和行動網站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用視訊檢視器預設集 {#working-with-video-viewer-presets}
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic隨附許多預先定義的檢視器預設集，可�
 
 檢視[在視訊檢視器中預覽視訊](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
 
-另請觀看[視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)訓練視訊。
+另請觀看[視訊預設集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)訓練影片。
 
 ### 新增或編輯視訊檢視器預設集 {#adding-or-editing-a-video-viewer-preset}
 
