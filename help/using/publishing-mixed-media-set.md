@@ -12,40 +12,27 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:57.110Z'
 TQID: 'https://experienceleague.adobe.com/ZDf5ovDIKfCJ5p-6-Qz-isp77LnCQDKJo5hQA1HBN0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 3a0d9567c4e9fc6830393efd44b9af43f3781382
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: 263
 ht-degree: 12%
 
 ---
 
 # 發佈混合媒體集{#publishing-a-mixed-media-set}
 
-建立發佈工作，以發佈您已標示要發佈至Adobe Dynamic Media Classic Video Server和Image Server的混合媒體集。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
+設定發佈工作，以發佈您已標示要發佈至Adobe Dynamic Media Classic Video Server和Image Server的混合媒體集。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
 >[!NOTE]
 >
->您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。 使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 而且，您可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
+>您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。 使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 您使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產，例如視訊縮圖，以及任何最適化視訊集的設定資訊。
 
 Adobe Dynamic Media Classic會追蹤「工作」畫面上的發佈工作。
 
 請參閱[發佈](publishing-files.md#publishing_files)。
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>RB: Updated the following steps as per Cynthia email, 11/9/2012, added 11/12/2012</p>
-
- -->
 
 **要發佈混合媒體集：**
 
@@ -62,7 +49,7 @@ Last Modified Date:
    請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)，瞭解您可以設定的更多選項。
 
 1. 選取&#x200B;**[!UICONTROL 提交發佈]**。
-1. 重複上述步驟2到4。
+1. 重複步驟2-6。
 1. 在「**[!UICONTROL 進階]**」的「**[!UICONTROL 發佈至]**」下拉式清單中選取「**[!UICONTROL 影像伺服器]**」。
 
    請參閱[進階發佈選項](publishing-files.md#advanced_publish_options)，瞭解您可以設定的更多選項。
