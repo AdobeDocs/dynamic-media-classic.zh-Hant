@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,11 +26,11 @@ ht-degree: 21%
 
 您將資產發佈至Dynamic Media影像伺服器。 您可以單次發佈資產，或安排Adobe Dynamic Media Classic按照週期性排程發佈資產。 發佈資產後，這些資產即可用來傳送。 您可以複製Adobe Dynamic Media Classic的URL呼叫，並將其新增至您的網站或應用程式。
 
-Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，讓您的所有Adobe Dynamic Media Classic資產獲得更好的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊。 也就是說，影像或視訊的已發佈URL或內嵌程式碼可整合至任何接受託管資產的應用程式。 該已發佈資產使用HTTP/2通訊協定來傳送。 此傳送方式可改善瀏覽器和伺服器的通訊方式，進而改善所有Adobe Dynamic Media Classic資產的回應和載入時間。 請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
-## 上載後發佈 {#publish-after-uploading}
+## 上傳後發佈 {#publish-after-uploading}
 
-資產狀態一定是「已發佈」或「未發佈」。 依預設，您上傳至Adobe Dynamic Media Classic的任何資產都會自動標示為發佈。
+Assets處於已發佈或未發佈狀態。 依預設，您上傳至Adobe Dynamic Media Classic的任何資產都會自動標示為發佈。
 
 如需詳細資訊，請參閱[立即發佈通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
 
@@ -43,7 +40,7 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 
 * **[!UICONTROL 上傳後發佈]**：在[工作選項]對話方塊中，選取&#x200B;**[!UICONTROL 上傳後發佈]**。 預設狀態是已選取。
 
-如果父項資產標記為發佈，則某些「子項」資產會自動標記為發佈。 此表格列出自動標示為要發佈的子資產。
+當某些相依資產的上層資產標示為要發佈時，系統會自動將其標示為要發佈。 此表格列出標示為要自動發佈的子資產。
 
 | 父項 (群組) 項目 | 子項 (成員) 項目 |
 | --- | --- |
@@ -52,18 +49,18 @@ Adobe Dynamic Media Classic現在支援透過HTTP/2傳送所有影像和視訊�
 | 迴轉集 | 集內的影像。 |
 | 範本 | 範本檔案、頁面和影像。 |
 
-衍生影像在發佈其父影像時，也會自動標示為發佈。 衍生影像包括您使用影像編輯選項調整的影像。 您可以在「建置和衍生物」下的「詳細檢視」中看到這些衍生影像。
+父影像發佈時，衍生影像也會自動標示為發佈。 衍生影像包括您使用影像編輯選項調整的影像。 您可以在「建置和衍生物」下的「詳細檢視」中看到這些衍生影像。
 
 ## 建立發佈工作 {#creating-a-publish-job}
 
-建立發佈工作以發佈您已上傳至Adobe Dynamic Media Classic伺服器，但尚未自動發佈的資產。 您可以執行一次性發佈工作或排程定期重複的工作。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
+建立發佈工作，發佈您已上傳至Adobe Dynamic Media Classic伺服器的資產。 您不想要自動發佈的資產請使用此選項。 您可以執行一次性發佈工作或排程定期重複的工作。 Adobe Dynamic Media Classic提供進階發佈選項，可用於發佈至特定伺服器，以及重新發佈已發佈資產的選項。
 
 **若要建立發佈工作：**
 
 1. 在全域導覽列上，選取&#x200B;**[!UICONTROL 發佈]**。
 1. 在「發佈」對話方塊中，選擇您要單次或循環發佈工作。
 
-   請參閱[建立一次性發佈工作](publishing-files.md#creating_a_one_time_publish_job)和[建立循環發佈工作](publishing-files.md#creating_a_recurring_publish_job)。
+   請參閱[建立一次性發佈工作](publishing-files.md#creating_a_one_time_publish_job)和[建立週期性發佈工作](publishing-files.md#creating_a_recurring_publish_job)。
 
 1. 輸入工作名稱。
 1. 或者，顯示「進階」選項並選擇這些選項。
@@ -80,13 +77,13 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 ### 建立一次性發佈工作 {#creating-a-one-time-publish-job}
 
-在[發佈]頁面上選取&#x200B;**[!UICONTROL 一次性]**&#x200B;選項，以建立一次性的發佈工作。
+在[發佈]頁面上選取&#x200B;**[!UICONTROL 單次]**&#x200B;選項，以建立單次發佈工作。
 
 如果您希望發佈工作稍後進行，請在[發佈]頁面中選取&#x200B;**[!UICONTROL 單次]**。 從下拉式清單中，選取&#x200B;**[!UICONTROL 排程稍後]**。 使用「行事曆」和「時間」滑桿來選取執行發佈工作的日期和時間。
 
 ### 建立週期性發佈工作 {#creating-a-recurring-publish-job}
 
-在[發佈]頁面上選取&#x200B;**[!UICONTROL Recurring]**，以建立循環發佈工作。
+在發佈頁面上選取&#x200B;**[!UICONTROL 週期性]**，以建立週期性發佈工作。
 
 接著選擇&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每週]**、**[!UICONTROL 每月]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**&#x200B;重複選項，然後指定您要發佈工作重複的時間。 Adobe Dynamic Media Classic提供用於排程週期性發佈工作的行事曆工具。 您可以選取&#x200B;**[!UICONTROL 自訂]**&#x200B;選項，並在「規則」文字欄位中輸入規則來說明自訂工作間隔。
 
@@ -94,7 +91,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 >[!NOTE]
 >
->在「工作」頁面上會列出週期性發佈 (和上載) 工作。 前往「工作」頁面的「已排程」標籤，可以編輯或刪除排程的工作。
+>在「工作」頁面上會列出週期性發佈 (和上載) 工作。 您可以前往「工作」頁面的「已排程」頁簽，編輯或刪除已排程的工作。
 
 ### 進階發佈選項 {#advanced-publish-options}
 
@@ -114,7 +111,7 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 您可以取消進行中的發佈工作。 此外，管理員還可以透過公司的「工作」頁面取消進行中的發佈工作。
 
-若要取消發佈工作，請移至[工作]頁面並選取[取消]。**&#x200B;** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
+若要取消發佈工作，請移至[工作]頁面並選取[取消]。**** 在「工作」頁面的「已排程」頁簽中，您可以取消選取或選取工作之「作用中」資料欄中的核取方塊，來暫停或繼續工作。
 
 >[!NOTE]
 >
@@ -122,9 +119,9 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 ## 手動發佈資產 {#manually-publishing-assets}
 
-您可以手動發佈個別資產，而不是建立發佈工作。 當您發佈影像集或最適化視訊集等集時，集（或「父項」）與該集內的所有成員（或「子項」）都會發佈。
+您可以手動發佈個別資產，而不是建立發佈工作。 發佈集合時，會發佈該集合的父項與所有子項。
 
-未發佈的資產會在使用者介面中以灰色圓形圖示表示，在資產名稱的左側會有斜線（未發佈狀態）。 發佈資產之後，圖示會變成綠色，並且在中心會有白色的勾選記號 (發佈的狀態)。
+資產名稱左側的灰色圓形圖示，其中一行穿過該圖示（未發佈狀態），表示使用者介面中有未發佈的資產。 發佈資產之後，圖示會變成綠色，並且在中心會有白色的勾選記號 (發佈的狀態)。
 
 **若要手動發佈資產：**
 
@@ -134,13 +131,13 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
      在全域導覽列上，前往&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 發佈]**。
 
-   * 在「格點檢視」、「清單檢視」或「詳細資料檢視」中，選取資產名稱左邊具有斜線的灰色圓形圖示。
+   * 在「格點檢視」、「清單檢視」或「詳細資料檢視」中，選取資產名稱左側的灰色圓形圖示（其間有一行線）。
 
 ## 手動取消發佈資產 {#manually-unpublishing-assets}
 
-您可以手動取消發佈個別資產。 當您取消發佈色票集或eCatalog等色票集時，該集（或「父項」）本身會進入取消發佈狀態。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
+您可以手動取消發佈個別資產。 取消發佈集合時，父項會進入取消發佈狀態。 不過，該集內的成員（或「子系」）不受影響；相反地，它們各自保留其現有的已發佈或未發佈狀態。
 
-已發佈的資產會在使用者介面中以綠色圓形圖示表示，中央會有白色勾號（已發佈狀態），位於資產名稱左側。 取消發佈資產後，圖示會變成灰色，並加上斜線（取消發佈狀態）。
+資產名稱左側中央有白色勾號（已發佈狀態）的綠色圓形圖示，表示使用者介面中已發佈的資產。 取消發佈資產後，圖示會變成灰色，中間有一行字元（取消發佈狀態）。
 
 **若要手動取消發佈資產：**
 
@@ -158,11 +155,11 @@ Adobe Dynamic Media Classic會追蹤「工作」頁面上的發佈工作。 您�
 
 ## 重新發佈的資產和 CDN 延遲 {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic資產在內容傳遞網路(CDN)上分發。 CDN 是指聯成網路的電腦伺服器系統，這些伺服器以完全無障礙地的方式合作，將內容 (尤其是大型媒體內容) 傳送給終端使用者。 在CDN系統中，網頁內容會儲存在網際網路上的網頁快取中（稱為邊緣快取網路）。 網頁內容會從網頁快取傳送給一般使用者，以加快傳送速度。
+Adobe Dynamic Media Classic資產在內容傳遞網路(CDN)上分發。 CDN是一種以網路連線的電腦伺服器系統。 他們共同合作，為使用者提供內容，尤其是大型媒體內容。 在CDN系統中，網頁內容會儲存在網際網路上的網頁快取中（稱為邊緣快取網路）。 網頁內容會從網頁快取傳送給一般使用者，以加快傳送速度。
 
 第一次下載網頁時，資產會傳送到CDN網頁快取伺服器。 此伺服器會儲存這些快取內容，以便下次同一區域中的某人存取網頁時，相同快取內容可以更快傳送。 內容傳送速度更快是因為其位置更接近終端使用者。 CDN可加快網頁顯示速度。 它降低了中央伺服器上的頻寬要求，因為內容是從邊緣快取網路傳送，而不是從每個實體的中央伺服器傳送。
 
-使用者可立即取得新發佈的Adobe Dynamic Media Classic內容，並快速填入邊緣快取網路。 然而，新重新發佈的內容（即名稱與先前發佈至影像伺服器的影像相同的影像）在CDN上最多十小時內不會更新。 一般使用者會看到CDN網路上網頁快取的內容。 因此，您的Adobe Dynamic Media Classic重新發佈資產不會在十小時內向一般使用者顯示。
+使用者可立即取得新發佈的Adobe Dynamic Media Classic內容，並快速填入邊緣快取網路。 不過，新重新發佈的內容（即名稱與先前發佈至影像伺服器的影像相同的影像）不會在十小時內於CDN上更新。 一般使用者會看到CDN網路上網頁快取的內容。 因此，您的Adobe Dynamic Media Classic重新發佈資產不會在十小時內向一般使用者顯示。
 
 如果您希望新重新發佈的影像資產在十小時延遲前就可供使用，您可以清除CDN上的網路快取。 清除這些網頁快取會從CDN網頁快取中移除舊內容，並將其取代為您最近發佈的資產。
 
