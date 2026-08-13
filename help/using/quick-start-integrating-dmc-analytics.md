@@ -37,7 +37,7 @@ Adobe Analytics是領先業界的產品，為行銷人員提供集中位置，�
 
 使用Adobe Analytics報表，您可以瞭解客戶在您網站上的活動。 您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
 
-另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)。
+另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)。
 
 >[!NOTE]
 >
