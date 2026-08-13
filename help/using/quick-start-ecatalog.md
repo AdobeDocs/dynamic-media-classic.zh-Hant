@@ -12,9 +12,13 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
 source-wordcount: 1565
@@ -113,7 +117,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。 因為 PDF 檔案須列印，所
 
 eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
-若要瞭解eCatalog檢視器預設集如何顯示您的eCatalog，請在[瀏覽]面板中選取您的eCatalog，然後選取[預覽]。**** 「預覽」畫面會在預設的檢視器中開啟。
+若要瞭解eCatalog檢視器預設集如何顯示您的eCatalog，請在[瀏覽]面板中選取您的eCatalog，然後選取[預覽]。**&#x200B;** 「預覽」畫面會在預設的檢視器中開啟。
 
 請注意方向、色彩方案、變更頁面的控制項外觀，以及頁面翻頁時的外觀。
 
