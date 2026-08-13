@@ -12,50 +12,44 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T20:10:08.073Z'
 TQID: 'https://experienceleague.adobe.com/DnpXpIqOz1HSLxZAoEOTHG65PSqTWLK7R--OzJj3FcY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: afc1e5c58de547307108448ae111af91f1f482e7
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 23%
+source-wordcount: 690
+ht-degree: 17%
 
 ---
 
 # 快速入門：整合Adobe Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-dmc-analytics}
 
-Adobe Analytics 是一款領先同業的產品，可讓行銷人員僅從一個地方就能針對整合自多個行銷通路的所有線上方案的資料進行評估、分析及最佳化。
+Adobe Analytics是領先業界的產品，為行銷人員提供集中位置，方便他們測量、分析和最佳化多個行銷管道中所有線上方案的整合資料。
 
 將Adobe Analytics與Adobe Dynamic Media Classic整合後，您可以在網站上使用Adobe Dynamic Media Classic檢視器取得網站訪客行為的相關報表。 例如，當網站訪客在Adobe Dynamic Media Classic縮放檢視器中選取縮放目標時，Adobe Analytics會記錄此動作。 Adobe Analytics報表可收集Adobe Dynamic Media Classic檢視器中使用者活動的累計資訊。
 
-透過 Adobe Analytics 報告，可以非常清楚地瞭解客戶在網站上的活動。 您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
+使用Adobe Analytics報表，您可以瞭解客戶在您網站上的活動。 您可以判斷哪些產品簡報會導致轉換，以及哪些不會吸引客戶興趣。
 
-另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)。
+另請參閱Adobe Analytics中的[測量視訊](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)。
 
 >[!NOTE]
 >
 >必須具備有效的Adobe Analytics帳戶，才能整合Analytics與Adobe Dynamic Media Classic並產生Analytics報表。
 
-本快速入門旨在協助您快速上手並執行Adobe Analytics Instrumentation Kit。
+本指南旨在協助您設定Adobe Analytics Instrumentation套件。
 
-## &#x200B;1. 透過Adobe Dynamic Media Classic登入Adobe Analytics並下載Adobe Analytics報表變數
+## &#x200B;1. 從Adobe Dynamic Media Classic登入Adobe Analytics並下載Adobe Analytics報表變數
 
 >[!NOTE]
 >
->確認您已新增為Adobe Analytics中「Web服務存取」群組的成員。 請在設定Adobe Analytics報表之前進行此驗證。 此外，在將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件比對之前。 此群組中的成員可以存取指定報表套裝中的所有報表。 無論介面中設定的許可權為何，您皆可使用Experience Cloud的Web Services API完成此操作。 若要新增成員到群組，請在Adobe Analytics中移至&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**。
+>確認您已新增為Adobe Analytics中「Web服務存取」群組的成員。 在設定Adobe Analytics報表以及將Adobe Analytics報表變數與Adobe Dynamic Media Classic事件比對之前，請務必進行這項驗證。 此群組的成員可以存取指定報表套裝中的所有報表。 無論介面中設定的許可權為何，您皆可使用Experience Cloud網站服務API執行此動作。 若要新增成員到群組，請在Adobe Analytics中移至&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**。
 
 確認您是Web服務存取群組成員後，在Adobe Dynamic Media Classic中，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL Adobe Analytics]**。 在Adobe Analytics設定頁面上，選取&#x200B;**[!UICONTROL Adobe Analytics登入]**。
 
 請參閱[登入Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-在「Adobe Analytics登入」對話方塊中，輸入您的Experience Cloud組織ID （選擇性）和完整的認證，然後選取「**[!UICONTROL 登入]**」。 在「報告套件」下拉式選單中，選取您要使用的報告套件名稱。
+在「Adobe Analytics登入」對話方塊中，輸入您的Experience Cloud組織ID （選擇性）和完整認證，然後選取「**[!UICONTROL 登入]**」。 在「報告套件」下拉式選單中，選取您要使用的報告套件名稱。
 
 ## &#x200B;2. 將Adobe Analytics報表變數指派給Adobe Dynamic Media Classic檢視器事件和Adobe Dynamic Media Classic變數
 
