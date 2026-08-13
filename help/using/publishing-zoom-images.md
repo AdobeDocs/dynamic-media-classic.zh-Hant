@@ -20,7 +20,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 2f233c96497a020111949c809066160717d7ca91
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 標籤要發佈的影像 {#marking-images-for-publish}
 
-影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以選取&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示，在「瀏覽」面板中將影像標籤為發佈。 您也可以在上傳影像時，將其標示為發佈。
+影像必須標示為發佈，才能複製至Dynamic Media影像伺服器。 您可以選取&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示，在「瀏覽」面板中將影像標籤為發佈。 您也可以在上傳影像時，將其標示為發佈。
 
 ## 發佈影像 {#publishing-the-images}
 

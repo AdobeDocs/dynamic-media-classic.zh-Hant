@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 149675d236e33ffb14ef1dee7eae6f405fc06325
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 ## 標籤要發佈的迴轉集 {#marking-a-spin-set-for-publish}
 
-標示您的迴轉集以供發佈，以便複製到Adobe Dynamic Media Classic影像伺服器。 您可以選取名稱左邊的&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示，在「瀏覽」面板中將迴轉集標籤為發佈。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
+標示您的迴轉集以進行發佈，以便將其複製到Adobe Dynamic Media Classic影像伺服器。 您可以選取名稱左側的&#x200B;**[!UICONTROL 標籤為發佈]**&#x200B;圖示，在「瀏覽」面板中將迴轉集標籤為發佈。 如果將迴轉集本身標記為發佈，則迴轉集中的所有影像均被標記為發佈。
 
 ## 發佈迴轉集 {#publishing-the-spin-set}
 

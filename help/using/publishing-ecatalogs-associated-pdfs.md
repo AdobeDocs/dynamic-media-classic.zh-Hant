@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
 workflow-type: tm+mt
-source-wordcount: 197
-ht-degree: 13%
+source-wordcount: 195
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->請確定eCatalog和PDF位於相同的資料夾中。 此外，在發佈之前，請務必在「瀏覽」面板或「資產詳細資訊」頁面中標示為要發佈。
+>請確定eCatalog和PDF位於相同的資料夾中。 在發佈之前，請務必在「瀏覽」面板或「資產詳細資訊」頁面中標示為要發佈。
 
 **若要發佈eCatalog和相關聯的PDF：**
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 1. 在[發佈]畫面上，選取&#x200B;**[!UICONTROL 單次]**，或選取&#x200B;**[!UICONTROL 遞回]**。
 1. （選擇性）在「工作名稱」欄位中，輸入發佈工作的名稱，但保留預先定義的日期與時間文字。
 
-   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 進階]**。 從&#x200B;**[!UICONTROL 發佈]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 完整包含搜尋資料]**。 根據預設值，此選項為已選取。
+   如果您將 eCatalog 設定成檢視者可以執行關鍵字搜尋，請確定已發佈關鍵字資料。 在[發佈]對話方塊中，選取&#x200B;**[!UICONTROL 進階]**。 從&#x200B;**[!UICONTROL 發佈]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 搜尋資料完整]**。 系統預設會選取此選項。
 
 1. 選取&#x200B;**[!UICONTROL 提交發佈]**。
 
