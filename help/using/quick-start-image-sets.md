@@ -12,16 +12,13 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 11%
 
 Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 在動態影像集檢視器中，使用者可以透過選取縮圖影像來檢視專案的不同檢視。 「影像集」可讓您呈現專案的替代高解析度檢視。
 
-影像集檢視器提供了縮放工具，以便近距離檢查影像。 如有需要，您可以讓引導式「縮放目標」和「影像地圖」成為影像集的一部分。 影像集能創造更一致且緊密的檢視體驗。
+影像集檢視器提供了縮放工具，以便近距離檢查影像。 您可以將引導式縮放目標和影像地圖做為您的影像集的一部分。 影像集可提供更一致、更聚焦的檢視體驗。
 
 請參閱[影像和迴轉集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
@@ -44,13 +41,13 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 另請參閱[Dynamic Media限制](/help/using/limitations.md)。
 
-下列影像集快速入門的設計目的，是要讓您快速上手並執行Adobe Dynamic Media Classic中的影像集技術。
+下列影像集快速入門旨在協助您在[!DNL Adobe Dynamic Media Classic]中開始使用影像集技術。
 
 ## &#x200B;1. 上傳多個檢視和色票的主要影像
 
-請先為影像集上載影像。 由於使用者可以在影像集檢視器中放大影像，因此在選擇影像時，請務必說明這個功能。 請確定影像的大小至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用無損的TIFF、PNG和EPS影像。
+請先為影像集上載影像。 由於使用者可以在影像集檢視器中放大影像，因此選擇影像時，請務必評估此功能。 請確定影像在最大尺寸中至少為2000畫素。 Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用無損的TIFF、PNG和EPS影像。
 
-在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。
+在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic中的資料夾。
 
 請參閱[準備影像集資產以進行上傳](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上傳您的檔案](uploading-files.md#uploading-your-files)。
 
@@ -58,7 +55,7 @@ Adobe Dynamic Media Classic影像集為使用者提供整合式檢視體驗。 �
 
 在「影像集」中，使用者可在「影像集檢視器」中選取縮圖影像，以從不同側面或角度檢視影像。
 
-若要建立影像集，請在全域導覽列上選取&#x200B;**[!UICONTROL 建置]**，然後選擇&#x200B;**[!UICONTROL 影像集]**。 在「影像集」視窗上，將影像拖曳至頁面以構成影像集。 視需求組織、新增和刪除影像。
+若要建立影像集，請在全域導覽列上選取&#x200B;**[!UICONTROL 建置]**，然後選擇&#x200B;**[!UICONTROL 影像集]**。 若要撰寫影像集，請將影像拖曳至「影像集」視窗上的頁面。 視需求組織、新增和刪除影像。
 
 請參閱[建立影像集](creating-image-set.md#creating-an-image-set)。
 
