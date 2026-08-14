@@ -12,9 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:31.990Z'
 TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 1c15d2395e62ce41a298d25b973920963eef3a7a
 workflow-type: tm+mt
 source-wordcount: 820
@@ -68,7 +71,7 @@ ht-degree: 11%
 
 管理員可以建立迴轉集檢視器預設集。 這些預設集決定了迴轉集檢視器的外觀。 若要設定新的迴轉集檢視器預設集，請在全域導覽列上，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 
-在[檢視器預設集]頁面上，按一下[新增]****，然後從下拉式清單中選取[迴轉集檢視器]]**，然後選取[新增]****。**[!UICONTROL &#x200B;在`Configure Viewer`頁面上選擇選項，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+在[檢視器預設集]頁面上，按一下[新增]&#x200B;**&#x200B;**，然後從下拉式清單中選取[迴轉集檢視器]&#x200B;**，然後選取[新增]**&#x200B;**。**&#x200B;在`Configure Viewer`頁面上選擇選項，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
 請參閱[設定迴轉集檢視器預設集](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets)。
 
@@ -90,6 +93,6 @@ ht-degree: 11%
 
 Adobe Dynamic Media Classic會為迴轉集建立URL圖說文字串，並在您發佈後加以啟用。 您可以從「預覽」頁面複製這些URL。
 
-選取迴轉集，然後按一下[預覽]。**** 選取迴轉集檢視器預設集。 然後按一下&#x200B;**[!UICONTROL 複製URL]**。
+選取迴轉集，然後按一下[預覽]。**&#x200B;** 選取迴轉集檢視器預設集。 然後按一下&#x200B;**[!UICONTROL 複製URL]**。
 
 請參閱[將迴轉集連結至網頁](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page)。
