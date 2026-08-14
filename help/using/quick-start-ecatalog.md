@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 23%
 
 ---
 
@@ -65,7 +65,7 @@ eCatalog是數位的Web版印刷資料，例如目錄、手冊、傳單、產品
 >
 >您現在可以在Adobe Dynamic Media Classic中撰寫eCatalogs 。
 
-「eCatalog 快速入門」的設計可讓您迅速熟練 eCatalog。 依照步驟 1 至 7 執行。 每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
+此eCatalog快速入門旨在協助您開始快速使用eCatalog。 依照步驟 1 至 7 執行。 每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
 
 ## &#x200B;1. 上傳PDF檔案
 
@@ -83,7 +83,7 @@ Adobe PDF 檔案通常是 eCatalog 的來源。 因為 PDF 檔案須列印，所
 
 在eCatalog頁面的&#x200B;**[!UICONTROL 訂購頁面]**&#x200B;索引標籤上，選取配置選項： **[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**。 您可以拖曳頁面，或是在大型的eCatalog 的「移動至」選單上選擇頁面名稱，來重新排序頁面或跨頁。
 
-若要新增頁面，請在資產庫中選取檔案夾，然後將 PDF 或影像檔案從檔案夾拖曳至「排序頁面」畫面。 您可以提供自訂頁面名稱或匯入許多頁面名稱，而不是預設頁碼。
+若要新增頁面，請在「資產資料庫」中選取資料夾，然後將PDF或影像檔案拖曳至「排序頁面」畫面。 您可以提供自訂頁面名稱或匯入許多頁面名稱，而不是預設頁碼。
 
 選取「**[!UICONTROL 儲存]**」，輸入eCatalog的名稱，選擇儲存資料夾的Adobe Dynamic Media Classic資料夾，然後選取「**[!UICONTROL 儲存]**」。 每次您變更頁面順序或編輯eCatalog時，請選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
@@ -135,6 +135,6 @@ eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式與行為。
 
 當您將eCatalog發佈至Dynamic Media影像伺服器時，Adobe Dynamic Media Classic會啟用顯示所需的URL圖說文字字串。 您可以從「預覽」畫面和「瀏覽」面板（在「詳細資料檢視」中）中選取面板中的URL，以複製此URL字串。 複製URL字串後，您的網站和應用程式即可使用該字串。
 
-請與您的IT團隊合作，將指向eCatalog的連結放置在網頁中的適當位置。 當使用者選取連結時，eCatalog檢視器會出現，使用者可以瀏覽您的eCatalog。
+若要將指向eCatalog的連結放到網頁上，請與您的IT團隊合作。 當使用者選取連結時，eCatalog檢視器會出現，使用者可以瀏覽您的eCatalog。
 
 請參閱[將eCatalog連結至網頁](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page)。
