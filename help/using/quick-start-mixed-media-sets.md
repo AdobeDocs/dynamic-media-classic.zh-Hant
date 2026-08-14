@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 17%
+source-wordcount: 688
+ht-degree: 15%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 17%
 
 混合媒體集檢視器預設集包含社群選項，供一般使用者內嵌程式碼、複製URL和連結至主要網站。 使用者可以使用這些選項，在個人網站或社交網站上分享產品的相關資訊。
 
-此混合媒體集快速入門旨在讓您快速上手，並使用Adobe Dynamic Media Classic中的混合媒體集技術執行。
+此混合媒體集快速入門旨在協助您開始使用Adobe Dynamic Media Classic中的混合媒體集技術。
 
 ## &#x200B;1. 上傳影像、色票檔案和影片
 
-先為混合媒體集上載影像、色票檔案和視訊。 由於使用者可以在混合媒體集檢視器中放大影像，因此選擇影像時，請務必說明這個功能。 請確定影像的大小至少為2000畫素。
+上傳混合媒體集的影像、色票檔案和視訊。 由於使用者可以在混合媒體集檢視器中放大影像，因此選擇影像時，請務必測試此功能。 請確定影像在最大尺寸中至少為2000畫素。
 
 在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。
 
@@ -73,7 +73,7 @@ Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 �
 
 發佈混合媒體集時會將其置於Adobe Dynamic Media Classic伺服器上並啟用URL字串。
 
-您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。 使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 而且，您可使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
+您需要將混合媒體集同時發佈至&#x200B;**視訊伺服器**&#x200B;與&#x200B;**影像伺服器**。 使用&#x200B;**視訊伺服器**&#x200B;發佈您標示為要發佈的實際視訊。 您使用&#x200B;**影像伺服器**&#x200B;來發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
 
 請參閱[發佈混合媒體集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
@@ -81,4 +81,4 @@ Adobe Dynamic Media Classic隨附混合媒體集的預設檢視器預設集。 �
 
 Adobe Dynamic Media Classic會在您發佈混合媒體集後啟用URL呼叫。 您可以從「預覽」頁面複製這些URL。
 
-選取混合媒體集，然後選取&#x200B;**[!UICONTROL 預覽]**。 在「預覽」頁面中，選取「混合媒體集檢視器預設集」，然後選取「**[!UICONTROL 複製URL]**」。 請參閱[將混合媒體集連結至網頁](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
+選取混合媒體集，然後選取&#x200B;**[!UICONTROL 預覽]**。 在[預覽]頁面中，選取[混合媒體集檢視器預設集]，然後選取[**[!UICONTROL 複製URL]**]。 請參閱[將混合媒體集連結至網頁](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
