@@ -12,30 +12,27 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # 快速入門: 色票集{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 在動態「色票集檢視器」中，使用者只要選取縮圖，就能看到以不同顏色、材質、紋理、表面處理或織物彩現的專案。
+Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 使用動態色票集檢視器，使用者可以透過選取縮圖，檢視以不同顏色、材質、紋理、表面處理或織物彩現的專案。
 
-此色票集快速入門旨在協助您快速上手，並使用Adobe Dynamic Media Classic中的色票集技術。
+此色票集快速入門旨在協助您開始使用Adobe Dynamic Media Classic中的色票集技術。
 
 ## &#x200B;1. 上傳影像和色票檔案
 
 首先為色票集上載影像和色票檔案。
 
-在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。 請參閱[準備要上傳的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上傳您的檔案](uploading-files.md#uploading-your-files)。
+在全域導覽列上，選取&#x200B;**[!UICONTROL 上傳]**，將檔案從電腦上傳至Adobe Dynamic Media Classic中的資料夾。 請參閱[準備要上載的色票集Assets](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上載您的檔案](uploading-files.md#uploading-your-files)。
 
 ## &#x200B;2. 建立色票集
 
@@ -43,7 +40,7 @@ Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 �
 
 ## &#x200B;3. 設定色票集檢視器預設集
 
-管理員可以建立或修改影像集檢視器預設集。 Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用「縮放檢視器: 自訂 > 影像集/色票」預設集檢視色票集。
+管理員可以建立或修改影像集檢視器預設集。 Adobe Dynamic Media Classic隨附各種多媒體型別的預設檢視器預設集。 使用「縮放檢視器：自訂>影像集/色票預設集」來檢視色票集。
 
 請參閱[建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets)。
 
