@@ -20,10 +20,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
 workflow-type: tm+mt
-source-wordcount: 1748
-ht-degree: 19%
+source-wordcount: 1728
+ht-degree: 15%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 19%
 
 Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發佈高品質的最適化視訊，以便跨多個畫面串流，包括桌上型電腦、iOS、Android™、BlackBerry®和Windows®行動裝置。 最適化視訊集會將以不同位元速率和格式 (如 400 kbps、800 kbps 和 1000 kbps) 編碼之相同視訊的版本分組。 桌上型電腦或行動裝置會偵測可用的頻寬。
 
-例如，在iOS行動裝置上，它會偵測頻寬，例如3G、4G或Wi-Fi。 然後，它會自動從最適化視訊集的各種視訊位元速率中選取正確編碼的視訊。 視訊會串流至桌上型電腦、行動裝置或平板電腦。
+例如，它會在iOS裝置上偵測3G、4G或Wi-Fi。 然後，它會自動從最適化視訊集的各種視訊位元速率中選取正確編碼的視訊。 視訊會串流至桌上型電腦、行動裝置或平板電腦。
 
-此外，如果桌上型電腦或行動裝置上的網路條件有所變更，則視訊品質會自動動態切換。 此外，如果客戶在桌上型電腦上進入全熒幕模式，Adaptive Video Set會使用更好的解析度來回應，進而改善客戶的觀看體驗。 使用「自我調整視訊集」可提供最佳播放效果。 它最適合在多個熒幕和裝置上播放Adobe Dynamic Media Classic視訊的客戶。
+此外，如果桌上型電腦或行動裝置的網路狀況改變，視訊品質會自動切換。 此外，如果客戶在桌上型電腦上進入全熒幕模式，Adaptive Video Set會使用更好的解析度來回應，進而改善客戶的觀看體驗。 最適化視訊集提供最佳播放效果。 它最適合在多個熒幕和裝置上播放Adobe Dynamic Media Classic視訊的客戶。
 
-在播放期間，視訊播放程式用來判斷要播放或選取之編碼視訊的邏輯乃是基於下列演算法:
+視訊播放器會使用邏輯來決定要在播放期間播放或選取哪一個已編碼視訊。 此邏輯以下列演演算法為基礎：
 
 1. 視訊播放器會根據位元速率載入初始視訊片段，而該位元速率最接近為播放器本身中的「初始位元速率」所設定的值。
 1. 視訊播放器會根據使用下列條件的頻寬速度變更進行切換：
 
    1. 播放器會挑選低於或等於預估頻寬的最高頻寬資料流。
-   1. 播放器只考慮80%的可用頻寬。 不過，如果調高了，則比較保守的是只有70%，以避免高估並立即調回。
+   1. 播放器只考慮80%的可用頻寬。 但是，如果增加位元速率，則更保守的設定是只有70%，以避免高估並立即回覆。
 
 如需相關技術資訊，請參閱[https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)上的演演算法邏輯。
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 >
 >主要/來源視訊和任何其他來源格式視訊&#x200B;*不是*&#x200B;新增至最適化視訊集。
 
-* Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊標題，以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊章節導覽。
+* Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊字幕，以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light檢視器中的視訊章節導覽。
 
   請參閱[將註解新增至視訊](adding-captions-video.md)。
 
@@ -82,11 +82,11 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
 * 使用Adobe Dynamic Media Classic檢視器預設集播放視訊，包括下列專案：
 
-   * 單一視訊檢視器。
-   * 合併視訊和影像內容的混合媒體檢視器。
+  * 單一視訊檢視器。
+  * 合併視訊和影像內容的混合媒體檢視器。
 
 * 設定視訊播放器來滿足您的品牌推廣需要。
-* 使用簡單的URL或內嵌程式碼將視訊整合至您的網站、行動網站或行動應用程式。
+* 使用簡單的URL或內嵌程式碼，將視訊整合至您的網站、行動網站或行動應用程式。
 
 請參閱下列訓練影片：
 * [MP4視訊概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -99,16 +99,16 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
 **快速入門**
 
-下列逐步工作流程說明可協助您快速上手並執行Adobe Dynamic Media Classic中的Adaptive Video Sets。 每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
+下列逐步工作流程說明可協助您開始在Adobe Dynamic Media Classic中使用最適化視訊集。 每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
 
 ## &#x200B;1. 上傳並編碼視訊
 
 使用下列其中一個案例，上載並產生最適化視訊集:
 
-* **上傳預先編碼的視訊**：如果您的視訊已經從Adobe Dynamic Media Classic外部編碼，請在全域導覽列上選取&#x200B;**[!UICONTROL 上傳]**。 直接瀏覽並上傳MP4視訊檔案至Adobe Dynamic Media Classic。 接著，移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 最適化視訊集]**。 瀏覽至視訊檔案。 將您想要的視訊檔案拖放至「自我調整視訊集」表格中，然後儲存該集合。
+* **上傳預先編碼的視訊**：如果您的視訊已經從Adobe Dynamic Media Classic外部編碼，請在全域導覽列上選取&#x200B;**[!UICONTROL 上傳]**。 直接瀏覽並上傳MP4視訊檔案至Adobe Dynamic Media Classic。 接著，移至&#x200B;**[!UICONTROL 建置]** > **[!UICONTROL 最適化視訊集]**。 瀏覽至視訊檔案。 將您想要的視訊檔案移至「最適化視訊集」表格，然後儲存該集合。
 * **上傳主要來源視訊**：如果您的視訊未編碼，請在全域導覽列上選取&#x200B;**[!UICONTROL 上傳]**&#x200B;以上傳主要視訊來源檔案（非MP4）。 Adobe Dynamic Media Classic會為您將其編碼為MP4檔案。 在&#x200B;**[!UICONTROL 上載工作選項]**&#x200B;對話方塊的&#x200B;**[!UICONTROL EVideo選項]**&#x200B;下，選取&#x200B;**[!UICONTROL 最適化視訊]**。
 
-  使用此偏好選項，您可以建立最適化視訊集。 正確的編碼預設集會自動套用至視訊（不論是16:9或4:3），以符合您上傳的視訊尺寸。 當您提交上載工作時，系統會自動為您建立最適化視訊集，其中包含三個以正確外觀比例編碼的視訊設定。
+  使用此偏好選項，您可以建立最適化視訊集。 正確的編碼預設集會自動套用至視訊（無論是16:9或4:3），以符合您上傳的視訊尺寸。 當您提交上載工作時，系統會自動為您建立最適化視訊集，其中包含三個以正確外觀比例編碼的視訊設定。
 
   或者，在同一&#x200B;**[!UICONTROL 工作選項]**&#x200B;對話方塊的&#x200B;**[!UICONTROL EVideo選項]**&#x200B;下，展開&#x200B;**[!UICONTROL 單一編碼預設集]**。 選取您想要的個別視訊編碼預設集。 您可以選取&#x200B;**案頭**、**行動裝置(iPhone、iPad、Android™)**&#x200B;和&#x200B;**平板電腦(iPad、Android™)**&#x200B;來建立MP4檔案。
 
@@ -120,7 +120,7 @@ Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發�
 
 Adobe Dynamic Media Classic提供許多預先定義的視訊編碼預設集。 這些預先定義的預設集反映了目前最常用的視訊編碼設定，且已針對目標頁面上的播放進行最佳化。
 
-不過，如需進一步的自訂，管理員可以建立「視訊預設集」來自訂視訊的大小和終端使用者的播放體驗。 管理員可以從&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]** > **[!UICONTROL 單一編碼預設集]**&#x200B;下可用的視訊預設集頁面新增和管理視訊預設集。 「視訊預設集」頁面可提供增加、編輯、刪除及啟用視訊預設集所需的選項。
+不過，如需進一步自訂，管理員可以建立視訊預設集，為一般使用者自訂視訊的大小和播放體驗。 管理員可以從&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 視訊預設集]** > **[!UICONTROL 單一編碼預設集]**&#x200B;下可用的視訊預設集頁面新增和管理視訊預設集。 「視訊預設集」頁面可提供增加、編輯、刪除及啟用視訊預設集所需的選項。
 
 請參閱[使用視訊編碼預設集](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
