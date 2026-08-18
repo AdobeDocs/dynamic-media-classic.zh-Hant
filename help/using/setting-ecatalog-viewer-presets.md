@@ -11,9 +11,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:57:04.669Z'
 TQID: 'https://experienceleague.adobe.com/Ej7QeFT62FLz2hWS2w-ll2H9m2pkHXlMSJJDJTsgERg'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: dbe8354bb3a9240d20af51249b4b61e2544120bd
 workflow-type: tm+mt
 source-wordcount: 464
@@ -34,7 +38,7 @@ eCatalog檢視器預設集提供許多頁面導覽、縮放、搜尋和選擇「
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 1. 在「檢視器預設集」畫面中，建立新預設集或從現有eCatalog檢視器預設集開始，以建立eCatalog檢視器預設集：
 
-   * **建立eCatalog檢視器預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[eCatalog檢視器]，然後選取[新增]****。
+   * **建立eCatalog檢視器預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[eCatalog檢視器]，然後選取[新增]&#x200B;**&#x200B;**。
 
    * **編輯eCatalog檢視器預設集**：選取eCatalog檢視器預設集，然後選取&#x200B;**[!UICONTROL 編輯]**。 完成建立預設集後，選取&#x200B;**[!UICONTROL 另存新檔]**。
 

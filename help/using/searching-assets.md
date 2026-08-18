@@ -12,10 +12,15 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
 source-wordcount: 1501
@@ -81,7 +86,7 @@ Does not appear to be working anymore >[!NOTE]
 
 * **搜尋條件**：建立一或多個搜尋欄位以搜尋中繼資料。 建立搜尋欄位:
 
-  1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;]**、**[!UICONTROL &#x200B;壓縮檢視&#x200B;]**、**[!UICONTROL  IPTC ]**、**[!UICONTROL &#x200B;中繼資料伺服器發佈欄位&#x200B;]**或**[!UICONTROL  XMP ]**的**[!UICONTROL &#x200B;所有屬性。
+  1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;**、**&#x200B;[!UICONTROL &#x200B;壓縮檢視&#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B; IPTC &#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B;中繼資料伺服器發佈欄位&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B; XMP &#x200B;]&#x200B;**的**&#x200B;所有屬性。
   1. 選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;下拉式功能表並選擇欄位名稱。
   1. 選擇&#x200B;**[!UICONTROL 包含]**&#x200B;選項： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 開頭為]**、**[!UICONTROL 結尾為]**&#x200B;或&#x200B;**[!UICONTROL 等於]**。
   1. 針對數值欄位，請選擇值或輸入自訂日期範圍。
