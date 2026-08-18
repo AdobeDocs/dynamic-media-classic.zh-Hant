@@ -11,34 +11,30 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:57:04.669Z'
 TQID: 'https://experienceleague.adobe.com/Ej7QeFT62FLz2hWS2w-ll2H9m2pkHXlMSJJDJTsgERg'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: dbe8354bb3a9240d20af51249b4b61e2544120bd
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 25%
+source-wordcount: 464
+ht-degree: 12%
 
 ---
 
 # 設定eCatalog檢視器預設集{#setting-up-ecatalog-viewer-presets}
 
-eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式、行為與外觀。 Adobe Dynamic Media Classic提供eCatalog檢視器預設集，如果您是管理員，也可以建立您自己的eCatalog檢視器預設集。
+eCatalog 檢視器預設集會決定 eCatalog 檢視器的樣式、行為與外觀。 Adobe Dynamic Media Classic包含eCatalog檢視器預設集，如果您有管理員存取權，可以建立自訂預設集。
 
-若要建立預設集，您可以從頭開始，或從Adobe Dynamic Media Classic提供的eCatalog檢視器預設集開始，然後以新名稱儲存。 您可以自行建立 eCatalog 檢視器預設集，以公司的色彩來呈現列印材料並設定色調。
+若要建立預設集，您可以建立新預設集，或是從Adobe Dynamic Media Classic提供的eCatalog檢視器預設集開始，然後以新名稱儲存。 若要以公司顏色呈現列印資料並定義樣式，您可以建立自己的eCatalog檢視器預設集。
 
-eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、縮放、搜尋及選擇「外觀元素」。 這些控制項的外觀和檢視器的顯示方式取決於您選擇的eCatalog檢視器預設集。
+eCatalog檢視器預設集提供許多頁面導覽、縮放、搜尋和選擇「主題」的設定。 這些控制項的外觀和檢視器的顯示方式取決於您選擇的eCatalog檢視器預設集。
 
-請依照下列步驟進行，以建立eCatalog檢視器預設集（您必須是管理員）：
+**若要設定eCatalog檢視器預設集（您必須擁有管理員存取權）：**
 
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
-1. 如要建立 eCatalog 檢視器預設集，您可以在「檢視器預設集」畫面中從頭開始建立，或從現有 eCatalog 檢視器預設集開始:
+1. 在「檢視器預設集」畫面中，建立新預設集或從現有eCatalog檢視器預設集開始，以建立eCatalog檢視器預設集：
 
-   * **建立eCatalog檢視器預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[eCatalog檢視器]，然後選取[新增]&#x200B;**&#x200B;**。
+   * **建立eCatalog檢視器預設集**：選取&#x200B;**[!UICONTROL 新增]**。 在[新增檢視器預設集]對話方塊中，選擇平台，選擇[eCatalog檢視器]，然後選取[新增]****。
 
    * **編輯eCatalog檢視器預設集**：選取eCatalog檢視器預設集，然後選取&#x200B;**[!UICONTROL 編輯]**。 完成建立預設集後，選取&#x200B;**[!UICONTROL 另存新檔]**。
 
@@ -49,7 +45,7 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
 
    當您更新和變更設定時，「預覽」頁面會顯示檢視器。
 
-1. （選擇性）在&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;中，**[!UICONTROL 資訊伺服器URL]**&#x200B;選項可以包含以下特殊權杖，檢視器會加以替代：
+1. （選擇性）在&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;中，**[!UICONTROL 資訊伺服器URL]**&#x200B;選項可以包含檢視器取代的下列特殊權杖。
 
    | 標記 | 取代為 | 附註 |
    | --- | --- | --- |
@@ -57,14 +53,14 @@ eCatalog檢視器預設集提供許多設定，可用於在頁面之間移動、
    | `$2$` | frame | 目前在影像集中顯示之影格的序號。 |
    | `$3$` | 影像根 | 在影像命令中指定之第一個項目的第一個路徑元素 (通常為指定影像集之目錄項目的影像目錄 ID)。 |
 
-1. （選擇性）在&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;的&#x200B;**[!UICONTROL 回應範本]**&#x200B;方塊中，輸入Adobe Dynamic Media Classic擷取影像地圖資訊時發生錯誤，要顯示的文字。 例如，如果系統收到公司名稱與 eCatalog 名稱，但沒有收到滑鼠指向效果識別名稱，就會對使用者顯示此訊息。
+1. （選擇性）在&#x200B;**[!UICONTROL 資訊面板設定]**&#x200B;的&#x200B;**[!UICONTROL 回應範本]**&#x200B;方塊中，輸入Adobe Dynamic Media Classic擷取影像地圖資訊時發生錯誤，要顯示的文字。 例如，如果系統收到公司和eCatalog名稱，但沒有變換影像識別碼，則會顯示此訊息。
 
 >[!NOTE]
 >
 >若要使用此回應範本，而非eCatalog本身所定義的範本，請在資訊伺服器URL的結尾新增`fmt=1`。 例如： `https://.../$3$/$4$/$1$/?FMT=1`。
 
 1. 選取&#x200B;**[!UICONTROL 儲存]**。
-1. 選取「**[!UICONTROL 預設]**」，以便您建立的eCatalog檢視器預設集是用來在網頁上顯示eCatalog的。
+1. 選取&#x200B;**[!UICONTROL 預設]**，以便您建立的eCatalog檢視器預設集用來顯示網頁上的eCatalog。
 
 若要刪除eCatalog檢視器預設集，請在[檢視器預設集]畫面中選取該預設集，然後選取&#x200B;**[!UICONTROL 刪除]**。
 

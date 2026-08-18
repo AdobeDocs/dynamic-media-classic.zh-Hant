@@ -1,5 +1,5 @@
 ---
-title: 搜尋Dynamic Media Classic資產
+title: 搜尋Dynamic Media Classic Assets
 description: 瞭解如何在Adobe Dynamic Media Classic中搜尋資產。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +33,15 @@ ht-degree: 17%
 
 ## 依型別檢視資產 {#viewing-assets-by-type}
 
-若要在瀏覽時只檢視特定型別的檔案，請在左側的資產庫中，於&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中選擇檔案型別。 只有您選擇顯示的型別資產會出現在資產庫中。
+若要在瀏覽時只檢視特定型別的檔案，請在左側資產庫的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中選擇檔案型別。 只有您選擇顯示的型別資產會出現在資產庫中。
 
 >[!NOTE]
 >
->如果在左側看不到「資產庫」面板，請按一下Dynamic Media Classic視窗中途左側右三角箭頭，以開啟「資產庫」。
+>如果「資產庫」面板已隱藏，請按一下Dynamic Media Classic視窗中央的右三角形箭頭以顯示它。
 
 ## 在「瀏覽」面板中排序檔案 {#sorting-files-in-the-browse-panel}
 
-您可以排序資料夾的內容或出現在右側「瀏覽」面板中的搜尋結果。 在全域導覽列上，選取&#x200B;**[!UICONTROL 排序]**，然後選擇選項。 選項為&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 大小(KB)]**、**[!UICONTROL 型別]**、**[!UICONTROL 建立日期]**&#x200B;和&#x200B;**[!UICONTROL 上次修改時間]**。
+您可以對「瀏覽」面板中顯示的資料夾內容或搜尋結果進行排序。 在全域導覽列上，選取&#x200B;**[!UICONTROL 排序]**，然後選擇選項。 選項為&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 大小(KB)]**、**[!UICONTROL 型別]**、**[!UICONTROL 建立日期]**&#x200B;和&#x200B;**[!UICONTROL 上次修改時間]**。
 
 您也可以選擇&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**，依您選擇的條件以遞增或遞減順序排序資產。
 
@@ -57,7 +52,7 @@ ht-degree: 17%
 使用「資產庫」中的「搜尋」欄位，即可進行簡易搜尋。 您可以依據名稱來搜尋項目，或是搜尋中繼資料包含關鍵字的項目。
 
 1. 在「資產庫」的&#x200B;**[!UICONTROL 資料夾]**&#x200B;面板中，選取要在特定資料夾及其子資料夾中搜尋的資料夾。
-1. 在「資產庫」中「搜尋」欄位的左側，選取&#x200B;**[!UICONTROL 放大鏡]**&#x200B;圖示以開啟下拉式清單。
+1. 在「資產庫」中「搜尋」欄位的左側，選取「**[!UICONTROL 搜尋]**」圖示以開啟下拉式清單。
 1. 在下拉式清單中，選擇說明搜尋範圍窄或寬的選項。 您可以選擇&#x200B;**[!UICONTROL 在所有檔案與資料夾中]**、**[!UICONTROL 在選取的資料夾中]**，或&#x200B;**[!UICONTROL 在選取的資料夾與子資料夾中]**。
 1. 在「搜尋」欄位中輸入搜尋字詞。
 1. 在[搜尋]欄位的右側，選取&#x200B;**[!UICONTROL 執行]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
@@ -86,11 +81,11 @@ Does not appear to be working anymore >[!NOTE]
 
 * **搜尋條件**：建立一或多個搜尋欄位以搜尋中繼資料。 建立搜尋欄位:
 
-   1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;**、**&#x200B;[!UICONTROL &#x200B;壓縮檢視&#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B; IPTC &#x200B;]&#x200B;**、**&#x200B;[!UICONTROL &#x200B;中繼資料伺服器發佈欄位&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B; XMP &#x200B;]&#x200B;**的**&#x200B;所有屬性。
-   1. 選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;下拉式功能表並選擇欄位名稱。
-   1. 選擇&#x200B;**[!UICONTROL 包含]**&#x200B;選項： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 開頭為]**、**[!UICONTROL 結尾為]**&#x200B;或&#x200B;**[!UICONTROL 等於]**。
-   1. 針對數值欄位，請選擇值或輸入自訂日期範圍。
-   1. （可選）重複步驟1至4以建立更多搜尋欄位。
+  1. 在進階搜尋中，在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;標題下，並在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;功能表的左側，選取向下三角箭號圖示以開啟下拉式清單。 選擇中繼資料檢視。 您可以選擇具有值&#x200B;]**、**[!UICONTROL &#x200B;壓縮檢視&#x200B;]**、**[!UICONTROL  IPTC ]**、**[!UICONTROL &#x200B;中繼資料伺服器發佈欄位&#x200B;]**或**[!UICONTROL  XMP ]**的**[!UICONTROL &#x200B;所有屬性。
+  1. 選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;下拉式功能表並選擇欄位名稱。
+  1. 選擇&#x200B;**[!UICONTROL 包含]**&#x200B;選項： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 開頭為]**、**[!UICONTROL 結尾為]**&#x200B;或&#x200B;**[!UICONTROL 等於]**。
+  1. 針對數值欄位，請選擇值或輸入自訂日期範圍。
+  1. （可選）重複步驟1至4以建立更多搜尋欄位。
 
 選取&#x200B;**[!UICONTROL 移除搜尋欄位]**&#x200B;圖示（內有「X」的圓形）以便刪除搜尋欄位。
 
@@ -102,7 +97,7 @@ Does not appear to be working anymore >[!NOTE]
 
 您可以在資產庫的「篩選」標籤中篩選資產。 若要篩選資產，您可以使用中繼資料值做為條件。 選擇要篩選的中繼資料欄位後，「篩選」索引標籤會列出在您所選欄位中輸入的所有中繼資料值。 它也會列出指派給每個值的資產數量。 例如，在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位上的篩選作業中，**[!UICONTROL 篩選器]**&#x200B;索引標籤會針對不同的資產，列出在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位中輸入的所有名稱。 也會列出每個名稱的指派資產數量。 然後，選取中繼資料值以檢視所有指派該值的資產。 在此範例中，您選取`Prairie Cat`中繼資料值以檢視在&#x200B;**[!UICONTROL 建立者]**&#x200B;中繼資料欄位中輸入名稱`Prairie Cat`的所有資產。 您可以使用多個中繼資料欄位作為篩選條件，來進行篩選。
 
-您可以儲存篩選操作以多次執行。
+若要多次執行篩選作業，您可以加以儲存。
 
 >[!NOTE]
 >
@@ -116,7 +111,7 @@ Does not appear to be working anymore >[!NOTE]
 
 1. 在資產庫中，選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤。
 
-   前一個篩選作業的條件會顯示在「篩選」窗格中。 「篩選」窗格分成數個面板，每個面板都代表一個中繼資料欄位。 使用面板可以選擇要篩選哪些中繼資料欄位，而在每個欄位中，則可以選擇適合篩選作業的中繼資料值。
+   前一個篩選作業的條件會顯示在「篩選」窗格中。 「篩選器」窗格會分成多個面板，每個面板代表中繼資料欄位。 使用面板可以選擇要篩選哪些中繼資料欄位，而在每個欄位中，則可以選擇適合篩選作業的中繼資料值。
 
    若要執行您建立並儲存的篩選作業，請選取&#x200B;**[!UICONTROL 選取預設集]**，然後在功能表上選擇作業名稱。
 
@@ -164,13 +159,13 @@ Does not appear to be working anymore >[!NOTE]
 
 ## 使用中繼資料伺服器 {#using-the-metadata-server}
 
-中繼資料伺服器是公用API，您可以透過http請求依中繼資料搜尋資產。
+中繼資料伺服器是公用API，可用來透過http請求的中繼資料搜尋資產。
 
 若要設定中繼資料伺服器，請移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 中繼資料伺服器]**。
 
 「中繼資料伺服器發佈者」頁面可讓您設定下列選項：
 
-* **[!UICONTROL 即時發佈]**：在進行任何中繼資料變更時，會自動推播這些變更，包括新資產、關鍵字變更等。
+* **[!UICONTROL 即時發佈]**：在進行任何中繼資料變更時，會自動推播這些變更，包括新資產、關鍵字變更及其他相關專案。
 
 * **[!UICONTROL XMP封包]**：發佈XMP封包。 此封包不用於搜尋，但提供最新的XMP。
 

@@ -1,5 +1,5 @@
 ---
-title: 在瀏覽面板中選取資產
+title: 在瀏覽面板中選取Assets
 description: 瞭解如何在Adobe Dynamic Media Classic的「瀏覽」面板中選取資產。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:47.710Z'
 TQID: 'https://experienceleague.adobe.com/l8-4aT-7RbLlnM9lxq1DQhiUeALUL4AMpHrmuEN5ypA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7b153b6e9d49e5923925a6529e195588e8aba450
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: 106
 ht-degree: 18%
 
 ---
 
 # 在瀏覽面板中選取資產{#selecting-assets-in-the-browse-panel}
 
-在「瀏覽」面板中選取資產，以便使用。 使用這些技巧來選取資產:
+在「瀏覽」面板中選取要使用的資產。 使用這些技巧來選取資產:
 
 * **單一資產**：選取資產（按兩下即可在「詳細資料檢視」中開啟資產）。
 
