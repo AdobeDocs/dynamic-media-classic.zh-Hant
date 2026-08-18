@@ -35,7 +35,7 @@ Adobe Target Standard/Premium為行銷團隊提供管理控制權。 此功能�
 
 Adobe Dynamic Media Classic可讓您建立Adobe Target Standard/Premium行銷活動的優惠方案和優惠方案集。 例如，您可以建立包含相同多媒體資產的三個變數的選件集。 接著，您可以讓Adobe Target Standard或Premium判斷哪個資產可提供較佳的轉換效能。 您可以從基本範本或個別影像建立優惠方案和優惠方案集。 優惠方案集推送或儲存至Adobe Target Standard/Premium （優惠方案與mbox和體驗相關聯）後，Adobe Target Standard/Premium就可以執行行銷活動。 這些行銷活動會決定網站的哪些變體最適合點進和轉換。
 
-若要進一步自訂動態Adobe Dynamic Media Classic內容，請使用Adobe Target Standard/Premium HTML選件。 如需詳細資訊，請參閱[Adobe Target Standard/Premium產品檔案](https://experienceleague.adobe.com/en/docs/target)。
+若要進一步自訂動態Adobe Dynamic Media Classic內容，請使用Adobe Target Standard/Premium HTML選件。 如需詳細資訊，請參閱[Adobe Target Standard/Premium產品檔案](https://experienceleague.adobe.com/zh-hant/docs/target)。
 
 >[!NOTE]
 >
