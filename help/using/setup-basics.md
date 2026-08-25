@@ -1,5 +1,5 @@
 ---
-title: 設定基礎
+title: 設定基本需知
 description: 瞭解如何使用設定畫面在Adobe Dynamic Media Classic中輸入您的個人設定。 如果您是管理員，請為公司進行設定。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,20 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:38.912Z'
 TQID: 'https://experienceleague.adobe.com/LYe-5f29Xdb2kVjoXs7lx2vUs6-iSpn3m6irRZc5Aag'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: edbf737fe99ee47c475564fbc41d931498681145
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 17%
+source-wordcount: 234
+ht-degree: 10%
 
 ---
 
@@ -33,16 +27,16 @@ ht-degree: 17%
 
 使用Adobe Dynamic Media Classic設定頁面來輸入您的個人設定。 如果您是管理員，請為公司進行設定。 若要開啟[設定]頁面，請在[全域導覽]列上選取[**[!UICONTROL 設定]**]。
 
-您可以在此頁面使用的設定取決於您身為使用者或管理員的狀態：
+此頁面上的設定視您的使用者或管理員角色而定：
 
-* 使用者只能存取&#x200B;**[!UICONTROL 個人設定]**&#x200B;以及他們所屬公司的帳戶；他們無法執行任何管理工作。
-* 管理員可以存取&#x200B;**[!UICONTROL 個人設定]**，並檢視和管理自己的公司帳戶。 同時，他們也可以執行所有應用程式設定功能和所有管理功能，包含增加管理員和使用者。
+* 使用者可以存取&#x200B;**[!UICONTROL 個人設定]**&#x200B;及其所屬公司的帳戶；他們無法執行任何管理工作。
+* 管理員可以存取&#x200B;**[!UICONTROL 個人設定]**，並檢視和管理自己的公司帳戶。 他們也可以執行所有應用程式設定功能及所有管理功能，包括新增管理員和使用者。
 
-管理員也可以在&#x200B;**[!UICONTROL 設定]**&#x200B;頁面中設定影像預設集和檢視器預設集：
+管理員也可以在&#x200B;**[!UICONTROL 設定]**&#x200B;頁面上設定影像預設集和檢視器預設集：
 
 * **影像預設集**：影像預設集是儲存的格式，用於以不同大小和格式顯示主要影像。
 
-* **檢視器預設集**：檢視器預設集會決定您在檢視器中看到多媒體時的顯示方式。
+* **檢視器預設集**：檢視器預設集會決定您的多媒體在檢視器中的顯示方式。
 
 >[!MORELIKETHIS]
 >
