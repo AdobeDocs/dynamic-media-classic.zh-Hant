@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 使用Adobe Dynamic Media Classic案頭應用程式之前，請確定您具備下列條件：
 
-* **使用者名稱**：您以電子郵件地址作為登入名稱。
+* **使用者名稱**：您使用電子郵件地址作為使用者名稱。
 
 * **密碼**：您會從Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理員的「歡迎」電子郵件取得您的臨時密碼。 首次登入時，系統會提示您變更此臨時密碼。
 

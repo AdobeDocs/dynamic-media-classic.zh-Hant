@@ -22,16 +22,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7e29275844146b46dba3f1034d1a244f5be5b8b8
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 12%
+source-wordcount: 216
+ht-degree: 6%
 
 ---
 
 # 支援 {#support}
 
-技術支援提供的內容設計能夠符合所有規模大小之公司的需求。 下表說明Adobe Dynamic Media Classic客戶服務內容：
+技術支援方案是專為任何規模的公司所設計。 下表說明Adobe Dynamic Media Classic客戶服務內容：
 
 | 支援 | 訂閱 |
 | --- | --- |
