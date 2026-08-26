@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 進一步瞭解使用Adobe Dynamic Media Classic。
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 20%
+source-wordcount: '803'
+ht-degree: 19%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 20%
   + [功能清單比較](upgrade-feature-comparison.md)
   + [升級整備檢查清單](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
-+ [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [全新Adobe Dynamic Media Classic登入功能現已推出](new-ui-2020.md)
-+ [Experience League的Adobe Dynamic Media電子報封存](dynamic-media-newsletter.md)
++ [Adobe Experience League的Adobe Dynamic Media電子報封存](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic簡介 {#intro}
   + [Adobe Dynamic Media Classic案頭應用程式：現已推出](dynamic-media-classic-desktop-app.md)
   + [關於Adobe Dynamic Media Classic說明](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 20%
   + [管理FTP帳戶](ftp-accounts.md)
   + [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md)
   + [建立及啟用影像預設集](creating-enabling-image-presets.md)
-  + [有效管理中繼資料](making-efficient-metadata.md)
+  + [管理中繼資料](making-efficient-metadata.md)
   + [自訂Media Portal畫面](customizing-media-portal-screen.md)
 + 上載和發佈資產 {#upload-publish}
-  + [上傳和發佈資產](about-asset-upload-publish.md)
+  + [上載和發佈資產](about-asset-upload-publish.md)
   + [上載檔案](uploading-files.md)
   + [發佈檔案](publishing-files.md)
   + [Dynamic Media限制](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 20%
   + [將eCatalog連結至網頁](linking-ecatalog-web-page.md)
 + 影像集 {#image-sets}
   + [快速入門: 影像集](quick-start-image-sets.md)
-  + [準備影像集資產以供上傳](preparing-image-set-assets-upload.md)
+  + [準備影像集Assets以供上傳](preparing-image-set-assets-upload.md)
   + [建立影像集](creating-image-set.md)
   + [在影像集中包含縮放目標和影像地圖](including-zoom-targets-image-maps-image-sets.md)
   + [管理影像集中的資訊面板內容](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 20%
 + 色票集 {#swatch-sets}
   + [快速入門: 色票集](quick-start-swatch-sets.md)
   + [在色票集中包含縮放目標和影像地圖](including-zoom-targets-image-maps-swatch-sets.md)
-  + [準備要上傳的色票集資產](preparing-swatch-set-assets-upload.md)
+  + [準備色票集Assets以供上傳](preparing-swatch-set-assets-upload.md)
   + [建立色票集](creating-swatch-set.md)
   + [檢視色票集](viewing-swatch-sets.md)
   + [將色票集連結至網頁](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 20%
   + [取得磁碟使用資訊](getting-disk-usage-information.md)
   + [上傳點陣化影像資產](uploading-image-asset-or-vector.md)
 + 主要檔案 {#master-files}
-  + [影像品質最佳化的最佳實踐](best-practices-optimizing-quality-images.md)
+  + [影像品質最佳化准則](best-practices-optimizing-quality-images.md)
   + [編輯影像](editing-images.md)
   + [建立影像地圖](creating-image-maps.md)
   + [裁切影像](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 20%
   + [上傳時影像微調編輯選項](image-editing-options-upload.md)
   + [使用PDF](pdfs.md)
   + [使用PSD檔案](psd-files.md)
-  + [使用PostScript和Illustrator檔案](postscript-illustrator-files.md)
+  + [使用PostScript和Adobe Illustrator檔案](postscript-illustrator-files.md)
   + [使用暈映、視窗覆蓋和封包檔案](vignette-window-covering-cabinet-files.md)
 + 支援檔案 {#support-files}
   + [字型](fonts.md)

@@ -1,5 +1,5 @@
 ---
-title: 有效管理中繼資料
+title: 管理中繼資料
 description: 瞭解如何在Adobe Dynamic Media Classic中更有效率地使用中繼資料。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,18 @@ topic: Collaboration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:04:08.358Z'
 TQID: 'https://experienceleague.adobe.com/1E-iQLI5xpgqDo-mjKgO1WPwaiIcorMKG8np-AqhsuI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# 有效管理中繼資料{#making-more-efficient-use-of-metadata}
+# 管理中繼資料 {#making-more-efficient-use-of-metadata}
 
 Adobe Dynamic Media Classic上的所有檔案都包含中繼資料。 中繼資料可說明和識別檔案，以及用來搜尋和組織資產。 若要檢視資產的中繼資料，請在「詳細資料檢視」中開啟該資產，然後檢查「中繼資料」面板。 這個面板上的中繼資料欄位可提供有關資產的說明資訊。
 

@@ -1,5 +1,5 @@
 ---
-title: 影像品質最佳化的最佳作法
+title: 影像品質最佳化准則
 description: 瞭解影像品質最佳化的最佳實務。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,30 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:42.316Z'
 TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 影像品質最佳化的最佳實踐{#best-practices-for-optimizing-the-quality-of-your-images}
+# 影像品質最佳化准則{#best-practices-for-optimizing-the-quality-of-your-images}
 
 最佳化影像品質非常耗時。 呈現可接受結果的因素有很多。 結果有點主觀，因為每個人對影像品質的認定不同。 結構化的實驗是必要的。
 
 Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果的100多個影像伺服命令。 以下準則幫助您運用部分基本命令和最佳實踐來加速程序並快速達到滿意的結果。
 
-另請參閱[智慧型影像處理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+另請參閱[智慧型影像處理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 >[!TIP]
 >
@@ -47,7 +41,7 @@ Adobe Dynamic Media Classic包括用於調整和最佳化影像和演算結果�
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解如何使用快照，請觀看[快照訓練影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
+>若要瞭解如何使用快照，請觀看[快照訓練影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
 
 
 ## 影像格式的最佳實踐 (&amp;fmt=) {#best-practices-for-image-format-fmt}
