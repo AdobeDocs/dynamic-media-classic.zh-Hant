@@ -12,19 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:14:40.601Z'
 TQID: 'https://experienceleague.adobe.com/BwQe9AuhBfi-bLCuO-j48kE-3gw9rgtz5GEI9nIBRjE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,7 +29,7 @@ ht-degree: 5%
 
 **若要檢視Adobe Analytics報表以測試整合：**
 
-1. 從您的帳戶啟動Adobe Dynamic Media Classic檢視器，尤其是要廣播您要取得之量度的帳戶，並與該帳戶互動以建立某些事件資料。
+1. 從您的帳戶啟動Adobe Dynamic Media Classic檢視器，該檢視器會廣播您要取得的量度，並與之互動以建立一些事件資料。
 
    例如，如果您想要測量「影像集」中常用的替代檢視，請預覽「影像集」並按一下不同的縮圖影像。
 
@@ -43,10 +37,10 @@ ht-degree: 5%
 
    例如，若要存取範例帳戶中的&#x200B;**[!UICONTROL LoadAsset]** prop，正確的功能表選擇是&#x200B;**[!UICONTROL 自訂流量]** > **[!UICONTROL 自訂流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有十個以上的自訂Prop，您也會看到其他選單選項。
 
-1. 檢視 Adobe Analytics 產生的圖表 此圖表通常只是單一量度的資料。 如果您也想知道此資料與哪個資產相關聯，請取得此事件的資產資料。 例如，通常知道觀看了哪個影片僅50%，或集合中的哪個影像受歡迎會很有用。
+1. 檢視 Adobe Analytics 產生的圖表 此圖表是單一量度的資料。 如果您也想知道此資料與哪個資產相關聯，請取得此事件的資產資料。 例如，知道哪些影片僅被觀看了50%或集合中的哪個影像經常被檢視通常很有用。
 
 >[!NOTE]
 >
 >所有Adobe Dynamic Media Classic檢視器資料都會顯示於Adobe Analytics的「自訂流量」報表或「自訂轉換」報表中，並彙整成報表。
 
-如需詳細資訊，請參閱[Analytics教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)。
+如需詳細資訊，請參閱[Analytics教學課程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)。
