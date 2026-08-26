@@ -268,14 +268,14 @@ Adobe會與您合作來規劃專案。 Adobe負責布建和設定帳戶、複製
 ## 支援與訓練
 
 +++**我要如何取得支援？**
-24/7/365客戶服務支援。 [連絡技術支援](https://experienceleague.adobe.com/?support-solution=General#support)。
+24/7/365客戶服務支援。 [連絡技術支援](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)。
 
 電話： 1-800-898-9743 （美國） | +44 (0)20 35641782 （英國） | +81-3-6743-9632 （日本）
 
 +++
 
 +++**我可以在何處進一步瞭解付費訓練選項？**
-請參閱[Adobe數位學習服務](https://experienceleague.adobe.com/en/premium/home)。
+請參閱[Adobe數位學習服務](https://experienceleague.adobe.com/zh-hant/premium/home)。
 
 若要進行自訂或個人訓練，請聯絡您的Adobe客戶團隊代表。
 
