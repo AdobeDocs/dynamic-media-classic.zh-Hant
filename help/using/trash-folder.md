@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 28%
 
 刪除檔案夾中的項目會將該項目放入「垃圾桶」檔案夾。 刪除項目並將它移動到「垃圾桶」檔案夾時，會發生下列狀況:
 
-* 雖然專案已從您的Adobe Dynamic Media Classic資料夾中移除，但其ID無法指派給另一個資產，因為它仍保留在垃圾桶資料夾中。 如果您嘗試上傳與垃圾桶資料夾中檔案同名的資產，Adobe Dynamic Media Classic會在資產名稱后面附加數字。
-* 無法發佈項目。 即使項目在您刪除時已標記為發佈，您也無法予以發佈。
-* 專案會保留在垃圾桶資料夾中，直到還原為止、過了七天或有人選擇&#x200B;**[!UICONTROL 清空垃圾桶]**&#x200B;命令。 七天之後，自動清除作業就會永久刪除項目。
+* 雖然專案已從您的Adobe Dynamic Media Classic資料夾中移除，但其ID無法指派給另一個資產，因為它仍保留在垃圾桶資料夾中。 如果您嘗試上傳與垃圾桶資料夾中檔案同名的資產，Adobe Dynamic Media Classic會在資產名稱后面附加一個數字。
+* 無法發佈項目。 即使專案在您刪除時標籤為發佈，它也不會發佈。
+* 專案會保留在垃圾桶資料夾中，直到還原為止、過了七天或有人選擇&#x200B;**[!UICONTROL 清空垃圾桶]**&#x200B;命令。 七天後，自動刪除操作會永久刪除專案。
 
 ## 從垃圾桶資料夾中還原資產 {#restoring-assets-from-the-trash-folder}
 

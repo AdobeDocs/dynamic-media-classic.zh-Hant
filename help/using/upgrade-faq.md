@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 4496b2796aae231c4c913f8ee988f9e2c2d2a65f
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 * Collaboration和共用檔案與[!DNL Adobe Creative Cloud]應用程式同步。
 * 企業級數位資產管理，具備：
-   * 強大的中繼資料支援
-   * 智慧型搜尋
-   * Lightbox和集合
-   * 版本控制
-   * 供應商、合作夥伴和加盟商使用的安全資產共用
+  * 強大的中繼資料支援
+  * 智慧型搜尋
+  * Lightbox和集合
+  * 版本控制
+  * 供應商、合作夥伴和加盟商使用的安全資產共用
 * 稽核和核准在製品資產的工作流程。
 * 透過新的UI輕鬆採用和使用。
 * 使用可促進轉換並豐富使用者參與度和滿意度的影像和視訊，建立可購物/互動媒體體驗。
-* 結合行銷活動資產與產品資訊，以便簡化購物車的點按。
+* 結合行銷活動資產與產品資訊，以便簡化採購流程。
 * 使用WYSIWYG Viewer Designer輕鬆建立、調整、品牌和部署互動式檢視器。
 * 將最佳化的多媒體傳送至[!DNL Experience Cloud]個解決方案。
 * 與[!DNL Experience Cloud]整合，以在行銷接觸點間進行進階資產分析、鎖定目標及資產重複使用。 這些接觸點包括適用於電子郵件的[!DNL Adobe Campaign]、適用於社交管道的[!DNL Adobe Social]，以及適用於回應式網頁和行動應用程式的[!DNL Experience Manager]個網站。
@@ -60,11 +60,11 @@ ht-degree: 0%
 +++
 
 +++**[!DNL Dynamic Media]是否使用現有的Adobe CDN （內容傳遞網路）？**
-是，[!DNL Dynamic Media]使用Adobe強大的頂層傳遞網路。
+是，[!DNL Dynamic Media]使用Adobe強大且高效能的傳遞網路。
 
 * 網際網路零售1000的頂級多媒體供應商，連續九年。
-* 24/7/265支援，99.95% SLA。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理作業，流量逐年增加60%。
+* 24/7/365支援，99.95% SLA。
+* 為全球800多家客戶提供深獲肯定的基礎建設，每個月3.5PB的資料傳輸量，以及超過5億個受管理的資產，每年流量成長達60%。
 
 +++
 
@@ -86,7 +86,7 @@ Adobe已將Adobe Scene7的名稱變更為[!DNL Dynamic Media Classic]。
 +++
 
 +++**如何處理升級程式？**
-AGS （Adobe全域服務）會處理升級，並將其視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 在彙總層次，升級計畫包含下列專案：
+AGS （Adobe全域服務）會處理升級，並將其視為服務專案。 Adobe僅提供資產的移轉。 客戶、AGS或合作夥伴負責所有其他升級方面和步驟。 升級計畫包含下列專案：
 
 * 布建公司/使用者帳戶。
 * 將資產從[!DNL Dynamic Media Classic] （先前的Scene7）復寫到[!DNL Experience Manager] Assets的[!DNL Dynamic Media]元件（由Adobe透過自動升級工具提供）。
@@ -133,7 +133,7 @@ AGS （Adobe全域服務）會處理升級，並將其視為服務專案。 Adob
 +++
 
 +++**在我升級至[!DNL Dynamic Media]後，是否仍可使用[!DNL Dynamic Media Classic] （先前稱為Adobe Scene7）？**
-升級為[!DNL Dynamic Media]之後，您應該只使用Dynamic Media進行影像和視訊。 您只能針對[!DNL Dynamic Media]中尚未提供的功能，繼續使用[!DNL Dynamic Media Classic]，包括下列功能：
+升級為[!DNL Dynamic Media]之後，請只使用Dynamic Media進行影像和視訊。 您只能針對[!DNL Dynamic Media]中尚未提供的功能，繼續使用[!DNL Dynamic Media Classic]，包括下列功能：
 
 * 視覺化設定器（影像作者、影像演算）。
 * 影像範本。
@@ -152,17 +152,17 @@ AGS （Adobe全域服務）會處理升級，並將其視為服務專案。 Adob
 +++
 
 +++**我是否必須更新生產URL？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您不必變更網頁上的任何生產URL，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您不必變更網頁上的任何生產URL，因此可以降低移轉至[!DNL Dynamic Media]的風險與工作量。
 
 +++
 
 +++**我是否必須重寫API整合和其他自動化指令碼？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此外，所有資產都會復寫到[!DNL Dynamic Media Classic]。 此方法的優點在於您不需要重寫任何以API為基礎的整合或自動化指令碼，因此可將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此外，所有資產都會復寫到[!DNL Dynamic Media Classic]。 此方法的好處是，您不需要重寫任何API型整合或自動化指令碼，因此可以降低移轉至[!DNL Dynamic Media]的風險與工作量。
 
 +++
 
 +++**我是否需要變更或重新開發我的自訂檢視器？**
-不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您可以繼續使用自訂的檢視器，因此將移轉至[!DNL Dynamic Media]的風險和工作量降至最低。
+不適用。 Adobe繼續使用[!DNL Dynamic Media]解決方案中的[!DNL Dynamic Media Classic]發佈與傳遞基礎結構。 此方法的好處是，您可以繼續使用自訂的檢視器，因此可減少移轉至[!DNL Dynamic Media]的風險與工作量。
 +++
 
 +++**如何將我的設定（例如影像預設集、視訊編碼）移轉至[!DNL Dynamic Media]？**
@@ -211,7 +211,7 @@ Dynamic Media隨附60 GB的儲存空間。 您可以以250GB的區塊購買額�
 +++
 
 +++**個人化媒體何時可搭配[!DNL Dynamic Media]使用？**
-Adobe正積極地將「個人化媒體」功能新增到[!DNL Dynamic Media]。 即將提供更多關於發行時機的資訊。
+Adobe正積極努力將個人化媒體功能新增到[!DNL Dynamic Media]。 即將提供更多關於發行時機的資訊。
 
 +++
 
@@ -254,7 +254,7 @@ Adobe會對所有移至[!DNL Dynamic Media]的資產執行自動驗證。 建議
 ## 諮詢服務
 
 +++**我可以自行完成升級程式嗎？**
-不適用。 與您的Adobe代表和AGS合作，設定升級範圍。
+不適用。 若要評估升級範圍，請與您的Adobe代表和AGS合作。
 
 +++
 
@@ -275,7 +275,7 @@ Adobe會與您合作來規劃專案。 Adobe負責布建和設定帳戶、複製
 +++
 
 +++**我可以在何處進一步瞭解付費訓練選項？**
-請參閱[Adobe數位學習服務](https://learning.adobe.com)。
+請參閱[Adobe數位學習服務](https://experienceleague.adobe.com/zh-hant/premium/home)。
 
 若要進行自訂或個人訓練，請聯絡您的Adobe客戶團隊代表。
 
@@ -284,6 +284,6 @@ Adobe會與您合作來規劃專案。 Adobe負責布建和設定帳戶、複製
 ## 其他資源
 
 +++**我可以在何處進一步瞭解[!DNL Dynamic Media]及其功能？**
-檢視[[!DNL Dynamic Media] 微網站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)以進一步瞭解[!DNL Dynamic Media]。
+若要深入瞭解[!DNL Dynamic Media]，請參閱[[!DNL Dynamic Media] 微網站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)。
 
 +++

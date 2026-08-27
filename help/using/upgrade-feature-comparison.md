@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: 157
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 5%
 | 視訊編碼 | ✓ | ✓ |
 | 檢視器協助工具 | ✓ | ✓ |
 | 檢視器與Analytics的整合 | ✓ | ✓ |
-| 1:1個範本 | ✓<br>*個人化媒體組合* | ✓ |
+| 1:1範本 | ✓<br>*個人化媒體組合* | ✓ |
 | Visual Configurator<br> （產品個人化） | ✓<br>*個人化媒體組合* | ✓ |
 | 3D：Experience Manager Sites<br>WCM元件 | ✓ | : |
 | 3D：互動式體驗檢視器 | ✓ | : |

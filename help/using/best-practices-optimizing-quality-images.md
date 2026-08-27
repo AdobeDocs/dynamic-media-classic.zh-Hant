@@ -1,5 +1,5 @@
 ---
-title: 影像品質最佳化的最佳作法
+title: 影像品質最佳化准則
 description: 瞭解影像品質最佳化的最佳實務。
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 影像品質最佳化的最佳實踐{#best-practices-for-optimizing-the-quality-of-your-images}
+# 影像品質最佳化准則{#best-practices-for-optimizing-the-quality-of-your-images}
 
 最佳化影像品質非常耗時。 呈現可接受結果的因素有很多。 結果有點主觀，因為每個人對影像品質的認定不同。 結構化的實驗是必要的。
 

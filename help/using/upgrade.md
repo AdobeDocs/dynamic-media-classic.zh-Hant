@@ -21,20 +21,20 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # 為何要升級至[!DNL Dynamic Media]？
 
-Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
+Adobe已根據您的需求建立[!DNL Dynamic Media]。
 
-[!DNL Adobe Experience Manager]上的新[!DNL Dynamic Media]以您期望從[!DNL Dynamic Media Classic] （先前為Scene7）獲得的功能為基礎。 它為貴組織提供全新和改進的工具，以建立更佳、更吸引人的體驗。
+[!DNL Adobe Experience Manager]中的新[!DNL Dynamic Media]以您預期的[!DNL Dynamic Media Classic] （先前為Scene7）功能為基礎。 它為貴組織提供全新和改進的工具，以建立更佳、更吸引人的體驗。
 
-[!DNL Dynamic Media]使用即時視覺化建置器來升級內容建置體驗。 坐在Adobe經驗證的、受信任且可擴充的傳遞網路頂端，並與直覺式[!DNL Adobe Experience Manager]使用者介面配對，[!DNL Dynamic Media]提供撰寫、反複運算及提供引人入勝的下一代體驗的功能。
+[!DNL Dynamic Media]使用即時視覺化建置器來升級內容建置體驗。 使用Adobe的可擴充傳遞網路，並搭配直覺式[!DNL Adobe Experience Manager]使用者介面，[!DNL Dynamic Media]提供撰寫、疊代及傳遞引人入勝的進階體驗的功能。
 
 | 您從[!DNL Dynamic Media]獲得的內容 | 說明 |
 | --- | --- |
@@ -50,11 +50,11 @@ Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
 
 ## [!DNL Dynamic Media]的主要優點和功能
 
-[!DNL Dynamic Media]是[!DNL Dynamic Media Classic]的自然演化。 它提供多媒體製作、發佈和傳送工具集。 此外，透過以使用者為中心的創新介面，提供同級最佳的傳遞方式，加速處理現代真實世界的工作流程。
+[!DNL Dynamic Media]是[!DNL Dynamic Media Classic]的接續者。 它提供多媒體製作、發佈和傳送工具集。 此外，還透過創新的使用者導向介面，提供高品質的傳遞方式，強化現代工作流程。
 
 * 與[!DNL Adobe Experience Manager]緊密整合的體驗與整合：從單一商店、單一來源設定並動態傳遞豐富的內容
-* 全新的以行銷人員為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
-* WYSIWYG (What You See Is What You Get)的整體外觀與風格，以及影像檢視器和視訊播放器的行為編輯器。
+* 全新的以行銷為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
+* 針對整體外觀和感覺的視覺化編輯，以及影像檢視器和視訊播放器的行為編輯器。
 * 快速建立及部署可購物/互動媒體體驗，包括影像熱點及可購物視訊
 
 ### [!DNL Experience Manager] Assets中的[!DNL Dynamic Media]功能
@@ -67,8 +67,8 @@ Adobe已建立[!DNL Dynamic Media]，而且已考慮到您。
 
 ## 為何選擇Adobe？
 
-* Forrester WAVE數位資產中最大的正面行動者。
+* 數位資產Forrester WAVE報告中排名最高的廠商。
 * 2016年線上視訊平台報表表現優異。
-* 網際網路零售1000的頂級多媒體供應商，連續九年。
-* 24/7/265支援、99.95% SLA、Adobe Professional Services。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務，每月3.5 PB的流量，以及超過5億項資產的管理服務，流量逐年增加60%。
+* 網際網路零售業1000大多媒體供應商，連續九年。
+* 24/7/365支援、99.95% SLA、Adobe Professional Services。
+* 為全球800多家客戶提供深獲肯定的基礎建設、每月3.5 PB的流量，以及超過5億項資產的管理業務，流量較上年同期增長60%。
