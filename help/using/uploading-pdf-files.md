@@ -11,23 +11,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:17:17.647Z'
 TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 4035cd307a13d1174f8b66fb1cd1ab39138d1310
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 29%
+source-wordcount: 838
+ht-degree: 18%
 
 ---
 
 # 上傳PDF檔案{#uploading-the-pdf-files}
 
-通常Adobe PDF檔案是eCatalog的來源。 這些檔案包含所有影像資訊、字型和向量圖形。 您也可以建置含有影像的 eCatalog。 在您準備好要上傳的PDF檔案後，請在全域導覽列上選取「**[!UICONTROL 上傳]**」以開始上傳PDF。
+Adobe PDF檔案是eCatalog的來源。 這些檔案包含所有影像資訊、字型和向量圖形。 您也可以建置含有影像的 eCatalog。 在您準備好要上傳的PDF檔案後，請在全域導覽列上選取「**[!UICONTROL 上傳]**」以開始上傳PDF。
 
 當您上傳PDF以進行頁面擷取時，Adobe會強制進行下列限制：
 
@@ -41,11 +37,11 @@ ht-degree: 29%
 
 先準備PDF檔案，再將其上傳至Adobe Dynamic Media Classic：
 
-* 若要讓檔案上傳更輕鬆，請將所有檔案放在電腦或網路上的相同資料夾中。
-* 以字母數字順序，依照頁面為檔案命名。 排序頁面會讓您在檔案上載後，能夠更輕鬆地依照適當順序來放置頁面。
-* 若要檢視PDF頁面是否包含裁切標籤、註冊目標或色條，請檢查頁面。 這些標記會決定列印文件時，要在哪裡裁切紙張；將 eCatalog 放置在網路上之前，必須將這些標記移除。 Adobe Dynamic Media Classic提供可在您上傳PDF檔案時裁切標籤的選項。
-* 如果您希望檢視者依關鍵字搜尋eCatalog，請瞭解PDF檔案是否「平面化」。 您無法從已平面化的 PDF 檔案中擷取搜尋字詞。 若要檢視PDF是否已平面化，請嘗試選取其內的文字。 如果您無法選取文字，PDF會平面化，且檢視器無法在eCatalog中依關鍵字搜尋。
-* 因為 PDF 檔案須列印，所以通常包含 CMYK 影像。 依預設，Adobe Dynamic Media Classic可以聰明地偵測這些CMYK影像，並使用內部CMYK色彩設定檔來轉換影像。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
+* 若要簡化檔案上傳作業，請將所有檔案放在電腦或網路上的相同資料夾中。
+* 以字母數字順序，依照頁面為檔案命名。 排列頁面可簡化檔案上傳後依正確順序放置的程式。
+* 若要檢視PDF頁面是否包含裁切標籤、註冊目標或色條，請檢查頁面。 這些標籤決定列印檔案時剪紙的位置；您必須先移除這些標籤，才能將eCatalog發佈到線上。 Adobe Dynamic Media Classic提供可在您上傳PDF檔案時裁切標籤的選項。
+* 如果您希望檢視者依關鍵字搜尋eCatalog，請決定您的PDF檔案是否「平面化」。 您無法從已平面化的 PDF 檔案中擷取搜尋字詞。 若要判斷PDF是否已平面化，請試著選取其內的文字。 如果您無法選取文字，PDF會平面化，且檢視器無法在eCatalog中依關鍵字搜尋。
+* 由於它們主要用於列印，PDF檔案通常包含CMYK影像。 依預設，Adobe Dynamic Media Classic會偵測這些CMYK影像，並使用內部CMYK色彩設定檔將其轉換。 不過，您也可以使用自訂色彩設定檔來轉換 CMYK 影像。
 
   請參閱[ICC （國際色彩聯盟）設定檔](icc-profiles.md#icc_profiles)。
 
@@ -55,25 +51,25 @@ ht-degree: 29%
 
 選取您要上傳的檔案，然後選取這&#x200B;*個最佳實務* PDF選項：
 
-* **裁切選項**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL 裁切選項]**。 如果PDF頁面包含裁切標籤、註冊標籤或其他標籤，請在&#x200B;**[!UICONTROL 裁切]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 手動]**。 輸入要從頁面的上、右、下和左邊裁切的畫素數。 裁切標籤通常設定為半英吋邊界。 假設您選擇&#x200B;**[!UICONTROL 150]** （建議）作為每英吋畫素解析度。 然後在[上]、[右]、[下]和[左]文字方塊中輸入75、75、75、75。 在這種情況下，它會從邊界裁切半英吋（150 ppi，1的一半等於75畫素）。
+* **裁切選項**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL 裁切選項]**。 如果PDF頁面包含裁切標籤、註冊標籤或其他標籤，請在&#x200B;**[!UICONTROL 裁切]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 手動]**。 輸入要從頁面的上、右、下和左邊裁切的畫素數。 裁切標籤通常設定為0.5英吋邊界。 假設您選擇&#x200B;**[!UICONTROL 150]** （建議）作為每英吋畫素解析度。 然後在[上]、[右]、[下]和[左]文字方塊中輸入75、75、75、75。 這會從邊界移除0.5英吋（150 ppi，0.5等於75畫素）。
 
 * **處理中**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在&#x200B;**[!UICONTROL 處理]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 點陣化]**。 必須將 PDF 檔案點陣化，才能讓所有頁面與影像顯示在 eCatalog 中。
 
-* **擷取搜尋字詞（選用）**：在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 如果要讓檢視者能夠在eCatalog中依關鍵字搜尋，請在「擷取」下拉式清單中選擇&#x200B;**[!UICONTROL 搜尋字詞]**。
+* **擷取搜尋字詞（選用）**：在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 如果要讓檢視者能夠在eCatalog中依關鍵字搜尋，請在&#x200B;**[!UICONTROL 擷取]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 搜尋字詞]**。
 
-* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下「從多頁PDF自動產生eCatalog」**&#x200B;**，上傳時自動建立eCatalog。 您可以直接前往「eCatalog」畫面，並開始在 eCatalog 上作業 (不需要先選取 PDF 檔案)，然後選取「建置」命令。 eCatalog 是根據 PDF 檔案來命名。
+* **從多頁PDF自動產生eCatalog （選用）**：在[上傳工作選項]對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 按一下&#x200B;**[!UICONTROL 從多頁PDF自動產生eCatalog]**，這樣您就可以在上傳時自動建立eCatalog。 您可以直接導覽至eCatalog畫面，開始使用eCatalog，而不需先選取PDF檔案並選取「建置」指令。 eCatalog 是根據 PDF 檔案來命名。
 
 * **解析度**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在&#x200B;**[!UICONTROL 解析度]**&#x200B;文字欄位中，輸入值。 Adobe Dynamic Media Classic建議每英吋150畫素。
 
-* **色域**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在「色域」下拉式清單中，選擇&#x200B;**[!UICONTROL 自動偵測]**。 通常針對列印輸出所建立的 PDF 是 CMYK 格式；針對線上檢視所建立的 PDF 則是 RGB。 如果 PDF 同時使用兩個色域，則您可以選擇「強制為 RGB」或「強制為 CMYK」，來選取一個特定色域。 例如，當頁面圖形使用 CMYK 色域，但圖片卻使用 RGB 時，PDF 會同時使用兩個色域。 如果您上載了 ICC 設定檔，它的名稱便會顯示在「色域」選單上供您選擇。
+* **色域**：在上傳工作選項對話方塊中，選取&#x200B;**[!UICONTROL PDF選項]**。 在「色域」下拉式清單中，選擇&#x200B;**[!UICONTROL 自動偵測]**。 通常針對列印輸出所建立的 PDF 是 CMYK 格式；針對線上檢視所建立的 PDF 則是 RGB。 如果 PDF 同時使用兩個色域，則您可以選擇「強制為 RGB」或「強制為 CMYK」，來選取一個特定色域。 PDF會同時使用兩種色域；例如，當頁面圖形使用CMYK色域，但圖片使用RGB色域時。 如果您上載了 ICC 設定檔，它的名稱便會顯示在「色域」選單上供您選擇。
 
   請參閱[ICC （國際色彩聯盟）設定檔](/help/using/icc-profiles.md)。
 
 * **色彩設定檔選項**：在[上載工作選項]對話方塊中，選取&#x200B;**[!UICONTROL 色彩設定檔選項]**，然後選擇色彩設定檔選項：
 
-   * **保留原始色域**：保留原始色域。
+  * **保留原始色域**：保留原始色域。
 
-   * **自訂從>到**：開啟子功能表，讓您能夠選擇&#x200B;**[!UICONTROL 從]**&#x200B;轉換和&#x200B;**[!UICONTROL 轉換成]**&#x200B;色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
+  * **自訂從>到**：開啟子功能表，讓您能夠選擇&#x200B;**[!UICONTROL 從]**&#x200B;轉換和&#x200B;**[!UICONTROL 轉換成]**&#x200B;色域。 您可以選擇標準的Photoshop色域，或您上傳至Adobe Dynamic Media Classic的色域。
 
 <!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 
