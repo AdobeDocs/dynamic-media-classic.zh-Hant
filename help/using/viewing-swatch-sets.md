@@ -12,28 +12,25 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:31.253Z'
 TQID: 'https://experienceleague.adobe.com/LoxI3OmVOAtiiieHgJpKFwKUHJAn6GUA1x85CHuWtPs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # 檢視色票集{#viewing-swatch-sets}
 
-可以使用可用預設集在「預覽」視窗中檢視色票集。 您可以使用縮放檢視器：色票集的自訂檢視器預設集。
+可以使用可用預設集在「預覽」視窗中檢視色票集。 您可以針對色票集使用縮放檢視器自訂檢視器預設集。
 
 Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以建立或修改檢視器預設集。
 
 ## 設定色票集的縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-您可以建立和自訂檢視器預設集，以符合您的需求。
+您可以建立和自訂檢視器預設集。
 
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 1. 進行以下一項操作:
@@ -55,8 +52,8 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 您可以使用預覽來檢視資產在特定檢視器型別（例如HTML5）中的顯示方式。 根據您選擇要預覽的資產型別和關聯的檢視器，並非所有檢視器型別平台都可在預覽中使用。
 
 1. 在左側「資產庫」面板的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中，選取色票集型資產型別，例如&#x200B;**[!UICONTROL 色票集]**。
-1. 在左側的「資產庫」面板中，瀏覽包含要使用檢視器預覽的色票集的資產檔案夾。
-1. 執行下列任一項作業︰
+1. 在左側的「資產庫」面板中，導覽至包含您想使用檢視器預覽之色票集的資產資料夾。
+1. 進行以下一項操作:
 
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取&#x200B;**[!UICONTROL 清單檢視]**&#x200B;圖示。 在「資產」視窗中，將滑鼠指標暫留在資產上，然後選取&#x200B;**[!UICONTROL 預覽]** （非「預覽」下拉式清單）。
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;圖示。 在「資產」視窗中，在資產縮圖視窗中，選取&#x200B;**[!UICONTROL 預覽]** （非「預覽」下拉式清單）。
@@ -67,7 +64,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
    當您選取指定的檢視器連結時，其相關聯的URL會自動複製到剪貼簿。
 
-1. 若要返回「預覽」傳呼器，請關閉顯示的檢視器。
+1. 若要返回預覽視窗，請關閉顯示的檢視器。
 1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回Assets頁面。
 
 >[!MORELIKETHIS]
