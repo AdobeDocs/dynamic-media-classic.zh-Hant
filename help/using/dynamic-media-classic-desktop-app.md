@@ -12,16 +12,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +33,7 @@ Adobe Dynamic Media Classic使用者現在可以使用新的案頭應用程式�
 >
 >Adobe建議您在2020年10月1日前安裝新的Adobe Dynamic Media Classic案頭應用程式。 這可確保在2020年12月31日淘汰Adobe Flash Player之前有一個過渡期。 在該日期之後，您將無法登入瀏覽器版本的Adobe Dynamic Media Classic使用者介面，該產品中標示為Adobe Dynamic Media Classic。
 
-檢視[現在提供新Adobe Dynamic Media Classic登入的常見問題集。](/help/using/new-ui-2020.md)
+檢視[新的Adobe Dynamic Media Classic登入現在可用的常見問題集](/help/using/new-ui-2020.md)。
 
 ## Adobe Dynamic Media Classic案頭應用程式的系統需求 {#system-requirements-dmc-app}
 
@@ -128,8 +123,8 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 
@@ -250,7 +245,7 @@ Adobe Dynamic Media Classic案頭應用程式與下列作業系統相容：
 
 ## 使用Adobe Dynamic Media Classic案頭應用程式的影片逐步解說 {#dmc-app-video-walk-through}
 
-觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
+觀看[使用Adobe Dynamic Media Classic案頭應用程式的逐步說明影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長度： 2分36秒）。
 
 ## 使用案頭應用程式清除電腦上的影像快取和資產快取 {#clear-cache}
 

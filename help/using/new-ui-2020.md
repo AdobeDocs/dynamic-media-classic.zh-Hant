@@ -11,19 +11,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:03.775Z'
 TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +42,7 @@ Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用�
 若要檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式，請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)。
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_新案頭應用程式如何運作？_**
 下載、安裝和啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 輸入您現有的使用者名稱和密碼，並根據您所在的地區選擇適當的伺服器，即可登入Adobe Dynamic Media Classic。 整體體驗與網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。
@@ -108,13 +100,13 @@ Adobe致力確保產品符合客戶的安全需求。 新的Adobe Dynamic Media 
 +++**_我想確定我正在最佳化我的多媒體策略。 如何進一步瞭解Adobe Dynamic Media Classic？_** 
 Adobe Dynamic Media Classic是全方位的解決方案，專為支援您的豐富媒體工作流程而設計。 為確保您使用所有功能，請探索以下實用資源：
 
-* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe部落格](https://blog.adobe.com/)
-* [Adobe Dynamic Media電子報封存](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media電子報封存](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=zh-Hant), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_我有興趣進一步瞭解如何使用Adobe Experience Manager Assets升級至Adobe Dynamic Media。 在哪裡可以找到更多資訊？_**
 若要進一步瞭解升級至新一代多媒體撰寫、發佈及動態傳遞的好處，請造訪[Adobe Dynamic Media入口網站進行升級](/help/using/upgrade.md)。

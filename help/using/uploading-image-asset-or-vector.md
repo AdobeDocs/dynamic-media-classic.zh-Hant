@@ -11,28 +11,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 51%
+source-wordcount: 1052
+ht-degree: 46%
 
 ---
 
 # 上傳點陣化影像資產 {#uploading-an-image-asset-or-a-vector-asset}
 
-您必須先要求一個共用密鑰，然後才能上載影像資產。 使用此共用密鑰來擷取上載標記。 您接著可使用上傳權杖來上傳點陣影像資產。
+您必須先要求共用機密金鑰，才能上傳影像資產。 使用此共用密鑰來擷取上載標記。 您接著可使用上傳權杖來上傳點陣影像資產。
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產將會移除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期起的60天內使用。 60天後，資產會移除。
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ ht-degree: 51%
 
 ## 要求共用機密金鑰 {#requesting-a-shared-secret-key}
 
-由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例。](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 在技術支援案例中，要求共用秘密金鑰。
+由[使用Admin Console要求&#x200B;*共用機密金鑰*&#x200B;以建立支援案例](https://helpx.adobe.com/business/enterprise.html)。 在技術支援案例中，要求共用秘密金鑰。
 
 在電子郵件中，請提供想要用於上載影像資產的公司名稱。 從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
 ## 擷取上傳權杖 {#retrieving-the-upload-token}
 
-*上載標記*&#x200B;將確保他人不能使用相同的共用密鑰來上載資產。 它確保上載合法且來自信任的來源。
+*上傳Token*&#x200B;可確保不能使用相同的共用機密金鑰來上傳資產。 它確保上載合法且來自信任的來源。
 
 上載標記是字母數字字串，只能在指定時間內使用。 使用下列URL，以您的共用機密金鑰替代，以便擷取上傳權杖。
 
@@ -149,14 +145,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 副檔名清單。
 * 是否要保留與資產關聯的色彩設定檔和檔案名稱。
 * 是否使用「去底色背景」。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色方法」。
-在上傳[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)檢視影像微調選項中的「去底色背景」。
+在上傳](image-editing-options-upload.md#image-editing-options-at-upload)檢視[影像微調選項中的「去底色背景」。
 * 要上傳的檔案名稱。
 
 您可以選取[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)，檢視與上述表單相關聯的HTML原始程式碼
 
 在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 檢視頁面Source]**。 程式碼會顯示對應的URL查詢字串以及使用者選取&#x200B;**[!UICONTROL Submit]**&#x200B;時所執行的POST方法。
 
-若要在Internet Explorer中檢視XML回應，請移至&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**。 建議使用 Firefox 檢視 XML 回應。
+若要在瀏覽器中檢視XML回應，請移至&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL Source]**。 若要在Firefox中檢視XML回應，請移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL 網頁開發人員工具]**。 建議使用 Firefox 檢視 XML 回應。
 
 下面是成功上載的範例回應:
 
@@ -184,13 +180,13 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 >
 >上載的資產 (JPG、GIF 等) 轉換為 PTIFF 格式，回應會傳送該 PTIFF 資產的直接連結。
 
-該資產類似於任何其他的影像伺服資源；您可以對其套用處理查詢。 例如，下列URL會要求將資產延伸至指定寬度和高度的許可權。
+資產是ImageServing資源；您可以將處理查詢套用至資產。 例如，以下 URL 要求延伸到指定寬度和高度的資產。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-以 multipart/form post 形式傳送要上載的資產，以 URL 查詢字串形式傳送值的其餘部分。 您可以在 URL 查詢字串中使用以下欄位來上載資產:
+若要上傳資產，請以多部分/表單貼文的形式傳送，同時將其餘的值以URL查詢字串的形式傳送。 您可以在 URL 查詢字串中使用以下欄位來上載資產:
 
 | URL 參數 | 必要或選擇性 | 值 |
 | --- | --- | --- |

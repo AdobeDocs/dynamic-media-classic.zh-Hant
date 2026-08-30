@@ -12,13 +12,10 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 5%
@@ -33,7 +30,7 @@ ht-degree: 5%
 * 您可以在整個網站或應用程式中快速變更影像大小。 例如，若要變更所有縮圖影像，您可以修改「縮圖」影像預設集。 影像預設集是大小和格式屬性之集合。 若要變更整個網站或應用程式中所有縮圖影像的大小，您可以修改「縮圖」影像預設集。
 * 您不需要管理任何內容或資產管理系統中的主要檔案或所有各種衍生專案。
 
-![您可以建立多個衍生影像，其大小與相同的高解析度主要檔案不同。](/help/using/assets/is_derivative_sizes_popup.png)
+![您可以建立多個衍生影像，其大小與相同的高解析度主要檔案不同](/help/using/assets/is_derivative_sizes_popup.png)。
 
 請參閱[影像大小： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)訓練影片。
 
