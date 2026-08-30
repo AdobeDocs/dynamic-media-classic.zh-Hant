@@ -64,7 +64,7 @@ Adobe Dynamic Media Classic伺服器預設會將資產傳送至網站或應用�
   例如，如果您是在不同國家/地區銷售的跨國品牌，則請確認每個國家/地區皆擁有自己的特定地區「檢視器」。 若要完成此功能設定，您須指定地區地圖字串。 然後，在檢視器的預設集中編輯工具提示文字。 只要為您想要的語言新增翻譯文字字串。
 
   >[!NOTE]
-  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例](https://helpx.adobe.com/business/enterprise.html)。 在您的支援案例中，要求設定說明。
+  > 若要設定本地化支援選項，[請使用Admin Console建立支援案例](https://helpx.adobe.com/tw/business/enterprise.html)。 在您的支援案例中，要求設定說明。
 
   如需關於設定「**[!UICONTROL 本地化支援]**」的詳細資訊，請參閱[進行資產本地化設定時的注意事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic伺服器預設會將資產傳送至網站或應用�
 
 >[!NOTE]
 >
->如果您想在Adobe Dynamic Media Classic中設定本地化支援選項，例如「地區設定地圖」欄位，[請使用Admin Console建立支援案例](https://helpx.adobe.com/business/enterprise.html)。 在您的支援案例中，要求設定說明。
+>如果您想在Adobe Dynamic Media Classic中設定本地化支援選項，例如「地區設定地圖」欄位，[請使用Admin Console建立支援案例](https://helpx.adobe.com/tw/business/enterprise.html)。 在您的支援案例中，要求設定說明。
 
 使用Adobe Dynamic Media Classic的常見方式是管理電子商務網站上的產品影像。 跨國企業面臨的挑戰是，相似產品的資產因地區而異。 通常差異在於媒體的某些元件。 複製每個國家/地區的所有資產並覆寫差異來管理這些差異是一項複雜的任務，並且與單一主要資產原則不一致。 資產的差異可能包括國別、不同音軌的影片，以及產品使用的電源線細微但重要的差異。 Adobe Dynamic Media Classic使用基本搜尋機制。 您可以定義影像伺服器尋找的資產尾碼順序，從所需的地區設定開始。
 
