@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 協助撰寫指南
 
-雖然Adobe歡迎您協助撰寫以改善說明檔案，但請務必儘可能遵守特定准則和標準。 如需詳細資訊，請參閱Adobe Dynamic Media Classic說明檔案](guidelines.md)的[協助撰寫指南。
+雖然Adobe歡迎您協助撰寫以改善說明檔案，但請務必儘可能遵守特定准則和標準。 如需詳細資訊，請參閱Adobe Dynamic Media Classic說明檔案[&#128279;](guidelines.md)的協助撰寫指南。
 
 ## 如何協助撰寫
 
