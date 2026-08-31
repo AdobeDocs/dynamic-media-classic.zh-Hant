@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Flash Player是網頁瀏覽器外掛程式，可讓網頁瀏覽器使用�
 若要檢閱系統需求、下載並安裝新應用程式，然後登入該應用程式，請參閱[Adobe Dynamic Media Classic案頭應用程式](/help/using/dynamic-media-classic-desktop-app.md)。
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_新案頭應用程式如何運作？_**
 下載、安裝和啟動案頭應用程式後，系統會顯示重新整理的登入畫面。 輸入您現有的使用者名稱和密碼，並根據您所在的地區選擇適當的伺服器，即可登入Adobe Dynamic Media Classic。 整體體驗與網頁瀏覽器版本相同。 從案頭應用程式，您可以存取Adobe Dynamic Media Classic生產和中繼環境。 如果您擁有此功能的認證，也可以存取Media Portal。

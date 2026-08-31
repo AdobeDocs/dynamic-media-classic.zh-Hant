@@ -1,5 +1,5 @@
 ---
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe希望讓您能儘可能輕鬆地提交貢獻內容。 您可以透過兩�
 
 >[!NOTE]
 >
->您提交的內容均受限於[Adobe使用條款。](https://www.adobe.com/legal/terms.html)
+>您提交的內容均受限於[Adobe使用條款](https://www.adobe.com/legal/terms.html)。
 
 ### 建立問題 {#create-an-issue}
 

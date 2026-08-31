@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 23%
@@ -49,7 +49,7 @@ eCatalog是數位的Web版印刷資料，例如目錄、手冊、傳單、產品
 * 使用手勢互動，包括雙指縮放與揮動翻頁。
 * 依項目關鍵字搜尋。
 
-![使用者看到的eCatalog。 A) eCatalog開啟頁面。 B)eCatalog已移至第2頁。](/help/using/assets/ec_cat_viewer_popup.png)
+![使用者看到的eCatalog。 A) eCatalog開啟頁面。 B)eCatalog已移至第2](/help/using/assets/ec_cat_viewer_popup.png)頁。
 
 若要建立eCatalog，您通常會使用在Adobe Acrobat或其他列印程式中建立的高解析度PDF檔案，但您也可以從影像檔案建立eCatalog。
 
