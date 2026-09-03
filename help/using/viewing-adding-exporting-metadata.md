@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
-source-wordcount: 2266
-ht-degree: 35%
+source-wordcount: 2275
+ht-degree: 33%
 
 ---
 
@@ -33,9 +29,9 @@ ht-degree: 35%
 
 中繼資料會顯示在「詳細資料檢視」中。 它與Adobe Dynamic Media Classic產生的資訊一起出現。 例如，檔案建立日期、發佈日期和關鍵字。 若要檢視中繼資料，請在「詳細資料檢視」中開啟資產，然後選取「中繼資料」面板。 您可以在「詳細資料檢視」中輸入及編輯中繼資料。
 
-有些中繼資料會直接內嵌在檔案中。 如果檔案包含此中繼資料，Adobe Dynamic Media Classic會自動將其與檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Illustrator和其他應用程式的來源資產中；Adobe Dynamic Media Classic可辨識此中繼資料。 您也可以在「詳細資料檢視」的「中繼資料」面板中，將中繼資料新增至個別檔案。 為了確保資產之間的一致性，公司管理員會建立中繼資料範本，以提供可填入的中繼資料欄位。
+有些中繼資料會直接內嵌在檔案中。 如果檔案包含此中繼資料，Adobe Dynamic Media Classic會自動將其與檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Adobe Illustrator和其他應用程式的來源資產中；Adobe Dynamic Media Classic可辨識此中繼資料。 您也可以使用「詳細資料檢視」中的「中繼資料」面板，將中繼資料新增至個別檔案。 為確保資產間的一致性，公司管理員會建立中繼資料範本，提供可完成的中繼資料欄位。
 
-如需內嵌中繼資料的詳細資訊，請參閱[可延伸的中繼資料平台](https://www.adobe.com/tw/products/xmp.html)。
+如需內嵌中繼資料的詳細資訊，請參閱[可延伸的中繼資料平台](https://www.adobe.com/products/xmp.html)。
 
 ## 檢視中繼資料 {#view-metadata}
 
@@ -45,7 +41,7 @@ ht-degree: 35%
 
 * **IPTC**：國際新聞通訊委員會定義的值。
 
-* **XMP**：由可延伸中繼資料程式定義的值。
+* **XMP**：由可延伸中繼資料平台定義的值。
 
 管理員可以建立中繼資料檢視。 這些檢視也會顯示在「中繼資料檢視」選單上。
 
@@ -63,7 +59,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->若要同時編輯數個資產的中繼資料，請選取資產，並移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**。 您在「編輯資訊」視窗中對中繼資料所做的編輯會套用至您選取的所有資產。
+>若要同時編輯數個資產的中繼資料，請選取資產，並移至&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 編輯資訊]**。 您在「編輯資訊」視窗針對中繼資料進行的編輯，會套用至您選取的所有資產。
 
 ## 增加或編輯關鍵字 {#add-or-edit-keywords}
 
@@ -82,12 +78,12 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**&#x200B;並輸入關鍵字。
+>您可以將關鍵字上傳至Adobe Dynamic Media Classic時新增至檔案。 在[上載工作選項]對話方塊中，選擇&#x200B;**[!UICONTROL 其他中繼資料]**並輸入關鍵字。
 >參閱[上載選項](uploading-files.md#upload_options)。
 
 ## 匯入中繼資料 {#import-metadata}
 
-您可以從 Tab 字元分隔檔案或 XML 檔案匯入多項不同資產的中繼資料，而不是逐一針對資產手動輸入中繼資料。 比起在個別資產中輸入中繼資料，在 Tab 字元分隔或 XML 檔案中輸入中繼資料並匯入檔案會更加省時。 在 Tab 字元分隔檔案的第一列，針對想要記錄中繼資料的欄位輸入 ID 和名稱。 在每個後續的列中，輸入隨後附有中繼資料值的資產 ID 名稱。 系統不會修改 Tab 字元分隔或 XML 檔案中未包含的欄位。 若要從 XML 檔案匯入中繼資料，請確定符合 DTD。
+您可以從Tab字元分隔或XML檔案匯入許多不同資產的中繼資料，而不是一次手動輸入一個資產的中繼資料。 比起在個別資產中輸入中繼資料，在 Tab 字元分隔或 XML 檔案中輸入中繼資料並匯入檔案會更加省時。 在 Tab 字元分隔檔案的第一列，針對想要記錄中繼資料的欄位輸入 ID 和名稱。 在每個後續的列中，輸入隨後附有中繼資料值的資產 ID 名稱。 系統不會修改 Tab 字元分隔或 XML 檔案中未包含的欄位。 若要從 XML 檔案匯入中繼資料，請確定符合 DTD。
 
 >[!NOTE]
 >
@@ -108,8 +104,8 @@ ht-degree: 35%
 識別要匯入的不同中繼資料類型時，請記住下列事項:
 
 * 使用者定義欄位的名稱是在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 使用者定義欄位]**&#x200B;中建立的。 使用`Generate file`功能以正確的匯入格式取得所有已定義UDF的清單。
-* XMP 中繼資料屬性的 (property-) 名稱前必須有相關的 XMP 字首。 字首和名稱會以冒號區隔。 您可以在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構描述]**&#x200B;編輯器中找到XMP前置詞。 您可以在相關的 XMP 資料結構文件中找到技術名稱。 XMP屬性名稱未出現在`Generate file`功能中。
-* 中繼資料結構 屬性的 (property-) 名稱前必須有相關的字首。 字首和名稱會以冒號區隔。 前置詞和屬性名稱是在中繼資料結構編輯器中定義。 中繼資料結構描述屬性名稱未出現在`Generate file`功能中。
+* XMP中繼資料屬性的（屬性）名稱前必須先加上XMP的相關前置詞。 字首和名稱會以冒號區隔。 您可以在&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 中繼資料]** > **[!UICONTROL 中繼資料結構描述]**&#x200B;編輯器中找到XMP前置詞。 您可以在相關的 XMP 資料結構文件中找到技術名稱。 XMP屬性名稱未出現在`Generate file`功能中。
+* 中繼資料結構描述屬性必須在（屬性）名稱之前加上相關首碼。 字首和名稱會以冒號區隔。 前置詞和屬性名稱是在中繼資料結構編輯器中定義。 中繼資料結構描述屬性名稱未出現在`Generate file`功能中。
 
 例如：關鍵字的XMP屬性是首碼為`dc`的XMP結構描述「Dublin Core」，而`subject`是技術XMP名稱。 前置詞和技術XMP名稱會合併至`dc:subject`完整屬性名稱。 在XML中繼資料匯入格式中，`dc.subject`必須是屬性名稱。 在以Tab字元分隔的匯入格式中，它必須是欄標題。
 
@@ -191,9 +187,9 @@ Adobe Dynamic Media Classic提供用來建立記錄中繼資料範本的命令�
 
 >[!NOTE]
 >
->資料結構的變更絕不會變更資產中繼資料。 不過，並非所有Adobe Dynamic Media Classic和中繼資料伺服器功能都能看見這些專案，且無法在變更後加以存取。 同樣地，如果資產的中繼資料存在，建立相符的結構描述會使中繼資料可用於Adobe Dynamic Media Classic和中繼資料伺服器。
+>資料結構的變更絕不會變更資產中繼資料。 不過，並非所有Adobe Dynamic Media Classic和中繼資料伺服器函式中都可看見這些變數，且變數後即無法擷取。 同樣地，如果資產的中繼資料存在，建立相符的結構描述會使中繼資料可用於Adobe Dynamic Media Classic和中繼資料伺服器。
 
-中繼資料結構編輯器提供在Adobe Dynamic Media Classic中新增或編輯自訂公司結構的圖形方式。 前置詞、名稱空間和屬性清單會定義結構。
+中繼資料結構編輯器提供視覺化介面，可新增或編輯Adobe Dynamic Media Classic內的自訂公司結構。 前置詞、名稱空間和屬性清單會定義結構。
 
 * **[!UICONTROL 名稱]**：結構描述的UI-Name。 用來在「中繼資料檢視」和「進階搜尋」中識別屬性。 類似於 XMP 區段，如「基本」、「IPTC」和「PDF」。
 
