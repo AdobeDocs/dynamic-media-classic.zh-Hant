@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:23.477Z'
 TQID: 'https://experienceleague.adobe.com/l-cl9I9W-otYvwidmsnmq5dLwoUDNIgBcntyoIVNuVI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 19%
+source-wordcount: 496
+ht-degree: 17%
 
 ---
 
@@ -33,7 +30,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
 ## 為影像集設定縮放檢視器預設集 {#setting-up-zoom-viewer-presets-for-image-sets}
 
-您可以建立和自訂檢視器預設集，以符合您的需求。
+您可以建立和自訂檢視器預設集。
 
 1. 在全域導覽列上，前往&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 檢視器預設集]**。
 1. 執行下列任一項作業，在「檢視器預設集」頁面上建立或編輯檢視器預設集：
@@ -57,7 +54,7 @@ Adobe Dynamic Media Classic隨附預設的檢視器預設集。 管理員可以�
 
 1. 在左側「資產庫」面板的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 影像集]**。
 1. 在左側的「資產庫」面板中，導覽資產檔案夾以選取您要預覽的影像集。
-1. 執行下列任一項作業︰
+1. 進行以下一項操作:
 
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取&#x200B;**[!UICONTROL 清單檢視]**&#x200B;圖示。 在「資產」視窗中，將滑鼠指標暫留在資產上，然後選取&#x200B;**[!UICONTROL 預覽]** （非「預覽」下拉式清單）。
    * 在Adobe Dynamic Media Classic視窗的右上角附近，選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;圖示。 在「資產」視窗中，在資產縮圖視窗中，選取&#x200B;**[!UICONTROL 預覽]** （非「預覽」下拉式清單）。
