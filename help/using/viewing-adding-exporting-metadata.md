@@ -35,7 +35,7 @@ ht-degree: 33%
 
 有些中繼資料會直接內嵌在檔案中。 如果檔案包含此中繼資料，Adobe Dynamic Media Classic會自動將其與檔案一起上傳。 您可以將中繼資料內嵌至Adobe Photoshop、InDesign、Adobe Illustrator和其他應用程式的來源資產中；Adobe Dynamic Media Classic可辨識此中繼資料。 您也可以使用「詳細資料檢視」中的「中繼資料」面板，將中繼資料新增至個別檔案。 為確保資產間的一致性，公司管理員會建立中繼資料範本，提供可完成的中繼資料欄位。
 
-如需內嵌中繼資料的詳細資訊，請參閱[可延伸的中繼資料平台](https://www.adobe.com/products/xmp.html)。
+如需內嵌中繼資料的詳細資訊，請參閱[可延伸的中繼資料平台](https://www.adobe.com/tw/products/xmp.html)。
 
 ## 檢視中繼資料 {#view-metadata}
 
