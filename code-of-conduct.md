@@ -1,15 +1,14 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
 # Adobe行為準則
 
-## Adobe的誓言
+## Adobe的承諾
 
-為了營造開放且熱情的環境，貢獻者和維護者承諾讓Adobe的專案和社群參與為每個人提供無騷擾的體驗。 無論是否滿足下列條件，此行為均屬實：
+為了營造開放且熱情的環境，貢獻者和維護者承諾讓每個人都能參與Adobe的專案和社群，免於騷擾。 無論是否滿足下列條件，此行為均屬實：
 
 * 年齡
 * 內文大小
@@ -65,4 +64,4 @@ ht-degree: 0%
 
 ## 歸因
 
-本行為準則改編自 [貢獻者公約](https://www.contributor-covenant.org/)，第1.4版，現於以下網址取得： [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+本行為準則改編自[貢獻者公約](https://www.contributor-covenant.org/) 1.4版，可在[https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/)取得。
