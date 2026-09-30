@@ -14,19 +14,21 @@ autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
+    internal-label: Metadata
+source-git-commit: 427ca1ab97562ad3405e9f80e1e2bd7e3a4f3474
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 15%
-
 ---
-
 # 快速入門：Adobe Dynamic Media Classic中的影片{#quick-start-video}
 
 Adobe Dynamic Media Classic Video是端對端解決方案，可讓您輕鬆發佈高品質的最適化視訊，以便跨多個畫面串流，包括桌上型電腦、iOS、Android™、BlackBerry®和Windows®行動裝置。 最適化視訊集會將以不同位元速率和格式 (如 400 kbps、800 kbps 和 1000 kbps) 編碼之相同視訊的版本分組。 桌上型電腦或行動裝置會偵測可用的頻寬。
