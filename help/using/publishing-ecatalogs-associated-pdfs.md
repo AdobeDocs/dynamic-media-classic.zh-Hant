@@ -14,17 +14,20 @@ autotag-review: '2026-05-13T19:54:33.145Z'
 TQID: 'https://experienceleague.adobe.com/fMbleVTKmwZDm8Ol0jSNVG130jTYKkPcE4SuQA520bA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 10%
-
 ---
-
 # 發佈eCatalog和相關PDF{#publishing-ecatalogs-and-associated-pdfs}
 
 發佈功能會將eCatalog和PDF置於Dynamic Media影像伺服器上，方便您的網站或應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 您可以將此URL字串放入HTML網頁程式碼中。
