@@ -14,18 +14,22 @@ autotag-review: '2026-05-13T19:58:21.817Z'
 TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 12%
-
 ---
-
 # 上傳範本檔案{#uploading-template-files}
 
 在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 您可以從®Photoshop®PSD或影像檔案建置範本。 建議使用 TIFF 和 PNG 影像，因為它們允許設定透明度。
@@ -38,7 +42,7 @@ ht-degree: 12%
 
 如需上傳檔案的詳細說明，請參閱[上傳檔案](uploading-files.md#uploading_files)。 上傳範本檔案時，請考量下列事項：
 
-* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**&#x200B;下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
+* 如果您上傳PSD檔案，可從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取&#x200B;**[!UICONTROL Photoshop選項]**，然後選取&#x200B;**[!UICONTROL 維護圖層]**&#x200B;和&#x200B;**[!UICONTROL 建立範本]**。 然後從&#x200B;**[!UICONTROL 圖層命名]**下拉式清單中選擇選項，以命名Adobe Dynamic Media Classic從PSD的圖層建立的影像。
 請參閱[PSD 上載選項](psd-files.md#psd_upload_options)。
 
 <!--

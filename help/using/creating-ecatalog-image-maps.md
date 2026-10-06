@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 23257d3c04ec0d662f382ffb55fd6c26454d39a2
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: '1496'
 ht-degree: 18%
-
 ---
-
 # 建立eCatalog影像地圖{#creating-ecatalog-image-maps}
 
 「影像地圖」是eCatalog頁面上的區域，您可以用滑鼠滑動，或選取它來觸發各種動作。 例如，當您將指標移到「影像地圖」上時，您會看到專案的變換文字描述。 當您選取「影像地圖」時，會起始另一個動作。 例如，您可以開啟網頁，讓檢視者進一步瞭解專案或購買專案，或者您可以啟動視訊來觀看使用中的專案。

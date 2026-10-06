@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T19:51:12.585Z'
 TQID: 'https://experienceleague.adobe.com/KZEo-DNrfZJt66xzSAHpLX6A8j1evxOBtwSxQfk44Wc'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a6556d91057da7b0cd02523a48f97e2eadcebb88
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '889'
 ht-degree: 26%
-
 ---
-
 # 管理eCatalogs中的資訊面板內容{#managing-info-panel-content-in-ecatalogs}
 
 除了針對 eCatalog 中的滑鼠指向效果使用影像地圖文字外，您還可以使用資訊面板來增加大量滑鼠指向效果文字 (包括連結)。 您也可以使用定時快取及排程內容更新來管理「資訊面板」。
@@ -107,6 +111,6 @@ Adobe Dynamic Media Classic會傳送電子郵件訊息給您，讓您知道上�
 
 1. 選取目錄的變換影像&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL 對應頁面]**。
-1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] **&#x200B;**。
+1. 在表格頂端熒幕的右側，從[顯示]功能表選擇[資訊面板] ****。
 
    滑鼠指項效果關鍵文字會顯示在每個包含「資訊面板」文字的影像地圖旁邊。

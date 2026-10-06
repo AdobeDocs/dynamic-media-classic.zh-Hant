@@ -13,17 +13,20 @@ autotag-review: '2026-05-13T19:58:52.565Z'
 TQID: 'https://experienceleague.adobe.com/rb1E3-Cv8SlKazb6Tqual-xgr1Qoe6s5X1oy12qYsWM'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 453878a1aec55346e04b0b96a4c9ca230c4a155c
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: '121'
 ht-degree: 17%
-
 ---
-
 # XML 檔案 {#xml-files}
 
 使用XML系統管理影像和影像資訊的網站可將XML檔案上傳至Adobe Dynamic Media Classic。 您可以將其中一個檔案指定為「影像伺服」的預先處理規則集檔案。 此檔案會重新建構標準「影像伺服」通訊協定格式，以符合伺服器的需求。 若要作為規則集定義檔案路徑，您可以在「設定」畫面上指定XML檔案。 該路徑設定位於「影像伺服器發佈」畫面上的「目錄管理」下。 請參閱[影像伺服器](publish-setup.md#image_server)。
