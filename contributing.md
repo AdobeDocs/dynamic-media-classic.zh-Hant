@@ -30,7 +30,7 @@ Adobe希望讓您能儘可能輕鬆地提交貢獻內容。 您可以透過兩�
 
 >[!NOTE]
 >
->您提交的內容均受限於[Adobe使用條款](https://www.adobe.com/legal/terms.html)。
+>您提交的內容均受限於[Adobe使用條款](https://www.adobe.com/tw/legal/terms.html)。
 
 ### 建立問題 {#create-an-issue}
 
